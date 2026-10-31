@@ -1,0 +1,1996 @@
+{
+ "id": "k5-b05",
+ "level": "N5",
+ "title": "Les pièges",
+ "test": [
+  {
+   "id": "k5-b05-二人",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二人** (deux personnes) ?",
+   "explain": "**二人** se lit ふたり.",
+   "type": "choice",
+   "choices": [
+    "ふつり",
+    "にじん",
+    "ふたにん",
+    "ふたり"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b05-四人",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **四人** (quatre personnes) ?",
+   "explain": "**四人** se lit よにん.",
+   "type": "choice",
+   "choices": [
+    "よんじん",
+    "よんり",
+    "しじん",
+    "よにん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b05-一本",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **一本** (un (objet long)) ?",
+   "explain": "**一本** se lit いっぽん.",
+   "type": "choice",
+   "choices": [
+    "いちほん",
+    "いちぽん",
+    "いっほん",
+    "いっぽん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b05-三本",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **三本** (trois (objets longs)) ?",
+   "explain": "**三本** se lit さんぼん.",
+   "type": "choice",
+   "choices": [
+    "さんぼん",
+    "みほん",
+    "さんほん",
+    "さんぽん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-三百",
+   "uses": [
+    "k5-08",
+    "k5-10"
+   ],
+   "q": "Comment se lit **三百** (300) ?",
+   "explain": "**三百** se lit さんびゃく.",
+   "type": "choice",
+   "choices": [
+    "さんひゃく",
+    "さんびゃく",
+    "みひゃく",
+    "さんぴゃく"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-八百",
+   "uses": [
+    "k5-09",
+    "k5-10"
+   ],
+   "q": "Comment se lit **八百** (800) ?",
+   "explain": "**八百** se lit はっぴゃく.",
+   "type": "choice",
+   "choices": [
+    "はちびゃく",
+    "はっひゃく",
+    "はっぴゃく",
+    "はちひゃく"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b05-八千",
+   "uses": [
+    "k5-09",
+    "k5-10"
+   ],
+   "q": "Comment se lit **八千** (8 000) ?",
+   "explain": "**八千** se lit はっせん.",
+   "type": "choice",
+   "choices": [
+    "やせん",
+    "はっぜん",
+    "はっせん",
+    "はちぜん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b05-二分",
+   "uses": [
+    "k5-08",
+    "k5-12"
+   ],
+   "q": "Comment se lit **二分** (deux minutes) ?",
+   "explain": "**二分** se lit にふん.",
+   "type": "choice",
+   "choices": [
+    "ふたぷん",
+    "にふん",
+    "にぷん",
+    "ふたふん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-六分",
+   "uses": [
+    "k5-09",
+    "k5-12"
+   ],
+   "q": "Comment se lit **六分** (six minutes) ?",
+   "explain": "**六分** se lit ろっぷん.",
+   "type": "choice",
+   "choices": [
+    "ろっふん",
+    "ろっぷん",
+    "ろくふん",
+    "むふん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-七時",
+   "uses": [
+    "k5-09",
+    "k5-05"
+   ],
+   "q": "Comment se lit **七時** (7 heures) ?",
+   "explain": "**七時** se lit しちじ.",
+   "type": "choice",
+   "choices": [
+    "しちじ",
+    "しじ",
+    "しちどき",
+    "なじ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-四月",
+   "uses": [
+    "k5-08",
+    "k5-11"
+   ],
+   "q": "Comment se lit **四月** (avril) ?",
+   "explain": "**四月** se lit しがつ.",
+   "type": "choice",
+   "choices": [
+    "よつがつ",
+    "よがつ",
+    "しがつ",
+    "よんがつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b05-九月",
+   "uses": [
+    "k5-09",
+    "k5-11"
+   ],
+   "q": "Comment se lit **九月** (septembre) ?",
+   "explain": "**九月** se lit くがつ.",
+   "type": "choice",
+   "choices": [
+    "くがつ",
+    "きゅうがつ",
+    "くげつ",
+    "ここのがつ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-四つ",
+   "uses": [
+    "k5-08"
+   ],
+   "q": "Comment se lit **四つ** (quatre objets) ?",
+   "explain": "**四つ** se lit よっつ.",
+   "type": "choice",
+   "choices": [
+    "よんつ",
+    "よっつ",
+    "しつ",
+    "よつつ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-九つ",
+   "uses": [
+    "k5-09"
+   ],
+   "q": "Comment se lit **九つ** (neuf objets) ?",
+   "explain": "**九つ** se lit ここのつ.",
+   "type": "choice",
+   "choices": [
+    "きゅっつ",
+    "きゅうつ",
+    "くつ",
+    "ここのつ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b05-二日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二日** (le 2) ?",
+   "explain": "**二日** se lit ふつか.",
+   "type": "choice",
+   "choices": [
+    "ににち",
+    "ふたか",
+    "ふつか",
+    "はつか"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b05-四日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **四日** (le 4) ?",
+   "explain": "**四日** se lit よっか.",
+   "type": "choice",
+   "choices": [
+    "よっか",
+    "ようか",
+    "よんにち",
+    "しにち"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-六日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **六日** (le 6) ?",
+   "explain": "**六日** se lit むいか.",
+   "type": "choice",
+   "choices": [
+    "むいか",
+    "みっか",
+    "ろくにち",
+    "ろっか"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-八日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **八日** (le 8) ?",
+   "explain": "**八日** se lit ようか.",
+   "type": "choice",
+   "choices": [
+    "はちにち",
+    "よっか",
+    "やか",
+    "ようか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b05-十日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **十日** (le 10) ?",
+   "explain": "**十日** se lit とおか.",
+   "type": "choice",
+   "choices": [
+    "じゅっか",
+    "じゅうか",
+    "とおか",
+    "とうにち"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b05-二十日",
+   "uses": [
+    "k5-08",
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二十日** (le 20) ?",
+   "explain": "**二十日** se lit はつか.",
+   "type": "choice",
+   "choices": [
+    "にじゅうか",
+    "はつか",
+    "はちか",
+    "ふつか"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-毎日-毎",
+   "uses": [
+    "k5-05"
+   ],
+   "q": "Dans **毎日** (まいにち), 毎 est lu comment ?",
+   "explain": "毎 se lit まい ici : c'est une lecture on (venue du chinois, kanji en composé).",
+   "type": "choice",
+   "choices": [
+    "en on",
+    "en kun"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-日曜日-曜",
+   "uses": [
+    "k5-05"
+   ],
+   "q": "Dans **日曜日** (にちようび), 曜 est lu comment ?",
+   "explain": "曜 se lit よう ici : c'est une lecture on (venue du chinois, kanji en composé).",
+   "type": "choice",
+   "choices": [
+    "en kun",
+    "en on"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-本だな-本",
+   "uses": [
+    "k5-01"
+   ],
+   "q": "Dans **本だな** (ほんだな), 本 est lu comment ?",
+   "explain": "本 se lit ほん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+   "type": "choice",
+   "choices": [
+    "en on",
+    "en kun"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-外国人-外",
+   "uses": [
+    "k5-17"
+   ],
+   "q": "Dans **外国人** (がいこくじん), 外 est lu comment ?",
+   "explain": "外 se lit がい ici : c'est une lecture on (venue du chinois, kanji en composé).",
+   "type": "choice",
+   "choices": [
+    "en kun",
+    "en on"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-何人-何",
+   "uses": [
+    "k5-05"
+   ],
+   "q": "Dans **何人** (なんにん), 何 est lu comment ?",
+   "explain": "何 se lit なん ici : c'est une lecture kun (japonaise).",
+   "type": "choice",
+   "choices": [
+    "en kun",
+    "en on"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-行く-行",
+   "uses": [
+    "k5-02"
+   ],
+   "q": "Dans **行く** (いく), 行 est lu comment ?",
+   "explain": "行 se lit い ici : c'est une lecture kun (japonaise).",
+   "type": "choice",
+   "choices": [
+    "en kun",
+    "en on"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b05-来る-来",
+   "uses": [
+    "k5-02"
+   ],
+   "q": "Dans **来る** (くる), 来 est lu comment ?",
+   "explain": "来 se lit く ici : c'est une lecture kun (japonaise).",
+   "type": "choice",
+   "choices": [
+    "en on",
+    "en kun"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b05-来月-来",
+   "uses": [
+    "k5-02"
+   ],
+   "q": "Dans **来月** (らいげつ), 来 est lu comment ?",
+   "explain": "来 se lit らい ici : c'est une lecture on (venue du chinois, kanji en composé).",
+   "type": "choice",
+   "choices": [
+    "en kun",
+    "en on"
+   ],
+   "a": 1
+  }
+ ],
+ "examTest": [],
+ "lessons": [
+  {
+   "id": "k5-21",
+   "title": "On ou kun ?",
+   "sections": [
+    {
+     "h": "La règle de base",
+     "p": [
+      "**Kun** : la lecture japonaise. Kanji seul, ou suivi de kana (okurigana) : {食|た}べる, {山|やま}.",
+      "**On** : la lecture venue du chinois. Kanji collés entre eux : {学|がく}{生|せい}, {電|でん}{車|しゃ}.",
+      "En katakana dans les fiches : on. En hiragana : kun."
+     ],
+     "vocab": [
+      {
+       "jp": "Kanji + kana",
+       "fr": "kun · {高|たか}い, {行|い}く"
+      },
+      {
+       "jp": "Kanji seul",
+       "fr": "kun · {水|みず}, {人|ひと}"
+      },
+      {
+       "jp": "Deux kanji ou plus",
+       "fr": "on · {毎|まい}{日|にち}, {来|らい}{週|しゅう}"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "Il y a des exceptions : {今年|ことし}, {大人|おとな}, {今日|きょう} se lisent en bloc.",
+    "Certains composés sont en kun : {名|な}{前|まえ}, {手|て}{紙|がみ}."
+   ],
+   "exercises": [
+    {
+     "id": "k5-21-日本-本",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Dans **日本** (にほん), 本 est lu comment ?",
+     "explain": "本 se lit ほん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-日曜日-日",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Dans **日曜日** (にちようび), 日 est lu comment ?",
+     "explain": "日 se lit にち ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-日本語-語",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Dans **日本語** (にほんご), 語 est lu comment ?",
+     "explain": "語 se lit ご ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-日本人-人",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Dans **日本人** (にほんじん), 人 est lu comment ?",
+     "explain": "人 se lit じん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-外国人-人",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Dans **外国人** (がいこくじん), 人 est lu comment ?",
+     "explain": "人 se lit じん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-英語-語",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Dans **英語** (えいご), 語 est lu comment ?",
+     "explain": "語 se lit ご ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-飛行機-行",
+     "uses": [
+      "k5-02"
+     ],
+     "q": "Dans **飛行機** (ひこうき), 行 est lu comment ?",
+     "explain": "行 se lit こう ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-来週-週",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **来週** (らいしゅう), 週 est lu comment ?",
+     "explain": "週 se lit しゅう ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-来年-来",
+     "uses": [
+      "k5-02"
+     ],
+     "q": "Dans **来年** (らいねん), 来 est lu comment ?",
+     "explain": "来 se lit らい ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-電車-電",
+     "uses": [
+      "k5-17"
+     ],
+     "q": "Dans **電車** (でんしゃ), 電 est lu comment ?",
+     "explain": "電 se lit でん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-食べる-食",
+     "uses": [
+      "k5-03"
+     ],
+     "q": "Dans **食べる** (たべる), 食 est lu comment ?",
+     "explain": "食 se lit た ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-飲む-飲",
+     "uses": [
+      "k5-03"
+     ],
+     "q": "Dans **飲む** (のむ), 飲 est lu comment ?",
+     "explain": "飲 se lit の ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-朝ご飯-朝",
+     "uses": [
+      "k5-13"
+     ],
+     "q": "Dans **朝ご飯** (あさごはん), 朝 est lu comment ?",
+     "explain": "朝 se lit あさ ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-水曜日-曜",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **水曜日** (すいようび), 曜 est lu comment ?",
+     "explain": "曜 se lit よう ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-聞く-聞",
+     "uses": [
+      "k5-04"
+     ],
+     "q": "Dans **聞く** (きく), 聞 est lu comment ?",
+     "explain": "聞 se lit き ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-読む-読",
+     "uses": [
+      "k5-04"
+     ],
+     "q": "Dans **読む** (よむ), 読 est lu comment ?",
+     "explain": "読 se lit よ ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-話す-話",
+     "uses": [
+      "k5-04"
+     ],
+     "q": "Dans **話す** (はなす), 話 est lu comment ?",
+     "explain": "話 se lit はな ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-今週-今",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **今週** (こんしゅう), 今 est lu comment ?",
+     "explain": "今 se lit こん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-何時-何",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **何時** (なんじ), 何 est lu comment ?",
+     "explain": "何 se lit なん ici : c'est une lecture kun (japonaise).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-何曜日-曜",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **何曜日** (なんようび), 曜 est lu comment ?",
+     "explain": "曜 se lit よう ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en kun",
+      "en on"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-21-毎朝-毎",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **毎朝** (まいあさ), 毎 est lu comment ?",
+     "explain": "毎 se lit まい ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-先週-先",
+     "uses": [
+      "k5-06"
+     ],
+     "q": "Dans **先週** (せんしゅう), 先 est lu comment ?",
+     "explain": "先 se lit せん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-月曜日-曜",
+     "uses": [
+      "k5-05"
+     ],
+     "q": "Dans **月曜日** (げつようび), 曜 est lu comment ?",
+     "explain": "曜 se lit よう ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-21-先生-先",
+     "uses": [
+      "k5-06"
+     ],
+     "q": "Dans **先生** (せんせい), 先 est lu comment ?",
+     "explain": "先 se lit せん ici : c'est une lecture on (venue du chinois, kanji en composé).",
+     "type": "choice",
+     "choices": [
+      "en on",
+      "en kun"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k5-22",
+   "title": "Les lectures piégeuses",
+   "sections": [
+    {
+     "h": "Un kanji, plusieurs lectures",
+     "p": [
+      "Retiens un **mot** par lecture, pas une liste de lectures."
+     ],
+     "vocab": [
+      {
+       "jp": "日",
+       "fr": "{毎|まい}{日|にち}・{日|に}{本|ほん}・{日|にち}{曜|よう}{日|び}・{二日|ふつか}"
+      },
+      {
+       "jp": "生",
+       "fr": "{学|がく}{生|せい}・{生|う}まれる"
+      },
+      {
+       "jp": "人",
+       "fr": "{人|ひと}・{日|に}{本|ほん}{人|じん}・{何|なん}{人|にん}・{一人|ひとり}"
+      },
+      {
+       "jp": "下",
+       "fr": "{下|した}・{地|ち}{下|か}{鉄|てつ}・{下手|へた}・{下|くだ}さい"
+      },
+      {
+       "jp": "大",
+       "fr": "{大|おお}きい・{大|だい}{学|がく}・{大|たい}{切|せつ}・{大人|おとな}"
+      },
+      {
+       "jp": "月",
+       "fr": "{月|つき}・{月|げつ}{曜|よう}{日|び}・{一|いち}{月|がつ}"
+      },
+      {
+       "jp": "金",
+       "fr": "お{金|かね}・{金|きん}{曜|よう}{日|び}"
+      },
+      {
+       "jp": "行",
+       "fr": "{行|い}く・{銀|ぎん}{行|こう}"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "何 : なに ou なん selon ce qui suit ({何|なん}ですか、{何|なに}を{食|た}べますか)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-22-日本-piege",
+     "q": "Comment se lit **日本** ?",
+     "explain": "{日|に}{本|ほん} : Japon.",
+     "type": "choice",
+     "choices": [
+      "にほん",
+      "はは",
+      "ひほん",
+      "にもと"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-01"
+     ]
+    },
+    {
+     "id": "k5-22-学生-piege",
+     "q": "Comment se lit **学生** ?",
+     "explain": "{学|がく}{生|せい} : étudiant.",
+     "type": "choice",
+     "choices": [
+      "まなせい",
+      "せんしゅう",
+      "がくせい",
+      "がくなま"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-22-日本人-piege",
+     "q": "Comment se lit **日本人** ?",
+     "explain": "{日|に}{本|ほん}{人|じん} : Japonais(e).",
+     "type": "choice",
+     "choices": [
+      "ください",
+      "じつほんじん",
+      "にもとじん",
+      "にほんじん"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-01"
+     ]
+    },
+    {
+     "id": "k5-22-地下鉄-piege",
+     "q": "Comment se lit **地下鉄** ?",
+     "explain": "{地|ち}{下|か}{鉄|てつ} : métro.",
+     "type": "choice",
+     "choices": [
+      "ちかてつ",
+      "ちくだてつ",
+      "ちげてつ",
+      "だいがくせい"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-22-大きい-piege",
+     "q": "Comment se lit **大きい** ?",
+     "explain": "{大|おお}きい : grand.",
+     "type": "choice",
+     "choices": [
+      "たいきい",
+      "だいきい",
+      "えん",
+      "おおきい"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-22-中国-piege",
+     "q": "Comment se lit **中国** ?",
+     "explain": "{中|ちゅう}{国|ごく} : Chine.",
+     "type": "choice",
+     "choices": [
+      "ちゅうごく",
+      "なかごく",
+      "がいこく",
+      "ちゅうくに"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-22-月曜日-piege",
+     "q": "Comment se lit **月曜日** ?",
+     "explain": "{月|げつ}{曜|よう}{日|び} : lundi.",
+     "type": "choice",
+     "choices": [
+      "げつようひ",
+      "がつようび",
+      "げつようび",
+      "はんぶん"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-11"
+     ]
+    },
+    {
+     "id": "k5-22-お金-piege",
+     "q": "Comment se lit **お金** ?",
+     "explain": "お{金|かね} : argent.",
+     "type": "choice",
+     "choices": [
+      "おかね",
+      "おこん",
+      "おきん",
+      "きょねん"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-11"
+     ]
+    },
+    {
+     "id": "k5-22-行く-piege",
+     "q": "Comment se lit **行く** ?",
+     "explain": "{行|い}く : aller.",
+     "type": "choice",
+     "choices": [
+      "ぎょうく",
+      "いく",
+      "こうく",
+      "くに"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-02"
+     ]
+    },
+    {
+     "id": "k5-22-外国-piege",
+     "q": "Comment se lit **外国** ?",
+     "explain": "{外|がい}{国|こく} : pays étranger.",
+     "type": "choice",
+     "choices": [
+      "がいこく",
+      "はずこく",
+      "げんき",
+      "がいくに"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-17"
+     ]
+    },
+    {
+     "id": "k5-22-今晩-piege",
+     "q": "Comment se lit **今晩** ?",
+     "explain": "{今|こん}{晩|ばん} : ce soir.",
+     "type": "choice",
+     "choices": [
+      "いまばん",
+      "こんばん",
+      "らいしゅう",
+      "とけい"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-22-一万-piege",
+     "q": "Comment se lit **一万** ?",
+     "explain": "{一|いち}{万|まん} : dix mille.",
+     "type": "choice",
+     "choices": [
+      "いちまん",
+      "きのう",
+      "いちばん",
+      "ひとまん"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-08"
+     ]
+    },
+    {
+     "id": "k5-22-二月-piege",
+     "q": "Comment se lit **二月** ?",
+     "explain": "{二|に}{月|がつ} : février.",
+     "type": "choice",
+     "choices": [
+      "ふたがつ",
+      "につき",
+      "くち",
+      "にがつ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-08"
+     ]
+    },
+    {
+     "id": "k5-22-女の子-piege",
+     "q": "Comment se lit **女の子** ?",
+     "explain": "{女|おんな}の{子|こ} : fille.",
+     "type": "choice",
+     "choices": [
+      "じょのこ",
+      "おんなのす",
+      "こんばん",
+      "おんなのこ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-16"
+     ]
+    },
+    {
+     "id": "k5-22-午後-piege",
+     "q": "Comment se lit **午後** ?",
+     "explain": "{午|ご}{後|ご} : après-midi.",
+     "type": "choice",
+     "choices": [
+      "ごご",
+      "あと",
+      "ごうし",
+      "ごあと"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-12"
+     ]
+    },
+    {
+     "id": "k5-22-何分-piege",
+     "q": "Comment se lit **何分** ?",
+     "explain": "{何|なん}{分|ぷん} : combien de minutes.",
+     "type": "choice",
+     "choices": [
+      "なんふん",
+      "なんぷん",
+      "かぷん",
+      "じかん"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-12"
+     ]
+    },
+    {
+     "id": "k5-22-入れる-piege",
+     "q": "Comment se lit **入れる** ?",
+     "explain": "{入|い}れる : mettre dedans.",
+     "type": "choice",
+     "choices": [
+      "いれる",
+      "おかあさん",
+      "にゅうれる",
+      "こんしゅう"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-22-出す-piege",
+     "q": "Comment se lit **出す** ?",
+     "explain": "{出|だ}す : sortir (qqch).",
+     "type": "choice",
+     "choices": [
+      "です",
+      "しゅつす",
+      "みなみ",
+      "だす"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-22-高校-piege",
+     "q": "Comment se lit **高校** ?",
+     "explain": "{高|こう}{校|こう} : lycée.",
+     "type": "choice",
+     "choices": [
+      "たかこう",
+      "たかい",
+      "こうこう",
+      "でぐち"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-20"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-23",
+   "title": "Les kanji qui se ressemblent",
+   "sections": [
+    {
+     "h": "Paires à séparer",
+     "p": [
+      "Regarde le détail qui change, et rattache chaque kanji à un mot connu."
+     ],
+     "vocab": [
+      {
+       "jp": "日 / 目",
+       "fr": "目 a deux barres et il est plus haut (un œil)."
+      },
+      {
+       "jp": "大 / 犬 / 太",
+       "fr": "犬 : point en haut à droite. 太 : point en bas."
+      },
+      {
+       "jp": "土 / 士",
+       "fr": "土 : barre du bas plus longue. 士 : barre du haut plus longue."
+      },
+      {
+       "jp": "末 / 未",
+       "fr": "末 : barre du haut longue (la fin). 未 : barre du haut courte (pas encore)."
+      },
+      {
+       "jp": "人 / 入 / 八",
+       "fr": "入 : le trait de droite domine. 八 : traits séparés."
+      },
+      {
+       "jp": "午 / 牛",
+       "fr": "牛 a une corne : le trait central dépasse."
+      },
+      {
+       "jp": "聞 / 間",
+       "fr": "聞 : une oreille 耳 dans la porte. 間 : un soleil 日."
+      },
+      {
+       "jp": "右 / 左",
+       "fr": "右 : bouche 口 (mange). 左 : outil 工."
+      },
+      {
+       "jp": "毎 / 母",
+       "fr": "毎 = 母 + un chapeau."
+      },
+      {
+       "jp": "白 / 百",
+       "fr": "百 = 白 + un trait au-dessus."
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "Les kanji hors N5 de ces paires (犬, 太, 士, 末, 未, 牛…) sont ici seulement pour les distinguer."
+   ],
+   "exercises": [
+    {
+     "id": "k5-23-にほん",
+     "uses": [
+      "k5-01"
+     ],
+     "q": "Quel kanji complète **にほん** (Japon) ?",
+     "jp": "＿本",
+     "explain": "Le bon kanji est **日**. Attention à 目, 白, 百.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "百",
+      "白",
+      "目"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-23-だいがく",
+     "uses": [
+      "k5-06",
+      "k5-07"
+     ],
+     "q": "Quel kanji complète **だいがく** (université) ?",
+     "jp": "＿学",
+     "explain": "Le bon kanji est **大**. Attention à 犬, 太, 人.",
+     "type": "choice",
+     "choices": [
+      "太",
+      "人",
+      "犬",
+      "大"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-23-どようび",
+     "uses": [
+      "k5-05",
+      "k5-01",
+      "k5-11"
+     ],
+     "q": "Quel kanji complète **どようび** (samedi) ?",
+     "jp": "＿曜日",
+     "explain": "Le bon kanji est **土**. Attention à 士, 上, 工.",
+     "type": "choice",
+     "choices": [
+      "工",
+      "上",
+      "士",
+      "土"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-23-もくようび",
+     "uses": [
+      "k5-05",
+      "k5-01",
+      "k5-11"
+     ],
+     "q": "Quel kanji complète **もくようび** (jeudi) ?",
+     "jp": "＿曜日",
+     "explain": "Le bon kanji est **木**. Attention à 本, 末, 未.",
+     "type": "choice",
+     "choices": [
+      "未",
+      "末",
+      "本",
+      "木"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-23-みらい",
+     "uses": [
+      "k5-02"
+     ],
+     "q": "Quel kanji complète **みらい** (avenir) ?",
+     "jp": "＿来",
+     "explain": "Le bon kanji est **未**. Attention à 末, 木, 本.",
+     "type": "choice",
+     "choices": [
+      "木",
+      "未",
+      "末",
+      "本"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-23-はっぴゃく",
+     "uses": [
+      "k5-10",
+      "k5-09"
+     ],
+     "q": "Quel kanji complète **はっぴゃく** (800) ?",
+     "jp": "＿百",
+     "explain": "Le bon kanji est **八**. Attention à 人, 入, 六.",
+     "type": "choice",
+     "choices": [
+      "人",
+      "六",
+      "八",
+      "入"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-23-しろい",
+     "uses": [
+      "k5-20"
+     ],
+     "q": "Quel kanji complète **しろい** (blanc) ?",
+     "jp": "＿い",
+     "explain": "Le bon kanji est **白**. Attention à 百, 日, 自.",
+     "type": "choice",
+     "choices": [
+      "自",
+      "日",
+      "百",
+      "白"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-23-さんぜん",
+     "uses": [
+      "k5-08",
+      "k5-10"
+     ],
+     "q": "Quel kanji complète **さんぜん** (3 000) ?",
+     "jp": "三＿",
+     "explain": "Le bon kanji est **千**. Attention à 十, 干, 午.",
+     "type": "choice",
+     "choices": [
+      "午",
+      "千",
+      "干",
+      "十"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-23-ごぜん",
+     "uses": [
+      "k5-12"
+     ],
+     "q": "Quel kanji complète **ごぜん** (matin) ?",
+     "jp": "＿前",
+     "explain": "Le bon kanji est **午**. Attention à 牛, 年, 千.",
+     "type": "choice",
+     "choices": [
+      "千",
+      "牛",
+      "午",
+      "年"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-23-みる",
+     "uses": [
+      "k5-04"
+     ],
+     "q": "Quel kanji complète **みる** (voir) ?",
+     "jp": "＿る",
+     "explain": "Le bon kanji est **見**. Attention à 貝, 買, 目.",
+     "type": "choice",
+     "choices": [
+      "貝",
+      "目",
+      "買",
+      "見"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-23-じかん",
+     "uses": [
+      "k5-05",
+      "k5-12"
+     ],
+     "q": "Quel kanji complète **じかん** (temps, durée) ?",
+     "jp": "時＿",
+     "explain": "Le bon kanji est **間**. Attention à 聞, 門, 問.",
+     "type": "choice",
+     "choices": [
+      "間",
+      "問",
+      "門",
+      "聞"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-23-みぎ",
+     "uses": [
+      "k5-14"
+     ],
+     "q": "Quel kanji complète **みぎ** (droite) ?",
+     "jp": "＿",
+     "explain": "Le bon kanji est **右**. Attention à 左, 石, 古.",
+     "type": "choice",
+     "choices": [
+      "右",
+      "左",
+      "石",
+      "古"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-23-たべる",
+     "uses": [
+      "k5-03"
+     ],
+     "q": "Quel kanji complète **たべる** (manger) ?",
+     "jp": "＿べる",
+     "explain": "Le bon kanji est **食**. Attention à 飲, 飯, 館.",
+     "type": "choice",
+     "choices": [
+      "飲",
+      "館",
+      "食",
+      "飯"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-23-ごはん",
+     "uses": [
+      "k5-03"
+     ],
+     "q": "Quel kanji complète **ごはん** (riz cuit, repas) ?",
+     "jp": "ご＿",
+     "explain": "Le bon kanji est **飯**. Attention à 食, 飲, 館.",
+     "type": "choice",
+     "choices": [
+      "館",
+      "飲",
+      "食",
+      "飯"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-23-おかあさん",
+     "uses": [
+      "k5-16"
+     ],
+     "q": "Quel kanji complète **おかあさん** (mère) ?",
+     "jp": "お＿さん",
+     "explain": "Le bon kanji est **母**. Attention à 毎, 海, 父.",
+     "type": "choice",
+     "choices": [
+      "海",
+      "母",
+      "父",
+      "毎"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-23-すこし",
+     "uses": [],
+     "q": "Quel kanji complète **すこし** (un peu) ?",
+     "jp": "＿し",
+     "explain": "Le bon kanji est **少**. Attention à 小, 水, 川.",
+     "type": "choice",
+     "choices": [
+      "少",
+      "水",
+      "小",
+      "川"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-23-かんじ",
+     "uses": [],
+     "q": "Quel kanji complète **かんじ** (kanji) ?",
+     "jp": "漢＿",
+     "explain": "Le bon kanji est **字**. Attention à 学, 子, 宇.",
+     "type": "choice",
+     "choices": [
+      "字",
+      "学",
+      "子",
+      "宇"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-23-かいしゃ",
+     "uses": [
+      "k5-17"
+     ],
+     "q": "Quel kanji complète **かいしゃ** (entreprise) ?",
+     "jp": "＿社",
+     "explain": "Le bon kanji est **会**. Attention à 今, 合, 金.",
+     "type": "choice",
+     "choices": [
+      "合",
+      "金",
+      "会",
+      "今"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k5-24",
+   "title": "Les compteurs",
+   "sections": [
+    {
+     "h": "Les personnes",
+     "p": [
+      "**{一人|ひとり}, {二人|ふたり}** sont irréguliers, puis {三人|さんにん}, {四人|よにん} (pas よんにん)."
+     ]
+    },
+    {
+     "h": "Sons qui changent",
+     "p": [
+      "Compteur en は/ひ/ふ/ほ : le son change après 1, 3, 6, 8."
+     ],
+     "vocab": [
+      {
+       "jp": "1",
+       "fr": "いっ==ぽん== · ひゃく · いっ==ぷん=="
+      },
+      {
+       "jp": "3",
+       "fr": "さん==ぼん== · さん==びゃく== · さん==ぷん=="
+      },
+      {
+       "jp": "6",
+       "fr": "ろっ==ぽん== · ろっ==ぴゃく== · ろっ==ぷん=="
+      },
+      {
+       "jp": "8",
+       "fr": "はっ==ぽん== · はっ==ぴゃく== · はっ==ぷん=="
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "{四時|よじ} et {四月|しがつ} : ni よん, ni la même lecture !",
+    "{九時|くじ}, {九月|くがつ}, mais {九|きゅう}.",
+    "{七時|しちじ}, {七月|しちがつ} : on dit しち ici."
+   ],
+   "exercises": [
+    {
+     "id": "k5-24-一人",
+     "uses": [
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Comment se lit **一人** (une personne) ?",
+     "explain": "**一人** se lit ひとり.",
+     "type": "choice",
+     "choices": [
+      "かずと",
+      "いちじん",
+      "ひとにん",
+      "ひとり"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-24-三人",
+     "uses": [
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Comment se lit **三人** (trois personnes) ?",
+     "explain": "**三人** se lit さんにん.",
+     "type": "choice",
+     "choices": [
+      "さんじん",
+      "さんにん",
+      "さんり",
+      "みにん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-24-何人",
+     "uses": [
+      "k5-05",
+      "k5-01"
+     ],
+     "q": "Comment se lit **何人** (combien de personnes) ?",
+     "explain": "**何人** se lit なんにん.",
+     "type": "choice",
+     "choices": [
+      "なんひと",
+      "なんり",
+      "なんにん",
+      "なにびと"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-24-二本",
+     "uses": [
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Comment se lit **二本** (deux (objets longs)) ?",
+     "explain": "**二本** se lit にほん.",
+     "type": "choice",
+     "choices": [
+      "にほん",
+      "にぽん",
+      "にぼん",
+      "ふたほん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-24-六本",
+     "uses": [
+      "k5-09",
+      "k5-01"
+     ],
+     "q": "Comment se lit **六本** (six (objets longs)) ?",
+     "explain": "**六本** se lit ろっぽん.",
+     "type": "choice",
+     "choices": [
+      "ろくほん",
+      "むほん",
+      "ろっぽん",
+      "ろくぽん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-24-六百",
+     "uses": [
+      "k5-09",
+      "k5-10"
+     ],
+     "q": "Comment se lit **六百** (600) ?",
+     "explain": "**六百** se lit ろっぴゃく.",
+     "type": "choice",
+     "choices": [
+      "ろっひゃく",
+      "ろくひゃく",
+      "ろっぴゃく",
+      "ろくびゃく"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-24-三千",
+     "uses": [
+      "k5-08",
+      "k5-10"
+     ],
+     "q": "Comment se lit **三千** (3 000) ?",
+     "explain": "**三千** se lit さんぜん.",
+     "type": "choice",
+     "choices": [
+      "さんちぇん",
+      "さんぜん",
+      "みせん",
+      "さんせん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-24-一分",
+     "uses": [
+      "k5-08",
+      "k5-12"
+     ],
+     "q": "Comment se lit **一分** (une minute) ?",
+     "explain": "**一分** se lit いっぷん.",
+     "type": "choice",
+     "choices": [
+      "いちふん",
+      "ひとふん",
+      "いっぷん",
+      "いっふん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-24-三分",
+     "uses": [
+      "k5-08",
+      "k5-12"
+     ],
+     "q": "Comment se lit **三分** (trois minutes) ?",
+     "explain": "**三分** se lit さんぷん.",
+     "type": "choice",
+     "choices": [
+      "さんぷう",
+      "さんぷん",
+      "さんふん",
+      "みふん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-24-四時",
+     "uses": [
+      "k5-08",
+      "k5-05"
+     ],
+     "q": "Comment se lit **四時** (4 heures) ?",
+     "explain": "**四時** se lit よじ.",
+     "type": "choice",
+     "choices": [
+      "よっじ",
+      "よじ",
+      "よんじ",
+      "しじ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-24-九時",
+     "uses": [
+      "k5-09",
+      "k5-05"
+     ],
+     "q": "Comment se lit **九時** (9 heures) ?",
+     "explain": "**九時** se lit くじ.",
+     "type": "choice",
+     "choices": [
+      "ここのじ",
+      "くじ",
+      "きじ",
+      "きゅうじ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-24-七月",
+     "uses": [
+      "k5-09",
+      "k5-11"
+     ],
+     "q": "Comment se lit **七月** (juillet) ?",
+     "explain": "**七月** se lit しちがつ.",
+     "type": "choice",
+     "choices": [
+      "なげつ",
+      "しちがつ",
+      "しちげつ",
+      "ななげつ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-24-一つ",
+     "uses": [
+      "k5-08"
+     ],
+     "q": "Comment se lit **一つ** (un objet) ?",
+     "explain": "**一つ** se lit ひとつ.",
+     "type": "choice",
+     "choices": [
+      "ひとつ",
+      "ひとっつ",
+      "いつつ",
+      "いちつ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-24-七つ",
+     "uses": [
+      "k5-09"
+     ],
+     "q": "Comment se lit **七つ** (sept objets) ?",
+     "explain": "**七つ** se lit ななつ.",
+     "type": "choice",
+     "choices": [
+      "しちっつ",
+      "ななつ",
+      "しちつ",
+      "なつ"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "k5-25",
+   "title": "Les jours du mois",
+   "sections": [
+    {
+     "h": "Les jours du mois",
+     "p": [
+      "1 à 10 et 20 ont une lecture japonaise. 14 et 24 aussi. Les autres sont réguliers : {十一日|じゅういちにち}."
+     ],
+     "vocab": [
+      {
+       "jp": "1",
+       "fr": "ついたち · 6 · むいか"
+      },
+      {
+       "jp": "2",
+       "fr": "ふつか · 7 · なのか"
+      },
+      {
+       "jp": "3",
+       "fr": "みっか · 8 · ようか"
+      },
+      {
+       "jp": "4",
+       "fr": "よっか · 9 · ここのか"
+      },
+      {
+       "jp": "5",
+       "fr": "いつか · 10 · とおか"
+      },
+      {
+       "jp": "14",
+       "fr": "じゅうよっか · 20 · はつか"
+      }
+     ]
+    }
+   ],
+   "pieges": [],
+   "exercises": [
+    {
+     "id": "k5-25-一日",
+     "uses": [
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **一日** (le 1er) ?",
+     "explain": "**一日** se lit ついたち.",
+     "type": "choice",
+     "choices": [
+      "ついたち",
+      "ふつか",
+      "ひとか",
+      "いちか"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-25-三日",
+     "uses": [
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **三日** (le 3) ?",
+     "explain": "**三日** se lit みっか.",
+     "type": "choice",
+     "choices": [
+      "みか",
+      "さんにち",
+      "むいか",
+      "みっか"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-25-五日",
+     "uses": [
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **五日** (le 5) ?",
+     "explain": "**五日** se lit いつか.",
+     "type": "choice",
+     "choices": [
+      "ごにち",
+      "いつか",
+      "ごか",
+      "いつにち"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-25-七日",
+     "uses": [
+      "k5-09",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **七日** (le 7) ?",
+     "explain": "**七日** se lit なのか.",
+     "type": "choice",
+     "choices": [
+      "なのか",
+      "ななか",
+      "しちか",
+      "なのにち"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-25-九日",
+     "uses": [
+      "k5-09",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **九日** (le 9) ?",
+     "explain": "**九日** se lit ここのか.",
+     "type": "choice",
+     "choices": [
+      "きゅうか",
+      "くにち",
+      "ここのか",
+      "ここか"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-25-十四日",
+     "uses": [
+      "k5-09",
+      "k5-08",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **十四日** (le 14) ?",
+     "explain": "**十四日** se lit じゅうよっか.",
+     "type": "choice",
+     "choices": [
+      "じゅうよっか",
+      "じゅうよんにち",
+      "とおよっか",
+      "じゅうしか"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-25-二十四日",
+     "uses": [
+      "k5-08",
+      "k5-09",
+      "k5-01"
+     ],
+     "q": "Quel jour du mois : comment se lit **二十四日** (le 24) ?",
+     "explain": "**二十四日** se lit にじゅうよっか.",
+     "type": "choice",
+     "choices": [
+      "はつよっか",
+      "にじゅうよっか",
+      "にじゅうよんにち",
+      "にじゅうしか"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}

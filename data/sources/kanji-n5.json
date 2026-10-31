@@ -1,0 +1,149 @@
+[
+{"id":"k5-01","title":"Moi et le Japon","kanji":[
+ {"k":"日","fr":"jour, soleil","on":["ニチ","ジツ"],"kun":["ひ","か"],"memo":"Un soleil dessiné en carré, avec un trait au centre.","res":["目","白"],"mots":[["{日|に}{本|ほん}","Japon"],["{毎|まい}{日|にち}","tous les jours"],["{日|にち}{曜|よう}{日|び}","dimanche"],["{二日|ふつか}","le 2 du mois, deux jours"]]},
+ {"k":"本","fr":"livre, origine","on":["ホン"],"kun":["もと"],"memo":"Un arbre 木 avec un trait qui marque ses racines : l'origine, puis le livre.","res":["木"],"mots":[["{本|ほん}","livre"],["{日|に}{本|ほん}{語|ご}","japonais (langue)"],["{本|ほん}だな","étagère à livres"]]},
+ {"k":"人","fr":"personne","on":["ジン","ニン"],"kun":["ひと"],"memo":"Une personne de profil qui marche, deux jambes écartées.","res":["入","大"],"mots":[["{人|ひと}","personne"],["{日|に}{本|ほん}{人|じん}","Japonais(e)"],["{外|がい}{国|こく}{人|じん}","étranger"],["{何|なん}{人|にん}","combien de personnes"]]},
+ {"k":"私","fr":"je, moi","on":["シ"],"kun":["わたし"],"memo":"À gauche la céréale 禾 : ma part de la récolte, ce qui est à moi.","res":[],"mots":[["{私|わたし}","je, moi"]]},
+ {"k":"語","fr":"langue, mot","on":["ゴ"],"kun":["かた(る)"],"memo":"La clé de la parole 言 à gauche : ce qui se dit avec des mots.","res":["話"],"mots":[["{日|に}{本|ほん}{語|ご}","japonais (langue)"],["{英|えい}{語|ご}","anglais (langue)"]]}
+]},
+{"id":"k5-02","title":"Se déplacer","kanji":[
+ {"k":"行","fr":"aller","on":["コウ","ギョウ"],"kun":["い(く)","おこな(う)"],"memo":"Un carrefour vu du ciel : on y passe pour aller quelque part.","res":[],"mots":[["{行|い}く","aller"],["{銀|ぎん}{行|こう}","banque"],["{飛|ひ}{行|こう}{機|き}","avion"]]},
+ {"k":"来","fr":"venir","on":["ライ"],"kun":["く(る)"],"memo":"Un épi de blé qui arrive à maturité : ce qui vient.","res":["米","木"],"mots":[["{来|く}る","venir"],["{来|らい}{週|しゅう}","la semaine prochaine"],["{来|らい}{月|げつ}","le mois prochain"],["{来|らい}{年|ねん}","l'année prochaine"]]},
+ {"k":"帰","fr":"rentrer","on":["キ"],"kun":["かえ(る)"],"memo":"Pense au balai à droite : on rentre chez soi, là où est son foyer.","res":[],"mots":[["{帰|かえ}る","rentrer"]]},
+ {"k":"車","fr":"voiture, roue","on":["シャ"],"kun":["くるま"],"memo":"Une charrette vue du dessus : l'essieu et ses deux roues.","res":["東"],"mots":[["{車|くるま}","voiture"],["{電|でん}{車|しゃ}","train"],["{自|じ}{転|てん}{車|しゃ}","vélo"]]},
+ {"k":"駅","fr":"gare","on":["エキ"],"kun":[],"memo":"Le cheval 馬 à gauche : autrefois, le relais où l'on changeait de chevaux.","res":[],"mots":[["{駅|えき}","gare"]]}
+]},
+{"id":"k5-03","title":"Manger et boire","kanji":[
+ {"k":"食","fr":"manger","on":["ショク"],"kun":["た(べる)"],"memo":"Un toit sur un bol bien rempli : le repas est servi.","res":["飲","飯"],"mots":[["{食|た}べる","manger"],["{食|た}べ{物|もの}","nourriture"],["{食|しょく}{堂|どう}","cantine, restaurant"]]},
+ {"k":"飲","fr":"boire","on":["イン"],"kun":["の(む)"],"memo":"Le repas 食 à gauche, et à droite quelqu'un qui ouvre grand la bouche 欠.","res":["食","飯"],"mots":[["{飲|の}む","boire"],["{飲|の}み{物|もの}","boisson"]]},
+ {"k":"飯","fr":"riz cuit, repas","on":["ハン"],"kun":["めし"],"memo":"Le repas 食 à gauche : le riz, base de tout repas japonais.","res":["食","飲"],"mots":[["ご{飯|はん}","riz cuit, repas"],["{朝|あさ}ご{飯|はん}","petit déjeuner"]]},
+ {"k":"魚","fr":"poisson","on":["ギョ"],"kun":["さかな"],"memo":"Tête en haut, écailles au milieu, quatre traits pour la queue.","res":[],"mots":[["{魚|さかな}","poisson"]]},
+ {"k":"水","fr":"eau","on":["スイ"],"kun":["みず"],"memo":"Un courant central et des éclaboussures de chaque côté.","res":["木"],"mots":[["{水|みず}","eau"],["{水|すい}{曜|よう}{日|び}","mercredi"]]}
+]},
+{"id":"k5-04","title":"Voir, écouter, lire, écrire, parler","kanji":[
+ {"k":"見","fr":"voir","on":["ケン"],"kun":["み(る)"],"memo":"Un grand œil 目 posé sur deux jambes : quelqu'un qui regarde.","res":["貝"],"mots":[["{見|み}る","voir, regarder"],["{見|み}せる","montrer"]]},
+ {"k":"聞","fr":"entendre, écouter","on":["ブン"],"kun":["き(く)"],"memo":"Une oreille 耳 collée à une porte 門.","res":["間"],"mots":[["{聞|き}く","écouter, demander"],["{新|しん}{聞|ぶん}","journal"]]},
+ {"k":"読","fr":"lire","on":["ドク"],"kun":["よ(む)"],"memo":"La parole 言 à gauche : on lit à voix haute.","res":[],"mots":[["{読|よ}む","lire"]]},
+ {"k":"書","fr":"écrire","on":["ショ"],"kun":["か(く)"],"memo":"En haut, une main qui tient un pinceau ; en bas, le soleil.","res":[],"mots":[["{書|か}く","écrire"],["{図|と}{書|しょ}{館|かん}","bibliothèque"]]},
+ {"k":"話","fr":"parler, histoire","on":["ワ"],"kun":["はな(す)","はなし"],"memo":"La parole 言 sort de la langue 舌.","res":["語"],"mots":[["{話|はな}す","parler"],["{話|はなし}","histoire, conversation"],["{電|でん}{話|わ}","téléphone"]]}
+]},
+{"id":"k5-05","title":"L'heure et la semaine","kanji":[
+ {"k":"今","fr":"maintenant","on":["コン"],"kun":["いま"],"memo":"Un toit qui couvre l'instant présent.","res":["会"],"mots":[["{今|いま}","maintenant"],["{今|こん}{週|しゅう}","cette semaine"],["{今|こん}{晩|ばん}","ce soir"],["{今日|きょう}","aujourd'hui"]]},
+ {"k":"何","fr":"quoi, combien","on":["カ"],"kun":["なに","なん"],"memo":"Une personne 亻 à côté de 可 : quelqu'un qui demande « quoi ? ».","res":[],"mots":[["{何|なに}","quoi"],["{何|なん}{時|じ}","quelle heure"],["{何|なん}{曜|よう}{日|び}","quel jour de la semaine"]]},
+ {"k":"時","fr":"heure, temps","on":["ジ"],"kun":["とき"],"memo":"Le soleil 日 à gauche, et le temple 寺 où sonnait la cloche des heures.","res":[],"mots":[["{時|じ}{間|かん}","temps, durée"],["{時計|とけい}","montre, horloge"]]},
+ {"k":"毎","fr":"chaque","on":["マイ"],"kun":[],"memo":"母 la mère, coiffée d'un trait : chaque jour, elle recommence.","res":["母"],"mots":[["{毎|まい}{日|にち}","tous les jours"],["{毎|まい}{朝|あさ}","tous les matins"],["{毎|まい}{晩|ばん}","tous les soirs"]]},
+ {"k":"週","fr":"semaine","on":["シュウ"],"kun":[],"memo":"La clé de la marche 辶 : le cycle qui fait le tour des jours.","res":[],"mots":[["{今|こん}{週|しゅう}","cette semaine"],["{先|せん}{週|しゅう}","la semaine dernière"],["{来|らい}{週|しゅう}","la semaine prochaine"]]},
+ {"k":"曜","fr":"jour de la semaine","on":["ヨウ"],"kun":[],"memo":"Le soleil 日 à gauche ; on le voit surtout dans 〜{曜|よう}{日|び}.","res":[],"mots":[["{月|げつ}{曜|よう}{日|び}","lundi"],["{金|きん}{曜|よう}{日|び}","vendredi"],["{何|なん}{曜|よう}{日|び}","quel jour de la semaine"]]}
+]},
+{"id":"k5-06","title":"L'école","kanji":[
+ {"k":"先","fr":"avant, précédent","on":["セン"],"kun":["さき"],"memo":"Un pied posé devant une personne 儿 : celui qui marche en tête.","res":["生"],"mots":[["{先|せん}{生|せい}","professeur"],["{先|せん}{週|しゅう}","la semaine dernière"],["{先|せん}{月|げつ}","le mois dernier"]]},
+ {"k":"生","fr":"vie, naître","on":["セイ","ショウ"],"kun":["い(きる)","う(まれる)","なま"],"memo":"Une pousse qui sort de terre.","res":["先","牛"],"mots":[["{学|がく}{生|せい}","étudiant"],["{先|せん}{生|せい}","professeur"],["{生|う}まれる","naître"],["{大|だい}{学|がく}{生|せい}","étudiant d'université"]]},
+ {"k":"学","fr":"étudier","on":["ガク"],"kun":["まな(ぶ)"],"memo":"Un enfant 子 sous un toit : il est à l'école.","res":["字"],"mots":[["{学|がく}{生|せい}","étudiant"],["{学|がっ}{校|こう}","école"],["{大|だい}{学|がく}","université"]]},
+ {"k":"校","fr":"école","on":["コウ"],"kun":[],"memo":"L'arbre 木 à gauche : l'école autrefois en bois.","res":[],"mots":[["{学|がっ}{校|こう}","école"],["{高|こう}{校|こう}","lycée"],["{高|こう}{校|こう}{生|せい}","lycéen"]]},
+ {"k":"友","fr":"ami","on":["ユウ"],"kun":["とも"],"memo":"Deux mains qui se tendent l'une vers l'autre.","res":["有"],"mots":[["{友|とも}だち","ami(e)"],["{友|ゆう}{人|じん}","ami(e) (soutenu)"]]},
+ {"k":"名","fr":"nom","on":["メイ"],"kun":["な"],"memo":"Le soir 夕 et une bouche 口 : dans le noir, on crie son nom.","res":[],"mots":[["{名|な}{前|まえ}","nom, prénom"],["{有|ゆう}{名|めい}","célèbre"]]}
+]},
+{"id":"k5-07","title":"Position et taille","kanji":[
+ {"k":"上","fr":"haut, sur","on":["ジョウ"],"kun":["うえ","あ(げる)","のぼ(る)"],"memo":"Un trait qui pointe au-dessus de la ligne.","res":["下","土"],"mots":[["{上|うえ}","dessus, en haut"],["{上手|じょうず}","doué, habile"]]},
+ {"k":"下","fr":"bas, sous","on":["カ","ゲ"],"kun":["した","さ(げる)","くだ(さい)"],"memo":"Un trait qui pointe sous la ligne.","res":["上"],"mots":[["{下|した}","dessous, en bas"],["{下手|へた}","maladroit, pas doué"],["{地|ち}{下|か}{鉄|てつ}","métro"],["{下|くだ}さい","donnez-moi, s'il vous plaît"]]},
+ {"k":"中","fr":"milieu, dans","on":["チュウ","ジュウ"],"kun":["なか"],"memo":"Une flèche qui traverse le centre d'une boîte.","res":[],"mots":[["{中|なか}","intérieur, dedans"],["{中|ちゅう}{国|ごく}","Chine"],["{中|ちゅう}{学|がく}{生|せい}","collégien"]]},
+ {"k":"大","fr":"grand","on":["ダイ","タイ"],"kun":["おお(きい)"],"memo":"Une personne qui écarte grand les bras.","res":["太","犬","人"],"mots":[["{大|おお}きい","grand"],["{大|だい}{学|がく}","université"],["{大|たい}{切|せつ}","important, précieux"],["{大人|おとな}","adulte"]]},
+ {"k":"小","fr":"petit","on":["ショウ"],"kun":["ちい(さい)"],"memo":"Un trait fin, avec deux petits grains de chaque côté.","res":["少"],"mots":[["{小|ちい}さい","petit"],["{小|しょう}{学|がっ}{校|こう}","école primaire"]]}
+]},
+{"id":"k5-08","title":"Les nombres de 1 à 5","kanji":[
+ {"k":"一","fr":"un","on":["イチ","イツ"],"kun":["ひと(つ)"],"memo":"Un seul trait.","res":["二"],"mots":[["{一|ひと}つ","un (objet)"],["{一|いち}{万|まん}","dix mille"],["{一人|ひとり}","une personne, seul"],["{一日|ついたち}","le 1er du mois"]]},
+ {"k":"二","fr":"deux","on":["ニ"],"kun":["ふた(つ)"],"memo":"Deux traits.","res":["三","一"],"mots":[["{二|ふた}つ","deux (objets)"],["{二|に}{月|がつ}","février"],["{二人|ふたり}","deux personnes"]]},
+ {"k":"三","fr":"trois","on":["サン"],"kun":["みっ(つ)"],"memo":"Trois traits.","res":["二"],"mots":[["{三|みっ}つ","trois (objets)"],["{三|さん}{百|びゃく}","trois cents"],["{三|さん}{千|ぜん}","trois mille"]]},
+ {"k":"四","fr":"quatre","on":["シ"],"kun":["よん","よっ(つ)"],"memo":"Une fenêtre à quatre côtés, avec ses rideaux.","res":["西"],"mots":[["{四|よん}","quatre"],["{四|よっ}つ","quatre (objets)"],["{四|し}{月|がつ}","avril"]]},
+ {"k":"五","fr":"cinq","on":["ゴ"],"kun":["いつ(つ)"],"memo":"Compte ses traits en imaginant les cinq doigts d'une main.","res":[],"mots":[["{五|いつ}つ","cinq (objets)"],["{五|ご}{月|がつ}","mai"]]}
+]},
+{"id":"k5-09","title":"Les nombres de 6 à 10","kanji":[
+ {"k":"六","fr":"six","on":["ロク"],"kun":["むっ(つ)"],"memo":"Un toit et deux jambes.","res":["穴"],"mots":[["{六|むっ}つ","six (objets)"],["{六|ろっ}{百|ぴゃく}","six cents"],["{六|ろく}{月|がつ}","juin"]]},
+ {"k":"七","fr":"sept","on":["シチ"],"kun":["なな"],"memo":"Un 7 retourné, barré.","res":["十"],"mots":[["{七|なな}","sept"],["{七|なな}つ","sept (objets)"],["{七|しち}{月|がつ}","juillet"]]},
+ {"k":"八","fr":"huit","on":["ハチ"],"kun":["やっ(つ)"],"memo":"Deux traits qui s'écartent, comme un éventail qui s'ouvre.","res":["人","入"],"mots":[["{八|やっ}つ","huit (objets)"],["{八|はっ}{百|ぴゃく}","huit cents"],["{八|はっ}{千|せん}","huit mille"],["{八|はち}{月|がつ}","août"]]},
+ {"k":"九","fr":"neuf","on":["キュウ","ク"],"kun":["ここの(つ)"],"memo":"Un bras courbé qui compte presque tout.","res":["力"],"mots":[["{九|きゅう}","neuf"],["{九|ここの}つ","neuf (objets)"],["{九|く}{月|がつ}","septembre"]]},
+ {"k":"十","fr":"dix","on":["ジュウ"],"kun":["とお"],"memo":"Une croix : deux mains croisées, dix doigts.","res":["千","七"],"mots":[["{十|とお}","dix (objets)"],["{十|じゅう}{月|がつ}","octobre"],["{二|に}{十|じゅう}","vingt"]]}
+]},
+{"id":"k5-10","title":"Grands nombres et argent","kanji":[
+ {"k":"百","fr":"cent","on":["ヒャク"],"kun":[],"memo":"Un trait sur 白 (blanc).","res":["白"],"mots":[["{百|ひゃく}","cent"],["{三|さん}{百|びゃく}","trois cents"],["{六|ろっ}{百|ぴゃく}","six cents"],["{八|はっ}{百|ぴゃく}","huit cents"]]},
+ {"k":"千","fr":"mille","on":["セン"],"kun":["ち"],"memo":"Dix 十 avec un petit trait sur la tête.","res":["十","干"],"mots":[["{千|せん}","mille"],["{三|さん}{千|ぜん}","trois mille"],["{八|はっ}{千|せん}","huit mille"]]},
+ {"k":"万","fr":"dix mille","on":["マン","バン"],"kun":[],"memo":"Le japonais compte par paquets de dix mille : 一万, pas « dix mille » en deux mots.","res":["方"],"mots":[["{一|いち}{万|まん}","dix mille"],["{十|じゅう}{万|まん}","cent mille"]]},
+ {"k":"円","fr":"yen, cercle","on":["エン"],"kun":["まる(い)"],"memo":"Une pièce de monnaie posée dans un cadre.","res":[],"mots":[["{円|えん}","yen"],["{百|ひゃく}{円|えん}","cent yens"]]},
+ {"k":"買","fr":"acheter","on":["バイ"],"kun":["か(う)"],"memo":"Un coquillage 貝 (l'ancienne monnaie) sous un filet.","res":["見"],"mots":[["{買|か}う","acheter"],["{買|か}い{物|もの}","courses, achats"]]}
+]},
+{"id":"k5-11","title":"Les jours de la semaine","kanji":[
+ {"k":"月","fr":"lune, mois","on":["ゲツ","ガツ"],"kun":["つき"],"memo":"Un croissant de lune.","res":["日","円"],"mots":[["{月|つき}","lune"],["{月|げつ}{曜|よう}{日|び}","lundi"],["{一|いち}{月|がつ}","janvier"],["{来|らい}{月|げつ}","le mois prochain"]]},
+ {"k":"火","fr":"feu","on":["カ"],"kun":["ひ"],"memo":"Des flammes qui jaillissent.","res":["水"],"mots":[["{火|ひ}","feu"],["{火|か}{曜|よう}{日|び}","mardi"]]},
+ {"k":"木","fr":"arbre, bois","on":["モク","ボク"],"kun":["き"],"memo":"Un tronc, des branches et des racines.","res":["本","末","未"],"mots":[["{木|き}","arbre"],["{木|もく}{曜|よう}{日|び}","jeudi"]]},
+ {"k":"金","fr":"or, argent","on":["キン","コン"],"kun":["かね"],"memo":"Des pépites sous le toit d'une mine.","res":[],"mots":[["お{金|かね}","argent"],["{金|きん}{曜|よう}{日|び}","vendredi"]]},
+ {"k":"土","fr":"terre, sol","on":["ド","ト"],"kun":["つち"],"memo":"Une motte de terre sur le sol.","res":["士","上"],"mots":[["{土|つち}","terre"],["{土|ど}{曜|よう}{日|び}","samedi"]]}
+]},
+{"id":"k5-12","title":"Le temps qui passe","kanji":[
+ {"k":"年","fr":"année","on":["ネン"],"kun":["とし"],"memo":"Une gerbe de riz portée sur le dos : une récolte, une année.","res":["牛"],"mots":[["{来|らい}{年|ねん}","l'année prochaine"],["{今年|ことし}","cette année"],["{去|きょ}{年|ねん}","l'année dernière"]]},
+ {"k":"分","fr":"minute, partager","on":["フン","ブン"],"kun":["わ(かる)"],"memo":"Un sabre 刀 qui coupe en deux 八.","res":[],"mots":[["{分|わ}かる","comprendre"],["{何|なん}{分|ぷん}","combien de minutes"],["{三|さん}{分|ぷん}","trois minutes"],["{五|ご}{分|ふん}","cinq minutes"]]},
+ {"k":"間","fr":"intervalle, entre","on":["カン"],"kun":["あいだ","ま"],"memo":"Le soleil 日 vu à travers une porte 門 entrouverte.","res":["聞"],"mots":[["{間|あいだ}","entre, intervalle"],["{時|じ}{間|かん}","temps, durée"]]},
+ {"k":"半","fr":"moitié","on":["ハン"],"kun":["なか(ば)"],"memo":"Un objet coupé pile au milieu par un trait vertical.","res":["羊"],"mots":[["{半|はん}","moitié, et demie"],["{半|はん}{分|ぶん}","la moitié"]]},
+ {"k":"午","fr":"midi","on":["ゴ"],"kun":[],"memo":"Presque 牛 (vache), mais sans la corne : le trait central ne dépasse pas.","res":["牛"],"mots":[["{午|ご}{前|ぜん}","matin (avant midi)"],["{午|ご}{後|ご}","après-midi"]]},
+ {"k":"前","fr":"avant, devant","on":["ゼン"],"kun":["まえ"],"memo":"Une barque 月 et un couteau 刂 : on avance en fendant l'eau.","res":[],"mots":[["{前|まえ}","devant, avant"],["{午|ご}{前|ぜん}","matin (avant midi)"],["{名|な}{前|まえ}","nom, prénom"]]},
+ {"k":"後","fr":"après, derrière","on":["ゴ","コウ"],"kun":["うし(ろ)","あと","のち"],"memo":"La clé du chemin 彳 : celui qui traîne derrière sur la route.","res":[],"mots":[["{後|うし}ろ","derrière"],["{午|ご}{後|ご}","après-midi"],["{後|あと}","après, ensuite"]]}
+]},
+{"id":"k5-13","title":"Le matin et la météo","kanji":[
+ {"k":"朝","fr":"matin","on":["チョウ"],"kun":["あさ"],"memo":"Le soleil qui se lève entre les herbes, la lune 月 encore là.","res":[],"mots":[["{朝|あさ}","matin"],["{朝|あさ}ご{飯|はん}","petit déjeuner"],["{毎|まい}{朝|あさ}","tous les matins"],["{今朝|けさ}","ce matin"]]},
+ {"k":"昨","fr":"passé, dernier","on":["サク"],"kun":[],"memo":"Le soleil 日 à gauche : un jour déjà parti. Se lit surtout dans {昨日|きのう}.","res":[],"mots":[["{昨日|きのう}","hier"],["{昨|さく}{年|ねん}","l'an dernier (soutenu)"]]},
+ {"k":"天","fr":"ciel","on":["テン"],"kun":["あま","あめ"],"memo":"Une personne 大 sous un trait : ce qui est au-dessus de sa tête.","res":["大","夫"],"mots":[["{天|てん}{気|き}","temps (météo)"]]},
+ {"k":"気","fr":"esprit, énergie","on":["キ","ケ"],"kun":[],"memo":"De la vapeur qui monte d'une marmite de riz : une énergie invisible.","res":[],"mots":[["{天|てん}{気|き}","temps (météo)"],["{元|げん}{気|き}","en forme"],["{電|でん}{気|き}","électricité, lumière"],["{病|びょう}{気|き}","maladie"]]},
+ {"k":"雨","fr":"pluie","on":["ウ"],"kun":["あめ"],"memo":"Des gouttes qui tombent derrière une fenêtre.","res":[],"mots":[["{雨|あめ}","pluie"]]}
+]},
+{"id":"k5-14","title":"Les directions","kanji":[
+ {"k":"東","fr":"est","on":["トウ"],"kun":["ひがし"],"memo":"Le soleil 日 qui se lève derrière un arbre 木.","res":["車"],"mots":[["{東|ひがし}","est"],["{東|とう}{京|きょう}","Tokyo"]]},
+ {"k":"西","fr":"ouest","on":["セイ","サイ"],"kun":["にし"],"memo":"Un oiseau qui rentre au nid quand le soleil se couche à l'ouest.","res":["四"],"mots":[["{西|にし}","ouest"]]},
+ {"k":"南","fr":"sud","on":["ナン"],"kun":["みなみ"],"memo":"Une tente chauffée par le soleil du sud.","res":[],"mots":[["{南|みなみ}","sud"]]},
+ {"k":"北","fr":"nord","on":["ホク"],"kun":["きた"],"memo":"Deux personnes dos à dos, tournant le dos au vent du nord.","res":["比"],"mots":[["{北|きた}","nord"]]},
+ {"k":"右","fr":"droite","on":["ウ","ユウ"],"kun":["みぎ"],"memo":"Une main et une bouche 口 : la main avec laquelle on mange.","res":["左","石"],"mots":[["{右|みぎ}","droite"]]},
+ {"k":"左","fr":"gauche","on":["サ"],"kun":["ひだり"],"memo":"Une main et une équerre 工 : l'autre main tient l'outil.","res":["右"],"mots":[["{左|ひだり}","gauche"]]}
+]},
+{"id":"k5-15","title":"Dehors, dans la nature","kanji":[
+ {"k":"山","fr":"montagne","on":["サン"],"kun":["やま"],"memo":"Trois sommets.","res":["出"],"mots":[["{山|やま}","montagne"],["{富|ふ}{士|じ}{山|さん}","mont Fuji"]]},
+ {"k":"川","fr":"rivière","on":["セン"],"kun":["かわ"],"memo":"Trois filets d'eau qui coulent.","res":["三"],"mots":[["{川|かわ}","rivière"]]},
+ {"k":"道","fr":"chemin, route","on":["ドウ"],"kun":["みち"],"memo":"La tête 首 sur la clé de la marche 辶 : suivre sa route.","res":[],"mots":[["{道|みち}","chemin, route"],["{北|ほっ}{海|かい}{道|どう}","Hokkaidō"]]},
+ {"k":"花","fr":"fleur","on":["カ"],"kun":["はな"],"memo":"La clé des herbes en haut : une plante qui change 化.","res":[],"mots":[["{花|はな}","fleur"],["{花|はな}{見|み}","contemplation des cerisiers"]]},
+ {"k":"空","fr":"ciel, vide","on":["クウ"],"kun":["そら","あ(く)"],"memo":"Un trou 穴 sur un outil 工 : un espace vide.","res":[],"mots":[["{空|そら}","ciel"],["{空|くう}{港|こう}","aéroport"]]}
+]},
+{"id":"k5-16","title":"La famille","kanji":[
+ {"k":"父","fr":"père","on":["フ"],"kun":["ちち"],"memo":"Une main qui tient une hache : le père au travail.","res":["交"],"mots":[["{父|ちち}","mon père"],["お{父|とう}さん","père (de quelqu'un)"]]},
+ {"k":"母","fr":"mère","on":["ボ"],"kun":["はは"],"memo":"Une femme vue de face, deux points pour la poitrine.","res":["毎"],"mots":[["{母|はは}","ma mère"],["お{母|かあ}さん","mère (de quelqu'un)"]]},
+ {"k":"子","fr":"enfant","on":["シ","ス"],"kun":["こ"],"memo":"Un bébé emmailloté, les bras ouverts.","res":["学","字"],"mots":[["{子|こ}ども","enfant"],["{女|おんな}の{子|こ}","fille"],["{男|おとこ}の{子|こ}","garçon"]]},
+ {"k":"男","fr":"homme","on":["ダン","ナン"],"kun":["おとこ"],"memo":"Un champ 田 et la force 力 : celui qui laboure.","res":[],"mots":[["{男|おとこ}の{人|ひと}","homme"],["{男|おとこ}の{子|こ}","garçon"]]},
+ {"k":"女","fr":"femme","on":["ジョ","ニョ"],"kun":["おんな"],"memo":"Une femme agenouillée, les bras croisés.","res":[],"mots":[["{女|おんな}の{人|ひと}","femme"],["{女|おんな}の{子|こ}","fille"]]}
+]},
+{"id":"k5-17","title":"La maison, le travail, le pays","kanji":[
+ {"k":"家","fr":"maison, famille","on":["カ","ケ"],"kun":["いえ","うち"],"memo":"Un cochon 豕 sous un toit : le foyer d'autrefois.","res":[],"mots":[["{家|いえ}","maison"],["{家|か}{族|ぞく}","famille"],["{作|さっ}{家|か}","écrivain"]]},
+ {"k":"会","fr":"rencontrer, réunion","on":["カイ","エ"],"kun":["あ(う)"],"memo":"Un toit au-dessus d'une table : on s'y réunit.","res":["今"],"mots":[["{会|あ}う","rencontrer"],["{会|かい}{社|しゃ}","entreprise"],["{会|かい}{社|しゃ}{員|いん}","employé de bureau"]]},
+ {"k":"社","fr":"société, sanctuaire","on":["シャ"],"kun":["やしろ"],"memo":"L'autel 礻 sur la terre 土 : là où un groupe se réunit.","res":[],"mots":[["{会|かい}{社|しゃ}","entreprise"],["{神|じん}{社|じゃ}","sanctuaire shintō"]]},
+ {"k":"電","fr":"électricité","on":["デン"],"kun":[],"memo":"La pluie 雨 au-dessus d'un éclair.","res":["雷"],"mots":[["{電|でん}{車|しゃ}","train"],["{電|でん}{話|わ}","téléphone"],["{電|でん}{気|き}","électricité, lumière"]]},
+ {"k":"国","fr":"pays","on":["コク"],"kun":["くに"],"memo":"Un trésor 玉 protégé par une frontière 囗.","res":["図"],"mots":[["{国|くに}","pays"],["{外|がい}{国|こく}{人|じん}","étranger"],["{中|ちゅう}{国|ごく}","Chine"]]},
+ {"k":"外","fr":"dehors","on":["ガイ","ゲ"],"kun":["そと","はず(す)"],"memo":"Le soir 夕 et la divination 卜 : on la faisait dehors, à la nuit.","res":[],"mots":[["{外|そと}","dehors"],["{外|がい}{国|こく}{人|じん}","étranger"],["{外|がい}{国|こく}","pays étranger"]]}
+]},
+{"id":"k5-18","title":"Le corps","kanji":[
+ {"k":"手","fr":"main","on":["シュ"],"kun":["て"],"memo":"Une main ouverte, les doigts sur une paume.","res":["毛","午"],"mots":[["{手|て}","main"],["{手|て}{紙|がみ}","lettre"],["{歌|か}{手|しゅ}","chanteur"],["{運|うん}{転|てん}{手|しゅ}","chauffeur"]]},
+ {"k":"足","fr":"pied, jambe","on":["ソク"],"kun":["あし","た(りる)"],"memo":"Un genou 口 posé sur un pied.","res":[],"mots":[["{足|あし}","pied, jambe"],["{足|た}りる","suffire"]]},
+ {"k":"目","fr":"œil","on":["モク"],"kun":["め"],"memo":"Un œil dressé à la verticale, avec ses paupières.","res":["日","自"],"mots":[["{目|め}","œil"],["{一|ひと}つ{目|め}","le premier"]]},
+ {"k":"耳","fr":"oreille","on":["ジ"],"kun":["みみ"],"memo":"Le pavillon d'une oreille et ses replis.","res":[],"mots":[["{耳|みみ}","oreille"]]},
+ {"k":"口","fr":"bouche","on":["コウ"],"kun":["くち"],"memo":"Une bouche grande ouverte.","res":["日"],"mots":[["{口|くち}","bouche"],["{入|いり}{口|ぐち}","entrée"],["{出|で}{口|ぐち}","sortie"]]}
+]},
+{"id":"k5-19","title":"Entrer, sortir, se reposer","kanji":[
+ {"k":"入","fr":"entrer","on":["ニュウ"],"kun":["はい(る)","い(れる)"],"memo":"Une flèche qui plonge dans une ouverture.","res":["人","八"],"mots":[["{入|はい}る","entrer"],["{入|い}れる","mettre dedans"],["{入|いり}{口|ぐち}","entrée"]]},
+ {"k":"出","fr":"sortir","on":["シュツ"],"kun":["で(る)","だ(す)"],"memo":"Une pousse qui sort d'un pot, étage par étage.","res":["山"],"mots":[["{出|で}る","sortir"],["{出|だ}す","sortir (qqch)"],["{出|で}かける","sortir, partir"],["{出|で}{口|ぐち}","sortie"]]},
+ {"k":"立","fr":"se lever, debout","on":["リツ"],"kun":["た(つ)"],"memo":"Une personne debout sur le sol.","res":[],"mots":[["{立|た}つ","se lever"]]},
+ {"k":"休","fr":"se reposer","on":["キュウ"],"kun":["やす(む)"],"memo":"Une personne 亻 appuyée contre un arbre 木.","res":["体"],"mots":[["{休|やす}む","se reposer"],["{休|やす}み","repos, congé"]]},
+ {"k":"言","fr":"dire","on":["ゲン"],"kun":["い(う)","こと"],"memo":"Des paroles qui sortent d'une bouche 口.","res":[],"mots":[["{言|い}う","dire"],["{言|こと}{葉|ば}","mot, parole"]]}
+]},
+{"id":"k5-20","title":"Décrire les choses","kanji":[
+ {"k":"高","fr":"haut, cher","on":["コウ"],"kun":["たか(い)"],"memo":"Une haute tour à plusieurs étages.","res":[],"mots":[["{高|たか}い","haut, cher"],["{高|こう}{校|こう}","lycée"],["{高|こう}{校|こう}{生|せい}","lycéen"]]},
+ {"k":"安","fr":"bon marché, tranquille","on":["アン"],"kun":["やす(い)"],"memo":"Une femme 女 à l'abri sous un toit : la tranquillité.","res":[],"mots":[["{安|やす}い","pas cher"],["{安|あん}{心|しん}","être rassuré"]]},
+ {"k":"新","fr":"nouveau","on":["シン"],"kun":["あたら(しい)"],"memo":"Une hache 斤 qui coupe du bois neuf.","res":["親"],"mots":[["{新|あたら}しい","nouveau"],["{新|しん}{聞|ぶん}","journal"]]},
+ {"k":"古","fr":"vieux","on":["コ"],"kun":["ふる(い)"],"memo":"Dix 十 bouches 口 : une histoire passée de bouche en bouche.","res":[],"mots":[["{古|ふる}い","vieux"]]},
+ {"k":"長","fr":"long, chef","on":["チョウ"],"kun":["なが(い)"],"memo":"Une personne aux longs cheveux.","res":[],"mots":[["{長|なが}い","long"],["{社|しゃ}{長|ちょう}","PDG, patron"]]},
+ {"k":"白","fr":"blanc","on":["ハク","ビャク"],"kun":["しろ(い)"],"memo":"Un rayon qui part du soleil 日 : la lumière blanche.","res":["百","日"],"mots":[["{白|しろ}い","blanc"]]}
+]}
+]

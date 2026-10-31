@@ -1,0 +1,2867 @@
+{
+ "id": "k5-b02",
+ "level": "N5",
+ "title": "École, positions et nombres",
+ "lessons": [
+  {
+   "id": "k5-06",
+   "title": "L'école : 先 生 学 校 友 名",
+   "sections": [
+    {
+     "h": "先 · avant, précédent",
+     "p": [
+      "**On** : セン　**Kun** : さき",
+      "Un pied posé devant une personne 儿 : celui qui marche en tête."
+     ],
+     "vocab": [
+      {
+       "jp": "{先|せん}{生|せい}",
+       "fr": "professeur"
+      },
+      {
+       "jp": "{先|せん}{週|しゅう}",
+       "fr": "la semaine dernière"
+      },
+      {
+       "jp": "{先|せん}{月|げつ}",
+       "fr": "le mois dernier"
+      }
+     ]
+    },
+    {
+     "h": "生 · vie, naître",
+     "p": [
+      "**On** : セイ、ショウ　**Kun** : い(きる)、う(まれる)、なま",
+      "Une pousse qui sort de terre."
+     ],
+     "vocab": [
+      {
+       "jp": "{学|がく}{生|せい}",
+       "fr": "étudiant"
+      },
+      {
+       "jp": "{先|せん}{生|せい}",
+       "fr": "professeur"
+      },
+      {
+       "jp": "{生|う}まれる",
+       "fr": "naître"
+      },
+      {
+       "jp": "{大|だい}{学|がく}{生|せい}",
+       "fr": "étudiant d'université"
+      }
+     ]
+    },
+    {
+     "h": "学 · étudier",
+     "p": [
+      "**On** : ガク　**Kun** : まな(ぶ)",
+      "Un enfant 子 sous un toit : il est à l'école."
+     ],
+     "vocab": [
+      {
+       "jp": "{学|がく}{生|せい}",
+       "fr": "étudiant"
+      },
+      {
+       "jp": "{学|がっ}{校|こう}",
+       "fr": "école"
+      },
+      {
+       "jp": "{大|だい}{学|がく}",
+       "fr": "université"
+      }
+     ]
+    },
+    {
+     "h": "校 · école",
+     "p": [
+      "**On** : コウ　**Kun** : —",
+      "L'arbre 木 à gauche : l'école autrefois en bois."
+     ],
+     "vocab": [
+      {
+       "jp": "{学|がっ}{校|こう}",
+       "fr": "école"
+      },
+      {
+       "jp": "{高|こう}{校|こう}",
+       "fr": "lycée"
+      },
+      {
+       "jp": "{高|こう}{校|こう}{生|せい}",
+       "fr": "lycéen"
+      }
+     ]
+    },
+    {
+     "h": "友 · ami",
+     "p": [
+      "**On** : ユウ　**Kun** : とも",
+      "Deux mains qui se tendent l'une vers l'autre."
+     ],
+     "vocab": [
+      {
+       "jp": "{友|とも}だち",
+       "fr": "ami(e)"
+      },
+      {
+       "jp": "{友|ゆう}{人|じん}",
+       "fr": "ami(e) (soutenu)"
+      }
+     ]
+    },
+    {
+     "h": "名 · nom",
+     "p": [
+      "**On** : メイ　**Kun** : な",
+      "Le soir 夕 et une bouche 口 : dans le noir, on crie son nom."
+     ],
+     "vocab": [
+      {
+       "jp": "{名|な}{前|まえ}",
+       "fr": "nom, prénom"
+      },
+      {
+       "jp": "{有|ゆう}{名|めい}",
+       "fr": "célèbre"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "先 (avant, précédent) : ne le confonds pas avec 生 (vie, naître).",
+    "生 (vie, naître) : ne le confonds pas avec 先 (avant, précédent)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-06-先-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "先",
+     "explain": "**先** : avant, précédent. Un pied posé devant une personne 儿 : celui qui marche en tête.",
+     "type": "choice",
+     "choices": [
+      "chaque",
+      "rentrer",
+      "boire",
+      "avant, précédent"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-06-先-kanji",
+     "q": "Quel kanji veut dire « avant, précédent » ?",
+     "explain": "**先** : avant, précédent. Un pied posé devant une personne 儿 : celui qui marche en tête.",
+     "type": "choice",
+     "choices": [
+      "生",
+      "私",
+      "先",
+      "話"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-先生-lecture",
+     "q": "Comment se lit **先生** ?",
+     "explain": "{先|せん}{生|せい} : professeur.",
+     "type": "choice",
+     "choices": [
+      "せんしょう",
+      "せんせい",
+      "おんなのひと",
+      "せんい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-先生-trou",
+     "q": "Complète le mot **せんせい** (professeur) :",
+     "jp": "先＿",
+     "explain": "{先|せん}{生|せい} : professeur.",
+     "type": "choice",
+     "choices": [
+      "牛",
+      "語",
+      "先",
+      "生"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-06-生-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "生",
+     "explain": "**生** : vie, naître. Une pousse qui sort de terre.",
+     "type": "choice",
+     "choices": [
+      "jour de la semaine",
+      "parler, histoire",
+      "vie, naître",
+      "quoi, combien"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-生-kanji",
+     "q": "Quel kanji veut dire « vie, naître » ?",
+     "explain": "**生** : vie, naître. Une pousse qui sort de terre.",
+     "type": "choice",
+     "choices": [
+      "生",
+      "先",
+      "読",
+      "牛"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-06-学生-lecture",
+     "q": "Comment se lit **学生** ?",
+     "explain": "{学|がく}{生|せい} : étudiant.",
+     "type": "choice",
+     "choices": [
+      "がくせい",
+      "がくう",
+      "おとこのひと",
+      "がくなま"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-06-学生-trou",
+     "q": "Complète le mot **がくせい** (étudiant) :",
+     "jp": "学＿",
+     "explain": "{学|がく}{生|せい} : étudiant.",
+     "type": "choice",
+     "choices": [
+      "牛",
+      "来",
+      "生",
+      "先"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-学-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "学",
+     "explain": "**学** : étudier. Un enfant 子 sous un toit : il est à l'école.",
+     "type": "choice",
+     "choices": [
+      "semaine",
+      "étudier",
+      "manger",
+      "gare"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-学-kanji",
+     "q": "Quel kanji veut dire « étudier » ?",
+     "explain": "**学** : étudier. Un enfant 子 sous un toit : il est à l'école.",
+     "type": "choice",
+     "choices": [
+      "字",
+      "学",
+      "車",
+      "飲"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-学校-lecture",
+     "q": "Comment se lit **学校** ?",
+     "explain": "{学|がっ}{校|こう} : école.",
+     "type": "choice",
+     "choices": [
+      "かく",
+      "がっこう",
+      "まなこう",
+      "がくこう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-学校-trou",
+     "q": "Complète le mot **がっこう** (école) :",
+     "jp": "学＿",
+     "explain": "{学|がっ}{校|こう} : école.",
+     "type": "choice",
+     "choices": [
+      "食",
+      "週",
+      "校",
+      "車"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-校-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "校",
+     "explain": "**校** : école. L'arbre 木 à gauche : l'école autrefois en bois.",
+     "type": "choice",
+     "choices": [
+      "rentrer",
+      "langue, mot",
+      "école",
+      "personne"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-校-kanji",
+     "q": "Quel kanji veut dire « école » ?",
+     "explain": "**校** : école. L'arbre 木 à gauche : l'école autrefois en bois.",
+     "type": "choice",
+     "choices": [
+      "帰",
+      "来",
+      "校",
+      "週"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-高校-lecture",
+     "q": "Comment se lit **高校** ?",
+     "explain": "{高|こう}{校|こう} : lycée.",
+     "type": "choice",
+     "choices": [
+      "らいげつ",
+      "たかこう",
+      "えいご",
+      "こうこう"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-06-高校-trou",
+     "q": "Complète le mot **こうこう** (lycée) :",
+     "jp": "高＿",
+     "explain": "{高|こう}{校|こう} : lycée.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "読",
+      "人",
+      "校"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-06-友-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "友",
+     "explain": "**友** : ami. Deux mains qui se tendent l'une vers l'autre.",
+     "type": "choice",
+     "choices": [
+      "nom",
+      "venir",
+      "ami",
+      "jour de la semaine"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-友-kanji",
+     "q": "Quel kanji veut dire « ami » ?",
+     "explain": "**友** : ami. Deux mains qui se tendent l'une vers l'autre.",
+     "type": "choice",
+     "choices": [
+      "友",
+      "曜",
+      "人",
+      "有"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-06-友だち-lecture",
+     "q": "Comment se lit **友だち** ?",
+     "explain": "{友|とも}だち : ami(e).",
+     "type": "choice",
+     "choices": [
+      "じてんしゃ",
+      "ともだち",
+      "ゆうだち",
+      "ことし"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-友だち-ecrit",
+     "q": "Quel mot s'écrit **ともだち** (ami(e)) ?",
+     "explain": "{友|とも}だち : ami(e).",
+     "type": "choice",
+     "choices": [
+      "友だち",
+      "週だち",
+      "有だち",
+      "何だち"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-06-名-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "名",
+     "explain": "**名** : nom. Le soir 夕 et une bouche 口 : dans le noir, on crie son nom.",
+     "type": "choice",
+     "choices": [
+      "parler, histoire",
+      "rentrer",
+      "nom",
+      "vie, naître"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-名-kanji",
+     "q": "Quel kanji veut dire « nom » ?",
+     "explain": "**名** : nom. Le soir 夕 et une bouche 口 : dans le noir, on crie son nom.",
+     "type": "choice",
+     "choices": [
+      "名",
+      "読",
+      "人",
+      "学"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-06-名前-lecture",
+     "q": "Comment se lit **名前** ?",
+     "explain": "{名|な}{前|まえ} : nom, prénom.",
+     "type": "choice",
+     "choices": [
+      "なぜん",
+      "なまえ",
+      "めいまえ",
+      "きく"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-名前-trou",
+     "q": "Complète le mot **なまえ** (nom, prénom) :",
+     "jp": "名＿",
+     "explain": "{名|な}{前|まえ} : nom, prénom.",
+     "type": "choice",
+     "choices": [
+      "飯",
+      "曜",
+      "前",
+      "何"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-先生-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**先生**、{質問|しつもん}があります。",
+     "fr": "Monsieur (le professeur), j'ai une question.",
+     "explain": "**先生** se lit せんせい ici ({先|せん}{生|せい} : professeur).",
+     "type": "choice",
+     "choices": [
+      "さきせい",
+      "せんい",
+      "せんせい",
+      "せんしょう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-先週-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**先週**、{国|くに}へ{帰|かえ}りました。",
+     "fr": "La semaine dernière, je suis rentré dans mon pays.",
+     "explain": "**先週** se lit せんしゅう ici ({先|せん}{週|しゅう} : la semaine dernière).",
+     "type": "choice",
+     "choices": [
+      "まいばん",
+      "なんぷん",
+      "せんしゅう",
+      "げつようび"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-06-先月-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**先月**、{新|あたら}しいカメラを{買|か}いました。",
+     "fr": "Le mois dernier, j'ai acheté un nouvel appareil photo.",
+     "explain": "**先月** se lit せんげつ ici ({先|せん}{月|げつ} : le mois dernier).",
+     "type": "choice",
+     "choices": [
+      "せんつき",
+      "せんがつ",
+      "さきげつ",
+      "せんげつ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-06-学生-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{山田|やまだ}さんは{大学|だいがく}の**学生**です。",
+     "fr": "Mme Yamada est étudiante à l'université.",
+     "explain": "**学生** se lit がくせい ici ({学|がく}{生|せい} : étudiant).",
+     "type": "choice",
+     "choices": [
+      "がくい",
+      "がくせい",
+      "がくう",
+      "がくなま"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-06-先生-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{先|せん}{生|せい} se lit せんせい, pas せんなま.",
+     "type": "choice",
+     "choices": [
+      "先生 → せんなま",
+      "生まれる → うまれる",
+      "友人 → ゆうじん",
+      "学生 → がくせい"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k5-07",
+   "title": "Position et taille : 上 下 中 大 小",
+   "sections": [
+    {
+     "h": "上 · haut, sur",
+     "p": [
+      "**On** : ジョウ　**Kun** : うえ、あ(げる)、のぼ(る)",
+      "Un trait qui pointe au-dessus de la ligne."
+     ],
+     "vocab": [
+      {
+       "jp": "{上|うえ}",
+       "fr": "dessus, en haut"
+      },
+      {
+       "jp": "{上手|じょうず}",
+       "fr": "doué, habile"
+      }
+     ]
+    },
+    {
+     "h": "下 · bas, sous",
+     "p": [
+      "**On** : カ、ゲ　**Kun** : した、さ(げる)、くだ(さい)",
+      "Un trait qui pointe sous la ligne."
+     ],
+     "vocab": [
+      {
+       "jp": "{下|した}",
+       "fr": "dessous, en bas"
+      },
+      {
+       "jp": "{下手|へた}",
+       "fr": "maladroit, pas doué"
+      },
+      {
+       "jp": "{地|ち}{下|か}{鉄|てつ}",
+       "fr": "métro"
+      },
+      {
+       "jp": "{下|くだ}さい",
+       "fr": "donnez-moi, s'il vous plaît"
+      }
+     ]
+    },
+    {
+     "h": "中 · milieu, dans",
+     "p": [
+      "**On** : チュウ、ジュウ　**Kun** : なか",
+      "Une flèche qui traverse le centre d'une boîte."
+     ],
+     "vocab": [
+      {
+       "jp": "{中|なか}",
+       "fr": "intérieur, dedans"
+      },
+      {
+       "jp": "{中|ちゅう}{国|ごく}",
+       "fr": "Chine"
+      },
+      {
+       "jp": "{中|ちゅう}{学|がく}{生|せい}",
+       "fr": "collégien"
+      }
+     ]
+    },
+    {
+     "h": "大 · grand",
+     "p": [
+      "**On** : ダイ、タイ　**Kun** : おお(きい)",
+      "Une personne qui écarte grand les bras."
+     ],
+     "vocab": [
+      {
+       "jp": "{大|おお}きい",
+       "fr": "grand"
+      },
+      {
+       "jp": "{大|だい}{学|がく}",
+       "fr": "université"
+      },
+      {
+       "jp": "{大|たい}{切|せつ}",
+       "fr": "important, précieux"
+      },
+      {
+       "jp": "{大人|おとな}",
+       "fr": "adulte"
+      }
+     ]
+    },
+    {
+     "h": "小 · petit",
+     "p": [
+      "**On** : ショウ　**Kun** : ちい(さい)",
+      "Un trait fin, avec deux petits grains de chaque côté."
+     ],
+     "vocab": [
+      {
+       "jp": "{小|ちい}さい",
+       "fr": "petit"
+      },
+      {
+       "jp": "{小|しょう}{学|がっ}{校|こう}",
+       "fr": "école primaire"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "上 (haut, sur) : ne le confonds pas avec 下 (bas, sous), 土 (terre, sol).",
+    "下 (bas, sous) : ne le confonds pas avec 上 (haut, sur).",
+    "大 (grand) : ne le confonds pas avec 人 (personne)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-07-上-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "上",
+     "explain": "**上** : haut, sur. Un trait qui pointe au-dessus de la ligne.",
+     "type": "choice",
+     "choices": [
+      "voiture, roue",
+      "haut, sur",
+      "entendre, écouter",
+      "venir"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-上-kanji",
+     "q": "Quel kanji veut dire « haut, sur » ?",
+     "explain": "**上** : haut, sur. Un trait qui pointe au-dessus de la ligne.",
+     "type": "choice",
+     "choices": [
+      "聞",
+      "下",
+      "土",
+      "上"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-上-lecture",
+     "q": "Comment se lit **上** ?",
+     "explain": "{上|うえ} : dessus, en haut.",
+     "type": "choice",
+     "choices": [
+      "なまえ",
+      "うえ",
+      "はなす",
+      "まいにち"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-下-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "下",
+     "explain": "**下** : bas, sous. Un trait qui pointe sous la ligne.",
+     "type": "choice",
+     "choices": [
+      "chaque",
+      "manger",
+      "petit",
+      "bas, sous"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-下-kanji",
+     "q": "Quel kanji veut dire « bas, sous » ?",
+     "explain": "**下** : bas, sous. Un trait qui pointe sous la ligne.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "飯",
+      "今",
+      "下"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-下-lecture",
+     "q": "Comment se lit **下** ?",
+     "explain": "{下|した} : dessous, en bas.",
+     "type": "choice",
+     "choices": [
+      "でんわ",
+      "なんぷん",
+      "した",
+      "はなみ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-07-地下鉄-trou",
+     "q": "Complète le mot **ちかてつ** (métro) :",
+     "jp": "地下＿",
+     "explain": "{地|ち}{下|か}{鉄|てつ} : métro.",
+     "type": "choice",
+     "choices": [
+      "鉄",
+      "飯",
+      "語",
+      "駅"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-07-中-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "中",
+     "explain": "**中** : milieu, dans. Une flèche qui traverse le centre d'une boîte.",
+     "type": "choice",
+     "choices": [
+      "livre, origine",
+      "milieu, dans",
+      "étudier",
+      "entendre, écouter"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-中-kanji",
+     "q": "Quel kanji veut dire « milieu, dans » ?",
+     "explain": "**中** : milieu, dans. Une flèche qui traverse le centre d'une boîte.",
+     "type": "choice",
+     "choices": [
+      "水",
+      "学",
+      "先",
+      "中"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-中-lecture",
+     "q": "Comment se lit **中** ?",
+     "explain": "{中|なか} : intérieur, dedans.",
+     "type": "choice",
+     "choices": [
+      "ふつか",
+      "がくせい",
+      "こうこう",
+      "なか"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-中国-trou",
+     "q": "Complète le mot **ちゅうごく** (Chine) :",
+     "jp": "中＿",
+     "explain": "{中|ちゅう}{国|ごく} : Chine.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "生",
+      "図",
+      "国"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-大-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "大",
+     "explain": "**大** : grand. Une personne qui écarte grand les bras.",
+     "type": "choice",
+     "choices": [
+      "grand",
+      "semaine",
+      "chaque",
+      "personne"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-07-大-kanji",
+     "q": "Quel kanji veut dire « grand » ?",
+     "explain": "**大** : grand. Une personne qui écarte grand les bras.",
+     "type": "choice",
+     "choices": [
+      "太",
+      "大",
+      "犬",
+      "人"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-大きい-lecture",
+     "q": "Comment se lit **大きい** ?",
+     "explain": "{大|おお}きい : grand.",
+     "type": "choice",
+     "choices": [
+      "おおきい",
+      "たいきい",
+      "なんようび",
+      "だいきい"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-07-大きい-ecrit",
+     "q": "Quel mot s'écrit **おおきい** (grand) ?",
+     "explain": "{大|おお}きい : grand.",
+     "type": "choice",
+     "choices": [
+      "犬きい",
+      "太きい",
+      "人きい",
+      "大きい"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-小-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "小",
+     "explain": "**小** : petit. Un trait fin, avec deux petits grains de chaque côté.",
+     "type": "choice",
+     "choices": [
+      "bas, sous",
+      "petit",
+      "semaine",
+      "gare"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-小-kanji",
+     "q": "Quel kanji veut dire « petit » ?",
+     "explain": "**小** : petit. Un trait fin, avec deux petits grains de chaque côté.",
+     "type": "choice",
+     "choices": [
+      "食",
+      "友",
+      "少",
+      "小"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-07-小さい-lecture",
+     "q": "Comment se lit **小さい** ?",
+     "explain": "{小|ちい}さい : petit.",
+     "type": "choice",
+     "choices": [
+      "しょうさい",
+      "ちいさい",
+      "らいげつ",
+      "ください"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-小さい-ecrit",
+     "q": "Quel mot s'écrit **ちいさい** (petit) ?",
+     "explain": "{小|ちい}さい : petit.",
+     "type": "choice",
+     "choices": [
+      "本さい",
+      "小さい",
+      "少さい",
+      "駅さい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-上-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "つくえの**上**にペンがあります。",
+     "fr": "Il y a un stylo sur le bureau.",
+     "explain": "**上** se lit うえ ici ({上|うえ} : dessus, en haut).",
+     "type": "choice",
+     "choices": [
+      "でんわ",
+      "きのう",
+      "うえ",
+      "しょうがっこう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-07-上手-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{田中|たなか}さんは{料理|りょうり}が**上手**です。",
+     "fr": "Mme Tanaka cuisine très bien.",
+     "explain": "**上手** se lit じょうず ici ({上手|じょうず} : doué, habile).",
+     "type": "choice",
+     "choices": [
+      "どようび",
+      "しんぶん",
+      "じょうず",
+      "はなす"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-07-下-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "いすの**下**にねこがいます。",
+     "fr": "Il y a un chat sous la chaise.",
+     "explain": "**下** se lit した ici ({下|した} : dessous, en bas).",
+     "type": "choice",
+     "choices": [
+      "がいこくじん",
+      "した",
+      "おとな",
+      "ちゅうごく"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-07-下手-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "まだ{運転|うんてん}が**下手**です。",
+     "fr": "Je conduis encore mal.",
+     "explain": "**下手** se lit へた ici ({下手|へた} : maladroit, pas doué).",
+     "type": "choice",
+     "choices": [
+      "もくようび",
+      "はなす",
+      "へた",
+      "まいあさ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-07-地下鉄-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{地|ち}{下|か}{鉄|てつ} se lit ちかてつ, pas ちしたてつ.",
+     "type": "choice",
+     "choices": [
+      "中学生 → ちゅうがくせい",
+      "上手 → じょうず",
+      "地下鉄 → ちしたてつ",
+      "大切 → たいせつ"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k5-08",
+   "title": "Les nombres de 1 à 5 : 一 二 三 四 五",
+   "sections": [
+    {
+     "h": "一 · un",
+     "p": [
+      "**On** : イチ、イツ　**Kun** : ひと(つ)",
+      "Un seul trait."
+     ],
+     "vocab": [
+      {
+       "jp": "{一|ひと}つ",
+       "fr": "un (objet)"
+      },
+      {
+       "jp": "{一|いち}{万|まん}",
+       "fr": "dix mille"
+      },
+      {
+       "jp": "{一人|ひとり}",
+       "fr": "une personne, seul"
+      },
+      {
+       "jp": "{一日|ついたち}",
+       "fr": "le 1er du mois"
+      }
+     ]
+    },
+    {
+     "h": "二 · deux",
+     "p": [
+      "**On** : ニ　**Kun** : ふた(つ)",
+      "Deux traits."
+     ],
+     "vocab": [
+      {
+       "jp": "{二|ふた}つ",
+       "fr": "deux (objets)"
+      },
+      {
+       "jp": "{二|に}{月|がつ}",
+       "fr": "février"
+      },
+      {
+       "jp": "{二人|ふたり}",
+       "fr": "deux personnes"
+      }
+     ]
+    },
+    {
+     "h": "三 · trois",
+     "p": [
+      "**On** : サン　**Kun** : みっ(つ)",
+      "Trois traits."
+     ],
+     "vocab": [
+      {
+       "jp": "{三|みっ}つ",
+       "fr": "trois (objets)"
+      },
+      {
+       "jp": "{三|さん}{百|びゃく}",
+       "fr": "trois cents"
+      },
+      {
+       "jp": "{三|さん}{千|ぜん}",
+       "fr": "trois mille"
+      }
+     ]
+    },
+    {
+     "h": "四 · quatre",
+     "p": [
+      "**On** : シ　**Kun** : よん、よっ(つ)",
+      "Une fenêtre à quatre côtés, avec ses rideaux."
+     ],
+     "vocab": [
+      {
+       "jp": "{四|よん}",
+       "fr": "quatre"
+      },
+      {
+       "jp": "{四|よっ}つ",
+       "fr": "quatre (objets)"
+      },
+      {
+       "jp": "{四|し}{月|がつ}",
+       "fr": "avril"
+      }
+     ]
+    },
+    {
+     "h": "五 · cinq",
+     "p": [
+      "**On** : ゴ　**Kun** : いつ(つ)",
+      "Compte ses traits en imaginant les cinq doigts d'une main."
+     ],
+     "vocab": [
+      {
+       "jp": "{五|いつ}つ",
+       "fr": "cinq (objets)"
+      },
+      {
+       "jp": "{五|ご}{月|がつ}",
+       "fr": "mai"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "一 (un) : ne le confonds pas avec 二 (deux).",
+    "二 (deux) : ne le confonds pas avec 三 (trois), 一 (un).",
+    "三 (trois) : ne le confonds pas avec 二 (deux).",
+    "四 (quatre) : ne le confonds pas avec 西 (ouest)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-08-一-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "一",
+     "explain": "**一** : un. Un seul trait.",
+     "type": "choice",
+     "choices": [
+      "voir",
+      "un",
+      "lire",
+      "heure, temps"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-一-kanji",
+     "q": "Quel kanji veut dire « un » ?",
+     "explain": "**一** : un. Un seul trait.",
+     "type": "choice",
+     "choices": [
+      "二",
+      "一",
+      "読",
+      "車"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-一つ-lecture",
+     "q": "Comment se lit **一つ** ?",
+     "explain": "{一|ひと}つ : un (objet).",
+     "type": "choice",
+     "choices": [
+      "にがつ",
+      "ひとつ",
+      "ゆうじん",
+      "いちつ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-一万-trou",
+     "q": "Complète le mot **いちまん** (dix mille) :",
+     "jp": "一＿",
+     "explain": "{一|いち}{万|まん} : dix mille.",
+     "type": "choice",
+     "choices": [
+      "週",
+      "万",
+      "食",
+      "方"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-二-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "二",
+     "explain": "**二** : deux. Deux traits.",
+     "type": "choice",
+     "choices": [
+      "deux",
+      "langue, mot",
+      "avant, précédent",
+      "école"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-二-kanji",
+     "q": "Quel kanji veut dire « deux » ?",
+     "explain": "**二** : deux. Deux traits.",
+     "type": "choice",
+     "choices": [
+      "二",
+      "三",
+      "一",
+      "五"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-二つ-lecture",
+     "q": "Comment se lit **二つ** ?",
+     "explain": "{二|ふた}つ : deux (objets).",
+     "type": "choice",
+     "choices": [
+      "ふたつ",
+      "たいせつ",
+      "こんしゅう",
+      "につ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-三-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "三",
+     "explain": "**三** : trois. Trois traits.",
+     "type": "choice",
+     "choices": [
+      "grand",
+      "voir",
+      "semaine",
+      "trois"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-08-三-kanji",
+     "q": "Quel kanji veut dire « trois » ?",
+     "explain": "**三** : trois. Trois traits.",
+     "type": "choice",
+     "choices": [
+      "三",
+      "駅",
+      "校",
+      "二"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-三つ-lecture",
+     "q": "Comment se lit **三つ** ?",
+     "explain": "{三|みっ}つ : trois (objets).",
+     "type": "choice",
+     "choices": [
+      "さんつ",
+      "まいばん",
+      "にじゅう",
+      "みっつ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-08-三百-trou",
+     "q": "Complète le mot **さんびゃく** (trois cents) :",
+     "jp": "三＿",
+     "explain": "{三|さん}{百|びゃく} : trois cents.",
+     "type": "choice",
+     "choices": [
+      "百",
+      "何",
+      "話",
+      "車"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-四-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "四",
+     "explain": "**四** : quatre. Une fenêtre à quatre côtés, avec ses rideaux.",
+     "type": "choice",
+     "choices": [
+      "gare",
+      "quatre",
+      "maintenant",
+      "école"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-四-kanji",
+     "q": "Quel kanji veut dire « quatre » ?",
+     "explain": "**四** : quatre. Une fenêtre à quatre côtés, avec ses rideaux.",
+     "type": "choice",
+     "choices": [
+      "飲",
+      "四",
+      "西",
+      "友"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-四-lecture",
+     "q": "Comment se lit **四** ?",
+     "explain": "{四|よん} : quatre.",
+     "type": "choice",
+     "choices": [
+      "ひこうき",
+      "とけい",
+      "よん",
+      "にじゅう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-08-四つ-ecrit",
+     "q": "Quel mot s'écrit **よっつ** (quatre (objets)) ?",
+     "explain": "{四|よっ}つ : quatre (objets).",
+     "type": "choice",
+     "choices": [
+      "西つ",
+      "見つ",
+      "書つ",
+      "四つ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-08-五-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "五",
+     "explain": "**五** : cinq. Compte ses traits en imaginant les cinq doigts d'une main.",
+     "type": "choice",
+     "choices": [
+      "vie, naître",
+      "cinq",
+      "voir",
+      "maintenant"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-五-kanji",
+     "q": "Quel kanji veut dire « cinq » ?",
+     "explain": "**五** : cinq. Compte ses traits en imaginant les cinq doigts d'une main.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "今",
+      "五",
+      "話"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-08-五つ-lecture",
+     "q": "Comment se lit **五つ** ?",
+     "explain": "{五|いつ}つ : cinq (objets).",
+     "type": "choice",
+     "choices": [
+      "いつつ",
+      "まいにち",
+      "ごつ",
+      "としょかん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-五つ-ecrit",
+     "q": "Quel mot s'écrit **いつつ** (cinq (objets)) ?",
+     "explain": "{五|いつ}つ : cinq (objets).",
+     "type": "choice",
+     "choices": [
+      "五つ",
+      "本つ",
+      "食つ",
+      "車つ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-08-一つ-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "りんごを**一つ**ください。",
+     "fr": "Une pomme, s'il vous plaît.",
+     "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)).",
+     "type": "choice",
+     "choices": [
+      "おとな",
+      "ぎんこう",
+      "ひとつ",
+      "がくせい"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-08-一人-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**一人**で{旅行|りょこう}します。",
+     "fr": "Je voyage seul.",
+     "explain": "**一人** se lit ひとり ici ({一人|ひとり} : une personne, seul).",
+     "type": "choice",
+     "choices": [
+      "はなみ",
+      "なか",
+      "ひとり",
+      "まいあさ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-08-二つ-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{部屋|へや}に{窓|まど}が**二つ**あります。",
+     "fr": "Il y a deux fenêtres dans la chambre.",
+     "explain": "**二つ** se lit ふたつ ici ({二|ふた}つ : deux (objets)).",
+     "type": "choice",
+     "choices": [
+      "ほんだな",
+      "みる",
+      "しょうがっこう",
+      "ふたつ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-08-二人-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**二人**で{映画|えいが}を{見|み}ました。",
+     "fr": "Nous avons vu un film à deux.",
+     "explain": "**二人** se lit ふたり ici ({二人|ふたり} : deux personnes).",
+     "type": "choice",
+     "choices": [
+      "さんぜん",
+      "ふたり",
+      "さかな",
+      "せんしゅう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-08-一つ-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{一|ひと}つ se lit ひとつ, pas いちつ.",
+     "type": "choice",
+     "choices": [
+      "一つ → いちつ",
+      "四 → よん",
+      "二月 → にがつ",
+      "一人 → ひとり"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k5-09",
+   "title": "Les nombres de 6 à 10 : 六 七 八 九 十",
+   "sections": [
+    {
+     "h": "六 · six",
+     "p": [
+      "**On** : ロク　**Kun** : むっ(つ)",
+      "Un toit et deux jambes."
+     ],
+     "vocab": [
+      {
+       "jp": "{六|むっ}つ",
+       "fr": "six (objets)"
+      },
+      {
+       "jp": "{六|ろっ}{百|ぴゃく}",
+       "fr": "six cents"
+      },
+      {
+       "jp": "{六|ろく}{月|がつ}",
+       "fr": "juin"
+      }
+     ]
+    },
+    {
+     "h": "七 · sept",
+     "p": [
+      "**On** : シチ　**Kun** : なな",
+      "Un 7 retourné, barré."
+     ],
+     "vocab": [
+      {
+       "jp": "{七|なな}",
+       "fr": "sept"
+      },
+      {
+       "jp": "{七|なな}つ",
+       "fr": "sept (objets)"
+      },
+      {
+       "jp": "{七|しち}{月|がつ}",
+       "fr": "juillet"
+      }
+     ]
+    },
+    {
+     "h": "八 · huit",
+     "p": [
+      "**On** : ハチ　**Kun** : やっ(つ)",
+      "Deux traits qui s'écartent, comme un éventail qui s'ouvre."
+     ],
+     "vocab": [
+      {
+       "jp": "{八|やっ}つ",
+       "fr": "huit (objets)"
+      },
+      {
+       "jp": "{八|はっ}{百|ぴゃく}",
+       "fr": "huit cents"
+      },
+      {
+       "jp": "{八|はっ}{千|せん}",
+       "fr": "huit mille"
+      },
+      {
+       "jp": "{八|はち}{月|がつ}",
+       "fr": "août"
+      }
+     ]
+    },
+    {
+     "h": "九 · neuf",
+     "p": [
+      "**On** : キュウ、ク　**Kun** : ここの(つ)",
+      "Un bras courbé qui compte presque tout."
+     ],
+     "vocab": [
+      {
+       "jp": "{九|きゅう}",
+       "fr": "neuf"
+      },
+      {
+       "jp": "{九|ここの}つ",
+       "fr": "neuf (objets)"
+      },
+      {
+       "jp": "{九|く}{月|がつ}",
+       "fr": "septembre"
+      }
+     ]
+    },
+    {
+     "h": "十 · dix",
+     "p": [
+      "**On** : ジュウ　**Kun** : とお",
+      "Une croix : deux mains croisées, dix doigts."
+     ],
+     "vocab": [
+      {
+       "jp": "{十|とお}",
+       "fr": "dix (objets)"
+      },
+      {
+       "jp": "{十|じゅう}{月|がつ}",
+       "fr": "octobre"
+      },
+      {
+       "jp": "{二|に}{十|じゅう}",
+       "fr": "vingt"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "七 (sept) : ne le confonds pas avec 十 (dix).",
+    "八 (huit) : ne le confonds pas avec 人 (personne), 入 (entrer).",
+    "十 (dix) : ne le confonds pas avec 千 (mille), 七 (sept)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-09-六-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "六",
+     "explain": "**六** : six. Un toit et deux jambes.",
+     "type": "choice",
+     "choices": [
+      "nom",
+      "milieu, dans",
+      "six",
+      "je, moi"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-六-kanji",
+     "q": "Quel kanji veut dire « six » ?",
+     "explain": "**六** : six. Un toit et deux jambes.",
+     "type": "choice",
+     "choices": [
+      "六",
+      "穴",
+      "一",
+      "先"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-09-六つ-lecture",
+     "q": "Comment se lit **六つ** ?",
+     "explain": "{六|むっ}つ : six (objets).",
+     "type": "choice",
+     "choices": [
+      "けさ",
+      "ろくつ",
+      "むっつ",
+      "ちいさい"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-六つ-ecrit",
+     "q": "Quel mot s'écrit **むっつ** (six (objets)) ?",
+     "explain": "{六|むっ}つ : six (objets).",
+     "type": "choice",
+     "choices": [
+      "書つ",
+      "曜つ",
+      "穴つ",
+      "六つ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-09-七-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "七",
+     "explain": "**七** : sept. Un 7 retourné, barré.",
+     "type": "choice",
+     "choices": [
+      "sept",
+      "quoi, combien",
+      "huit",
+      "un"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-09-七-kanji",
+     "q": "Quel kanji veut dire « sept » ?",
+     "explain": "**七** : sept. Un 7 retourné, barré.",
+     "type": "choice",
+     "choices": [
+      "私",
+      "十",
+      "七",
+      "時"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-七-lecture",
+     "q": "Comment se lit **七** ?",
+     "explain": "{七|なな} : sept.",
+     "type": "choice",
+     "choices": [
+      "ごふん",
+      "しちがつ",
+      "なな",
+      "ごはん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-七つ-ecrit",
+     "q": "Quel mot s'écrit **ななつ** (sept (objets)) ?",
+     "explain": "{七|なな}つ : sept (objets).",
+     "type": "choice",
+     "choices": [
+      "魚つ",
+      "語つ",
+      "七つ",
+      "十つ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-八-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "八",
+     "explain": "**八** : huit. Deux traits qui s'écartent, comme un éventail qui s'ouvre.",
+     "type": "choice",
+     "choices": [
+      "personne",
+      "huit",
+      "trois",
+      "riz cuit, repas"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-09-八-kanji",
+     "q": "Quel kanji veut dire « huit » ?",
+     "explain": "**八** : huit. Deux traits qui s'écartent, comme un éventail qui s'ouvre.",
+     "type": "choice",
+     "choices": [
+      "入",
+      "学",
+      "人",
+      "八"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-09-八つ-lecture",
+     "q": "Comment se lit **八つ** ?",
+     "explain": "{八|やっ}つ : huit (objets).",
+     "type": "choice",
+     "choices": [
+      "はちつ",
+      "ちゅうごく",
+      "やっつ",
+      "なんようび"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-八つ-ecrit",
+     "q": "Quel mot s'écrit **やっつ** (huit (objets)) ?",
+     "explain": "{八|やっ}つ : huit (objets).",
+     "type": "choice",
+     "choices": [
+      "入つ",
+      "八つ",
+      "人つ",
+      "車つ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-09-九-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "九",
+     "explain": "**九** : neuf. Un bras courbé qui compte presque tout.",
+     "type": "choice",
+     "choices": [
+      "voiture, roue",
+      "neuf",
+      "heure, temps",
+      "vie, naître"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-09-九-kanji",
+     "q": "Quel kanji veut dire « neuf » ?",
+     "explain": "**九** : neuf. Un bras courbé qui compte presque tout.",
+     "type": "choice",
+     "choices": [
+      "九",
+      "力",
+      "学",
+      "魚"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-09-九-lecture",
+     "q": "Comment se lit **九** ?",
+     "explain": "{九|きゅう} : neuf.",
+     "type": "choice",
+     "choices": [
+      "じかん",
+      "ちいさい",
+      "きゅう",
+      "はなす"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-九-ecrit",
+     "q": "Quel mot s'écrit **きゅう** (neuf) ?",
+     "explain": "{九|きゅう} : neuf.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "力",
+      "週",
+      "九"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-09-十-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "十",
+     "explain": "**十** : dix. Une croix : deux mains croisées, dix doigts.",
+     "type": "choice",
+     "choices": [
+      "je, moi",
+      "dix",
+      "poisson",
+      "entendre, écouter"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-09-十-kanji",
+     "q": "Quel kanji veut dire « dix » ?",
+     "explain": "**十** : dix. Une croix : deux mains croisées, dix doigts.",
+     "type": "choice",
+     "choices": [
+      "七",
+      "行",
+      "十",
+      "千"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-十-lecture",
+     "q": "Comment se lit **十** ?",
+     "explain": "{十|とお} : dix (objets).",
+     "type": "choice",
+     "choices": [
+      "えき",
+      "とお",
+      "ください",
+      "しちがつ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-09-十月-trou",
+     "q": "Complète le mot **じゅうがつ** (octobre) :",
+     "jp": "十＿",
+     "explain": "{十|じゅう}{月|がつ} : octobre.",
+     "type": "choice",
+     "choices": [
+      "私",
+      "日",
+      "円",
+      "月"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-09-十-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**十**までかぞえてください。",
+     "fr": "Compte jusqu'à dix.",
+     "explain": "**十** se lit とお ici ({十|とお} : dix (objets)).",
+     "type": "choice",
+     "choices": [
+      "おおきい",
+      "みせる",
+      "とお",
+      "かようび"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-09-六つ-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{六|むっ}つ se lit むっつ, pas ろくつ.",
+     "type": "choice",
+     "choices": [
+      "六つ → ろくつ",
+      "八千 → はっせん",
+      "六百 → ろっぴゃく",
+      "二十 → にじゅう"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k5-10",
+   "title": "Grands nombres et argent : 百 千 万 円 買",
+   "sections": [
+    {
+     "h": "百 · cent",
+     "p": [
+      "**On** : ヒャク　**Kun** : —",
+      "Un trait sur 白 (blanc)."
+     ],
+     "vocab": [
+      {
+       "jp": "{百|ひゃく}",
+       "fr": "cent"
+      },
+      {
+       "jp": "{三|さん}{百|びゃく}",
+       "fr": "trois cents"
+      },
+      {
+       "jp": "{六|ろっ}{百|ぴゃく}",
+       "fr": "six cents"
+      },
+      {
+       "jp": "{八|はっ}{百|ぴゃく}",
+       "fr": "huit cents"
+      }
+     ]
+    },
+    {
+     "h": "千 · mille",
+     "p": [
+      "**On** : セン　**Kun** : ち",
+      "Dix 十 avec un petit trait sur la tête."
+     ],
+     "vocab": [
+      {
+       "jp": "{千|せん}",
+       "fr": "mille"
+      },
+      {
+       "jp": "{三|さん}{千|ぜん}",
+       "fr": "trois mille"
+      },
+      {
+       "jp": "{八|はっ}{千|せん}",
+       "fr": "huit mille"
+      }
+     ]
+    },
+    {
+     "h": "万 · dix mille",
+     "p": [
+      "**On** : マン、バン　**Kun** : —",
+      "Le japonais compte par paquets de dix mille : 一万, pas « dix mille » en deux mots."
+     ],
+     "vocab": [
+      {
+       "jp": "{一|いち}{万|まん}",
+       "fr": "dix mille"
+      },
+      {
+       "jp": "{十|じゅう}{万|まん}",
+       "fr": "cent mille"
+      }
+     ]
+    },
+    {
+     "h": "円 · yen, cercle",
+     "p": [
+      "**On** : エン　**Kun** : まる(い)",
+      "Une pièce de monnaie posée dans un cadre."
+     ],
+     "vocab": [
+      {
+       "jp": "{円|えん}",
+       "fr": "yen"
+      },
+      {
+       "jp": "{百|ひゃく}{円|えん}",
+       "fr": "cent yens"
+      }
+     ]
+    },
+    {
+     "h": "買 · acheter",
+     "p": [
+      "**On** : バイ　**Kun** : か(う)",
+      "Un coquillage 貝 (l'ancienne monnaie) sous un filet."
+     ],
+     "vocab": [
+      {
+       "jp": "{買|か}う",
+       "fr": "acheter"
+      },
+      {
+       "jp": "{買|か}い{物|もの}",
+       "fr": "courses, achats"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "百 (cent) : ne le confonds pas avec 白 (blanc).",
+    "千 (mille) : ne le confonds pas avec 十 (dix).",
+    "買 (acheter) : ne le confonds pas avec 見 (voir)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-10-百-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "百",
+     "explain": "**百** : cent. Un trait sur 白 (blanc).",
+     "type": "choice",
+     "choices": [
+      "cent",
+      "venir",
+      "lire",
+      "école"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-10-百-kanji",
+     "q": "Quel kanji veut dire « cent » ?",
+     "explain": "**百** : cent. Un trait sur 白 (blanc).",
+     "type": "choice",
+     "choices": [
+      "百",
+      "週",
+      "買",
+      "白"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-10-百-lecture",
+     "q": "Comment se lit **百** ?",
+     "explain": "{百|ひゃく} : cent.",
+     "type": "choice",
+     "choices": [
+      "がくせい",
+      "くるま",
+      "はちがつ",
+      "ひゃく"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-六百-trou",
+     "q": "Complète le mot **ろっぴゃく** (six cents) :",
+     "jp": "六＿",
+     "explain": "{六|ろっ}{百|ぴゃく} : six cents.",
+     "type": "choice",
+     "choices": [
+      "百",
+      "読",
+      "聞",
+      "白"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-10-千-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "千",
+     "explain": "**千** : mille. Dix 十 avec un petit trait sur la tête.",
+     "type": "choice",
+     "choices": [
+      "deux",
+      "mille",
+      "voiture, roue",
+      "dix"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-千-kanji",
+     "q": "Quel kanji veut dire « mille » ?",
+     "explain": "**千** : mille. Dix 十 avec un petit trait sur la tête.",
+     "type": "choice",
+     "choices": [
+      "十",
+      "読",
+      "千",
+      "干"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-10-千-lecture",
+     "q": "Comment se lit **千** ?",
+     "explain": "{千|せん} : mille.",
+     "type": "choice",
+     "choices": [
+      "のみもの",
+      "せん",
+      "はちがつ",
+      "きのう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-三千-trou",
+     "q": "Complète le mot **さんぜん** (trois mille) :",
+     "jp": "三＿",
+     "explain": "{三|さん}{千|ぜん} : trois mille.",
+     "type": "choice",
+     "choices": [
+      "千",
+      "十",
+      "干",
+      "万"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-10-万-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "万",
+     "explain": "**万** : dix mille. Le japonais compte par paquets de dix mille : 一万, pas « dix mille » en deux mots.",
+     "type": "choice",
+     "choices": [
+      "poisson",
+      "maintenant",
+      "aller",
+      "dix mille"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-万-kanji",
+     "q": "Quel kanji veut dire « dix mille » ?",
+     "explain": "**万** : dix mille. Le japonais compte par paquets de dix mille : 一万, pas « dix mille » en deux mots.",
+     "type": "choice",
+     "choices": [
+      "百",
+      "万",
+      "日",
+      "方"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-一万-lecture",
+     "q": "Comment se lit **一万** ?",
+     "explain": "{一|いち}{万|まん} : dix mille.",
+     "type": "choice",
+     "choices": [
+      "いちばん",
+      "いちまん",
+      "ひとまん",
+      "たいせつ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-十万-trou",
+     "q": "Complète le mot **じゅうまん** (cent mille) :",
+     "jp": "十＿",
+     "explain": "{十|じゅう}{万|まん} : cent mille.",
+     "type": "choice",
+     "choices": [
+      "駅",
+      "方",
+      "万",
+      "八"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-10-円-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "円",
+     "explain": "**円** : yen, cercle. Une pièce de monnaie posée dans un cadre.",
+     "type": "choice",
+     "choices": [
+      "semaine",
+      "trois",
+      "lire",
+      "yen, cercle"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-円-kanji",
+     "q": "Quel kanji veut dire « yen, cercle » ?",
+     "explain": "**円** : yen, cercle. Une pièce de monnaie posée dans un cadre.",
+     "type": "choice",
+     "choices": [
+      "駅",
+      "九",
+      "小",
+      "円"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-円-lecture",
+     "q": "Comment se lit **円** ?",
+     "explain": "{円|えん} : yen.",
+     "type": "choice",
+     "choices": [
+      "でんわ",
+      "じかん",
+      "ごはん",
+      "えん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-百円-trou",
+     "q": "Complète le mot **ひゃくえん** (cent yens) :",
+     "jp": "百＿",
+     "explain": "{百|ひゃく}{円|えん} : cent yens.",
+     "type": "choice",
+     "choices": [
+      "買",
+      "円",
+      "飲",
+      "車"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-買-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "買",
+     "explain": "**買** : acheter. Un coquillage 貝 (l'ancienne monnaie) sous un filet.",
+     "type": "choice",
+     "choices": [
+      "eau",
+      "acheter",
+      "quoi, combien",
+      "livre, origine"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-買-kanji",
+     "q": "Quel kanji veut dire « acheter » ?",
+     "explain": "**買** : acheter. Un coquillage 貝 (l'ancienne monnaie) sous un filet.",
+     "type": "choice",
+     "choices": [
+      "買",
+      "十",
+      "中",
+      "見"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-10-買う-lecture",
+     "q": "Comment se lit **買う** ?",
+     "explain": "{買|か}う : acheter.",
+     "type": "choice",
+     "choices": [
+      "ひと",
+      "ばいう",
+      "かう",
+      "ごふん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-10-買う-ecrit",
+     "q": "Quel mot s'écrit **かう** (acheter) ?",
+     "explain": "{買|か}う : acheter.",
+     "type": "choice",
+     "choices": [
+      "小う",
+      "買う",
+      "語う",
+      "見う"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-10-百円-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**百円**ショップで{買|か}いました。",
+     "fr": "Je l'ai acheté dans une boutique à 100 yens.",
+     "explain": "**百円** se lit ひゃくえん ici ({百|ひゃく}{円|えん} : cent yens).",
+     "type": "choice",
+     "choices": [
+      "ひゃくえん",
+      "ちゅうがくせい",
+      "みっつ",
+      "のみもの"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-10-買う-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "コンビニで{水|みず}を**買**います。",
+     "fr": "J'achète de l'eau à la supérette.",
+     "explain": "**買** se lit か ici ({買|か}う : acheter).",
+     "type": "choice",
+     "choices": [
+      "ばい",
+      "だ",
+      "あ",
+      "か"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-買い物-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "きのうは**買い物**をしたり、{友|とも}だちに{会|あ}ったりしました。",
+     "fr": "Hier, j'ai fait des courses, vu des amis…",
+     "explain": "**買い物** se lit かいもの ici ({買|か}い{物|もの} : courses, achats).",
+     "type": "choice",
+     "choices": [
+      "ちゅうがくせい",
+      "おとな",
+      "しょうがっこう",
+      "かいもの"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-10-三百-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{三|さん}{百|びゃく} se lit さんびゃく, pas さんひゃく.",
+     "type": "choice",
+     "choices": [
+      "三百 → さんひゃく",
+      "買い物 → かいもの",
+      "百 → ひゃく",
+      "一万 → いちまん"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ],
+ "test": [
+  {
+   "id": "k5-b02-先週-lecture",
+   "q": "Comment se lit **先週** ?",
+   "explain": "{先|せん}{週|しゅう} : la semaine dernière.",
+   "type": "choice",
+   "choices": [
+    "きんようび",
+    "さきしゅう",
+    "せんしゅう",
+    "きょう"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-先月-lecture",
+   "q": "Comment se lit **先月** ?",
+   "explain": "{先|せん}{月|げつ} : le mois dernier.",
+   "type": "choice",
+   "choices": [
+    "さきげつ",
+    "せんつき",
+    "せんげつ",
+    "えき"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-生まれる-lecture",
+   "q": "Comment se lit **生まれる** ?",
+   "explain": "{生|う}まれる : naître.",
+   "type": "choice",
+   "choices": [
+    "うまれる",
+    "せいまれる",
+    "らいげつ",
+    "しょうまれる"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-大学生-lecture",
+   "q": "Comment se lit **大学生** ?",
+   "explain": "{大|だい}{学|がく}{生|せい} : étudiant d'université.",
+   "type": "choice",
+   "choices": [
+    "だいがくい",
+    "だいがくせい",
+    "おおがくせい",
+    "こんしゅう"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-大学-lecture",
+   "q": "Comment se lit **大学** ?",
+   "explain": "{大|だい}{学|がく} : université.",
+   "type": "choice",
+   "choices": [
+    "おおがく",
+    "だいがく",
+    "たいがく",
+    "さかな"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-高校生-lecture",
+   "q": "Comment se lit **高校生** ?",
+   "explain": "{高|こう}{校|こう}{生|せい} : lycéen.",
+   "type": "choice",
+   "choices": [
+    "こうこうう",
+    "こうこうせい",
+    "こうこうい",
+    "まいばん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-友人-lecture",
+   "q": "Comment se lit **友人** ?",
+   "explain": "{友|ゆう}{人|じん} : ami(e) (soutenu).",
+   "type": "choice",
+   "choices": [
+    "ゆうじん",
+    "ゆうにん",
+    "ともじん",
+    "しがつ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-有名-lecture",
+   "q": "Comment se lit **有名** ?",
+   "explain": "{有|ゆう}{名|めい} : célèbre.",
+   "type": "choice",
+   "choices": [
+    "しょくどう",
+    "ゆうめい",
+    "なまえ",
+    "ゆうな"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-上手-lecture",
+   "q": "Comment se lit **上手** ?",
+   "explain": "{上手|じょうず} : doué, habile.",
+   "type": "choice",
+   "choices": [
+    "ふたり",
+    "たいせつ",
+    "まいあさ",
+    "じょうず"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02-下手-lecture",
+   "q": "Comment se lit **下手** ?",
+   "explain": "{下手|へた} : maladroit, pas doué.",
+   "type": "choice",
+   "choices": [
+    "ことし",
+    "おとな",
+    "へた",
+    "むっつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-地下鉄-lecture",
+   "q": "Comment se lit **地下鉄** ?",
+   "explain": "{地|ち}{下|か}{鉄|てつ} : métro.",
+   "type": "choice",
+   "choices": [
+    "ちくだてつ",
+    "ちげてつ",
+    "ちかてつ",
+    "いつつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-下さい-lecture",
+   "q": "Comment se lit **下さい** ?",
+   "explain": "{下|くだ}さい : donnez-moi, s'il vous plaît.",
+   "type": "choice",
+   "choices": [
+    "かさい",
+    "げさい",
+    "ください",
+    "ごがつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-中国-lecture",
+   "q": "Comment se lit **中国** ?",
+   "explain": "{中|ちゅう}{国|ごく} : Chine.",
+   "type": "choice",
+   "choices": [
+    "ちゅうくに",
+    "ちゅうこく",
+    "ろくがつ",
+    "ちゅうごく"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02-中学生-lecture",
+   "q": "Comment se lit **中学生** ?",
+   "explain": "{中|ちゅう}{学|がく}{生|せい} : collégien.",
+   "type": "choice",
+   "choices": [
+    "ちゅうがくせい",
+    "ちゅうがくしょう",
+    "じゅうがくせい",
+    "としょかん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-大切-lecture",
+   "q": "Comment se lit **大切** ?",
+   "explain": "{大|たい}{切|せつ} : important, précieux.",
+   "type": "choice",
+   "choices": [
+    "たいせつ",
+    "げつようび",
+    "だいせつ",
+    "おおせつ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-大人-lecture",
+   "q": "Comment se lit **大人** ?",
+   "explain": "{大人|おとな} : adulte.",
+   "type": "choice",
+   "choices": [
+    "ひとつ",
+    "なな",
+    "なんにん",
+    "おとな"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02-小学校-lecture",
+   "q": "Comment se lit **小学校** ?",
+   "explain": "{小|しょう}{学|がっ}{校|こう} : école primaire.",
+   "type": "choice",
+   "choices": [
+    "しょうまなこう",
+    "きんようび",
+    "ちいがっこう",
+    "しょうがっこう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02-一人-lecture",
+   "q": "Comment se lit **一人** ?",
+   "explain": "{一人|ひとり} : une personne, seul.",
+   "type": "choice",
+   "choices": [
+    "ひとり",
+    "たべもの",
+    "おおきい",
+    "きんようび"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-一日-lecture",
+   "q": "Comment se lit **一日** ?",
+   "explain": "{一日|ついたち} : le 1er du mois.",
+   "type": "choice",
+   "choices": [
+    "くがつ",
+    "ついたち",
+    "いま",
+    "こうこう"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-二月-lecture",
+   "q": "Comment se lit **二月** ?",
+   "explain": "{二|に}{月|がつ} : février.",
+   "type": "choice",
+   "choices": [
+    "にがつ",
+    "にげつ",
+    "ふたがつ",
+    "わたし"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-二人-lecture",
+   "q": "Comment se lit **二人** ?",
+   "explain": "{二人|ふたり} : deux personnes.",
+   "type": "choice",
+   "choices": [
+    "ひゃく",
+    "ふたり",
+    "だいがく",
+    "じゅうまん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-三百-lecture",
+   "q": "Comment se lit **三百** ?",
+   "explain": "{三|さん}{百|びゃく} : trois cents.",
+   "type": "choice",
+   "choices": [
+    "さんびゃく",
+    "みっびゃく",
+    "さんひゃく",
+    "せんせい"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-三千-lecture",
+   "q": "Comment se lit **三千** ?",
+   "explain": "{三|さん}{千|ぜん} : trois mille.",
+   "type": "choice",
+   "choices": [
+    "みっぜん",
+    "さんせん",
+    "さんぜん",
+    "まいあさ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-四つ-lecture",
+   "q": "Comment se lit **四つ** ?",
+   "explain": "{四|よっ}つ : quatre (objets).",
+   "type": "choice",
+   "choices": [
+    "よっつ",
+    "よんつ",
+    "しつ",
+    "ともだち"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02-先生-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**先生**の{話|はなし}は{長|なが}いです。",
+   "fr": "Les discours du professeur sont longs.",
+   "explain": "**先生** se lit せんせい ici ({先|せん}{生|せい} : professeur).",
+   "type": "choice",
+   "choices": [
+    "せんしょう",
+    "せんせい",
+    "せんなま",
+    "せんう"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02-先週-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**先週**、{東京|とうきょう}に{行|い}きました。",
+   "fr": "La semaine dernière, je suis allé à Tokyo.",
+   "explain": "**先週** se lit せんしゅう ici ({先|せん}{週|しゅう} : la semaine dernière).",
+   "type": "choice",
+   "choices": [
+    "よっつ",
+    "くるま",
+    "にじゅう",
+    "せんしゅう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02-学生-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{教室|きょうしつ}に**学生**が{二十人|にじゅうにん}います。",
+   "fr": "Il y a vingt étudiants dans la salle.",
+   "explain": "**学生** se lit がくせい ici ({学|がく}{生|せい} : étudiant).",
+   "type": "choice",
+   "choices": [
+    "まなせい",
+    "がくう",
+    "がくせい",
+    "がくなま"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-大学生-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{田中|たなか}さんは**大学生**です。",
+   "fr": "M. Tanaka est étudiant.",
+   "explain": "**大学生** se lit だいがくせい ici ({大|だい}{学|がく}{生|せい} : étudiant d'université).",
+   "type": "choice",
+   "choices": [
+    "たいがくせい",
+    "だいがくい",
+    "だいがくせい",
+    "おおがくせい"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-学校-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{子|こ}どもは{八時|はちじ}に**学校**へ{行|い}きます。",
+   "fr": "Les enfants vont à l'école à huit heures.",
+   "explain": "**学校** se lit がっこう ici ({学|がっ}{校|こう} : école).",
+   "type": "choice",
+   "choices": [
+    "ほん",
+    "たいせつ",
+    "がっこう",
+    "はちがつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02-大学-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{兄|あに}は{東京|とうきょう}の**大学**で{勉強|べんきょう}しています。",
+   "fr": "Mon grand frère étudie dans une université de Tokyo.",
+   "explain": "**大学** se lit だいがく ici ({大|だい}{学|がく} : université).",
+   "type": "choice",
+   "choices": [
+    "だいがく",
+    "たいがく",
+    "だいまな",
+    "おおがく"
+   ],
+   "a": 0
+  }
+ ],
+ "examTest": [
+  {
+   "id": "k5-b02x-先生-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**先生**、おはようございます。",
+   "fr": "Bonjour, monsieur (le matin).",
+   "explain": "**先生** se lit せんせい ici ({先|せん}{生|せい} : professeur).",
+   "type": "choice",
+   "choices": [
+    "せんなま",
+    "せんせい",
+    "せんう",
+    "せんい"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02x-学生-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "私は**学生**です。",
+   "fr": "Je suis étudiant(e).",
+   "explain": "**学生** se lit がくせい ici ({学|がく}{生|せい} : étudiant).",
+   "type": "choice",
+   "choices": [
+    "がくせい",
+    "がくい",
+    "がくなま",
+    "がくう"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02x-学校-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**学校**に行きます。",
+   "fr": "Je vais à l'école.",
+   "explain": "**学校** se lit がっこう ici ({学|がっ}{校|こう} : école).",
+   "type": "choice",
+   "choices": [
+    "とけい",
+    "がっこう",
+    "いく",
+    "うえ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b02x-友だち-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**友だち**にプレゼントをあげました。",
+   "fr": "J'ai offert un cadeau à un ami.",
+   "explain": "**友だち** se lit ともだち ici ({友|とも}だち : ami(e)).",
+   "type": "choice",
+   "choices": [
+    "きゅう",
+    "のむ",
+    "くる",
+    "ともだち"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02x-上-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "つくえの**上**に本があります。",
+   "fr": "Il y a un livre sur le bureau.",
+   "explain": "**上** se lit うえ ici ({上|うえ} : dessus, en haut).",
+   "type": "choice",
+   "choices": [
+    "みせる",
+    "らいげつ",
+    "きょう",
+    "うえ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02x-中-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "かばんの**中**に本があります。",
+   "fr": "Il y a un livre dans le sac.",
+   "explain": "**中** se lit なか ici ({中|なか} : intérieur, dedans).",
+   "type": "choice",
+   "choices": [
+    "かいもの",
+    "じてんしゃ",
+    "おんなのひと",
+    "なか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02x-大きい-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "とても**大きい**です。",
+   "fr": "C'est très grand.",
+   "explain": "**大きい** se lit おおきい ici ({大|おお}きい : grand).",
+   "type": "choice",
+   "choices": [
+    "おおきい",
+    "もくようび",
+    "まいあさ",
+    "らいげつ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02x-一つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "コーヒーを**一つ**、おねがいします。",
+   "fr": "Un café, s'il vous plaît.",
+   "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)).",
+   "type": "choice",
+   "choices": [
+    "まいにち",
+    "ちゅうがくせい",
+    "いちがつ",
+    "ひとつ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02x-二つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "コーヒーを**二つ**おねがいします。",
+   "fr": "Deux cafés, s'il vous plaît.",
+   "explain": "**二つ** se lit ふたつ ici ({二|ふた}つ : deux (objets)).",
+   "type": "choice",
+   "choices": [
+    "おおきい",
+    "でんわ",
+    "ななつ",
+    "ふたつ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b02x-三つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "たまごを**三**つ買いました。",
+   "fr": "J'ai acheté trois œufs.",
+   "explain": "**三** se lit みっ ici ({三|みっ}つ : trois (objets)).",
+   "type": "choice",
+   "choices": [
+    "あさ",
+    "した",
+    "みっ",
+    "あめ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b02x-四つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "いすが**四つ**あります。",
+   "fr": "Il y a quatre chaises.",
+   "explain": "**四つ** se lit よっつ ici ({四|よっ}つ : quatre (objets)).",
+   "type": "choice",
+   "choices": [
+    "よっつ",
+    "かようび",
+    "らいねん",
+    "ついたち"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b02x-五つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "このりんごは**五つ**で五百円です。",
+   "fr": "Ces pommes, c'est 500 yens les cinq.",
+   "explain": "**五つ** se lit いつつ ici ({五|いつ}つ : cinq (objets)).",
+   "type": "choice",
+   "choices": [
+    "ごがつ",
+    "はなし",
+    "たいせつ",
+    "いつつ"
+   ],
+   "a": 3
+  }
+ ]
+}

@@ -1,0 +1,1886 @@
+{
+ "id": "k5-b06",
+ "level": "N5",
+ "title": "Lire sans aide",
+ "test": [
+  {
+   "id": "k5-b06-書く-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "えんぴつで**書**いてもいいですか。",
+   "fr": "Je peux écrire au crayon ?",
+   "explain": "**書** se lit か ici ({書|か}く : écrire).",
+   "type": "choice",
+   "choices": [
+    "さ",
+    "ま",
+    "あ",
+    "か"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06-駅-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "すみません、**駅**はどこですか。",
+   "fr": "Excusez-moi, où est la gare ?",
+   "explain": "**駅** se lit えき ici ({駅|えき} : gare).",
+   "type": "choice",
+   "choices": [
+    "わたし",
+    "かいもの",
+    "えき",
+    "ゆうじん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06-車-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "この道はせまいですから、**車**に気をつけてください。",
+   "fr": "Cette rue est étroite, alors faites attention aux voitures.",
+   "explain": "**車** se lit くるま ici ({車|くるま} : voiture).",
+   "type": "choice",
+   "choices": [
+    "くるま",
+    "はは",
+    "なんじ",
+    "ひとり"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06-友だち-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**友だち**にプレゼントをあげました。",
+   "fr": "J'ai offert un cadeau à un ami.",
+   "explain": "**友だち** se lit ともだち ici ({友|とも}だち : ami(e)).",
+   "type": "choice",
+   "choices": [
+    "いりぐち",
+    "ごがつ",
+    "ついたち",
+    "ともだち"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06-人-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "あの**人**はだれですか。",
+   "fr": "Qui est cette personne ?",
+   "explain": "**人** se lit ひと ici ({人|ひと} : personne).",
+   "type": "choice",
+   "choices": [
+    "ひと",
+    "ちゅうがくせい",
+    "のみもの",
+    "こども"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06-新しい-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**新しい**くつをはきました。",
+   "fr": "J'ai mis mes nouvelles chaussures.",
+   "explain": "**新しい** se lit あたらしい ici ({新|あたら}しい : nouveau).",
+   "type": "choice",
+   "choices": [
+    "うんてんしゅ",
+    "あたらしい",
+    "だいがくせい",
+    "ひがし"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b06-国-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "お**国**はどちらですか。",
+   "fr": "De quel pays venez-vous ?",
+   "explain": "**国** se lit くに ici ({国|くに} : pays).",
+   "type": "choice",
+   "choices": [
+    "ひだり",
+    "じゅうまん",
+    "くに",
+    "しがつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06-子ども-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**子ども**はテレビを見ています。",
+   "fr": "Les enfants regardent la télé.",
+   "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant).",
+   "type": "choice",
+   "choices": [
+    "たいせつ",
+    "がくせい",
+    "こども",
+    "ひとり"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06-天気-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "こんにちは。いい**天気**ですね。",
+   "fr": "Bonjour. Il fait beau, hein.",
+   "explain": "**天気** se lit てんき ici ({天|てん}{気|き} : temps (météo)).",
+   "type": "choice",
+   "choices": [
+    "あめき",
+    "あまき",
+    "てんけ",
+    "てんき"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06-学校-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**学校**に行きます。",
+   "fr": "Je vais à l'école.",
+   "explain": "**学校** se lit がっこう ici ({学|がっ}{校|こう} : école).",
+   "type": "choice",
+   "choices": [
+    "えん",
+    "にほんご",
+    "がっこう",
+    "おんなのこ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06-毎朝-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**毎朝**テレビでニュースを見ます。",
+   "fr": "Tous les matins, je regarde les informations à la télé.",
+   "explain": "**毎朝** se lit まいあさ ici ({毎|まい}{朝|あさ} : tous les matins).",
+   "type": "choice",
+   "choices": [
+    "まいあさ",
+    "ちかてつ",
+    "しょくどう",
+    "ことし"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06-帰る-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "いっしょに**帰**りましょう。",
+   "fr": "Rentrons ensemble.",
+   "explain": "**帰** se lit かえ ici ({帰|かえ}る : rentrer).",
+   "type": "choice",
+   "choices": [
+    "めし",
+    "とも",
+    "かえ",
+    "なん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06-雨-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**雨**なので、出かけません。",
+   "fr": "Comme il pleut, je ne sors pas.",
+   "explain": "**雨** se lit あめ ici ({雨|あめ} : pluie).",
+   "type": "choice",
+   "choices": [
+    "あめ",
+    "みる",
+    "おんなのひと",
+    "じょうず"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06-中-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "かばんの**中**に本があります。",
+   "fr": "Il y a un livre dans le sac.",
+   "explain": "**中** se lit なか ici ({中|なか} : intérieur, dedans).",
+   "type": "choice",
+   "choices": [
+    "さくねん",
+    "まいにち",
+    "あと",
+    "なか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06-会社-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "毎朝電車で**会社**へ行きます。",
+   "fr": "Tous les matins, je vais au bureau en train.",
+   "explain": "**会社** se lit かいしゃ ici ({会|かい}{社|しゃ} : entreprise).",
+   "type": "choice",
+   "choices": [
+    "あしゃ",
+    "かいしゃ",
+    "えしゃ",
+    "かいやしろ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b06-一つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "りんごを**一つ**ください。",
+   "fr": "Une pomme, s'il vous plaît.",
+   "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)).",
+   "type": "choice",
+   "choices": [
+    "そら",
+    "うんてんしゅ",
+    "ひとつ",
+    "にほんご"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06-お金-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "さいふに**お金**がありません。",
+   "fr": "Il n'y a pas d'argent dans mon porte-monnaie.",
+   "explain": "**お金** se lit おかね ici (お{金|かね} : argent).",
+   "type": "choice",
+   "choices": [
+    "きた",
+    "えき",
+    "にほん",
+    "おかね"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06-先生-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**先生**、おはようございます。",
+   "fr": "Bonjour, monsieur (le matin).",
+   "explain": "**先生** se lit せんせい ici ({先|せん}{生|せい} : professeur).",
+   "type": "choice",
+   "choices": [
+    "せんしょう",
+    "せんい",
+    "せんせい",
+    "せんう"
+   ],
+   "a": 2
+  }
+ ],
+ "examTest": [
+  {
+   "id": "k5-b06x-書く-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "ここに名前を**書**いてください。",
+   "fr": "Écrivez votre nom ici, s'il vous plaît.",
+   "explain": "**書** se lit か ici ({書|か}く : écrire).",
+   "type": "choice",
+   "choices": [
+    "わ",
+    "た",
+    "め",
+    "か"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06x-人-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "あの**人**は先生です。",
+   "fr": "Cette personne là-bas est professeur.",
+   "explain": "**人** se lit ひと ici ({人|ひと} : personne).",
+   "type": "choice",
+   "choices": [
+    "ごがつ",
+    "じょうず",
+    "あいだ",
+    "ひと"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06x-読む-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "本を**読む**とき、めがねをかけます。",
+   "fr": "Quand je lis, je mets mes lunettes.",
+   "explain": "**読む** se lit よむ ici ({読|よ}む : lire).",
+   "type": "choice",
+   "choices": [
+    "ごふん",
+    "いう",
+    "みみ",
+    "よむ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b06x-今週-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**今週**はいそがしいです。",
+   "fr": "Cette semaine, je suis occupé.",
+   "explain": "**今週** se lit こんしゅう ici ({今|こん}{週|しゅう} : cette semaine).",
+   "type": "choice",
+   "choices": [
+    "なんにん",
+    "おとな",
+    "こんしゅう",
+    "くち"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06x-話-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "先生の**話**はおもしろいです。",
+   "fr": "Ce que raconte le professeur est intéressant.",
+   "explain": "**話** se lit はなし ici ({話|はなし} : histoire, conversation).",
+   "type": "choice",
+   "choices": [
+    "とお",
+    "いく",
+    "はなし",
+    "たつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06x-日曜日-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "今月の二十日は**日曜日**です。",
+   "fr": "Le 20 de ce mois tombe un dimanche.",
+   "explain": "**日曜日** se lit にちようび ici ({日|にち}{曜|よう}{日|び} : dimanche).",
+   "type": "choice",
+   "choices": [
+    "にちようにち",
+    "にちようび",
+    "ひようび",
+    "にちようか"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b06x-新しい-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**新しい**ことばを毎日十おぼえます。",
+   "fr": "Je retiens dix mots nouveaux par jour.",
+   "explain": "**新しい** se lit あたらしい ici ({新|あたら}しい : nouveau).",
+   "type": "choice",
+   "choices": [
+    "はなす",
+    "にほんじん",
+    "あたらしい",
+    "つち"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b06x-一つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "コーヒーを**一つ**、おねがいします。",
+   "fr": "Un café, s'il vous plaît.",
+   "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)).",
+   "type": "choice",
+   "choices": [
+    "はん",
+    "ひとつ",
+    "さかな",
+    "ながい"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b06x-高い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "あまり**高**くないです。",
+   "fr": "Ce n'est pas très cher.",
+   "explain": "**高** se lit たか ici ({高|たか}い : haut, cher).",
+   "type": "choice",
+   "choices": [
+    "たか",
+    "にし",
+    "のぼ",
+    "やま"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06x-上-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "つくえの**上**に本があります。",
+   "fr": "Il y a un livre sur le bureau.",
+   "explain": "**上** se lit うえ ici ({上|うえ} : dessus, en haut).",
+   "type": "choice",
+   "choices": [
+    "うえ",
+    "はっぴゃく",
+    "きょねん",
+    "ほん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06x-日本人-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "私も**日本人**じゃありません。",
+   "fr": "Moi non plus, je ne suis pas japonais.",
+   "explain": "**日本人** se lit にほんじん ici ({日|に}{本|ほん}{人|じん} : Japonais(e)).",
+   "type": "choice",
+   "choices": [
+    "にほんじん",
+    "じつほんじん",
+    "かほんじん",
+    "にほんにん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b06x-見る-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "テレビをつけて、ニュースを**見**ます。",
+   "fr": "J'allume la télé et je regarde les informations.",
+   "explain": "**見** se lit み ici ({見|み}る : voir, regarder).",
+   "type": "choice",
+   "choices": [
+    "み",
+    "だ",
+    "こ",
+    "た"
+   ],
+   "a": 0
+  }
+ ],
+ "lessons": [
+  {
+   "id": "k5-26",
+   "title": "Sans aide : les kanji du bloc 1",
+   "sections": [
+    {
+     "h": "Plus de filet",
+     "p": [
+      "Ici, les kanji du N5 n'ont plus de furigana : seuls ceux hors programme en gardent. Lis toute la phrase avant de répondre, le contexte t'aide.",
+      "Le bouton 漢 ne changera rien sur ces mots : ils sont vraiment écrits sans lecture."
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k5-26-行く-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今年は日本へ**行**きたいです。",
+     "fr": "Cette année, je veux aller au Japon.",
+     "explain": "**行** se lit い ici ({行|い}く : aller).",
+     "type": "choice",
+     "choices": [
+      "い",
+      "おこな",
+      "ぎょう",
+      "こう"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-02"
+     ]
+    },
+    {
+     "id": "k5-26-車-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "新しい**車**を買いました。",
+     "fr": "J'ai acheté une voiture neuve.",
+     "explain": "**車** se lit くるま ici ({車|くるま} : voiture).",
+     "type": "choice",
+     "choices": [
+      "あんしん",
+      "くるま",
+      "いう",
+      "ちゅうがくせい"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-02"
+     ]
+    },
+    {
+     "id": "k5-26-電車-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "バスはおそいですから、**電車**で行きます。",
+     "fr": "Le bus est lent, alors j'y vais en train.",
+     "explain": "**電車** se lit でんしゃ ici ({電|でん}{車|しゃ} : train).",
+     "type": "choice",
+     "choices": [
+      "いま",
+      "でんしゃ",
+      "すいようび",
+      "かしゅ"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-17"
+     ]
+    },
+    {
+     "id": "k5-26-毎朝-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**毎朝**コーヒーを飲みます。",
+     "fr": "Je bois du café tous les matins.",
+     "explain": "**毎朝** se lit まいあさ ici ({毎|まい}{朝|あさ} : tous les matins).",
+     "type": "choice",
+     "choices": [
+      "いえ",
+      "こうこう",
+      "まいあさ",
+      "どようび"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-26-何時-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今、**何時**ですか。",
+     "fr": "Quelle heure est-il (maintenant) ?",
+     "explain": "**何時** se lit なんじ ici ({何|なん}{時|じ} : quelle heure).",
+     "type": "choice",
+     "choices": [
+      "かじ",
+      "なんじ",
+      "なにじ",
+      "なんとき"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-26-話す-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "母と電話で**話**します。",
+     "fr": "Je parle avec ma mère au téléphone.",
+     "explain": "**話** se lit はな ici ({話|はな}す : parler).",
+     "type": "choice",
+     "choices": [
+      "そと",
+      "くに",
+      "なが",
+      "はな"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-04"
+     ]
+    },
+    {
+     "id": "k5-26-水-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "コンビニで**水**を買います。",
+     "fr": "J'achète de l'eau à la supérette.",
+     "explain": "**水** se lit みず ici ({水|みず} : eau).",
+     "type": "choice",
+     "choices": [
+      "せん",
+      "はっぴゃく",
+      "みず",
+      "ゆうめい"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-03"
+     ]
+    },
+    {
+     "id": "k5-26-駅-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**駅**で友だちに会います。",
+     "fr": "Je retrouve un ami à la gare.",
+     "explain": "**駅** se lit えき ici ({駅|えき} : gare).",
+     "type": "choice",
+     "choices": [
+      "えき",
+      "ほん",
+      "にがつ",
+      "かえる"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-02"
+     ]
+    },
+    {
+     "id": "k5-26-日本人-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**日本人**はよく魚を食べます。",
+     "fr": "Les Japonais mangent souvent du poisson.",
+     "explain": "**日本人** se lit にほんじん ici ({日|に}{本|ほん}{人|じん} : Japonais(e)).",
+     "type": "choice",
+     "choices": [
+      "にほんじん",
+      "かほんじん",
+      "ひほんじん",
+      "にちほんじん"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-01"
+     ]
+    },
+    {
+     "id": "k5-26-何曜日-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今日は**何曜日**ですか。— 水曜日です。",
+     "fr": "On est quel jour aujourd'hui ? — Mercredi.",
+     "explain": "**何曜日** se lit なんようび ici ({何|なん}{曜|よう}{日|び} : quel jour de la semaine).",
+     "type": "choice",
+     "choices": [
+      "なんようび",
+      "なんようじつ",
+      "なんようひ",
+      "なにようび"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-26-毎日-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**毎日**ご飯を食べます。",
+     "fr": "Je mange du riz tous les jours.",
+     "explain": "**毎日** se lit まいにち ici ({毎|まい}{日|にち} : tous les jours).",
+     "type": "choice",
+     "choices": [
+      "まいか",
+      "まいじつ",
+      "まいひ",
+      "まいにち"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-26-朝ご飯-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今朝は**朝ご飯**を食べませんでした。",
+     "fr": "Ce matin, je n'ai pas pris de petit-déjeuner.",
+     "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner).",
+     "type": "choice",
+     "choices": [
+      "たべる",
+      "おとこのひと",
+      "やすむ",
+      "あさごはん"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-26-日曜日-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**日曜日**にテニスをします。",
+     "fr": "Je joue au tennis le dimanche.",
+     "explain": "**日曜日** se lit にちようび ici ({日|にち}{曜|よう}{日|び} : dimanche).",
+     "type": "choice",
+     "choices": [
+      "にちようび",
+      "にちようにち",
+      "にちようひ",
+      "にちようか"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-01"
+     ]
+    },
+    {
+     "id": "k5-26-食べる-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "朝はパンを**食べ**ます。",
+     "fr": "Le matin, je mange du pain.",
+     "explain": "**食べ** se lit たべ ici ({食|た}べる : manger).",
+     "type": "choice",
+     "choices": [
+      "たべ",
+      "てべ",
+      "わべ",
+      "さべ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-03"
+     ]
+    },
+    {
+     "id": "k5-26-帰る-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "六時に家に**帰**ります。",
+     "fr": "Je rentre à la maison à six heures.",
+     "explain": "**帰** se lit かえ ici ({帰|かえ}る : rentrer).",
+     "type": "choice",
+     "choices": [
+      "した",
+      "とし",
+      "かえ",
+      "くに"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-02"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-27",
+   "title": "Sans aide : les kanji du bloc 2",
+   "sections": [
+    {
+     "h": "Plus de filet",
+     "p": [
+      "Ici, les kanji du N5 n'ont plus de furigana : seuls ceux hors programme en gardent. Lis toute la phrase avant de répondre, le contexte t'aide.",
+      "Le bouton 漢 ne changera rien sur ces mots : ils sont vraiment écrits sans lecture."
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k5-27-大きい-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "とても**大きい**です。",
+     "fr": "C'est très grand.",
+     "explain": "**大きい** se lit おおきい ici ({大|おお}きい : grand).",
+     "type": "choice",
+     "choices": [
+      "きのう",
+      "おおきい",
+      "がくせい",
+      "ちかてつ"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-27-下-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "いすの**下**にねこがいます。",
+     "fr": "Il y a un chat sous la chaise.",
+     "explain": "**下** se lit した ici ({下|した} : dessous, en bas).",
+     "type": "choice",
+     "choices": [
+      "にほん",
+      "にほんじん",
+      "おとうさん",
+      "した"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-27-四つ-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "いすが**四つ**あります。",
+     "fr": "Il y a quatre chaises.",
+     "explain": "**四つ** se lit よっつ ici ({四|よっ}つ : quatre (objets)).",
+     "type": "choice",
+     "choices": [
+      "しつ",
+      "よっつ",
+      "ながい",
+      "のむ"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-08"
+     ]
+    },
+    {
+     "id": "k5-27-大人-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**大人**は五百円、子どもは三百円です。",
+     "fr": "C'est 500 yens pour les adultes, 300 yens pour les enfants.",
+     "explain": "**大人** se lit おとな ici ({大人|おとな} : adulte).",
+     "type": "choice",
+     "choices": [
+      "やすみ",
+      "おとな",
+      "みぎ",
+      "ちゅうがくせい"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-27-大学-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "来年、**大学**に入ります。",
+     "fr": "L'année prochaine, j'entre à l'université.",
+     "explain": "**大学** se lit だいがく ici ({大|だい}{学|がく} : université).",
+     "type": "choice",
+     "choices": [
+      "おおがく",
+      "だいまな",
+      "たいがく",
+      "だいがく"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-07"
+     ]
+    },
+    {
+     "id": "k5-27-十-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**十**までかぞえてください。",
+     "fr": "Compte jusqu'à dix.",
+     "explain": "**十** se lit とお ici ({十|とお} : dix (objets)).",
+     "type": "choice",
+     "choices": [
+      "ほんだな",
+      "いちまん",
+      "とお",
+      "きく"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-09"
+     ]
+    },
+    {
+     "id": "k5-27-百円-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**百円**ショップで買いました。",
+     "fr": "Je l'ai acheté dans une boutique à 100 yens.",
+     "explain": "**百円** se lit ひゃくえん ici ({百|ひゃく}{円|えん} : cent yens).",
+     "type": "choice",
+     "choices": [
+      "でんしゃ",
+      "ひゃくえん",
+      "おとうさん",
+      "わたし"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-10"
+     ]
+    },
+    {
+     "id": "k5-27-学校-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今日は日曜日ですから、**学校**は休みです。",
+     "fr": "Aujourd'hui c'est dimanche, donc il n'y a pas d'école.",
+     "explain": "**学校** se lit がっこう ici ({学|がっ}{校|こう} : école).",
+     "type": "choice",
+     "choices": [
+      "がっこう",
+      "した",
+      "でんしゃ",
+      "しょくどう"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-27-二つ-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "コーヒーを**二つ**おねがいします。",
+     "fr": "Deux cafés, s'il vous plaît.",
+     "explain": "**二つ** se lit ふたつ ici ({二|ふた}つ : deux (objets)).",
+     "type": "choice",
+     "choices": [
+      "ふたつ",
+      "しゃちょう",
+      "たべる",
+      "しちがつ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-08"
+     ]
+    },
+    {
+     "id": "k5-27-友だち-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "駅の前で**友だち**に会います。",
+     "fr": "Je retrouve un ami devant la gare.",
+     "explain": "**友だち** se lit ともだち ici ({友|とも}だち : ami(e)).",
+     "type": "choice",
+     "choices": [
+      "たつ",
+      "て",
+      "ろくがつ",
+      "ともだち"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-27-先週-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**先週**、国へ帰りました。",
+     "fr": "La semaine dernière, je suis rentré dans mon pays.",
+     "explain": "**先週** se lit せんしゅう ici ({先|せん}{週|しゅう} : la semaine dernière).",
+     "type": "choice",
+     "choices": [
+      "せんしゅう",
+      "にほんじん",
+      "みち",
+      "ふたり"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-27-先月-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**先月**、新しいカメラを買いました。",
+     "fr": "Le mois dernier, j'ai acheté un nouvel appareil photo.",
+     "explain": "**先月** se lit せんげつ ici ({先|せん}{月|げつ} : le mois dernier).",
+     "type": "choice",
+     "choices": [
+      "せんげつ",
+      "さきげつ",
+      "せんがつ",
+      "せんつき"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-27-三つ-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "たまごを**三**つ買いました。",
+     "fr": "J'ai acheté trois œufs.",
+     "explain": "**三** se lit みっ ici ({三|みっ}つ : trois (objets)).",
+     "type": "choice",
+     "choices": [
+      "みっ",
+      "きた",
+      "した",
+      "むっ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-08"
+     ]
+    },
+    {
+     "id": "k5-27-先生-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**先生**の話は長いです。",
+     "fr": "Les discours du professeur sont longs.",
+     "explain": "**先生** se lit せんせい ici ({先|せん}{生|せい} : professeur).",
+     "type": "choice",
+     "choices": [
+      "せんう",
+      "せんしょう",
+      "せんい",
+      "せんせい"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-27-五つ-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "このりんごは**五つ**で五百円です。",
+     "fr": "Ces pommes, c'est 500 yens les cinq.",
+     "explain": "**五つ** se lit いつつ ici ({五|いつ}つ : cinq (objets)).",
+     "type": "choice",
+     "choices": [
+      "いつつ",
+      "かく",
+      "さんぷん",
+      "ほっかいどう"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-08"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-28",
+   "title": "Sans aide : les kanji du bloc 3",
+   "sections": [
+    {
+     "h": "Plus de filet",
+     "p": [
+      "Ici, les kanji du N5 n'ont plus de furigana : seuls ceux hors programme en gardent. Lis toute la phrase avant de répondre, le contexte t'aide.",
+      "Le bouton 漢 ne changera rien sur ces mots : ils sont vraiment écrits sans lecture."
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k5-28-名前-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "私の**名前**はマリーです。",
+     "fr": "Je m'appelle Marie.",
+     "explain": "**名前** se lit なまえ ici ({名|な}{前|まえ} : nom, prénom).",
+     "type": "choice",
+     "choices": [
+      "かく",
+      "せんしゅう",
+      "やすみ",
+      "なまえ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-28-前-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "ドアの**前**に子どもが立っています。",
+     "fr": "Un enfant est debout devant la porte.",
+     "explain": "**前** se lit まえ ici ({前|まえ} : devant, avant).",
+     "type": "choice",
+     "choices": [
+      "へた",
+      "さくねん",
+      "でる",
+      "まえ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-12"
+     ]
+    },
+    {
+     "id": "k5-28-お金-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今日は**お金**がありません。",
+     "fr": "Aujourd'hui, je n'ai pas d'argent.",
+     "explain": "**お金** se lit おかね ici (お{金|かね} : argent).",
+     "type": "choice",
+     "choices": [
+      "ひと",
+      "ごご",
+      "ちかてつ",
+      "おかね"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-11"
+     ]
+    },
+    {
+     "id": "k5-28-道-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "この**道**をまっすぐ行ってください。",
+     "fr": "Allez tout droit dans cette rue.",
+     "explain": "**道** se lit みち ici ({道|みち} : chemin, route).",
+     "type": "choice",
+     "choices": [
+      "ぎんこう",
+      "わたし",
+      "みち",
+      "ゆうめい"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-15"
+     ]
+    },
+    {
+     "id": "k5-28-朝-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**朝**はいつもいそがしいです。",
+     "fr": "Le matin, je suis toujours pressé.",
+     "explain": "**朝** se lit あさ ici ({朝|あさ} : matin).",
+     "type": "choice",
+     "choices": [
+      "てがみ",
+      "いちまん",
+      "あさ",
+      "よっつ"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-28-雨-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "あしたは**雨**でしょう。",
+     "fr": "Demain, il pleuvra probablement.",
+     "explain": "**雨** se lit あめ ici ({雨|あめ} : pluie).",
+     "type": "choice",
+     "choices": [
+      "ふたつ",
+      "ろっぴゃく",
+      "あめ",
+      "たりる"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-28-毎朝-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "おじいさんは**毎朝**さんぽします。",
+     "fr": "Grand-père se promène tous les matins.",
+     "explain": "**毎朝** se lit まいあさ ici ({毎|まい}{朝|あさ} : tous les matins).",
+     "type": "choice",
+     "choices": [
+      "かわ",
+      "はっせん",
+      "まいあさ",
+      "はいる"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-28-山-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "日本でどの**山**がいちばん高いですか。",
+     "fr": "Quelle est la plus haute montagne du Japon ?",
+     "explain": "**山** se lit やま ici ({山|やま} : montagne).",
+     "type": "choice",
+     "choices": [
+      "ゆうめい",
+      "だいがくせい",
+      "やま",
+      "せん"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-15"
+     ]
+    },
+    {
+     "id": "k5-28-土曜日-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**土曜日**は家でそうじします。",
+     "fr": "Le samedi, je fais le ménage à la maison.",
+     "explain": "**土曜日** se lit どようび ici ({土|ど}{曜|よう}{日|び} : samedi).",
+     "type": "choice",
+     "choices": [
+      "どようじつ",
+      "とようび",
+      "どようび",
+      "どようにち"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-11"
+     ]
+    },
+    {
+     "id": "k5-28-昨日-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**昨日**は本をたくさん買いました。",
+     "fr": "Hier, j'ai acheté beaucoup de livres.",
+     "explain": "**昨日** se lit きのう ici ({昨日|きのう} : hier).",
+     "type": "choice",
+     "choices": [
+      "ともだち",
+      "みぎ",
+      "にがつ",
+      "きのう"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-28-時間-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**時間**がありませんから、タクシーで行きましょう。",
+     "fr": "On n'a pas le temps, alors allons-y en taxi.",
+     "explain": "**時間** se lit じかん ici ({時|じ}{間|かん} : temps, durée).",
+     "type": "choice",
+     "choices": [
+      "じかん",
+      "じあいだ",
+      "ときかん",
+      "じま"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-28-来月-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**来月**、日本へ行きます。",
+     "fr": "Le mois prochain, je vais au Japon.",
+     "explain": "**来月** se lit らいげつ ici ({来|らい}{月|げつ} : le mois prochain).",
+     "type": "choice",
+     "choices": [
+      "らいげつ",
+      "らいつき",
+      "くげつ",
+      "らいがつ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-02"
+     ]
+    },
+    {
+     "id": "k5-28-朝ご飯-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**朝ご飯**にたまごを食べました。",
+     "fr": "J'ai mangé un œuf au petit-déjeuner.",
+     "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner).",
+     "type": "choice",
+     "choices": [
+      "ほんだな",
+      "たべもの",
+      "あさごはん",
+      "たりる"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-28-天気-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今日はいい**天気**ですね。",
+     "fr": "Il fait beau aujourd'hui, hein.",
+     "explain": "**天気** se lit てんき ici ({天|てん}{気|き} : temps (météo)).",
+     "type": "choice",
+     "choices": [
+      "てんけ",
+      "あめき",
+      "てんき",
+      "あまき"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-28-分かる-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "道が**分か**りませんでしたから、おまわりさんに聞きました。",
+     "fr": "Je ne connaissais pas le chemin, alors j'ai demandé à un agent de police.",
+     "explain": "**分か** se lit わか ici ({分|わ}かる : comprendre).",
+     "type": "choice",
+     "choices": [
+      "だか",
+      "わか",
+      "ひか",
+      "よか"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-12"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-29",
+   "title": "Sans aide : les kanji du bloc 4",
+   "sections": [
+    {
+     "h": "Plus de filet",
+     "p": [
+      "Ici, les kanji du N5 n'ont plus de furigana : seuls ceux hors programme en gardent. Lis toute la phrase avant de répondre, le contexte t'aide.",
+      "Le bouton 漢 ne changera rien sur ces mots : ils sont vraiment écrits sans lecture."
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k5-29-入る-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "どうぞ、**入**ってください。",
+     "fr": "Je vous en prie, entrez.",
+     "explain": "**入** se lit はい ici ({入|はい}る : entrer).",
+     "type": "choice",
+     "choices": [
+      "かわ",
+      "やま",
+      "みち",
+      "はい"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-29-言う-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "先生は「おはようございます」と**言**いました。",
+     "fr": "Le professeur a dit « Bonjour ».",
+     "explain": "**言** se lit い ici ({言|い}う : dire).",
+     "type": "choice",
+     "choices": [
+      "こと",
+      "さ",
+      "わ",
+      "い"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-29-高い-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "このカメラは**高い**です。十万円です。",
+     "fr": "Cet appareil photo est cher. Il coûte 100 000 yens.",
+     "explain": "**高い** se lit たかい ici ({高|たか}い : haut, cher).",
+     "type": "choice",
+     "choices": [
+      "しんぶん",
+      "かようび",
+      "たかい",
+      "のむ"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-20"
+     ]
+    },
+    {
+     "id": "k5-29-会社-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "かぜですから、今日は**会社**を休みます。",
+     "fr": "J'ai un rhume, alors aujourd'hui je ne vais pas au bureau.",
+     "explain": "**会社** se lit かいしゃ ici ({会|かい}{社|しゃ} : entreprise).",
+     "type": "choice",
+     "choices": [
+      "かいしゃ",
+      "あしゃ",
+      "えしゃ",
+      "かいやしろ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-17"
+     ]
+    },
+    {
+     "id": "k5-29-古い-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "父の車は**古い**です。",
+     "fr": "La voiture de mon père est vieille.",
+     "explain": "**古い** se lit ふるい ici ({古|ふる}い : vieux).",
+     "type": "choice",
+     "choices": [
+      "おとな",
+      "むっつ",
+      "ふるい",
+      "かいしゃいん"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-20"
+     ]
+    },
+    {
+     "id": "k5-29-新聞-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "その**新聞**をとってください。",
+     "fr": "Passe-moi ce journal, s'il te plaît.",
+     "explain": "**新聞** se lit しんぶん ici ({新|しん}{聞|ぶん} : journal).",
+     "type": "choice",
+     "choices": [
+      "さんびゃく",
+      "あし",
+      "しんぶん",
+      "にちようび"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-20"
+     ]
+    },
+    {
+     "id": "k5-29-電車-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**電車**にかさをわすれました。",
+     "fr": "J'ai oublié mon parapluie dans le train.",
+     "explain": "**電車** se lit でんしゃ ici ({電|でん}{車|しゃ} : train).",
+     "type": "choice",
+     "choices": [
+      "がくせい",
+      "でんしゃ",
+      "じゅうがつ",
+      "らいげつ"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-17"
+     ]
+    },
+    {
+     "id": "k5-29-子ども-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**子ども**は八時に学校へ行きます。",
+     "fr": "Les enfants vont à l'école à huit heures.",
+     "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant).",
+     "type": "choice",
+     "choices": [
+      "こども",
+      "やっつ",
+      "かようび",
+      "すども"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-16"
+     ]
+    },
+    {
+     "id": "k5-29-休み-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "かぜをひきましたから、学校を**休み**ます。",
+     "fr": "J'ai attrapé un rhume, alors je ne vais pas à l'école.",
+     "explain": "**休み** se lit やすみ ici ({休|やす}み : repos, congé).",
+     "type": "choice",
+     "choices": [
+      "ことし",
+      "なんぷん",
+      "やすみ",
+      "えいご"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-29-出る-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "毎朝七時に家を**出**ます。",
+     "fr": "Je pars de chez moi à sept heures tous les matins.",
+     "explain": "**出** se lit で ici ({出|で}る : sortir).",
+     "type": "choice",
+     "choices": [
+      "で",
+      "て",
+      "こ",
+      "わ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-29-出かける-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "今日は**出かけ**たくないです。",
+     "fr": "Aujourd'hui, je n'ai pas envie de sortir.",
+     "explain": "**出かけ** se lit でかけ ici ({出|で}かける : sortir, partir).",
+     "type": "choice",
+     "choices": [
+      "ひかけ",
+      "きかけ",
+      "ちかけ",
+      "でかけ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-29-会う-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "どこで**会**いましょうか。",
+     "fr": "Où est-ce qu'on se retrouve ?",
+     "explain": "**会** se lit あ ici ({会|あ}う : rencontrer).",
+     "type": "choice",
+     "choices": [
+      "か",
+      "あ",
+      "ま",
+      "め"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-17"
+     ]
+    },
+    {
+     "id": "k5-29-男の人-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**男の人**が三人います。",
+     "fr": "Il y a trois hommes.",
+     "explain": "**男の人** se lit おとこのひと ici ({男|おとこ}の{人|ひと} : homme).",
+     "type": "choice",
+     "choices": [
+      "だんのひと",
+      "おとこのひと",
+      "おとこのじん",
+      "なんのひと"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-16"
+     ]
+    },
+    {
+     "id": "k5-29-入れる-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "コーヒーにさとうを**入れ**ますか。",
+     "fr": "Tu mets du sucre dans ton café ?",
+     "explain": "**入れ** se lit いれ ici ({入|い}れる : mettre dedans).",
+     "type": "choice",
+     "choices": [
+      "いれ",
+      "ちれ",
+      "のれ",
+      "ひれ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-19"
+     ]
+    },
+    {
+     "id": "k5-29-お母さん-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**お母さん**、ただいま。",
+     "fr": "Maman, je suis rentré !",
+     "explain": "**お母さん** se lit おかあさん ici (お{母|かあ}さん : mère (de quelqu'un)).",
+     "type": "choice",
+     "choices": [
+      "こども",
+      "がっこう",
+      "おかあさん",
+      "みせる"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-16"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "k5-30",
+   "title": "Sans aide : tout le N5",
+   "sections": [
+    {
+     "h": "Plus de filet",
+     "p": [
+      "Ici, les kanji du N5 n'ont plus de furigana : seuls ceux hors programme en gardent. Lis toute la phrase avant de répondre, le contexte t'aide.",
+      "Le bouton 漢 ne changera rien sur ces mots : ils sont vraiment écrits sans lecture."
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "k5-30-朝ご飯-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**朝ご飯**を食べませんでしたから、おなかがすきました。",
+     "fr": "Je n'ai pas pris de petit-déjeuner, alors j'ai faim.",
+     "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner).",
+     "type": "choice",
+     "choices": [
+      "かいしゃいん",
+      "あさごはん",
+      "かようび",
+      "おとこのひと"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-13"
+     ]
+    },
+    {
+     "id": "k5-30-古い-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "このいすはとても**古い**です。",
+     "fr": "Cette chaise est très vieille.",
+     "explain": "**古い** se lit ふるい ici ({古|ふる}い : vieux).",
+     "type": "choice",
+     "choices": [
+      "ふるい",
+      "もくようび",
+      "とうきょう",
+      "ぎんこう"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-20"
+     ]
+    },
+    {
+     "id": "k5-30-日本語-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "学校で**日本語**をべんきょうします。",
+     "fr": "J'étudie le japonais à l'école.",
+     "explain": "**日本語** se lit にほんご ici ({日|に}{本|ほん}{語|ご} : japonais (langue)).",
+     "type": "choice",
+     "choices": [
+      "にほんかた",
+      "にほんご",
+      "にちほんご",
+      "にもとご"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-01"
+     ]
+    },
+    {
+     "id": "k5-30-読む-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "父は毎朝新聞を**読**みます。",
+     "fr": "Mon père lit le journal tous les matins.",
+     "explain": "**読** se lit よ ici ({読|よ}む : lire).",
+     "type": "choice",
+     "choices": [
+      "か",
+      "よ",
+      "め",
+      "ち"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-04"
+     ]
+    },
+    {
+     "id": "k5-30-行く-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "すぐ**行**きます。",
+     "fr": "J'arrive tout de suite.",
+     "explain": "**行** se lit い ici ({行|い}く : aller).",
+     "type": "choice",
+     "choices": [
+      "おこな",
+      "ぎょう",
+      "い",
+      "こう"
+     ],
+     "a": 2,
+     "uses": [
+      "k5-02"
+     ]
+    },
+    {
+     "id": "k5-30-日本-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**日本**はどうですか。",
+     "fr": "Comment trouves-tu le Japon ?",
+     "explain": "**日本** se lit にほん ici ({日|に}{本|ほん} : Japon).",
+     "type": "choice",
+     "choices": [
+      "かほん",
+      "ひほん",
+      "にもと",
+      "にほん"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-01"
+     ]
+    },
+    {
+     "id": "k5-30-名前-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "すみません、お**名前**は何ですか。",
+     "fr": "Excusez-moi, comment vous appelez-vous ?",
+     "explain": "**名前** se lit なまえ ici ({名|な}{前|まえ} : nom, prénom).",
+     "type": "choice",
+     "choices": [
+      "まいばん",
+      "せんげつ",
+      "あと",
+      "なまえ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-30-水曜日-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**水曜日**の午後はひまです。",
+     "fr": "Le mercredi après-midi, je suis libre.",
+     "explain": "**水曜日** se lit すいようび ici ({水|すい}{曜|よう}{日|び} : mercredi).",
+     "type": "choice",
+     "choices": [
+      "すいようび",
+      "みずようび",
+      "すいようか",
+      "すいようじつ"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-03"
+     ]
+    },
+    {
+     "id": "k5-30-学生-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "私は**学生**です。",
+     "fr": "Je suis étudiant(e).",
+     "explain": "**学生** se lit がくせい ici ({学|がく}{生|せい} : étudiant).",
+     "type": "choice",
+     "choices": [
+      "がくせい",
+      "がくなま",
+      "がくう",
+      "がくい"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-06"
+     ]
+    },
+    {
+     "id": "k5-30-家-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**家**から駅まで十分です。",
+     "fr": "De chez moi à la gare, il y a dix minutes.",
+     "explain": "**家** se lit いえ ici ({家|いえ} : maison).",
+     "type": "choice",
+     "choices": [
+      "かえる",
+      "ゆうめい",
+      "ちゅうがくせい",
+      "いえ"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-17"
+     ]
+    },
+    {
+     "id": "k5-30-買う-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "駅できっぷを**買**います。",
+     "fr": "J'achète un billet à la gare.",
+     "explain": "**買** se lit か ici ({買|か}う : acheter).",
+     "type": "choice",
+     "choices": [
+      "あ",
+      "こ",
+      "だ",
+      "か"
+     ],
+     "a": 3,
+     "uses": [
+      "k5-10"
+     ]
+    },
+    {
+     "id": "k5-30-話す-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "ゆっくり**話**してください。",
+     "fr": "Parlez lentement, s'il vous plaît.",
+     "explain": "**話** se lit はな ici ({話|はな}す : parler).",
+     "type": "choice",
+     "choices": [
+      "ふた",
+      "はな",
+      "あめ",
+      "つき"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-04"
+     ]
+    },
+    {
+     "id": "k5-30-今-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**今**、何時何分ですか。",
+     "fr": "Quelle heure est-il, là ?",
+     "explain": "**今** se lit いま ici ({今|いま} : maintenant).",
+     "type": "choice",
+     "choices": [
+      "いま",
+      "ちゅうがくせい",
+      "かいしゃ",
+      "さっか"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-05"
+     ]
+    },
+    {
+     "id": "k5-30-父-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "**父**は毎日ネクタイをします。",
+     "fr": "Mon père met une cravate tous les jours.",
+     "explain": "**父** se lit ちち ici ({父|ちち} : mon père).",
+     "type": "choice",
+     "choices": [
+      "ちち",
+      "がっこう",
+      "ひがし",
+      "すいようび"
+     ],
+     "a": 0,
+     "uses": [
+      "k5-16"
+     ]
+    },
+    {
+     "id": "k5-30-上-phrase",
+     "q": "Sans furigana : comment se lit le mot en gras ?",
+     "jp": "つくえの**上**にペンがあります。",
+     "fr": "Il y a un stylo sur le bureau.",
+     "explain": "**上** se lit うえ ici ({上|うえ} : dessus, en haut).",
+     "type": "choice",
+     "choices": [
+      "むっつ",
+      "うえ",
+      "ひがし",
+      "ちち"
+     ],
+     "a": 1,
+     "uses": [
+      "k5-07"
+     ]
+    }
+   ]
+  }
+ ]
+}

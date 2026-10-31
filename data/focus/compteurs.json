@@ -1,0 +1,811 @@
+{
+ "id": "compteurs",
+ "label": "数",
+ "title": "Compteurs et jours du mois",
+ "unlockAfter": "k5-11",
+ "sheet": {
+  "sections": [
+   {
+    "h": "Les personnes",
+    "p": [
+     "**{一人|ひとり}, {二人|ふたり}** sont irréguliers, puis {三人|さんにん}, {四人|よにん} (pas よんにん)."
+    ]
+   },
+   {
+    "h": "Sons qui changent",
+    "p": [
+     "Compteur en は/ひ/ふ/ほ : le son change après 1, 3, 6, 8."
+    ],
+    "grid": {
+     "head": [
+      "",
+      "本",
+      "百",
+      "分"
+     ],
+     "rows": [
+      [
+       "1",
+       "いっ==ぽん==",
+       "ひゃく",
+       "いっ==ぷん=="
+      ],
+      [
+       "3",
+       "さん==ぼん==",
+       "さん==びゃく==",
+       "さん==ぷん=="
+      ],
+      [
+       "6",
+       "ろっ==ぽん==",
+       "ろっ==ぴゃく==",
+       "ろっ==ぷん=="
+      ],
+      [
+       "8",
+       "はっ==ぽん==",
+       "はっ==ぴゃく==",
+       "はっ==ぷん=="
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Les jours du mois",
+    "p": [
+     "1 à 10 et 20 ont une lecture japonaise. 14 et 24 aussi. Les autres sont réguliers : {十一日|じゅういちにち}."
+    ],
+    "grid": {
+     "head": [
+      "Jour",
+      "Lecture",
+      "Jour",
+      "Lecture"
+     ],
+     "rows": [
+      [
+       "1",
+       "ついたち",
+       "6",
+       "むいか"
+      ],
+      [
+       "2",
+       "ふつか",
+       "7",
+       "なのか"
+      ],
+      [
+       "3",
+       "みっか",
+       "8",
+       "ようか"
+      ],
+      [
+       "4",
+       "よっか",
+       "9",
+       "ここのか"
+      ],
+      [
+       "5",
+       "いつか",
+       "10",
+       "とおか"
+      ],
+      [
+       "14",
+       "じゅうよっか",
+       "20",
+       "はつか"
+      ]
+     ]
+    }
+   }
+  ],
+  "pieges": [
+   "{四時|よじ} et {四月|しがつ} : ni よん, ni la même lecture !",
+   "{九時|くじ}, {九月|くがつ}, mais {九|きゅう}.",
+   "{七時|しちじ}, {七月|しちがつ} : on dit しち ici."
+  ]
+ },
+ "exercises": [
+  {
+   "id": "f-co-一人",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **一人** (une personne) ?",
+   "explain": "**一人** se lit ひとり.",
+   "type": "choice",
+   "choices": [
+    "いちじん",
+    "ひとり",
+    "ひとにん",
+    "かずと"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-二人",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二人** (deux personnes) ?",
+   "explain": "**二人** se lit ふたり.",
+   "type": "choice",
+   "choices": [
+    "ふたにん",
+    "にじん",
+    "ふたり",
+    "ふつり"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-三人",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **三人** (trois personnes) ?",
+   "explain": "**三人** se lit さんにん.",
+   "type": "choice",
+   "choices": [
+    "みにん",
+    "さんにん",
+    "さんじん",
+    "さんり"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-四人",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **四人** (quatre personnes) ?",
+   "explain": "**四人** se lit よにん.",
+   "type": "choice",
+   "choices": [
+    "よんじん",
+    "よにん",
+    "しじん",
+    "よんり"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-何人",
+   "uses": [
+    "k5-05",
+    "k5-01"
+   ],
+   "q": "Comment se lit **何人** (combien de personnes) ?",
+   "explain": "**何人** se lit なんにん.",
+   "type": "choice",
+   "choices": [
+    "なにびと",
+    "なんにん",
+    "なんひと",
+    "なんり"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-一本",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **一本** (un (objet long)) ?",
+   "explain": "**一本** se lit いっぽん.",
+   "type": "choice",
+   "choices": [
+    "いっぽん",
+    "いちほん",
+    "いっほん",
+    "いちぽん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-co-二本",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二本** (deux (objets longs)) ?",
+   "explain": "**二本** se lit にほん.",
+   "type": "choice",
+   "choices": [
+    "にぼん",
+    "にぽん",
+    "ふたほん",
+    "にほん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-co-三本",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **三本** (trois (objets longs)) ?",
+   "explain": "**三本** se lit さんぼん.",
+   "type": "choice",
+   "choices": [
+    "さんぽん",
+    "みほん",
+    "さんほん",
+    "さんぼん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-co-六本",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **六本** (six (objets longs)) ?",
+   "explain": "**六本** se lit ろっぽん.",
+   "type": "choice",
+   "choices": [
+    "むほん",
+    "ろくぽん",
+    "ろくほん",
+    "ろっぽん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-co-三百",
+   "uses": [
+    "k5-08",
+    "k5-10"
+   ],
+   "q": "Comment se lit **三百** (300) ?",
+   "explain": "**三百** se lit さんびゃく.",
+   "type": "choice",
+   "choices": [
+    "さんびゃく",
+    "みひゃく",
+    "さんぴゃく",
+    "さんひゃく"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-co-六百",
+   "uses": [
+    "k5-09",
+    "k5-10"
+   ],
+   "q": "Comment se lit **六百** (600) ?",
+   "explain": "**六百** se lit ろっぴゃく.",
+   "type": "choice",
+   "choices": [
+    "ろくびゃく",
+    "ろっぴゃく",
+    "ろっひゃく",
+    "ろくひゃく"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-八百",
+   "uses": [
+    "k5-09",
+    "k5-10"
+   ],
+   "q": "Comment se lit **八百** (800) ?",
+   "explain": "**八百** se lit はっぴゃく.",
+   "type": "choice",
+   "choices": [
+    "はちひゃく",
+    "はちびゃく",
+    "はっぴゃく",
+    "はっひゃく"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-三千",
+   "uses": [
+    "k5-08",
+    "k5-10"
+   ],
+   "q": "Comment se lit **三千** (3 000) ?",
+   "explain": "**三千** se lit さんぜん.",
+   "type": "choice",
+   "choices": [
+    "みせん",
+    "さんぜん",
+    "さんちぇん",
+    "さんせん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-八千",
+   "uses": [
+    "k5-09",
+    "k5-10"
+   ],
+   "q": "Comment se lit **八千** (8 000) ?",
+   "explain": "**八千** se lit はっせん.",
+   "type": "choice",
+   "choices": [
+    "はっぜん",
+    "はっせん",
+    "やせん",
+    "はちぜん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-一分",
+   "uses": [
+    "k5-08",
+    "k5-12"
+   ],
+   "q": "Comment se lit **一分** (une minute) ?",
+   "explain": "**一分** se lit いっぷん.",
+   "type": "choice",
+   "choices": [
+    "いっふん",
+    "いっぷん",
+    "ひとふん",
+    "いちふん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-二分",
+   "uses": [
+    "k5-08",
+    "k5-12"
+   ],
+   "q": "Comment se lit **二分** (deux minutes) ?",
+   "explain": "**二分** se lit にふん.",
+   "type": "choice",
+   "choices": [
+    "にぷん",
+    "にふん",
+    "ふたふん",
+    "ふたぷん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-三分",
+   "uses": [
+    "k5-08",
+    "k5-12"
+   ],
+   "q": "Comment se lit **三分** (trois minutes) ?",
+   "explain": "**三分** se lit さんぷん.",
+   "type": "choice",
+   "choices": [
+    "さんふん",
+    "さんぷう",
+    "さんぷん",
+    "みふん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-六分",
+   "uses": [
+    "k5-09",
+    "k5-12"
+   ],
+   "q": "Comment se lit **六分** (six minutes) ?",
+   "explain": "**六分** se lit ろっぷん.",
+   "type": "choice",
+   "choices": [
+    "むふん",
+    "ろくふん",
+    "ろっぷん",
+    "ろっふん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-四時",
+   "uses": [
+    "k5-08",
+    "k5-05"
+   ],
+   "q": "Comment se lit **四時** (4 heures) ?",
+   "explain": "**四時** se lit よじ.",
+   "type": "choice",
+   "choices": [
+    "よじ",
+    "よっじ",
+    "よんじ",
+    "しじ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-co-七時",
+   "uses": [
+    "k5-09",
+    "k5-05"
+   ],
+   "q": "Comment se lit **七時** (7 heures) ?",
+   "explain": "**七時** se lit しちじ.",
+   "type": "choice",
+   "choices": [
+    "しじ",
+    "しちじ",
+    "しちどき",
+    "なじ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-九時",
+   "uses": [
+    "k5-09",
+    "k5-05"
+   ],
+   "q": "Comment se lit **九時** (9 heures) ?",
+   "explain": "**九時** se lit くじ.",
+   "type": "choice",
+   "choices": [
+    "ここのじ",
+    "きゅうじ",
+    "きじ",
+    "くじ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-co-四月",
+   "uses": [
+    "k5-08",
+    "k5-11"
+   ],
+   "q": "Comment se lit **四月** (avril) ?",
+   "explain": "**四月** se lit しがつ.",
+   "type": "choice",
+   "choices": [
+    "よつがつ",
+    "よんがつ",
+    "よがつ",
+    "しがつ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-co-七月",
+   "uses": [
+    "k5-09",
+    "k5-11"
+   ],
+   "q": "Comment se lit **七月** (juillet) ?",
+   "explain": "**七月** se lit しちがつ.",
+   "type": "choice",
+   "choices": [
+    "ななげつ",
+    "なげつ",
+    "しちがつ",
+    "しちげつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-九月",
+   "uses": [
+    "k5-09",
+    "k5-11"
+   ],
+   "q": "Comment se lit **九月** (septembre) ?",
+   "explain": "**九月** se lit くがつ.",
+   "type": "choice",
+   "choices": [
+    "ここのがつ",
+    "くがつ",
+    "くげつ",
+    "きゅうがつ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-co-一つ",
+   "uses": [
+    "k5-08"
+   ],
+   "q": "Comment se lit **一つ** (un objet) ?",
+   "explain": "**一つ** se lit ひとつ.",
+   "type": "choice",
+   "choices": [
+    "いちつ",
+    "ひとっつ",
+    "ひとつ",
+    "いつつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-四つ",
+   "uses": [
+    "k5-08"
+   ],
+   "q": "Comment se lit **四つ** (quatre objets) ?",
+   "explain": "**四つ** se lit よっつ.",
+   "type": "choice",
+   "choices": [
+    "よんつ",
+    "しつ",
+    "よっつ",
+    "よつつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-co-七つ",
+   "uses": [
+    "k5-09"
+   ],
+   "q": "Comment se lit **七つ** (sept objets) ?",
+   "explain": "**七つ** se lit ななつ.",
+   "type": "choice",
+   "choices": [
+    "しちっつ",
+    "しちつ",
+    "なつ",
+    "ななつ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-co-九つ",
+   "uses": [
+    "k5-09"
+   ],
+   "q": "Comment se lit **九つ** (neuf objets) ?",
+   "explain": "**九つ** se lit ここのつ.",
+   "type": "choice",
+   "choices": [
+    "きゅうつ",
+    "きゅっつ",
+    "ここのつ",
+    "くつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-jo-一日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **一日** (le 1er) ?",
+   "explain": "**一日** se lit ついたち.",
+   "type": "choice",
+   "choices": [
+    "ついたち",
+    "ふつか",
+    "ひとか",
+    "いちか"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-jo-二日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二日** (le 2) ?",
+   "explain": "**二日** se lit ふつか.",
+   "type": "choice",
+   "choices": [
+    "ふつか",
+    "ににち",
+    "ふたか",
+    "はつか"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-jo-三日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **三日** (le 3) ?",
+   "explain": "**三日** se lit みっか.",
+   "type": "choice",
+   "choices": [
+    "さんにち",
+    "むいか",
+    "みっか",
+    "みか"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-jo-四日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **四日** (le 4) ?",
+   "explain": "**四日** se lit よっか.",
+   "type": "choice",
+   "choices": [
+    "よんにち",
+    "ようか",
+    "しにち",
+    "よっか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-jo-五日",
+   "uses": [
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **五日** (le 5) ?",
+   "explain": "**五日** se lit いつか.",
+   "type": "choice",
+   "choices": [
+    "ごにち",
+    "いつか",
+    "ごか",
+    "いつにち"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-jo-六日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **六日** (le 6) ?",
+   "explain": "**六日** se lit むいか.",
+   "type": "choice",
+   "choices": [
+    "ろっか",
+    "むいか",
+    "ろくにち",
+    "みっか"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-jo-七日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **七日** (le 7) ?",
+   "explain": "**七日** se lit なのか.",
+   "type": "choice",
+   "choices": [
+    "ななか",
+    "なのか",
+    "しちか",
+    "なのにち"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-jo-八日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **八日** (le 8) ?",
+   "explain": "**八日** se lit ようか.",
+   "type": "choice",
+   "choices": [
+    "やか",
+    "ようか",
+    "よっか",
+    "はちにち"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-jo-九日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **九日** (le 9) ?",
+   "explain": "**九日** se lit ここのか.",
+   "type": "choice",
+   "choices": [
+    "ここか",
+    "きゅうか",
+    "くにち",
+    "ここのか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-jo-十日",
+   "uses": [
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **十日** (le 10) ?",
+   "explain": "**十日** se lit とおか.",
+   "type": "choice",
+   "choices": [
+    "とうにち",
+    "とおか",
+    "じゅうか",
+    "じゅっか"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-jo-十四日",
+   "uses": [
+    "k5-09",
+    "k5-08",
+    "k5-01"
+   ],
+   "q": "Comment se lit **十四日** (le 14) ?",
+   "explain": "**十四日** se lit じゅうよっか.",
+   "type": "choice",
+   "choices": [
+    "じゅうよんにち",
+    "じゅうよっか",
+    "じゅうしか",
+    "とおよっか"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-jo-二十日",
+   "uses": [
+    "k5-08",
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二十日** (le 20) ?",
+   "explain": "**二十日** se lit はつか.",
+   "type": "choice",
+   "choices": [
+    "にじゅうか",
+    "ふつか",
+    "はちか",
+    "はつか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-jo-二十四日",
+   "uses": [
+    "k5-08",
+    "k5-09",
+    "k5-01"
+   ],
+   "q": "Comment se lit **二十四日** (le 24) ?",
+   "explain": "**二十四日** se lit にじゅうよっか.",
+   "type": "choice",
+   "choices": [
+    "にじゅうよんにち",
+    "にじゅうしか",
+    "にじゅうよっか",
+    "はつよっか"
+   ],
+   "a": 2
+  }
+ ]
+}

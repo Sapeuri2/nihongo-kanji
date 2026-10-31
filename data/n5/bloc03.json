@@ -1,0 +1,2681 @@
+{
+ "id": "k5-b03",
+ "level": "N5",
+ "title": "Le temps, les directions, la nature",
+ "lessons": [
+  {
+   "id": "k5-11",
+   "title": "Les jours de la semaine : 月 火 木 金 土",
+   "sections": [
+    {
+     "h": "月 · lune, mois",
+     "p": [
+      "**On** : ゲツ、ガツ　**Kun** : つき",
+      "Un croissant de lune."
+     ],
+     "vocab": [
+      {
+       "jp": "{月|つき}",
+       "fr": "lune"
+      },
+      {
+       "jp": "{月|げつ}{曜|よう}{日|び}",
+       "fr": "lundi"
+      },
+      {
+       "jp": "{一|いち}{月|がつ}",
+       "fr": "janvier"
+      },
+      {
+       "jp": "{来|らい}{月|げつ}",
+       "fr": "le mois prochain"
+      }
+     ]
+    },
+    {
+     "h": "火 · feu",
+     "p": [
+      "**On** : カ　**Kun** : ひ",
+      "Des flammes qui jaillissent."
+     ],
+     "vocab": [
+      {
+       "jp": "{火|ひ}",
+       "fr": "feu"
+      },
+      {
+       "jp": "{火|か}{曜|よう}{日|び}",
+       "fr": "mardi"
+      }
+     ]
+    },
+    {
+     "h": "木 · arbre, bois",
+     "p": [
+      "**On** : モク、ボク　**Kun** : き",
+      "Un tronc, des branches et des racines."
+     ],
+     "vocab": [
+      {
+       "jp": "{木|き}",
+       "fr": "arbre"
+      },
+      {
+       "jp": "{木|もく}{曜|よう}{日|び}",
+       "fr": "jeudi"
+      }
+     ]
+    },
+    {
+     "h": "金 · or, argent",
+     "p": [
+      "**On** : キン、コン　**Kun** : かね",
+      "Des pépites sous le toit d'une mine."
+     ],
+     "vocab": [
+      {
+       "jp": "お{金|かね}",
+       "fr": "argent"
+      },
+      {
+       "jp": "{金|きん}{曜|よう}{日|び}",
+       "fr": "vendredi"
+      }
+     ]
+    },
+    {
+     "h": "土 · terre, sol",
+     "p": [
+      "**On** : ド、ト　**Kun** : つち",
+      "Une motte de terre sur le sol."
+     ],
+     "vocab": [
+      {
+       "jp": "{土|つち}",
+       "fr": "terre"
+      },
+      {
+       "jp": "{土|ど}{曜|よう}{日|び}",
+       "fr": "samedi"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "月 (lune, mois) : ne le confonds pas avec 日 (jour, soleil), 円 (yen, cercle).",
+    "火 (feu) : ne le confonds pas avec 水 (eau).",
+    "木 (arbre, bois) : ne le confonds pas avec 本 (livre, origine).",
+    "土 (terre, sol) : ne le confonds pas avec 上 (haut, sur)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-11-月-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "月",
+     "explain": "**月** : lune, mois. Un croissant de lune.",
+     "type": "choice",
+     "choices": [
+      "feu",
+      "avant, précédent",
+      "lune, mois",
+      "mille"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-11-月-kanji",
+     "q": "Quel kanji veut dire « lune, mois » ?",
+     "explain": "**月** : lune, mois. Un croissant de lune.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "円",
+      "月",
+      "二"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-11-月-lecture",
+     "q": "Comment se lit **月** ?",
+     "explain": "{月|つき} : lune.",
+     "type": "choice",
+     "choices": [
+      "つき",
+      "いつつ",
+      "くるま",
+      "おとな"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-来月-trou",
+     "q": "Complète le mot **らいげつ** (le mois prochain) :",
+     "jp": "来＿",
+     "explain": "{来|らい}{月|げつ} : le mois prochain.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "円",
+      "万",
+      "月"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-11-火-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "火",
+     "explain": "**火** : feu. Des flammes qui jaillissent.",
+     "type": "choice",
+     "choices": [
+      "dix",
+      "feu",
+      "aller",
+      "voiture, roue"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-11-火-kanji",
+     "q": "Quel kanji veut dire « feu » ?",
+     "explain": "**火** : feu. Des flammes qui jaillissent.",
+     "type": "choice",
+     "choices": [
+      "火",
+      "水",
+      "何",
+      "飯"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-火-lecture",
+     "q": "Comment se lit **火** ?",
+     "explain": "{火|ひ} : feu.",
+     "type": "choice",
+     "choices": [
+      "なな",
+      "くがつ",
+      "ひ",
+      "じかん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-11-火曜日-trou",
+     "q": "Complète le mot **かようび** (mardi) :",
+     "jp": "火曜＿",
+     "explain": "{火|か}{曜|よう}{日|び} : mardi.",
+     "type": "choice",
+     "choices": [
+      "目",
+      "日",
+      "白",
+      "火"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-11-木-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "木",
+     "explain": "**木** : arbre, bois. Un tronc, des branches et des racines.",
+     "type": "choice",
+     "choices": [
+      "arbre, bois",
+      "trois",
+      "or, argent",
+      "terre, sol"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-木-kanji",
+     "q": "Quel kanji veut dire « arbre, bois » ?",
+     "explain": "**木** : arbre, bois. Un tronc, des branches et des racines.",
+     "type": "choice",
+     "choices": [
+      "木",
+      "末",
+      "未",
+      "本"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-木-lecture",
+     "q": "Comment se lit **木** ?",
+     "explain": "{木|き} : arbre.",
+     "type": "choice",
+     "choices": [
+      "ごがつ",
+      "いつつ",
+      "き",
+      "いく"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-11-木曜日-trou",
+     "q": "Complète le mot **もくようび** (jeudi) :",
+     "jp": "木曜＿",
+     "explain": "{木|もく}{曜|よう}{日|び} : jeudi.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "目",
+      "生",
+      "白"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-金-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "金",
+     "explain": "**金** : or, argent. Des pépites sous le toit d'une mine.",
+     "type": "choice",
+     "choices": [
+      "or, argent",
+      "écrire",
+      "petit",
+      "boire"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-金-kanji",
+     "q": "Quel kanji veut dire « or, argent » ?",
+     "explain": "**金** : or, argent. Des pépites sous le toit d'une mine.",
+     "type": "choice",
+     "choices": [
+      "五",
+      "金",
+      "行",
+      "読"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-11-お金-lecture",
+     "q": "Comment se lit **お金** ?",
+     "explain": "お{金|かね} : argent.",
+     "type": "choice",
+     "choices": [
+      "おきん",
+      "おかね",
+      "おこん",
+      "にほんじん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-11-お金-ecrit",
+     "q": "Quel mot s'écrit **おかね** (argent) ?",
+     "explain": "お{金|かね} : argent.",
+     "type": "choice",
+     "choices": [
+      "お行",
+      "お千",
+      "お時",
+      "お金"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-11-土-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "土",
+     "explain": "**土** : terre, sol. Une motte de terre sur le sol.",
+     "type": "choice",
+     "choices": [
+      "terre, sol",
+      "avant, précédent",
+      "jour, soleil",
+      "quoi, combien"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-土-kanji",
+     "q": "Quel kanji veut dire « terre, sol » ?",
+     "explain": "**土** : terre, sol. Une motte de terre sur le sol.",
+     "type": "choice",
+     "choices": [
+      "士",
+      "飯",
+      "上",
+      "土"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-11-土-lecture",
+     "q": "Comment se lit **土** ?",
+     "explain": "{土|つち} : terre.",
+     "type": "choice",
+     "choices": [
+      "じかん",
+      "がっこう",
+      "のみもの",
+      "つち"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-11-土曜日-trou",
+     "q": "Complète le mot **どようび** (samedi) :",
+     "jp": "土曜＿",
+     "explain": "{土|ど}{曜|よう}{日|び} : samedi.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "来",
+      "白",
+      "目"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-11-月曜日-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**月曜日**から{金曜日|きんようび}まで{働|はたら}きます。",
+     "fr": "Je travaille du lundi au vendredi.",
+     "explain": "**月曜日** se lit げつようび ici ({月|げつ}{曜|よう}{日|び} : lundi).",
+     "type": "choice",
+     "choices": [
+      "げつようか",
+      "つきようび",
+      "げつようひ",
+      "げつようび"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-11-来月-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**来月**、日本へ行きます。",
+     "fr": "Le mois prochain, je vais au Japon.",
+     "explain": "**来月** se lit らいげつ ici ({来|らい}{月|げつ} : le mois prochain).",
+     "type": "choice",
+     "choices": [
+      "くげつ",
+      "らいげつ",
+      "らいがつ",
+      "らいつき"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-11-火曜日-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**火曜日**は日本語の{授業|じゅぎょう}があります。",
+     "fr": "Le mardi, j'ai cours de japonais.",
+     "explain": "**火曜日** se lit かようび ici ({火|か}{曜|よう}{日|び} : mardi).",
+     "type": "choice",
+     "choices": [
+      "かようか",
+      "かようび",
+      "かようにち",
+      "かようひ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-11-木曜日-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**木曜日**に{図書館|としょかん}へ行きます。",
+     "fr": "Jeudi, je vais à la bibliothèque.",
+     "explain": "**木曜日** se lit もくようび ici ({木|もく}{曜|よう}{日|び} : jeudi).",
+     "type": "choice",
+     "choices": [
+      "もくようじつ",
+      "きようび",
+      "もくようか",
+      "もくようび"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-11-月曜日-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{月|げつ}{曜|よう}{日|び} se lit げつようび, pas げつようひ.",
+     "type": "choice",
+     "choices": [
+      "来月 → らいげつ",
+      "月曜日 → げつようひ",
+      "木 → き",
+      "木曜日 → もくようび"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "k5-12",
+   "title": "Le temps qui passe : 年 分 間 半 午 前 後",
+   "sections": [
+    {
+     "h": "年 · année",
+     "p": [
+      "**On** : ネン　**Kun** : とし",
+      "Une gerbe de riz portée sur le dos : une récolte, une année."
+     ],
+     "vocab": [
+      {
+       "jp": "{来|らい}{年|ねん}",
+       "fr": "l'année prochaine"
+      },
+      {
+       "jp": "{今年|ことし}",
+       "fr": "cette année"
+      },
+      {
+       "jp": "{去|きょ}{年|ねん}",
+       "fr": "l'année dernière"
+      }
+     ]
+    },
+    {
+     "h": "分 · minute, partager",
+     "p": [
+      "**On** : フン、ブン　**Kun** : わ(かる)",
+      "Un sabre 刀 qui coupe en deux 八."
+     ],
+     "vocab": [
+      {
+       "jp": "{分|わ}かる",
+       "fr": "comprendre"
+      },
+      {
+       "jp": "{何|なん}{分|ぷん}",
+       "fr": "combien de minutes"
+      },
+      {
+       "jp": "{三|さん}{分|ぷん}",
+       "fr": "trois minutes"
+      },
+      {
+       "jp": "{五|ご}{分|ふん}",
+       "fr": "cinq minutes"
+      }
+     ]
+    },
+    {
+     "h": "間 · intervalle, entre",
+     "p": [
+      "**On** : カン　**Kun** : あいだ、ま",
+      "Le soleil 日 vu à travers une porte 門 entrouverte."
+     ],
+     "vocab": [
+      {
+       "jp": "{間|あいだ}",
+       "fr": "entre, intervalle"
+      },
+      {
+       "jp": "{時|じ}{間|かん}",
+       "fr": "temps, durée"
+      }
+     ]
+    },
+    {
+     "h": "半 · moitié",
+     "p": [
+      "**On** : ハン　**Kun** : なか(ば)",
+      "Un objet coupé pile au milieu par un trait vertical."
+     ],
+     "vocab": [
+      {
+       "jp": "{半|はん}",
+       "fr": "moitié, et demie"
+      },
+      {
+       "jp": "{半|はん}{分|ぶん}",
+       "fr": "la moitié"
+      }
+     ]
+    },
+    {
+     "h": "午 · midi",
+     "p": [
+      "**On** : ゴ　**Kun** : —",
+      "Presque 牛 (vache), mais sans la corne : le trait central ne dépasse pas."
+     ],
+     "vocab": [
+      {
+       "jp": "{午|ご}{前|ぜん}",
+       "fr": "matin (avant midi)"
+      },
+      {
+       "jp": "{午|ご}{後|ご}",
+       "fr": "après-midi"
+      }
+     ]
+    },
+    {
+     "h": "前 · avant, devant",
+     "p": [
+      "**On** : ゼン　**Kun** : まえ",
+      "Une barque 月 et un couteau 刂 : on avance en fendant l'eau."
+     ],
+     "vocab": [
+      {
+       "jp": "{前|まえ}",
+       "fr": "devant, avant"
+      },
+      {
+       "jp": "{午|ご}{前|ぜん}",
+       "fr": "matin (avant midi)"
+      },
+      {
+       "jp": "{名|な}{前|まえ}",
+       "fr": "nom, prénom"
+      }
+     ]
+    },
+    {
+     "h": "後 · après, derrière",
+     "p": [
+      "**On** : ゴ、コウ　**Kun** : うし(ろ)、あと、のち",
+      "La clé du chemin 彳 : celui qui traîne derrière sur la route."
+     ],
+     "vocab": [
+      {
+       "jp": "{後|うし}ろ",
+       "fr": "derrière"
+      },
+      {
+       "jp": "{午|ご}{後|ご}",
+       "fr": "après-midi"
+      },
+      {
+       "jp": "{後|あと}",
+       "fr": "après, ensuite"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "間 (intervalle, entre) : ne le confonds pas avec 聞 (entendre, écouter)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-12-年-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "年",
+     "explain": "**年** : année. Une gerbe de riz portée sur le dos : une récolte, une année.",
+     "type": "choice",
+     "choices": [
+      "cent",
+      "lire",
+      "année",
+      "midi"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-年-kanji",
+     "q": "Quel kanji veut dire « année » ?",
+     "explain": "**年** : année. Une gerbe de riz portée sur le dos : une récolte, une année.",
+     "type": "choice",
+     "choices": [
+      "四",
+      "下",
+      "年",
+      "牛"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-来年-lecture",
+     "q": "Comment se lit **来年** ?",
+     "explain": "{来|らい}{年|ねん} : l'année prochaine.",
+     "type": "choice",
+     "choices": [
+      "くねん",
+      "はん",
+      "らいねん",
+      "らいとし"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-来年-trou",
+     "q": "Complète le mot **らいねん** (l'année prochaine) :",
+     "jp": "来＿",
+     "explain": "{来|らい}{年|ねん} : l'année prochaine.",
+     "type": "choice",
+     "choices": [
+      "生",
+      "水",
+      "年",
+      "牛"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-分-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "分",
+     "explain": "**分** : minute, partager. Un sabre 刀 qui coupe en deux 八.",
+     "type": "choice",
+     "choices": [
+      "jour de la semaine",
+      "sept",
+      "voiture, roue",
+      "minute, partager"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-分-kanji",
+     "q": "Quel kanji veut dire « minute, partager » ?",
+     "explain": "**分** : minute, partager. Un sabre 刀 qui coupe en deux 八.",
+     "type": "choice",
+     "choices": [
+      "下",
+      "年",
+      "七",
+      "分"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-分かる-lecture",
+     "q": "Comment se lit **分かる** ?",
+     "explain": "{分|わ}かる : comprendre.",
+     "type": "choice",
+     "choices": [
+      "ぶんかる",
+      "ふんかる",
+      "わかる",
+      "はなみ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-分かる-ecrit",
+     "q": "Quel mot s'écrit **わかる** (comprendre) ?",
+     "explain": "{分|わ}かる : comprendre.",
+     "type": "choice",
+     "choices": [
+      "先かる",
+      "六かる",
+      "分かる",
+      "買かる"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-間-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "間",
+     "explain": "**間** : intervalle, entre. Le soleil 日 vu à travers une porte 門 entrouverte.",
+     "type": "choice",
+     "choices": [
+      "moitié",
+      "jour, soleil",
+      "dix",
+      "intervalle, entre"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-間-kanji",
+     "q": "Quel kanji veut dire « intervalle, entre » ?",
+     "explain": "**間** : intervalle, entre. Le soleil 日 vu à travers une porte 門 entrouverte.",
+     "type": "choice",
+     "choices": [
+      "間",
+      "曜",
+      "年",
+      "聞"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-12-半-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "半",
+     "explain": "**半** : moitié. Un objet coupé pile au milieu par un trait vertical.",
+     "type": "choice",
+     "choices": [
+      "un",
+      "moitié",
+      "trois",
+      "étudier"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-半-kanji",
+     "q": "Quel kanji veut dire « moitié » ?",
+     "explain": "**半** : moitié. Un objet coupé pile au milieu par un trait vertical.",
+     "type": "choice",
+     "choices": [
+      "羊",
+      "半",
+      "行",
+      "学"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-半-lecture",
+     "q": "Comment se lit **半** ?",
+     "explain": "{半|はん} : moitié, et demie.",
+     "type": "choice",
+     "choices": [
+      "はん",
+      "おとな",
+      "にじゅう",
+      "きく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-12-半分-trou",
+     "q": "Complète le mot **はんぶん** (la moitié) :",
+     "jp": "半＿",
+     "explain": "{半|はん}{分|ぶん} : la moitié.",
+     "type": "choice",
+     "choices": [
+      "行",
+      "飯",
+      "分",
+      "千"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-午-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "午",
+     "explain": "**午** : midi. Presque 牛 (vache), mais sans la corne : le trait central ne dépasse pas.",
+     "type": "choice",
+     "choices": [
+      "lire",
+      "midi",
+      "manger",
+      "personne"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-午-kanji",
+     "q": "Quel kanji veut dire « midi » ?",
+     "explain": "**午** : midi. Presque 牛 (vache), mais sans la corne : le trait central ne dépasse pas.",
+     "type": "choice",
+     "choices": [
+      "牛",
+      "行",
+      "午",
+      "生"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-午前-lecture",
+     "q": "Comment se lit **午前** ?",
+     "explain": "{午|ご}{前|ぜん} : matin (avant midi).",
+     "type": "choice",
+     "choices": [
+      "ごぜん",
+      "しょくどう",
+      "にじゅう",
+      "ごまえ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-12-午前-trou",
+     "q": "Complète le mot **ごぜん** (matin (avant midi)) :",
+     "jp": "午＿",
+     "explain": "{午|ご}{前|ぜん} : matin (avant midi).",
+     "type": "choice",
+     "choices": [
+      "円",
+      "前",
+      "駅",
+      "火"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-前-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "前",
+     "explain": "**前** : avant, devant. Une barque 月 et un couteau 刂 : on avance en fendant l'eau.",
+     "type": "choice",
+     "choices": [
+      "quoi, combien",
+      "avant, devant",
+      "minute, partager",
+      "or, argent"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-前-kanji",
+     "q": "Quel kanji veut dire « avant, devant » ?",
+     "explain": "**前** : avant, devant. Une barque 月 et un couteau 刂 : on avance en fendant l'eau.",
+     "type": "choice",
+     "choices": [
+      "分",
+      "今",
+      "車",
+      "前"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-前-lecture",
+     "q": "Comment se lit **前** ?",
+     "explain": "{前|まえ} : devant, avant.",
+     "type": "choice",
+     "choices": [
+      "くる",
+      "まえ",
+      "おとな",
+      "さくねん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-後-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "後",
+     "explain": "**後** : après, derrière. La clé du chemin 彳 : celui qui traîne derrière sur la route.",
+     "type": "choice",
+     "choices": [
+      "après, derrière",
+      "huit",
+      "acheter",
+      "livre, origine"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-12-後-kanji",
+     "q": "Quel kanji veut dire « après, derrière » ?",
+     "explain": "**後** : après, derrière. La clé du chemin 彳 : celui qui traîne derrière sur la route.",
+     "type": "choice",
+     "choices": [
+      "後",
+      "学",
+      "下",
+      "飲"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-12-後ろ-lecture",
+     "q": "Comment se lit **後ろ** ?",
+     "explain": "{後|うし}ろ : derrière.",
+     "type": "choice",
+     "choices": [
+      "ごろ",
+      "うしろ",
+      "こうろ",
+      "じゅうまん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-12-後ろ-ecrit",
+     "q": "Quel mot s'écrit **うしろ** (derrière) ?",
+     "explain": "{後|うし}ろ : derrière.",
+     "type": "choice",
+     "choices": [
+      "曜ろ",
+      "大ろ",
+      "校ろ",
+      "後ろ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-来年-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**来年**、大学に{入|はい}ります。",
+     "fr": "L'année prochaine, j'entre à l'université.",
+     "explain": "**来年** se lit らいねん ici ({来|らい}{年|ねん} : l'année prochaine).",
+     "type": "choice",
+     "choices": [
+      "さくねん",
+      "こうこう",
+      "だいがく",
+      "らいねん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-去年-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**去年**、日本語の{勉強|べんきょう}を{始|はじ}めました。",
+     "fr": "J'ai commencé le japonais l'année dernière.",
+     "explain": "**去年** se lit きょねん ici ({去|きょ}{年|ねん} : l'année dernière).",
+     "type": "choice",
+     "choices": [
+      "きょねん",
+      "さくねん",
+      "ろっぴゃく",
+      "ちゅうごく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-12-分かる-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "日本語が{少|すこ}し**分か**ります。",
+     "fr": "Je comprends un peu le japonais.",
+     "explain": "**分か** se lit わか ici ({分|わ}かる : comprendre).",
+     "type": "choice",
+     "choices": [
+      "ぶんか",
+      "めか",
+      "うか",
+      "わか"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-12-五分-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "駅まで{歩|ある}いて**五分**です。",
+     "fr": "La gare est à cinq minutes à pied.",
+     "explain": "**五分** se lit ごふん ici ({五|ご}{分|ふん} : cinq minutes).",
+     "type": "choice",
+     "choices": [
+      "しちがつ",
+      "としょかん",
+      "ごふん",
+      "じゅうがつ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-12-来年-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{来|らい}{年|ねん} se lit らいねん, pas くねん.",
+     "type": "choice",
+     "choices": [
+      "半 → はん",
+      "後ろ → うしろ",
+      "午前 → ごぜん",
+      "来年 → くねん"
+     ],
+     "a": 3
+    }
+   ]
+  },
+  {
+   "id": "k5-13",
+   "title": "Le matin et la météo : 朝 昨 天 気 雨",
+   "sections": [
+    {
+     "h": "朝 · matin",
+     "p": [
+      "**On** : チョウ　**Kun** : あさ",
+      "Le soleil qui se lève entre les herbes, la lune 月 encore là."
+     ],
+     "vocab": [
+      {
+       "jp": "{朝|あさ}",
+       "fr": "matin"
+      },
+      {
+       "jp": "{朝|あさ}ご{飯|はん}",
+       "fr": "petit déjeuner"
+      },
+      {
+       "jp": "{毎|まい}{朝|あさ}",
+       "fr": "tous les matins"
+      },
+      {
+       "jp": "{今朝|けさ}",
+       "fr": "ce matin"
+      }
+     ]
+    },
+    {
+     "h": "昨 · passé, dernier",
+     "p": [
+      "**On** : サク　**Kun** : —",
+      "Le soleil 日 à gauche : un jour déjà parti. Se lit surtout dans {昨日|きのう}."
+     ],
+     "vocab": [
+      {
+       "jp": "{昨日|きのう}",
+       "fr": "hier"
+      },
+      {
+       "jp": "{昨|さく}{年|ねん}",
+       "fr": "l'an dernier (soutenu)"
+      }
+     ]
+    },
+    {
+     "h": "天 · ciel",
+     "p": [
+      "**On** : テン　**Kun** : あま、あめ",
+      "Une personne 大 sous un trait : ce qui est au-dessus de sa tête."
+     ],
+     "vocab": [
+      {
+       "jp": "{天|てん}{気|き}",
+       "fr": "temps (météo)"
+      }
+     ]
+    },
+    {
+     "h": "気 · esprit, énergie",
+     "p": [
+      "**On** : キ、ケ　**Kun** : —",
+      "De la vapeur qui monte d'une marmite de riz : une énergie invisible."
+     ],
+     "vocab": [
+      {
+       "jp": "{天|てん}{気|き}",
+       "fr": "temps (météo)"
+      },
+      {
+       "jp": "{元|げん}{気|き}",
+       "fr": "en forme"
+      },
+      {
+       "jp": "{電|でん}{気|き}",
+       "fr": "électricité, lumière"
+      },
+      {
+       "jp": "{病|びょう}{気|き}",
+       "fr": "maladie"
+      }
+     ]
+    },
+    {
+     "h": "雨 · pluie",
+     "p": [
+      "**On** : ウ　**Kun** : あめ",
+      "Des gouttes qui tombent derrière une fenêtre."
+     ],
+     "vocab": [
+      {
+       "jp": "{雨|あめ}",
+       "fr": "pluie"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "天 (ciel) : ne le confonds pas avec 大 (grand)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-13-朝-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "朝",
+     "explain": "**朝** : matin. Le soleil qui se lève entre les herbes, la lune 月 encore là.",
+     "type": "choice",
+     "choices": [
+      "matin",
+      "quoi, combien",
+      "pluie",
+      "riz cuit, repas"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-朝-kanji",
+     "q": "Quel kanji veut dire « matin » ?",
+     "explain": "**朝** : matin. Le soleil qui se lève entre les herbes, la lune 月 encore là.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "話",
+      "月",
+      "朝"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-朝-lecture",
+     "q": "Comment se lit **朝** ?",
+     "explain": "{朝|あさ} : matin.",
+     "type": "choice",
+     "choices": [
+      "いちがつ",
+      "えき",
+      "ちいさい",
+      "あさ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-朝ご飯-trou",
+     "q": "Complète le mot **あさごはん** (petit déjeuner) :",
+     "jp": "朝ご＿",
+     "explain": "{朝|あさ}ご{飯|はん} : petit déjeuner.",
+     "type": "choice",
+     "choices": [
+      "飲",
+      "昨",
+      "食",
+      "飯"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-昨-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "昨",
+     "explain": "**昨** : passé, dernier. Le soleil 日 à gauche : un jour déjà parti. Se lit surtout dans {昨日|きのう}.",
+     "type": "choice",
+     "choices": [
+      "huit",
+      "rentrer",
+      "dix",
+      "passé, dernier"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-昨-kanji",
+     "q": "Quel kanji veut dire « passé, dernier » ?",
+     "explain": "**昨** : passé, dernier. Le soleil 日 à gauche : un jour déjà parti. Se lit surtout dans {昨日|きのう}.",
+     "type": "choice",
+     "choices": [
+      "書",
+      "買",
+      "百",
+      "昨"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-昨日-lecture",
+     "q": "Comment se lit **昨日** ?",
+     "explain": "{昨日|きのう} : hier.",
+     "type": "choice",
+     "choices": [
+      "きのう",
+      "した",
+      "げんき",
+      "でんわ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-昨年-trou",
+     "q": "Complète le mot **さくねん** (l'an dernier (soutenu)) :",
+     "jp": "昨＿",
+     "explain": "{昨|さく}{年|ねん} : l'an dernier (soutenu).",
+     "type": "choice",
+     "choices": [
+      "牛",
+      "火",
+      "上",
+      "年"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-天-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "天",
+     "explain": "**天** : ciel. Une personne 大 sous un trait : ce qui est au-dessus de sa tête.",
+     "type": "choice",
+     "choices": [
+      "six",
+      "vie, naître",
+      "ami",
+      "ciel"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-天-kanji",
+     "q": "Quel kanji veut dire « ciel » ?",
+     "explain": "**天** : ciel. Une personne 大 sous un trait : ce qui est au-dessus de sa tête.",
+     "type": "choice",
+     "choices": [
+      "大",
+      "天",
+      "夫",
+      "曜"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-13-天気-lecture",
+     "q": "Comment se lit **天気** ?",
+     "explain": "{天|てん}{気|き} : temps (météo).",
+     "type": "choice",
+     "choices": [
+      "した",
+      "あめき",
+      "てんけ",
+      "てんき"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-天気-trou",
+     "q": "Complète le mot **てんき** (temps (météo)) :",
+     "jp": "天＿",
+     "explain": "{天|てん}{気|き} : temps (météo).",
+     "type": "choice",
+     "choices": [
+      "昨",
+      "四",
+      "十",
+      "気"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-気-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "気",
+     "explain": "**気** : esprit, énergie. De la vapeur qui monte d'une marmite de riz : une énergie invisible.",
+     "type": "choice",
+     "choices": [
+      "esprit, énergie",
+      "année",
+      "école",
+      "entendre, écouter"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-気-kanji",
+     "q": "Quel kanji veut dire « esprit, énergie » ?",
+     "explain": "**気** : esprit, énergie. De la vapeur qui monte d'une marmite de riz : une énergie invisible.",
+     "type": "choice",
+     "choices": [
+      "分",
+      "朝",
+      "水",
+      "気"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-元気-lecture",
+     "q": "Comment se lit **元気** ?",
+     "explain": "{元|げん}{気|き} : en forme.",
+     "type": "choice",
+     "choices": [
+      "げんき",
+      "せん",
+      "まえ",
+      "げんけ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-元気-trou",
+     "q": "Complète le mot **げんき** (en forme) :",
+     "jp": "元＿",
+     "explain": "{元|げん}{気|き} : en forme.",
+     "type": "choice",
+     "choices": [
+      "水",
+      "日",
+      "下",
+      "気"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-雨-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "雨",
+     "explain": "**雨** : pluie. Des gouttes qui tombent derrière une fenêtre.",
+     "type": "choice",
+     "choices": [
+      "pluie",
+      "écrire",
+      "venir",
+      "chaque"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-雨-kanji",
+     "q": "Quel kanji veut dire « pluie » ?",
+     "explain": "**雨** : pluie. Des gouttes qui tombent derrière une fenêtre.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "来",
+      "前",
+      "雨"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-雨-lecture",
+     "q": "Comment se lit **雨** ?",
+     "explain": "{雨|あめ} : pluie.",
+     "type": "choice",
+     "choices": [
+      "あめ",
+      "むっつ",
+      "ごふん",
+      "おとな"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-朝-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**朝**はいつもいそがしいです。",
+     "fr": "Le matin, je suis toujours pressé.",
+     "explain": "**朝** se lit あさ ici ({朝|あさ} : matin).",
+     "type": "choice",
+     "choices": [
+      "あさ",
+      "つき",
+      "へた",
+      "ふたり"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-13-朝ご飯-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{今朝|けさ}は**朝ご飯**を食べませんでした。",
+     "fr": "Ce matin, je n'ai pas pris de petit-déjeuner.",
+     "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner).",
+     "type": "choice",
+     "choices": [
+      "ついたち",
+      "わたし",
+      "のみもの",
+      "あさごはん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-毎朝-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "おじいさんは**毎朝**さんぽします。",
+     "fr": "Grand-père se promène tous les matins.",
+     "explain": "**毎朝** se lit まいあさ ici ({毎|まい}{朝|あさ} : tous les matins).",
+     "type": "choice",
+     "choices": [
+      "にじゅう",
+      "にほんご",
+      "さくねん",
+      "まいあさ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-今朝-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**今朝**、六時に{起|お}きました。",
+     "fr": "Ce matin, je me suis levé à six heures.",
+     "explain": "**今朝** se lit けさ ici ({今朝|けさ} : ce matin).",
+     "type": "choice",
+     "choices": [
+      "いちまん",
+      "ちゅうごく",
+      "こうこう",
+      "けさ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-13-朝ご飯-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{朝|あさ}ご{飯|はん} se lit あさごはん, pas ちょうごはん.",
+     "type": "choice",
+     "choices": [
+      "朝ご飯 → ちょうごはん",
+      "昨年 → さくねん",
+      "病気 → びょうき",
+      "天気 → てんき"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k5-14",
+   "title": "Les directions : 東 西 南 北 右 左",
+   "sections": [
+    {
+     "h": "東 · est",
+     "p": [
+      "**On** : トウ　**Kun** : ひがし",
+      "Le soleil 日 qui se lève derrière un arbre 木."
+     ],
+     "vocab": [
+      {
+       "jp": "{東|ひがし}",
+       "fr": "est"
+      },
+      {
+       "jp": "{東|とう}{京|きょう}",
+       "fr": "Tokyo"
+      }
+     ]
+    },
+    {
+     "h": "西 · ouest",
+     "p": [
+      "**On** : セイ、サイ　**Kun** : にし",
+      "Un oiseau qui rentre au nid quand le soleil se couche à l'ouest."
+     ],
+     "vocab": [
+      {
+       "jp": "{西|にし}",
+       "fr": "ouest"
+      }
+     ]
+    },
+    {
+     "h": "南 · sud",
+     "p": [
+      "**On** : ナン　**Kun** : みなみ",
+      "Une tente chauffée par le soleil du sud."
+     ],
+     "vocab": [
+      {
+       "jp": "{南|みなみ}",
+       "fr": "sud"
+      }
+     ]
+    },
+    {
+     "h": "北 · nord",
+     "p": [
+      "**On** : ホク　**Kun** : きた",
+      "Deux personnes dos à dos, tournant le dos au vent du nord."
+     ],
+     "vocab": [
+      {
+       "jp": "{北|きた}",
+       "fr": "nord"
+      }
+     ]
+    },
+    {
+     "h": "右 · droite",
+     "p": [
+      "**On** : ウ、ユウ　**Kun** : みぎ",
+      "Une main et une bouche 口 : la main avec laquelle on mange."
+     ],
+     "vocab": [
+      {
+       "jp": "{右|みぎ}",
+       "fr": "droite"
+      }
+     ]
+    },
+    {
+     "h": "左 · gauche",
+     "p": [
+      "**On** : サ　**Kun** : ひだり",
+      "Une main et une équerre 工 : l'autre main tient l'outil."
+     ],
+     "vocab": [
+      {
+       "jp": "{左|ひだり}",
+       "fr": "gauche"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "東 (est) : ne le confonds pas avec 車 (voiture, roue).",
+    "西 (ouest) : ne le confonds pas avec 四 (quatre).",
+    "右 (droite) : ne le confonds pas avec 左 (gauche).",
+    "左 (gauche) : ne le confonds pas avec 右 (droite)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-14-東-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "東",
+     "explain": "**東** : est. Le soleil 日 qui se lève derrière un arbre 木.",
+     "type": "choice",
+     "choices": [
+      "ciel",
+      "est",
+      "avant, précédent",
+      "matin"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-東-kanji",
+     "q": "Quel kanji veut dire « est » ?",
+     "explain": "**東** : est. Le soleil 日 qui se lève derrière un arbre 木.",
+     "type": "choice",
+     "choices": [
+      "昨",
+      "私",
+      "車",
+      "東"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-14-東-lecture",
+     "q": "Comment se lit **東** ?",
+     "explain": "{東|ひがし} : est.",
+     "type": "choice",
+     "choices": [
+      "うまれる",
+      "たべる",
+      "ひがし",
+      "あいだ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-14-東京-trou",
+     "q": "Complète le mot **とうきょう** (Tokyo) :",
+     "jp": "東＿",
+     "explain": "{東|とう}{京|きょう} : Tokyo.",
+     "type": "choice",
+     "choices": [
+      "飲",
+      "火",
+      "京",
+      "先"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-14-西-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "西",
+     "explain": "**西** : ouest. Un oiseau qui rentre au nid quand le soleil se couche à l'ouest.",
+     "type": "choice",
+     "choices": [
+      "milieu, dans",
+      "minute, partager",
+      "ouest",
+      "gare"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-14-西-kanji",
+     "q": "Quel kanji veut dire « ouest » ?",
+     "explain": "**西** : ouest. Un oiseau qui rentre au nid quand le soleil se couche à l'ouest.",
+     "type": "choice",
+     "choices": [
+      "何",
+      "西",
+      "四",
+      "行"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-西-lecture",
+     "q": "Comment se lit **西** ?",
+     "explain": "{西|にし} : ouest.",
+     "type": "choice",
+     "choices": [
+      "まえ",
+      "にし",
+      "ななつ",
+      "がくせい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-南-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "南",
+     "explain": "**南** : sud. Une tente chauffée par le soleil du sud.",
+     "type": "choice",
+     "choices": [
+      "sud",
+      "gare",
+      "arbre, bois",
+      "nom"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-南-kanji",
+     "q": "Quel kanji veut dire « sud » ?",
+     "explain": "**南** : sud. Une tente chauffée par le soleil du sud.",
+     "type": "choice",
+     "choices": [
+      "話",
+      "二",
+      "上",
+      "南"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-14-南-lecture",
+     "q": "Comment se lit **南** ?",
+     "explain": "{南|みなみ} : sud.",
+     "type": "choice",
+     "choices": [
+      "みなみ",
+      "おおきい",
+      "とうきょう",
+      "いちまん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-北-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "北",
+     "explain": "**北** : nord. Deux personnes dos à dos, tournant le dos au vent du nord.",
+     "type": "choice",
+     "choices": [
+      "yen, cercle",
+      "nord",
+      "quatre",
+      "maintenant"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-北-kanji",
+     "q": "Quel kanji veut dire « nord » ?",
+     "explain": "**北** : nord. Deux personnes dos à dos, tournant le dos au vent du nord.",
+     "type": "choice",
+     "choices": [
+      "北",
+      "比",
+      "昨",
+      "今"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-北-lecture",
+     "q": "Comment se lit **北** ?",
+     "explain": "{北|きた} : nord.",
+     "type": "choice",
+     "choices": [
+      "きた",
+      "らいげつ",
+      "なんじ",
+      "なに"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-右-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "右",
+     "explain": "**右** : droite. Une main et une bouche 口 : la main avec laquelle on mange.",
+     "type": "choice",
+     "choices": [
+      "droite",
+      "jour de la semaine",
+      "minute, partager",
+      "riz cuit, repas"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-右-kanji",
+     "q": "Quel kanji veut dire « droite » ?",
+     "explain": "**右** : droite. Une main et une bouche 口 : la main avec laquelle on mange.",
+     "type": "choice",
+     "choices": [
+      "石",
+      "右",
+      "左",
+      "週"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-右-lecture",
+     "q": "Comment se lit **右** ?",
+     "explain": "{右|みぎ} : droite.",
+     "type": "choice",
+     "choices": [
+      "だいがく",
+      "ください",
+      "なに",
+      "みぎ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-14-左-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "左",
+     "explain": "**左** : gauche. Une main et une équerre 工 : l'autre main tient l'outil.",
+     "type": "choice",
+     "choices": [
+      "gauche",
+      "voir",
+      "matin",
+      "moitié"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-左-kanji",
+     "q": "Quel kanji veut dire « gauche » ?",
+     "explain": "**左** : gauche. Une main et une équerre 工 : l'autre main tient l'outil.",
+     "type": "choice",
+     "choices": [
+      "左",
+      "半",
+      "千",
+      "右"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-左-lecture",
+     "q": "Comment se lit **左** ?",
+     "explain": "{左|ひだり} : gauche.",
+     "type": "choice",
+     "choices": [
+      "うしろ",
+      "ひだり",
+      "くがつ",
+      "とうきょう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-東-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "駅の**東**に大きい{公園|こうえん}があります。",
+     "fr": "À l'est de la gare, il y a un grand parc.",
+     "explain": "**東** se lit ひがし ici ({東|ひがし} : est).",
+     "type": "choice",
+     "choices": [
+      "がっこう",
+      "ひがし",
+      "いつつ",
+      "さんぜん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-14-東京-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{兄|あに}の{会社|かいしゃ}は**東京**にあります。",
+     "fr": "L'entreprise de mon grand frère est à Tokyo.",
+     "explain": "**東京** se lit とうきょう ici ({東|とう}{京|きょう} : Tokyo).",
+     "type": "choice",
+     "choices": [
+      "たべる",
+      "なまえ",
+      "はっせん",
+      "とうきょう"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-14-西-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{大阪|おおさか}は{東京|とうきょう}の**西**にあります。",
+     "fr": "Osaka se trouve à l'ouest de Tokyo.",
+     "explain": "**西** se lit にし ici ({西|にし} : ouest).",
+     "type": "choice",
+     "choices": [
+      "にし",
+      "しがつ",
+      "えん",
+      "みぎ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-北-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{北海道|ほっかいどう}は日本の**北**にあります。",
+     "fr": "Hokkaidō se trouve au nord du Japon.",
+     "explain": "**北** se lit きた ici ({北|きた} : nord).",
+     "type": "choice",
+     "choices": [
+      "きた",
+      "よん",
+      "にちようび",
+      "なんぷん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-14-東京-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{東|とう}{京|きょう} se lit とうきょう, pas ひがしきょう.",
+     "type": "choice",
+     "choices": [
+      "右 → みぎ",
+      "東京 → ひがしきょう",
+      "東 → ひがし",
+      "西 → にし"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "k5-15",
+   "title": "Dehors, dans la nature : 山 川 道 花 空",
+   "sections": [
+    {
+     "h": "山 · montagne",
+     "p": [
+      "**On** : サン　**Kun** : やま",
+      "Trois sommets."
+     ],
+     "vocab": [
+      {
+       "jp": "{山|やま}",
+       "fr": "montagne"
+      },
+      {
+       "jp": "{富|ふ}{士|じ}{山|さん}",
+       "fr": "mont Fuji"
+      }
+     ]
+    },
+    {
+     "h": "川 · rivière",
+     "p": [
+      "**On** : セン　**Kun** : かわ",
+      "Trois filets d'eau qui coulent."
+     ],
+     "vocab": [
+      {
+       "jp": "{川|かわ}",
+       "fr": "rivière"
+      }
+     ]
+    },
+    {
+     "h": "道 · chemin, route",
+     "p": [
+      "**On** : ドウ　**Kun** : みち",
+      "La tête 首 sur la clé de la marche 辶 : suivre sa route."
+     ],
+     "vocab": [
+      {
+       "jp": "{道|みち}",
+       "fr": "chemin, route"
+      },
+      {
+       "jp": "{北|ほっ}{海|かい}{道|どう}",
+       "fr": "Hokkaidō"
+      }
+     ]
+    },
+    {
+     "h": "花 · fleur",
+     "p": [
+      "**On** : カ　**Kun** : はな",
+      "La clé des herbes en haut : une plante qui change 化."
+     ],
+     "vocab": [
+      {
+       "jp": "{花|はな}",
+       "fr": "fleur"
+      },
+      {
+       "jp": "{花|はな}{見|み}",
+       "fr": "contemplation des cerisiers"
+      }
+     ]
+    },
+    {
+     "h": "空 · ciel, vide",
+     "p": [
+      "**On** : クウ　**Kun** : そら、あ(く)",
+      "Un trou 穴 sur un outil 工 : un espace vide."
+     ],
+     "vocab": [
+      {
+       "jp": "{空|そら}",
+       "fr": "ciel"
+      },
+      {
+       "jp": "{空|くう}{港|こう}",
+       "fr": "aéroport"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "山 (montagne) : ne le confonds pas avec 出 (sortir).",
+    "川 (rivière) : ne le confonds pas avec 三 (trois)."
+   ],
+   "exercises": [
+    {
+     "id": "k5-15-山-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "山",
+     "explain": "**山** : montagne. Trois sommets.",
+     "type": "choice",
+     "choices": [
+      "ciel",
+      "montagne",
+      "droite",
+      "pluie"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-山-kanji",
+     "q": "Quel kanji veut dire « montagne » ?",
+     "explain": "**山** : montagne. Trois sommets.",
+     "type": "choice",
+     "choices": [
+      "月",
+      "何",
+      "出",
+      "山"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-15-山-lecture",
+     "q": "Comment se lit **山** ?",
+     "explain": "{山|やま} : montagne.",
+     "type": "choice",
+     "choices": [
+      "やま",
+      "そら",
+      "ゆうじん",
+      "はんぶん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-15-富士山-trou",
+     "q": "Complète le mot **ふじさん** (mont Fuji) :",
+     "jp": "富士＿",
+     "explain": "{富|ふ}{士|じ}{山|さん} : mont Fuji.",
+     "type": "choice",
+     "choices": [
+      "山",
+      "行",
+      "水",
+      "出"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-15-川-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "川",
+     "explain": "**川** : rivière. Trois filets d'eau qui coulent.",
+     "type": "choice",
+     "choices": [
+      "rivière",
+      "intervalle, entre",
+      "haut, sur",
+      "après, derrière"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-15-川-kanji",
+     "q": "Quel kanji veut dire « rivière » ?",
+     "explain": "**川** : rivière. Trois filets d'eau qui coulent.",
+     "type": "choice",
+     "choices": [
+      "三",
+      "川",
+      "日",
+      "本"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-川-lecture",
+     "q": "Comment se lit **川** ?",
+     "explain": "{川|かわ} : rivière.",
+     "type": "choice",
+     "choices": [
+      "ふたり",
+      "かわ",
+      "がくせい",
+      "よっつ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-道-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "道",
+     "explain": "**道** : chemin, route. La tête 首 sur la clé de la marche 辶 : suivre sa route.",
+     "type": "choice",
+     "choices": [
+      "est",
+      "ami",
+      "chemin, route",
+      "venir"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-15-道-kanji",
+     "q": "Quel kanji veut dire « chemin, route » ?",
+     "explain": "**道** : chemin, route. La tête 首 sur la clé de la marche 辶 : suivre sa route.",
+     "type": "choice",
+     "choices": [
+      "本",
+      "道",
+      "一",
+      "水"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-道-lecture",
+     "q": "Comment se lit **道** ?",
+     "explain": "{道|みち} : chemin, route.",
+     "type": "choice",
+     "choices": [
+      "みち",
+      "ちいさい",
+      "ごがつ",
+      "げんき"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-15-北海道-trou",
+     "q": "Complète le mot **ほっかいどう** (Hokkaidō) :",
+     "jp": "北海＿",
+     "explain": "{北|ほっ}{海|かい}{道|どう} : Hokkaidō.",
+     "type": "choice",
+     "choices": [
+      "生",
+      "道",
+      "半",
+      "四"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-花-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "花",
+     "explain": "**花** : fleur. La clé des herbes en haut : une plante qui change 化.",
+     "type": "choice",
+     "choices": [
+      "fleur",
+      "neuf",
+      "cinq",
+      "eau"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-15-花-kanji",
+     "q": "Quel kanji veut dire « fleur » ?",
+     "explain": "**花** : fleur. La clé des herbes en haut : une plante qui change 化.",
+     "type": "choice",
+     "choices": [
+      "西",
+      "五",
+      "千",
+      "花"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-15-花-lecture",
+     "q": "Comment se lit **花** ?",
+     "explain": "{花|はな} : fleur.",
+     "type": "choice",
+     "choices": [
+      "おおきい",
+      "はな",
+      "いく",
+      "つき"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-花見-trou",
+     "q": "Complète le mot **はなみ** (contemplation des cerisiers) :",
+     "jp": "花＿",
+     "explain": "{花|はな}{見|み} : contemplation des cerisiers.",
+     "type": "choice",
+     "choices": [
+      "見",
+      "上",
+      "友",
+      "貝"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-15-空-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "空",
+     "explain": "**空** : ciel, vide. Un trou 穴 sur un outil 工 : un espace vide.",
+     "type": "choice",
+     "choices": [
+      "jour, soleil",
+      "acheter",
+      "minute, partager",
+      "ciel, vide"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-15-空-kanji",
+     "q": "Quel kanji veut dire « ciel, vide » ?",
+     "explain": "**空** : ciel, vide. Un trou 穴 sur un outil 工 : un espace vide.",
+     "type": "choice",
+     "choices": [
+      "火",
+      "九",
+      "書",
+      "空"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-15-空-lecture",
+     "q": "Comment se lit **空** ?",
+     "explain": "{空|そら} : ciel.",
+     "type": "choice",
+     "choices": [
+      "ごはん",
+      "ついたち",
+      "そら",
+      "でんしゃ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-15-空-ecrit",
+     "q": "Quel mot s'écrit **そら** (ciel) ?",
+     "explain": "{空|そら} : ciel.",
+     "type": "choice",
+     "choices": [
+      "昨",
+      "空",
+      "食",
+      "小"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-山-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{冬|ふゆ}は**山**にゆきがたくさん{降|ふ}ります。",
+     "fr": "En hiver, il neige beaucoup sur les montagnes.",
+     "explain": "**山** se lit やま ici ({山|やま} : montagne).",
+     "type": "choice",
+     "choices": [
+      "とお",
+      "つき",
+      "やま",
+      "ふじさん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-15-道-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "この**道**をまっすぐ行ってください。",
+     "fr": "Allez tout droit dans cette rue.",
+     "explain": "**道** se lit みち ici ({道|みち} : chemin, route).",
+     "type": "choice",
+     "choices": [
+      "まいあさ",
+      "みち",
+      "はな",
+      "なんようび"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-15-空-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "今日は**空**が{青|あお}いです。",
+     "fr": "Aujourd'hui, le ciel est bleu.",
+     "explain": "**空** se lit そら ici ({空|そら} : ciel).",
+     "type": "choice",
+     "choices": [
+      "ひこうき",
+      "ひゃくえん",
+      "そら",
+      "ふたつ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-15-富士山-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{富|ふ}{士|じ}{山|さん} se lit ふじさん, pas ふじやま.",
+     "type": "choice",
+     "choices": [
+      "富士山 → ふじやま",
+      "空港 → くうこう",
+      "山 → やま",
+      "北海道 → ほっかいどう"
+     ],
+     "a": 0
+    }
+   ]
+  }
+ ],
+ "test": [
+  {
+   "id": "k5-b03-一月-lecture",
+   "q": "Comment se lit **一月** ?",
+   "explain": "{一|いち}{月|がつ} : janvier.",
+   "type": "choice",
+   "choices": [
+    "いちげつ",
+    "いちがつ",
+    "ひとがつ",
+    "ひゃく"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b03-火曜日-lecture",
+   "q": "Comment se lit **火曜日** ?",
+   "explain": "{火|か}{曜|よう}{日|び} : mardi.",
+   "type": "choice",
+   "choices": [
+    "おとこのひと",
+    "かようび",
+    "ひようび",
+    "かようひ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b03-木曜日-lecture",
+   "q": "Comment se lit **木曜日** ?",
+   "explain": "{木|もく}{曜|よう}{日|び} : jeudi.",
+   "type": "choice",
+   "choices": [
+    "もくようひ",
+    "としょかん",
+    "もくようび",
+    "もくようにち"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-金曜日-lecture",
+   "q": "Comment se lit **金曜日** ?",
+   "explain": "{金|きん}{曜|よう}{日|び} : vendredi.",
+   "type": "choice",
+   "choices": [
+    "きんようび",
+    "さんぜん",
+    "きんようか",
+    "こんようび"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b03-土曜日-lecture",
+   "q": "Comment se lit **土曜日** ?",
+   "explain": "{土|ど}{曜|よう}{日|び} : samedi.",
+   "type": "choice",
+   "choices": [
+    "どようび",
+    "どようひ",
+    "みる",
+    "どようか"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b03-今年-lecture",
+   "q": "Comment se lit **今年** ?",
+   "explain": "{今年|ことし} : cette année.",
+   "type": "choice",
+   "choices": [
+    "まえ",
+    "ともだち",
+    "ことし",
+    "ひこうき"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-去年-lecture",
+   "q": "Comment se lit **去年** ?",
+   "explain": "{去|きょ}{年|ねん} : l'année dernière.",
+   "type": "choice",
+   "choices": [
+    "えいご",
+    "おおきい",
+    "きょねん",
+    "きょとし"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-何分-lecture",
+   "q": "Comment se lit **何分** ?",
+   "explain": "{何|なん}{分|ぷん} : combien de minutes.",
+   "type": "choice",
+   "choices": [
+    "なんわ",
+    "なにぷん",
+    "さんぷん",
+    "なんぷん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-三分-lecture",
+   "q": "Comment se lit **三分** ?",
+   "explain": "{三|さん}{分|ぷん} : trois minutes.",
+   "type": "choice",
+   "choices": [
+    "さんぷん",
+    "さんわ",
+    "てんき",
+    "さんふん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b03-五分-lecture",
+   "q": "Comment se lit **五分** ?",
+   "explain": "{五|ご}{分|ふん} : cinq minutes.",
+   "type": "choice",
+   "choices": [
+    "ごわ",
+    "いつふん",
+    "なか",
+    "ごふん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-半分-lecture",
+   "q": "Comment se lit **半分** ?",
+   "explain": "{半|はん}{分|ぶん} : la moitié.",
+   "type": "choice",
+   "choices": [
+    "つき",
+    "なかぶん",
+    "はんふん",
+    "はんぶん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-午後-lecture",
+   "q": "Comment se lit **午後** ?",
+   "explain": "{午|ご}{後|ご} : après-midi.",
+   "type": "choice",
+   "choices": [
+    "ごこう",
+    "にがつ",
+    "ごうし",
+    "ごご"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-前-ecrit",
+   "q": "Quel mot s'écrit **まえ** (devant, avant) ?",
+   "explain": "{前|まえ} : devant, avant.",
+   "type": "choice",
+   "choices": [
+    "前",
+    "一",
+    "年",
+    "見"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b03-朝-ecrit",
+   "q": "Quel mot s'écrit **あさ** (matin) ?",
+   "explain": "{朝|あさ} : matin.",
+   "type": "choice",
+   "choices": [
+    "飲",
+    "朝",
+    "週",
+    "買"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b03-毎朝-lecture",
+   "q": "Comment se lit **毎朝** ?",
+   "explain": "{毎|まい}{朝|あさ} : tous les matins.",
+   "type": "choice",
+   "choices": [
+    "まいあさ",
+    "まいちょう",
+    "さんぷん",
+    "ひこうき"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k5-b03-今朝-lecture",
+   "q": "Comment se lit **今朝** ?",
+   "explain": "{今朝|けさ} : ce matin.",
+   "type": "choice",
+   "choices": [
+    "なんじ",
+    "たべる",
+    "けさ",
+    "はんぶん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-昨年-lecture",
+   "q": "Comment se lit **昨年** ?",
+   "explain": "{昨|さく}{年|ねん} : l'an dernier (soutenu).",
+   "type": "choice",
+   "choices": [
+    "なんじ",
+    "さくとし",
+    "へた",
+    "さくねん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-電気-lecture",
+   "q": "Comment se lit **電気** ?",
+   "explain": "{電|でん}{気|き} : électricité, lumière.",
+   "type": "choice",
+   "choices": [
+    "でんけ",
+    "でんき",
+    "にじゅう",
+    "ここのつ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b03-病気-lecture",
+   "q": "Comment se lit **病気** ?",
+   "explain": "{病|びょう}{気|き} : maladie.",
+   "type": "choice",
+   "choices": [
+    "きく",
+    "びょうき",
+    "らいねん",
+    "びょうけ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b03-東京-lecture",
+   "q": "Comment se lit **東京** ?",
+   "explain": "{東|とう}{京|きょう} : Tokyo.",
+   "type": "choice",
+   "choices": [
+    "ふつか",
+    "とうきょう",
+    "ひがしきょう",
+    "わかる"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k5-b03-富士山-lecture",
+   "q": "Comment se lit **富士山** ?",
+   "explain": "{富|ふ}{士|じ}{山|さん} : mont Fuji.",
+   "type": "choice",
+   "choices": [
+    "つち",
+    "ふじやま",
+    "ふじさん",
+    "やっつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-北海道-lecture",
+   "q": "Comment se lit **北海道** ?",
+   "explain": "{北|ほっ}{海|かい}{道|どう} : Hokkaidō.",
+   "type": "choice",
+   "choices": [
+    "きんようび",
+    "ほくかいどう",
+    "ほっかいみち",
+    "ほっかいどう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-花見-lecture",
+   "q": "Comment se lit **花見** ?",
+   "explain": "{花|はな}{見|み} : contemplation des cerisiers.",
+   "type": "choice",
+   "choices": [
+    "こんしゅう",
+    "はなけん",
+    "かみ",
+    "はなみ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-空港-lecture",
+   "q": "Comment se lit **空港** ?",
+   "explain": "{空|くう}{港|こう} : aéroport.",
+   "type": "choice",
+   "choices": [
+    "まいあさ",
+    "あこう",
+    "そらこう",
+    "くうこう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-お金-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "今日は**お金**がありません。",
+   "fr": "Aujourd'hui, je n'ai pas d'argent.",
+   "explain": "**お金** se lit おかね ici (お{金|かね} : argent).",
+   "type": "choice",
+   "choices": [
+    "こうこう",
+    "せん",
+    "ひこうき",
+    "おかね"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-金曜日-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**金曜日**の{夜|よる}、友だちとお{酒|さけ}を飲みます。",
+   "fr": "Vendredi soir, je bois un verre avec des amis.",
+   "explain": "**金曜日** se lit きんようび ici ({金|きん}{曜|よう}{日|び} : vendredi).",
+   "type": "choice",
+   "choices": [
+    "きんようひ",
+    "きんようか",
+    "きんようび",
+    "こんようび"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-土曜日-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**土曜日**は{家|いえ}でそうじします。",
+   "fr": "Le samedi, je fais le ménage à la maison.",
+   "explain": "**土曜日** se lit どようび ici ({土|ど}{曜|よう}{日|び} : samedi).",
+   "type": "choice",
+   "choices": [
+    "どようひ",
+    "とようび",
+    "どようか",
+    "どようび"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-分かる-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "この{漢字|かんじ}の{意味|いみ}が**分か**りません。",
+   "fr": "Je ne comprends pas le sens de ce kanji.",
+   "explain": "**分か** se lit わか ici ({分|わ}かる : comprendre).",
+   "type": "choice",
+   "choices": [
+    "のか",
+    "あか",
+    "ふんか",
+    "わか"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b03-間-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{銀行|ぎんこう}と{病院|びょういん}の**間**に{店|みせ}があります。",
+   "fr": "Il y a un magasin entre la banque et l'hôpital.",
+   "explain": "**間** se lit あいだ ici ({間|あいだ} : entre, intervalle).",
+   "type": "choice",
+   "choices": [
+    "にし",
+    "いま",
+    "あいだ",
+    "なんぷん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b03-時間-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "ごめんなさい。{明日|あした}は**時間**がありません。",
+   "fr": "Désolé, demain je n'ai pas le temps.",
+   "explain": "**時間** se lit じかん ici ({時|じ}{間|かん} : temps, durée).",
+   "type": "choice",
+   "choices": [
+    "じかん",
+    "じま",
+    "じあいだ",
+    "ときかん"
+   ],
+   "a": 0
+  }
+ ],
+ "examTest": []
+}

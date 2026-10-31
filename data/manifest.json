@@ -1,0 +1,18 @@
+{
+ "examEvery": 4,
+ "miniExamEvery": 2,
+ "focus": [
+  "data/focus/on-kun.json",
+  "data/focus/pieges.json",
+  "data/focus/compteurs.json",
+  "data/focus/sosies.json"
+ ],
+ "blocks": [
+  "data/n5/bloc01.json",
+  "data/n5/bloc02.json",
+  "data/n5/bloc03.json",
+  "data/n5/bloc04.json",
+  "data/n5/bloc05.json",
+  "data/n5/bloc06.json"
+ ]
+}

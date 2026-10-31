@@ -1,0 +1,690 @@
+{
+ "id": "sosies",
+ "label": "似",
+ "title": "Les kanji qui se ressemblent",
+ "unlockAfter": "k5-04",
+ "sheet": {
+  "sections": [
+   {
+    "h": "Paires à séparer",
+    "p": [
+     "Regarde le détail qui change, et rattache chaque kanji à un mot connu."
+    ],
+    "grid": {
+     "head": [
+      "Kanji",
+      "Différence"
+     ],
+     "rows": [
+      [
+       "日 / 目",
+       "目 a deux barres et il est plus haut (un œil)."
+      ],
+      [
+       "大 / 犬 / 太",
+       "犬 : point en haut à droite. 太 : point en bas."
+      ],
+      [
+       "土 / 士",
+       "土 : barre du bas plus longue. 士 : barre du haut plus longue."
+      ],
+      [
+       "末 / 未",
+       "末 : barre du haut longue (la fin). 未 : barre du haut courte (pas encore)."
+      ],
+      [
+       "人 / 入 / 八",
+       "入 : le trait de droite domine. 八 : traits séparés."
+      ],
+      [
+       "午 / 牛",
+       "牛 a une corne : le trait central dépasse."
+      ],
+      [
+       "聞 / 間",
+       "聞 : une oreille 耳 dans la porte. 間 : un soleil 日."
+      ],
+      [
+       "右 / 左",
+       "右 : bouche 口 (mange). 左 : outil 工."
+      ],
+      [
+       "毎 / 母",
+       "毎 = 母 + un chapeau."
+      ],
+      [
+       "白 / 百",
+       "百 = 白 + un trait au-dessus."
+      ]
+     ]
+    }
+   }
+  ],
+  "pieges": [
+   "Les kanji hors N5 de ces paires (犬, 太, 士, 末, 未, 牛…) sont ici seulement pour les distinguer."
+  ]
+ },
+ "exercises": [
+  {
+   "id": "f-so-にほん",
+   "uses": [
+    "k5-01"
+   ],
+   "q": "Quel kanji complète **にほん** (Japon) ?",
+   "jp": "＿本",
+   "explain": "Le bon kanji est **日**. Attention à 目, 白, 百.",
+   "type": "choice",
+   "choices": [
+    "目",
+    "日",
+    "白",
+    "百"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-ひとつめ",
+   "uses": [
+    "k5-08",
+    "k5-18"
+   ],
+   "q": "Quel kanji complète **ひとつめ** (le premier) ?",
+   "jp": "一つ＿",
+   "explain": "Le bon kanji est **目**. Attention à 日, 白, 自.",
+   "type": "choice",
+   "choices": [
+    "白",
+    "自",
+    "日",
+    "目"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-だいがく",
+   "uses": [
+    "k5-06",
+    "k5-07"
+   ],
+   "q": "Quel kanji complète **だいがく** (université) ?",
+   "jp": "＿学",
+   "explain": "Le bon kanji est **大**. Attention à 犬, 太, 人.",
+   "type": "choice",
+   "choices": [
+    "大",
+    "人",
+    "太",
+    "犬"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-おとな",
+   "uses": [
+    "k5-01",
+    "k5-07"
+   ],
+   "q": "Quel kanji complète **おとな** (adulte) ?",
+   "jp": "＿人",
+   "explain": "Le bon kanji est **大**. Attention à 太, 犬, 入.",
+   "type": "choice",
+   "choices": [
+    "犬",
+    "太",
+    "入",
+    "大"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-どようび",
+   "uses": [
+    "k5-05",
+    "k5-01",
+    "k5-11"
+   ],
+   "q": "Quel kanji complète **どようび** (samedi) ?",
+   "jp": "＿曜日",
+   "explain": "Le bon kanji est **土**. Attention à 士, 上, 工.",
+   "type": "choice",
+   "choices": [
+    "士",
+    "上",
+    "土",
+    "工"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-so-ふじさん",
+   "uses": [
+    "k5-15"
+   ],
+   "q": "Quel kanji complète **ふじさん** (mont Fuji) ?",
+   "jp": "富＿山",
+   "explain": "Le bon kanji est **士**. Attention à 土, 上, 干.",
+   "type": "choice",
+   "choices": [
+    "上",
+    "干",
+    "士",
+    "土"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-so-もくようび",
+   "uses": [
+    "k5-05",
+    "k5-01",
+    "k5-11"
+   ],
+   "q": "Quel kanji complète **もくようび** (jeudi) ?",
+   "jp": "＿曜日",
+   "explain": "Le bon kanji est **木**. Attention à 本, 末, 未.",
+   "type": "choice",
+   "choices": [
+    "本",
+    "木",
+    "末",
+    "未"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-しゅうまつ",
+   "uses": [
+    "k5-05"
+   ],
+   "q": "Quel kanji complète **しゅうまつ** (week-end) ?",
+   "jp": "週＿",
+   "explain": "Le bon kanji est **末**. Attention à 未, 木, 本.",
+   "type": "choice",
+   "choices": [
+    "木",
+    "未",
+    "末",
+    "本"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-so-みらい",
+   "uses": [
+    "k5-02"
+   ],
+   "q": "Quel kanji complète **みらい** (avenir) ?",
+   "jp": "＿来",
+   "explain": "Le bon kanji est **未**. Attention à 末, 木, 本.",
+   "type": "choice",
+   "choices": [
+    "未",
+    "木",
+    "本",
+    "末"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-いりぐち",
+   "uses": [
+    "k5-18",
+    "k5-19"
+   ],
+   "q": "Quel kanji complète **いりぐち** (entrée) ?",
+   "jp": "＿口",
+   "explain": "Le bon kanji est **入**. Attention à 人, 八, 大.",
+   "type": "choice",
+   "choices": [
+    "入",
+    "八",
+    "人",
+    "大"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-はっぴゃく",
+   "uses": [
+    "k5-10",
+    "k5-09"
+   ],
+   "q": "Quel kanji complète **はっぴゃく** (800) ?",
+   "jp": "＿百",
+   "explain": "Le bon kanji est **八**. Attention à 人, 入, 六.",
+   "type": "choice",
+   "choices": [
+    "八",
+    "人",
+    "入",
+    "六"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-にほんじん",
+   "uses": [
+    "k5-01"
+   ],
+   "q": "Quel kanji complète **にほんじん** (Japonais(e)) ?",
+   "jp": "日本＿",
+   "explain": "Le bon kanji est **人**. Attention à 入, 八, 大.",
+   "type": "choice",
+   "choices": [
+    "入",
+    "人",
+    "大",
+    "八"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-しろい",
+   "uses": [
+    "k5-20"
+   ],
+   "q": "Quel kanji complète **しろい** (blanc) ?",
+   "jp": "＿い",
+   "explain": "Le bon kanji est **白**. Attention à 百, 日, 自.",
+   "type": "choice",
+   "choices": [
+    "百",
+    "白",
+    "日",
+    "自"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-さんびゃく",
+   "uses": [
+    "k5-08",
+    "k5-10"
+   ],
+   "q": "Quel kanji complète **さんびゃく** (300) ?",
+   "jp": "三＿",
+   "explain": "Le bon kanji est **百**. Attention à 白, 日, 目.",
+   "type": "choice",
+   "choices": [
+    "百",
+    "目",
+    "白",
+    "日"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-さんぜん",
+   "uses": [
+    "k5-08",
+    "k5-10"
+   ],
+   "q": "Quel kanji complète **さんぜん** (3 000) ?",
+   "jp": "三＿",
+   "explain": "Le bon kanji est **千**. Attention à 十, 干, 午.",
+   "type": "choice",
+   "choices": [
+    "十",
+    "干",
+    "午",
+    "千"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-じゅうがつ",
+   "uses": [
+    "k5-11",
+    "k5-09"
+   ],
+   "q": "Quel kanji complète **じゅうがつ** (octobre) ?",
+   "jp": "＿月",
+   "explain": "Le bon kanji est **十**. Attention à 千, 七, 干.",
+   "type": "choice",
+   "choices": [
+    "千",
+    "十",
+    "干",
+    "七"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-ごぜん",
+   "uses": [
+    "k5-12"
+   ],
+   "q": "Quel kanji complète **ごぜん** (matin) ?",
+   "jp": "＿前",
+   "explain": "Le bon kanji est **午**. Attention à 牛, 年, 千.",
+   "type": "choice",
+   "choices": [
+    "千",
+    "牛",
+    "年",
+    "午"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-ぎゅうにく",
+   "uses": [],
+   "q": "Quel kanji complète **ぎゅうにく** (viande de bœuf) ?",
+   "jp": "＿肉",
+   "explain": "Le bon kanji est **牛**. Attention à 午, 年, 半.",
+   "type": "choice",
+   "choices": [
+    "年",
+    "牛",
+    "半",
+    "午"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-みる",
+   "uses": [
+    "k5-04"
+   ],
+   "q": "Quel kanji complète **みる** (voir) ?",
+   "jp": "＿る",
+   "explain": "Le bon kanji est **見**. Attention à 貝, 買, 目.",
+   "type": "choice",
+   "choices": [
+    "見",
+    "目",
+    "買",
+    "貝"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-かう",
+   "uses": [
+    "k5-10"
+   ],
+   "q": "Quel kanji complète **かう** (acheter) ?",
+   "jp": "＿う",
+   "explain": "Le bon kanji est **買**. Attention à 見, 貝, 員.",
+   "type": "choice",
+   "choices": [
+    "見",
+    "貝",
+    "員",
+    "買"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-じかん",
+   "uses": [
+    "k5-05",
+    "k5-12"
+   ],
+   "q": "Quel kanji complète **じかん** (temps, durée) ?",
+   "jp": "時＿",
+   "explain": "Le bon kanji est **間**. Attention à 聞, 門, 問.",
+   "type": "choice",
+   "choices": [
+    "問",
+    "門",
+    "聞",
+    "間"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-しんぶん",
+   "uses": [
+    "k5-20",
+    "k5-04"
+   ],
+   "q": "Quel kanji complète **しんぶん** (journal) ?",
+   "jp": "新＿",
+   "explain": "Le bon kanji est **聞**. Attention à 間, 門, 問.",
+   "type": "choice",
+   "choices": [
+    "門",
+    "問",
+    "間",
+    "聞"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-みぎ",
+   "uses": [
+    "k5-14"
+   ],
+   "q": "Quel kanji complète **みぎ** (droite) ?",
+   "jp": "＿",
+   "explain": "Le bon kanji est **右**. Attention à 左, 石, 古.",
+   "type": "choice",
+   "choices": [
+    "石",
+    "右",
+    "古",
+    "左"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-ひだり",
+   "uses": [
+    "k5-14"
+   ],
+   "q": "Quel kanji complète **ひだり** (gauche) ?",
+   "jp": "＿",
+   "explain": "Le bon kanji est **左**. Attention à 右, 石, 在.",
+   "type": "choice",
+   "choices": [
+    "在",
+    "右",
+    "石",
+    "左"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-たべる",
+   "uses": [
+    "k5-03"
+   ],
+   "q": "Quel kanji complète **たべる** (manger) ?",
+   "jp": "＿べる",
+   "explain": "Le bon kanji est **食**. Attention à 飲, 飯, 館.",
+   "type": "choice",
+   "choices": [
+    "飯",
+    "食",
+    "飲",
+    "館"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-のむ",
+   "uses": [
+    "k5-03"
+   ],
+   "q": "Quel kanji complète **のむ** (boire) ?",
+   "jp": "＿む",
+   "explain": "Le bon kanji est **飲**. Attention à 食, 飯, 欠.",
+   "type": "choice",
+   "choices": [
+    "食",
+    "欠",
+    "飲",
+    "飯"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-so-ごはん",
+   "uses": [
+    "k5-03"
+   ],
+   "q": "Quel kanji complète **ごはん** (riz cuit, repas) ?",
+   "jp": "ご＿",
+   "explain": "Le bon kanji est **飯**. Attention à 食, 飲, 館.",
+   "type": "choice",
+   "choices": [
+    "飲",
+    "飯",
+    "食",
+    "館"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-まいにち",
+   "uses": [
+    "k5-01",
+    "k5-05"
+   ],
+   "q": "Quel kanji complète **まいにち** (tous les jours) ?",
+   "jp": "＿日",
+   "explain": "Le bon kanji est **毎**. Attention à 母, 海, 貝.",
+   "type": "choice",
+   "choices": [
+    "毎",
+    "海",
+    "貝",
+    "母"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-おかあさん",
+   "uses": [
+    "k5-16"
+   ],
+   "q": "Quel kanji complète **おかあさん** (mère) ?",
+   "jp": "お＿さん",
+   "explain": "Le bon kanji est **母**. Attention à 毎, 海, 父.",
+   "type": "choice",
+   "choices": [
+    "海",
+    "毎",
+    "父",
+    "母"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-ちいさい",
+   "uses": [
+    "k5-07"
+   ],
+   "q": "Quel kanji complète **ちいさい** (petit) ?",
+   "jp": "＿さい",
+   "explain": "Le bon kanji est **小**. Attention à 少, 水, 川.",
+   "type": "choice",
+   "choices": [
+    "川",
+    "水",
+    "少",
+    "小"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-すこし",
+   "uses": [],
+   "q": "Quel kanji complète **すこし** (un peu) ?",
+   "jp": "＿し",
+   "explain": "Le bon kanji est **少**. Attention à 小, 水, 川.",
+   "type": "choice",
+   "choices": [
+    "少",
+    "川",
+    "水",
+    "小"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-がっこう",
+   "uses": [
+    "k5-06"
+   ],
+   "q": "Quel kanji complète **がっこう** (école) ?",
+   "jp": "＿校",
+   "explain": "Le bon kanji est **学**. Attention à 字, 子, 宇.",
+   "type": "choice",
+   "choices": [
+    "字",
+    "宇",
+    "子",
+    "学"
+   ],
+   "a": 3
+  },
+  {
+   "id": "f-so-かんじ",
+   "uses": [],
+   "q": "Quel kanji complète **かんじ** (kanji) ?",
+   "jp": "漢＿",
+   "explain": "Le bon kanji est **字**. Attention à 学, 子, 宇.",
+   "type": "choice",
+   "choices": [
+    "学",
+    "宇",
+    "字",
+    "子"
+   ],
+   "a": 2
+  },
+  {
+   "id": "f-so-こんしゅう",
+   "uses": [
+    "k5-05"
+   ],
+   "q": "Quel kanji complète **こんしゅう** (cette semaine) ?",
+   "jp": "＿週",
+   "explain": "Le bon kanji est **今**. Attention à 会, 合, 金.",
+   "type": "choice",
+   "choices": [
+    "今",
+    "合",
+    "金",
+    "会"
+   ],
+   "a": 0
+  },
+  {
+   "id": "f-so-かいしゃ",
+   "uses": [
+    "k5-17"
+   ],
+   "q": "Quel kanji complète **かいしゃ** (entreprise) ?",
+   "jp": "＿社",
+   "explain": "Le bon kanji est **会**. Attention à 今, 合, 金.",
+   "type": "choice",
+   "choices": [
+    "金",
+    "会",
+    "合",
+    "今"
+   ],
+   "a": 1
+  },
+  {
+   "id": "f-so-てんき",
+   "uses": [
+    "k5-13"
+   ],
+   "q": "Quel kanji complète **てんき** (temps (météo)) ?",
+   "jp": "＿気",
+   "explain": "Le bon kanji est **天**. Attention à 大, 夫, 太.",
+   "type": "choice",
+   "choices": [
+    "天",
+    "大",
+    "夫",
+    "太"
+   ],
+   "a": 0
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "id": "pieges",
+ "label": "罠",
+ "title": "Les lectures piégeuses",
+ "unlockAfter": "k5-07",
+ "sheet": {
+  "sections": [
+   {
+    "h": "Un kanji, plusieurs lectures",
+    "p": [
+     "Retiens un **mot** par lecture, pas une liste de lectures."
+    ],
+    "grid": {
+     "head": [
+      "Kanji",
+      "Mots à retenir"
+     ],
+     "rows": [
+      [
+       "日",
+       "{毎|まい}{日|にち}・{日|に}{本|ほん}・{日|にち}{曜|よう}{日|び}・{二日|ふつか}"
+      ],
+      [
+       "生",
+       "{学|がく}{生|せい}・{生|う}まれる"
+      ],
+      [
+       "人",
+       "{人|ひと}・{日|に}{本|ほん}{人|じん}・{何|なん}{人|にん}・{一人|ひとり}"
+      ],
+      [
+       "下",
+       "{下|した}・{地|ち}{下|か}{鉄|てつ}・{下手|へた}・{下|くだ}さい"
+      ],
+      [
+       "大",
+       "{大|おお}きい・{大|だい}{学|がく}・{大|たい}{切|せつ}・{大人|おとな}"
+      ],
+      [
+       "月",
+       "{月|つき}・{月|げつ}{曜|よう}{日|び}・{一|いち}{月|がつ}"
+      ],
+      [
+       "金",
+       "お{金|かね}・{金|きん}{曜|よう}{日|び}"
+      ],
+      [
+       "行",
+       "{行|い}く・{銀|ぎん}{行|こう}"
+      ]
+     ]
+    }
+   }
+  ],
+  "pieges": [
+   "何 : なに ou なん selon ce qui suit ({何|なん}ですか、{何|なに}を{食|た}べますか)."
+  ]
+ },
+ "exercises": [
+  {
+   "id": "f-pi-毎日-piege",
+   "q": "Comment se lit **毎日** ?",
+   "explain": "{毎|まい}{日|にち} : tous les jours.",
+   "type": "choice",
+   "choices": [
+    "まいにち",
+    "くる",
+    "まいか",
+    "まいひ"
+   ],
+   "a": 0,
+   "uses": [
+    "k5-01"
+   ]
+  },
+  {
+   "id": "f-pi-先生-piege",
+   "q": "Comment se lit **先生** ?",
+   "explain": "{先|せん}{生|せい} : professeur.",
+   "type": "choice",
+   "choices": [
+    "せんい",
+    "せんせい",
+    "あんしん",
+    "せんしょう"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-06"
+   ]
+  },
+  {
+   "id": "f-pi-外国人-piege",
+   "q": "Comment se lit **外国人** ?",
+   "explain": "{外|がい}{国|こく}{人|じん} : étranger.",
+   "type": "choice",
+   "choices": [
+    "がいくにじん",
+    "きょねん",
+    "はずこくじん",
+    "がいこくじん"
+   ],
+   "a": 3,
+   "uses": [
+    "k5-17"
+   ]
+  },
+  {
+   "id": "f-pi-下さい-piege",
+   "q": "Comment se lit **下さい** ?",
+   "explain": "{下|くだ}さい : donnez-moi, s'il vous plaît.",
+   "type": "choice",
+   "choices": [
+    "げさい",
+    "ください",
+    "ささい",
+    "おかあさん"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-07"
+   ]
+  },
+  {
+   "id": "f-pi-大学-piege",
+   "q": "Comment se lit **大学** ?",
+   "explain": "{大|だい}{学|がく} : université.",
+   "type": "choice",
+   "choices": [
+    "どようび",
+    "だいまな",
+    "たいがく",
+    "だいがく"
+   ],
+   "a": 3,
+   "uses": [
+    "k5-07"
+   ]
+  },
+  {
+   "id": "f-pi-中学生-piege",
+   "q": "Comment se lit **中学生** ?",
+   "explain": "{中|ちゅう}{学|がく}{生|せい} : collégien.",
+   "type": "choice",
+   "choices": [
+    "ちゅうがくせい",
+    "ちゅうがくしょう",
+    "じゅうがくせい",
+    "はっぴゃく"
+   ],
+   "a": 0,
+   "uses": [
+    "k5-07"
+   ]
+  },
+  {
+   "id": "f-pi-一月-piege",
+   "q": "Comment se lit **一月** ?",
+   "explain": "{一|いち}{月|がつ} : janvier.",
+   "type": "choice",
+   "choices": [
+    "ふつか",
+    "ひとがつ",
+    "いちがつ",
+    "いつがつ"
+   ],
+   "a": 2,
+   "uses": [
+    "k5-11"
+   ]
+  },
+  {
+   "id": "f-pi-金曜日-piege",
+   "q": "Comment se lit **金曜日** ?",
+   "explain": "{金|きん}{曜|よう}{日|び} : vendredi.",
+   "type": "choice",
+   "choices": [
+    "いりぐち",
+    "きんようひ",
+    "きんようじつ",
+    "きんようび"
+   ],
+   "a": 3,
+   "uses": [
+    "k5-11"
+   ]
+  },
+  {
+   "id": "f-pi-銀行-piege",
+   "q": "Comment se lit **銀行** ?",
+   "explain": "{銀|ぎん}{行|こう} : banque.",
+   "type": "choice",
+   "choices": [
+    "ひゃく",
+    "ぎんこう",
+    "ぎんい",
+    "ぎんぎょう"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-02"
+   ]
+  },
+  {
+   "id": "f-pi-今週-piege",
+   "q": "Comment se lit **今週** ?",
+   "explain": "{今|こん}{週|しゅう} : cette semaine.",
+   "type": "choice",
+   "choices": [
+    "みっつ",
+    "こんしゅう",
+    "いましゅう",
+    "あんしん"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-05"
+   ]
+  },
+  {
+   "id": "f-pi-一つ-piege",
+   "q": "Comment se lit **一つ** ?",
+   "explain": "{一|ひと}つ : un (objet).",
+   "type": "choice",
+   "choices": [
+    "でかける",
+    "ひとつ",
+    "きょねん",
+    "いちつ"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-08"
+   ]
+  },
+  {
+   "id": "f-pi-二つ-piege",
+   "q": "Comment se lit **二つ** ?",
+   "explain": "{二|ふた}つ : deux (objets).",
+   "type": "choice",
+   "choices": [
+    "につ",
+    "くがつ",
+    "ふたつ",
+    "びょうき"
+   ],
+   "a": 2,
+   "uses": [
+    "k5-08"
+   ]
+  },
+  {
+   "id": "f-pi-子ども-piege",
+   "q": "Comment se lit **子ども** ?",
+   "explain": "{子|こ}ども : enfant.",
+   "type": "choice",
+   "choices": [
+    "すども",
+    "しども",
+    "こども",
+    "でんしゃ"
+   ],
+   "a": 2,
+   "uses": [
+    "k5-16"
+   ]
+  },
+  {
+   "id": "f-pi-後ろ-piege",
+   "q": "Comment se lit **後ろ** ?",
+   "explain": "{後|うし}ろ : derrière.",
+   "type": "choice",
+   "choices": [
+    "くるま",
+    "うしろ",
+    "あとろ",
+    "のちろ"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-12"
+   ]
+  },
+  {
+   "id": "f-pi-分かる-piege",
+   "q": "Comment se lit **分かる** ?",
+   "explain": "{分|わ}かる : comprendre.",
+   "type": "choice",
+   "choices": [
+    "ふんかる",
+    "わかる",
+    "がいこく",
+    "ぶんかる"
+   ],
+   "a": 1,
+   "uses": [
+    "k5-12"
+   ]
+  },
+  {
+   "id": "f-pi-入る-piege",
+   "q": "Comment se lit **入る** ?",
+   "explain": "{入|はい}る : entrer.",
+   "type": "choice",
+   "choices": [
+    "にゅうる",
+    "びょうき",
+    "はいる",
+    "のみもの"
+   ],
+   "a": 2,
+   "uses": [
+    "k5-19"
+   ]
+  },
+  {
+   "id": "f-pi-出る-piege",
+   "q": "Comment se lit **出る** ?",
+   "explain": "{出|で}る : sortir.",
+   "type": "choice",
+   "choices": [
+    "ちかてつ",
+    "だる",
+    "でる",
+    "しゅつる"
+   ],
+   "a": 2,
+   "uses": [
+    "k5-19"
+   ]
+  },
+  {
+   "id": "f-pi-高い-piege",
+   "q": "Comment se lit **高い** ?",
+   "explain": "{高|たか}い : haut, cher.",
+   "type": "choice",
+   "choices": [
+    "こうい",
+    "にし",
+    "しんぶん",
+    "たかい"
+   ],
+   "a": 3,
+   "uses": [
+    "k5-20"
+   ]
+  }
+ ]
+}
