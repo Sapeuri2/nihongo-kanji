@@ -15,15 +15,15 @@
      ],
      "vocab": [
       {
-       "jp": "{日|に}{本|ほん}",
+       "jp": "{日本|にほん}",
        "fr": "Japon"
       },
       {
-       "jp": "{毎|まい}{日|にち}",
+       "jp": "{毎日|まいにち}",
        "fr": "tous les jours"
       },
       {
-       "jp": "{日|にち}{曜|よう}{日|び}",
+       "jp": "{日曜日|にちようび}",
        "fr": "dimanche"
       },
       {
@@ -44,7 +44,7 @@
        "fr": "livre"
       },
       {
-       "jp": "{日|に}{本|ほん}{語|ご}",
+       "jp": "{日本語|にほんご}",
        "fr": "japonais (langue)"
       },
       {
@@ -65,15 +65,15 @@
        "fr": "personne"
       },
       {
-       "jp": "{日|に}{本|ほん}{人|じん}",
+       "jp": "{日本人|にほんじん}",
        "fr": "Japonais(e)"
       },
       {
-       "jp": "{外|がい}{国|こく}{人|じん}",
+       "jp": "{外国人|がいこくじん}",
        "fr": "étranger"
       },
       {
-       "jp": "{何|なん}{人|にん}",
+       "jp": "{何人|なんにん}",
        "fr": "combien de personnes"
       }
      ]
@@ -99,11 +99,11 @@
      ],
      "vocab": [
       {
-       "jp": "{日|に}{本|ほん}{語|ご}",
+       "jp": "{日本語|にほんご}",
        "fr": "japonais (langue)"
       },
       {
-       "jp": "{英|えい}{語|ご}",
+       "jp": "{英語|えいご}",
        "fr": "anglais (langue)"
       }
      ]
@@ -131,46 +131,6 @@
      "a": 3
     },
     {
-     "id": "k5-01-日-kanji",
-     "q": "Quel kanji veut dire « jour, soleil » ?",
-     "explain": "**日** : jour, soleil. Un soleil dessiné en carré, avec un trait au centre.",
-     "type": "choice",
-     "choices": [
-      "話",
-      "白",
-      "目",
-      "日"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-01-日本-lecture",
-     "q": "Comment se lit **日本** ?",
-     "explain": "{日|に}{本|ほん} : Japon.",
-     "type": "choice",
-     "choices": [
-      "ひほん",
-      "たべもの",
-      "にもと",
-      "にほん"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-01-日本-trou",
-     "q": "Complète le mot **にほん** (Japon) :",
-     "jp": "日＿",
-     "explain": "{日|に}{本|ほん} : Japon.",
-     "type": "choice",
-     "choices": [
-      "木",
-      "聞",
-      "飲",
-      "本"
-     ],
-     "a": 3
-    },
-    {
      "id": "k5-01-本-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "本",
@@ -181,46 +141,6 @@
       "écrire",
       "langue, mot",
       "livre, origine"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-01-本-kanji",
-     "q": "Quel kanji veut dire « livre, origine » ?",
-     "explain": "**本** : livre, origine. Un arbre 木 avec un trait qui marque ses racines : l'origine, puis le livre.",
-     "type": "choice",
-     "choices": [
-      "話",
-      "本",
-      "木",
-      "人"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-01-本-lecture",
-     "q": "Comment se lit **本** ?",
-     "explain": "{本|ほん} : livre.",
-     "type": "choice",
-     "choices": [
-      "ことし",
-      "しんぶん",
-      "ほん",
-      "のむ"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-01-日本語-trou",
-     "q": "Complète le mot **にほんご** (japonais (langue)) :",
-     "jp": "日本＿",
-     "explain": "{日|に}{本|ほん}{語|ご} : japonais (langue).",
-     "type": "choice",
-     "choices": [
-      "食",
-      "私",
-      "話",
-      "語"
      ],
      "a": 3
     },
@@ -239,45 +159,6 @@
      "a": 0
     },
     {
-     "id": "k5-01-人-kanji",
-     "q": "Quel kanji veut dire « personne » ?",
-     "explain": "**人** : personne. Une personne de profil qui marche, deux jambes écartées.",
-     "type": "choice",
-     "choices": [
-      "人",
-      "曜",
-      "大",
-      "入"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-01-人-lecture",
-     "q": "Comment se lit **人** ?",
-     "explain": "{人|ひと} : personne.",
-     "type": "choice",
-     "choices": [
-      "でんしゃ",
-      "なに",
-      "ひと",
-      "たべもの"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-01-人-ecrit",
-     "q": "Quel mot s'écrit **ひと** (personne) ?",
-     "explain": "{人|ひと} : personne.",
-     "type": "choice",
-     "choices": [
-      "入",
-      "人",
-      "大",
-      "見"
-     ],
-     "a": 1
-    },
-    {
      "id": "k5-01-私-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "私",
@@ -290,32 +171,6 @@
       "jour, soleil"
      ],
      "a": 0
-    },
-    {
-     "id": "k5-01-私-kanji",
-     "q": "Quel kanji veut dire « je, moi » ?",
-     "explain": "**私** : je, moi. À gauche la céréale 禾 : ma part de la récolte, ce qui est à moi.",
-     "type": "choice",
-     "choices": [
-      "読",
-      "私",
-      "曜",
-      "食"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-01-私-lecture",
-     "q": "Comment se lit **私** ?",
-     "explain": "{私|わたし} : je, moi.",
-     "type": "choice",
-     "choices": [
-      "にほんご",
-      "わたし",
-      "なんぷん",
-      "らいげつ"
-     ],
-     "a": 1
     },
     {
      "id": "k5-01-語-sens",
@@ -332,22 +187,61 @@
      "a": 2
     },
     {
-     "id": "k5-01-語-kanji",
-     "q": "Quel kanji veut dire « langue, mot » ?",
-     "explain": "**語** : langue, mot. La clé de la parole 言 à gauche : ce qui se dit avec des mots.",
+     "id": "k5-01-日本-lecture",
+     "q": "Comment se lit **日本** ?",
+     "explain": "{日本|にほん} : Japon.",
      "type": "choice",
      "choices": [
-      "語",
-      "話",
-      "人",
-      "車"
+      "ひほん",
+      "たべもの",
+      "にもと",
+      "にほん"
      ],
-     "a": 0
+     "a": 3
+    },
+    {
+     "id": "k5-01-本-lecture",
+     "q": "Comment se lit **本** ?",
+     "explain": "{本|ほん} : livre.",
+     "type": "choice",
+     "choices": [
+      "ことし",
+      "しんぶん",
+      "ほん",
+      "のむ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-01-人-lecture",
+     "q": "Comment se lit **人** ?",
+     "explain": "{人|ひと} : personne.",
+     "type": "choice",
+     "choices": [
+      "でんしゃ",
+      "なに",
+      "ひと",
+      "たべもの"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-01-私-lecture",
+     "q": "Comment se lit **私** ?",
+     "explain": "{私|わたし} : je, moi.",
+     "type": "choice",
+     "choices": [
+      "にほんご",
+      "わたし",
+      "なんぷん",
+      "らいげつ"
+     ],
+     "a": 1
     },
     {
      "id": "k5-01-日本語-lecture",
      "q": "Comment se lit **日本語** ?",
-     "explain": "{日|に}{本|ほん}{語|ご} : japonais (langue).",
+     "explain": "{日本語|にほんご} : japonais (langue).",
      "type": "choice",
      "choices": [
       "すいようび",
@@ -358,25 +252,24 @@
      "a": 3
     },
     {
-     "id": "k5-01-英語-trou",
-     "q": "Complète le mot **えいご** (anglais (langue)) :",
-     "jp": "英＿",
-     "explain": "{英|えい}{語|ご} : anglais (langue).",
+     "id": "k5-01-日本-trou",
+     "q": "Complète le mot **にほん** (Japon) :",
+     "jp": "日＿",
+     "explain": "{日本|にほん} : Japon.",
      "type": "choice",
      "choices": [
-      "話",
-      "食",
-      "語",
-      "読"
+      "木",
+      "聞",
+      "飲",
+      "本"
      ],
-     "a": 2
+     "a": 3
     },
     {
      "id": "k5-01-日本-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "{今年|ことし}は**日本**へ{行|い}きたいです。",
-     "fr": "Cette année, je veux aller au Japon.",
-     "explain": "**日本** se lit にほん ici ({日|に}{本|ほん} : Japon).",
+     "explain": "**日本** se lit にほん ici ({日本|にほん} : Japon). « Cette année, je veux aller au Japon. »",
      "type": "choice",
      "choices": [
       "にちほん",
@@ -387,54 +280,22 @@
      "a": 2
     },
     {
-     "id": "k5-01-毎日-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**毎日**ご{飯|はん}を{食|た}べます。",
-     "fr": "Je mange du riz tous les jours.",
-     "explain": "**毎日** se lit まいにち ici ({毎|まい}{日|にち} : tous les jours).",
+     "id": "k5-01-日-kanji",
+     "q": "Quel kanji veut dire « jour, soleil » ?",
+     "explain": "**日** : jour, soleil. Un soleil dessiné en carré, avec un trait au centre.",
      "type": "choice",
      "choices": [
-      "まいひ",
-      "まいにち",
-      "まいじつ",
-      "まいか"
+      "話",
+      "白",
+      "目",
+      "日"
      ],
-     "a": 1
-    },
-    {
-     "id": "k5-01-日曜日-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**日曜日**に{友|とも}だちと{映画|えいが}を{見|み}ます。",
-     "fr": "Dimanche, je vais voir un film avec un ami.",
-     "explain": "**日曜日** se lit にちようび ici ({日|にち}{曜|よう}{日|び} : dimanche).",
-     "type": "choice",
-     "choices": [
-      "じつようび",
-      "にちようび",
-      "にちようか",
-      "にちようひ"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-01-本-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{図書館|としょかん}で**本**を{借|か}ります。",
-     "fr": "J'emprunte des livres à la bibliothèque.",
-     "explain": "**本** se lit ほん ici ({本|ほん} : livre).",
-     "type": "choice",
-     "choices": [
-      "きく",
-      "ひこうき",
-      "ほん",
-      "がいこくじん"
-     ],
-     "a": 2
+     "a": 3
     },
     {
      "id": "k5-01-日本-intrus",
      "q": "Un seul de ces mots est mal lu. Lequel ?",
-     "explain": "{日|に}{本|ほん} se lit にほん, pas かほん.",
+     "explain": "{日本|にほん} se lit にほん, pas かほん.",
      "type": "choice",
      "choices": [
       "本 → ほん",
@@ -443,6 +304,34 @@
       "日本 → かほん"
      ],
      "a": 3
+    },
+    {
+     "id": "k5-01-日本語-trou",
+     "q": "Complète le mot **にほんご** (japonais (langue)) :",
+     "jp": "日本＿",
+     "explain": "{日本語|にほんご} : japonais (langue).",
+     "type": "choice",
+     "choices": [
+      "食",
+      "私",
+      "話",
+      "語"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-01-毎日-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**毎日**ご{飯|はん}を{食|た}べます。",
+     "explain": "**毎日** se lit まいにち ici ({毎日|まいにち} : tous les jours). « Je mange du riz tous les jours. »",
+     "type": "choice",
+     "choices": [
+      "まいひ",
+      "まいにち",
+      "まいじつ",
+      "まいか"
+     ],
+     "a": 1
     }
    ]
   },
@@ -462,11 +351,11 @@
        "fr": "aller"
       },
       {
-       "jp": "{銀|ぎん}{行|こう}",
+       "jp": "{銀行|ぎんこう}",
        "fr": "banque"
       },
       {
-       "jp": "{飛|ひ}{行|こう}{機|き}",
+       "jp": "{飛行機|ひこうき}",
        "fr": "avion"
       }
      ]
@@ -483,15 +372,15 @@
        "fr": "venir"
       },
       {
-       "jp": "{来|らい}{週|しゅう}",
+       "jp": "{来週|らいしゅう}",
        "fr": "la semaine prochaine"
       },
       {
-       "jp": "{来|らい}{月|げつ}",
+       "jp": "{来月|らいげつ}",
        "fr": "le mois prochain"
       },
       {
-       "jp": "{来|らい}{年|ねん}",
+       "jp": "{来年|らいねん}",
        "fr": "l'année prochaine"
       }
      ]
@@ -521,11 +410,11 @@
        "fr": "voiture"
       },
       {
-       "jp": "{電|でん}{車|しゃ}",
+       "jp": "{電車|でんしゃ}",
        "fr": "train"
       },
       {
-       "jp": "{自|じ}{転|てん}{車|しゃ}",
+       "jp": "{自転車|じてんしゃ}",
        "fr": "vélo"
       }
      ]
@@ -564,45 +453,6 @@
      "a": 1
     },
     {
-     "id": "k5-02-行-kanji",
-     "q": "Quel kanji veut dire « aller » ?",
-     "explain": "**行** : aller. Un carrefour vu du ciel : on y passe pour aller quelque part.",
-     "type": "choice",
-     "choices": [
-      "曜",
-      "行",
-      "来",
-      "読"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-02-行く-lecture",
-     "q": "Comment se lit **行く** ?",
-     "explain": "{行|い}く : aller.",
-     "type": "choice",
-     "choices": [
-      "いく",
-      "おこなく",
-      "たべもの",
-      "こうく"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-02-行く-ecrit",
-     "q": "Quel mot s'écrit **いく** (aller) ?",
-     "explain": "{行|い}く : aller.",
-     "type": "choice",
-     "choices": [
-      "行く",
-      "曜く",
-      "水く",
-      "日く"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-02-来-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "来",
@@ -617,45 +467,6 @@
      "a": 3
     },
     {
-     "id": "k5-02-来-kanji",
-     "q": "Quel kanji veut dire « venir » ?",
-     "explain": "**来** : venir. Un épi de blé qui arrive à maturité : ce qui vient.",
-     "type": "choice",
-     "choices": [
-      "木",
-      "曜",
-      "来",
-      "米"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-02-来る-lecture",
-     "q": "Comment se lit **来る** ?",
-     "explain": "{来|く}る : venir.",
-     "type": "choice",
-     "choices": [
-      "くる",
-      "ゆうじん",
-      "きのう",
-      "らいる"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-02-来る-ecrit",
-     "q": "Quel mot s'écrit **くる** (venir) ?",
-     "explain": "{来|く}る : venir.",
-     "type": "choice",
-     "choices": [
-      "来る",
-      "聞る",
-      "米る",
-      "木る"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-02-帰-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "帰",
@@ -666,45 +477,6 @@
       "poisson",
       "venir",
       "rentrer"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-02-帰-kanji",
-     "q": "Quel kanji veut dire « rentrer » ?",
-     "explain": "**帰** : rentrer. Pense au balai à droite : on rentre chez soi, là où est son foyer.",
-     "type": "choice",
-     "choices": [
-      "週",
-      "帰",
-      "見",
-      "今"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-02-帰る-lecture",
-     "q": "Comment se lit **帰る** ?",
-     "explain": "{帰|かえ}る : rentrer.",
-     "type": "choice",
-     "choices": [
-      "かえる",
-      "まいばん",
-      "たべもの",
-      "とけい"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-02-帰る-ecrit",
-     "q": "Quel mot s'écrit **かえる** (rentrer) ?",
-     "explain": "{帰|かえ}る : rentrer.",
-     "type": "choice",
-     "choices": [
-      "食る",
-      "私る",
-      "車る",
-      "帰る"
      ],
      "a": 3
     },
@@ -723,15 +495,55 @@
      "a": 0
     },
     {
-     "id": "k5-02-車-kanji",
-     "q": "Quel kanji veut dire « voiture, roue » ?",
-     "explain": "**車** : voiture, roue. Une charrette vue du dessus : l'essieu et ses deux roues.",
+     "id": "k5-02-駅-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "駅",
+     "explain": "**駅** : gare. Le cheval 馬 à gauche : autrefois, le relais où l'on changeait de chevaux.",
      "type": "choice",
      "choices": [
-      "車",
-      "時",
-      "書",
-      "東"
+      "gare",
+      "manger",
+      "lire",
+      "heure, temps"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-02-行く-lecture",
+     "q": "Comment se lit **行く** ?",
+     "explain": "{行|い}く : aller.",
+     "type": "choice",
+     "choices": [
+      "いく",
+      "おこなく",
+      "たべもの",
+      "こうく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-02-来る-lecture",
+     "q": "Comment se lit **来る** ?",
+     "explain": "{来|く}る : venir.",
+     "type": "choice",
+     "choices": [
+      "くる",
+      "ゆうじん",
+      "きのう",
+      "らいる"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-02-帰る-lecture",
+     "q": "Comment se lit **帰る** ?",
+     "explain": "{帰|かえ}る : rentrer.",
+     "type": "choice",
+     "choices": [
+      "かえる",
+      "まいばん",
+      "たべもの",
+      "とけい"
      ],
      "a": 0
     },
@@ -749,47 +561,6 @@
      "a": 0
     },
     {
-     "id": "k5-02-電車-trou",
-     "q": "Complète le mot **でんしゃ** (train) :",
-     "jp": "電＿",
-     "explain": "{電|でん}{車|しゃ} : train.",
-     "type": "choice",
-     "choices": [
-      "飯",
-      "車",
-      "東",
-      "毎"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-02-駅-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "駅",
-     "explain": "**駅** : gare. Le cheval 馬 à gauche : autrefois, le relais où l'on changeait de chevaux.",
-     "type": "choice",
-     "choices": [
-      "gare",
-      "manger",
-      "lire",
-      "heure, temps"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-02-駅-kanji",
-     "q": "Quel kanji veut dire « gare » ?",
-     "explain": "**駅** : gare. Le cheval 馬 à gauche : autrefois, le relais où l'on changeait de chevaux.",
-     "type": "choice",
-     "choices": [
-      "駅",
-      "車",
-      "書",
-      "日"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-02-駅-lecture",
      "q": "Comment se lit **駅** ?",
      "explain": "{駅|えき} : gare.",
@@ -803,11 +574,23 @@
      "a": 2
     },
     {
+     "id": "k5-02-行く-ecrit",
+     "q": "Quel mot s'écrit **いく** (aller) ?",
+     "explain": "{行|い}く : aller.",
+     "type": "choice",
+     "choices": [
+      "行く",
+      "曜く",
+      "水く",
+      "日く"
+     ],
+     "a": 0
+    },
+    {
      "id": "k5-02-行く-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "{明日|あした}、{東京|とうきょう}へ**行**きます。",
-     "fr": "Demain, je vais à Tokyo.",
-     "explain": "**行** se lit い ici ({行|い}く : aller).",
+     "explain": "**行** se lit い ici ({行|い}く : aller). « Demain, je vais à Tokyo. »",
      "type": "choice",
      "choices": [
       "おこな",
@@ -818,47 +601,15 @@
      "a": 1
     },
     {
-     "id": "k5-02-銀行-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**銀行**は{三時|さんじ}までです。",
-     "fr": "La banque est ouverte jusqu'à trois heures.",
-     "explain": "**銀行** se lit ぎんこう ici ({銀|ぎん}{行|こう} : banque).",
+     "id": "k5-02-行-kanji",
+     "q": "Quel kanji veut dire « aller » ?",
+     "explain": "**行** : aller. Un carrefour vu du ciel : on y passe pour aller quelque part.",
      "type": "choice",
      "choices": [
-      "ぎんぎょう",
-      "ぎんい",
-      "ぎんこう",
-      "ぎんおこな"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-02-飛行機-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**飛行機**で{日本|にほん}へ{行|い}きます。",
-     "fr": "Je vais au Japon en avion.",
-     "explain": "**飛行機** se lit ひこうき ici ({飛|ひ}{行|こう}{機|き} : avion).",
-     "type": "choice",
-     "choices": [
-      "ひおこなき",
-      "ひこうき",
-      "ひいき",
-      "ひぎょうき"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-02-来る-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "あした**来る**？",
-     "fr": "Tu viens demain ?",
-     "explain": "**来る** se lit くる ici ({来|く}る : venir).",
-     "type": "choice",
-     "choices": [
-      "もくようび",
-      "くる",
-      "げつようび",
-      "がいこくじん"
+      "曜",
+      "行",
+      "来",
+      "読"
      ],
      "a": 1
     },
@@ -874,6 +625,33 @@
       "来る → くる"
      ],
      "a": 0
+    },
+    {
+     "id": "k5-02-来る-ecrit",
+     "q": "Quel mot s'écrit **くる** (venir) ?",
+     "explain": "{来|く}る : venir.",
+     "type": "choice",
+     "choices": [
+      "来る",
+      "聞る",
+      "米る",
+      "木る"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-02-銀行-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**銀行**は{三時|さんじ}までです。",
+     "explain": "**銀行** se lit ぎんこう ici ({銀行|ぎんこう} : banque). « La banque est ouverte jusqu'à trois heures. »",
+     "type": "choice",
+     "choices": [
+      "ぎんぎょう",
+      "ぎんい",
+      "ぎんこう",
+      "ぎんおこな"
+     ],
+     "a": 2
     }
    ]
   },
@@ -897,7 +675,7 @@
        "fr": "nourriture"
       },
       {
-       "jp": "{食|しょく}{堂|どう}",
+       "jp": "{食堂|しょくどう}",
        "fr": "cantine, restaurant"
       }
      ]
@@ -961,7 +739,7 @@
        "fr": "eau"
       },
       {
-       "jp": "{水|すい}{曜|よう}{日|び}",
+       "jp": "{水曜日|すいようび}",
        "fr": "mercredi"
       }
      ]
@@ -989,45 +767,6 @@
      "a": 3
     },
     {
-     "id": "k5-03-食-kanji",
-     "q": "Quel kanji veut dire « manger » ?",
-     "explain": "**食** : manger. Un toit sur un bol bien rempli : le repas est servi.",
-     "type": "choice",
-     "choices": [
-      "飯",
-      "飲",
-      "食",
-      "読"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-03-食べる-lecture",
-     "q": "Comment se lit **食べる** ?",
-     "explain": "{食|た}べる : manger.",
-     "type": "choice",
-     "choices": [
-      "まいばん",
-      "たべる",
-      "なんにん",
-      "しょくべる"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-03-食べる-ecrit",
-     "q": "Quel mot s'écrit **たべる** (manger) ?",
-     "explain": "{食|た}べる : manger.",
-     "type": "choice",
-     "choices": [
-      "飯べる",
-      "飲べる",
-      "語べる",
-      "食べる"
-     ],
-     "a": 3
-    },
-    {
      "id": "k5-03-飲-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "飲",
@@ -1038,45 +777,6 @@
       "quoi, combien",
       "boire",
       "personne"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-03-飲-kanji",
-     "q": "Quel kanji veut dire « boire » ?",
-     "explain": "**飲** : boire. Le repas 食 à gauche, et à droite quelqu'un qui ouvre grand la bouche 欠.",
-     "type": "choice",
-     "choices": [
-      "飲",
-      "食",
-      "見",
-      "飯"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-03-飲む-lecture",
-     "q": "Comment se lit **飲む** ?",
-     "explain": "{飲|の}む : boire.",
-     "type": "choice",
-     "choices": [
-      "いく",
-      "ふつか",
-      "いんむ",
-      "のむ"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-03-飲む-ecrit",
-     "q": "Quel mot s'écrit **のむ** (boire) ?",
-     "explain": "{飲|の}む : boire.",
-     "type": "choice",
-     "choices": [
-      "飯む",
-      "食む",
-      "飲む",
-      "今む"
      ],
      "a": 2
     },
@@ -1095,45 +795,6 @@
      "a": 3
     },
     {
-     "id": "k5-03-飯-kanji",
-     "q": "Quel kanji veut dire « riz cuit, repas » ?",
-     "explain": "**飯** : riz cuit, repas. Le repas 食 à gauche : le riz, base de tout repas japonais.",
-     "type": "choice",
-     "choices": [
-      "食",
-      "帰",
-      "飯",
-      "飲"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-03-ご飯-lecture",
-     "q": "Comment se lit **ご飯** ?",
-     "explain": "ご{飯|はん} : riz cuit, repas.",
-     "type": "choice",
-     "choices": [
-      "ごはん",
-      "かく",
-      "ごめし",
-      "たべもの"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-03-ご飯-ecrit",
-     "q": "Quel mot s'écrit **ごはん** (riz cuit, repas) ?",
-     "explain": "ご{飯|はん} : riz cuit, repas.",
-     "type": "choice",
-     "choices": [
-      "ご飲",
-      "ご飯",
-      "ご食",
-      "ご読"
-     ],
-     "a": 1
-    },
-    {
      "id": "k5-03-魚-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "魚",
@@ -1148,15 +809,55 @@
      "a": 1
     },
     {
-     "id": "k5-03-魚-kanji",
-     "q": "Quel kanji veut dire « poisson » ?",
-     "explain": "**魚** : poisson. Tête en haut, écailles au milieu, quatre traits pour la queue.",
+     "id": "k5-03-水-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "水",
+     "explain": "**水** : eau. Un courant central et des éclaboussures de chaque côté.",
      "type": "choice",
      "choices": [
-      "魚",
-      "読",
-      "本",
-      "私"
+      "eau",
+      "livre, origine",
+      "entendre, écouter",
+      "je, moi"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-03-食べる-lecture",
+     "q": "Comment se lit **食べる** ?",
+     "explain": "{食|た}べる : manger.",
+     "type": "choice",
+     "choices": [
+      "まいばん",
+      "たべる",
+      "なんにん",
+      "しょくべる"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-03-飲む-lecture",
+     "q": "Comment se lit **飲む** ?",
+     "explain": "{飲|の}む : boire.",
+     "type": "choice",
+     "choices": [
+      "いく",
+      "ふつか",
+      "いんむ",
+      "のむ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-03-ご飯-lecture",
+     "q": "Comment se lit **ご飯** ?",
+     "explain": "ご{飯|はん} : riz cuit, repas.",
+     "type": "choice",
+     "choices": [
+      "ごはん",
+      "かく",
+      "ごめし",
+      "たべもの"
      ],
      "a": 0
     },
@@ -1174,33 +875,6 @@
      "a": 3
     },
     {
-     "id": "k5-03-水-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "水",
-     "explain": "**水** : eau. Un courant central et des éclaboussures de chaque côté.",
-     "type": "choice",
-     "choices": [
-      "eau",
-      "livre, origine",
-      "entendre, écouter",
-      "je, moi"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-03-水-kanji",
-     "q": "Quel kanji veut dire « eau » ?",
-     "explain": "**水** : eau. Un courant central et des éclaboussures de chaque côté.",
-     "type": "choice",
-     "choices": [
-      "見",
-      "日",
-      "水",
-      "木"
-     ],
-     "a": 2
-    },
-    {
      "id": "k5-03-水-lecture",
      "q": "Comment se lit **水** ?",
      "explain": "{水|みず} : eau.",
@@ -1214,16 +888,15 @@
      "a": 2
     },
     {
-     "id": "k5-03-水曜日-trou",
-     "q": "Complète le mot **すいようび** (mercredi) :",
-     "jp": "水曜＿",
-     "explain": "{水|すい}{曜|よう}{日|び} : mercredi.",
+     "id": "k5-03-食べる-ecrit",
+     "q": "Quel mot s'écrit **たべる** (manger) ?",
+     "explain": "{食|た}べる : manger.",
      "type": "choice",
      "choices": [
-      "白",
-      "目",
-      "時",
-      "日"
+      "飯べる",
+      "飲べる",
+      "語べる",
+      "食べる"
      ],
      "a": 3
     },
@@ -1231,8 +904,7 @@
      "id": "k5-03-食べる-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "{朝|あさ}はパンを**食べ**ます。",
-     "fr": "Le matin, je mange du pain.",
-     "explain": "**食べ** se lit たべ ici ({食|た}べる : manger).",
+     "explain": "**食べ** se lit たべ ici ({食|た}べる : manger). « Le matin, je mange du pain. »",
      "type": "choice",
      "choices": [
       "たべ",
@@ -1243,49 +915,17 @@
      "a": 0
     },
     {
-     "id": "k5-03-食べ物-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{好|す}きな**食べ物**は{何|なん}ですか。",
-     "fr": "Quel est ton plat préféré ?",
-     "explain": "**食べ物** se lit たべもの ici ({食|た}べ{物|もの} : nourriture).",
+     "id": "k5-03-食-kanji",
+     "q": "Quel kanji veut dire « manger » ?",
+     "explain": "**食** : manger. Un toit sur un bol bien rempli : le repas est servi.",
      "type": "choice",
      "choices": [
-      "でんわ",
-      "たべもの",
-      "らいげつ",
-      "さかな"
+      "飯",
+      "飲",
+      "食",
+      "読"
      ],
-     "a": 1
-    },
-    {
-     "id": "k5-03-飲む-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{毎朝|まいあさ}コーヒーを**飲**みます。",
-     "fr": "Je bois du café tous les matins.",
-     "explain": "**飲** se lit の ici ({飲|の}む : boire).",
-     "type": "choice",
-     "choices": [
-      "だ",
-      "の",
-      "て",
-      "さ"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-03-飲み物-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**飲み物**は{何|なに}がいいですか。",
-     "fr": "Qu'est-ce que vous voulez boire ?",
-     "explain": "**飲み物** se lit のみもの ici ({飲|の}み{物|もの} : boisson).",
-     "type": "choice",
-     "choices": [
-      "ぎんこう",
-      "みず",
-      "ひこうき",
-      "のみもの"
-     ],
-     "a": 3
+     "a": 2
     },
     {
      "id": "k5-03-食べる-intrus",
@@ -1297,6 +937,33 @@
       "食べる → しょくべる",
       "魚 → さかな",
       "ご飯 → ごはん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-03-飲む-ecrit",
+     "q": "Quel mot s'écrit **のむ** (boire) ?",
+     "explain": "{飲|の}む : boire.",
+     "type": "choice",
+     "choices": [
+      "飯む",
+      "食む",
+      "飲む",
+      "今む"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-03-食べ物-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{好|す}きな**食べ物**は{何|なん}ですか。",
+     "explain": "**食べ物** se lit たべもの ici ({食|た}べ{物|もの} : nourriture). « Quel est ton plat préféré ? »",
+     "type": "choice",
+     "choices": [
+      "でんわ",
+      "たべもの",
+      "らいげつ",
+      "さかな"
      ],
      "a": 1
     }
@@ -1335,7 +1002,7 @@
        "fr": "écouter, demander"
       },
       {
-       "jp": "{新|しん}{聞|ぶん}",
+       "jp": "{新聞|しんぶん}",
        "fr": "journal"
       }
      ]
@@ -1365,7 +1032,7 @@
        "fr": "écrire"
       },
       {
-       "jp": "{図|と}{書|しょ}{館|かん}",
+       "jp": "{図書館|としょかん}",
        "fr": "bibliothèque"
       }
      ]
@@ -1386,7 +1053,7 @@
        "fr": "histoire, conversation"
       },
       {
-       "jp": "{電|でん}{話|わ}",
+       "jp": "{電話|でんわ}",
        "fr": "téléphone"
       }
      ]
@@ -1412,45 +1079,6 @@
      "a": 0
     },
     {
-     "id": "k5-04-見-kanji",
-     "q": "Quel kanji veut dire « voir » ?",
-     "explain": "**見** : voir. Un grand œil 目 posé sur deux jambes : quelqu'un qui regarde.",
-     "type": "choice",
-     "choices": [
-      "貝",
-      "見",
-      "聞",
-      "日"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-04-見る-lecture",
-     "q": "Comment se lit **見る** ?",
-     "explain": "{見|み}る : voir, regarder.",
-     "type": "choice",
-     "choices": [
-      "みる",
-      "ひこうき",
-      "ほん",
-      "けんる"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-04-見る-ecrit",
-     "q": "Quel mot s'écrit **みる** (voir, regarder) ?",
-     "explain": "{見|み}る : voir, regarder.",
-     "type": "choice",
-     "choices": [
-      "見る",
-      "貝る",
-      "食る",
-      "書る"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-04-聞-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "聞",
@@ -1465,45 +1093,6 @@
      "a": 1
     },
     {
-     "id": "k5-04-聞-kanji",
-     "q": "Quel kanji veut dire « entendre, écouter » ?",
-     "explain": "**聞** : entendre, écouter. Une oreille 耳 collée à une porte 門.",
-     "type": "choice",
-     "choices": [
-      "聞",
-      "食",
-      "話",
-      "間"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-04-聞く-lecture",
-     "q": "Comment se lit **聞く** ?",
-     "explain": "{聞|き}く : écouter, demander.",
-     "type": "choice",
-     "choices": [
-      "なんじ",
-      "きく",
-      "まいあさ",
-      "ぶんく"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-04-聞く-ecrit",
-     "q": "Quel mot s'écrit **きく** (écouter, demander) ?",
-     "explain": "{聞|き}く : écouter, demander.",
-     "type": "choice",
-     "choices": [
-      "週く",
-      "読く",
-      "間く",
-      "聞く"
-     ],
-     "a": 3
-    },
-    {
      "id": "k5-04-読-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "読",
@@ -1514,45 +1103,6 @@
       "entendre, écouter",
       "lire",
       "je, moi"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-04-読-kanji",
-     "q": "Quel kanji veut dire « lire » ?",
-     "explain": "**読** : lire. La parole 言 à gauche : on lit à voix haute.",
-     "type": "choice",
-     "choices": [
-      "水",
-      "読",
-      "何",
-      "語"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-04-読む-lecture",
-     "q": "Comment se lit **読む** ?",
-     "explain": "{読|よ}む : lire.",
-     "type": "choice",
-     "choices": [
-      "くる",
-      "ひと",
-      "よむ",
-      "どくむ"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-04-読む-ecrit",
-     "q": "Quel mot s'écrit **よむ** (lire) ?",
-     "explain": "{読|よ}む : lire.",
-     "type": "choice",
-     "choices": [
-      "時む",
-      "日む",
-      "読む",
-      "来む"
      ],
      "a": 2
     },
@@ -1571,17 +1121,57 @@
      "a": 1
     },
     {
-     "id": "k5-04-書-kanji",
-     "q": "Quel kanji veut dire « écrire » ?",
-     "explain": "**書** : écrire. En haut, une main qui tient un pinceau ; en bas, le soleil.",
+     "id": "k5-04-話-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "話",
+     "explain": "**話** : parler, histoire. La parole 言 sort de la langue 舌.",
      "type": "choice",
      "choices": [
-      "書",
-      "何",
-      "人",
-      "日"
+      "personne",
+      "je, moi",
+      "chaque",
+      "parler, histoire"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-04-見る-lecture",
+     "q": "Comment se lit **見る** ?",
+     "explain": "{見|み}る : voir, regarder.",
+     "type": "choice",
+     "choices": [
+      "みる",
+      "ひこうき",
+      "ほん",
+      "けんる"
      ],
      "a": 0
+    },
+    {
+     "id": "k5-04-聞く-lecture",
+     "q": "Comment se lit **聞く** ?",
+     "explain": "{聞|き}く : écouter, demander.",
+     "type": "choice",
+     "choices": [
+      "なんじ",
+      "きく",
+      "まいあさ",
+      "ぶんく"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-04-読む-lecture",
+     "q": "Comment se lit **読む** ?",
+     "explain": "{読|よ}む : lire.",
+     "type": "choice",
+     "choices": [
+      "くる",
+      "ひと",
+      "よむ",
+      "どくむ"
+     ],
+     "a": 2
     },
     {
      "id": "k5-04-書く-lecture",
@@ -1597,46 +1187,6 @@
      "a": 3
     },
     {
-     "id": "k5-04-書く-ecrit",
-     "q": "Quel mot s'écrit **かく** (écrire) ?",
-     "explain": "{書|か}く : écrire.",
-     "type": "choice",
-     "choices": [
-      "帰く",
-      "来く",
-      "書く",
-      "本く"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-04-話-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "話",
-     "explain": "**話** : parler, histoire. La parole 言 sort de la langue 舌.",
-     "type": "choice",
-     "choices": [
-      "personne",
-      "je, moi",
-      "chaque",
-      "parler, histoire"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-04-話-kanji",
-     "q": "Quel kanji veut dire « parler, histoire » ?",
-     "explain": "**話** : parler, histoire. La parole 言 sort de la langue 舌.",
-     "type": "choice",
-     "choices": [
-      "話",
-      "駅",
-      "本",
-      "語"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-04-話す-lecture",
      "q": "Comment se lit **話す** ?",
      "explain": "{話|はな}す : parler.",
@@ -1650,24 +1200,23 @@
      "a": 2
     },
     {
-     "id": "k5-04-話す-ecrit",
-     "q": "Quel mot s'écrit **はなす** (parler) ?",
-     "explain": "{話|はな}す : parler.",
+     "id": "k5-04-見る-ecrit",
+     "q": "Quel mot s'écrit **みる** (voir, regarder) ?",
+     "explain": "{見|み}る : voir, regarder.",
      "type": "choice",
      "choices": [
-      "話す",
-      "本す",
-      "語す",
-      "見す"
+      "見る",
+      "貝る",
+      "食る",
+      "書る"
      ],
      "a": 0
     },
     {
      "id": "k5-04-見る-phrase",
      "q": "Comment se lit le mot en gras ?",
-     "jp": "{夜|よる}はテレビを**見**ます。",
-     "fr": "Le soir, je regarde la télé.",
-     "explain": "**見** se lit み ici ({見|み}る : voir, regarder).",
+     "jp": "{日曜日|にちようび}に{友|とも}だちと{映画|えいが}を**見**ます。",
+     "explain": "**見** se lit み ici ({見|み}る : voir, regarder). « Dimanche, je vais voir un film avec un ami. »",
      "type": "choice",
      "choices": [
       "あ",
@@ -1678,49 +1227,17 @@
      "a": 3
     },
     {
-     "id": "k5-04-見せる-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{旅行|りょこう}の{写真|しゃしん}を**見せ**てください。",
-     "fr": "Montre-moi les photos du voyage, s'il te plaît.",
-     "explain": "**見せ** se lit みせ ici ({見|み}せる : montrer).",
+     "id": "k5-04-見-kanji",
+     "q": "Quel kanji veut dire « voir » ?",
+     "explain": "**見** : voir. Un grand œil 目 posé sur deux jambes : quelqu'un qui regarde.",
      "type": "choice",
      "choices": [
-      "たせ",
-      "わせ",
-      "みせ",
-      "あせ"
+      "貝",
+      "見",
+      "聞",
+      "日"
      ],
-     "a": 2
-    },
-    {
-     "id": "k5-04-聞く-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{電車|でんしゃ}の{中|なか}で{音楽|おんがく}を**聞**きます。",
-     "fr": "J'écoute de la musique dans le train.",
-     "explain": "**聞** se lit き ici ({聞|き}く : écouter, demander).",
-     "type": "choice",
-     "choices": [
-      "め",
-      "か",
-      "き",
-      "い"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-04-新聞-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{図書館|としょかん}で**新聞**を{読|よ}みます。",
-     "fr": "Je lis le journal à la bibliothèque.",
-     "explain": "**新聞** se lit しんぶん ici ({新|しん}{聞|ぶん} : journal).",
-     "type": "choice",
-     "choices": [
-      "かく",
-      "まいにち",
-      "たべもの",
-      "しんぶん"
-     ],
-     "a": 3
+     "a": 1
     },
     {
      "id": "k5-04-見る-intrus",
@@ -1734,6 +1251,33 @@
       "話す → はなす"
      ],
      "a": 0
+    },
+    {
+     "id": "k5-04-聞く-ecrit",
+     "q": "Quel mot s'écrit **きく** (écouter, demander) ?",
+     "explain": "{聞|き}く : écouter, demander.",
+     "type": "choice",
+     "choices": [
+      "週く",
+      "読く",
+      "間く",
+      "聞く"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-04-見せる-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{旅行|りょこう}の{写真|しゃしん}を**見せ**てください。",
+     "explain": "**見せ** se lit みせ ici ({見|み}せる : montrer). « Montre-moi les photos du voyage, s'il te plaît. »",
+     "type": "choice",
+     "choices": [
+      "たせ",
+      "わせ",
+      "みせ",
+      "あせ"
+     ],
+     "a": 2
     }
    ]
   },
@@ -1753,11 +1297,11 @@
        "fr": "maintenant"
       },
       {
-       "jp": "{今|こん}{週|しゅう}",
+       "jp": "{今週|こんしゅう}",
        "fr": "cette semaine"
       },
       {
-       "jp": "{今|こん}{晩|ばん}",
+       "jp": "{今晩|こんばん}",
        "fr": "ce soir"
       },
       {
@@ -1778,11 +1322,11 @@
        "fr": "quoi"
       },
       {
-       "jp": "{何|なん}{時|じ}",
+       "jp": "{何時|なんじ}",
        "fr": "quelle heure"
       },
       {
-       "jp": "{何|なん}{曜|よう}{日|び}",
+       "jp": "{何曜日|なんようび}",
        "fr": "quel jour de la semaine"
       }
      ]
@@ -1795,7 +1339,7 @@
      ],
      "vocab": [
       {
-       "jp": "{時|じ}{間|かん}",
+       "jp": "{時間|じかん}",
        "fr": "temps, durée"
       },
       {
@@ -1812,15 +1356,15 @@
      ],
      "vocab": [
       {
-       "jp": "{毎|まい}{日|にち}",
+       "jp": "{毎日|まいにち}",
        "fr": "tous les jours"
       },
       {
-       "jp": "{毎|まい}{朝|あさ}",
+       "jp": "{毎朝|まいあさ}",
        "fr": "tous les matins"
       },
       {
-       "jp": "{毎|まい}{晩|ばん}",
+       "jp": "{毎晩|まいばん}",
        "fr": "tous les soirs"
       }
      ]
@@ -1833,15 +1377,15 @@
      ],
      "vocab": [
       {
-       "jp": "{今|こん}{週|しゅう}",
+       "jp": "{今週|こんしゅう}",
        "fr": "cette semaine"
       },
       {
-       "jp": "{先|せん}{週|しゅう}",
+       "jp": "{先週|せんしゅう}",
        "fr": "la semaine dernière"
       },
       {
-       "jp": "{来|らい}{週|しゅう}",
+       "jp": "{来週|らいしゅう}",
        "fr": "la semaine prochaine"
       }
      ]
@@ -1850,19 +1394,19 @@
      "h": "曜 · jour de la semaine",
      "p": [
       "**On** : ヨウ　**Kun** : —",
-      "Le soleil 日 à gauche ; on le voit surtout dans 〜{曜|よう}{日|び}."
+      "Le soleil 日 à gauche ; on le voit surtout dans 〜{曜日|ようび}."
      ],
      "vocab": [
       {
-       "jp": "{月|げつ}{曜|よう}{日|び}",
+       "jp": "{月曜日|げつようび}",
        "fr": "lundi"
       },
       {
-       "jp": "{金|きん}{曜|よう}{日|び}",
+       "jp": "{金曜日|きんようび}",
        "fr": "vendredi"
       },
       {
-       "jp": "{何|なん}{曜|よう}{日|び}",
+       "jp": "{何曜日|なんようび}",
        "fr": "quel jour de la semaine"
       }
      ]
@@ -1888,46 +1432,6 @@
      "a": 3
     },
     {
-     "id": "k5-05-今-kanji",
-     "q": "Quel kanji veut dire « maintenant » ?",
-     "explain": "**今** : maintenant. Un toit qui couvre l'instant présent.",
-     "type": "choice",
-     "choices": [
-      "会",
-      "行",
-      "今",
-      "私"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-05-今-lecture",
-     "q": "Comment se lit **今** ?",
-     "explain": "{今|いま} : maintenant.",
-     "type": "choice",
-     "choices": [
-      "いま",
-      "ひとり",
-      "にほん",
-      "らいげつ"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-05-今週-trou",
-     "q": "Complète le mot **こんしゅう** (cette semaine) :",
-     "jp": "今＿",
-     "explain": "{今|こん}{週|しゅう} : cette semaine.",
-     "type": "choice",
-     "choices": [
-      "読",
-      "車",
-      "週",
-      "時"
-     ],
-     "a": 2
-    },
-    {
      "id": "k5-05-何-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "何",
@@ -1942,45 +1446,6 @@
      "a": 0
     },
     {
-     "id": "k5-05-何-kanji",
-     "q": "Quel kanji veut dire « quoi, combien » ?",
-     "explain": "**何** : quoi, combien. Une personne 亻 à côté de 可 : quelqu'un qui demande « quoi ? ».",
-     "type": "choice",
-     "choices": [
-      "飲",
-      "水",
-      "時",
-      "何"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-05-何時-lecture",
-     "q": "Comment se lit **何時** ?",
-     "explain": "{何|なん}{時|じ} : quelle heure.",
-     "type": "choice",
-     "choices": [
-      "さかな",
-      "なんじ",
-      "なにじ",
-      "なんとき"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-05-何-ecrit",
-     "q": "Quel mot s'écrit **なに** (quoi) ?",
-     "explain": "{何|なに} : quoi.",
-     "type": "choice",
-     "choices": [
-      "書",
-      "毎",
-      "食",
-      "何"
-     ],
-     "a": 3
-    },
-    {
      "id": "k5-05-時-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "時",
@@ -1991,46 +1456,6 @@
       "lire",
       "heure, temps",
       "rentrer"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-05-時-kanji",
-     "q": "Quel kanji veut dire « heure, temps » ?",
-     "explain": "**時** : heure, temps. Le soleil 日 à gauche, et le temple 寺 où sonnait la cloche des heures.",
-     "type": "choice",
-     "choices": [
-      "時",
-      "駅",
-      "週",
-      "本"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-05-時間-lecture",
-     "q": "Comment se lit **時間** ?",
-     "explain": "{時|じ}{間|かん} : temps, durée.",
-     "type": "choice",
-     "choices": [
-      "ときかん",
-      "じかん",
-      "いま",
-      "じあいだ"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-05-時間-trou",
-     "q": "Complète le mot **じかん** (temps, durée) :",
-     "jp": "時＿",
-     "explain": "{時|じ}{間|かん} : temps, durée.",
-     "type": "choice",
-     "choices": [
-      "聞",
-      "読",
-      "間",
-      "語"
      ],
      "a": 2
     },
@@ -2049,46 +1474,6 @@
      "a": 3
     },
     {
-     "id": "k5-05-毎-kanji",
-     "q": "Quel kanji veut dire « chaque » ?",
-     "explain": "**毎** : chaque. 母 la mère, coiffée d'un trait : chaque jour, elle recommence.",
-     "type": "choice",
-     "choices": [
-      "母",
-      "毎",
-      "週",
-      "今"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-05-毎日-lecture",
-     "q": "Comment se lit **毎日** ?",
-     "explain": "{毎|まい}{日|にち} : tous les jours.",
-     "type": "choice",
-     "choices": [
-      "らいしゅう",
-      "まいか",
-      "まいにち",
-      "まいひ"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-05-毎日-trou",
-     "q": "Complète le mot **まいにち** (tous les jours) :",
-     "jp": "毎＿",
-     "explain": "{毎|まい}{日|にち} : tous les jours.",
-     "type": "choice",
-     "choices": [
-      "日",
-      "白",
-      "飯",
-      "目"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-05-週-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "週",
@@ -2103,50 +1488,10 @@
      "a": 3
     },
     {
-     "id": "k5-05-週-kanji",
-     "q": "Quel kanji veut dire « semaine » ?",
-     "explain": "**週** : semaine. La clé de la marche 辶 : le cycle qui fait le tour des jours.",
-     "type": "choice",
-     "choices": [
-      "見",
-      "曜",
-      "駅",
-      "週"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-05-今週-lecture",
-     "q": "Comment se lit **今週** ?",
-     "explain": "{今|こん}{週|しゅう} : cette semaine.",
-     "type": "choice",
-     "choices": [
-      "なんじ",
-      "こんしゅう",
-      "いましゅう",
-      "げつようび"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-05-先週-trou",
-     "q": "Complète le mot **せんしゅう** (la semaine dernière) :",
-     "jp": "先＿",
-     "explain": "{先|せん}{週|しゅう} : la semaine dernière.",
-     "type": "choice",
-     "choices": [
-      "週",
-      "読",
-      "水",
-      "魚"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-05-曜-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "曜",
-     "explain": "**曜** : jour de la semaine. Le soleil 日 à gauche ; on le voit surtout dans 〜{曜|よう}{日|び}.",
+     "explain": "**曜** : jour de la semaine. Le soleil 日 à gauche ; on le voit surtout dans 〜{曜日|ようび}.",
      "type": "choice",
      "choices": [
       "jour de la semaine",
@@ -2157,22 +1502,74 @@
      "a": 0
     },
     {
-     "id": "k5-05-曜-kanji",
-     "q": "Quel kanji veut dire « jour de la semaine » ?",
-     "explain": "**曜** : jour de la semaine. Le soleil 日 à gauche ; on le voit surtout dans 〜{曜|よう}{日|び}.",
+     "id": "k5-05-今-lecture",
+     "q": "Comment se lit **今** ?",
+     "explain": "{今|いま} : maintenant.",
      "type": "choice",
      "choices": [
-      "来",
-      "曜",
-      "書",
-      "水"
+      "いま",
+      "ひとり",
+      "にほん",
+      "らいげつ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-05-何時-lecture",
+     "q": "Comment se lit **何時** ?",
+     "explain": "{何時|なんじ} : quelle heure.",
+     "type": "choice",
+     "choices": [
+      "さかな",
+      "なんじ",
+      "なにじ",
+      "なんとき"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-05-時間-lecture",
+     "q": "Comment se lit **時間** ?",
+     "explain": "{時間|じかん} : temps, durée.",
+     "type": "choice",
+     "choices": [
+      "ときかん",
+      "じかん",
+      "いま",
+      "じあいだ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-05-毎日-lecture",
+     "q": "Comment se lit **毎日** ?",
+     "explain": "{毎日|まいにち} : tous les jours.",
+     "type": "choice",
+     "choices": [
+      "らいしゅう",
+      "まいか",
+      "まいにち",
+      "まいひ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-05-今週-lecture",
+     "q": "Comment se lit **今週** ?",
+     "explain": "{今週|こんしゅう} : cette semaine.",
+     "type": "choice",
+     "choices": [
+      "なんじ",
+      "こんしゅう",
+      "いましゅう",
+      "げつようび"
      ],
      "a": 1
     },
     {
      "id": "k5-05-月曜日-lecture",
      "q": "Comment se lit **月曜日** ?",
-     "explain": "{月|げつ}{曜|よう}{日|び} : lundi.",
+     "explain": "{月曜日|げつようび} : lundi.",
      "type": "choice",
      "choices": [
       "どようび",
@@ -2183,25 +1580,24 @@
      "a": 3
     },
     {
-     "id": "k5-05-月曜日-trou",
-     "q": "Complète le mot **げつようび** (lundi) :",
-     "jp": "月曜＿",
-     "explain": "{月|げつ}{曜|よう}{日|び} : lundi.",
+     "id": "k5-05-今週-trou",
+     "q": "Complète le mot **こんしゅう** (cette semaine) :",
+     "jp": "今＿",
+     "explain": "{今週|こんしゅう} : cette semaine.",
      "type": "choice",
      "choices": [
-      "白",
-      "目",
-      "語",
-      "日"
+      "読",
+      "車",
+      "週",
+      "時"
      ],
-     "a": 3
+     "a": 2
     },
     {
      "id": "k5-05-今-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "**今**、{何時|なんじ}ですか。",
-     "fr": "Quelle heure est-il (maintenant) ?",
-     "explain": "**今** se lit いま ici ({今|いま} : maintenant).",
+     "explain": "**今** se lit いま ici ({今|いま} : maintenant). « Quelle heure est-il (maintenant) ? »",
      "type": "choice",
      "choices": [
       "ごはん",
@@ -2212,54 +1608,22 @@
      "a": 1
     },
     {
-     "id": "k5-05-今週-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**今週**はいそがしいです。",
-     "fr": "Cette semaine, je suis occupé.",
-     "explain": "**今週** se lit こんしゅう ici ({今|こん}{週|しゅう} : cette semaine).",
+     "id": "k5-05-今-kanji",
+     "q": "Quel kanji veut dire « maintenant » ?",
+     "explain": "**今** : maintenant. Un toit qui couvre l'instant présent.",
      "type": "choice",
      "choices": [
-      "もくようび",
-      "にほん",
-      "ほんだな",
-      "こんしゅう"
+      "会",
+      "行",
+      "今",
+      "私"
      ],
-     "a": 3
-    },
-    {
-     "id": "k5-05-今晩-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**今晩**、{友|とも}だちと{晩|ばん}ご{飯|はん}を{食|た}べます。",
-     "fr": "Ce soir, je dîne avec un ami.",
-     "explain": "**今晩** se lit こんばん ici ({今|こん}{晩|ばん} : ce soir).",
-     "type": "choice",
-     "choices": [
-      "こんばん",
-      "げつようび",
-      "としょかん",
-      "くるま"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-05-今日-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**今日**は{日曜日|にちようび}ですから、{学校|がっこう}は{休|やす}みです。",
-     "fr": "Aujourd'hui c'est dimanche, donc il n'y a pas d'école.",
-     "explain": "**今日** se lit きょう ici ({今日|きょう} : aujourd'hui).",
-     "type": "choice",
-     "choices": [
-      "みる",
-      "おとな",
-      "のむ",
-      "きょう"
-     ],
-     "a": 3
+     "a": 2
     },
     {
      "id": "k5-05-今週-intrus",
      "q": "Un seul de ces mots est mal lu. Lequel ?",
-     "explain": "{今|こん}{週|しゅう} se lit こんしゅう, pas いましゅう.",
+     "explain": "{今週|こんしゅう} se lit こんしゅう, pas いましゅう.",
      "type": "choice",
      "choices": [
       "先週 → せんしゅう",
@@ -2276,7 +1640,7 @@
   {
    "id": "k5-b01-日曜日-lecture",
    "q": "Comment se lit **日曜日** ?",
-   "explain": "{日|にち}{曜|よう}{日|び} : dimanche.",
+   "explain": "{日曜日|にちようび} : dimanche.",
    "type": "choice",
    "choices": [
     "さかな",
@@ -2313,9 +1677,22 @@
    "a": 3
   },
   {
+   "id": "k5-b01-人-ecrit",
+   "q": "Quel mot s'écrit **ひと** (personne) ?",
+   "explain": "{人|ひと} : personne.",
+   "type": "choice",
+   "choices": [
+    "人",
+    "大",
+    "見",
+    "入"
+   ],
+   "a": 0
+  },
+  {
    "id": "k5-b01-日本人-lecture",
    "q": "Comment se lit **日本人** ?",
-   "explain": "{日|に}{本|ほん}{人|じん} : Japonais(e).",
+   "explain": "{日本人|にほんじん} : Japonais(e).",
    "type": "choice",
    "choices": [
     "こんしゅう",
@@ -2328,7 +1705,7 @@
   {
    "id": "k5-b01-外国人-lecture",
    "q": "Comment se lit **外国人** ?",
-   "explain": "{外|がい}{国|こく}{人|じん} : étranger.",
+   "explain": "{外国人|がいこくじん} : étranger.",
    "type": "choice",
    "choices": [
     "らいげつ",
@@ -2341,7 +1718,7 @@
   {
    "id": "k5-b01-何人-lecture",
    "q": "Comment se lit **何人** ?",
-   "explain": "{何|なん}{人|にん} : combien de personnes.",
+   "explain": "{何人|なんにん} : combien de personnes.",
    "type": "choice",
    "choices": [
     "たべもの",
@@ -2367,7 +1744,7 @@
   {
    "id": "k5-b01-英語-lecture",
    "q": "Comment se lit **英語** ?",
-   "explain": "{英|えい}{語|ご} : anglais (langue).",
+   "explain": "{英語|えいご} : anglais (langue).",
    "type": "choice",
    "choices": [
     "みず",
@@ -2380,7 +1757,7 @@
   {
    "id": "k5-b01-銀行-lecture",
    "q": "Comment se lit **銀行** ?",
-   "explain": "{銀|ぎん}{行|こう} : banque.",
+   "explain": "{銀行|ぎんこう} : banque.",
    "type": "choice",
    "choices": [
     "ぎんこう",
@@ -2393,7 +1770,7 @@
   {
    "id": "k5-b01-飛行機-lecture",
    "q": "Comment se lit **飛行機** ?",
-   "explain": "{飛|ひ}{行|こう}{機|き} : avion.",
+   "explain": "{飛行機|ひこうき} : avion.",
    "type": "choice",
    "choices": [
     "ひぎょうき",
@@ -2406,7 +1783,7 @@
   {
    "id": "k5-b01-来週-lecture",
    "q": "Comment se lit **来週** ?",
-   "explain": "{来|らい}{週|しゅう} : la semaine prochaine.",
+   "explain": "{来週|らいしゅう} : la semaine prochaine.",
    "type": "choice",
    "choices": [
     "くしゅう",
@@ -2419,7 +1796,7 @@
   {
    "id": "k5-b01-来月-lecture",
    "q": "Comment se lit **来月** ?",
-   "explain": "{来|らい}{月|げつ} : le mois prochain.",
+   "explain": "{来月|らいげつ} : le mois prochain.",
    "type": "choice",
    "choices": [
     "らいつき",
@@ -2430,9 +1807,35 @@
    "a": 1
   },
   {
+   "id": "k5-b01-帰る-ecrit",
+   "q": "Quel mot s'écrit **かえる** (rentrer) ?",
+   "explain": "{帰|かえ}る : rentrer.",
+   "type": "choice",
+   "choices": [
+    "車る",
+    "読る",
+    "帰る",
+    "飲る"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b01-電車-ecrit",
+   "q": "Quel mot s'écrit **でんしゃ** (train) ?",
+   "explain": "{電車|でんしゃ} : train.",
+   "type": "choice",
+   "choices": [
+    "電車",
+    "週車",
+    "雷車",
+    "人車"
+   ],
+   "a": 0
+  },
+  {
    "id": "k5-b01-自転車-lecture",
    "q": "Comment se lit **自転車** ?",
-   "explain": "{自|じ}{転|てん}{車|しゃ} : vélo.",
+   "explain": "{自転車|じてんしゃ} : vélo.",
    "type": "choice",
    "choices": [
     "なんにん",
@@ -2471,7 +1874,7 @@
   {
    "id": "k5-b01-食堂-lecture",
    "q": "Comment se lit **食堂** ?",
-   "explain": "{食|しょく}{堂|どう} : cantine, restaurant.",
+   "explain": "{食堂|しょくどう} : cantine, restaurant.",
    "type": "choice",
    "choices": [
     "たどう",
@@ -2493,6 +1896,19 @@
     "のみもの"
    ],
    "a": 3
+  },
+  {
+   "id": "k5-b01-ご飯-ecrit",
+   "q": "Quel mot s'écrit **ごはん** (riz cuit, repas) ?",
+   "explain": "ご{飯|はん} : riz cuit, repas.",
+   "type": "choice",
+   "choices": [
+    "ご飲",
+    "ご曜",
+    "ご飯",
+    "ご食"
+   ],
+   "a": 2
   },
   {
    "id": "k5-b01-朝ご飯-lecture",
@@ -2523,7 +1939,7 @@
   {
    "id": "k5-b01-水曜日-lecture",
    "q": "Comment se lit **水曜日** ?",
-   "explain": "{水|すい}{曜|よう}{日|び} : mercredi.",
+   "explain": "{水曜日|すいようび} : mercredi.",
    "type": "choice",
    "choices": [
     "じてんしゃ",
@@ -2534,63 +1950,10 @@
    "a": 1
   },
   {
-   "id": "k5-b01-見せる-lecture",
-   "q": "Comment se lit **見せる** ?",
-   "explain": "{見|み}せる : montrer.",
-   "type": "choice",
-   "choices": [
-    "けんせる",
-    "みせる",
-    "じてんしゃ",
-    "ごはん"
-   ],
-   "a": 1
-  },
-  {
-   "id": "k5-b01-新聞-lecture",
-   "q": "Comment se lit **新聞** ?",
-   "explain": "{新|しん}{聞|ぶん} : journal.",
-   "type": "choice",
-   "choices": [
-    "あたらぶん",
-    "しんぶん",
-    "ごはん",
-    "しんき"
-   ],
-   "a": 1
-  },
-  {
-   "id": "k5-b01-図書館-lecture",
-   "q": "Comment se lit **図書館** ?",
-   "explain": "{図|と}{書|しょ}{館|かん} : bibliothèque.",
-   "type": "choice",
-   "choices": [
-    "まいにち",
-    "としょかん",
-    "とかかん",
-    "がいこくじん"
-   ],
-   "a": 1
-  },
-  {
-   "id": "k5-b01-話-lecture",
-   "q": "Comment se lit **話** ?",
-   "explain": "{話|はなし} : histoire, conversation.",
-   "type": "choice",
-   "choices": [
-    "くる",
-    "のむ",
-    "ひと",
-    "はなし"
-   ],
-   "a": 3
-  },
-  {
    "id": "k5-b01-日本-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "**日本**はどうですか。",
-   "fr": "Comment trouves-tu le Japon ?",
-   "explain": "**日本** se lit にほん ici ({日|に}{本|ほん} : Japon).",
+   "explain": "**日本** se lit にほん ici ({日本|にほん} : Japon). « Comment trouves-tu le Japon ? »",
    "type": "choice",
    "choices": [
     "にもと",
@@ -2604,8 +1967,7 @@
    "id": "k5-b01-毎日-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "{父|ちち}は**毎日**ネクタイをします。",
-   "fr": "Mon père met une cravate tous les jours.",
-   "explain": "**毎日** se lit まいにち ici ({毎|まい}{日|にち} : tous les jours).",
+   "explain": "**毎日** se lit まいにち ici ({毎日|まいにち} : tous les jours). « Mon père met une cravate tous les jours. »",
    "type": "choice",
    "choices": [
     "まいにち",
@@ -2619,8 +1981,7 @@
    "id": "k5-b01-日曜日-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "**日曜日**にテニスをします。",
-   "fr": "Je joue au tennis le dimanche.",
-   "explain": "**日曜日** se lit にちようび ici ({日|にち}{曜|よう}{日|び} : dimanche).",
+   "explain": "**日曜日** se lit にちようび ici ({日曜日|にちようび} : dimanche). « Je joue au tennis le dimanche. »",
    "type": "choice",
    "choices": [
     "にちようび",
@@ -2633,9 +1994,8 @@
   {
    "id": "k5-b01-本-phrase",
    "q": "Comment se lit le mot en gras ?",
-   "jp": "**本**を{二|に}さつ{借|か}りました。",
-   "fr": "J'ai emprunté deux livres.",
-   "explain": "**本** se lit ほん ici ({本|ほん} : livre).",
+   "jp": "{図書館|としょかん}で**本**を{借|か}ります。",
+   "explain": "**本** se lit ほん ici ({本|ほん} : livre). « J'emprunte des livres à la bibliothèque. »",
    "type": "choice",
    "choices": [
     "すいようび",
@@ -2648,9 +2008,8 @@
   {
    "id": "k5-b01-日本語-phrase",
    "q": "Comment se lit le mot en gras ?",
-   "jp": "なぜ**日本語**を{勉強|べんきょう}していますか。",
-   "fr": "Pourquoi étudiez-vous le japonais ?",
-   "explain": "**日本語** se lit にほんご ici ({日|に}{本|ほん}{語|ご} : japonais (langue)).",
+   "jp": "{去年|きょねん}、**日本語**の{勉強|べんきょう}を{始|はじ}めました。",
+   "explain": "**日本語** se lit にほんご ici ({日本語|にほんご} : japonais (langue)). « J'ai commencé le japonais l'année dernière. »",
    "type": "choice",
    "choices": [
     "かほんご",
@@ -2664,8 +2023,7 @@
    "id": "k5-b01-本だな-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "**本だな**にじしょがあります。",
-   "fr": "Il y a un dictionnaire sur l'étagère.",
-   "explain": "**本だな** se lit ほんだな ici ({本|ほん}だな : étagère à livres).",
+   "explain": "**本だな** se lit ほんだな ici ({本|ほん}だな : étagère à livres). « Il y a un dictionnaire sur l'étagère. »",
    "type": "choice",
    "choices": [
     "にほん",

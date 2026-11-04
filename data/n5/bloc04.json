@@ -117,45 +117,6 @@
      "a": 2
     },
     {
-     "id": "k5-16-父-kanji",
-     "q": "Quel kanji veut dire « père » ?",
-     "explain": "**父** : père. Une main qui tient une hache : le père au travail.",
-     "type": "choice",
-     "choices": [
-      "父",
-      "前",
-      "交",
-      "後"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-16-父-lecture",
-     "q": "Comment se lit **父** ?",
-     "explain": "{父|ちち} : mon père.",
-     "type": "choice",
-     "choices": [
-      "ちち",
-      "ごご",
-      "ろくがつ",
-      "あいだ"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-16-お父さん-ecrit",
-     "q": "Quel mot s'écrit **おとうさん** (père (de quelqu'un)) ?",
-     "explain": "お{父|とう}さん : père (de quelqu'un).",
-     "type": "choice",
-     "choices": [
-      "お父さん",
-      "お飲さん",
-      "お交さん",
-      "お昨さん"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-16-母-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "母",
@@ -168,45 +129,6 @@
       "petit"
      ],
      "a": 1
-    },
-    {
-     "id": "k5-16-母-kanji",
-     "q": "Quel kanji veut dire « mère » ?",
-     "explain": "**母** : mère. Une femme vue de face, deux points pour la poitrine.",
-     "type": "choice",
-     "choices": [
-      "母",
-      "西",
-      "川",
-      "毎"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-16-母-lecture",
-     "q": "Comment se lit **母** ?",
-     "explain": "{母|はは} : ma mère.",
-     "type": "choice",
-     "choices": [
-      "はは",
-      "えん",
-      "さんぷん",
-      "きょう"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-16-お母さん-ecrit",
-     "q": "Quel mot s'écrit **おかあさん** (mère (de quelqu'un)) ?",
-     "explain": "お{母|かあ}さん : mère (de quelqu'un).",
-     "type": "choice",
-     "choices": [
-      "お毎さん",
-      "お帰さん",
-      "お左さん",
-      "お母さん"
-     ],
-     "a": 3
     },
     {
      "id": "k5-16-子-sens",
@@ -223,45 +145,6 @@
      "a": 2
     },
     {
-     "id": "k5-16-子-kanji",
-     "q": "Quel kanji veut dire « enfant » ?",
-     "explain": "**子** : enfant. Un bébé emmailloté, les bras ouverts.",
-     "type": "choice",
-     "choices": [
-      "学",
-      "金",
-      "字",
-      "子"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-16-子ども-lecture",
-     "q": "Comment se lit **子ども** ?",
-     "explain": "{子|こ}ども : enfant.",
-     "type": "choice",
-     "choices": [
-      "しども",
-      "ふたり",
-      "こども",
-      "すども"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-16-子ども-ecrit",
-     "q": "Quel mot s'écrit **こども** (enfant) ?",
-     "explain": "{子|こ}ども : enfant.",
-     "type": "choice",
-     "choices": [
-      "子ども",
-      "字ども",
-      "道ども",
-      "学ども"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-16-男-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "男",
@@ -272,46 +155,6 @@
       "homme",
       "sud",
       "étudier"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-16-男-kanji",
-     "q": "Quel kanji veut dire « homme » ?",
-     "explain": "**男** : homme. Un champ 田 et la force 力 : celui qui laboure.",
-     "type": "choice",
-     "choices": [
-      "書",
-      "男",
-      "天",
-      "友"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-16-男の人-lecture",
-     "q": "Comment se lit **男の人** ?",
-     "explain": "{男|おとこ}の{人|ひと} : homme.",
-     "type": "choice",
-     "choices": [
-      "おとこのひと",
-      "どようび",
-      "おとこのじん",
-      "なんのひと"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-16-男の人-trou",
-     "q": "Complète le mot **おとこのひと** (homme) :",
-     "jp": "男の＿",
-     "explain": "{男|おとこ}の{人|ひと} : homme.",
-     "type": "choice",
-     "choices": [
-      "大",
-      "人",
-      "入",
-      "前"
      ],
      "a": 1
     },
@@ -330,17 +173,56 @@
      "a": 0
     },
     {
-     "id": "k5-16-女-kanji",
-     "q": "Quel kanji veut dire « femme » ?",
-     "explain": "**女** : femme. Une femme agenouillée, les bras croisés.",
+     "id": "k5-16-父-lecture",
+     "q": "Comment se lit **父** ?",
+     "explain": "{父|ちち} : mon père.",
      "type": "choice",
      "choices": [
-      "人",
-      "私",
-      "女",
-      "見"
+      "ちち",
+      "ごご",
+      "ろくがつ",
+      "あいだ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-16-母-lecture",
+     "q": "Comment se lit **母** ?",
+     "explain": "{母|はは} : ma mère.",
+     "type": "choice",
+     "choices": [
+      "はは",
+      "えん",
+      "さんぷん",
+      "きょう"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-16-子ども-lecture",
+     "q": "Comment se lit **子ども** ?",
+     "explain": "{子|こ}ども : enfant.",
+     "type": "choice",
+     "choices": [
+      "しども",
+      "ふたり",
+      "こども",
+      "すども"
      ],
      "a": 2
+    },
+    {
+     "id": "k5-16-男の人-lecture",
+     "q": "Comment se lit **男の人** ?",
+     "explain": "{男|おとこ}の{人|ひと} : homme.",
+     "type": "choice",
+     "choices": [
+      "おとこのひと",
+      "どようび",
+      "おとこのじん",
+      "なんのひと"
+     ],
+     "a": 0
     },
     {
      "id": "k5-16-女の人-lecture",
@@ -356,25 +238,23 @@
      "a": 0
     },
     {
-     "id": "k5-16-女の人-trou",
-     "q": "Complète le mot **おんなのひと** (femme) :",
-     "jp": "女の＿",
-     "explain": "{女|おんな}の{人|ひと} : femme.",
+     "id": "k5-16-お父さん-ecrit",
+     "q": "Quel mot s'écrit **おとうさん** (père (de quelqu'un)) ?",
+     "explain": "お{父|とう}さん : père (de quelqu'un).",
      "type": "choice",
      "choices": [
-      "大",
-      "入",
-      "人",
-      "道"
+      "お父さん",
+      "お飲さん",
+      "お交さん",
+      "お昨さん"
      ],
-     "a": 2
+     "a": 0
     },
     {
      "id": "k5-16-父-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "**父**はお{酒|さけ}を飲みません。",
-     "fr": "Mon père ne boit pas d'alcool.",
-     "explain": "**父** se lit ちち ici ({父|ちち} : mon père).",
+     "explain": "**父** se lit ちち ici ({父|ちち} : mon père). « Mon père ne boit pas d'alcool. »",
      "type": "choice",
      "choices": [
       "ちち",
@@ -385,47 +265,15 @@
      "a": 0
     },
     {
-     "id": "k5-16-お父さん-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{田中|たなか}さんの**お父さん**は先生です。",
-     "fr": "Le père de M. Tanaka est professeur.",
-     "explain": "**お父さん** se lit おとうさん ici (お{父|とう}さん : père (de quelqu'un)).",
+     "id": "k5-16-父-kanji",
+     "q": "Quel kanji veut dire « père » ?",
+     "explain": "**父** : père. Une main qui tient une hache : le père au travail.",
      "type": "choice",
      "choices": [
-      "きく",
-      "おとうさん",
-      "みなみ",
-      "えん"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-16-母-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**母**と{電話|でんわ}で話します。",
-     "fr": "Je parle avec ma mère au téléphone.",
-     "explain": "**母** se lit はは ici ({母|はは} : ma mère).",
-     "type": "choice",
-     "choices": [
-      "くがつ",
-      "つち",
-      "ごご",
-      "はは"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-16-お母さん-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**お母さん**、ただいま。",
-     "fr": "Maman, je suis rentré !",
-     "explain": "**お母さん** se lit おかあさん ici (お{母|かあ}さん : mère (de quelqu'un)).",
-     "type": "choice",
-     "choices": [
-      "おかあさん",
-      "どようび",
-      "いちがつ",
-      "かえる"
+      "父",
+      "前",
+      "交",
+      "後"
      ],
      "a": 0
     },
@@ -441,6 +289,33 @@
       "父 → ちち"
      ],
      "a": 0
+    },
+    {
+     "id": "k5-16-お母さん-ecrit",
+     "q": "Quel mot s'écrit **おかあさん** (mère (de quelqu'un)) ?",
+     "explain": "お{母|かあ}さん : mère (de quelqu'un).",
+     "type": "choice",
+     "choices": [
+      "お毎さん",
+      "お帰さん",
+      "お左さん",
+      "お母さん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-16-お父さん-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{田中|たなか}さんの**お父さん**は先生です。",
+     "explain": "**お父さん** se lit おとうさん ici (お{父|とう}さん : père (de quelqu'un)). « Le père de M. Tanaka est professeur. »",
+     "type": "choice",
+     "choices": [
+      "きく",
+      "おとうさん",
+      "みなみ",
+      "えん"
+     ],
+     "a": 1
     }
    ]
   },
@@ -460,11 +335,11 @@
        "fr": "maison"
       },
       {
-       "jp": "{家|か}{族|ぞく}",
+       "jp": "{家族|かぞく}",
        "fr": "famille"
       },
       {
-       "jp": "{作|さっ}{家|か}",
+       "jp": "{作家|さっか}",
        "fr": "écrivain"
       }
      ]
@@ -481,11 +356,11 @@
        "fr": "rencontrer"
       },
       {
-       "jp": "{会|かい}{社|しゃ}",
+       "jp": "{会社|かいしゃ}",
        "fr": "entreprise"
       },
       {
-       "jp": "{会|かい}{社|しゃ}{員|いん}",
+       "jp": "{会社員|かいしゃいん}",
        "fr": "employé de bureau"
       }
      ]
@@ -498,11 +373,11 @@
      ],
      "vocab": [
       {
-       "jp": "{会|かい}{社|しゃ}",
+       "jp": "{会社|かいしゃ}",
        "fr": "entreprise"
       },
       {
-       "jp": "{神|じん}{社|じゃ}",
+       "jp": "{神社|じんじゃ}",
        "fr": "sanctuaire shintō"
       }
      ]
@@ -515,15 +390,15 @@
      ],
      "vocab": [
       {
-       "jp": "{電|でん}{車|しゃ}",
+       "jp": "{電車|でんしゃ}",
        "fr": "train"
       },
       {
-       "jp": "{電|でん}{話|わ}",
+       "jp": "{電話|でんわ}",
        "fr": "téléphone"
       },
       {
-       "jp": "{電|でん}{気|き}",
+       "jp": "{電気|でんき}",
        "fr": "électricité, lumière"
       }
      ]
@@ -540,11 +415,11 @@
        "fr": "pays"
       },
       {
-       "jp": "{外|がい}{国|こく}{人|じん}",
+       "jp": "{外国人|がいこくじん}",
        "fr": "étranger"
       },
       {
-       "jp": "{中|ちゅう}{国|ごく}",
+       "jp": "{中国|ちゅうごく}",
        "fr": "Chine"
       }
      ]
@@ -561,11 +436,11 @@
        "fr": "dehors"
       },
       {
-       "jp": "{外|がい}{国|こく}{人|じん}",
+       "jp": "{外国人|がいこくじん}",
        "fr": "étranger"
       },
       {
-       "jp": "{外|がい}{国|こく}",
+       "jp": "{外国|がいこく}",
        "fr": "pays étranger"
       }
      ]
@@ -590,15 +465,72 @@
      "a": 2
     },
     {
-     "id": "k5-17-家-kanji",
-     "q": "Quel kanji veut dire « maison, famille » ?",
-     "explain": "**家** : maison, famille. Un cochon 豕 sous un toit : le foyer d'autrefois.",
+     "id": "k5-17-会-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "会",
+     "explain": "**会** : rencontrer, réunion. Un toit au-dessus d'une table : on s'y réunit.",
      "type": "choice",
      "choices": [
-      "家",
-      "水",
-      "飲",
-      "空"
+      "minute, partager",
+      "grand",
+      "dehors",
+      "rencontrer, réunion"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-17-社-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "社",
+     "explain": "**社** : société, sanctuaire. L'autel 礻 sur la terre 土 : là où un groupe se réunit.",
+     "type": "choice",
+     "choices": [
+      "sud",
+      "eau",
+      "société, sanctuaire",
+      "milieu, dans"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-17-電-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "電",
+     "explain": "**電** : électricité. La pluie 雨 au-dessus d'un éclair.",
+     "type": "choice",
+     "choices": [
+      "électricité",
+      "rivière",
+      "feu",
+      "jour de la semaine"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-17-国-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "国",
+     "explain": "**国** : pays. Un trésor 玉 protégé par une frontière 囗.",
+     "type": "choice",
+     "choices": [
+      "pluie",
+      "maintenant",
+      "pays",
+      "manger"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-17-外-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "外",
+     "explain": "**外** : dehors. Le soir 夕 et la divination 卜 : on la faisait dehors, à la nuit.",
+     "type": "choice",
+     "choices": [
+      "dehors",
+      "mère",
+      "passé, dernier",
+      "après, derrière"
      ],
      "a": 0
     },
@@ -616,47 +548,6 @@
      "a": 3
     },
     {
-     "id": "k5-17-家族-trou",
-     "q": "Complète le mot **かぞく** (famille) :",
-     "jp": "家＿",
-     "explain": "{家|か}{族|ぞく} : famille.",
-     "type": "choice",
-     "choices": [
-      "朝",
-      "人",
-      "気",
-      "族"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-17-会-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "会",
-     "explain": "**会** : rencontrer, réunion. Un toit au-dessus d'une table : on s'y réunit.",
-     "type": "choice",
-     "choices": [
-      "minute, partager",
-      "grand",
-      "dehors",
-      "rencontrer, réunion"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-17-会-kanji",
-     "q": "Quel kanji veut dire « rencontrer, réunion » ?",
-     "explain": "**会** : rencontrer, réunion. Un toit au-dessus d'une table : on s'y réunit.",
-     "type": "choice",
-     "choices": [
-      "書",
-      "今",
-      "行",
-      "会"
-     ],
-     "a": 3
-    },
-    {
      "id": "k5-17-会う-lecture",
      "q": "Comment se lit **会う** ?",
      "explain": "{会|あ}う : rencontrer.",
@@ -670,49 +561,9 @@
      "a": 1
     },
     {
-     "id": "k5-17-会う-ecrit",
-     "q": "Quel mot s'écrit **あう** (rencontrer) ?",
-     "explain": "{会|あ}う : rencontrer.",
-     "type": "choice",
-     "choices": [
-      "会う",
-      "川う",
-      "今う",
-      "下う"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-17-社-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "社",
-     "explain": "**社** : société, sanctuaire. L'autel 礻 sur la terre 土 : là où un groupe se réunit.",
-     "type": "choice",
-     "choices": [
-      "sud",
-      "eau",
-      "société, sanctuaire",
-      "milieu, dans"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-17-社-kanji",
-     "q": "Quel kanji veut dire « société, sanctuaire » ?",
-     "explain": "**社** : société, sanctuaire. L'autel 礻 sur la terre 土 : là où un groupe se réunit.",
-     "type": "choice",
-     "choices": [
-      "社",
-      "千",
-      "名",
-      "気"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-17-会社-lecture",
      "q": "Comment se lit **会社** ?",
-     "explain": "{会|かい}{社|しゃ} : entreprise.",
+     "explain": "{会社|かいしゃ} : entreprise.",
      "type": "choice",
      "choices": [
       "えしゃ",
@@ -723,97 +574,15 @@
      "a": 3
     },
     {
-     "id": "k5-17-会社-trou",
-     "q": "Complète le mot **かいしゃ** (entreprise) :",
-     "jp": "会＿",
-     "explain": "{会|かい}{社|しゃ} : entreprise.",
-     "type": "choice",
-     "choices": [
-      "中",
-      "食",
-      "空",
-      "社"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-17-電-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "電",
-     "explain": "**電** : électricité. La pluie 雨 au-dessus d'un éclair.",
-     "type": "choice",
-     "choices": [
-      "électricité",
-      "rivière",
-      "feu",
-      "jour de la semaine"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-17-電-kanji",
-     "q": "Quel kanji veut dire « électricité » ?",
-     "explain": "**電** : électricité. La pluie 雨 au-dessus d'un éclair.",
-     "type": "choice",
-     "choices": [
-      "聞",
-      "電",
-      "雷",
-      "社"
-     ],
-     "a": 1
-    },
-    {
      "id": "k5-17-電車-lecture",
      "q": "Comment se lit **電車** ?",
-     "explain": "{電|でん}{車|しゃ} : train.",
+     "explain": "{電車|でんしゃ} : train.",
      "type": "choice",
      "choices": [
       "でんしゃ",
       "なまえ",
       "さんぷん",
       "でんくるま"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-17-電話-trou",
-     "q": "Complète le mot **でんわ** (téléphone) :",
-     "jp": "電＿",
-     "explain": "{電|でん}{話|わ} : téléphone.",
-     "type": "choice",
-     "choices": [
-      "本",
-      "話",
-      "友",
-      "語"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-17-国-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "国",
-     "explain": "**国** : pays. Un trésor 玉 protégé par une frontière 囗.",
-     "type": "choice",
-     "choices": [
-      "pluie",
-      "maintenant",
-      "pays",
-      "manger"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-17-国-kanji",
-     "q": "Quel kanji veut dire « pays » ?",
-     "explain": "**国** : pays. Un trésor 玉 protégé par une frontière 囗.",
-     "type": "choice",
-     "choices": [
-      "国",
-      "図",
-      "西",
-      "三"
      ],
      "a": 0
     },
@@ -831,46 +600,6 @@
      "a": 1
     },
     {
-     "id": "k5-17-国-ecrit",
-     "q": "Quel mot s'écrit **くに** (pays) ?",
-     "explain": "{国|くに} : pays.",
-     "type": "choice",
-     "choices": [
-      "図",
-      "行",
-      "大",
-      "国"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-17-外-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "外",
-     "explain": "**外** : dehors. Le soir 夕 et la divination 卜 : on la faisait dehors, à la nuit.",
-     "type": "choice",
-     "choices": [
-      "dehors",
-      "mère",
-      "passé, dernier",
-      "après, derrière"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-17-外-kanji",
-     "q": "Quel kanji veut dire « dehors » ?",
-     "explain": "**外** : dehors. Le soir 夕 et la divination 卜 : on la faisait dehors, à la nuit.",
-     "type": "choice",
-     "choices": [
-      "分",
-      "気",
-      "火",
-      "外"
-     ],
-     "a": 3
-    },
-    {
      "id": "k5-17-外-lecture",
      "q": "Comment se lit **外** ?",
      "explain": "{外|そと} : dehors.",
@@ -884,25 +613,24 @@
      "a": 3
     },
     {
-     "id": "k5-17-外国人-trou",
-     "q": "Complète le mot **がいこくじん** (étranger) :",
-     "jp": "外国＿",
-     "explain": "{外|がい}{国|こく}{人|じん} : étranger.",
+     "id": "k5-17-家族-trou",
+     "q": "Complète le mot **かぞく** (famille) :",
+     "jp": "家＿",
+     "explain": "{家族|かぞく} : famille.",
      "type": "choice",
      "choices": [
-      "西",
-      "入",
+      "朝",
       "人",
-      "大"
+      "気",
+      "族"
      ],
-     "a": 2
+     "a": 3
     },
     {
      "id": "k5-17-家-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "六時に**家**に帰ります。",
-     "fr": "Je rentre à la maison à six heures.",
-     "explain": "**家** se lit いえ ici ({家|いえ} : maison).",
+     "explain": "**家** se lit いえ ici ({家|いえ} : maison). « Je rentre à la maison à six heures. »",
      "type": "choice",
      "choices": [
       "としょかん",
@@ -913,54 +641,22 @@
      "a": 3
     },
     {
-     "id": "k5-17-家族-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**家族**と{晩|ばん}ご飯を食べます。",
-     "fr": "Je dîne avec ma famille.",
-     "explain": "**家族** se lit かぞく ici ({家|か}{族|ぞく} : famille).",
+     "id": "k5-17-家-kanji",
+     "q": "Quel kanji veut dire « maison, famille » ?",
+     "explain": "**家** : maison, famille. Un cochon 豕 sous un toit : le foyer d'autrefois.",
      "type": "choice",
      "choices": [
-      "けぞく",
-      "かぞく",
-      "いえぞく",
-      "うちぞく"
+      "家",
+      "水",
+      "飲",
+      "空"
      ],
-     "a": 1
-    },
-    {
-     "id": "k5-17-作家-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "この本の**作家**はとても{有名|ゆうめい}です。",
-     "fr": "L'auteur de ce livre est très célèbre.",
-     "explain": "**作家** se lit さっか ici ({作|さっ}{家|か} : écrivain).",
-     "type": "choice",
-     "choices": [
-      "さっうち",
-      "さっか",
-      "さっけ",
-      "さっいえ"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-17-会う-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "駅で友だちに**会**います。",
-     "fr": "Je retrouve un ami à la gare.",
-     "explain": "**会** se lit あ ici ({会|あ}う : rencontrer).",
-     "type": "choice",
-     "choices": [
-      "ま",
-      "た",
-      "あ",
-      "え"
-     ],
-     "a": 2
+     "a": 0
     },
     {
      "id": "k5-17-家族-intrus",
      "q": "Un seul de ces mots est mal lu. Lequel ?",
-     "explain": "{家|か}{族|ぞく} se lit かぞく, pas いえぞく.",
+     "explain": "{家族|かぞく} se lit かぞく, pas いえぞく.",
      "type": "choice",
      "choices": [
       "国 → くに",
@@ -988,15 +684,15 @@
        "fr": "main"
       },
       {
-       "jp": "{手|て}{紙|がみ}",
+       "jp": "{手紙|てがみ}",
        "fr": "lettre"
       },
       {
-       "jp": "{歌|か}{手|しゅ}",
+       "jp": "{歌手|かしゅ}",
        "fr": "chanteur"
       },
       {
-       "jp": "{運|うん}{転|てん}{手|しゅ}",
+       "jp": "{運転手|うんてんしゅ}",
        "fr": "chauffeur"
       }
      ]
@@ -1060,11 +756,11 @@
        "fr": "bouche"
       },
       {
-       "jp": "{入|いり}{口|ぐち}",
+       "jp": "{入口|いりぐち}",
        "fr": "entrée"
       },
       {
-       "jp": "{出|で}{口|ぐち}",
+       "jp": "{出口|でぐち}",
        "fr": "sortie"
       }
      ]
@@ -1091,46 +787,6 @@
      "a": 1
     },
     {
-     "id": "k5-18-手-kanji",
-     "q": "Quel kanji veut dire « main » ?",
-     "explain": "**手** : main. Une main ouverte, les doigts sur une paume.",
-     "type": "choice",
-     "choices": [
-      "午",
-      "毛",
-      "学",
-      "手"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-18-手-lecture",
-     "q": "Comment se lit **手** ?",
-     "explain": "{手|て} : main.",
-     "type": "choice",
-     "choices": [
-      "さっか",
-      "なか",
-      "かえる",
-      "て"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-18-手紙-trou",
-     "q": "Complète le mot **てがみ** (lettre) :",
-     "jp": "手＿",
-     "explain": "{手|て}{紙|がみ} : lettre.",
-     "type": "choice",
-     "choices": [
-      "紙",
-      "円",
-      "道",
-      "年"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-18-足-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "足",
@@ -1145,45 +801,6 @@
      "a": 1
     },
     {
-     "id": "k5-18-足-kanji",
-     "q": "Quel kanji veut dire « pied, jambe » ?",
-     "explain": "**足** : pied, jambe. Un genou 口 posé sur un pied.",
-     "type": "choice",
-     "choices": [
-      "十",
-      "一",
-      "足",
-      "気"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-18-足-lecture",
-     "q": "Comment se lit **足** ?",
-     "explain": "{足|あし} : pied, jambe.",
-     "type": "choice",
-     "choices": [
-      "あし",
-      "ひとり",
-      "えき",
-      "きょう"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-18-足りる-ecrit",
-     "q": "Quel mot s'écrit **たりる** (suffire) ?",
-     "explain": "{足|た}りる : suffire.",
-     "type": "choice",
-     "choices": [
-      "足りる",
-      "川りる",
-      "行りる",
-      "女りる"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-18-目-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "目",
@@ -1194,45 +811,6 @@
       "six",
       "pied, jambe",
       "œil"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-18-目-kanji",
-     "q": "Quel kanji veut dire « œil » ?",
-     "explain": "**目** : œil. Un œil dressé à la verticale, avec ses paupières.",
-     "type": "choice",
-     "choices": [
-      "飲",
-      "日",
-      "目",
-      "自"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-18-目-lecture",
-     "q": "Comment se lit **目** ?",
-     "explain": "{目|め} : œil.",
-     "type": "choice",
-     "choices": [
-      "よむ",
-      "ななつ",
-      "め",
-      "やま"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-18-目-ecrit",
-     "q": "Quel mot s'écrit **め** (œil) ?",
-     "explain": "{目|め} : œil.",
-     "type": "choice",
-     "choices": [
-      "分",
-      "自",
-      "日",
-      "目"
      ],
      "a": 3
     },
@@ -1251,17 +829,57 @@
      "a": 1
     },
     {
-     "id": "k5-18-耳-kanji",
-     "q": "Quel kanji veut dire « oreille » ?",
-     "explain": "**耳** : oreille. Le pavillon d'une oreille et ses replis.",
+     "id": "k5-18-口-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "口",
+     "explain": "**口** : bouche. Une bouche grande ouverte.",
      "type": "choice",
      "choices": [
-      "話",
-      "前",
-      "友",
-      "耳"
+      "bouche",
+      "un",
+      "ouest",
+      "chemin, route"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-18-手-lecture",
+     "q": "Comment se lit **手** ?",
+     "explain": "{手|て} : main.",
+     "type": "choice",
+     "choices": [
+      "さっか",
+      "なか",
+      "かえる",
+      "て"
      ],
      "a": 3
+    },
+    {
+     "id": "k5-18-足-lecture",
+     "q": "Comment se lit **足** ?",
+     "explain": "{足|あし} : pied, jambe.",
+     "type": "choice",
+     "choices": [
+      "あし",
+      "ひとり",
+      "えき",
+      "きょう"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-18-目-lecture",
+     "q": "Comment se lit **目** ?",
+     "explain": "{目|め} : œil.",
+     "type": "choice",
+     "choices": [
+      "よむ",
+      "ななつ",
+      "め",
+      "やま"
+     ],
+     "a": 2
     },
     {
      "id": "k5-18-耳-lecture",
@@ -1277,33 +895,6 @@
      "a": 3
     },
     {
-     "id": "k5-18-口-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "口",
-     "explain": "**口** : bouche. Une bouche grande ouverte.",
-     "type": "choice",
-     "choices": [
-      "bouche",
-      "un",
-      "ouest",
-      "chemin, route"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-18-口-kanji",
-     "q": "Quel kanji veut dire « bouche » ?",
-     "explain": "**口** : bouche. Une bouche grande ouverte.",
-     "type": "choice",
-     "choices": [
-      "日",
-      "語",
-      "口",
-      "間"
-     ],
-     "a": 2
-    },
-    {
      "id": "k5-18-口-lecture",
      "q": "Comment se lit **口** ?",
      "explain": "{口|くち} : bouche.",
@@ -1317,25 +908,24 @@
      "a": 1
     },
     {
-     "id": "k5-18-入口-trou",
-     "q": "Complète le mot **いりぐち** (entrée) :",
-     "jp": "入＿",
-     "explain": "{入|いり}{口|ぐち} : entrée.",
+     "id": "k5-18-手紙-trou",
+     "q": "Complète le mot **てがみ** (lettre) :",
+     "jp": "手＿",
+     "explain": "{手紙|てがみ} : lettre.",
      "type": "choice",
      "choices": [
-      "大",
-      "朝",
-      "日",
-      "口"
+      "紙",
+      "円",
+      "道",
+      "年"
      ],
-     "a": 3
+     "a": 0
     },
     {
      "id": "k5-18-手紙-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "友だちに**手紙**を書きます。",
-     "fr": "J'écris une lettre à un ami.",
-     "explain": "**手紙** se lit てがみ ici ({手|て}{紙|がみ} : lettre).",
+     "explain": "**手紙** se lit てがみ ici ({手紙|てがみ} : lettre). « J'écris une lettre à un ami. »",
      "type": "choice",
      "choices": [
       "しがつ",
@@ -1346,54 +936,22 @@
      "a": 2
     },
     {
-     "id": "k5-18-歌手-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{有名|ゆうめい}な**歌手**のコンサートに行きました。",
-     "fr": "Je suis allé au concert d'un chanteur célèbre.",
-     "explain": "**歌手** se lit かしゅ ici ({歌|か}{手|しゅ} : chanteur).",
+     "id": "k5-18-手-kanji",
+     "q": "Quel kanji veut dire « main » ?",
+     "explain": "**手** : main. Une main ouverte, les doigts sur une paume.",
      "type": "choice",
      "choices": [
-      "かしゅ",
-      "そと",
-      "ごがつ",
-      "つき"
+      "午",
+      "毛",
+      "学",
+      "手"
      ],
-     "a": 0
-    },
-    {
-     "id": "k5-18-運転手-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "タクシーの**運転手**に道を聞きました。",
-     "fr": "J'ai demandé le chemin au chauffeur de taxi.",
-     "explain": "**運転手** se lit うんてんしゅ ici ({運|うん}{転|てん}{手|しゅ} : chauffeur).",
-     "type": "choice",
-     "choices": [
-      "ぎんこう",
-      "うんてんしゅ",
-      "みぎ",
-      "きょねん"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-18-足-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "たくさん{歩|ある}きましたから、**足**がいたいです。",
-     "fr": "J'ai beaucoup marché, alors j'ai mal aux pieds.",
-     "explain": "**足** se lit あし ici ({足|あし} : pied, jambe).",
-     "type": "choice",
-     "choices": [
-      "がっこう",
-      "らいしゅう",
-      "あし",
-      "おとうさん"
-     ],
-     "a": 2
+     "a": 3
     },
     {
      "id": "k5-18-手紙-intrus",
      "q": "Un seul de ces mots est mal lu. Lequel ?",
-     "explain": "{手|て}{紙|がみ} se lit てがみ, pas しゅがみ.",
+     "explain": "{手紙|てがみ} se lit てがみ, pas しゅがみ.",
      "type": "choice",
      "choices": [
       "足りる → たりる",
@@ -1402,6 +960,33 @@
       "口 → くち"
      ],
      "a": 2
+    },
+    {
+     "id": "k5-18-足りる-ecrit",
+     "q": "Quel mot s'écrit **たりる** (suffire) ?",
+     "explain": "{足|た}りる : suffire.",
+     "type": "choice",
+     "choices": [
+      "足りる",
+      "川りる",
+      "行りる",
+      "女りる"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k5-18-歌手-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{有名|ゆうめい}な**歌手**のコンサートに行きました。",
+     "explain": "**歌手** se lit かしゅ ici ({歌手|かしゅ} : chanteur). « Je suis allé au concert d'un chanteur célèbre. »",
+     "type": "choice",
+     "choices": [
+      "かしゅ",
+      "そと",
+      "ごがつ",
+      "つき"
+     ],
+     "a": 0
     }
    ]
   },
@@ -1425,7 +1010,7 @@
        "fr": "mettre dedans"
       },
       {
-       "jp": "{入|いり}{口|ぐち}",
+       "jp": "{入口|いりぐち}",
        "fr": "entrée"
       }
      ]
@@ -1450,7 +1035,7 @@
        "fr": "sortir, partir"
       },
       {
-       "jp": "{出|で}{口|ぐち}",
+       "jp": "{出口|でぐち}",
        "fr": "sortie"
       }
      ]
@@ -1497,7 +1082,7 @@
        "fr": "dire"
       },
       {
-       "jp": "{言|こと}{葉|ば}",
+       "jp": "{言葉|ことば}",
        "fr": "mot, parole"
       }
      ]
@@ -1523,45 +1108,6 @@
      "a": 2
     },
     {
-     "id": "k5-19-入-kanji",
-     "q": "Quel kanji veut dire « entrer » ?",
-     "explain": "**入** : entrer. Une flèche qui plonge dans une ouverture.",
-     "type": "choice",
-     "choices": [
-      "八",
-      "人",
-      "分",
-      "入"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-19-入る-lecture",
-     "q": "Comment se lit **入る** ?",
-     "explain": "{入|はい}る : entrer.",
-     "type": "choice",
-     "choices": [
-      "くに",
-      "にゅうる",
-      "はいる",
-      "もくようび"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-19-入る-ecrit",
-     "q": "Quel mot s'écrit **はいる** (entrer) ?",
-     "explain": "{入|はい}る : entrer.",
-     "type": "choice",
-     "choices": [
-      "八る",
-      "入る",
-      "南る",
-      "人る"
-     ],
-     "a": 1
-    },
-    {
      "id": "k5-19-出-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "出",
@@ -1574,45 +1120,6 @@
       "sortir"
      ],
      "a": 3
-    },
-    {
-     "id": "k5-19-出-kanji",
-     "q": "Quel kanji veut dire « sortir » ?",
-     "explain": "**出** : sortir. Une pousse qui sort d'un pot, étage par étage.",
-     "type": "choice",
-     "choices": [
-      "山",
-      "東",
-      "何",
-      "出"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-19-出る-lecture",
-     "q": "Comment se lit **出る** ?",
-     "explain": "{出|で}る : sortir.",
-     "type": "choice",
-     "choices": [
-      "だる",
-      "ちち",
-      "でる",
-      "しゅつる"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-19-出る-ecrit",
-     "q": "Quel mot s'écrit **でる** (sortir) ?",
-     "explain": "{出|で}る : sortir.",
-     "type": "choice",
-     "choices": [
-      "耳る",
-      "日る",
-      "出る",
-      "山る"
-     ],
-     "a": 2
     },
     {
      "id": "k5-19-立-sens",
@@ -1629,45 +1136,6 @@
      "a": 2
     },
     {
-     "id": "k5-19-立-kanji",
-     "q": "Quel kanji veut dire « se lever, debout » ?",
-     "explain": "**立** : se lever, debout. Une personne debout sur le sol.",
-     "type": "choice",
-     "choices": [
-      "聞",
-      "立",
-      "右",
-      "後"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-19-立つ-lecture",
-     "q": "Comment se lit **立つ** ?",
-     "explain": "{立|た}つ : se lever.",
-     "type": "choice",
-     "choices": [
-      "きく",
-      "りつつ",
-      "はな",
-      "たつ"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-19-立つ-ecrit",
-     "q": "Quel mot s'écrit **たつ** (se lever) ?",
-     "explain": "{立|た}つ : se lever.",
-     "type": "choice",
-     "choices": [
-      "立つ",
-      "万つ",
-      "校つ",
-      "出つ"
-     ],
-     "a": 0
-    },
-    {
      "id": "k5-19-休-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "休",
@@ -1678,45 +1146,6 @@
       "se reposer",
       "avant, devant",
       "cinq"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-19-休-kanji",
-     "q": "Quel kanji veut dire « se reposer » ?",
-     "explain": "**休** : se reposer. Une personne 亻 appuyée contre un arbre 木.",
-     "type": "choice",
-     "choices": [
-      "体",
-      "休",
-      "話",
-      "来"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-19-休む-lecture",
-     "q": "Comment se lit **休む** ?",
-     "explain": "{休|やす}む : se reposer.",
-     "type": "choice",
-     "choices": [
-      "あめ",
-      "やすむ",
-      "けさ",
-      "きゅうむ"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-19-休む-ecrit",
-     "q": "Quel mot s'écrit **やすむ** (se reposer) ?",
-     "explain": "{休|やす}む : se reposer.",
-     "type": "choice",
-     "choices": [
-      "体む",
-      "休む",
-      "西む",
-      "分む"
      ],
      "a": 1
     },
@@ -1735,17 +1164,56 @@
      "a": 1
     },
     {
-     "id": "k5-19-言-kanji",
-     "q": "Quel kanji veut dire « dire » ?",
-     "explain": "**言** : dire. Des paroles qui sortent d'une bouche 口.",
+     "id": "k5-19-入る-lecture",
+     "q": "Comment se lit **入る** ?",
+     "explain": "{入|はい}る : entrer.",
      "type": "choice",
      "choices": [
-      "言",
-      "何",
-      "土",
-      "分"
+      "くに",
+      "にゅうる",
+      "はいる",
+      "もくようび"
      ],
-     "a": 0
+     "a": 2
+    },
+    {
+     "id": "k5-19-出る-lecture",
+     "q": "Comment se lit **出る** ?",
+     "explain": "{出|で}る : sortir.",
+     "type": "choice",
+     "choices": [
+      "だる",
+      "ちち",
+      "でる",
+      "しゅつる"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-19-立つ-lecture",
+     "q": "Comment se lit **立つ** ?",
+     "explain": "{立|た}つ : se lever.",
+     "type": "choice",
+     "choices": [
+      "きく",
+      "りつつ",
+      "はな",
+      "たつ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k5-19-休む-lecture",
+     "q": "Comment se lit **休む** ?",
+     "explain": "{休|やす}む : se reposer.",
+     "type": "choice",
+     "choices": [
+      "あめ",
+      "やすむ",
+      "けさ",
+      "きゅうむ"
+     ],
+     "a": 1
     },
     {
      "id": "k5-19-言う-lecture",
@@ -1761,15 +1229,15 @@
      "a": 2
     },
     {
-     "id": "k5-19-言う-ecrit",
-     "q": "Quel mot s'écrit **いう** (dire) ?",
-     "explain": "{言|い}う : dire.",
+     "id": "k5-19-入る-ecrit",
+     "q": "Quel mot s'écrit **はいる** (entrer) ?",
+     "explain": "{入|はい}る : entrer.",
      "type": "choice",
      "choices": [
-      "金う",
-      "言う",
-      "百う",
-      "今う"
+      "八る",
+      "入る",
+      "南る",
+      "人る"
      ],
      "a": 1
     },
@@ -1777,8 +1245,7 @@
      "id": "k5-19-入る-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "どうぞ、**入**ってください。",
-     "fr": "Je vous en prie, entrez.",
-     "explain": "**入** se lit はい ici ({入|はい}る : entrer).",
+     "explain": "**入** se lit はい ici ({入|はい}る : entrer). « Je vous en prie, entrez. »",
      "type": "choice",
      "choices": [
       "つき",
@@ -1789,49 +1256,17 @@
      "a": 2
     },
     {
-     "id": "k5-19-入れる-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "コーヒーにさとうを**入れ**ますか。",
-     "fr": "Tu mets du sucre dans ton café ?",
-     "explain": "**入れ** se lit いれ ici ({入|い}れる : mettre dedans).",
+     "id": "k5-19-入-kanji",
+     "q": "Quel kanji veut dire « entrer » ?",
+     "explain": "**入** : entrer. Une flèche qui plonge dans une ouverture.",
      "type": "choice",
      "choices": [
-      "よれ",
-      "でれ",
-      "みれ",
-      "いれ"
+      "八",
+      "人",
+      "分",
+      "入"
      ],
      "a": 3
-    },
-    {
-     "id": "k5-19-出る-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "コートを{着|き}て**出**かけます。",
-     "fr": "Je mets mon manteau et je sors.",
-     "explain": "**出** se lit で ici ({出|で}る : sortir).",
-     "type": "choice",
-     "choices": [
-      "ち",
-      "め",
-      "こ",
-      "で"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-19-出す-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "駅の前で{手紙|てがみ}を**出**しました。",
-     "fr": "J'ai posté une lettre devant la gare.",
-     "explain": "**出** se lit だ ici ({出|だ}す : sortir (qqch)).",
-     "type": "choice",
-     "choices": [
-      "しゅつ",
-      "だ",
-      "い",
-      "こ"
-     ],
-     "a": 1
     },
     {
      "id": "k5-19-入る-intrus",
@@ -1845,6 +1280,33 @@
       "入れる → いれる"
      ],
      "a": 0
+    },
+    {
+     "id": "k5-19-出る-ecrit",
+     "q": "Quel mot s'écrit **でる** (sortir) ?",
+     "explain": "{出|で}る : sortir.",
+     "type": "choice",
+     "choices": [
+      "耳る",
+      "日る",
+      "出る",
+      "山る"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-19-入れる-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "コーヒーにさとうを**入れ**ますか。",
+     "explain": "**入れ** se lit いれ ici ({入|い}れる : mettre dedans). « Tu mets du sucre dans ton café ? »",
+     "type": "choice",
+     "choices": [
+      "よれ",
+      "でれ",
+      "みれ",
+      "いれ"
+     ],
+     "a": 3
     }
    ]
   },
@@ -1864,11 +1326,11 @@
        "fr": "haut, cher"
       },
       {
-       "jp": "{高|こう}{校|こう}",
+       "jp": "{高校|こうこう}",
        "fr": "lycée"
       },
       {
-       "jp": "{高|こう}{校|こう}{生|せい}",
+       "jp": "{高校生|こうこうせい}",
        "fr": "lycéen"
       }
      ]
@@ -1885,7 +1347,7 @@
        "fr": "pas cher"
       },
       {
-       "jp": "{安|あん}{心|しん}",
+       "jp": "{安心|あんしん}",
        "fr": "être rassuré"
       }
      ]
@@ -1902,7 +1364,7 @@
        "fr": "nouveau"
       },
       {
-       "jp": "{新|しん}{聞|ぶん}",
+       "jp": "{新聞|しんぶん}",
        "fr": "journal"
       }
      ]
@@ -1932,7 +1394,7 @@
        "fr": "long"
       },
       {
-       "jp": "{社|しゃ}{長|ちょう}",
+       "jp": "{社長|しゃちょう}",
        "fr": "PDG, patron"
       }
      ]
@@ -1970,45 +1432,6 @@
      "a": 1
     },
     {
-     "id": "k5-20-高-kanji",
-     "q": "Quel kanji veut dire « haut, cher » ?",
-     "explain": "**高** : haut, cher. Une haute tour à plusieurs étages.",
-     "type": "choice",
-     "choices": [
-      "学",
-      "食",
-      "右",
-      "高"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-20-高い-lecture",
-     "q": "Comment se lit **高い** ?",
-     "explain": "{高|たか}い : haut, cher.",
-     "type": "choice",
-     "choices": [
-      "そら",
-      "やっつ",
-      "たかい",
-      "こうい"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-20-高い-ecrit",
-     "q": "Quel mot s'écrit **たかい** (haut, cher) ?",
-     "explain": "{高|たか}い : haut, cher.",
-     "type": "choice",
-     "choices": [
-      "週い",
-      "行い",
-      "高い",
-      "買い"
-     ],
-     "a": 2
-    },
-    {
      "id": "k5-20-安-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "安",
@@ -2019,45 +1442,6 @@
       "bon marché, tranquille",
       "personne",
       "aller"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-20-安-kanji",
-     "q": "Quel kanji veut dire « bon marché, tranquille » ?",
-     "explain": "**安** : bon marché, tranquille. Une femme 女 à l'abri sous un toit : la tranquillité.",
-     "type": "choice",
-     "choices": [
-      "左",
-      "後",
-      "円",
-      "安"
-     ],
-     "a": 3
-    },
-    {
-     "id": "k5-20-安い-lecture",
-     "q": "Comment se lit **安い** ?",
-     "explain": "{安|やす}い : pas cher.",
-     "type": "choice",
-     "choices": [
-      "いく",
-      "やすい",
-      "げんき",
-      "あんい"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-20-安い-ecrit",
-     "q": "Quel mot s'écrit **やすい** (pas cher) ?",
-     "explain": "{安|やす}い : pas cher.",
-     "type": "choice",
-     "choices": [
-      "行い",
-      "安い",
-      "先い",
-      "七い"
      ],
      "a": 1
     },
@@ -2076,45 +1460,6 @@
      "a": 2
     },
     {
-     "id": "k5-20-新-kanji",
-     "q": "Quel kanji veut dire « nouveau » ?",
-     "explain": "**新** : nouveau. Une hache 斤 qui coupe du bois neuf.",
-     "type": "choice",
-     "choices": [
-      "新",
-      "月",
-      "親",
-      "十"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-20-新しい-lecture",
-     "q": "Comment se lit **新しい** ?",
-     "explain": "{新|あたら}しい : nouveau.",
-     "type": "choice",
-     "choices": [
-      "あたらしい",
-      "しょうがっこう",
-      "しんしい",
-      "だいがく"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-20-新しい-ecrit",
-     "q": "Quel mot s'écrit **あたらしい** (nouveau) ?",
-     "explain": "{新|あたら}しい : nouveau.",
-     "type": "choice",
-     "choices": [
-      "六しい",
-      "新しい",
-      "親しい",
-      "飯しい"
-     ],
-     "a": 1
-    },
-    {
      "id": "k5-20-古-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "古",
@@ -2129,15 +1474,69 @@
      "a": 3
     },
     {
-     "id": "k5-20-古-kanji",
-     "q": "Quel kanji veut dire « vieux » ?",
-     "explain": "**古** : vieux. Dix 十 bouches 口 : une histoire passée de bouche en bouche.",
+     "id": "k5-20-長-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "長",
+     "explain": "**長** : long, chef. Une personne aux longs cheveux.",
      "type": "choice",
      "choices": [
-      "古",
-      "言",
-      "下",
-      "六"
+      "arbre, bois",
+      "long, chef",
+      "écrire",
+      "fleur"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-20-白-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "白",
+     "explain": "**白** : blanc. Un rayon qui part du soleil 日 : la lumière blanche.",
+     "type": "choice",
+     "choices": [
+      "cinq",
+      "œil",
+      "blanc",
+      "or, argent"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-20-高い-lecture",
+     "q": "Comment se lit **高い** ?",
+     "explain": "{高|たか}い : haut, cher.",
+     "type": "choice",
+     "choices": [
+      "そら",
+      "やっつ",
+      "たかい",
+      "こうい"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k5-20-安い-lecture",
+     "q": "Comment se lit **安い** ?",
+     "explain": "{安|やす}い : pas cher.",
+     "type": "choice",
+     "choices": [
+      "いく",
+      "やすい",
+      "げんき",
+      "あんい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k5-20-新しい-lecture",
+     "q": "Comment se lit **新しい** ?",
+     "explain": "{新|あたら}しい : nouveau.",
+     "type": "choice",
+     "choices": [
+      "あたらしい",
+      "しょうがっこう",
+      "しんしい",
+      "だいがく"
      ],
      "a": 0
     },
@@ -2155,46 +1554,6 @@
      "a": 0
     },
     {
-     "id": "k5-20-古い-ecrit",
-     "q": "Quel mot s'écrit **ふるい** (vieux) ?",
-     "explain": "{古|ふる}い : vieux.",
-     "type": "choice",
-     "choices": [
-      "話い",
-      "古い",
-      "金い",
-      "朝い"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-20-長-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "長",
-     "explain": "**長** : long, chef. Une personne aux longs cheveux.",
-     "type": "choice",
-     "choices": [
-      "arbre, bois",
-      "long, chef",
-      "écrire",
-      "fleur"
-     ],
-     "a": 1
-    },
-    {
-     "id": "k5-20-長-kanji",
-     "q": "Quel kanji veut dire « long, chef » ?",
-     "explain": "**長** : long, chef. Une personne aux longs cheveux.",
-     "type": "choice",
-     "choices": [
-      "口",
-      "前",
-      "長",
-      "高"
-     ],
-     "a": 2
-    },
-    {
      "id": "k5-20-長い-lecture",
      "q": "Comment se lit **長い** ?",
      "explain": "{長|なが}い : long.",
@@ -2206,46 +1565,6 @@
       "でんき"
      ],
      "a": 0
-    },
-    {
-     "id": "k5-20-長い-ecrit",
-     "q": "Quel mot s'écrit **ながい** (long) ?",
-     "explain": "{長|なが}い : long.",
-     "type": "choice",
-     "choices": [
-      "長い",
-      "金い",
-      "書い",
-      "立い"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-20-白-sens",
-     "q": "Que veut dire ce kanji ?",
-     "jp": "白",
-     "explain": "**白** : blanc. Un rayon qui part du soleil 日 : la lumière blanche.",
-     "type": "choice",
-     "choices": [
-      "cinq",
-      "œil",
-      "blanc",
-      "or, argent"
-     ],
-     "a": 2
-    },
-    {
-     "id": "k5-20-白-kanji",
-     "q": "Quel kanji veut dire « blanc » ?",
-     "explain": "**白** : blanc. Un rayon qui part du soleil 日 : la lumière blanche.",
-     "type": "choice",
-     "choices": [
-      "百",
-      "日",
-      "話",
-      "白"
-     ],
-     "a": 3
     },
     {
      "id": "k5-20-白い-lecture",
@@ -2261,24 +1580,23 @@
      "a": 1
     },
     {
-     "id": "k5-20-白い-ecrit",
-     "q": "Quel mot s'écrit **しろい** (blanc) ?",
-     "explain": "{白|しろ}い : blanc.",
+     "id": "k5-20-高い-ecrit",
+     "q": "Quel mot s'écrit **たかい** (haut, cher) ?",
+     "explain": "{高|たか}い : haut, cher.",
      "type": "choice",
      "choices": [
-      "日い",
-      "白い",
-      "花い",
-      "百い"
+      "週い",
+      "行い",
+      "高い",
+      "買い"
      ],
-     "a": 1
+     "a": 2
     },
     {
      "id": "k5-20-高い-phrase",
      "q": "Comment se lit le mot en gras ?",
      "jp": "このカメラは**高い**です。十万円です。",
-     "fr": "Cet appareil photo est cher. Il coûte 100 000 yens.",
-     "explain": "**高い** se lit たかい ici ({高|たか}い : haut, cher).",
+     "explain": "**高い** se lit たかい ici ({高|たか}い : haut, cher). « Cet appareil photo est cher. Il coûte 100 000 yens. »",
      "type": "choice",
      "choices": [
       "ながい",
@@ -2289,49 +1607,17 @@
      "a": 3
     },
     {
-     "id": "k5-20-高校生-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "{弟|おとうと}は**高校生**です。",
-     "fr": "Mon petit frère est lycéen.",
-     "explain": "**高校生** se lit こうこうせい ici ({高|こう}{校|こう}{生|せい} : lycéen).",
+     "id": "k5-20-高-kanji",
+     "q": "Quel kanji veut dire « haut, cher » ?",
+     "explain": "**高** : haut, cher. Une haute tour à plusieurs étages.",
      "type": "choice",
      "choices": [
-      "たかこうせい",
-      "こうこうしょう",
-      "こうこうせい",
-      "こうこうなま"
+      "学",
+      "食",
+      "右",
+      "高"
      ],
-     "a": 2
-    },
-    {
-     "id": "k5-20-安い-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "駅の{近|ちか}くに**安い**レストランがあります。",
-     "fr": "Il y a un restaurant pas cher près de la gare.",
-     "explain": "**安い** se lit やすい ici ({安|やす}い : pas cher).",
-     "type": "choice",
-     "choices": [
-      "やすい",
-      "はな",
-      "こんしゅう",
-      "ほん"
-     ],
-     "a": 0
-    },
-    {
-     "id": "k5-20-新しい-phrase",
-     "q": "Comment se lit le mot en gras ?",
-     "jp": "**新し**い車を買いました。",
-     "fr": "J'ai acheté une voiture neuve.",
-     "explain": "**新し** se lit あたらし ici ({新|あたら}しい : nouveau).",
-     "type": "choice",
-     "choices": [
-      "さかなし",
-      "おんなし",
-      "あたらし",
-      "おこなし"
-     ],
-     "a": 2
+     "a": 3
     },
     {
      "id": "k5-20-高い-intrus",
@@ -2390,6 +1676,19 @@
    "a": 3
   },
   {
+   "id": "k5-b04-子ども-ecrit",
+   "q": "Quel mot s'écrit **こども** (enfant) ?",
+   "explain": "{子|こ}ども : enfant.",
+   "type": "choice",
+   "choices": [
+    "国ども",
+    "学ども",
+    "子ども",
+    "字ども"
+   ],
+   "a": 2
+  },
+  {
    "id": "k5-b04-女の子-lecture",
    "q": "Comment se lit **女の子** ?",
    "explain": "{女|おんな}の{子|こ} : fille.",
@@ -2416,9 +1715,35 @@
    "a": 2
   },
   {
+   "id": "k5-b04-男の人-ecrit",
+   "q": "Quel mot s'écrit **おとこのひと** (homme) ?",
+   "explain": "{男|おとこ}の{人|ひと} : homme.",
+   "type": "choice",
+   "choices": [
+    "入の人",
+    "飯の人",
+    "男の人",
+    "先の人"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b04-女の人-ecrit",
+   "q": "Quel mot s'écrit **おんなのひと** (femme) ?",
+   "explain": "{女|おんな}の{人|ひと} : femme.",
+   "type": "choice",
+   "choices": [
+    "女の人",
+    "左の人",
+    "木の人",
+    "百の人"
+   ],
+   "a": 0
+  },
+  {
    "id": "k5-b04-家族-lecture",
    "q": "Comment se lit **家族** ?",
-   "explain": "{家|か}{族|ぞく} : famille.",
+   "explain": "{家族|かぞく} : famille.",
    "type": "choice",
    "choices": [
     "うちぞく",
@@ -2431,7 +1756,7 @@
   {
    "id": "k5-b04-作家-lecture",
    "q": "Comment se lit **作家** ?",
-   "explain": "{作|さっ}{家|か} : écrivain.",
+   "explain": "{作家|さっか} : écrivain.",
    "type": "choice",
    "choices": [
     "うまれる",
@@ -2442,9 +1767,35 @@
    "a": 1
   },
   {
+   "id": "k5-b04-会う-ecrit",
+   "q": "Quel mot s'écrit **あう** (rencontrer) ?",
+   "explain": "{会|あ}う : rencontrer.",
+   "type": "choice",
+   "choices": [
+    "女う",
+    "電う",
+    "今う",
+    "会う"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k5-b04-会社-ecrit",
+   "q": "Quel mot s'écrit **かいしゃ** (entreprise) ?",
+   "explain": "{会社|かいしゃ} : entreprise.",
+   "type": "choice",
+   "choices": [
+    "日社",
+    "会社",
+    "今社",
+    "午社"
+   ],
+   "a": 1
+  },
+  {
    "id": "k5-b04-会社員-lecture",
    "q": "Comment se lit **会社員** ?",
-   "explain": "{会|かい}{社|しゃ}{員|いん} : employé de bureau.",
+   "explain": "{会社員|かいしゃいん} : employé de bureau.",
    "type": "choice",
    "choices": [
     "えしゃいん",
@@ -2457,7 +1808,7 @@
   {
    "id": "k5-b04-神社-lecture",
    "q": "Comment se lit **神社** ?",
-   "explain": "{神|じん}{社|じゃ} : sanctuaire shintō.",
+   "explain": "{神社|じんじゃ} : sanctuaire shintō.",
    "type": "choice",
    "choices": [
     "じんじゃ",
@@ -2470,7 +1821,7 @@
   {
    "id": "k5-b04-電話-lecture",
    "q": "Comment se lit **電話** ?",
-   "explain": "{電|でん}{話|わ} : téléphone.",
+   "explain": "{電話|でんわ} : téléphone.",
    "type": "choice",
    "choices": [
     "でんわ",
@@ -2481,15 +1832,28 @@
    "a": 0
   },
   {
-   "id": "k5-b04-電気-ecrit",
-   "q": "Quel mot s'écrit **でんき** (électricité, lumière) ?",
-   "explain": "{電|でん}{気|き} : électricité, lumière.",
+   "id": "k5-b04-電気-lecture",
+   "q": "Comment se lit **電気** ?",
+   "explain": "{電気|でんき} : électricité, lumière.",
    "type": "choice",
    "choices": [
-    "雷気",
-    "友気",
-    "電気",
-    "白気"
+    "かえる",
+    "ちかてつ",
+    "でんき",
+    "でんけ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k5-b04-外国人-ecrit",
+   "q": "Quel mot s'écrit **がいこくじん** (étranger) ?",
+   "explain": "{外国人|がいこくじん} : étranger.",
+   "type": "choice",
+   "choices": [
+    "毎国人",
+    "十国人",
+    "外国人",
+    "本国人"
    ],
    "a": 2
   },
@@ -2509,7 +1873,7 @@
   {
    "id": "k5-b04-外国-lecture",
    "q": "Comment se lit **外国** ?",
-   "explain": "{外|がい}{国|こく} : pays étranger.",
+   "explain": "{外国|がいこく} : pays étranger.",
    "type": "choice",
    "choices": [
     "はずこく",
@@ -2522,7 +1886,7 @@
   {
    "id": "k5-b04-手紙-lecture",
    "q": "Comment se lit **手紙** ?",
-   "explain": "{手|て}{紙|がみ} : lettre.",
+   "explain": "{手紙|てがみ} : lettre.",
    "type": "choice",
    "choices": [
     "うまれる",
@@ -2535,7 +1899,7 @@
   {
    "id": "k5-b04-歌手-lecture",
    "q": "Comment se lit **歌手** ?",
-   "explain": "{歌|か}{手|しゅ} : chanteur.",
+   "explain": "{歌手|かしゅ} : chanteur.",
    "type": "choice",
    "choices": [
     "でんき",
@@ -2548,7 +1912,7 @@
   {
    "id": "k5-b04-運転手-lecture",
    "q": "Comment se lit **運転手** ?",
-   "explain": "{運|うん}{転|てん}{手|しゅ} : chauffeur.",
+   "explain": "{運転手|うんてんしゅ} : chauffeur.",
    "type": "choice",
    "choices": [
     "にほんじん",
@@ -2585,89 +1949,10 @@
    "a": 1
   },
   {
-   "id": "k5-b04-口-ecrit",
-   "q": "Quel mot s'écrit **くち** (bouche) ?",
-   "explain": "{口|くち} : bouche.",
-   "type": "choice",
-   "choices": [
-    "天",
-    "日",
-    "言",
-    "口"
-   ],
-   "a": 3
-  },
-  {
-   "id": "k5-b04-入口-lecture",
-   "q": "Comment se lit **入口** ?",
-   "explain": "{入|いり}{口|ぐち} : entrée.",
-   "type": "choice",
-   "choices": [
-    "いりぐち",
-    "かしゅ",
-    "いりこう",
-    "いりくち"
-   ],
-   "a": 0
-  },
-  {
-   "id": "k5-b04-出口-lecture",
-   "q": "Comment se lit **出口** ?",
-   "explain": "{出|で}{口|ぐち} : sortie.",
-   "type": "choice",
-   "choices": [
-    "じょうず",
-    "でくち",
-    "でぐち",
-    "しゅつぐち"
-   ],
-   "a": 2
-  },
-  {
-   "id": "k5-b04-入れる-lecture",
-   "q": "Comment se lit **入れる** ?",
-   "explain": "{入|い}れる : mettre dedans.",
-   "type": "choice",
-   "choices": [
-    "じょうず",
-    "あいだ",
-    "にゅうれる",
-    "いれる"
-   ],
-   "a": 3
-  },
-  {
-   "id": "k5-b04-出す-lecture",
-   "q": "Comment se lit **出す** ?",
-   "explain": "{出|だ}す : sortir (qqch).",
-   "type": "choice",
-   "choices": [
-    "です",
-    "しゅつす",
-    "だす",
-    "さんぜん"
-   ],
-   "a": 2
-  },
-  {
-   "id": "k5-b04-出かける-lecture",
-   "q": "Comment se lit **出かける** ?",
-   "explain": "{出|で}かける : sortir, partir.",
-   "type": "choice",
-   "choices": [
-    "しゅつかける",
-    "でかける",
-    "あう",
-    "だかける"
-   ],
-   "a": 1
-  },
-  {
    "id": "k5-b04-父-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "**父**は毎朝{新聞|しんぶん}を読みます。",
-   "fr": "Mon père lit le journal tous les matins.",
-   "explain": "**父** se lit ちち ici ({父|ちち} : mon père).",
+   "explain": "**父** se lit ちち ici ({父|ちち} : mon père). « Mon père lit le journal tous les matins. »",
    "type": "choice",
    "choices": [
     "なか",
@@ -2680,9 +1965,8 @@
   {
    "id": "k5-b04-母-phrase",
    "q": "Comment se lit le mot en gras ?",
-   "jp": "{国|くに}の**母**に{手紙|てがみ}を書きました。",
-   "fr": "J'ai écrit une lettre à ma mère, dans mon pays.",
-   "explain": "**母** se lit はは ici ({母|はは} : ma mère).",
+   "jp": "**母**と{電話|でんわ}で話します。",
+   "explain": "**母** se lit はは ici ({母|はは} : ma mère). « Je parle avec ma mère au téléphone. »",
    "type": "choice",
    "choices": [
     "いく",
@@ -2693,11 +1977,24 @@
    "a": 3
   },
   {
+   "id": "k5-b04-お母さん-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**お母さん**、ただいま。",
+   "explain": "**お母さん** se lit おかあさん ici (お{母|かあ}さん : mère (de quelqu'un)). « Maman, je suis rentré ! »",
+   "type": "choice",
+   "choices": [
+    "め",
+    "みなみ",
+    "おかあさん",
+    "ちゅうがくせい"
+   ],
+   "a": 2
+  },
+  {
    "id": "k5-b04-子ども-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "{公園|こうえん}に**子ども**がたくさんいます。",
-   "fr": "Il y a beaucoup d'enfants au parc.",
-   "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant).",
+   "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant). « Il y a beaucoup d'enfants au parc. »",
    "type": "choice",
    "choices": [
     "あさ",
@@ -2711,8 +2008,7 @@
    "id": "k5-b04-男の人-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "**男の人**が三人います。",
-   "fr": "Il y a trois hommes.",
-   "explain": "**男の人** se lit おとこのひと ici ({男|おとこ}の{人|ひと} : homme).",
+   "explain": "**男の人** se lit おとこのひと ici ({男|おとこ}の{人|ひと} : homme). « Il y a trois hommes. »",
    "type": "choice",
    "choices": [
     "おとこのひと",
@@ -2726,29 +2022,13 @@
    "id": "k5-b04-女の人-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "あの**女の人**は{山田|やまだ}さんです。",
-   "fr": "Cette femme, c'est Mme Yamada.",
-   "explain": "**女の人** se lit おんなのひと ici ({女|おんな}の{人|ひと} : femme).",
+   "explain": "**女の人** se lit おんなのひと ici ({女|おんな}の{人|ひと} : femme). « Cette femme, c'est Mme Yamada. »",
    "type": "choice",
    "choices": [
     "おんなのひと",
     "じょのひと",
     "おんなのにん",
     "にょのひと"
-   ],
-   "a": 0
-  },
-  {
-   "id": "k5-b04-家-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "**家**から駅まで十分です。",
-   "fr": "De chez moi à la gare, il y a dix minutes.",
-   "explain": "**家** se lit いえ ici ({家|いえ} : maison).",
-   "type": "choice",
-   "choices": [
-    "いえ",
-    "むっつ",
-    "ふつか",
-    "よん"
    ],
    "a": 0
   }
@@ -2758,8 +2038,7 @@
    "id": "k5-b04x-父-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "**父**の車は古いです。",
-   "fr": "La voiture de mon père est vieille.",
-   "explain": "**父** se lit ちち ici ({父|ちち} : mon père).",
+   "explain": "**父** se lit ちち ici ({父|ちち} : mon père). « La voiture de mon père est vieille. »",
    "type": "choice",
    "choices": [
     "おとこのこ",
@@ -2773,8 +2052,7 @@
    "id": "k5-b04x-子ども-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "大人は五百円、**子ども**は三百円です。",
-   "fr": "C'est 500 yens pour les adultes, 300 yens pour les enfants.",
-   "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant).",
+   "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant). « C'est 500 yens pour les adultes, 300 yens pour les enfants. »",
    "type": "choice",
    "choices": [
     "こども",
@@ -2787,9 +2065,8 @@
   {
    "id": "k5-b04x-家-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "**家**のかぎがありません。",
-   "fr": "Je n'ai pas la clé de la maison.",
-   "explain": "**家** se lit いえ ici ({家|いえ} : maison).",
+   "jp": "**家**から駅まで十分です。",
+   "explain": "**家** se lit いえ ici ({家|いえ} : maison). « De chez moi à la gare, il y a dix minutes. »",
    "type": "choice",
    "choices": [
     "いえ",
@@ -2802,9 +2079,8 @@
   {
    "id": "k5-b04x-会う-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "駅の前で友だちに**会**います。",
-   "fr": "Je retrouve un ami devant la gare.",
-   "explain": "**会** se lit あ ici ({会|あ}う : rencontrer).",
+   "jp": "駅で友だちに**会**います。",
+   "explain": "**会** se lit あ ici ({会|あ}う : rencontrer). « Je retrouve un ami à la gare. »",
    "type": "choice",
    "choices": [
     "え",
@@ -2818,8 +2094,7 @@
    "id": "k5-b04x-会社-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "かぜですから、今日は**会社**を休みます。",
-   "fr": "J'ai un rhume, alors aujourd'hui je ne vais pas au bureau.",
-   "explain": "**会社** se lit かいしゃ ici ({会|かい}{社|しゃ} : entreprise).",
+   "explain": "**会社** se lit かいしゃ ici ({会社|かいしゃ} : entreprise). « J'ai un rhume, alors aujourd'hui je ne vais pas au bureau. »",
    "type": "choice",
    "choices": [
     "かいやしろ",
@@ -2833,8 +2108,7 @@
    "id": "k5-b04x-電車-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "バスはおそいですから、**電車**で行きます。",
-   "fr": "Le bus est lent, alors j'y vais en train.",
-   "explain": "**電車** se lit でんしゃ ici ({電|でん}{車|しゃ} : train).",
+   "explain": "**電車** se lit でんしゃ ici ({電車|でんしゃ} : train). « Le bus est lent, alors j'y vais en train. »",
    "type": "choice",
    "choices": [
     "しょくどう",
@@ -2848,8 +2122,7 @@
    "id": "k5-b04x-国-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "お**国**はどちらですか。",
-   "fr": "De quel pays venez-vous ?",
-   "explain": "**国** se lit くに ici ({国|くに} : pays).",
+   "explain": "**国** se lit くに ici ({国|くに} : pays). « De quel pays venez-vous ? »",
    "type": "choice",
    "choices": [
     "くに",
@@ -2863,8 +2136,7 @@
    "id": "k5-b04x-出る-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "毎朝七時に家を**出**ます。",
-   "fr": "Je pars de chez moi à sept heures tous les matins.",
-   "explain": "**出** se lit で ici ({出|で}る : sortir).",
+   "explain": "**出** se lit で ici ({出|で}る : sortir). « Je pars de chez moi à sept heures tous les matins. »",
    "type": "choice",
    "choices": [
     "で",
@@ -2878,8 +2150,7 @@
    "id": "k5-b04x-出かける-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "今日は**出かけ**たくないです。",
-   "fr": "Aujourd'hui, je n'ai pas envie de sortir.",
-   "explain": "**出かけ** se lit でかけ ici ({出|で}かける : sortir, partir).",
+   "explain": "**出かけ** se lit でかけ ici ({出|で}かける : sortir, partir). « Aujourd'hui, je n'ai pas envie de sortir. »",
    "type": "choice",
    "choices": [
     "たかけ",
@@ -2893,8 +2164,7 @@
    "id": "k5-b04x-立つ-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "ドアの前に子どもが**立**っています。",
-   "fr": "Un enfant est debout devant la porte.",
-   "explain": "**立** se lit た ici ({立|た}つ : se lever).",
+   "explain": "**立** se lit た ici ({立|た}つ : se lever). « Un enfant est debout devant la porte. »",
    "type": "choice",
    "choices": [
     "ち",
@@ -2908,8 +2178,7 @@
    "id": "k5-b04x-休む-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "かぜをひきましたから、学校を**休**みます。",
-   "fr": "J'ai attrapé un rhume, alors je ne vais pas à l'école.",
-   "explain": "**休** se lit やす ici ({休|やす}む : se reposer).",
+   "explain": "**休** se lit やす ici ({休|やす}む : se reposer). « J'ai attrapé un rhume, alors je ne vais pas à l'école. »",
    "type": "choice",
    "choices": [
     "かわ",
@@ -2923,8 +2192,7 @@
    "id": "k5-b04x-言う-phrase",
    "q": "Sans furigana : comment se lit le mot en gras ?",
    "jp": "先生は「おはようございます」と**言**いました。",
-   "fr": "Le professeur a dit « Bonjour ».",
-   "explain": "**言** se lit い ici ({言|い}う : dire).",
+   "explain": "**言** se lit い ici ({言|い}う : dire). « Le professeur a dit « Bonjour ». »",
    "type": "choice",
    "choices": [
     "か",

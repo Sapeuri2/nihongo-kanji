@@ -1,16 +1,22 @@
 // Génère data/n5/*.json, data/focus/*.json et data/manifest.json depuis data/sources/.
 // Usage : node tools/generer-kanji.mjs
 // Les identifiants dépendent du contenu (leçon + kanji ou mot + type), pas de l'ordre : ne pas renommer une leçon publiée.
-import { readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const src = f => JSON.parse(readFileSync(new URL(`../data/sources/${f}`, import.meta.url), 'utf8'));
-const out = (f, o) => writeFileSync(new URL(`../data/${f}`, import.meta.url), JSON.stringify(o, null, 1) + '\n');
+// Furigana sur le mot entier : {日|に}{本|ほん} → {日本|にほん}. Toucher le mot affiche toute sa lecture.
+const motEntier = s => { let t; while ((t = s.replace(/\{([^|{}]+)\|([^{}]+)\}\{([^|{}]+)\|([^{}]+)\}/g, '{$1$3|$2$4}')) !== s) s = t; return s; };
+function out(f, o) {
+  mkdirSync(new URL(`../data/${f.replace(/[^/]+$/, '')}`, import.meta.url), { recursive: true });
+  writeFileSync(new URL(`../data/${f}`, import.meta.url), JSON.stringify(o, (k, v) => (typeof v === 'string' ? motEntier(v) : v), 1) + '\n');
+}
 
 const LECONS = src('kanji-n5.json');
 const VOC = src('mots-vocab.json');
 const PHRASES = src('phrases.json');
 
 // Blocs de nouveaux kanji : 5 leçons chacun.
+const LECON_MAX = 16;
 const BLOCS = [
   'Les kanji de tous les jours', 'École, positions et nombres',
   'Le temps, les directions, la nature', 'Famille, maison, corps, adjectifs',
@@ -72,9 +78,12 @@ function choixLecture(m, seed, avant) {
   return uniq([...pieges, ...autres]).slice(0, 3);
 }
 
-function qcm(ex, bonne, fausses) {
+function qcm(ex, bonne, fausses, phrase) {
   const choices = melange([bonne, ...fausses], ex.id);
-  return { ...ex, type: 'choice', choices, a: choices.indexOf(bonne) };
+  const q = { ...ex, type: 'choice', choices, a: choices.indexOf(bonne) };
+  // Phrase source : sert seulement au générateur, jamais écrite dans les fichiers.
+  if (phrase) Object.defineProperty(q, 'phrase', { value: phrase, enumerable: false });
+  return q;
 }
 
 const motsAvant = rang => [...MOTS.values()].filter(m => rangMot(m) <= rang);
@@ -157,10 +166,12 @@ function exPhrase(lid, m, connus, rang, q, sansAide = false) {
       fausses = uniq([...fausses, ...melange(uniq(autres), lid + m.plain + 'f')]).filter(x => x && x !== pos.r && !KANAS.has(x + 'る'));
     }
     dejaPrises.add(s.jp);
+    const cle = s.jp;
     const avant = unmark(allege(s.t.slice(0, pos.i), connus));
     const apres = unmark(allege(s.t.slice(pos.j), connus));
-    return qcm({ id: `${lid}-${m.plain}-phrase`, q, jp: `${avant}**${pos.p}**${apres}`, fr: s.fr, explain: `**${pos.p}** se lit ${pos.r} ici (${m.jp} : ${m.fr}).` },
-      pos.r, melange(fausses, lid + m.plain).slice(0, 3));
+    // La traduction n'apparaît qu'après la réponse (dans l'explication).
+    return qcm({ id: `${lid}-${m.plain}-phrase`, q, jp: `${avant}**${pos.p}**${apres}`, explain: `**${pos.p}** se lit ${pos.r} ici (${m.jp} : ${m.fr}). « ${s.fr} »` },
+      pos.r, melange(fausses, lid + m.plain).slice(0, 3), cle);
   }
   return null;
 }
@@ -246,21 +257,32 @@ LECONS.forEach((l, i) => {
   (blocs[b] ??= { id: `k5-b0${b + 1}`, level: 'N5', title: BLOCS[b], lessons: [], test: [], examTest: [] });
   // Furigana : tous aux blocs 1-2, puis retirés sur les kanji des blocs déjà terminés.
   const connus = b < 2 ? new Set() : connusJusque(b * 5 - 1);
-  const exercises = [];
+  // Candidats par famille, puis on en garde LECON_MAX (≈ 20 questions avec les 5 rappels, comme les autres applis).
+  const r = Math.max(i, 4);
+  const sens = [], kanji = [], lect = [], ecrit = [], phr = [];
   for (const k of l.kanji) {
-    exercises.push(exSens(l.id, k, Math.max(i, 4)), exKanji(l.id, k, Math.max(i, 4)));
+    sens.push(exSens(l.id, k, r)); kanji.push(exKanji(l.id, k, r));
     const m = k.w.find(w => !prisLecture.has(w.plain) && !AMBIGUS.has(w.plain)) ?? k.w.find(w => !AMBIGUS.has(w.plain));
-    if (m && !prisLecture.has(m.plain)) { prisLecture.add(m.plain); exercises.push(exLecture(l.id, m, Math.max(i, 4))); }
+    if (m && !prisLecture.has(m.plain) && !lect.some(x => x[0] === m.plain)) lect.push([m.plain, exLecture(l.id, m, r)]);
     for (const w of k.w) {
       if (prisEcrit.has(w.plain)) continue;
-      const e = exTrou(l.id, w, Math.max(i, 4)) ?? exEcrit(l.id, w, Math.max(i, 4));
-      if (e) { prisEcrit.add(w.plain); exercises.push(e); break; }
+      const e = exTrou(l.id, w, r) ?? exEcrit(l.id, w, r);
+      if (e) { ecrit.push([w.plain, e]); break; }
     }
   }
   const ms = uniq(l.kanji.flatMap(k => k.w));
-  let n = 0;
-  for (const m of ms) { if (n >= 4) break; const e = exPhrase(l.id, m, connus, Math.max(i, 4), 'Comment se lit le mot en gras ?'); if (e) { exercises.push(e); n++; } }
-  const intrus = exIntrus(l.id, ms, i); if (intrus) exercises.push(intrus);
+  for (const m of ms) { if (phr.length >= 4) break; const e = exPhrase(l.id, m, connus, r, 'Comment se lit le mot en gras ?'); if (e) phr.push(e); }
+  const intrus = exIntrus(l.id, ms, i);
+  // Priorité : sens et lecture de chaque kanji, puis on alterne écrit / phrase / kanji (+ l'intrus).
+  const reste = [];
+  for (let j = 0; j < 8; j++) reste.push(ecrit[j]?.[1], phr[j], kanji[j]);
+  if (intrus) reste.splice(3, 0, intrus);
+  const exercises = [...sens, ...lect.map(x => x[1]), ...reste.filter(Boolean)].slice(0, LECON_MAX);
+  // Ce qui n'est pas gardé reste disponible pour les tests (lectures, écritures) et les autres leçons (phrases).
+  const pris = new Set(exercises);
+  lect.forEach(([w, e]) => pris.has(e) && prisLecture.add(w));
+  ecrit.forEach(([w, e]) => pris.has(e) && prisEcrit.add(w));
+  phr.forEach(e => { if (!pris.has(e)) dejaPrises.delete(e.phrase); });
   const sections = l.kanji.map(k => ({
     h: `${k.k} · ${k.fr}`,
     p: [`**On** : ${k.on.join('、') || '—'}　**Kun** : ${k.kun.join('、') || '—'}`, k.memo],
@@ -286,12 +308,12 @@ blocs.forEach((b, bi) => {
 // Bloc 5 : les pièges (aucun nouveau kanji).
 const tout = connusJusque(99), R = 19;
 const sept = (a, n) => a.filter((_, i) => i % 2 === n);
-const lecture5 = (id, title, sheet, exercises) => ({ id, title, sections: sheet.sections.map(({ grid, ...s }) => (grid ? { ...s, vocab: grid.rows.map(r => ({ jp: r[0], fr: r.slice(1).join(' · ') })) } : s)), pieges: sheet.pieges, exercises });
+const lecture5 = (id, title, sheet, exercises) => ({ id, title, sections: sheet.sections.map(({ grid, ...s }) => (grid ? { ...s, vocab: grid.rows.map(r => ({ jp: r[0], fr: r.slice(1).join(' · ') })) } : s)), pieges: sheet.pieges, exercises: exercises.slice(0, LECON_MAX) });
 const piegesEx = pre => PIEGES.flatMap(k => FICHE[k].w.filter(m => !AMBIGUS.has(m.plain) && piegesLecture(m).length).slice(0, 2).map(m => ({ ...exLecture(pre, m, R, 'piege'), uses: [LECON_DE[k]] })));
 const uniqId = a => [...new Map(a.map(e => [e.id, e])).values()];
 const onkunEx = pre => uniqId(paires.map(([m, x]) => exOnKun(pre, m, x)).filter(Boolean));
 blocs.push({ id: 'k5-b05', level: 'N5', title: 'Les pièges', test: [], examTest: [], lessons: [
-  lecture5('k5-21', 'On ou kun ?', SHEET.onkun, onkunEx('k5-21').filter((_, i) => i % 3 === 0).slice(0, 24)),
+  lecture5('k5-21', 'On ou kun ?', SHEET.onkun, onkunEx('k5-21').filter((_, i) => i % 3 === 0).slice(0, LECON_MAX)),
   lecture5('k5-22', 'Les lectures piégeuses', SHEET.pieges, uniqId(piegesEx('k5-22')).filter((_, i) => i % 2 === 0)),
   lecture5('k5-23', 'Les kanji qui se ressemblent', SHEET.sosies, sept(SOSIES, 0).map(s => exSosie('k5-23', s))),
   lecture5('k5-24', 'Les compteurs', { sections: SHEET.compteurs.sections.slice(0, 2), pieges: SHEET.compteurs.pieges }, sept(COMPTEURS, 0).map(s => exTable('k5-24', s))),
@@ -315,12 +337,20 @@ for (const m of melange([...MOTS.values()], 'b6x')) { if (b6.examTest.length >= 
 
 // ---------- Écriture ----------
 blocs.forEach((b, i) => out(`n5/bloc0${i + 1}.json`, b));
-const FOCUS = [
-  { file: 'on-kun', id: 'on-kun', label: '音・訓', title: 'On ou kun ?', unlockAfter: 'k5-06', sheet: SHEET.onkun, exercises: onkunEx('f-on').filter((_, i) => i % 3 === 2) },
-  { file: 'pieges', id: 'pieges', label: '罠', title: 'Les lectures piégeuses', unlockAfter: 'k5-07', sheet: SHEET.pieges, exercises: uniqId(piegesEx('f-pi')).filter((_, i) => i % 2 === 1) },
-  { file: 'compteurs', id: 'compteurs', label: '数', title: 'Compteurs et jours du mois', unlockAfter: 'k5-11', sheet: SHEET.compteurs, exercises: [...COMPTEURS.map(s => exTable('f-co', s)), ...JOURS.map(s => exTable('f-jo', s))] },
-  { file: 'sosies', id: 'sosies', label: '似', title: 'Les kanji qui se ressemblent', unlockAfter: 'k5-04', sheet: SHEET.sosies, exercises: SOSIES.map(s => exSosie('f-so', s)) },
-];
+// La bulle : UNIQUEMENT les kanji que l'utilisateur a choisis (data/sources/bulle.json). Rien d'automatique.
+// Chaque question n'apparaît qu'une fois la leçon de son kanji faite.
+const BULLE = uniq(src('bulle.json')).filter(k => FICHE[k]);
+const fiche = k => ({ h: `${k.k} · ${k.fr}`, p: [`**On** : ${k.on.join('、') || '—'}　**Kun** : ${k.kun.join('、') || '—'}`, k.memo], vocab: k.mots.map(([jp, fr]) => ({ jp, fr })) });
+const FOCUS = BULLE.length ? [{
+  file: 'mes-kanji', id: 'mes-kanji', label: BULLE.slice(0, 4).join(''), title: 'Mes kanji à revoir', unlockAfter: LECON_DE[BULLE.reduce((a, k) => (FICHE[k].rang < FICHE[a].rang ? k : a))],
+  sheet: { sections: BULLE.map(k => fiche(FICHE[k])), pieges: [] },
+  exercises: uniqId(BULLE.flatMap(c => {
+    const k = FICHE[c];
+    const ms = k.w.filter(m => !AMBIGUS.has(m.plain));
+    return [exSens('f-mk', k, R), exKanji('f-mk', k, R), ...ms.map(m => exLecture('f-mk', m, R)), ...ms.map(m => exTrou('f-mk', m, R) ?? exEcrit('f-mk', m, R))]
+      .filter(Boolean).map(e => ({ ...e, uses: [LECON_DE[c]] }));
+  })),
+}] : [];
 FOCUS.forEach(({ file, ...f }) => out(`focus/${file}.json`, f));
 out('manifest.json', { examEvery: 4, miniExamEvery: 2, focus: FOCUS.map(f => `data/focus/${f.file}.json`), blocks: blocs.map((_, i) => `data/n5/bloc0${i + 1}.json`) });
 const nb = blocs.map(b => `${b.lessons.map(l => l.exercises.length).join('+')} | test ${b.test.length} | exam ${b.examTest.length}`);
