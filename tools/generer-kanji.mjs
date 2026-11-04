@@ -26,15 +26,15 @@ const BLOCS = [
 ];
 const BLOCS4 = [
   'La ville et les lieux', 'Bouger et agir', 'Études et travail',
-  'Couleurs, saisons, nature', 'Le corps, la santé, la famille', 'Penser, dire, ressentir',
+  'Couleurs, saisons, nature', 'Le corps, la santé, la famille', 'Penser, dire, ressentir', 'Le quotidien',
 ];
 
 // Lectures valables (ou trop proches d'un vrai mot) à ne jamais proposer comme erreur.
 const JAMAIS = new Set(['にっぽん', 'にっぽんご', 'にっぽんじん', 'なんじん', 'なにじん', 'なながつ', 'さんぶん', 'ごぶん', 'なんぶん', 'いちにち', 'がくしょう', 'いる', 'はいれる']);
 // Mots seuls à plusieurs lectures selon le contexte : pas de question de lecture hors phrase.
-const AMBIGUS = new Set(['何', '後', '間', '市', '町', '方', '文', '字', '図', '門', '夜', '心', '力', '楽', '用', '元']);
+const AMBIGUS = new Set(['何', '後', '間', '市', '町', '方', '文', '字', '図', '門', '夜', '心', '力', '楽', '用', '元', '皆']);
 // Kanji de sens voisins : jamais face à face dans une question de sens.
-const VOISINS = ['天空', '話言語', '金円', '家社', '前先', '時間分', '日曜', '学校', '大高', '今昨', '国外', '後午'];
+const VOISINS = ['天空', '話言語', '金円', '家社', '前先', '時間分', '日曜', '学校', '大高', '今昨', '国外', '後午', '晩夜夕', '寒冷'];
 const voisins = (a, b) => a === b || VOISINS.some(g => g.includes(a) && g.includes(b));
 
 // ---------- Outils ----------
@@ -366,8 +366,8 @@ if (LECONS4.length) {
   dejaPrises.clear();
   const L = (k, t, a, z) => [`k4-${String(n + k).padStart(2, '0')}`, t, a, z];
   blocs4.push(blocSansAide(`k4-b0${Math.ceil(n / 5) + 1}`, 'N4', LECONS4, [
-    L(1, 'Sans aide : les blocs 1 et 2', 0, 10), L(2, 'Sans aide : les blocs 3 et 4', 10, 20), L(3, 'Sans aide : le bloc 5', 20, 25),
-    L(4, 'Sans aide : le bloc 6', 25, n), L(5, 'Sans aide : tout le N4', 0, n),
+    L(1, 'Sans aide : les blocs 1 et 2', 0, 10), L(2, 'Sans aide : les blocs 3 et 4', 10, 20), L(3, 'Sans aide : les blocs 5 et 6', 20, 30),
+    L(4, 'Sans aide : le bloc 7', 30, n), L(5, 'Sans aide : tout le N4', 0, n),
   ], connusJusque(R4), R4, 'Ici, plus aucun kanji du N5 ni du N4 n\'a de furigana. Lis toute la phrase avant de répondre, le contexte t\'aide.'));
 }
 

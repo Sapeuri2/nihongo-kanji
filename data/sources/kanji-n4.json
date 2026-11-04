@@ -235,5 +235,40 @@
  {"k": "建", "fr": "construire", "on": ["ケン", "コン"], "kun": ["た(てる)"], "memo": "Un pinceau 聿 qui trace un plan au sol 廴 : on construit.", "res": ["健", "律"], "mots": [["{建|た}てる", "construire"], ["{建|たて}{物|もの}", "bâtiment"]]},
  {"k": "質", "fr": "qualité, question", "on": ["シツ"], "kun": [], "memo": "Deux haches 斤 sur de l'argent 貝 : le gage qui garantit la qualité.", "res": ["貨", "賃"], "mots": [["{質|しつ}{問|もん}", "question"]]},
  {"k": "品", "fr": "article, marchandise", "on": ["ヒン"], "kun": ["しな"], "memo": "Trois bouches 口 : les articles empilés à l'étal.", "res": ["器", "晶"], "mots": [["{品|しな}{物|もの}", "marchandise"], ["{作|さく}{品|ひん}", "œuvre"], ["{食|しょく}{料|りょう}{品|ひん}", "produits alimentaires"]]}
+]},
+{"id": "k4-31", "title": "Compter et numéroter", "kanji": [
+ {"k": "回", "fr": "fois, tourner", "on": ["カイ"], "kun": ["まわ(る)", "まわ(す)"], "memo": "Un carré dans un carré : on tourne en rond, encore une fois.", "res": ["口", "四"], "mots": [["{一回|いっかい}", "une fois"], ["{今回|こんかい}", "cette fois-ci"], ["{回|まわ}る", "tourner"]]},
+ {"k": "番", "fr": "numéro, tour", "on": ["バン"], "kun": [], "memo": "Des graines semées sur un champ 田, rang par rang : chacun son tour, chacun son numéro.", "res": ["田", "米"], "mots": [["{一番|いちばん}", "le premier, le plus"], ["{番号|ばんごう}", "numéro"], ["{何番|なんばん}", "quel numéro"]]},
+ {"k": "号", "fr": "numéro, signal", "on": ["ゴウ"], "kun": [], "memo": "Une bouche 口 qui crie au-dessus d'un crochet : on appelle par le numéro.", "res": ["口", "弓"], "mots": [["{番号|ばんごう}", "numéro"], ["{電話番号|でんわばんごう}", "numéro de téléphone"], ["{一号車|いちごうしゃ}", "voiture n° 1 (train)"]]},
+ {"k": "階", "fr": "étage", "on": ["カイ"], "kun": [], "memo": "La colline 阝 et « tout le monde » 皆 : chacun à son étage.", "res": ["皆", "陸"], "mots": [["{二階|にかい}", "1er étage (au-dessus du rez-de-chaussée)"], ["{何階|なんがい}", "quel étage"], ["{一階|いっかい}", "rez-de-chaussée"]]},
+ {"k": "歳", "fr": "âge (an)", "on": ["サイ", "セイ"], "kun": [], "memo": "Un pied 止 qui avance avec une hallebarde 戈 : les années qui passent.", "res": ["成", "威"], "mots": [["{何歳|なんさい}", "quel âge"], ["{二十歳|はたち}", "vingt ans"], ["{三歳|さんさい}", "trois ans"]]}
+]},
+{"id": "k4-32", "title": "Décider et agir", "kanji": [
+ {"k": "決", "fr": "décider", "on": ["ケツ"], "kun": ["き(める)", "き(まる)"], "memo": "L'eau 氵 qui force la digue : c'est tranché, c'est décidé.", "res": ["快", "次"], "mots": [["{決|き}める", "décider"], ["{決|き}まる", "être décidé"]]},
+ {"k": "次", "fr": "suivant", "on": ["ジ", "シ"], "kun": ["つぎ"], "memo": "De la glace 冫 et quelqu'un qui bâille 欠 en attendant : au suivant !", "res": ["欠", "決"], "mots": [["{次|つぎ}", "suivant, prochain"], ["{目次|もくじ}", "table des matières"]]},
+ {"k": "調", "fr": "chercher, ton", "on": ["チョウ"], "kun": ["しら(べる)"], "memo": "Des paroles 言 qui font le tour 周 de la question : on enquête.", "res": ["週", "語"], "mots": [["{調|しら}べる", "chercher, vérifier"], ["{調子|ちょうし}", "forme, état"]]},
+ {"k": "返", "fr": "rendre", "on": ["ヘン"], "kun": ["かえ(す)", "かえ(る)"], "memo": "Le chemin ⻌ et le revers 反 : on revient sur ses pas, on rend.", "res": ["近", "板"], "mots": [["{返|かえ}す", "rendre"], ["{返事|へんじ}", "réponse"]]},
+ {"k": "払", "fr": "payer", "on": ["フツ"], "kun": ["はら(う)"], "memo": "Une main 扌 qui tend une pièce : on paie.", "res": ["仏", "打"], "mots": [["{払|はら}う", "payer"], ["{支払|しはら}い", "paiement"]]}
+]},
+{"id": "k4-33", "title": "Sorties et loisirs", "kanji": [
+ {"k": "遊", "fr": "jouer, s'amuser", "on": ["ユウ"], "kun": ["あそ(ぶ)"], "memo": "Le chemin ⻌, un drapeau 方 et un enfant 子 : l'enfant part jouer dehors.", "res": ["旅", "族"], "mots": [["{遊|あそ}ぶ", "jouer, s'amuser"], ["{遊園地|ゆうえんち}", "parc d'attractions"]]},
+ {"k": "泳", "fr": "nager", "on": ["エイ"], "kun": ["およ(ぐ)"], "memo": "L'eau 氵 et « éternel » 永 : nager longtemps.", "res": ["永", "氷"], "mots": [["{泳|およ}ぐ", "nager"], ["{水泳|すいえい}", "natation"]]},
+ {"k": "酒", "fr": "alcool, saké", "on": ["シュ"], "kun": ["さけ", "さか"], "memo": "L'eau 氵 et la jarre 酉 : le saké.", "res": ["配", "西"], "mots": [["お{酒|さけ}", "alcool, saké"], ["{日本酒|にほんしゅ}", "saké japonais"], ["{酒屋|さかや}", "marchand d'alcool"]]},
+ {"k": "晩", "fr": "soir", "on": ["バン"], "kun": [], "memo": "Le soleil 日 qui s'échappe 免 : le soir tombe. Même 免 que dans 勉.", "res": ["勉", "晴"], "mots": [["{今晩|こんばん}", "ce soir"], ["{毎晩|まいばん}", "tous les soirs"], ["{晩|ばん}ご{飯|はん}", "dîner"]]},
+ {"k": "降", "fr": "descendre, tomber", "on": ["コウ"], "kun": ["お(りる)", "ふ(る)"], "memo": "La colline 阝 et des pieds qui descendent : on descend, la pluie tombe.", "res": ["陸", "隆"], "mots": [["{降|お}りる", "descendre (d'un véhicule)"], ["{降|ふ}る", "tomber (pluie, neige)"]]}
+]},
+{"id": "k4-34", "title": "Vivre ensemble", "kanji": [
+ {"k": "公", "fr": "public", "on": ["コウ"], "kun": ["おおやけ"], "memo": "Ce qui s'ouvre 八 au-dessus du « moi » 厶 : ce qui est à tous. Le contraire de 私.", "res": ["私", "松"], "mots": [["{公園|こうえん}", "parc"], ["{主人公|しゅじんこう}", "héros (d'une histoire)"]]},
+ {"k": "結", "fr": "nouer, lier", "on": ["ケツ"], "kun": ["むす(ぶ)"], "memo": "Un fil 糸 et une bonne chose 吉 : on noue les liens.", "res": ["紙", "給"], "mots": [["{結婚|けっこん}", "mariage"], ["{結|むす}ぶ", "nouer, relier"]]},
+ {"k": "婚", "fr": "mariage", "on": ["コン"], "kun": [], "memo": "Une femme 女 et le crépuscule 昏 : la cérémonie du mariage, le soir.", "res": ["妹", "姉"], "mots": [["{結婚式|けっこんしき}", "cérémonie de mariage"], ["{新婚|しんこん}", "jeunes mariés"]]},
+ {"k": "留", "fr": "rester, retenir", "on": ["リュウ", "ル"], "kun": ["と(める)"], "memo": "Un champ 田 sous un abri : on reste, on retient.", "res": ["田", "貿"], "mots": [["{留学|りゅうがく}", "études à l'étranger"], ["{留学生|りゅうがくせい}", "étudiant étranger"], ["{留守|るす}", "absence (de chez soi)"]]},
+ {"k": "皆", "fr": "tout le monde", "on": ["カイ"], "kun": ["みな", "みんな"], "memo": "Deux personnes côte à côte 比 sous le soleil 白 : tout le monde.", "res": ["階", "比"], "mots": [["{皆|みな}さん", "tout le monde (vous tous)"]]}
+]},
+{"id": "k4-35", "title": "À la maison", "kanji": [
+ {"k": "部", "fr": "partie, service", "on": ["ブ"], "kun": [], "memo": "Le village 阝 et ce qui se tient debout : une partie, un service.", "res": ["都", "陪"], "mots": [["{部屋|へや}", "pièce, chambre"], ["{全部|ぜんぶ}", "tout"], ["{部長|ぶちょう}", "chef de service"]]},
+ {"k": "窓", "fr": "fenêtre", "on": ["ソウ"], "kun": ["まど"], "memo": "Un trou 穴 au-dessus du cœur 心 : la fenêtre.", "res": ["空", "思"], "mots": [["{窓|まど}", "fenêtre"], ["{窓口|まどぐち}", "guichet"]]},
+ {"k": "冷", "fr": "froid (au toucher)", "on": ["レイ"], "kun": ["つめ(たい)", "ひ(える)"], "memo": "De la glace 冫 et un ordre 令 : c'est froid. 寒 = il fait froid, 冷 = c'est froid au toucher.", "res": ["寒", "今"], "mots": [["{冷|つめ}たい", "froid (au toucher)"], ["{冷|ひ}える", "refroidir"], ["{冷蔵庫|れいぞうこ}", "réfrigérateur"]]},
+ {"k": "無", "fr": "rien, sans", "on": ["ム", "ブ"], "kun": ["な(い)"], "memo": "Des herbes qui brûlent sur un feu 灬 : il ne reste rien.", "res": ["舞", "熱"], "mots": [["{無理|むり}", "impossible, excessif"], ["{無料|むりょう}", "gratuit"]]},
+ {"k": "由", "fr": "raison, origine", "on": ["ユ", "ユウ"], "kun": [], "memo": "Une pousse qui sort du champ 田 : l'origine, la raison.", "res": ["田", "申"], "mots": [["{自由|じゆう}", "liberté"], ["{理由|りゆう}", "raison"]]}
 ]}
 ]

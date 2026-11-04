@@ -145,7 +145,7 @@
     "市 (ville (commune), marché) : ne le confonds pas avec 姉 (grande sœur).",
     "区 (arrondissement) : ne le confonds pas avec 医 (médecine).",
     "県 (préfecture (département)) : ne le confonds pas avec 見 (voir).",
-    "都 (capitale, métropole) : ne le confonds pas avec 者 (personne (qui fait)).",
+    "都 (capitale, métropole) : ne le confonds pas avec 部 (partie, service), 者 (personne (qui fait)).",
     "京 (capitale) : ne le confonds pas avec 高 (haut, cher)."
    ],
    "exercises": [
@@ -254,7 +254,7 @@
      "type": "choice",
      "choices": [
       "したまち",
-      "かいしゃいん",
+      "あめ",
       "したちょう",
       "かまち"
      ],
@@ -266,10 +266,10 @@
      "explain": "{村|むら} : village.",
      "type": "choice",
      "choices": [
-      "あんしん",
+      "みず",
       "むら",
-      "のむ",
-      "けさ"
+      "みる",
+      "やっつ"
      ],
      "a": 1
     },
@@ -280,7 +280,7 @@
      "type": "choice",
      "choices": [
       "しなが",
-      "そら",
+      "にし",
       "しちょう",
       "いちちょう"
      ],
@@ -292,10 +292,10 @@
      "explain": "{区|く} : arrondissement.",
      "type": "choice",
      "choices": [
-      "やすい",
-      "やおや",
+      "たつ",
+      "たんぼ",
       "く",
-      "しみん"
+      "ひだり"
      ],
      "a": 2
     },
@@ -305,10 +305,10 @@
      "explain": "{県|けん} : préfecture (région).",
      "type": "choice",
      "choices": [
-      "しんがく",
+      "せわ",
       "けん",
-      "どうじ",
-      "ください"
+      "でんき",
+      "うりば"
      ],
      "a": 1
     },
@@ -321,7 +321,7 @@
       "きょうつ",
       "きょうみやこ",
       "きょうと",
-      "かじ"
+      "せいねん"
      ],
      "a": 2
     },
@@ -334,7 +334,7 @@
       "とうきょう",
       "とうけい",
       "ひがしきょう",
-      "たべる"
+      "やおや"
      ],
      "a": 0
     },
@@ -358,10 +358,10 @@
      "explain": "**町** se lit まち ici ({町|まち} : ville, quartier). « Il y a beaucoup d'étrangers dans cette ville. »",
      "type": "choice",
      "choices": [
-      "ばいてん",
+      "おおごえ",
       "まち",
-      "ことし",
-      "しゃちょう"
+      "はな",
+      "やすい"
      ],
      "a": 1
     }
@@ -635,10 +635,10 @@
      "explain": "{店|みせ} : magasin.",
      "type": "choice",
      "choices": [
-      "さくねん",
-      "しつない",
+      "びょうき",
+      "にほんご",
       "みせ",
-      "だいすき"
+      "がっこう"
      ],
      "a": 2
     },
@@ -650,8 +650,8 @@
      "choices": [
       "へおく",
       "へや",
-      "はやし",
-      "でぐち"
+      "かようび",
+      "ぶや"
      ],
      "a": 1
     },
@@ -662,7 +662,7 @@
      "type": "choice",
      "choices": [
       "としょかん",
-      "こうかいどう",
+      "たいせつ",
       "ずしょかん",
       "とかかん"
      ],
@@ -675,9 +675,9 @@
      "type": "choice",
      "choices": [
       "やまいいん",
-      "みっつ",
+      "けいかく",
       "びょういん",
-      "うんてんしゅ"
+      "しつない"
      ],
      "a": 2
     },
@@ -689,8 +689,8 @@
      "choices": [
       "こうかいどう",
       "こうあどう",
-      "ごしゅじん",
-      "こうえどう"
+      "ぎんこう",
+      "おおやけかいどう"
      ],
      "a": 0
     },
@@ -701,7 +701,7 @@
      "type": "choice",
      "choices": [
       "おししつ",
-      "ひこうき",
+      "こんど",
       "きょうむろ",
       "きょうしつ"
      ],
@@ -716,7 +716,7 @@
       "ばところ",
       "じょうしょ",
       "ばしょ",
-      "せんもん"
+      "びょういん"
      ],
      "a": 2
     },
@@ -740,10 +740,10 @@
      "explain": "**店** se lit みせ ici ({店|みせ} : magasin). « Le pain de cette boutique est bon. »",
      "type": "choice",
      "choices": [
-      "ふゆやすみ",
-      "じゅうがつ",
+      "ちゅうしゃじょう",
+      "がいこくじん",
       "みせ",
-      "やすむ"
+      "ひきだし"
      ],
      "a": 2
     }
@@ -874,7 +874,7 @@
    ],
    "pieges": [
     "銀 (argent (métal)) : ne le confonds pas avec 金 (or, argent).",
-    "図 (plan, schéma) : ne le confonds pas avec 国 (pays).",
+    "図 (plan, schéma) : ne le confonds pas avec 国 (pays), 回 (fois, tourner).",
     "映 (projeter, refléter) : ne le confonds pas avec 英 (anglais, excellent).",
     "画 (dessin, image) : ne le confonds pas avec 田 (rizière).",
     "写 (copier, photographier) : ne le confonds pas avec 字 (caractère (écrit))."
@@ -970,10 +970,10 @@
      "explain": "{銀|ぎん} : argent (métal).",
      "type": "choice",
      "choices": [
-      "おおごえ",
-      "ごはん",
+      "ろくがつ",
+      "くうこう",
       "ぎん",
-      "ひと"
+      "てがみ"
      ],
      "a": 2
     },
@@ -983,7 +983,7 @@
      "explain": "{地図|ちず} : carte (plan).",
      "type": "choice",
      "choices": [
-      "かいしゃ",
+      "ながい",
       "ちはか",
       "じず",
       "ちず"
@@ -998,7 +998,7 @@
      "choices": [
       "えいが",
       "うつが",
-      "てがみ",
+      "ふゆやすみ",
       "えいかく"
      ],
      "a": 0
@@ -1012,7 +1012,7 @@
       "しゃま",
       "しゃしん",
       "うつしん",
-      "よみかた"
+      "ろっぴゃく"
      ],
      "a": 1
     },
@@ -1316,9 +1316,9 @@
      "explain": "{地震|じしん} : tremblement de terre.",
      "type": "choice",
      "choices": [
-      "め",
+      "やおや",
       "ちしん",
-      "あと",
+      "はなし",
       "じしん"
      ],
      "a": 3
@@ -1329,7 +1329,7 @@
      "explain": "{夕方|ゆうがた} : fin d'après-midi.",
      "type": "choice",
      "choices": [
-      "はいる",
+      "かじ",
       "せきがた",
       "ゆうかた",
       "ゆうがた"
@@ -1342,10 +1342,10 @@
      "explain": "{所|ところ} : endroit.",
      "type": "choice",
      "choices": [
-      "たいせつ",
+      "いちば",
       "ところ",
-      "ちゅうし",
-      "やきゅう"
+      "だいがく",
+      "ひとつめ"
      ],
      "a": 1
     },
@@ -1355,7 +1355,7 @@
      "explain": "{世界|せかい} : monde.",
      "type": "choice",
      "choices": [
-      "まんなか",
+      "しかた",
       "せいかい",
       "せかい",
       "よかい"
@@ -1370,7 +1370,7 @@
      "choices": [
       "こくみん",
       "くにみん",
-      "ちゅうごく",
+      "ついたち",
       "こくたみ"
      ],
      "a": 0
@@ -1563,7 +1563,7 @@
    "pieges": [
     "門 (portail) : ne le confonds pas avec 間 (intervalle, entre), 問 (question).",
     "池 (étang) : ne le confonds pas avec 地 (terre, sol).",
-    "田 (rizière) : ne le confonds pas avec 目 (œil).",
+    "田 (rizière) : ne le confonds pas avec 由 (raison, origine), 目 (œil).",
     "林 (bois, bosquet) : ne le confonds pas avec 森 (forêt), 木 (arbre, bois).",
     "森 (forêt) : ne le confonds pas avec 林 (bois, bosquet), 木 (arbre, bois)."
    ],
@@ -1658,9 +1658,9 @@
      "explain": "{専門|せんもん} : spécialité.",
      "type": "choice",
      "choices": [
-      "にちようび",
+      "じゅうまん",
       "せんかど",
-      "はなみ",
+      "がんじつ",
       "せんもん"
      ],
      "a": 3
@@ -1671,10 +1671,10 @@
      "explain": "{池|いけ} : étang.",
      "type": "choice",
      "choices": [
-      "ことし",
+      "あいだ",
       "いけ",
-      "ひとつめ",
-      "ゆうがた"
+      "なに",
+      "えいご"
      ],
      "a": 1
     },
@@ -1684,9 +1684,9 @@
      "explain": "{田舎|いなか} : campagne.",
      "type": "choice",
      "choices": [
-      "がっこう",
-      "のはら",
-      "えいが",
+      "のみもの",
+      "ちく",
+      "あさごはん",
       "いなか"
      ],
      "a": 3
@@ -1697,7 +1697,7 @@
      "explain": "{野菜|やさい} : légumes.",
      "type": "choice",
      "choices": [
-      "ほんだな",
+      "しがつ",
       "やな",
       "のさい",
       "やさい"
@@ -1710,9 +1710,9 @@
      "explain": "{林|はやし} : bois, bosquet.",
      "type": "choice",
      "choices": [
-      "ここのつ",
-      "あおぞら",
-      "りょうきん",
+      "ちく",
+      "にゅういん",
+      "いえ",
       "はやし"
      ],
      "a": 3
@@ -1724,9 +1724,9 @@
      "type": "choice",
      "choices": [
       "もり",
-      "いえ",
-      "やさい",
-      "はいる"
+      "かしゅ",
+      "たつ",
+      "びょうき"
      ],
      "a": 0
     },
@@ -1751,10 +1751,10 @@
      "explain": "**門** se lit もん ici ({門|もん} : portail). « Retrouvons-nous devant le portail de l'école. »",
      "type": "choice",
      "choices": [
-      "かぞく",
+      "ひゃくえん",
       "もん",
-      "でる",
-      "てがみ"
+      "いま",
+      "なんばん"
      ],
      "a": 1
     },
@@ -1810,7 +1810,7 @@
     "そんちょう",
     "そんなが",
     "むらちょう",
-    "いぜん"
+    "がいこくじん"
    ],
    "a": 0
   },
@@ -1846,7 +1846,7 @@
    "explain": "{市場|いちば} : marché.",
    "type": "choice",
    "choices": [
-    "えいがかん",
+    "はなす",
     "しば",
     "いちば",
     "いちじょう"
@@ -1859,8 +1859,8 @@
    "explain": "{地区|ちく} : quartier, zone.",
    "type": "choice",
    "choices": [
-    "ごふん",
-    "ここのつ",
+    "どようび",
+    "きた",
     "じく",
     "ちく"
    ],
@@ -1872,8 +1872,8 @@
    "explain": "{区役所|くやくしょ} : mairie d'arrondissement.",
    "type": "choice",
    "choices": [
-    "びょういん",
-    "たべる",
+    "せかい",
+    "じゅうしょ",
     "くやくしょ",
     "くやくところ"
    ],
@@ -1885,8 +1885,8 @@
    "explain": "{県民|けんみん} : habitants de la préfecture.",
    "type": "choice",
    "choices": [
-    "だす",
-    "いけ",
+    "へや",
+    "きょうかい",
     "けんたみ",
     "けんみん"
    ],
@@ -1912,7 +1912,7 @@
    "type": "choice",
    "choices": [
     "みやこごう",
-    "やっつ",
+    "せんもん",
     "つごう",
     "つがっ"
    ],
@@ -1926,7 +1926,7 @@
    "choices": [
     "しゅみやこ",
     "くびと",
-    "がくしゃ",
+    "あたらしい",
     "しゅと"
    ],
    "a": 3
@@ -1951,24 +1951,11 @@
    "type": "choice",
    "choices": [
     "きっさてん",
-    "にがつ",
+    "ごはん",
     "きっちゃてん",
     "きっさみせ"
    ],
    "a": 0
-  },
-  {
-   "id": "k4-b01-部屋-ecrit",
-   "q": "Quel mot s'écrit **へや** (pièce, chambre) ?",
-   "explain": "{部屋|へや} : pièce, chambre.",
-   "type": "choice",
-   "choices": [
-    "女屋",
-    "部屋",
-    "方屋",
-    "分屋"
-   ],
-   "a": 1
   },
   {
    "id": "k4-b01-本屋-lecture",
@@ -1976,7 +1963,7 @@
    "explain": "{本屋|ほんや} : librairie.",
    "type": "choice",
    "choices": [
-    "ばあい",
+    "えきいん",
     "ほんや",
     "もとや",
     "ほんおく"
@@ -1989,9 +1976,9 @@
    "explain": "{八百屋|やおや} : marchand de légumes.",
    "type": "choice",
    "choices": [
-    "ここのつ",
+    "はっせん",
     "やおおく",
-    "ひきだし",
+    "こばやし",
     "やおや"
    ],
    "a": 3
@@ -2004,7 +1991,7 @@
    "choices": [
     "やじょう",
     "おくじょう",
-    "ちかてつ",
+    "しみん",
     "おくうえ"
    ],
    "a": 1
@@ -2029,7 +2016,7 @@
    "type": "choice",
    "choices": [
     "えいがかん",
-    "やおや",
+    "ごがつ",
     "うつがかん",
     "えいかくかん"
    ],
@@ -2044,7 +2031,7 @@
     "だいしかん",
     "たいしかん",
     "おおしかん",
-    "かいしゃ"
+    "おおきい"
    ],
    "a": 1
   },
@@ -2067,7 +2054,7 @@
    "explain": "{入院|にゅういん} : hospitalisation.",
    "type": "choice",
    "choices": [
-    "あんしん",
+    "ふあん",
     "はいいん",
     "いいん",
     "にゅういん"
@@ -2082,7 +2069,7 @@
    "choices": [
     "だいまないん",
     "だいがくいん",
-    "ください",
+    "しゅうでん",
     "おおがくいん"
    ],
    "a": 1
@@ -2101,6 +2088,19 @@
    "a": 0
   },
   {
+   "id": "k4-b01-公会堂-ecrit",
+   "q": "Quel mot s'écrit **こうかいどう** (salle municipale) ?",
+   "explain": "{公会堂|こうかいどう} : salle municipale.",
+   "type": "choice",
+   "choices": [
+    "松会堂",
+    "私会堂",
+    "三会堂",
+    "公会堂"
+   ],
+   "a": 3
+  },
+  {
    "id": "k4-b01-町-phrase",
    "q": "Comment se lit le mot en gras ?",
    "jp": "私の**町**は小さいですが、きれいです。",
@@ -2108,9 +2108,9 @@
    "type": "choice",
    "choices": [
     "まち",
-    "たりる",
-    "もり",
-    "おとこのひと"
+    "ゆうめい",
+    "えきいん",
+    "あした"
    ],
    "a": 0
   },
@@ -2135,10 +2135,10 @@
    "explain": "**村** se lit むら ici ({村|むら} : village). « Il y a un petit village en haut de la montagne. »",
    "type": "choice",
    "choices": [
-    "にほん",
+    "かう",
     "むら",
-    "しょくどう",
-    "おおごえ"
+    "くち",
+    "はん"
    ],
    "a": 1
   },
@@ -2149,9 +2149,9 @@
    "explain": "**市長** se lit しちょう ici ({市長|しちょう} : maire). « Le maire marche jusqu'à la gare tous les matins. »",
    "type": "choice",
    "choices": [
-    "おてあらい",
-    "だいたい",
-    "ことり",
+    "ゆうえんち",
+    "ろくがつ",
+    "ふあん",
     "しちょう"
    ],
    "a": 3
@@ -2163,9 +2163,9 @@
    "explain": "**市場** se lit いちば ici ({市場|いちば} : marché). « Dimanche, j'ai acheté du poisson au marché. »",
    "type": "choice",
    "choices": [
-    "かく",
-    "ばあい",
-    "おくじょう",
+    "ごぜん",
+    "あした",
+    "まち",
     "いちば"
    ],
    "a": 3
@@ -2177,10 +2177,10 @@
    "explain": "**県** se lit けん ici ({県|けん} : préfecture (région)). « Osaka n'est pas une grande préfecture. »",
    "type": "choice",
    "choices": [
-    "いちば",
-    "でんきだい",
+    "まえ",
+    "ほん",
     "けん",
-    "だいがくせい"
+    "へた"
    ],
    "a": 2
   }

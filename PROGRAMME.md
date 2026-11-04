@@ -34,7 +34,9 @@ Sur 221 mots d'exemple, 161 sont déjà dans ton vocabulaire.
 
 → Examen intermédiaire
 
-## N4 : 177 kanji, 35 leçons ✅
+## N4 : 202 kanji, 40 leçons ✅
+
+Couvre toute la liste N4 de référence (celle de tanos.co.uk : 182 kanji, dont 私 et 朝 déjà vus au N5), plus les kanji que d'autres listes N4 ajoutent (公, 無) et les plus fréquents du vocabulaire N4 (番, 号, 階, 部屋, 窓…).
 
 Aucun furigana sur les kanji du N5. Au bloc 1-2 du N4, furigana sur tous les kanji N4, puis retirés au fil des blocs.
 
@@ -62,5 +64,10 @@ Aucun furigana sur les kanji du N5. Au bloc 1-2 du N4, furigana sur tous les kan
 
 → Grand examen
 
-**Bloc 13 — Lire sans aide** ✅ (plus de furigana sur le N5 ni le N4)
-61 à 64. Un ou deux blocs à la fois · 65. Tout le N4
+**Bloc 13 — Le quotidien** ✅
+61. Compter et numéroter : 回 番 号 階 歳 · 62. Décider et agir : 決 次 調 返 払 · 63. Sorties et loisirs : 遊 泳 酒 晩 降 · 64. Vivre ensemble : 公 結 婚 留 皆 · 65. À la maison : 部 窓 冷 無 由
+
+**Bloc 14 — Lire sans aide** ✅ (plus de furigana sur le N5 ni le N4)
+66 à 69. Un ou deux blocs à la fois · 70. Tout le N4
+
+→ Examen intermédiaire
