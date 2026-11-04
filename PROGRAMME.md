@@ -34,7 +34,33 @@ Sur 221 mots d'exemple, 161 sont déjà dans ton vocabulaire.
 
 → Examen intermédiaire
 
-## N4 (plus tard)
+## N4 : 177 kanji, 35 leçons ✅
 
-Environ 170 kanji, mêmes fichiers à la suite de `data/manifest.json`. Ordre à recalculer quand le vocabulaire et la grammaire N4 seront avancés.
-Thèmes prévus : la ville et les bâtiments, les couleurs, les saisons, les verbes de déplacement et d'action, les études et le travail, le corps et la santé, les adjectifs courants, puis pièges et lecture sans aide.
+Aucun furigana sur les kanji du N5. Au bloc 1-2 du N4, furigana sur tous les kanji N4, puis retirés au fil des blocs.
+
+**Bloc 7 — La ville et les lieux** ✅
+31. Villes et régions : 町 村 市 区 県 都 京 · 32. Bâtiments et pièces : 店 屋 館 院 堂 室 場 · 33. Sorties en ville : 銀 図 映 画 写 真 · 34. Le monde et les gens : 地 方 所 世 界 民 · 35. Autour de la ville : 門 池 田 野 林 森
+
+**Bloc 8 — Bouger et agir** ✅
+36. Se déplacer : 歩 走 止 進 運 転 · 37. Aller et venir : 乗 通 送 去 近 遠 · 38. Partir, arriver : 起 待 急 早 発 着 · 39. Avec les mains : 開 引 持 貸 借 使 · 40. Faire et vendre : 作 洗 切 売 用 集
+
+→ Grand examen
+
+**Bloc 9 — Études et travail** ✅
+41. Apprendre : 教 習 勉 強 試 験 · 42. Questions et réponses : 研 究 題 答 問 文 · 43. Lettres et langues : 字 漢 英 洋 説 計 · 44. Le travail : 仕 事 働 業 員 工 産 · 45. Gens et objets : 主 者 代 台 物 紙
+
+**Bloc 10 — Couleurs, saisons, nature** ✅
+46. Couleurs et lumière : 色 赤 青 黒 明 暗 · 47. Les saisons : 春 夏 秋 冬 暑 寒 · 48. Le jour, la nuit, le ciel : 昼 夜 夕 風 光 海 · 49. À table : 牛 鳥 肉 菜 茶 料 理 · 50. Loisirs : 犬 音 歌 楽 旅
+
+→ Examen intermédiaire
+
+**Bloc 11 — Le corps, la santé, la famille** ✅
+51. Le corps : 体 頭 顔 首 心 声 · 52. La santé : 病 医 薬 死 元 力 · 53. La famille : 兄 弟 姉 妹 親 族 · 54. Chez soi : 住 服 自 有 便 · 55. Commencer, finir : 始 終 動 同 別
+
+**Bloc 12 — Penser, dire, ressentir** ✅
+56. Penser et comprendre : 思 考 知 意 味 · 57. Aimer, juger : 好 悪 正 注 特 · 58. Combien, combien de fois : 多 少 以 度 不 合 · 59. Décrire les choses : 重 軽 広 短 低 · 60. Forme et qualité : 太 弱 建 質 品
+
+→ Grand examen
+
+**Bloc 13 — Lire sans aide** ✅ (plus de furigana sur le N5 ni le N4)
+61 à 64. Un ou deux blocs à la fois · 65. Tout le N4

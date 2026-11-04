@@ -1,0 +1,2287 @@
+{
+ "id": "k4-b02",
+ "level": "N4",
+ "title": "Bouger et agir",
+ "lessons": [
+  {
+   "id": "k4-06",
+   "title": "Se déplacer : 歩 走 止 進 運 転",
+   "sections": [
+    {
+     "h": "歩 · marcher",
+     "p": [
+      "**On** : ホ、ポ　**Kun** : ある(く)",
+      "Un pied 止 au-dessus d'un autre : on avance pas à pas."
+     ],
+     "vocab": [
+      {
+       "jp": "{歩|ある}く",
+       "fr": "marcher"
+      },
+      {
+       "jp": "{散歩|さんぽ}",
+       "fr": "promenade"
+      },
+      {
+       "jp": "{歩道|ほどう}",
+       "fr": "trottoir"
+      }
+     ]
+    },
+    {
+     "h": "走 · courir",
+     "p": [
+      "**On** : ソウ　**Kun** : はし(る)",
+      "La terre 土 et un pied 止 qui pousse fort : on court."
+     ],
+     "vocab": [
+      {
+       "jp": "{走|はし}る",
+       "fr": "courir"
+      }
+     ]
+    },
+    {
+     "h": "止 · s'arrêter",
+     "p": [
+      "**On** : シ　**Kun** : と(まる)、と(める)",
+      "Un pied posé au sol : on s'arrête."
+     ],
+     "vocab": [
+      {
+       "jp": "{止|と}まる",
+       "fr": "s'arrêter"
+      },
+      {
+       "jp": "{止|と}める",
+       "fr": "arrêter (qqch)"
+      },
+      {
+       "jp": "{中止|ちゅうし}",
+       "fr": "annulation"
+      }
+     ]
+    },
+    {
+     "h": "進 · avancer",
+     "p": [
+      "**On** : シン　**Kun** : すす(む)",
+      "Un oiseau 隹 sur la route ⻌ : l'oiseau ne recule jamais, il avance."
+     ],
+     "vocab": [
+      {
+       "jp": "{進|すす}む",
+       "fr": "avancer"
+      },
+      {
+       "jp": "{進学|しんがく}",
+       "fr": "poursuivre ses études"
+      }
+     ]
+    },
+    {
+     "h": "運 · transporter, chance",
+     "p": [
+      "**On** : ウン　**Kun** : はこ(ぶ)",
+      "Un char 軍 sur la route ⻌ : on transporte."
+     ],
+     "vocab": [
+      {
+       "jp": "{運転|うんてん}",
+       "fr": "conduite (d'un véhicule)"
+      },
+      {
+       "jp": "{運|はこ}ぶ",
+       "fr": "transporter"
+      },
+      {
+       "jp": "{運動|うんどう}",
+       "fr": "exercice, sport"
+      }
+     ]
+    },
+    {
+     "h": "転 · tourner, rouler",
+     "p": [
+      "**On** : テン　**Kun** : ころ(ぶ)",
+      "Un char 車 dont la roue tourne 云."
+     ],
+     "vocab": [
+      {
+       "jp": "{自転車|じてんしゃ}",
+       "fr": "vélo"
+      },
+      {
+       "jp": "{運転|うんてん}",
+       "fr": "conduite (d'un véhicule)"
+      },
+      {
+       "jp": "{転|ころ}ぶ",
+       "fr": "tomber, trébucher"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "歩 (marcher) : ne le confonds pas avec 少 (peu), 止 (s'arrêter).",
+    "走 (courir) : ne le confonds pas avec 起 (se lever), 足 (pied, jambe).",
+    "止 (s'arrêter) : ne le confonds pas avec 上 (haut, sur), 正 (juste, correct).",
+    "進 (avancer) : ne le confonds pas avec 近 (proche), 集 (rassembler).",
+    "転 (tourner, rouler) : ne le confonds pas avec 車 (voiture, roue), 軽 (léger)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-06-歩-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "歩",
+     "explain": "**歩** : marcher. Un pied 止 au-dessus d'un autre : on avance pas à pas.",
+     "type": "choice",
+     "choices": [
+      "femme",
+      "blanc",
+      "année",
+      "marcher"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-06-走-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "走",
+     "explain": "**走** : courir. La terre 土 et un pied 止 qui pousse fort : on court.",
+     "type": "choice",
+     "choices": [
+      "mille",
+      "courir",
+      "grand",
+      "milieu, dans"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-06-止-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "止",
+     "explain": "**止** : s'arrêter. Un pied posé au sol : on s'arrête.",
+     "type": "choice",
+     "choices": [
+      "copier, photographier",
+      "s'arrêter",
+      "rizière",
+      "quoi, combien"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-06-進-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "進",
+     "explain": "**進** : avancer. Un oiseau 隹 sur la route ⻌ : l'oiseau ne recule jamais, il avance.",
+     "type": "choice",
+     "choices": [
+      "avancer",
+      "tourner, rouler",
+      "cinq",
+      "mère"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-06-運-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "運",
+     "explain": "**運** : transporter, chance. Un char 軍 sur la route ⻌ : on transporte.",
+     "type": "choice",
+     "choices": [
+      "droite",
+      "transporter, chance",
+      "capitale, métropole",
+      "manger"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-06-転-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "転",
+     "explain": "**転** : tourner, rouler. Un char 車 dont la roue tourne 云.",
+     "type": "choice",
+     "choices": [
+      "tourner, rouler",
+      "milieu, dans",
+      "parler, histoire",
+      "langue, mot"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-06-歩く-lecture",
+     "q": "Comment se lit **歩く** ?",
+     "explain": "{歩|ある}く : marcher.",
+     "type": "choice",
+     "choices": [
+      "ほく",
+      "どうじ",
+      "あるく",
+      "ぽく"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-06-走る-lecture",
+     "q": "Comment se lit **走る** ?",
+     "explain": "{走|はし}る : courir.",
+     "type": "choice",
+     "choices": [
+      "はしる",
+      "そうる",
+      "ばあい",
+      "まえ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-06-止まる-lecture",
+     "q": "Comment se lit **止まる** ?",
+     "explain": "{止|と}まる : s'arrêter.",
+     "type": "choice",
+     "choices": [
+      "きんようび",
+      "とまる",
+      "まっしろ",
+      "しちょう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-06-進む-lecture",
+     "q": "Comment se lit **進む** ?",
+     "explain": "{進|すす}む : avancer.",
+     "type": "choice",
+     "choices": [
+      "しんむ",
+      "すすむ",
+      "うまれる",
+      "にちようび"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-06-運転-lecture",
+     "q": "Comment se lit **運転** ?",
+     "explain": "{運転|うんてん} : conduite (d'un véhicule).",
+     "type": "choice",
+     "choices": [
+      "はこてん",
+      "うんころ",
+      "さかな",
+      "うんてん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-06-歩く-ecrit",
+     "q": "Quel mot s'écrit **あるく** (marcher) ?",
+     "explain": "{歩|ある}く : marcher.",
+     "type": "choice",
+     "choices": [
+      "止く",
+      "歩く",
+      "少く",
+      "門く"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-06-歩く-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "家から駅まで**歩**きます。",
+     "explain": "**歩** se lit ある ici ({歩|ある}く : marcher). « Je marche de chez moi à la gare. »",
+     "type": "choice",
+     "choices": [
+      "まる",
+      "した",
+      "いえ",
+      "ある"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-06-歩-kanji",
+     "q": "Quel kanji veut dire « marcher » ?",
+     "explain": "**歩** : marcher. Un pied 止 au-dessus d'un autre : on avance pas à pas.",
+     "type": "choice",
+     "choices": [
+      "歩",
+      "止",
+      "国",
+      "少"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-06-歩く-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{歩|ある}く se lit あるく, pas ぽく.",
+     "type": "choice",
+     "choices": [
+      "歩道 → ほどう",
+      "走る → はしる",
+      "運転 → うんてん",
+      "歩く → ぽく"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-06-走る-ecrit",
+     "q": "Quel mot s'écrit **はしる** (courir) ?",
+     "explain": "{走|はし}る : courir.",
+     "type": "choice",
+     "choices": [
+      "安る",
+      "走る",
+      "起る",
+      "足る"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "k4-07",
+   "title": "Aller et venir : 乗 通 送 去 近 遠",
+   "sections": [
+    {
+     "h": "乗 · monter (dans un véhicule)",
+     "p": [
+      "**On** : ジョウ　**Kun** : の(る)",
+      "Une personne perchée en haut d'un arbre 木 : elle monte dessus."
+     ],
+     "vocab": [
+      {
+       "jp": "{乗|の}る",
+       "fr": "monter (dans un véhicule)"
+      },
+      {
+       "jp": "{乗|の}り{物|もの}",
+       "fr": "véhicule"
+      }
+     ]
+    },
+    {
+     "h": "通 · passer, fréquenter",
+     "p": [
+      "**On** : ツウ　**Kun** : とお(る)、かよ(う)",
+      "Un tube 甬 sur la route ⻌ : on passe au travers."
+     ],
+     "vocab": [
+      {
+       "jp": "{通|とお}る",
+       "fr": "passer"
+      },
+      {
+       "jp": "{通|かよ}う",
+       "fr": "fréquenter, faire le trajet"
+      },
+      {
+       "jp": "{交通|こうつう}",
+       "fr": "circulation"
+      }
+     ]
+    },
+    {
+     "h": "送 · envoyer",
+     "p": [
+      "**On** : ソウ　**Kun** : おく(る)",
+      "Deux mains qui poussent sur la route ⻌ : on envoie, on raccompagne."
+     ],
+     "vocab": [
+      {
+       "jp": "{送|おく}る",
+       "fr": "envoyer, raccompagner"
+      },
+      {
+       "jp": "{放送|ほうそう}",
+       "fr": "diffusion (radio, télé)"
+      }
+     ]
+    },
+    {
+     "h": "去 · partir, passé",
+     "p": [
+      "**On** : キョ　**Kun** : さ(る)",
+      "La terre 土 et un détour ム : on s'en va."
+     ],
+     "vocab": [
+      {
+       "jp": "{去年|きょねん}",
+       "fr": "l'an dernier"
+      }
+     ]
+    },
+    {
+     "h": "近 · proche",
+     "p": [
+      "**On** : キン　**Kun** : ちか(い)",
+      "Une hache 斤 sur la route ⻌ : à portée de main, tout près."
+     ],
+     "vocab": [
+      {
+       "jp": "{近|ちか}い",
+       "fr": "proche"
+      },
+      {
+       "jp": "{近|ちか}く",
+       "fr": "les environs"
+      },
+      {
+       "jp": "{最近|さいきん}",
+       "fr": "récemment"
+      }
+     ]
+    },
+    {
+     "h": "遠 · loin",
+     "p": [
+      "**On** : エン　**Kun** : とお(い)",
+      "Une longue robe 袁 sur la route ⻌ : le voyage est long."
+     ],
+     "vocab": [
+      {
+       "jp": "{遠|とお}い",
+       "fr": "loin"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "乗 (monter (dans un véhicule)) : ne le confonds pas avec 来 (venir).",
+    "通 (passer, fréquenter) : ne le confonds pas avec 進 (avancer), 週 (semaine).",
+    "送 (envoyer) : ne le confonds pas avec 道 (chemin, route).",
+    "近 (proche) : ne le confonds pas avec 遠 (loin), 所 (endroit).",
+    "遠 (loin) : ne le confonds pas avec 近 (proche)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-07-乗-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "乗",
+     "explain": "**乗** : monter (dans un véhicule). Une personne perchée en haut d'un arbre 木 : elle monte dessus.",
+     "type": "choice",
+     "choices": [
+      "proche",
+      "monter (dans un véhicule)",
+      "forêt",
+      "envoyer"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-07-通-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "通",
+     "explain": "**通** : passer, fréquenter. Un tube 甬 sur la route ⻌ : on passe au travers.",
+     "type": "choice",
+     "choices": [
+      "arrondissement",
+      "sortir",
+      "maintenant",
+      "passer, fréquenter"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-07-送-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "送",
+     "explain": "**送** : envoyer. Deux mains qui poussent sur la route ⻌ : on envoie, on raccompagne.",
+     "type": "choice",
+     "choices": [
+      "partir, passé",
+      "neuf",
+      "envoyer",
+      "entendre, écouter"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-07-去-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "去",
+     "explain": "**去** : partir, passé. La terre 土 et un détour ム : on s'en va.",
+     "type": "choice",
+     "choices": [
+      "partir, passé",
+      "monde, génération",
+      "poisson",
+      "passer, fréquenter"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-07-近-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "近",
+     "explain": "**近** : proche. Une hache 斤 sur la route ⻌ : à portée de main, tout près.",
+     "type": "choice",
+     "choices": [
+      "proche",
+      "sept",
+      "ciel, vide",
+      "capitale, métropole"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-07-遠-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "遠",
+     "explain": "**遠** : loin. Une longue robe 袁 sur la route ⻌ : le voyage est long.",
+     "type": "choice",
+     "choices": [
+      "pièce, salle",
+      "grande salle",
+      "loin",
+      "direction, personne (poli)"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-07-乗る-lecture",
+     "q": "Comment se lit **乗る** ?",
+     "explain": "{乗|の}る : monter (dans un véhicule).",
+     "type": "choice",
+     "choices": [
+      "のる",
+      "むっつ",
+      "いぜん",
+      "じょうる"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-07-通る-lecture",
+     "q": "Comment se lit **通る** ?",
+     "explain": "{通|とお}る : passer.",
+     "type": "choice",
+     "choices": [
+      "つうる",
+      "かじ",
+      "とおる",
+      "かよる"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-07-送る-lecture",
+     "q": "Comment se lit **送る** ?",
+     "explain": "{送|おく}る : envoyer, raccompagner.",
+     "type": "choice",
+     "choices": [
+      "いじょう",
+      "かしゅ",
+      "そうる",
+      "おくる"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-07-近い-lecture",
+     "q": "Comment se lit **近い** ?",
+     "explain": "{近|ちか}い : proche.",
+     "type": "choice",
+     "choices": [
+      "きんい",
+      "したまち",
+      "ちかい",
+      "せんしゅう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-07-遠い-lecture",
+     "q": "Comment se lit **遠い** ?",
+     "explain": "{遠|とお}い : loin.",
+     "type": "choice",
+     "choices": [
+      "わだい",
+      "とおい",
+      "げつようび",
+      "えんい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-07-乗り物-trou",
+     "q": "Complète le mot **のりもの** (véhicule) :",
+     "jp": "乗り＿",
+     "explain": "{乗|の}り{物|もの} : véhicule.",
+     "type": "choice",
+     "choices": [
+      "牛",
+      "乗",
+      "特",
+      "物"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-07-乗る-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "駅で電車に**乗**ります。",
+     "explain": "**乗** se lit の ici ({乗|の}る : monter (dans un véhicule)). « Je prends le train à la gare. »",
+     "type": "choice",
+     "choices": [
+      "の",
+      "ち",
+      "あ",
+      "ば"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-07-乗-kanji",
+     "q": "Quel kanji veut dire « monter (dans un véhicule) » ?",
+     "explain": "**乗** : monter (dans un véhicule). Une personne perchée en haut d'un arbre 木 : elle monte dessus.",
+     "type": "choice",
+     "choices": [
+      "水",
+      "乗",
+      "来",
+      "垂"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-07-乗る-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{乗|の}る se lit のる, pas じょうる.",
+     "type": "choice",
+     "choices": [
+      "近い → ちかい",
+      "乗る → じょうる",
+      "遠い → とおい",
+      "近く → ちかく"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-07-通る-ecrit",
+     "q": "Quel mot s'écrit **とおる** (passer) ?",
+     "explain": "{通|とお}る : passer.",
+     "type": "choice",
+     "choices": [
+      "通る",
+      "週る",
+      "月る",
+      "進る"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k4-08",
+   "title": "Partir, arriver : 起 待 急 早 発 着",
+   "sections": [
+    {
+     "h": "起 · se lever",
+     "p": [
+      "**On** : キ　**Kun** : お(きる)、お(こす)",
+      "Courir 走 et soi-même 己 : on se lève d'un bond."
+     ],
+     "vocab": [
+      {
+       "jp": "{起|お}きる",
+       "fr": "se lever"
+      },
+      {
+       "jp": "{起|お}こす",
+       "fr": "réveiller"
+      }
+     ]
+    },
+    {
+     "h": "待 · attendre",
+     "p": [
+      "**On** : タイ　**Kun** : ま(つ)",
+      "Un chemin 彳 et un temple 寺 : on attend devant le temple."
+     ],
+     "vocab": [
+      {
+       "jp": "{待|ま}つ",
+       "fr": "attendre"
+      },
+      {
+       "jp": "{招待|しょうたい}",
+       "fr": "invitation"
+      }
+     ]
+    },
+    {
+     "h": "急 · se presser, urgent",
+     "p": [
+      "**On** : キュウ　**Kun** : いそ(ぐ)",
+      "Une main qui attrape 刍 un cœur 心 : le cœur s'emballe."
+     ],
+     "vocab": [
+      {
+       "jp": "{急|いそ}ぐ",
+       "fr": "se dépêcher"
+      },
+      {
+       "jp": "{急行|きゅうこう}",
+       "fr": "train express"
+      },
+      {
+       "jp": "{急|きゅう}に",
+       "fr": "soudain"
+      }
+     ]
+    },
+    {
+     "h": "早 · tôt",
+     "p": [
+      "**On** : ソウ　**Kun** : はや(い)",
+      "Le soleil 日 au-dessus de l'horizon 十 : il est tôt."
+     ],
+     "vocab": [
+      {
+       "jp": "{早|はや}い",
+       "fr": "tôt"
+      },
+      {
+       "jp": "{早|はや}く",
+       "fr": "vite, tôt"
+      }
+     ]
+    },
+    {
+     "h": "発 · partir, émettre",
+     "p": [
+      "**On** : ハツ、ホツ　**Kun** : —",
+      "Deux pieds 癶 qui s'élancent : le départ."
+     ],
+     "vocab": [
+      {
+       "jp": "{出発|しゅっぱつ}",
+       "fr": "départ"
+      },
+      {
+       "jp": "{発音|はつおん}",
+       "fr": "prononciation"
+      },
+      {
+       "jp": "{発表|はっぴょう}",
+       "fr": "présentation, exposé"
+      }
+     ]
+    },
+    {
+     "h": "着 · arriver, porter (vêtement)",
+     "p": [
+      "**On** : チャク　**Kun** : き(る)、つ(く)",
+      "Un mouton 羊 et un œil 目 : on enfile la laine."
+     ],
+     "vocab": [
+      {
+       "jp": "{着|き}る",
+       "fr": "porter (un haut)"
+      },
+      {
+       "jp": "{着|つ}く",
+       "fr": "arriver"
+      },
+      {
+       "jp": "{着物|きもの}",
+       "fr": "kimono"
+      },
+      {
+       "jp": "{下着|したぎ}",
+       "fr": "sous-vêtement"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "起 (se lever) : ne le confonds pas avec 走 (courir).",
+    "待 (attendre) : ne le confonds pas avec 持 (tenir, avoir), 特 (spécial).",
+    "急 (se presser, urgent) : ne le confonds pas avec 思 (penser).",
+    "着 (arriver, porter (vêtement)) : ne le confonds pas avec 者 (personne (qui fait))."
+   ],
+   "exercises": [
+    {
+     "id": "k4-08-起-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "起",
+     "explain": "**起** : se lever. Courir 走 et soi-même 己 : on se lève d'un bond.",
+     "type": "choice",
+     "choices": [
+      "arbre, bois",
+      "or, argent",
+      "se lever",
+      "ville, quartier"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-08-待-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "待",
+     "explain": "**待** : attendre. Un chemin 彳 et un temple 寺 : on attend devant le temple.",
+     "type": "choice",
+     "choices": [
+      "intervalle, entre",
+      "capitale, métropole",
+      "arbre, bois",
+      "attendre"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-08-急-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "急",
+     "explain": "**急** : se presser, urgent. Une main qui attrape 刍 un cœur 心 : le cœur s'emballe.",
+     "type": "choice",
+     "choices": [
+      "ville, quartier",
+      "arbre, bois",
+      "montagne",
+      "se presser, urgent"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-08-早-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "早",
+     "explain": "**早** : tôt. Le soleil 日 au-dessus de l'horizon 十 : il est tôt.",
+     "type": "choice",
+     "choices": [
+      "s'arrêter",
+      "monter (dans un véhicule)",
+      "tôt",
+      "midi"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-08-発-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "発",
+     "explain": "**発** : partir, émettre. Deux pieds 癶 qui s'élancent : le départ.",
+     "type": "choice",
+     "choices": [
+      "partir, émettre",
+      "oreille",
+      "nouveau",
+      "plan, schéma"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-08-着-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "着",
+     "explain": "**着** : arriver, porter (vêtement). Un mouton 羊 et un œil 目 : on enfile la laine.",
+     "type": "choice",
+     "choices": [
+      "arriver, porter (vêtement)",
+      "trois",
+      "capitale, métropole",
+      "projeter, refléter"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-08-起きる-lecture",
+     "q": "Comment se lit **起きる** ?",
+     "explain": "{起|お}きる : se lever.",
+     "type": "choice",
+     "choices": [
+      "おきる",
+      "ききる",
+      "そと",
+      "みず"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-08-待つ-lecture",
+     "q": "Comment se lit **待つ** ?",
+     "explain": "{待|ま}つ : attendre.",
+     "type": "choice",
+     "choices": [
+      "まつ",
+      "たいつ",
+      "つち",
+      "きく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-08-急ぐ-lecture",
+     "q": "Comment se lit **急ぐ** ?",
+     "explain": "{急|いそ}ぐ : se dépêcher.",
+     "type": "choice",
+     "choices": [
+      "きゅうぐ",
+      "はいる",
+      "くち",
+      "いそぐ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-08-早い-lecture",
+     "q": "Comment se lit **早い** ?",
+     "explain": "{早|はや}い : tôt.",
+     "type": "choice",
+     "choices": [
+      "らいしゅう",
+      "いちまん",
+      "はやい",
+      "そうい"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-08-出発-lecture",
+     "q": "Comment se lit **出発** ?",
+     "explain": "{出発|しゅっぱつ} : départ.",
+     "type": "choice",
+     "choices": [
+      "しゅっほつ",
+      "おこす",
+      "しゅっぱつ",
+      "しゅっはつ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-08-着る-lecture",
+     "q": "Comment se lit **着る** ?",
+     "explain": "{着|き}る : porter (un haut).",
+     "type": "choice",
+     "choices": [
+      "つる",
+      "あした",
+      "ちゃくる",
+      "きる"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-08-起きる-ecrit",
+     "q": "Quel mot s'écrit **おきる** (se lever) ?",
+     "explain": "{起|お}きる : se lever.",
+     "type": "choice",
+     "choices": [
+      "午きる",
+      "超きる",
+      "走きる",
+      "起きる"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-08-起きる-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "毎朝六時に**起き**ます。",
+     "explain": "**起き** se lit おき ici ({起|お}きる : se lever). « Je me lève à six heures tous les matins. »",
+     "type": "choice",
+     "choices": [
+      "めき",
+      "でき",
+      "おき",
+      "くき"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-08-起-kanji",
+     "q": "Quel kanji veut dire « se lever » ?",
+     "explain": "**起** : se lever. Courir 走 et soi-même 己 : on se lève d'un bond.",
+     "type": "choice",
+     "choices": [
+      "超",
+      "起",
+      "走",
+      "道"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-08-起きる-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{起|お}きる se lit おきる, pas ききる.",
+     "type": "choice",
+     "choices": [
+      "出発 → しゅっぱつ",
+      "招待 → しょうたい",
+      "早い → はやい",
+      "起きる → ききる"
+     ],
+     "a": 3
+    }
+   ]
+  },
+  {
+   "id": "k4-09",
+   "title": "Avec les mains : 開 引 持 貸 借 使",
+   "sections": [
+    {
+     "h": "開 · ouvrir",
+     "p": [
+      "**On** : カイ　**Kun** : あ(く)、あ(ける)、ひら(く)",
+      "Une porte 門 dont on lève la barre : on ouvre."
+     ],
+     "vocab": [
+      {
+       "jp": "{開|あ}ける",
+       "fr": "ouvrir"
+      },
+      {
+       "jp": "{開|あ}く",
+       "fr": "s'ouvrir"
+      }
+     ]
+    },
+    {
+     "h": "引 · tirer",
+     "p": [
+      "**On** : イン　**Kun** : ひ(く)",
+      "Un arc 弓 et sa corde tendue : on tire."
+     ],
+     "vocab": [
+      {
+       "jp": "{引|ひ}く",
+       "fr": "tirer"
+      },
+      {
+       "jp": "{引|ひ}き{出|だ}し",
+       "fr": "tiroir"
+      },
+      {
+       "jp": "{引|ひ}っ{越|こ}す",
+       "fr": "déménager"
+      }
+     ]
+    },
+    {
+     "h": "持 · tenir, avoir",
+     "p": [
+      "**On** : ジ　**Kun** : も(つ)",
+      "Une main 扌 et un temple 寺 : on tient bien."
+     ],
+     "vocab": [
+      {
+       "jp": "{持|も}つ",
+       "fr": "tenir, avoir"
+      },
+      {
+       "jp": "{気持|きも}ち",
+       "fr": "sentiment"
+      },
+      {
+       "jp": "{金持|かねも}ち",
+       "fr": "riche"
+      }
+     ]
+    },
+    {
+     "h": "貸 · prêter",
+     "p": [
+      "**On** : タイ　**Kun** : か(す)",
+      "De l'argent 貝 et un remplaçant 代 : on prête."
+     ],
+     "vocab": [
+      {
+       "jp": "{貸|か}す",
+       "fr": "prêter"
+      }
+     ]
+    },
+    {
+     "h": "借 · emprunter",
+     "p": [
+      "**On** : シャク　**Kun** : か(りる)",
+      "Une personne 亻 et autrefois 昔 : on emprunte ce qui servait jadis."
+     ],
+     "vocab": [
+      {
+       "jp": "{借|か}りる",
+       "fr": "emprunter"
+      }
+     ]
+    },
+    {
+     "h": "使 · utiliser",
+     "p": [
+      "**On** : シ　**Kun** : つか(う)",
+      "Une personne 亻 et un fonctionnaire 吏 : on l'emploie."
+     ],
+     "vocab": [
+      {
+       "jp": "{使|つか}う",
+       "fr": "utiliser"
+      },
+      {
+       "jp": "{大使館|たいしかん}",
+       "fr": "ambassade"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "開 (ouvrir) : ne le confonds pas avec 間 (intervalle, entre), 聞 (entendre, écouter).",
+    "持 (tenir, avoir) : ne le confonds pas avec 待 (attendre), 特 (spécial).",
+    "貸 (prêter) : ne le confonds pas avec 借 (emprunter).",
+    "借 (emprunter) : ne le confonds pas avec 貸 (prêter).",
+    "使 (utiliser) : ne le confonds pas avec 便 (pratique, courrier)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-09-開-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "開",
+     "explain": "**開** : ouvrir. Une porte 門 dont on lève la barre : on ouvre.",
+     "type": "choice",
+     "choices": [
+      "haut, cher",
+      "gauche",
+      "mère",
+      "ouvrir"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-09-引-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "引",
+     "explain": "**引** : tirer. Un arc 弓 et sa corde tendue : on tire.",
+     "type": "choice",
+     "choices": [
+      "tirer",
+      "œil",
+      "s'arrêter",
+      "se lever, debout"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-09-持-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "持",
+     "explain": "**持** : tenir, avoir. Une main 扌 et un temple 寺 : on tient bien.",
+     "type": "choice",
+     "choices": [
+      "écrire",
+      "monter (dans un véhicule)",
+      "école",
+      "tenir, avoir"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-09-貸-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "貸",
+     "explain": "**貸** : prêter. De l'argent 貝 et un remplaçant 代 : on prête.",
+     "type": "choice",
+     "choices": [
+      "prêter",
+      "lire",
+      "pied, jambe",
+      "passé, dernier"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-09-借-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "借",
+     "explain": "**借** : emprunter. Une personne 亻 et autrefois 昔 : on emprunte ce qui servait jadis.",
+     "type": "choice",
+     "choices": [
+      "emprunter",
+      "proche",
+      "blanc",
+      "attendre"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-09-使-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "使",
+     "explain": "**使** : utiliser. Une personne 亻 et un fonctionnaire 吏 : on l'emploie.",
+     "type": "choice",
+     "choices": [
+      "je, moi",
+      "étudier",
+      "utiliser",
+      "or, argent"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-09-開ける-lecture",
+     "q": "Comment se lit **開ける** ?",
+     "explain": "{開|あ}ける : ouvrir.",
+     "type": "choice",
+     "choices": [
+      "ひらける",
+      "かいける",
+      "あける",
+      "よみかた"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-09-引く-lecture",
+     "q": "Comment se lit **引く** ?",
+     "explain": "{引|ひ}く : tirer.",
+     "type": "choice",
+     "choices": [
+      "やおや",
+      "いんく",
+      "ひく",
+      "ちかてつ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-09-持つ-lecture",
+     "q": "Comment se lit **持つ** ?",
+     "explain": "{持|も}つ : tenir, avoir.",
+     "type": "choice",
+     "choices": [
+      "もつ",
+      "のりもの",
+      "じつ",
+      "ちかい"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-09-貸す-lecture",
+     "q": "Comment se lit **貸す** ?",
+     "explain": "{貸|か}す : prêter.",
+     "type": "choice",
+     "choices": [
+      "たいす",
+      "かす",
+      "さんぽ",
+      "はん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-09-借りる-lecture",
+     "q": "Comment se lit **借りる** ?",
+     "explain": "{借|か}りる : emprunter.",
+     "type": "choice",
+     "choices": [
+      "かりる",
+      "もり",
+      "しゃくりる",
+      "やさい"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-09-使う-lecture",
+     "q": "Comment se lit **使う** ?",
+     "explain": "{使|つか}う : utiliser.",
+     "type": "choice",
+     "choices": [
+      "しう",
+      "うんどう",
+      "へた",
+      "つかう"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-09-開ける-ecrit",
+     "q": "Quel mot s'écrit **あける** (ouvrir) ?",
+     "explain": "{開|あ}ける : ouvrir.",
+     "type": "choice",
+     "choices": [
+      "聞ける",
+      "間ける",
+      "開ける",
+      "閉ける"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-09-開ける-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{暑|あつ}いですから、{窓|まど}を**開け**ます。",
+     "explain": "**開け** se lit あけ ici ({開|あ}ける : ouvrir). « Il fait chaud, alors j'ouvre la fenêtre. »",
+     "type": "choice",
+     "choices": [
+      "こけ",
+      "だけ",
+      "めけ",
+      "あけ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-09-開-kanji",
+     "q": "Quel kanji veut dire « ouvrir » ?",
+     "explain": "**開** : ouvrir. Une porte 門 dont on lève la barre : on ouvre.",
+     "type": "choice",
+     "choices": [
+      "閉",
+      "間",
+      "開",
+      "聞"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-09-開ける-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{開|あ}ける se lit あける, pas ひらける.",
+     "type": "choice",
+     "choices": [
+      "引き出し → ひきだし",
+      "引っ越す → ひっこす",
+      "気持ち → きもち",
+      "開ける → ひらける"
+     ],
+     "a": 3
+    }
+   ]
+  },
+  {
+   "id": "k4-10",
+   "title": "Faire et vendre : 作 洗 切 売 用 集",
+   "sections": [
+    {
+     "h": "作 · faire, fabriquer",
+     "p": [
+      "**On** : サク、サ　**Kun** : つく(る)",
+      "Une personne 亻 et un outil 乍 : on fabrique."
+     ],
+     "vocab": [
+      {
+       "jp": "{作|つく}る",
+       "fr": "faire, fabriquer"
+      },
+      {
+       "jp": "{作文|さくぶん}",
+       "fr": "rédaction"
+      },
+      {
+       "jp": "{作家|さっか}",
+       "fr": "écrivain"
+      }
+     ]
+    },
+    {
+     "h": "洗 · laver",
+     "p": [
+      "**On** : セン　**Kun** : あら(う)",
+      "L'eau 氵 et ce qui est devant 先 : on lave d'abord."
+     ],
+     "vocab": [
+      {
+       "jp": "{洗|あら}う",
+       "fr": "laver"
+      },
+      {
+       "jp": "お{手洗|てあら}い",
+       "fr": "toilettes"
+      },
+      {
+       "jp": "{洗濯|せんたく}",
+       "fr": "lessive"
+      }
+     ]
+    },
+    {
+     "h": "切 · couper",
+     "p": [
+      "**On** : セツ、サイ　**Kun** : き(る)",
+      "Le chiffre sept 七 et un sabre 刀 : on coupe."
+     ],
+     "vocab": [
+      {
+       "jp": "{切|き}る",
+       "fr": "couper"
+      },
+      {
+       "jp": "{切手|きって}",
+       "fr": "timbre"
+      },
+      {
+       "jp": "{大切|たいせつ}",
+       "fr": "important, précieux"
+      },
+      {
+       "jp": "{親切|しんせつ}",
+       "fr": "gentil"
+      }
+     ]
+    },
+    {
+     "h": "売 · vendre",
+     "p": [
+      "**On** : バイ　**Kun** : う(る)",
+      "Un lettré 士 qui porte un sac : il vend."
+     ],
+     "vocab": [
+      {
+       "jp": "{売|う}る",
+       "fr": "vendre"
+      },
+      {
+       "jp": "{売|う}り{場|ば}",
+       "fr": "rayon (de magasin)"
+      },
+      {
+       "jp": "{売店|ばいてん}",
+       "fr": "kiosque"
+      }
+     ]
+    },
+    {
+     "h": "用 · usage, affaire",
+     "p": [
+      "**On** : ヨウ　**Kun** : もち(いる)",
+      "Une palissade bien construite : un outil prêt à servir."
+     ],
+     "vocab": [
+      {
+       "jp": "{用事|ようじ}",
+       "fr": "affaire, course à faire"
+      },
+      {
+       "jp": "{使用|しよう}",
+       "fr": "usage, utilisation"
+      },
+      {
+       "jp": "{用意|ようい}",
+       "fr": "préparation"
+      }
+     ]
+    },
+    {
+     "h": "集 · rassembler",
+     "p": [
+      "**On** : シュウ　**Kun** : あつ(まる)、あつ(める)",
+      "Des oiseaux 隹 sur un arbre 木 : ils se rassemblent."
+     ],
+     "vocab": [
+      {
+       "jp": "{集|あつ}める",
+       "fr": "rassembler"
+      },
+      {
+       "jp": "{集|あつ}まる",
+       "fr": "se réunir"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "作 (faire, fabriquer) : ne le confonds pas avec 昨 (passé, dernier).",
+    "洗 (laver) : ne le confonds pas avec 先 (avant, précédent).",
+    "売 (vendre) : ne le confonds pas avec 買 (acheter), 読 (lire).",
+    "用 (usage, affaire) : ne le confonds pas avec 月 (lune, mois).",
+    "集 (rassembler) : ne le confonds pas avec 進 (avancer)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-10-作-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "作",
+     "explain": "**作** : faire, fabriquer. Une personne 亻 et un outil 乍 : on fabrique.",
+     "type": "choice",
+     "choices": [
+      "tourner, rouler",
+      "tirer",
+      "faire, fabriquer",
+      "magasin"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-10-洗-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "洗",
+     "explain": "**洗** : laver. L'eau 氵 et ce qui est devant 先 : on lave d'abord.",
+     "type": "choice",
+     "choices": [
+      "moitié",
+      "arbre, bois",
+      "prêter",
+      "laver"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-10-切-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "切",
+     "explain": "**切** : couper. Le chiffre sept 七 et un sabre 刀 : on coupe.",
+     "type": "choice",
+     "choices": [
+      "vie, naître",
+      "dessin, image",
+      "esprit, énergie",
+      "couper"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-10-売-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "売",
+     "explain": "**売** : vendre. Un lettré 士 qui porte un sac : il vend.",
+     "type": "choice",
+     "choices": [
+      "vendre",
+      "année",
+      "marcher",
+      "courir"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-10-用-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "用",
+     "explain": "**用** : usage, affaire. Une palissade bien construite : un outil prêt à servir.",
+     "type": "choice",
+     "choices": [
+      "six",
+      "partir, émettre",
+      "usage, affaire",
+      "pluie"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-10-集-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "集",
+     "explain": "**集** : rassembler. Des oiseaux 隹 sur un arbre 木 : ils se rassemblent.",
+     "type": "choice",
+     "choices": [
+      "jour de la semaine",
+      "pluie",
+      "neuf",
+      "rassembler"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-10-作る-lecture",
+     "q": "Comment se lit **作る** ?",
+     "explain": "{作|つく}る : faire, fabriquer.",
+     "type": "choice",
+     "choices": [
+      "さくる",
+      "つくる",
+      "まいにち",
+      "さる"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-10-洗う-lecture",
+     "q": "Comment se lit **洗う** ?",
+     "explain": "{洗|あら}う : laver.",
+     "type": "choice",
+     "choices": [
+      "せんう",
+      "さんぷん",
+      "あらう",
+      "め"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-10-切る-lecture",
+     "q": "Comment se lit **切る** ?",
+     "explain": "{切|き}る : couper.",
+     "type": "choice",
+     "choices": [
+      "やすみ",
+      "せつる",
+      "さいる",
+      "きる"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-10-売る-lecture",
+     "q": "Comment se lit **売る** ?",
+     "explain": "{売|う}る : vendre.",
+     "type": "choice",
+     "choices": [
+      "がんじつ",
+      "やおや",
+      "ばいる",
+      "うる"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-10-用事-lecture",
+     "q": "Comment se lit **用事** ?",
+     "explain": "{用事|ようじ} : affaire, course à faire.",
+     "type": "choice",
+     "choices": [
+      "いく",
+      "ようじ",
+      "ようこと",
+      "もちじ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-10-集める-lecture",
+     "q": "Comment se lit **集める** ?",
+     "explain": "{集|あつ}める : rassembler.",
+     "type": "choice",
+     "choices": [
+      "のる",
+      "あつめる",
+      "こうじょう",
+      "しゅうめる"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-10-作る-ecrit",
+     "q": "Quel mot s'écrit **つくる** (faire, fabriquer) ?",
+     "explain": "{作|つく}る : faire, fabriquer.",
+     "type": "choice",
+     "choices": [
+      "作る",
+      "昨る",
+      "界る",
+      "件る"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-10-作る-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "母はケーキを**作**りました。",
+     "explain": "**作** se lit つく ici ({作|つく}る : faire, fabriquer). « Ma mère a fait un gâteau. »",
+     "type": "choice",
+     "choices": [
+      "つく",
+      "ちい",
+      "はや",
+      "たか"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-10-作-kanji",
+     "q": "Quel kanji veut dire « faire, fabriquer » ?",
+     "explain": "**作** : faire, fabriquer. Une personne 亻 et un outil 乍 : on fabrique.",
+     "type": "choice",
+     "choices": [
+      "来",
+      "昨",
+      "件",
+      "作"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-10-作る-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{作|つく}る se lit つくる, pas さくる.",
+     "type": "choice",
+     "choices": [
+      "売る → うる",
+      "作る → さくる",
+      "親切 → しんせつ",
+      "洗濯 → せんたく"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ],
+ "test": [
+  {
+   "id": "k4-b02-散歩-lecture",
+   "q": "Comment se lit **散歩** ?",
+   "explain": "{散歩|さんぽ} : promenade.",
+   "type": "choice",
+   "choices": [
+    "さんぽ",
+    "あく",
+    "さんある",
+    "さんほ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b02-歩道-lecture",
+   "q": "Comment se lit **歩道** ?",
+   "explain": "{歩道|ほどう} : trottoir.",
+   "type": "choice",
+   "choices": [
+    "あるどう",
+    "ほみち",
+    "ゆうがた",
+    "ほどう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02-止める-lecture",
+   "q": "Comment se lit **止める** ?",
+   "explain": "{止|と}める : arrêter (qqch).",
+   "type": "choice",
+   "choices": [
+    "きゅうこう",
+    "すいようび",
+    "とめる",
+    "ひきだし"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-中止-lecture",
+   "q": "Comment se lit **中止** ?",
+   "explain": "{中止|ちゅうし} : annulation.",
+   "type": "choice",
+   "choices": [
+    "じゅうし",
+    "ちゅうし",
+    "とおい",
+    "なかし"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-進む-ecrit",
+   "q": "Quel mot s'écrit **すすむ** (avancer) ?",
+   "explain": "{進|すす}む : avancer.",
+   "type": "choice",
+   "choices": [
+    "区む",
+    "近む",
+    "進む",
+    "集む"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-進学-lecture",
+   "q": "Comment se lit **進学** ?",
+   "explain": "{進学|しんがく} : poursuivre ses études.",
+   "type": "choice",
+   "choices": [
+    "しんまな",
+    "よみかた",
+    "すすがく",
+    "しんがく"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02-運転-ecrit",
+   "q": "Quel mot s'écrit **うんてん** (conduite (d'un véhicule)) ?",
+   "explain": "{運転|うんてん} : conduite (d'un véhicule).",
+   "type": "choice",
+   "choices": [
+    "上転",
+    "連転",
+    "運転",
+    "軍転"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-運ぶ-lecture",
+   "q": "Comment se lit **運ぶ** ?",
+   "explain": "{運|はこ}ぶ : transporter.",
+   "type": "choice",
+   "choices": [
+    "ふじさん",
+    "うんぶ",
+    "はこぶ",
+    "おかあさん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-運動-lecture",
+   "q": "Comment se lit **運動** ?",
+   "explain": "{運動|うんどう} : exercice, sport.",
+   "type": "choice",
+   "choices": [
+    "はこどう",
+    "うんどう",
+    "ふじさん",
+    "うんうご"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-自転車-ecrit",
+   "q": "Quel mot s'écrit **じてんしゃ** (vélo) ?",
+   "explain": "{自転車|じてんしゃ} : vélo.",
+   "type": "choice",
+   "choices": [
+    "自転車",
+    "首転車",
+    "白転車",
+    "目転車"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b02-転ぶ-lecture",
+   "q": "Comment se lit **転ぶ** ?",
+   "explain": "{転|ころ}ぶ : tomber, trébucher.",
+   "type": "choice",
+   "choices": [
+    "てんぶ",
+    "しちがつ",
+    "ころぶ",
+    "ゆうがた"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-乗り物-lecture",
+   "q": "Comment se lit **乗り物** ?",
+   "explain": "{乗|の}り{物|もの} : véhicule.",
+   "type": "choice",
+   "choices": [
+    "のりぶつ",
+    "のりもつ",
+    "のりもの",
+    "ろくがつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-通う-lecture",
+   "q": "Comment se lit **通う** ?",
+   "explain": "{通|かよ}う : fréquenter, faire le trajet.",
+   "type": "choice",
+   "choices": [
+    "ふあん",
+    "とおう",
+    "つうう",
+    "かよう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02-交通-lecture",
+   "q": "Comment se lit **交通** ?",
+   "explain": "{交通|こうつう} : circulation.",
+   "type": "choice",
+   "choices": [
+    "こうとお",
+    "こうかよ",
+    "こうつう",
+    "ひとつ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-送る-ecrit",
+   "q": "Quel mot s'écrit **おくる** (envoyer, raccompagner) ?",
+   "explain": "{送|おく}る : envoyer, raccompagner.",
+   "type": "choice",
+   "choices": [
+    "迷る",
+    "曜る",
+    "送る",
+    "道る"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-放送-lecture",
+   "q": "Comment se lit **放送** ?",
+   "explain": "{放送|ほうそう} : diffusion (radio, télé).",
+   "type": "choice",
+   "choices": [
+    "ほうおく",
+    "いそぐ",
+    "ほうそう",
+    "もん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-去年-ecrit",
+   "q": "Quel mot s'écrit **きょねん** (l'année dernière) ?",
+   "explain": "{去年|きょねん} : l'année dernière.",
+   "type": "choice",
+   "choices": [
+    "開年",
+    "去年",
+    "法年",
+    "云年"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-近く-lecture",
+   "q": "Comment se lit **近く** ?",
+   "explain": "{近|ちか}く : les environs.",
+   "type": "choice",
+   "choices": [
+    "ごぜん",
+    "きんく",
+    "ちかく",
+    "ともだち"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-最近-lecture",
+   "q": "Comment se lit **最近** ?",
+   "explain": "{最近|さいきん} : récemment.",
+   "type": "choice",
+   "choices": [
+    "ひこうき",
+    "さいきん",
+    "あめ",
+    "さいちか"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-起こす-lecture",
+   "q": "Comment se lit **起こす** ?",
+   "explain": "{起|お}こす : réveiller.",
+   "type": "choice",
+   "choices": [
+    "つき",
+    "とお",
+    "おこす",
+    "きこす"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-招待-lecture",
+   "q": "Comment se lit **招待** ?",
+   "explain": "{招待|しょうたい} : invitation.",
+   "type": "choice",
+   "choices": [
+    "しょうま",
+    "しょうたい",
+    "ながい",
+    "うつす"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-急ぐ-ecrit",
+   "q": "Quel mot s'écrit **いそぐ** (se dépêcher) ?",
+   "explain": "{急|いそ}ぐ : se dépêcher.",
+   "type": "choice",
+   "choices": [
+    "半ぐ",
+    "思ぐ",
+    "急ぐ",
+    "息ぐ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-急行-lecture",
+   "q": "Comment se lit **急行** ?",
+   "explain": "{急行|きゅうこう} : train express.",
+   "type": "choice",
+   "choices": [
+    "きゅうぎょう",
+    "きゅうい",
+    "きゅうこう",
+    "こうつう"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02-急に-lecture",
+   "q": "Comment se lit **急に** ?",
+   "explain": "{急|きゅう}に : soudain.",
+   "type": "choice",
+   "choices": [
+    "いそに",
+    "けんみん",
+    "えん",
+    "きゅうに"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02-歩く-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "駅まで**歩**いて五分です。",
+   "explain": "**歩** se lit ある ici ({歩|ある}く : marcher). « La gare est à cinq minutes à pied. »",
+   "type": "choice",
+   "choices": [
+    "しろ",
+    "ある",
+    "なか",
+    "かよ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-散歩-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "日曜日の朝は{犬|いぬ}と**散歩**します。",
+   "explain": "**散歩** se lit さんぽ ici ({散歩|さんぽ} : promenade). « Le dimanche matin, je me promène avec le chien. »",
+   "type": "choice",
+   "choices": [
+    "さんぽ",
+    "たかい",
+    "そら",
+    "うつす"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b02-歩道-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{自転車|じてんしゃ}は**歩道**を{走|はし}らないでください。",
+   "explain": "**歩道** se lit ほどう ici ({歩道|ほどう} : trottoir). « Ne roulez pas à vélo sur le trottoir. »",
+   "type": "choice",
+   "choices": [
+    "ほどう",
+    "あるどう",
+    "ぽどう",
+    "ほみち"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b02-走る-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "毎朝{公園|こうえん}を**走**ります。",
+   "explain": "**走** se lit はし ici ({走|はし}る : courir). « Je cours dans le parc tous les matins. »",
+   "type": "choice",
+   "choices": [
+    "こと",
+    "はし",
+    "まえ",
+    "そら"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02-止まる-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "車が家の前に**止ま**りました。",
+   "explain": "**止ま** se lit とま ici ({止|と}まる : s'arrêter). « Une voiture s'est arrêtée devant la maison. »",
+   "type": "choice",
+   "choices": [
+    "みま",
+    "ばま",
+    "ちま",
+    "とま"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02-止める-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "ここに車を**止め**ないでください。",
+   "explain": "**止め** se lit とめ ici ({止|と}める : arrêter (qqch)). « Ne garez pas votre voiture ici. »",
+   "type": "choice",
+   "choices": [
+    "とめ",
+    "でめ",
+    "やめ",
+    "よめ"
+   ],
+   "a": 0
+  }
+ ],
+ "examTest": [
+  {
+   "id": "k4-b02x-歩く-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "たくさん**歩**きましたから、足がいたいです。",
+   "explain": "**歩** se lit ある ici ({歩|ある}く : marcher). « J'ai beaucoup marché, alors j'ai mal aux pieds. »",
+   "type": "choice",
+   "choices": [
+    "かた",
+    "たか",
+    "すす",
+    "ある"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02x-止まる-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "急行はこの駅に**止ま**りません。",
+   "explain": "**止ま** se lit とま ici ({止|と}まる : s'arrêter). « L'express ne s'arrête pas à cette gare. »",
+   "type": "choice",
+   "choices": [
+    "ばま",
+    "あま",
+    "とま",
+    "めま"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02x-運転-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "まだ**運転**が下手です。",
+   "explain": "**運転** se lit うんてん ici ({運転|うんてん} : conduite (d'un véhicule)). « Je conduis encore mal. »",
+   "type": "choice",
+   "choices": [
+    "たつ",
+    "さくひん",
+    "うんてん",
+    "いけ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02x-乗る-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "東京駅で電車に**乗**ります。",
+   "explain": "**乗** se lit の ici ({乗|の}る : monter (dans un véhicule)). « Je prends le train à la gare de Tokyo. »",
+   "type": "choice",
+   "choices": [
+    "た",
+    "や",
+    "の",
+    "て"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02x-通る-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "バスは駅の前を**通**ります。",
+   "explain": "**通** se lit とお ici ({通|とお}る : passer). « Le bus passe devant la gare. »",
+   "type": "choice",
+   "choices": [
+    "すす",
+    "とお",
+    "ちい",
+    "めし"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02x-送る-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "友だちを駅まで**送**りました。",
+   "explain": "**送** se lit おく ici ({送|おく}る : envoyer, raccompagner). « J'ai raccompagné mon ami jusqu'à la gare. »",
+   "type": "choice",
+   "choices": [
+    "はな",
+    "まる",
+    "おく",
+    "みぎ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02x-近い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "駅の**近**くに安いレストランがあります。",
+   "explain": "**近** se lit ちか ici ({近|ちか}い : proche). « Il y a un restaurant pas cher près de la gare. »",
+   "type": "choice",
+   "choices": [
+    "みっ",
+    "ちか",
+    "なか",
+    "あら"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02x-近く-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "駅は家から**近**いです。",
+   "explain": "**近** se lit ちか ici ({近|ちか}く : les environs). « La gare est près de chez moi. »",
+   "type": "choice",
+   "choices": [
+    "ちか",
+    "いち",
+    "しろ",
+    "あし"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b02x-遠い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "会社は**遠い**ですから、六時に起きます。",
+   "explain": "**遠い** se lit とおい ici ({遠|とお}い : loin). « Mon bureau est loin, alors je me lève à six heures. »",
+   "type": "choice",
+   "choices": [
+    "だいどころ",
+    "だいすき",
+    "ゆうめい",
+    "とおい"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b02x-起きる-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "毎朝何時に**起き**ますか。",
+   "explain": "**起き** se lit おき ici ({起|お}きる : se lever). « À quelle heure te lèves-tu le matin ? »",
+   "type": "choice",
+   "choices": [
+    "かき",
+    "さき",
+    "おき",
+    "つき"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b02x-待つ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "ちょっと**待**ってください。",
+   "explain": "**待** se lit ま ici ({待|ま}つ : attendre). « Attendez un instant, s'il vous plaît. »",
+   "type": "choice",
+   "choices": [
+    "い",
+    "ま",
+    "か",
+    "あ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b02x-急ぐ-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "時間がないので**急**ぎましょう。",
+   "explain": "**急** se lit いそ ici ({急|いそ}ぐ : se dépêcher). « On n'a pas le temps, dépêchons-nous. »",
+   "type": "choice",
+   "choices": [
+    "よん",
+    "いそ",
+    "かね",
+    "つき"
+   ],
+   "a": 1
+  }
+ ]
+}

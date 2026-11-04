@@ -908,9 +908,9 @@
      "type": "choice",
      "choices": [
       "たべ",
-      "さべ",
-      "こべ",
-      "あべ"
+      "くべ",
+      "のべ",
+      "かべ"
      ],
      "a": 0
     },
@@ -960,10 +960,10 @@
      "explain": "**食べ物** se lit たべもの ici ({食|た}べ{物|もの} : nourriture). « Quel est ton plat préféré ? »",
      "type": "choice",
      "choices": [
-      "でんわ",
+      "たべぶつ",
       "たべもの",
-      "らいげつ",
-      "さかな"
+      "しょくべもの",
+      "たべもつ"
      ],
      "a": 1
     }
@@ -1219,9 +1219,9 @@
      "explain": "**見** se lit み ici ({見|み}る : voir, regarder). « Dimanche, je vais voir un film avec un ami. »",
      "type": "choice",
      "choices": [
-      "あ",
-      "た",
       "か",
+      "い",
+      "た",
       "み"
      ],
      "a": 3
@@ -1272,10 +1272,10 @@
      "explain": "**見せ** se lit みせ ici ({見|み}せる : montrer). « Montre-moi les photos du voyage, s'il te plaît. »",
      "type": "choice",
      "choices": [
-      "たせ",
-      "わせ",
+      "ひせ",
+      "けんせ",
       "みせ",
-      "あせ"
+      "いせ"
      ],
      "a": 2
     }
@@ -1838,10 +1838,10 @@
    "explain": "{自転車|じてんしゃ} : vélo.",
    "type": "choice",
    "choices": [
-    "なんにん",
-    "じてんくるま",
+    "にちようび",
+    "みずかてんしゃ",
     "じてんしゃ",
-    "にちようび"
+    "じてんくるま"
    ],
    "a": 2
   },
@@ -1864,9 +1864,9 @@
    "explain": "{食|た}べ{物|もの} : nourriture.",
    "type": "choice",
    "choices": [
+    "たべぶつ",
+    "たべもつ",
     "のむ",
-    "しょくべもの",
-    "ぎんこう",
     "たべもの"
    ],
    "a": 3
@@ -1890,9 +1890,9 @@
    "explain": "{飲|の}み{物|もの} : boisson.",
    "type": "choice",
    "choices": [
-    "ごはん",
-    "いんみもの",
     "ひこうき",
+    "のみもつ",
+    "のみぶつ",
     "のみもの"
    ],
    "a": 3

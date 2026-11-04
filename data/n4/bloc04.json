@@ -1,0 +1,2282 @@
+{
+ "id": "k4-b04",
+ "level": "N4",
+ "title": "Couleurs, saisons, nature",
+ "lessons": [
+  {
+   "id": "k4-16",
+   "title": "Couleurs et lumière : 色 赤 青 黒 明 暗",
+   "sections": [
+    {
+     "h": "色 · couleur",
+     "p": [
+      "**On** : ショク、シキ　**Kun** : いろ",
+      "Une personne penchée sur une autre : le teint, puis la couleur."
+     ],
+     "vocab": [
+      {
+       "jp": "{色|いろ}",
+       "fr": "couleur"
+      },
+      {
+       "jp": "{茶色|ちゃいろ}",
+       "fr": "marron"
+      },
+      {
+       "jp": "{黄色|きいろ}",
+       "fr": "jaune"
+      },
+      {
+       "jp": "{景色|けしき}",
+       "fr": "paysage"
+      }
+     ]
+    },
+    {
+     "h": "赤 · rouge",
+     "p": [
+      "**On** : セキ　**Kun** : あか(い)",
+      "Un grand feu 火 sous la terre 土 : rouge."
+     ],
+     "vocab": [
+      {
+       "jp": "{赤|あか}い",
+       "fr": "rouge"
+      },
+      {
+       "jp": "{赤|あか}ちゃん",
+       "fr": "bébé"
+      }
+     ]
+    },
+    {
+     "h": "青 · bleu",
+     "p": [
+      "**On** : セイ　**Kun** : あお(い)",
+      "Une jeune pousse 生 au-dessus d'un puits : le bleu-vert de l'eau."
+     ],
+     "vocab": [
+      {
+       "jp": "{青|あお}い",
+       "fr": "bleu"
+      },
+      {
+       "jp": "{青空|あおぞら}",
+       "fr": "ciel bleu"
+      },
+      {
+       "jp": "{青年|せいねん}",
+       "fr": "jeune homme"
+      }
+     ]
+    },
+    {
+     "h": "黒 · noir",
+     "p": [
+      "**On** : コク　**Kun** : くろ(い)",
+      "Une fenêtre noircie au-dessus du feu 灬 : noir de suie."
+     ],
+     "vocab": [
+      {
+       "jp": "{黒|くろ}い",
+       "fr": "noir"
+      }
+     ]
+    },
+    {
+     "h": "明 · clair, lumineux",
+     "p": [
+      "**On** : メイ、ミョウ　**Kun** : あか(るい)、あ(ける)",
+      "Le soleil 日 et la lune 月 : la lumière."
+     ],
+     "vocab": [
+      {
+       "jp": "{明|あか}るい",
+       "fr": "clair, lumineux"
+      },
+      {
+       "jp": "{説明|せつめい}",
+       "fr": "explication"
+      },
+      {
+       "jp": "{明日|あした}",
+       "fr": "demain"
+      }
+     ]
+    },
+    {
+     "h": "暗 · sombre",
+     "p": [
+      "**On** : アン　**Kun** : くら(い)",
+      "Le soleil 日 et un son 音 : quand on ne voit plus et qu'on n'entend que des bruits, il fait sombre."
+     ],
+     "vocab": [
+      {
+       "jp": "{暗|くら}い",
+       "fr": "sombre"
+      },
+      {
+       "jp": "{暗記|あんき}",
+       "fr": "apprendre par cœur"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "明 (clair, lumineux) : ne le confonds pas avec 暗 (sombre).",
+    "暗 (sombre) : ne le confonds pas avec 音 (son), 明 (clair, lumineux)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-16-色-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "色",
+     "explain": "**色** : couleur. Une personne penchée sur une autre : le teint, puis la couleur.",
+     "type": "choice",
+     "choices": [
+      "femme",
+      "bon marché, tranquille",
+      "tirer",
+      "couleur"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-16-赤-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "赤",
+     "explain": "**赤** : rouge. Un grand feu 火 sous la terre 土 : rouge.",
+     "type": "choice",
+     "choices": [
+      "se lever, debout",
+      "fleur",
+      "rouge",
+      "tourner, rouler"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-16-青-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "青",
+     "explain": "**青** : bleu. Une jeune pousse 生 au-dessus d'un puits : le bleu-vert de l'eau.",
+     "type": "choice",
+     "choices": [
+      "six",
+      "bleu",
+      "vrai, juste",
+      "question"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-16-黒-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "黒",
+     "explain": "**黒** : noir. Une fenêtre noircie au-dessus du feu 灬 : noir de suie.",
+     "type": "choice",
+     "choices": [
+      "fleur",
+      "rouge",
+      "noir",
+      "rivière"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-16-明-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "明",
+     "explain": "**明** : clair, lumineux. Le soleil 日 et la lune 月 : la lumière.",
+     "type": "choice",
+     "choices": [
+      "approfondir",
+      "tenir, avoir",
+      "dix",
+      "clair, lumineux"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-16-暗-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "暗",
+     "explain": "**暗** : sombre. Le soleil 日 et un son 音 : quand on ne voit plus et qu'on n'entend que des bruits, il fait sombre.",
+     "type": "choice",
+     "choices": [
+      "sombre",
+      "dire",
+      "servir",
+      "ciel, vide"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-16-色-lecture",
+     "q": "Comment se lit **色** ?",
+     "explain": "{色|いろ} : couleur.",
+     "type": "choice",
+     "choices": [
+      "ろくがつ",
+      "にじゅう",
+      "いろ",
+      "はなみ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-16-赤い-lecture",
+     "q": "Comment se lit **赤い** ?",
+     "explain": "{赤|あか}い : rouge.",
+     "type": "choice",
+     "choices": [
+      "しゅと",
+      "えん",
+      "せきい",
+      "あかい"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-16-青い-lecture",
+     "q": "Comment se lit **青い** ?",
+     "explain": "{青|あお}い : bleu.",
+     "type": "choice",
+     "choices": [
+      "くろい",
+      "あおい",
+      "のみもの",
+      "せいい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-16-黒い-lecture",
+     "q": "Comment se lit **黒い** ?",
+     "explain": "{黒|くろ}い : noir.",
+     "type": "choice",
+     "choices": [
+      "にし",
+      "こくい",
+      "くろい",
+      "き"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-16-明るい-lecture",
+     "q": "Comment se lit **明るい** ?",
+     "explain": "{明|あか}るい : clair, lumineux.",
+     "type": "choice",
+     "choices": [
+      "あかるい",
+      "めいるい",
+      "あるい",
+      "ほっかいどう"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-16-暗い-lecture",
+     "q": "Comment se lit **暗い** ?",
+     "explain": "{暗|くら}い : sombre.",
+     "type": "choice",
+     "choices": [
+      "くらい",
+      "あんい",
+      "にほんご",
+      "せんもん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-16-色-ecrit",
+     "q": "Quel mot s'écrit **いろ** (couleur) ?",
+     "explain": "{色|いろ} : couleur.",
+     "type": "choice",
+     "choices": [
+      "巴",
+      "邑",
+      "大",
+      "色"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-16-色-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "どんな**色**が{好|す}きですか。",
+     "explain": "**色** se lit いろ ici ({色|いろ} : couleur). « Quelle couleur aimes-tu ? »",
+     "type": "choice",
+     "choices": [
+      "いろ",
+      "うしろ",
+      "め",
+      "しんりん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-16-色-kanji",
+     "q": "Quel kanji veut dire « couleur » ?",
+     "explain": "**色** : couleur. Une personne penchée sur une autre : le teint, puis la couleur.",
+     "type": "choice",
+     "choices": [
+      "巴",
+      "英",
+      "色",
+      "邑"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-16-茶色-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{茶色|ちゃいろ} se lit ちゃいろ, pas ちゃしき.",
+     "type": "choice",
+     "choices": [
+      "暗記 → あんき",
+      "景色 → けしき",
+      "茶色 → ちゃしき",
+      "説明 → せつめい"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k4-17",
+   "title": "Les saisons : 春 夏 秋 冬 暑 寒",
+   "sections": [
+    {
+     "h": "春 · printemps",
+     "p": [
+      "**On** : シュン　**Kun** : はる",
+      "Des plantes qui poussent au soleil 日 : le printemps."
+     ],
+     "vocab": [
+      {
+       "jp": "{春|はる}",
+       "fr": "printemps"
+      },
+      {
+       "jp": "{春休|はるやす}み",
+       "fr": "vacances de printemps"
+      }
+     ]
+    },
+    {
+     "h": "夏 · été",
+     "p": [
+      "**On** : カ、ゲ　**Kun** : なつ",
+      "Une tête 頁 sur des pieds 夂 qui traînent : on se traîne de chaleur."
+     ],
+     "vocab": [
+      {
+       "jp": "{夏|なつ}",
+       "fr": "été"
+      },
+      {
+       "jp": "{夏休|なつやす}み",
+       "fr": "vacances d'été"
+      }
+     ]
+    },
+    {
+     "h": "秋 · automne",
+     "p": [
+      "**On** : シュウ　**Kun** : あき",
+      "Les céréales 禾 et le feu 火 : on brûle les chaumes après la récolte."
+     ],
+     "vocab": [
+      {
+       "jp": "{秋|あき}",
+       "fr": "automne"
+      }
+     ]
+    },
+    {
+     "h": "冬 · hiver",
+     "p": [
+      "**On** : トウ　**Kun** : ふゆ",
+      "Des pieds 夂 qui glissent sur deux gouttes de glace."
+     ],
+     "vocab": [
+      {
+       "jp": "{冬|ふゆ}",
+       "fr": "hiver"
+      },
+      {
+       "jp": "{冬休|ふゆやす}み",
+       "fr": "vacances d'hiver"
+      }
+     ]
+    },
+    {
+     "h": "暑 · chaud (temps)",
+     "p": [
+      "**On** : ショ　**Kun** : あつ(い)",
+      "Le soleil 日 au-dessus d'une personne 者 : il fait chaud."
+     ],
+     "vocab": [
+      {
+       "jp": "{暑|あつ}い",
+       "fr": "chaud (météo)"
+      }
+     ]
+    },
+    {
+     "h": "寒 · froid (temps)",
+     "p": [
+      "**On** : カン　**Kun** : さむ(い)",
+      "Une maison 宀 bourrée de paille au-dessus de la glace : il fait froid."
+     ],
+     "vocab": [
+      {
+       "jp": "{寒|さむ}い",
+       "fr": "froid (météo)"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "秋 (automne) : ne le confonds pas avec 私 (je, moi).",
+    "冬 (hiver) : ne le confonds pas avec 終 (finir).",
+    "暑 (chaud (temps)) : ne le confonds pas avec 者 (personne (qui fait))."
+   ],
+   "exercises": [
+    {
+     "id": "k4-17-春-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "春",
+     "explain": "**春** : printemps. Des plantes qui poussent au soleil 日 : le printemps.",
+     "type": "choice",
+     "choices": [
+      "printemps",
+      "chemin, route",
+      "long, chef",
+      "vrai, juste"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-17-夏-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "夏",
+     "explain": "**夏** : été. Une tête 頁 sur des pieds 夂 qui traînent : on se traîne de chaleur.",
+     "type": "choice",
+     "choices": [
+      "partir, passé",
+      "été",
+      "noir",
+      "passer, fréquenter"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-17-秋-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "秋",
+     "explain": "**秋** : automne. Les céréales 禾 et le feu 火 : on brûle les chaumes après la récolte.",
+     "type": "choice",
+     "choices": [
+      "arrondissement",
+      "automne",
+      "gare",
+      "riz cuit, repas"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-17-冬-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "冬",
+     "explain": "**冬** : hiver. Des pieds 夂 qui glissent sur deux gouttes de glace.",
+     "type": "choice",
+     "choices": [
+      "maison, famille",
+      "hiver",
+      "pied, jambe",
+      "se presser, urgent"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-17-暑-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "暑",
+     "explain": "**暑** : chaud (temps). Le soleil 日 au-dessus d'une personne 者 : il fait chaud.",
+     "type": "choice",
+     "choices": [
+      "chaud (temps)",
+      "six",
+      "acheter",
+      "capitale, métropole"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-17-寒-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "寒",
+     "explain": "**寒** : froid (temps). Une maison 宀 bourrée de paille au-dessus de la glace : il fait froid.",
+     "type": "choice",
+     "choices": [
+      "rentrer",
+      "froid (temps)",
+      "arbre, bois",
+      "plan, schéma"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-17-春-lecture",
+     "q": "Comment se lit **春** ?",
+     "explain": "{春|はる} : printemps.",
+     "type": "choice",
+     "choices": [
+      "だいたい",
+      "きって",
+      "はる",
+      "いか"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-17-夏-lecture",
+     "q": "Comment se lit **夏** ?",
+     "explain": "{夏|なつ} : été.",
+     "type": "choice",
+     "choices": [
+      "なつ",
+      "せいねん",
+      "かねもち",
+      "かりる"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-17-秋-lecture",
+     "q": "Comment se lit **秋** ?",
+     "explain": "{秋|あき} : automne.",
+     "type": "choice",
+     "choices": [
+      "りょこう",
+      "たべもの",
+      "こと",
+      "あき"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-17-冬-lecture",
+     "q": "Comment se lit **冬** ?",
+     "explain": "{冬|ふゆ} : hiver.",
+     "type": "choice",
+     "choices": [
+      "しんりん",
+      "じだい",
+      "ふゆ",
+      "とお"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-17-暑い-lecture",
+     "q": "Comment se lit **暑い** ?",
+     "explain": "{暑|あつ}い : chaud (météo).",
+     "type": "choice",
+     "choices": [
+      "きゅうに",
+      "あつい",
+      "はこぶ",
+      "しょい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-17-寒い-lecture",
+     "q": "Comment se lit **寒い** ?",
+     "explain": "{寒|さむ}い : froid (météo).",
+     "type": "choice",
+     "choices": [
+      "なな",
+      "かんい",
+      "した",
+      "さむい"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-17-春休み-trou",
+     "q": "Complète le mot **はるやすみ** (vacances de printemps) :",
+     "jp": "春＿み",
+     "explain": "{春休|はるやす}み : vacances de printemps.",
+     "type": "choice",
+     "choices": [
+      "着",
+      "工",
+      "休",
+      "体"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-17-春-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "日本の学校は**春**に{始|はじ}まります。",
+     "explain": "**春** se lit はる ici ({春|はる} : printemps). « Au Japon, l'école commence au printemps. »",
+     "type": "choice",
+     "choices": [
+      "ちち",
+      "いちがつ",
+      "はる",
+      "えき"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-17-春-kanji",
+     "q": "Quel kanji veut dire « printemps » ?",
+     "explain": "**春** : printemps. Des plantes qui poussent au soleil 日 : le printemps.",
+     "type": "choice",
+     "choices": [
+      "泰",
+      "奏",
+      "春",
+      "三"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-17-春休み-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{春休|はるやす}み se lit はるやすみ, pas しゅんやすみ.",
+     "type": "choice",
+     "choices": [
+      "春休み → しゅんやすみ",
+      "秋 → あき",
+      "夏休み → なつやすみ",
+      "冬休み → ふゆやすみ"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k4-18",
+   "title": "Le jour, la nuit, le ciel : 昼 夜 夕 風 光 海",
+   "sections": [
+    {
+     "h": "昼 · midi, journée",
+     "p": [
+      "**On** : チュウ　**Kun** : ひる",
+      "Le soleil 日 bien délimité, au plus haut : midi."
+     ],
+     "vocab": [
+      {
+       "jp": "{昼|ひる}",
+       "fr": "midi, journée"
+      },
+      {
+       "jp": "{昼|ひる}ご{飯|はん}",
+       "fr": "déjeuner"
+      },
+      {
+       "jp": "{昼休|ひるやす}み",
+       "fr": "pause de midi"
+      }
+     ]
+    },
+    {
+     "h": "夜 · nuit",
+     "p": [
+      "**On** : ヤ　**Kun** : よる、よ",
+      "Une personne 亻 sous un toit 亠 avec la lune 夕 : la nuit."
+     ],
+     "vocab": [
+      {
+       "jp": "{夜|よる}",
+       "fr": "nuit, soir"
+      },
+      {
+       "jp": "{今夜|こんや}",
+       "fr": "ce soir"
+      },
+      {
+       "jp": "{夜中|よなか}",
+       "fr": "milieu de la nuit"
+      }
+     ]
+    },
+    {
+     "h": "夕 · soir",
+     "p": [
+      "**On** : セキ　**Kun** : ゆう",
+      "Une demi-lune au crépuscule."
+     ],
+     "vocab": [
+      {
+       "jp": "{夕方|ゆうがた}",
+       "fr": "fin d'après-midi"
+      },
+      {
+       "jp": "{夕飯|ゆうはん}",
+       "fr": "dîner"
+      },
+      {
+       "jp": "{夕|ゆう}べ",
+       "fr": "hier soir"
+      }
+     ]
+    },
+    {
+     "h": "風 · vent",
+     "p": [
+      "**On** : フウ、フ　**Kun** : かぜ",
+      "Un insecte 虫 sous une voile 几 : le vent."
+     ],
+     "vocab": [
+      {
+       "jp": "{風|かぜ}",
+       "fr": "vent"
+      },
+      {
+       "jp": "{台風|たいふう}",
+       "fr": "typhon"
+      },
+      {
+       "jp": "お{風呂|ふろ}",
+       "fr": "bain"
+      },
+      {
+       "jp": "{風邪|かぜ}",
+       "fr": "rhume"
+      }
+     ]
+    },
+    {
+     "h": "光 · lumière",
+     "p": [
+      "**On** : コウ　**Kun** : ひかり、ひか(る)",
+      "Un feu porté au-dessus d'une personne 儿 : la lumière."
+     ],
+     "vocab": [
+      {
+       "jp": "{光|ひかり}",
+       "fr": "lumière"
+      },
+      {
+       "jp": "{光|ひか}る",
+       "fr": "briller"
+      },
+      {
+       "jp": "{観光|かんこう}",
+       "fr": "tourisme"
+      }
+     ]
+    },
+    {
+     "h": "海 · mer",
+     "p": [
+      "**On** : カイ　**Kun** : うみ",
+      "L'eau 氵 et chaque 毎 : de l'eau partout, la mer."
+     ],
+     "vocab": [
+      {
+       "jp": "{海|うみ}",
+       "fr": "mer"
+      },
+      {
+       "jp": "{海外|かいがい}",
+       "fr": "étranger (outre-mer)"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "昼 (midi, journée) : ne le confonds pas avec 書 (écrire).",
+    "夜 (nuit) : ne le confonds pas avec 夕 (soir).",
+    "夕 (soir) : ne le confonds pas avec 多 (nombreux), 名 (nom).",
+    "光 (lumière) : ne le confonds pas avec 先 (avant, précédent).",
+    "海 (mer) : ne le confonds pas avec 毎 (chaque)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-18-昼-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "昼",
+     "explain": "**昼** : midi, journée. Le soleil 日 bien délimité, au plus haut : midi.",
+     "type": "choice",
+     "choices": [
+      "caractère (écrit)",
+      "midi, journée",
+      "automne",
+      "boire"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-18-夜-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "夜",
+     "explain": "**夜** : nuit. Une personne 亻 sous un toit 亠 avec la lune 夕 : la nuit.",
+     "type": "choice",
+     "choices": [
+      "nuit",
+      "arrondissement",
+      "père",
+      "endroit"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-18-夕-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "夕",
+     "explain": "**夕** : soir. Une demi-lune au crépuscule.",
+     "type": "choice",
+     "choices": [
+      "vendre",
+      "soir",
+      "terre, sol",
+      "papier"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-18-風-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "風",
+     "explain": "**風** : vent. Un insecte 虫 sous une voile 几 : le vent.",
+     "type": "choice",
+     "choices": [
+      "vent",
+      "institution",
+      "est",
+      "tenir, avoir"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-18-光-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "光",
+     "explain": "**光** : lumière. Un feu porté au-dessus d'une personne 儿 : la lumière.",
+     "type": "choice",
+     "choices": [
+      "étudier",
+      "pluie",
+      "blanc",
+      "lumière"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-18-海-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "海",
+     "explain": "**海** : mer. L'eau 氵 et chaque 毎 : de l'eau partout, la mer.",
+     "type": "choice",
+     "choices": [
+      "grand",
+      "lune, mois",
+      "mer",
+      "ville (commune), marché"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-18-昼-lecture",
+     "q": "Comment se lit **昼** ?",
+     "explain": "{昼|ひる} : midi, journée.",
+     "type": "choice",
+     "choices": [
+      "ひる",
+      "め",
+      "かす",
+      "みせ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-18-今夜-lecture",
+     "q": "Comment se lit **今夜** ?",
+     "explain": "{今夜|こんや} : ce soir.",
+     "type": "choice",
+     "choices": [
+      "おくじょう",
+      "こんよ",
+      "こんや",
+      "いまや"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-18-夕飯-lecture",
+     "q": "Comment se lit **夕飯** ?",
+     "explain": "{夕飯|ゆうはん} : dîner.",
+     "type": "choice",
+     "choices": [
+      "ゆうめし",
+      "ごしゅじん",
+      "ゆうはん",
+      "せきはん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-18-風-lecture",
+     "q": "Comment se lit **風** ?",
+     "explain": "{風|かぜ} : vent.",
+     "type": "choice",
+     "choices": [
+      "けいかく",
+      "ちいさい",
+      "ちかく",
+      "かぜ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-18-光-lecture",
+     "q": "Comment se lit **光** ?",
+     "explain": "{光|ひかり} : lumière.",
+     "type": "choice",
+     "choices": [
+      "かいがい",
+      "つくる",
+      "つごう",
+      "ひかり"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-18-海-lecture",
+     "q": "Comment se lit **海** ?",
+     "explain": "{海|うみ} : mer.",
+     "type": "choice",
+     "choices": [
+      "けしき",
+      "ごがつ",
+      "うみ",
+      "むら"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-18-昼-ecrit",
+     "q": "Quel mot s'écrit **ひる** (midi, journée) ?",
+     "explain": "{昼|ひる} : midi, journée.",
+     "type": "choice",
+     "choices": [
+      "昼",
+      "尽",
+      "書",
+      "主"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-18-昼-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**昼**は会社の近くで食べます。",
+     "explain": "**昼** se lit ひる ici ({昼|ひる} : midi, journée). « À midi, je mange près du bureau. »",
+     "type": "choice",
+     "choices": [
+      "ひる",
+      "よん",
+      "ふたり",
+      "つよい"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-18-昼-kanji",
+     "q": "Quel kanji veut dire « midi, journée » ?",
+     "explain": "**昼** : midi, journée. Le soleil 日 bien délimité, au plus haut : midi.",
+     "type": "choice",
+     "choices": [
+      "尽",
+      "昼",
+      "書",
+      "計"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-18-昼ご飯-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{昼|ひる}ご{飯|はん} se lit ひるごはん, pas ひるごめし.",
+     "type": "choice",
+     "choices": [
+      "昼ご飯 → ひるごめし",
+      "風邪 → かぜ",
+      "海外 → かいがい",
+      "昼休み → ひるやすみ"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k4-19",
+   "title": "À table : 牛 鳥 肉 菜 茶 料 理",
+   "sections": [
+    {
+     "h": "牛 · vache, bœuf",
+     "p": [
+      "**On** : ギュウ　**Kun** : うし",
+      "Une tête de vache avec sa corne qui dépasse."
+     ],
+     "vocab": [
+      {
+       "jp": "{牛肉|ぎゅうにく}",
+       "fr": "bœuf (viande)"
+      },
+      {
+       "jp": "{牛乳|ぎゅうにゅう}",
+       "fr": "lait"
+      },
+      {
+       "jp": "{牛|うし}",
+       "fr": "vache"
+      }
+     ]
+    },
+    {
+     "h": "鳥 · oiseau",
+     "p": [
+      "**On** : チョウ　**Kun** : とり",
+      "Un oiseau avec son œil, ses plumes et ses pattes 灬."
+     ],
+     "vocab": [
+      {
+       "jp": "{鳥|とり}",
+       "fr": "oiseau"
+      },
+      {
+       "jp": "{小鳥|ことり}",
+       "fr": "petit oiseau"
+      },
+      {
+       "jp": "{鳥肉|とりにく}",
+       "fr": "poulet (viande)"
+      }
+     ]
+    },
+    {
+     "h": "肉 · viande",
+     "p": [
+      "**On** : ニク　**Kun** : —",
+      "Une carcasse avec ses côtes."
+     ],
+     "vocab": [
+      {
+       "jp": "{肉|にく}",
+       "fr": "viande"
+      },
+      {
+       "jp": "{豚肉|ぶたにく}",
+       "fr": "porc (viande)"
+      }
+     ]
+    },
+    {
+     "h": "菜 · légume",
+     "p": [
+      "**On** : サイ　**Kun** : な",
+      "L'herbe 艹 et une main qui cueille 采 : les légumes."
+     ],
+     "vocab": [
+      {
+       "jp": "{野菜|やさい}",
+       "fr": "légumes"
+      }
+     ]
+    },
+    {
+     "h": "茶 · thé",
+     "p": [
+      "**On** : チャ、サ　**Kun** : —",
+      "L'herbe 艹 au-dessus d'une personne sous un abri : les feuilles de thé."
+     ],
+     "vocab": [
+      {
+       "jp": "お{茶|ちゃ}",
+       "fr": "thé"
+      },
+      {
+       "jp": "{茶色|ちゃいろ}",
+       "fr": "marron"
+      },
+      {
+       "jp": "{喫茶店|きっさてん}",
+       "fr": "café (salon de thé)"
+      }
+     ]
+    },
+    {
+     "h": "料 · frais, ingrédient",
+     "p": [
+      "**On** : リョウ　**Kun** : —",
+      "Du riz 米 et une louche 斗 : on mesure les ingrédients."
+     ],
+     "vocab": [
+      {
+       "jp": "{料理|りょうり}",
+       "fr": "cuisine (plats)"
+      },
+      {
+       "jp": "{料金|りょうきん}",
+       "fr": "tarif"
+      },
+      {
+       "jp": "{無料|むりょう}",
+       "fr": "gratuit"
+      }
+     ]
+    },
+    {
+     "h": "理 · raison, logique",
+     "p": [
+      "**On** : リ　**Kun** : —",
+      "Un joyau 王 et un village 里 : on taille la pierre en suivant son veinage, la logique."
+     ],
+     "vocab": [
+      {
+       "jp": "{料理|りょうり}",
+       "fr": "cuisine (plats)"
+      },
+      {
+       "jp": "{無理|むり}",
+       "fr": "impossible, déraisonnable"
+      },
+      {
+       "jp": "{理由|りゆう}",
+       "fr": "raison, motif"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "牛 (vache, bœuf) : ne le confonds pas avec 午 (midi), 生 (vie, naître).",
+    "菜 (légume) : ne le confonds pas avec 茶 (thé).",
+    "茶 (thé) : ne le confonds pas avec 菜 (légume), 答 (répondre)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-19-牛-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "牛",
+     "explain": "**牛** : vache, bœuf. Une tête de vache avec sa corne qui dépasse.",
+     "type": "choice",
+     "choices": [
+      "vache, bœuf",
+      "midi",
+      "feu",
+      "arbre, bois"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-鳥-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "鳥",
+     "explain": "**鳥** : oiseau. Un oiseau avec son œil, ses plumes et ses pattes 灬.",
+     "type": "choice",
+     "choices": [
+      "maintenant",
+      "grande salle",
+      "oiseau",
+      "petit"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-19-肉-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "肉",
+     "explain": "**肉** : viande. Une carcasse avec ses côtes.",
+     "type": "choice",
+     "choices": [
+      "projeter, refléter",
+      "huit",
+      "neuf",
+      "viande"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-19-菜-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "菜",
+     "explain": "**菜** : légume. L'herbe 艹 et une main qui cueille 采 : les légumes.",
+     "type": "choice",
+     "choices": [
+      "légume",
+      "se presser, urgent",
+      "terre, sol",
+      "partir, émettre"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-茶-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "茶",
+     "explain": "**茶** : thé. L'herbe 艹 au-dessus d'une personne sous un abri : les feuilles de thé.",
+     "type": "choice",
+     "choices": [
+      "sujet, titre",
+      "homme",
+      "thé",
+      "mer"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-19-料-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "料",
+     "explain": "**料** : frais, ingrédient. Du riz 米 et une louche 斗 : on mesure les ingrédients.",
+     "type": "choice",
+     "choices": [
+      "arbre, bois",
+      "huit",
+      "frais, ingrédient",
+      "société, sanctuaire"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-19-理-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "理",
+     "explain": "**理** : raison, logique. Un joyau 王 et un village 里 : on taille la pierre en suivant son veinage, la logique.",
+     "type": "choice",
+     "choices": [
+      "monter (dans un véhicule)",
+      "se reposer",
+      "avant, devant",
+      "raison, logique"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-19-牛肉-lecture",
+     "q": "Comment se lit **牛肉** ?",
+     "explain": "{牛肉|ぎゅうにく} : bœuf (viande).",
+     "type": "choice",
+     "choices": [
+      "ぎゅうにく",
+      "いなか",
+      "しごと",
+      "うしにく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-鳥-lecture",
+     "q": "Comment se lit **鳥** ?",
+     "explain": "{鳥|とり} : oiseau.",
+     "type": "choice",
+     "choices": [
+      "とり",
+      "はな",
+      "ここのつ",
+      "おちゃ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-肉-lecture",
+     "q": "Comment se lit **肉** ?",
+     "explain": "{肉|にく} : viande.",
+     "type": "choice",
+     "choices": [
+      "にく",
+      "ぎん",
+      "はやく",
+      "がいこく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-お茶-lecture",
+     "q": "Comment se lit **お茶** ?",
+     "explain": "お{茶|ちゃ} : thé.",
+     "type": "choice",
+     "choices": [
+      "たかい",
+      "おちゃ",
+      "おさ",
+      "みせ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-19-料理-lecture",
+     "q": "Comment se lit **料理** ?",
+     "explain": "{料理|りょうり} : cuisine (plats).",
+     "type": "choice",
+     "choices": [
+      "いちど",
+      "うまれる",
+      "なまえ",
+      "りょうり"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-19-牛肉-trou",
+     "q": "Complète le mot **ぎゅうにく** (bœuf (viande)) :",
+     "jp": "牛＿",
+     "explain": "{牛肉|ぎゅうにく} : bœuf (viande).",
+     "type": "choice",
+     "choices": [
+      "五",
+      "肉",
+      "内",
+      "両"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-19-牛肉-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{今夜|こんや}は**牛肉**を{焼|や}きます。",
+     "explain": "**牛肉** se lit ぎゅうにく ici ({牛肉|ぎゅうにく} : bœuf (viande)). « Ce soir, je fais griller du bœuf. »",
+     "type": "choice",
+     "choices": [
+      "ぎゅうにく",
+      "かよう",
+      "とめる",
+      "しつない"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-牛-kanji",
+     "q": "Quel kanji veut dire « vache, bœuf » ?",
+     "explain": "**牛** : vache, bœuf. Une tête de vache avec sa corne qui dépasse.",
+     "type": "choice",
+     "choices": [
+      "牛",
+      "市",
+      "生",
+      "午"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-19-牛肉-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{牛肉|ぎゅうにく} se lit ぎゅうにく, pas うしにく.",
+     "type": "choice",
+     "choices": [
+      "牛肉 → うしにく",
+      "お茶 → おちゃ",
+      "小鳥 → ことり",
+      "無理 → むり"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k4-20",
+   "title": "Loisirs : 犬 音 歌 楽 旅",
+   "sections": [
+    {
+     "h": "犬 · chien",
+     "p": [
+      "**On** : ケン　**Kun** : いぬ",
+      "Un grand 大 avec un point en haut à droite : le chien à côté de l'homme."
+     ],
+     "vocab": [
+      {
+       "jp": "{犬|いぬ}",
+       "fr": "chien"
+      }
+     ]
+    },
+    {
+     "h": "音 · son",
+     "p": [
+      "**On** : オン、イン　**Kun** : おと、ね",
+      "Debout 立 au-dessus du soleil 日 : un son qui s'élève."
+     ],
+     "vocab": [
+      {
+       "jp": "{音|おと}",
+       "fr": "son, bruit"
+      },
+      {
+       "jp": "{音楽|おんがく}",
+       "fr": "musique"
+      },
+      {
+       "jp": "{発音|はつおん}",
+       "fr": "prononciation"
+      }
+     ]
+    },
+    {
+     "h": "歌 · chanson, chanter",
+     "p": [
+      "**On** : カ　**Kun** : うた、うた(う)",
+      "Deux fois 可 et une bouche grande ouverte 欠 : on chante."
+     ],
+     "vocab": [
+      {
+       "jp": "{歌|うた}",
+       "fr": "chanson"
+      },
+      {
+       "jp": "{歌|うた}う",
+       "fr": "chanter"
+      },
+      {
+       "jp": "{歌手|かしゅ}",
+       "fr": "chanteur, chanteuse"
+      }
+     ]
+    },
+    {
+     "h": "楽 · plaisir, musique",
+     "p": [
+      "**On** : ガク、ラク　**Kun** : たの(しい)",
+      "Des clochettes accrochées à un arbre 木 : la musique, le plaisir."
+     ],
+     "vocab": [
+      {
+       "jp": "{楽|たの}しい",
+       "fr": "agréable, amusant"
+      },
+      {
+       "jp": "{音楽|おんがく}",
+       "fr": "musique"
+      },
+      {
+       "jp": "{楽|らく}",
+       "fr": "facile, confortable"
+      }
+     ]
+    },
+    {
+     "h": "旅 · voyage",
+     "p": [
+      "**On** : リョ　**Kun** : たび",
+      "Une bannière 方 et des gens qui la suivent : on part en voyage."
+     ],
+     "vocab": [
+      {
+       "jp": "{旅行|りょこう}",
+       "fr": "voyage"
+      },
+      {
+       "jp": "{旅|たび}",
+       "fr": "voyage (long)"
+      },
+      {
+       "jp": "{旅館|りょかん}",
+       "fr": "auberge japonaise"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "犬 (chien) : ne le confonds pas avec 大 (grand), 太 (gros, épais).",
+    "音 (son) : ne le confonds pas avec 暗 (sombre), 立 (se lever, debout).",
+    "楽 (plaisir, musique) : ne le confonds pas avec 薬 (médicament).",
+    "旅 (voyage) : ne le confonds pas avec 族 (famille, clan)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-20-犬-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "犬",
+     "explain": "**犬** : chien. Un grand 大 avec un point en haut à droite : le chien à côté de l'homme.",
+     "type": "choice",
+     "choices": [
+      "nord",
+      "chose",
+      "rencontrer, réunion",
+      "chien"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-20-音-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "音",
+     "explain": "**音** : son. Debout 立 au-dessus du soleil 日 : un son qui s'élève.",
+     "type": "choice",
+     "choices": [
+      "intervalle, entre",
+      "rouge",
+      "voyage",
+      "son"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-20-歌-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "歌",
+     "explain": "**歌** : chanson, chanter. Deux fois 可 et une bouche grande ouverte 欠 : on chante.",
+     "type": "choice",
+     "choices": [
+      "printemps",
+      "chanson, chanter",
+      "vie, naître",
+      "père"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-20-楽-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "楽",
+     "explain": "**楽** : plaisir, musique. Des clochettes accrochées à un arbre 木 : la musique, le plaisir.",
+     "type": "choice",
+     "choices": [
+      "plaisir, musique",
+      "portail",
+      "servir",
+      "parler, histoire"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-20-旅-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "旅",
+     "explain": "**旅** : voyage. Une bannière 方 et des gens qui la suivent : on part en voyage.",
+     "type": "choice",
+     "choices": [
+      "sept",
+      "fort",
+      "construction, artisanat",
+      "voyage"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-20-犬-lecture",
+     "q": "Comment se lit **犬** ?",
+     "explain": "{犬|いぬ} : chien.",
+     "type": "choice",
+     "choices": [
+      "くうこう",
+      "たいせつ",
+      "いぬ",
+      "はなし"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-20-音-lecture",
+     "q": "Comment se lit **音** ?",
+     "explain": "{音|おと} : son, bruit.",
+     "type": "choice",
+     "choices": [
+      "しょくじ",
+      "おと",
+      "えいが",
+      "けいかく"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-20-歌-lecture",
+     "q": "Comment se lit **歌** ?",
+     "explain": "{歌|うた} : chanson.",
+     "type": "choice",
+     "choices": [
+      "うた",
+      "たいせつ",
+      "ひだり",
+      "あく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-20-楽しい-lecture",
+     "q": "Comment se lit **楽しい** ?",
+     "explain": "{楽|たの}しい : agréable, amusant.",
+     "type": "choice",
+     "choices": [
+      "らくしい",
+      "ひかる",
+      "たのしい",
+      "がくしい"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-20-旅行-lecture",
+     "q": "Comment se lit **旅行** ?",
+     "explain": "{旅行|りょこう} : voyage.",
+     "type": "choice",
+     "choices": [
+      "りょこう",
+      "りょおこな",
+      "みぎ",
+      "りょぎょう"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-20-犬-ecrit",
+     "q": "Quel mot s'écrit **いぬ** (chien) ?",
+     "explain": "{犬|いぬ} : chien.",
+     "type": "choice",
+     "choices": [
+      "太",
+      "用",
+      "大",
+      "犬"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-20-犬-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**犬**の世話は{弟|おとうと}がします。",
+     "explain": "**犬** se lit いぬ ici ({犬|いぬ} : chien). « C'est mon petit frère qui s'occupe du chien. »",
+     "type": "choice",
+     "choices": [
+      "じしん",
+      "いぬ",
+      "あし",
+      "つかう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-20-犬-kanji",
+     "q": "Quel kanji veut dire « chien » ?",
+     "explain": "**犬** : chien. Un grand 大 avec un point en haut à droite : le chien à côté de l'homme.",
+     "type": "choice",
+     "choices": [
+      "太",
+      "気",
+      "大",
+      "犬"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-20-音楽-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{音楽|おんがく} se lit おんがく, pas ねがく.",
+     "type": "choice",
+     "choices": [
+      "音楽 → ねがく",
+      "旅館 → りょかん",
+      "旅 → たび",
+      "発音 → はつおん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-20-音-ecrit",
+     "q": "Quel mot s'écrit **おと** (son, bruit) ?",
+     "explain": "{音|おと} : son, bruit.",
+     "type": "choice",
+     "choices": [
+      "立",
+      "働",
+      "暗",
+      "音"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-20-音-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{隣|となり}の{部屋|へや}から大きい**音**が聞こえます。",
+     "explain": "**音** se lit おと ici ({音|おと} : son, bruit). « On entend un grand bruit dans la pièce d'à côté. »",
+     "type": "choice",
+     "choices": [
+      "さいきん",
+      "れんしゅう",
+      "にく",
+      "おと"
+     ],
+     "a": 3
+    }
+   ]
+  }
+ ],
+ "test": [
+  {
+   "id": "k4-b04-茶色-lecture",
+   "q": "Comment se lit **茶色** ?",
+   "explain": "{茶色|ちゃいろ} : marron.",
+   "type": "choice",
+   "choices": [
+    "けいけん",
+    "ちゃしょく",
+    "ちゃいろ",
+    "さいろ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04-黄色-lecture",
+   "q": "Comment se lit **黄色** ?",
+   "explain": "{黄色|きいろ} : jaune.",
+   "type": "choice",
+   "choices": [
+    "たのしい",
+    "きいろ",
+    "きしょく",
+    "きしき"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-景色-lecture",
+   "q": "Comment se lit **景色** ?",
+   "explain": "{景色|けしき} : paysage.",
+   "type": "choice",
+   "choices": [
+    "けしょく",
+    "けしき",
+    "けいろ",
+    "せんしゅう"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-赤い-ecrit",
+   "q": "Quel mot s'écrit **あかい** (rouge) ?",
+   "explain": "{赤|あか}い : rouge.",
+   "type": "choice",
+   "choices": [
+    "赤い",
+    "亦い",
+    "赦い",
+    "答い"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-赤ちゃん-lecture",
+   "q": "Comment se lit **赤ちゃん** ?",
+   "explain": "{赤|あか}ちゃん : bébé.",
+   "type": "choice",
+   "choices": [
+    "せきちゃん",
+    "ほんだな",
+    "うりば",
+    "あかちゃん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04-青い-ecrit",
+   "q": "Quel mot s'écrit **あおい** (bleu) ?",
+   "explain": "{青|あお}い : bleu.",
+   "type": "choice",
+   "choices": [
+    "青い",
+    "責い",
+    "静い",
+    "時い"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-青空-lecture",
+   "q": "Comment se lit **青空** ?",
+   "explain": "{青空|あおぞら} : ciel bleu.",
+   "type": "choice",
+   "choices": [
+    "あおぞら",
+    "あおそら",
+    "あおあ",
+    "おくる"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-青年-lecture",
+   "q": "Comment se lit **青年** ?",
+   "explain": "{青年|せいねん} : jeune homme.",
+   "type": "choice",
+   "choices": [
+    "つかう",
+    "あおねん",
+    "せいねん",
+    "せいとし"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04-黒い-ecrit",
+   "q": "Quel mot s'écrit **くろい** (noir) ?",
+   "explain": "{黒|くろ}い : noir.",
+   "type": "choice",
+   "choices": [
+    "黒い",
+    "家い",
+    "黙い",
+    "里い"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-明るい-ecrit",
+   "q": "Quel mot s'écrit **あかるい** (clair, lumineux) ?",
+   "explain": "{明|あか}るい : clair, lumineux.",
+   "type": "choice",
+   "choices": [
+    "明るい",
+    "千るい",
+    "暗るい",
+    "朋るい"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-説明-ecrit",
+   "q": "Quel mot s'écrit **せつめい** (explication) ?",
+   "explain": "{説明|せつめい} : explication.",
+   "type": "choice",
+   "choices": [
+    "話明",
+    "音明",
+    "説明",
+    "税明"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04-明日-lecture",
+   "q": "Comment se lit **明日** ?",
+   "explain": "{明日|あした} : demain.",
+   "type": "choice",
+   "choices": [
+    "いちど",
+    "あした",
+    "なんようび",
+    "ひとつめ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-暗い-ecrit",
+   "q": "Quel mot s'écrit **くらい** (sombre) ?",
+   "explain": "{暗|くら}い : sombre.",
+   "type": "choice",
+   "choices": [
+    "暗い",
+    "音い",
+    "明い",
+    "犬い"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-暗記-lecture",
+   "q": "Comment se lit **暗記** ?",
+   "explain": "{暗記|あんき} : apprendre par cœur.",
+   "type": "choice",
+   "choices": [
+    "くらい",
+    "あんき",
+    "くらき",
+    "にもつ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-春-ecrit",
+   "q": "Quel mot s'écrit **はる** (printemps) ?",
+   "explain": "{春|はる} : printemps.",
+   "type": "choice",
+   "choices": [
+    "奏",
+    "春",
+    "転",
+    "泰"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-春休み-lecture",
+   "q": "Comment se lit **春休み** ?",
+   "explain": "{春休|はるやす}み : vacances de printemps.",
+   "type": "choice",
+   "choices": [
+    "さいきん",
+    "はるやすみ",
+    "しゅんやすみ",
+    "はるきゅうみ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-夏-ecrit",
+   "q": "Quel mot s'écrit **なつ** (été) ?",
+   "explain": "{夏|なつ} : été.",
+   "type": "choice",
+   "choices": [
+    "夏",
+    "飯",
+    "憂",
+    "复"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-夏休み-lecture",
+   "q": "Comment se lit **夏休み** ?",
+   "explain": "{夏休|なつやす}み : vacances d'été.",
+   "type": "choice",
+   "choices": [
+    "かやすみ",
+    "げやすみ",
+    "かいもの",
+    "なつやすみ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04-冬休み-lecture",
+   "q": "Comment se lit **冬休み** ?",
+   "explain": "{冬休|ふゆやす}み : vacances d'hiver.",
+   "type": "choice",
+   "choices": [
+    "とうやすみ",
+    "ちゅうもん",
+    "ふゆきゅうみ",
+    "ふゆやすみ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04-暑い-ecrit",
+   "q": "Quel mot s'écrit **あつい** (chaud (météo)) ?",
+   "explain": "{暑|あつ}い : chaud (météo).",
+   "type": "choice",
+   "choices": [
+    "口い",
+    "暑い",
+    "署い",
+    "者い"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-昼ご飯-lecture",
+   "q": "Comment se lit **昼ご飯** ?",
+   "explain": "{昼|ひる}ご{飯|はん} : déjeuner.",
+   "type": "choice",
+   "choices": [
+    "ひるごはん",
+    "ひるごめし",
+    "みなみ",
+    "ちゅうごはん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-昼休み-lecture",
+   "q": "Comment se lit **昼休み** ?",
+   "explain": "{昼休|ひるやす}み : pause de midi.",
+   "type": "choice",
+   "choices": [
+    "ちゅうやすみ",
+    "ひるやすみ",
+    "さくねん",
+    "ひるきゅうみ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-夜-ecrit",
+   "q": "Quel mot s'écrit **よる** (nuit, soir) ?",
+   "explain": "{夜|よる} : nuit, soir.",
+   "type": "choice",
+   "choices": [
+    "液",
+    "室",
+    "夜",
+    "夕"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04-今夜-ecrit",
+   "q": "Quel mot s'écrit **こんや** (ce soir) ?",
+   "explain": "{今夜|こんや} : ce soir.",
+   "type": "choice",
+   "choices": [
+    "会夜",
+    "引夜",
+    "切夜",
+    "今夜"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04-色-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{好|す}きな**色**は{青|あお}です。",
+   "explain": "**色** se lit いろ ici ({色|いろ} : couleur). « Ma couleur préférée est le bleu. »",
+   "type": "choice",
+   "choices": [
+    "いろ",
+    "でかける",
+    "おふろ",
+    "はる"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-茶色-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**茶色**のかばんを買いました。",
+   "explain": "**茶色** se lit ちゃいろ ici ({茶色|ちゃいろ} : marron). « J'ai acheté un sac marron. »",
+   "type": "choice",
+   "choices": [
+    "ちゃしき",
+    "ちゃいろ",
+    "さいろ",
+    "ちゃしょく"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b04-景色-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "山の上から見た**景色**はきれいでした。",
+   "explain": "**景色** se lit けしき ici ({景色|けしき} : paysage). « Le paysage vu du sommet de la montagne était beau. »",
+   "type": "choice",
+   "choices": [
+    "かいぎしつ",
+    "のはら",
+    "けしき",
+    "だいどころ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04-赤い-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**赤い**セーターを買いました。",
+   "explain": "**赤い** se lit あかい ici ({赤|あか}い : rouge). « J'ai acheté un pull rouge. »",
+   "type": "choice",
+   "choices": [
+    "まいばん",
+    "こうこう",
+    "よる",
+    "あかい"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04-赤ちゃん-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**赤ちゃん**が{寝|ね}ています。",
+   "explain": "**赤ちゃん** se lit あかちゃん ici ({赤|あか}ちゃん : bébé). « Le bébé dort. »",
+   "type": "choice",
+   "choices": [
+    "あかちゃん",
+    "いちがつ",
+    "だいがく",
+    "なつやすみ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04-青い-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "今日は空が**青い**です。",
+   "explain": "**青い** se lit あおい ici ({青|あお}い : bleu). « Aujourd'hui, le ciel est bleu. »",
+   "type": "choice",
+   "choices": [
+    "ちゅうごく",
+    "さいきん",
+    "りょうり",
+    "あおい"
+   ],
+   "a": 3
+  }
+ ],
+ "examTest": [
+  {
+   "id": "k4-b04x-赤い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**赤い**りんごを三つください。",
+   "explain": "**赤い** se lit あかい ici ({赤|あか}い : rouge). « Trois pommes rouges, s'il vous plaît. »",
+   "type": "choice",
+   "choices": [
+    "あかい",
+    "ゆうじん",
+    "ゆうがた",
+    "こたえる"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04x-青い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "今日は空が**青**くてきれいです。",
+   "explain": "**青** se lit あお ici ({青|あお}い : bleu). « Aujourd'hui, le ciel est bleu et beau. »",
+   "type": "choice",
+   "choices": [
+    "みず",
+    "みみ",
+    "とも",
+    "あお"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04x-黒い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**黒い**ズボンをはいています。",
+   "explain": "**黒い** se lit くろい ici ({黒|くろ}い : noir). « Il porte un pantalon noir. »",
+   "type": "choice",
+   "choices": [
+    "おとこのこ",
+    "せつめい",
+    "くろい",
+    "あんしん"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04x-説明-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "先生の**説明**はわかりやすいです。",
+   "explain": "**説明** se lit せつめい ici ({説明|せつめい} : explication). « Les explications du professeur sont faciles à comprendre. »",
+   "type": "choice",
+   "choices": [
+    "せつめい",
+    "とめい",
+    "せつあか",
+    "せつみょう"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04x-明日-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**明日**、東京へ行きます。",
+   "explain": "**明日** se lit あした ici ({明日|あした} : demain). « Demain, je vais à Tokyo. »",
+   "type": "choice",
+   "choices": [
+    "むりょう",
+    "はっせん",
+    "あした",
+    "ひだり"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04x-暗い-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "冬は五時ごろ**暗**くなります。",
+   "explain": "**暗** se lit くら ici ({暗|くら}い : sombre). « En hiver, il fait nuit vers cinq heures. »",
+   "type": "choice",
+   "choices": [
+    "なか",
+    "よる",
+    "くら",
+    "ある"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04x-春-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**春**はあたたかいです。",
+   "explain": "**春** se lit はる ici ({春|はる} : printemps). « Le printemps est doux. »",
+   "type": "choice",
+   "choices": [
+    "しゅふ",
+    "おと",
+    "せわ",
+    "はる"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b04x-春休み-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**春休み**に国へ帰ります。",
+   "explain": "**春休み** se lit はるやすみ ici ({春休|はるやす}み : vacances de printemps). « Je rentre au pays pendant les vacances de printemps. »",
+   "type": "choice",
+   "choices": [
+    "ばあい",
+    "あかい",
+    "はるやすみ",
+    "つくる"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04x-夏-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**夏**はぼうしをかぶります。",
+   "explain": "**夏** se lit なつ ici ({夏|なつ} : été). « En été, je porte un chapeau. »",
+   "type": "choice",
+   "choices": [
+    "なつ",
+    "ごはん",
+    "いなか",
+    "あかちゃん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04x-夏休み-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**夏休み**はどこへ行きますか。",
+   "explain": "**夏休み** se lit なつやすみ ici ({夏休|なつやす}み : vacances d'été). « Où vas-tu pendant les vacances d'été ? »",
+   "type": "choice",
+   "choices": [
+    "なつやすみ",
+    "げやすみ",
+    "なつきゅうみ",
+    "かやすみ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b04x-秋-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**秋**は食べ物がおいしいです。",
+   "explain": "**秋** se lit あき ici ({秋|あき} : automne). « En automne, la nourriture est délicieuse. »",
+   "type": "choice",
+   "choices": [
+    "なんじ",
+    "どようび",
+    "あき",
+    "ひきだし"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b04x-冬-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "**冬**はとても寒いです。",
+   "explain": "**冬** se lit ふゆ ici ({冬|ふゆ} : hiver). « L'hiver est très froid. »",
+   "type": "choice",
+   "choices": [
+    "ふゆ",
+    "ろっぴゃく",
+    "べんきょう",
+    "せいさん"
+   ],
+   "a": 0
+  }
+ ]
+}

@@ -99,7 +99,7 @@
    ],
    "pieges": [
     "母 (mère) : ne le confonds pas avec 毎 (chaque).",
-    "子 (enfant) : ne le confonds pas avec 学 (étudier)."
+    "子 (enfant) : ne le confonds pas avec 学 (étudier), 字 (caractère (écrit))."
    ],
    "exercises": [
     {
@@ -258,9 +258,9 @@
      "type": "choice",
      "choices": [
       "ちち",
-      "よっつ",
-      "ください",
-      "かわ"
+      "ひと",
+      "こども",
+      "とけい"
      ],
      "a": 0
     },
@@ -310,10 +310,10 @@
      "explain": "**お父さん** se lit おとうさん ici (お{父|とう}さん : père (de quelqu'un)). « Le père de M. Tanaka est professeur. »",
      "type": "choice",
      "choices": [
-      "きく",
+      "いく",
       "おとうさん",
-      "みなみ",
-      "えん"
+      "にちようび",
+      "なんようび"
      ],
      "a": 1
     }
@@ -447,7 +447,8 @@
     }
    ],
    "pieges": [
-    "会 (rencontrer, réunion) : ne le confonds pas avec 今 (maintenant)."
+    "会 (rencontrer, réunion) : ne le confonds pas avec 今 (maintenant).",
+    "国 (pays) : ne le confonds pas avec 図 (plan, schéma)."
    ],
    "exercises": [
     {
@@ -619,9 +620,9 @@
      "explain": "{家族|かぞく} : famille.",
      "type": "choice",
      "choices": [
-      "朝",
+      "旅",
+      "放",
       "人",
-      "気",
       "族"
      ],
      "a": 3
@@ -633,9 +634,9 @@
      "explain": "**家** se lit いえ ici ({家|いえ} : maison). « Je rentre à la maison à six heures. »",
      "type": "choice",
      "choices": [
-      "としょかん",
-      "はんぶん",
-      "かいもの",
+      "みち",
+      "てんき",
+      "ほん",
       "いえ"
      ],
      "a": 3
@@ -768,7 +769,7 @@
    ],
    "pieges": [
     "手 (main) : ne le confonds pas avec 午 (midi).",
-    "目 (œil) : ne le confonds pas avec 日 (jour, soleil).",
+    "目 (œil) : ne le confonds pas avec 日 (jour, soleil), 自 (soi-même).",
     "口 (bouche) : ne le confonds pas avec 日 (jour, soleil)."
    ],
    "exercises": [
@@ -915,9 +916,9 @@
      "type": "choice",
      "choices": [
       "紙",
-      "円",
-      "道",
-      "年"
+      "年",
+      "低",
+      "級"
      ],
      "a": 0
     },
@@ -928,10 +929,10 @@
      "explain": "**手紙** se lit てがみ ici ({手紙|てがみ} : lettre). « J'écris une lettre à un ami. »",
      "type": "choice",
      "choices": [
-      "しがつ",
-      "えいご",
+      "てかみ",
+      "てし",
       "てがみ",
-      "あめ"
+      "しゅがみ"
      ],
      "a": 2
     },
@@ -951,12 +952,12 @@
     {
      "id": "k5-18-手紙-intrus",
      "q": "Un seul de ces mots est mal lu. Lequel ?",
-     "explain": "{手紙|てがみ} se lit てがみ, pas しゅがみ.",
+     "explain": "{手紙|てがみ} se lit てがみ, pas てし.",
      "type": "choice",
      "choices": [
       "足りる → たりる",
       "足 → あし",
-      "手紙 → しゅがみ",
+      "手紙 → てし",
       "口 → くち"
      ],
      "a": 2
@@ -982,7 +983,7 @@
      "type": "choice",
      "choices": [
       "かしゅ",
-      "そと",
+      "しちがつ",
       "ごがつ",
       "つき"
      ],
@@ -1090,7 +1091,8 @@
    ],
    "pieges": [
     "入 (entrer) : ne le confonds pas avec 人 (personne), 八 (huit).",
-    "出 (sortir) : ne le confonds pas avec 山 (montagne)."
+    "出 (sortir) : ne le confonds pas avec 山 (montagne).",
+    "休 (se reposer) : ne le confonds pas avec 体 (corps)."
    ],
    "exercises": [
     {
@@ -1248,10 +1250,10 @@
      "explain": "**入** se lit はい ici ({入|はい}る : entrer). « Je vous en prie, entrez. »",
      "type": "choice",
      "choices": [
-      "つき",
-      "やっ",
+      "そと",
+      "なに",
       "はい",
-      "とお"
+      "あし"
      ],
      "a": 2
     },
@@ -1414,6 +1416,7 @@
     }
    ],
    "pieges": [
+    "新 (nouveau) : ne le confonds pas avec 親 (parent, intime).",
     "白 (blanc) : ne le confonds pas avec 百 (cent), 日 (jour, soleil)."
    ],
    "exercises": [
@@ -1599,9 +1602,9 @@
      "explain": "**高い** se lit たかい ici ({高|たか}い : haut, cher). « Cet appareil photo est cher. Il coûte 100 000 yens. »",
      "type": "choice",
      "choices": [
-      "ながい",
-      "おかあさん",
-      "つち",
+      "のむ",
+      "ふるい",
+      "えいご",
       "たかい"
      ],
      "a": 3
@@ -1761,7 +1764,7 @@
    "choices": [
     "うまれる",
     "さっか",
-    "さっけ",
+    "さっいえ",
     "さっうち"
    ],
    "a": 1
@@ -1889,9 +1892,9 @@
    "explain": "{手紙|てがみ} : lettre.",
    "type": "choice",
    "choices": [
-    "うまれる",
+    "てかみ",
     "しゅがみ",
-    "としょかん",
+    "うまれる",
     "てがみ"
    ],
    "a": 3
@@ -1902,8 +1905,8 @@
    "explain": "{歌手|かしゅ} : chanteur.",
    "type": "choice",
    "choices": [
-    "でんき",
     "こんばん",
+    "うたしゅ",
     "かしゅ",
     "かて"
    ],
@@ -1915,9 +1918,9 @@
    "explain": "{運転手|うんてんしゅ} : chauffeur.",
    "type": "choice",
    "choices": [
-    "にほんじん",
     "しゃちょう",
     "うんてんて",
+    "うんころしゅ",
     "うんてんしゅ"
    ],
    "a": 3
@@ -1955,10 +1958,10 @@
    "explain": "**父** se lit ちち ici ({父|ちち} : mon père). « Mon père lit le journal tous les matins. »",
    "type": "choice",
    "choices": [
-    "なか",
-    "やすみ",
+    "いれる",
+    "いえ",
     "ちち",
-    "いく"
+    "がいこくじん"
    ],
    "a": 2
   },
@@ -1969,9 +1972,9 @@
    "explain": "**母** se lit はは ici ({母|はは} : ma mère). « Je parle avec ma mère au téléphone. »",
    "type": "choice",
    "choices": [
-    "いく",
-    "あんしん",
-    "むっつ",
+    "こんしゅう",
+    "くがつ",
+    "にほんじん",
     "はは"
    ],
    "a": 3
@@ -1983,10 +1986,10 @@
    "explain": "**お母さん** se lit おかあさん ici (お{母|かあ}さん : mère (de quelqu'un)). « Maman, je suis rentré ! »",
    "type": "choice",
    "choices": [
-    "め",
-    "みなみ",
+    "よっつ",
+    "みち",
     "おかあさん",
-    "ちゅうがくせい"
+    "なんにん"
    ],
    "a": 2
   },
@@ -1997,10 +2000,10 @@
    "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant). « Il y a beaucoup d'enfants au parc. »",
    "type": "choice",
    "choices": [
-    "あさ",
     "すども",
+    "にじゅう",
     "こども",
-    "きょう"
+    "にほん"
    ],
    "a": 2
   },
@@ -2041,9 +2044,9 @@
    "explain": "**父** se lit ちち ici ({父|ちち} : mon père). « La voiture de mon père est vieille. »",
    "type": "choice",
    "choices": [
-    "おとこのこ",
-    "かわ",
-    "はいる",
+    "こうこうせい",
+    "でんき",
+    "ふたつ",
     "ちち"
    ],
    "a": 3
@@ -2056,9 +2059,9 @@
    "type": "choice",
    "choices": [
     "こども",
-    "ごはん",
     "なんぷん",
-    "ひとり"
+    "ちゅうごく",
+    "うしろ"
    ],
    "a": 0
   },
@@ -2070,9 +2073,9 @@
    "type": "choice",
    "choices": [
     "いえ",
-    "せんせい",
-    "のむ",
-    "さっか"
+    "どようび",
+    "じてんしゃ",
+    "ひとり"
    ],
    "a": 0
   },
@@ -2111,10 +2114,10 @@
    "explain": "**電車** se lit でんしゃ ici ({電車|でんしゃ} : train). « Le bus est lent, alors j'y vais en train. »",
    "type": "choice",
    "choices": [
-    "しょくどう",
+    "やっつ",
     "でんしゃ",
-    "じんじゃ",
-    "とうきょう"
+    "ふつか",
+    "ここのつ"
    ],
    "a": 1
   },
@@ -2126,9 +2129,9 @@
    "type": "choice",
    "choices": [
     "くに",
-    "あめ",
-    "はんぶん",
-    "はな"
+    "おんなのひと",
+    "あんしん",
+    "えき"
    ],
    "a": 0
   },
@@ -2181,9 +2184,9 @@
    "explain": "**休** se lit やす ici ({休|やす}む : se reposer). « J'ai attrapé un rhume, alors je ne vais pas à l'école. »",
    "type": "choice",
    "choices": [
-    "かわ",
-    "ちい",
-    "かた",
+    "いつ",
+    "とし",
+    "そと",
     "やす"
    ],
    "a": 3

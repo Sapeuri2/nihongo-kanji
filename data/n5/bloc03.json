@@ -472,7 +472,9 @@
     }
    ],
    "pieges": [
-    "間 (intervalle, entre) : ne le confonds pas avec 聞 (entendre, écouter)."
+    "年 (année) : ne le confonds pas avec 牛 (vache, bœuf).",
+    "間 (intervalle, entre) : ne le confonds pas avec 聞 (entendre, écouter).",
+    "午 (midi) : ne le confonds pas avec 牛 (vache, bœuf)."
    ],
    "exercises": [
     {
@@ -672,9 +674,9 @@
      "explain": "**来年** se lit らいねん ici ({来年|らいねん} : l'année prochaine). « L'année prochaine, j'entre à l'université. »",
      "type": "choice",
      "choices": [
+      "しょくどう",
+      "がっこう",
       "さくねん",
-      "こうこう",
-      "だいがく",
       "らいねん"
      ],
      "a": 3
@@ -940,9 +942,9 @@
      "type": "choice",
      "choices": [
       "あさ",
-      "つき",
-      "へた",
-      "ふたり"
+      "ちかてつ",
+      "みる",
+      "くるま"
      ],
      "a": 0
     },
@@ -993,9 +995,9 @@
      "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner). « Ce matin, je n'ai pas pris de petit-déjeuner. »",
      "type": "choice",
      "choices": [
-      "ついたち",
-      "わたし",
-      "のみもの",
+      "ふつか",
+      "だいがく",
+      "くるま",
       "あさごはん"
      ],
      "a": 3
@@ -1278,10 +1280,10 @@
      "explain": "{東京|とうきょう} : Tokyo.",
      "type": "choice",
      "choices": [
-      "飲",
-      "火",
+      "高",
+      "景",
       "京",
-      "先"
+      "飲"
      ],
      "a": 2
     },
@@ -1292,10 +1294,10 @@
      "explain": "**東** se lit ひがし ici ({東|ひがし} : est). « À l'est de la gare, il y a un grand parc. »",
      "type": "choice",
      "choices": [
-      "がっこう",
+      "あめ",
       "ひがし",
-      "いつつ",
-      "さんぜん"
+      "ほんだな",
+      "としょかん"
      ],
      "a": 1
     },
@@ -1574,10 +1576,10 @@
      "explain": "**山** se lit やま ici ({山|やま} : montagne). « En hiver, il neige beaucoup sur les montagnes. »",
      "type": "choice",
      "choices": [
-      "とお",
-      "つき",
+      "ひこうき",
+      "かいもの",
       "やま",
-      "ふじさん"
+      "いつつ"
      ],
      "a": 2
     },
@@ -1628,10 +1630,10 @@
      "explain": "**道** se lit みち ici ({道|みち} : chemin, route). « Allez tout droit dans cette rue. »",
      "type": "choice",
      "choices": [
-      "まいあさ",
+      "なまえ",
       "みち",
-      "はな",
-      "なんようび"
+      "ほんだな",
+      "ごはん"
      ],
      "a": 1
     }
@@ -1736,8 +1738,8 @@
    "explain": "{去年|きょねん} : l'année dernière.",
    "type": "choice",
    "choices": [
-    "えいご",
     "おおきい",
+    "さねん",
     "きょねん",
     "きょとし"
    ],
@@ -1944,9 +1946,9 @@
    "explain": "{元気|げんき} : en forme.",
    "type": "choice",
    "choices": [
-    "せん",
-    "げんけ",
     "ほんだな",
+    "がんき",
+    "げんけ",
     "げんき"
    ],
    "a": 3
@@ -1986,9 +1988,9 @@
    "explain": "**お金** se lit おかね ici (お{金|かね} : argent). « Aujourd'hui, je n'ai pas d'argent. »",
    "type": "choice",
    "choices": [
-    "こうこう",
-    "せん",
-    "ひこうき",
+    "こんしゅう",
+    "ちゅうごく",
+    "げんき",
     "おかね"
    ],
    "a": 3
@@ -2028,9 +2030,9 @@
    "explain": "**分か** se lit わか ici ({分|わ}かる : comprendre). « Je comprends un peu le japonais. »",
    "type": "choice",
    "choices": [
-    "のか",
-    "あか",
-    "ふんか",
+    "さか",
+    "たか",
+    "みか",
     "わか"
    ],
    "a": 3

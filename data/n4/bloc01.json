@@ -1,0 +1,2189 @@
+{
+ "id": "k4-b01",
+ "level": "N4",
+ "title": "La ville et les lieux",
+ "lessons": [
+  {
+   "id": "k4-01",
+   "title": "Villes et régions : 町 村 市 区 県 都 京",
+   "sections": [
+    {
+     "h": "町 · ville, quartier",
+     "p": [
+      "**On** : チョウ　**Kun** : まち",
+      "Un champ 田 et un clou 丁 : le quartier tracé au cordeau."
+     ],
+     "vocab": [
+      {
+       "jp": "{町|まち}",
+       "fr": "ville, quartier"
+      },
+      {
+       "jp": "{下町|したまち}",
+       "fr": "vieux quartier populaire"
+      }
+     ]
+    },
+    {
+     "h": "村 · village",
+     "p": [
+      "**On** : ソン　**Kun** : むら",
+      "Un arbre 木 et une main 寸 : là où l'on plante, le village."
+     ],
+     "vocab": [
+      {
+       "jp": "{村|むら}",
+       "fr": "village"
+      },
+      {
+       "jp": "{村長|そんちょう}",
+       "fr": "chef du village"
+      }
+     ]
+    },
+    {
+     "h": "市 · ville (commune), marché",
+     "p": [
+      "**On** : シ　**Kun** : いち",
+      "Un toit et un tissu suspendu : l'étal du marché, puis la ville."
+     ],
+     "vocab": [
+      {
+       "jp": "{市|し}",
+       "fr": "ville (commune)"
+      },
+      {
+       "jp": "{市長|しちょう}",
+       "fr": "maire"
+      },
+      {
+       "jp": "{市場|いちば}",
+       "fr": "marché"
+      }
+     ]
+    },
+    {
+     "h": "区 · arrondissement",
+     "p": [
+      "**On** : ク　**Kun** : —",
+      "Une boîte 匚 où l'on range des morceaux ✕ : la ville découpée en arrondissements."
+     ],
+     "vocab": [
+      {
+       "jp": "{区|く}",
+       "fr": "arrondissement"
+      },
+      {
+       "jp": "{地区|ちく}",
+       "fr": "quartier, zone"
+      },
+      {
+       "jp": "{区役所|くやくしょ}",
+       "fr": "mairie d'arrondissement"
+      }
+     ]
+    },
+    {
+     "h": "県 · préfecture (département)",
+     "p": [
+      "**On** : ケン　**Kun** : —",
+      "Un œil 目 posé sur un socle : le chef-lieu qui surveille la région."
+     ],
+     "vocab": [
+      {
+       "jp": "{県|けん}",
+       "fr": "préfecture (région)"
+      },
+      {
+       "jp": "{県民|けんみん}",
+       "fr": "habitants de la préfecture"
+      }
+     ]
+    },
+    {
+     "h": "都 · capitale, métropole",
+     "p": [
+      "**On** : ト、ツ　**Kun** : みやこ",
+      "Des gens 者 et un village 阝 : la grande ville, la capitale."
+     ],
+     "vocab": [
+      {
+       "jp": "{京都|きょうと}",
+       "fr": "Kyoto"
+      },
+      {
+       "jp": "{都合|つごう}",
+       "fr": "disponibilité, convenance"
+      },
+      {
+       "jp": "{首都|しゅと}",
+       "fr": "capitale"
+      }
+     ]
+    },
+    {
+     "h": "京 · capitale",
+     "p": [
+      "**On** : キョウ、ケイ　**Kun** : —",
+      "Une haute tour sur une colline : la capitale."
+     ],
+     "vocab": [
+      {
+       "jp": "{東京|とうきょう}",
+       "fr": "Tokyo"
+      },
+      {
+       "jp": "{京都|きょうと}",
+       "fr": "Kyoto"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "町 (ville, quartier) : ne le confonds pas avec 田 (rizière), 画 (dessin, image).",
+    "村 (village) : ne le confonds pas avec 林 (bois, bosquet).",
+    "市 (ville (commune), marché) : ne le confonds pas avec 姉 (grande sœur).",
+    "区 (arrondissement) : ne le confonds pas avec 医 (médecine).",
+    "県 (préfecture (département)) : ne le confonds pas avec 見 (voir).",
+    "都 (capitale, métropole) : ne le confonds pas avec 者 (personne (qui fait)).",
+    "京 (capitale) : ne le confonds pas avec 高 (haut, cher)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-01-町-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "町",
+     "explain": "**町** : ville, quartier. Un champ 田 et un clou 丁 : le quartier tracé au cordeau.",
+     "type": "choice",
+     "choices": [
+      "rentrer",
+      "ville, quartier",
+      "gare",
+      "haut, sur"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-01-村-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "村",
+     "explain": "**村** : village. Un arbre 木 et une main 寸 : là où l'on plante, le village.",
+     "type": "choice",
+     "choices": [
+      "capitale",
+      "acheter",
+      "village",
+      "passé, dernier"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-01-市-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "市",
+     "explain": "**市** : ville (commune), marché. Un toit et un tissu suspendu : l'étal du marché, puis la ville.",
+     "type": "choice",
+     "choices": [
+      "jour, soleil",
+      "jour de la semaine",
+      "ville (commune), marché",
+      "champ, nature"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-01-区-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "区",
+     "explain": "**区** : arrondissement. Une boîte 匚 où l'on range des morceaux ✕ : la ville découpée en arrondissements.",
+     "type": "choice",
+     "choices": [
+      "rentrer",
+      "semaine",
+      "venir",
+      "arrondissement"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-01-県-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "県",
+     "explain": "**県** : préfecture (département). Un œil 目 posé sur un socle : le chef-lieu qui surveille la région.",
+     "type": "choice",
+     "choices": [
+      "préfecture (département)",
+      "pluie",
+      "minute, partager",
+      "étang"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-01-都-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "都",
+     "explain": "**都** : capitale, métropole. Des gens 者 et un village 阝 : la grande ville, la capitale.",
+     "type": "choice",
+     "choices": [
+      "milieu, dans",
+      "femme",
+      "capitale, métropole",
+      "montagne"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-01-京-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "京",
+     "explain": "**京** : capitale. Une haute tour sur une colline : la capitale.",
+     "type": "choice",
+     "choices": [
+      "bois, bosquet",
+      "étang",
+      "étudier",
+      "capitale"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-01-下町-lecture",
+     "q": "Comment se lit **下町** ?",
+     "explain": "{下町|したまち} : vieux quartier populaire.",
+     "type": "choice",
+     "choices": [
+      "したまち",
+      "かいしゃいん",
+      "したちょう",
+      "かまち"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-01-村-lecture",
+     "q": "Comment se lit **村** ?",
+     "explain": "{村|むら} : village.",
+     "type": "choice",
+     "choices": [
+      "あんしん",
+      "むら",
+      "のむ",
+      "けさ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-01-市長-lecture",
+     "q": "Comment se lit **市長** ?",
+     "explain": "{市長|しちょう} : maire.",
+     "type": "choice",
+     "choices": [
+      "しなが",
+      "そら",
+      "しちょう",
+      "いちちょう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-01-区-lecture",
+     "q": "Comment se lit **区** ?",
+     "explain": "{区|く} : arrondissement.",
+     "type": "choice",
+     "choices": [
+      "やすい",
+      "やおや",
+      "く",
+      "しみん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-01-県-lecture",
+     "q": "Comment se lit **県** ?",
+     "explain": "{県|けん} : préfecture (région).",
+     "type": "choice",
+     "choices": [
+      "しんがく",
+      "けん",
+      "どうじ",
+      "ください"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-01-京都-lecture",
+     "q": "Comment se lit **京都** ?",
+     "explain": "{京都|きょうと} : Kyoto.",
+     "type": "choice",
+     "choices": [
+      "きょうつ",
+      "きょうみやこ",
+      "きょうと",
+      "かじ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-01-東京-lecture",
+     "q": "Comment se lit **東京** ?",
+     "explain": "{東京|とうきょう} : Tokyo.",
+     "type": "choice",
+     "choices": [
+      "とうきょう",
+      "とうけい",
+      "ひがしきょう",
+      "たべる"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-01-町-ecrit",
+     "q": "Quel mot s'écrit **まち** (ville, quartier) ?",
+     "explain": "{町|まち} : ville, quartier.",
+     "type": "choice",
+     "choices": [
+      "画",
+      "町",
+      "田",
+      "生"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-01-町-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "この**町**は外国人が{多|おお}いです。",
+     "explain": "**町** se lit まち ici ({町|まち} : ville, quartier). « Il y a beaucoup d'étrangers dans cette ville. »",
+     "type": "choice",
+     "choices": [
+      "ばいてん",
+      "まち",
+      "ことし",
+      "しゃちょう"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "k4-02",
+   "title": "Bâtiments et pièces : 店 屋 館 院 堂 室 場",
+   "sections": [
+    {
+     "h": "店 · magasin",
+     "p": [
+      "**On** : テン　**Kun** : みせ",
+      "Un abri 广 et un devin 占 : la boutique où l'on vend."
+     ],
+     "vocab": [
+      {
+       "jp": "{店|みせ}",
+       "fr": "magasin"
+      },
+      {
+       "jp": "{店員|てんいん}",
+       "fr": "vendeur, vendeuse"
+      },
+      {
+       "jp": "{喫茶店|きっさてん}",
+       "fr": "café (salon de thé)"
+      }
+     ]
+    },
+    {
+     "h": "屋 · toit, boutique",
+     "p": [
+      "**On** : オク　**Kun** : や",
+      "Un corps couché 尸 qui arrive 至 : la maison où l'on dort."
+     ],
+     "vocab": [
+      {
+       "jp": "{部屋|へや}",
+       "fr": "pièce, chambre"
+      },
+      {
+       "jp": "{本屋|ほんや}",
+       "fr": "librairie"
+      },
+      {
+       "jp": "{八百屋|やおや}",
+       "fr": "marchand de légumes"
+      },
+      {
+       "jp": "{屋上|おくじょう}",
+       "fr": "toit-terrasse"
+      }
+     ]
+    },
+    {
+     "h": "館 · grand bâtiment",
+     "p": [
+      "**On** : カン　**Kun** : —",
+      "La nourriture 食 et un grand toit 官 : l'auberge, puis le grand bâtiment."
+     ],
+     "vocab": [
+      {
+       "jp": "{図書館|としょかん}",
+       "fr": "bibliothèque"
+      },
+      {
+       "jp": "{映画館|えいがかん}",
+       "fr": "cinéma (salle)"
+      },
+      {
+       "jp": "{大使館|たいしかん}",
+       "fr": "ambassade"
+      }
+     ]
+    },
+    {
+     "h": "院 · institution",
+     "p": [
+      "**On** : イン　**Kun** : —",
+      "Une colline 阝 et une maison achevée 完 : un grand établissement."
+     ],
+     "vocab": [
+      {
+       "jp": "{病院|びょういん}",
+       "fr": "hôpital"
+      },
+      {
+       "jp": "{入院|にゅういん}",
+       "fr": "hospitalisation"
+      },
+      {
+       "jp": "{大学院|だいがくいん}",
+       "fr": "études supérieures (master)"
+      }
+     ]
+    },
+    {
+     "h": "堂 · grande salle",
+     "p": [
+      "**On** : ドウ　**Kun** : —",
+      "Une maison haute posée sur la terre 土 : la grande salle."
+     ],
+     "vocab": [
+      {
+       "jp": "{食堂|しょくどう}",
+       "fr": "cantine, réfectoire"
+      },
+      {
+       "jp": "{公会堂|こうかいどう}",
+       "fr": "salle municipale"
+      }
+     ]
+    },
+    {
+     "h": "室 · pièce, salle",
+     "p": [
+      "**On** : シツ　**Kun** : むろ",
+      "Un toit 宀 et ce qui arrive 至 : la pièce où l'on s'arrête."
+     ],
+     "vocab": [
+      {
+       "jp": "{教室|きょうしつ}",
+       "fr": "salle de classe"
+      },
+      {
+       "jp": "{会議室|かいぎしつ}",
+       "fr": "salle de réunion"
+      },
+      {
+       "jp": "{室内|しつない}",
+       "fr": "intérieur"
+      }
+     ]
+    },
+    {
+     "h": "場 · lieu",
+     "p": [
+      "**On** : ジョウ　**Kun** : ば",
+      "La terre 土 et le soleil qui se lève 昜 : un terrain dégagé, un lieu."
+     ],
+     "vocab": [
+      {
+       "jp": "{場所|ばしょ}",
+       "fr": "lieu, endroit"
+      },
+      {
+       "jp": "{会場|かいじょう}",
+       "fr": "salle (d'un événement)"
+      },
+      {
+       "jp": "{売|う}り{場|ば}",
+       "fr": "rayon (de magasin)"
+      },
+      {
+       "jp": "{駐車場|ちゅうしゃじょう}",
+       "fr": "parking"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "店 (magasin) : ne le confonds pas avec 広 (large, spacieux).",
+    "屋 (toit, boutique) : ne le confonds pas avec 室 (pièce, salle).",
+    "館 (grand bâtiment) : ne le confonds pas avec 食 (manger), 飯 (riz cuit, repas).",
+    "堂 (grande salle) : ne le confonds pas avec 室 (pièce, salle).",
+    "室 (pièce, salle) : ne le confonds pas avec 屋 (toit, boutique), 空 (ciel, vide)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-02-店-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "店",
+     "explain": "**店** : magasin. Un abri 广 et un devin 占 : la boutique où l'on vend.",
+     "type": "choice",
+     "choices": [
+      "monde, génération",
+      "dix mille",
+      "fleur",
+      "magasin"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-02-屋-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "屋",
+     "explain": "**屋** : toit, boutique. Un corps couché 尸 qui arrive 至 : la maison où l'on dort.",
+     "type": "choice",
+     "choices": [
+      "toit, boutique",
+      "étudier",
+      "capitale, métropole",
+      "direction, personne (poli)"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-02-館-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "館",
+     "explain": "**館** : grand bâtiment. La nourriture 食 et un grand toit 官 : l'auberge, puis le grand bâtiment.",
+     "type": "choice",
+     "choices": [
+      "grand bâtiment",
+      "ville (commune), marché",
+      "magasin",
+      "bouche"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-02-院-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "院",
+     "explain": "**院** : institution. Une colline 阝 et une maison achevée 完 : un grand établissement.",
+     "type": "choice",
+     "choices": [
+      "chemin, route",
+      "portail",
+      "maison, famille",
+      "institution"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-02-堂-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "堂",
+     "explain": "**堂** : grande salle. Une maison haute posée sur la terre 土 : la grande salle.",
+     "type": "choice",
+     "choices": [
+      "électricité",
+      "yen, cercle",
+      "grande salle",
+      "bas, sous"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-02-室-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "室",
+     "explain": "**室** : pièce, salle. Un toit 宀 et ce qui arrive 至 : la pièce où l'on s'arrête.",
+     "type": "choice",
+     "choices": [
+      "électricité",
+      "après, derrière",
+      "peuple",
+      "pièce, salle"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-02-場-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "場",
+     "explain": "**場** : lieu. La terre 土 et le soleil qui se lève 昜 : un terrain dégagé, un lieu.",
+     "type": "choice",
+     "choices": [
+      "haut, cher",
+      "quatre",
+      "se lever, debout",
+      "lieu"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-02-店-lecture",
+     "q": "Comment se lit **店** ?",
+     "explain": "{店|みせ} : magasin.",
+     "type": "choice",
+     "choices": [
+      "さくねん",
+      "しつない",
+      "みせ",
+      "だいすき"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-02-部屋-lecture",
+     "q": "Comment se lit **部屋** ?",
+     "explain": "{部屋|へや} : pièce, chambre.",
+     "type": "choice",
+     "choices": [
+      "へおく",
+      "へや",
+      "はやし",
+      "でぐち"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-02-図書館-lecture",
+     "q": "Comment se lit **図書館** ?",
+     "explain": "{図書館|としょかん} : bibliothèque.",
+     "type": "choice",
+     "choices": [
+      "としょかん",
+      "こうかいどう",
+      "ずしょかん",
+      "とかかん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-02-病院-lecture",
+     "q": "Comment se lit **病院** ?",
+     "explain": "{病院|びょういん} : hôpital.",
+     "type": "choice",
+     "choices": [
+      "やまいいん",
+      "みっつ",
+      "びょういん",
+      "うんてんしゅ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-02-公会堂-lecture",
+     "q": "Comment se lit **公会堂** ?",
+     "explain": "{公会堂|こうかいどう} : salle municipale.",
+     "type": "choice",
+     "choices": [
+      "こうかいどう",
+      "こうあどう",
+      "ごしゅじん",
+      "こうえどう"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-02-教室-lecture",
+     "q": "Comment se lit **教室** ?",
+     "explain": "{教室|きょうしつ} : salle de classe.",
+     "type": "choice",
+     "choices": [
+      "おししつ",
+      "ひこうき",
+      "きょうむろ",
+      "きょうしつ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-02-場所-lecture",
+     "q": "Comment se lit **場所** ?",
+     "explain": "{場所|ばしょ} : lieu, endroit.",
+     "type": "choice",
+     "choices": [
+      "ばところ",
+      "じょうしょ",
+      "ばしょ",
+      "せんもん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-02-店-ecrit",
+     "q": "Quel mot s'écrit **みせ** (magasin) ?",
+     "explain": "{店|みせ} : magasin.",
+     "type": "choice",
+     "choices": [
+      "店",
+      "広",
+      "占",
+      "子"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-02-店-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "この**店**のパンはおいしいです。",
+     "explain": "**店** se lit みせ ici ({店|みせ} : magasin). « Le pain de cette boutique est bon. »",
+     "type": "choice",
+     "choices": [
+      "ふゆやすみ",
+      "じゅうがつ",
+      "みせ",
+      "やすむ"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k4-03",
+   "title": "Sorties en ville : 銀 図 映 画 写 真",
+   "sections": [
+    {
+     "h": "銀 · argent (métal)",
+     "p": [
+      "**On** : ギン　**Kun** : —",
+      "Le métal 金 et un œil qui fixe 艮 : le métal blanc qui brille."
+     ],
+     "vocab": [
+      {
+       "jp": "{銀行|ぎんこう}",
+       "fr": "banque"
+      },
+      {
+       "jp": "{銀|ぎん}",
+       "fr": "argent (métal)"
+      },
+      {
+       "jp": "{銀色|ぎんいろ}",
+       "fr": "couleur argent"
+      }
+     ]
+    },
+    {
+     "h": "図 · plan, schéma",
+     "p": [
+      "**On** : ズ、ト　**Kun** : はか(る)",
+      "Un cadre 囗 avec un dessin dedans : le plan."
+     ],
+     "vocab": [
+      {
+       "jp": "{地図|ちず}",
+       "fr": "carte (plan)"
+      },
+      {
+       "jp": "{図書館|としょかん}",
+       "fr": "bibliothèque"
+      },
+      {
+       "jp": "{図|ず}",
+       "fr": "schéma"
+      }
+     ]
+    },
+    {
+     "h": "映 · projeter, refléter",
+     "p": [
+      "**On** : エイ　**Kun** : うつ(る)、うつ(す)",
+      "Le soleil 日 au centre 央 : l'image qui se reflète."
+     ],
+     "vocab": [
+      {
+       "jp": "{映画|えいが}",
+       "fr": "film"
+      },
+      {
+       "jp": "{映画館|えいがかん}",
+       "fr": "cinéma (salle)"
+      }
+     ]
+    },
+    {
+     "h": "画 · dessin, image",
+     "p": [
+      "**On** : ガ、カク　**Kun** : —",
+      "Un champ 田 entouré d'un cadre : le dessin, l'image."
+     ],
+     "vocab": [
+      {
+       "jp": "{映画|えいが}",
+       "fr": "film"
+      },
+      {
+       "jp": "{画家|がか}",
+       "fr": "peintre"
+      },
+      {
+       "jp": "{計画|けいかく}",
+       "fr": "plan, projet"
+      }
+     ]
+    },
+    {
+     "h": "写 · copier, photographier",
+     "p": [
+      "**On** : シャ　**Kun** : うつ(す)",
+      "Un couvercle 冖 posé sur un modèle : on recopie l'image."
+     ],
+     "vocab": [
+      {
+       "jp": "{写真|しゃしん}",
+       "fr": "photo"
+      },
+      {
+       "jp": "{写|うつ}す",
+       "fr": "copier, photographier"
+      }
+     ]
+    },
+    {
+     "h": "真 · vrai, juste",
+     "p": [
+      "**On** : シン　**Kun** : ま",
+      "Un œil 目 posé bien droit sur un socle : ce qui est vrai."
+     ],
+     "vocab": [
+      {
+       "jp": "{写真|しゃしん}",
+       "fr": "photo"
+      },
+      {
+       "jp": "{真|ま}ん{中|なか}",
+       "fr": "plein milieu"
+      },
+      {
+       "jp": "{真|ま}っ{白|しろ}",
+       "fr": "tout blanc"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "銀 (argent (métal)) : ne le confonds pas avec 金 (or, argent).",
+    "図 (plan, schéma) : ne le confonds pas avec 国 (pays).",
+    "映 (projeter, refléter) : ne le confonds pas avec 英 (anglais, excellent).",
+    "画 (dessin, image) : ne le confonds pas avec 田 (rizière).",
+    "写 (copier, photographier) : ne le confonds pas avec 字 (caractère (écrit))."
+   ],
+   "exercises": [
+    {
+     "id": "k4-03-銀-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "銀",
+     "explain": "**銀** : argent (métal). Le métal 金 et un œil qui fixe 艮 : le métal blanc qui brille.",
+     "type": "choice",
+     "choices": [
+      "manger",
+      "fleur",
+      "argent (métal)",
+      "venir"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-03-図-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "図",
+     "explain": "**図** : plan, schéma. Un cadre 囗 avec un dessin dedans : le plan.",
+     "type": "choice",
+     "choices": [
+      "plan, schéma",
+      "langue, mot",
+      "haut, cher",
+      "poisson"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-03-映-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "映",
+     "explain": "**映** : projeter, refléter. Le soleil 日 au centre 央 : l'image qui se reflète.",
+     "type": "choice",
+     "choices": [
+      "projeter, refléter",
+      "livre, origine",
+      "peuple",
+      "trois"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-03-画-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "画",
+     "explain": "**画** : dessin, image. Un champ 田 entouré d'un cadre : le dessin, l'image.",
+     "type": "choice",
+     "choices": [
+      "lune, mois",
+      "dessin, image",
+      "se lever, debout",
+      "chaque"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-03-写-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "写",
+     "explain": "**写** : copier, photographier. Un couvercle 冖 posé sur un modèle : on recopie l'image.",
+     "type": "choice",
+     "choices": [
+      "gare",
+      "copier, photographier",
+      "pluie",
+      "société, sanctuaire"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-03-真-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "真",
+     "explain": "**真** : vrai, juste. Un œil 目 posé bien droit sur un socle : ce qui est vrai.",
+     "type": "choice",
+     "choices": [
+      "gare",
+      "vrai, juste",
+      "bon marché, tranquille",
+      "année"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-03-銀-lecture",
+     "q": "Comment se lit **銀** ?",
+     "explain": "{銀|ぎん} : argent (métal).",
+     "type": "choice",
+     "choices": [
+      "おおごえ",
+      "ごはん",
+      "ぎん",
+      "ひと"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-03-地図-lecture",
+     "q": "Comment se lit **地図** ?",
+     "explain": "{地図|ちず} : carte (plan).",
+     "type": "choice",
+     "choices": [
+      "かいしゃ",
+      "ちはか",
+      "じず",
+      "ちず"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-03-映画-lecture",
+     "q": "Comment se lit **映画** ?",
+     "explain": "{映画|えいが} : film.",
+     "type": "choice",
+     "choices": [
+      "えいが",
+      "うつが",
+      "てがみ",
+      "えいかく"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-03-写真-lecture",
+     "q": "Comment se lit **写真** ?",
+     "explain": "{写真|しゃしん} : photo.",
+     "type": "choice",
+     "choices": [
+      "しゃま",
+      "しゃしん",
+      "うつしん",
+      "よみかた"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-03-銀行-trou",
+     "q": "Complète le mot **ぎんこう** (banque) :",
+     "jp": "銀＿",
+     "explain": "{銀行|ぎんこう} : banque.",
+     "type": "choice",
+     "choices": [
+      "行",
+      "日",
+      "休",
+      "時"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-03-銀行-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**銀行**は三時までです。",
+     "explain": "**銀行** se lit ぎんこう ici ({銀行|ぎんこう} : banque). « La banque est ouverte jusqu'à trois heures. »",
+     "type": "choice",
+     "choices": [
+      "ぎんこう",
+      "ぎんおこな",
+      "ぎんぎょう",
+      "ぎんい"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-03-銀-kanji",
+     "q": "Quel kanji veut dire « argent (métal) » ?",
+     "explain": "**銀** : argent (métal). Le métal 金 et un œil qui fixe 艮 : le métal blanc qui brille.",
+     "type": "choice",
+     "choices": [
+      "三",
+      "根",
+      "金",
+      "銀"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-03-銀行-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{銀行|ぎんこう} se lit ぎんこう, pas ぎんぎょう.",
+     "type": "choice",
+     "choices": [
+      "計画 → けいかく",
+      "真っ白 → まっしろ",
+      "地図 → ちず",
+      "銀行 → ぎんぎょう"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-03-地図-trou",
+     "q": "Complète le mot **ちず** (carte (plan)) :",
+     "jp": "地＿",
+     "explain": "{地図|ちず} : carte (plan).",
+     "type": "choice",
+     "choices": [
+      "外",
+      "図",
+      "国",
+      "回"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-03-地図-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**地図**を見て、駅へ行きました。",
+     "explain": "**地図** se lit ちず ici ({地図|ちず} : carte (plan)). « J'ai regardé le plan et je suis allé à la gare. »",
+     "type": "choice",
+     "choices": [
+      "ちはか",
+      "ちと",
+      "ちず",
+      "じず"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k4-04",
+   "title": "Le monde et les gens : 地 方 所 世 界 民",
+   "sections": [
+    {
+     "h": "地 · terre, sol",
+     "p": [
+      "**On** : チ、ジ　**Kun** : —",
+      "La terre 土 et un serpent 也 qui rampe : le sol."
+     ],
+     "vocab": [
+      {
+       "jp": "{地下鉄|ちかてつ}",
+       "fr": "métro"
+      },
+      {
+       "jp": "{地図|ちず}",
+       "fr": "carte (plan)"
+      },
+      {
+       "jp": "{地震|じしん}",
+       "fr": "tremblement de terre"
+      }
+     ]
+    },
+    {
+     "h": "方 · direction, personne (poli)",
+     "p": [
+      "**On** : ホウ　**Kun** : かた",
+      "Une charrue qui pointe vers une direction."
+     ],
+     "vocab": [
+      {
+       "jp": "{方|かた}",
+       "fr": "personne (poli)"
+      },
+      {
+       "jp": "{夕方|ゆうがた}",
+       "fr": "fin d'après-midi"
+      },
+      {
+       "jp": "{読|よ}み{方|かた}",
+       "fr": "façon de lire"
+      },
+      {
+       "jp": "{方法|ほうほう}",
+       "fr": "méthode"
+      }
+     ]
+    },
+    {
+     "h": "所 · endroit",
+     "p": [
+      "**On** : ショ　**Kun** : ところ",
+      "Une porte 戸 et une hache 斤 : l'endroit où l'on coupe le bois."
+     ],
+     "vocab": [
+      {
+       "jp": "{所|ところ}",
+       "fr": "endroit"
+      },
+      {
+       "jp": "{台所|だいどころ}",
+       "fr": "cuisine (pièce)"
+      },
+      {
+       "jp": "{住所|じゅうしょ}",
+       "fr": "adresse"
+      }
+     ]
+    },
+    {
+     "h": "世 · monde, génération",
+     "p": [
+      "**On** : セイ、セ　**Kun** : よ",
+      "Trois fois dix 十 réunis : trente ans, une génération, le monde."
+     ],
+     "vocab": [
+      {
+       "jp": "{世界|せかい}",
+       "fr": "monde"
+      },
+      {
+       "jp": "{世話|せわ}",
+       "fr": "soin, aide"
+      }
+     ]
+    },
+    {
+     "h": "界 · monde, limite",
+     "p": [
+      "**On** : カイ　**Kun** : —",
+      "Un champ 田 et une limite 介 : le domaine, le monde."
+     ],
+     "vocab": [
+      {
+       "jp": "{世界|せかい}",
+       "fr": "monde"
+      }
+     ]
+    },
+    {
+     "h": "民 · peuple",
+     "p": [
+      "**On** : ミン　**Kun** : たみ",
+      "Un œil percé par une aiguille : les sujets, le peuple."
+     ],
+     "vocab": [
+      {
+       "jp": "{国民|こくみん}",
+       "fr": "citoyens, la nation"
+      },
+      {
+       "jp": "{市民|しみん}",
+       "fr": "citoyen (d'une ville)"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "地 (terre, sol) : ne le confonds pas avec 池 (étang).",
+    "方 (direction, personne (poli)) : ne le confonds pas avec 万 (dix mille), 力 (force).",
+    "所 (endroit) : ne le confonds pas avec 近 (proche), 新 (nouveau).",
+    "界 (monde, limite) : ne le confonds pas avec 男 (homme), 思 (penser)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-04-地-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "地",
+     "explain": "**地** : terre, sol. La terre 土 et un serpent 也 qui rampe : le sol.",
+     "type": "choice",
+     "choices": [
+      "main",
+      "je, moi",
+      "un",
+      "terre, sol"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-方-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "方",
+     "explain": "**方** : direction, personne (poli). Une charrue qui pointe vers une direction.",
+     "type": "choice",
+     "choices": [
+      "direction, personne (poli)",
+      "entrer",
+      "enfant",
+      "femme"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-04-所-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "所",
+     "explain": "**所** : endroit. Une porte 戸 et une hache 斤 : l'endroit où l'on coupe le bois.",
+     "type": "choice",
+     "choices": [
+      "sept",
+      "étang",
+      "blanc",
+      "endroit"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-世-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "世",
+     "explain": "**世** : monde, génération. Trois fois dix 十 réunis : trente ans, une génération, le monde.",
+     "type": "choice",
+     "choices": [
+      "monde, génération",
+      "petit",
+      "rentrer",
+      "avant, précédent"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-04-界-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "界",
+     "explain": "**界** : monde, limite. Un champ 田 et une limite 介 : le domaine, le monde.",
+     "type": "choice",
+     "choices": [
+      "toit, boutique",
+      "monde, limite",
+      "haut, cher",
+      "préfecture (département)"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-04-民-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "民",
+     "explain": "**民** : peuple. Un œil percé par une aiguille : les sujets, le peuple.",
+     "type": "choice",
+     "choices": [
+      "sud",
+      "maison, famille",
+      "étudier",
+      "peuple"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-地震-lecture",
+     "q": "Comment se lit **地震** ?",
+     "explain": "{地震|じしん} : tremblement de terre.",
+     "type": "choice",
+     "choices": [
+      "め",
+      "ちしん",
+      "あと",
+      "じしん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-夕方-lecture",
+     "q": "Comment se lit **夕方** ?",
+     "explain": "{夕方|ゆうがた} : fin d'après-midi.",
+     "type": "choice",
+     "choices": [
+      "はいる",
+      "せきがた",
+      "ゆうかた",
+      "ゆうがた"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-所-lecture",
+     "q": "Comment se lit **所** ?",
+     "explain": "{所|ところ} : endroit.",
+     "type": "choice",
+     "choices": [
+      "たいせつ",
+      "ところ",
+      "ちゅうし",
+      "やきゅう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-04-世界-lecture",
+     "q": "Comment se lit **世界** ?",
+     "explain": "{世界|せかい} : monde.",
+     "type": "choice",
+     "choices": [
+      "まんなか",
+      "せいかい",
+      "せかい",
+      "よかい"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-04-国民-lecture",
+     "q": "Comment se lit **国民** ?",
+     "explain": "{国民|こくみん} : citoyens, la nation.",
+     "type": "choice",
+     "choices": [
+      "こくみん",
+      "くにみん",
+      "ちゅうごく",
+      "こくたみ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-04-地震-trou",
+     "q": "Complète le mot **じしん** (tremblement de terre) :",
+     "jp": "地＿",
+     "explain": "{地震|じしん} : tremblement de terre.",
+     "type": "choice",
+     "choices": [
+      "震",
+      "母",
+      "飲",
+      "所"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-04-地下鉄-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**地下鉄**で会社に{通|かよ}っています。",
+     "explain": "**地下鉄** se lit ちかてつ ici ({地下鉄|ちかてつ} : métro). « Je vais au travail en métro. »",
+     "type": "choice",
+     "choices": [
+      "ちかてつ",
+      "ちさてつ",
+      "じかてつ",
+      "ちしたてつ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-04-地-kanji",
+     "q": "Quel kanji veut dire « terre, sol » ?",
+     "explain": "**地** : terre, sol. La terre 土 et un serpent 也 qui rampe : le sol.",
+     "type": "choice",
+     "choices": [
+      "池",
+      "他",
+      "民",
+      "地"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-地下鉄-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{地下鉄|ちかてつ} se lit ちかてつ, pas じかてつ.",
+     "type": "choice",
+     "choices": [
+      "所 → ところ",
+      "市民 → しみん",
+      "方法 → ほうほう",
+      "地下鉄 → じかてつ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-04-夕方-trou",
+     "q": "Complète le mot **ゆうがた** (fin d'après-midi) :",
+     "jp": "夕＿",
+     "explain": "{夕方|ゆうがた} : fin d'après-midi.",
+     "type": "choice",
+     "choices": [
+      "地",
+      "方",
+      "万",
+      "力"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "k4-05",
+   "title": "Autour de la ville : 門 池 田 野 林 森",
+   "sections": [
+    {
+     "h": "門 · portail",
+     "p": [
+      "**On** : モン　**Kun** : かど",
+      "Deux battants de porte face à face."
+     ],
+     "vocab": [
+      {
+       "jp": "{門|もん}",
+       "fr": "portail"
+      },
+      {
+       "jp": "{専門|せんもん}",
+       "fr": "spécialité"
+      }
+     ]
+    },
+    {
+     "h": "池 · étang",
+     "p": [
+      "**On** : チ　**Kun** : いけ",
+      "L'eau 氵 et un serpent 也 : l'étang."
+     ],
+     "vocab": [
+      {
+       "jp": "{池|いけ}",
+       "fr": "étang"
+      },
+      {
+       "jp": "{電池|でんち}",
+       "fr": "pile (électrique)"
+      }
+     ]
+    },
+    {
+     "h": "田 · rizière",
+     "p": [
+      "**On** : デン　**Kun** : た",
+      "Une rizière vue d'en haut, en quatre parcelles."
+     ],
+     "vocab": [
+      {
+       "jp": "{田舎|いなか}",
+       "fr": "campagne"
+      },
+      {
+       "jp": "{田|た}んぼ",
+       "fr": "rizière"
+      },
+      {
+       "jp": "{山田|やまだ}",
+       "fr": "Yamada (nom)"
+      }
+     ]
+    },
+    {
+     "h": "野 · champ, nature",
+     "p": [
+      "**On** : ヤ　**Kun** : の",
+      "Un village 里 et un fil tendu 予 : les champs autour du village."
+     ],
+     "vocab": [
+      {
+       "jp": "{野菜|やさい}",
+       "fr": "légumes"
+      },
+      {
+       "jp": "{野球|やきゅう}",
+       "fr": "baseball"
+      },
+      {
+       "jp": "{野原|のはら}",
+       "fr": "plaine"
+      }
+     ]
+    },
+    {
+     "h": "林 · bois, bosquet",
+     "p": [
+      "**On** : リン　**Kun** : はやし",
+      "Deux arbres 木 : un petit bois."
+     ],
+     "vocab": [
+      {
+       "jp": "{林|はやし}",
+       "fr": "bois, bosquet"
+      },
+      {
+       "jp": "{小林|こばやし}",
+       "fr": "Kobayashi (nom)"
+      }
+     ]
+    },
+    {
+     "h": "森 · forêt",
+     "p": [
+      "**On** : シン　**Kun** : もり",
+      "Trois arbres 木 : une forêt."
+     ],
+     "vocab": [
+      {
+       "jp": "{森|もり}",
+       "fr": "forêt"
+      },
+      {
+       "jp": "{森林|しんりん}",
+       "fr": "forêt (mot écrit)"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "門 (portail) : ne le confonds pas avec 間 (intervalle, entre), 問 (question).",
+    "池 (étang) : ne le confonds pas avec 地 (terre, sol).",
+    "田 (rizière) : ne le confonds pas avec 目 (œil).",
+    "林 (bois, bosquet) : ne le confonds pas avec 森 (forêt), 木 (arbre, bois).",
+    "森 (forêt) : ne le confonds pas avec 林 (bois, bosquet), 木 (arbre, bois)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-05-門-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "門",
+     "explain": "**門** : portail. Deux battants de porte face à face.",
+     "type": "choice",
+     "choices": [
+      "portail",
+      "étudier",
+      "entendre, écouter",
+      "toit, boutique"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-05-池-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "池",
+     "explain": "**池** : étang. L'eau 氵 et un serpent 也 : l'étang.",
+     "type": "choice",
+     "choices": [
+      "peuple",
+      "étang",
+      "monde, génération",
+      "argent (métal)"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-05-田-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "田",
+     "explain": "**田** : rizière. Une rizière vue d'en haut, en quatre parcelles.",
+     "type": "choice",
+     "choices": [
+      "main",
+      "rizière",
+      "champ, nature",
+      "un"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-05-野-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "野",
+     "explain": "**野** : champ, nature. Un village 里 et un fil tendu 予 : les champs autour du village.",
+     "type": "choice",
+     "choices": [
+      "trois",
+      "lire",
+      "voir",
+      "champ, nature"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-05-林-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "林",
+     "explain": "**林** : bois, bosquet. Deux arbres 木 : un petit bois.",
+     "type": "choice",
+     "choices": [
+      "vie, naître",
+      "bois, bosquet",
+      "or, argent",
+      "parler, histoire"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-05-森-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "森",
+     "explain": "**森** : forêt. Trois arbres 木 : une forêt.",
+     "type": "choice",
+     "choices": [
+      "grand bâtiment",
+      "forêt",
+      "étang",
+      "yen, cercle"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-05-専門-lecture",
+     "q": "Comment se lit **専門** ?",
+     "explain": "{専門|せんもん} : spécialité.",
+     "type": "choice",
+     "choices": [
+      "にちようび",
+      "せんかど",
+      "はなみ",
+      "せんもん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-05-池-lecture",
+     "q": "Comment se lit **池** ?",
+     "explain": "{池|いけ} : étang.",
+     "type": "choice",
+     "choices": [
+      "ことし",
+      "いけ",
+      "ひとつめ",
+      "ゆうがた"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-05-田舎-lecture",
+     "q": "Comment se lit **田舎** ?",
+     "explain": "{田舎|いなか} : campagne.",
+     "type": "choice",
+     "choices": [
+      "がっこう",
+      "のはら",
+      "えいが",
+      "いなか"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-05-野菜-lecture",
+     "q": "Comment se lit **野菜** ?",
+     "explain": "{野菜|やさい} : légumes.",
+     "type": "choice",
+     "choices": [
+      "ほんだな",
+      "やな",
+      "のさい",
+      "やさい"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-05-林-lecture",
+     "q": "Comment se lit **林** ?",
+     "explain": "{林|はやし} : bois, bosquet.",
+     "type": "choice",
+     "choices": [
+      "ここのつ",
+      "あおぞら",
+      "りょうきん",
+      "はやし"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-05-森-lecture",
+     "q": "Comment se lit **森** ?",
+     "explain": "{森|もり} : forêt.",
+     "type": "choice",
+     "choices": [
+      "もり",
+      "いえ",
+      "やさい",
+      "はいる"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-05-専門-trou",
+     "q": "Complète le mot **せんもん** (spécialité) :",
+     "jp": "専＿",
+     "explain": "{専門|せんもん} : spécialité.",
+     "type": "choice",
+     "choices": [
+      "分",
+      "間",
+      "電",
+      "門"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-05-門-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "学校の**門**の前で会いましょう。",
+     "explain": "**門** se lit もん ici ({門|もん} : portail). « Retrouvons-nous devant le portail de l'école. »",
+     "type": "choice",
+     "choices": [
+      "かぞく",
+      "もん",
+      "でる",
+      "てがみ"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-05-門-kanji",
+     "q": "Quel kanji veut dire « portail » ?",
+     "explain": "**門** : portail. Deux battants de porte face à face.",
+     "type": "choice",
+     "choices": [
+      "門",
+      "間",
+      "行",
+      "問"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-05-専門-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{専門|せんもん} se lit せんもん, pas せんかど.",
+     "type": "choice",
+     "choices": [
+      "池 → いけ",
+      "専門 → せんかど",
+      "田んぼ → たんぼ",
+      "電池 → でんち"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ],
+ "test": [
+  {
+   "id": "k4-b01-下町-ecrit",
+   "q": "Quel mot s'écrit **したまち** (vieux quartier populaire) ?",
+   "explain": "{下町|したまち} : vieux quartier populaire.",
+   "type": "choice",
+   "choices": [
+    "土町",
+    "十町",
+    "下町",
+    "上町"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b01-村長-lecture",
+   "q": "Comment se lit **村長** ?",
+   "explain": "{村長|そんちょう} : chef du village.",
+   "type": "choice",
+   "choices": [
+    "そんちょう",
+    "そんなが",
+    "むらちょう",
+    "いぜん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b01-市-ecrit",
+   "q": "Quel mot s'écrit **し** (ville (commune)) ?",
+   "explain": "{市|し} : ville (commune).",
+   "type": "choice",
+   "choices": [
+    "布",
+    "買",
+    "六",
+    "市"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-市長-ecrit",
+   "q": "Quel mot s'écrit **しちょう** (maire) ?",
+   "explain": "{市長|しちょう} : maire.",
+   "type": "choice",
+   "choices": [
+    "布長",
+    "池長",
+    "千長",
+    "市長"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-市場-lecture",
+   "q": "Comment se lit **市場** ?",
+   "explain": "{市場|いちば} : marché.",
+   "type": "choice",
+   "choices": [
+    "えいがかん",
+    "しば",
+    "いちば",
+    "いちじょう"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b01-地区-lecture",
+   "q": "Comment se lit **地区** ?",
+   "explain": "{地区|ちく} : quartier, zone.",
+   "type": "choice",
+   "choices": [
+    "ごふん",
+    "ここのつ",
+    "じく",
+    "ちく"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-区役所-lecture",
+   "q": "Comment se lit **区役所** ?",
+   "explain": "{区役所|くやくしょ} : mairie d'arrondissement.",
+   "type": "choice",
+   "choices": [
+    "びょういん",
+    "たべる",
+    "くやくしょ",
+    "くやくところ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b01-県民-lecture",
+   "q": "Comment se lit **県民** ?",
+   "explain": "{県民|けんみん} : habitants de la préfecture.",
+   "type": "choice",
+   "choices": [
+    "だす",
+    "いけ",
+    "けんたみ",
+    "けんみん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-京都-ecrit",
+   "q": "Quel mot s'écrit **きょうと** (Kyoto) ?",
+   "explain": "{京都|きょうと} : Kyoto.",
+   "type": "choice",
+   "choices": [
+    "見都",
+    "京都",
+    "景都",
+    "高都"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-都合-lecture",
+   "q": "Comment se lit **都合** ?",
+   "explain": "{都合|つごう} : disponibilité, convenance.",
+   "type": "choice",
+   "choices": [
+    "みやこごう",
+    "やっつ",
+    "つごう",
+    "つがっ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b01-首都-lecture",
+   "q": "Comment se lit **首都** ?",
+   "explain": "{首都|しゅと} : capitale.",
+   "type": "choice",
+   "choices": [
+    "しゅみやこ",
+    "くびと",
+    "がくしゃ",
+    "しゅと"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-店員-ecrit",
+   "q": "Quel mot s'écrit **てんいん** (vendeur, vendeuse) ?",
+   "explain": "{店員|てんいん} : vendeur, vendeuse.",
+   "type": "choice",
+   "choices": [
+    "広員",
+    "店員",
+    "土員",
+    "占員"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-喫茶店-lecture",
+   "q": "Comment se lit **喫茶店** ?",
+   "explain": "{喫茶店|きっさてん} : café (salon de thé).",
+   "type": "choice",
+   "choices": [
+    "きっさてん",
+    "にがつ",
+    "きっちゃてん",
+    "きっさみせ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b01-部屋-ecrit",
+   "q": "Quel mot s'écrit **へや** (pièce, chambre) ?",
+   "explain": "{部屋|へや} : pièce, chambre.",
+   "type": "choice",
+   "choices": [
+    "女屋",
+    "部屋",
+    "方屋",
+    "分屋"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-本屋-lecture",
+   "q": "Comment se lit **本屋** ?",
+   "explain": "{本屋|ほんや} : librairie.",
+   "type": "choice",
+   "choices": [
+    "ばあい",
+    "ほんや",
+    "もとや",
+    "ほんおく"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-八百屋-lecture",
+   "q": "Comment se lit **八百屋** ?",
+   "explain": "{八百屋|やおや} : marchand de légumes.",
+   "type": "choice",
+   "choices": [
+    "ここのつ",
+    "やおおく",
+    "ひきだし",
+    "やおや"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-屋上-lecture",
+   "q": "Comment se lit **屋上** ?",
+   "explain": "{屋上|おくじょう} : toit-terrasse.",
+   "type": "choice",
+   "choices": [
+    "やじょう",
+    "おくじょう",
+    "ちかてつ",
+    "おくうえ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-図書館-ecrit",
+   "q": "Quel mot s'écrit **としょかん** (bibliothèque) ?",
+   "explain": "{図書館|としょかん} : bibliothèque.",
+   "type": "choice",
+   "choices": [
+    "回書館",
+    "図書館",
+    "曜書館",
+    "国書館"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-映画館-lecture",
+   "q": "Comment se lit **映画館** ?",
+   "explain": "{映画館|えいがかん} : cinéma (salle).",
+   "type": "choice",
+   "choices": [
+    "えいがかん",
+    "やおや",
+    "うつがかん",
+    "えいかくかん"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b01-大使館-lecture",
+   "q": "Comment se lit **大使館** ?",
+   "explain": "{大使館|たいしかん} : ambassade.",
+   "type": "choice",
+   "choices": [
+    "だいしかん",
+    "たいしかん",
+    "おおしかん",
+    "かいしゃ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-病院-ecrit",
+   "q": "Quel mot s'écrit **びょういん** (hôpital) ?",
+   "explain": "{病院|びょういん} : hôpital.",
+   "type": "choice",
+   "choices": [
+    "病院",
+    "痛院",
+    "疲院",
+    "千院"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b01-入院-lecture",
+   "q": "Comment se lit **入院** ?",
+   "explain": "{入院|にゅういん} : hospitalisation.",
+   "type": "choice",
+   "choices": [
+    "あんしん",
+    "はいいん",
+    "いいん",
+    "にゅういん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-大学院-lecture",
+   "q": "Comment se lit **大学院** ?",
+   "explain": "{大学院|だいがくいん} : études supérieures (master).",
+   "type": "choice",
+   "choices": [
+    "だいまないん",
+    "だいがくいん",
+    "ください",
+    "おおがくいん"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-食堂-ecrit",
+   "q": "Quel mot s'écrit **しょくどう** (cantine, restaurant) ?",
+   "explain": "{食堂|しょくどう} : cantine, restaurant.",
+   "type": "choice",
+   "choices": [
+    "食堂",
+    "飲堂",
+    "飯堂",
+    "西堂"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b01-町-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "私の**町**は小さいですが、きれいです。",
+   "explain": "**町** se lit まち ici ({町|まち} : ville, quartier). « Ma ville est petite, mais jolie. »",
+   "type": "choice",
+   "choices": [
+    "まち",
+    "たりる",
+    "もり",
+    "おとこのひと"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b01-下町-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{祖|そ}母は**下町**に{住|す}んでいます。",
+   "explain": "**下町** se lit したまち ici ({下町|したまち} : vieux quartier populaire). « Ma grand-mère habite dans le vieux quartier populaire. »",
+   "type": "choice",
+   "choices": [
+    "げまち",
+    "したちょう",
+    "したまち",
+    "さまち"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b01-村-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "山の上に小さい**村**があります。",
+   "explain": "**村** se lit むら ici ({村|むら} : village). « Il y a un petit village en haut de la montagne. »",
+   "type": "choice",
+   "choices": [
+    "にほん",
+    "むら",
+    "しょくどう",
+    "おおごえ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b01-市長-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**市長**は毎朝駅まで{歩|ある}きます。",
+   "explain": "**市長** se lit しちょう ici ({市長|しちょう} : maire). « Le maire marche jusqu'à la gare tous les matins. »",
+   "type": "choice",
+   "choices": [
+    "おてあらい",
+    "だいたい",
+    "ことり",
+    "しちょう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-市場-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "日曜日に**市場**で魚を買いました。",
+   "explain": "**市場** se lit いちば ici ({市場|いちば} : marché). « Dimanche, j'ai acheté du poisson au marché. »",
+   "type": "choice",
+   "choices": [
+    "かく",
+    "ばあい",
+    "おくじょう",
+    "いちば"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b01-県-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{大阪|おおさか}は大きい**県**ではありません。",
+   "explain": "**県** se lit けん ici ({県|けん} : préfecture (région)). « Osaka n'est pas une grande préfecture. »",
+   "type": "choice",
+   "choices": [
+    "いちば",
+    "でんきだい",
+    "けん",
+    "だいがくせい"
+   ],
+   "a": 2
+  }
+ ],
+ "examTest": []
+}

@@ -1,0 +1,2156 @@
+{
+ "id": "k4-b03",
+ "level": "N4",
+ "title": "Études et travail",
+ "lessons": [
+  {
+   "id": "k4-11",
+   "title": "Apprendre : 教 習 勉 強 試 験",
+   "sections": [
+    {
+     "h": "教 · enseigner",
+     "p": [
+      "**On** : キョウ　**Kun** : おし(える)",
+      "Un enfant 子 et une main avec un bâton 攵 : on enseigne."
+     ],
+     "vocab": [
+      {
+       "jp": "{教|おし}える",
+       "fr": "enseigner"
+      },
+      {
+       "jp": "{教室|きょうしつ}",
+       "fr": "salle de classe"
+      },
+      {
+       "jp": "{教会|きょうかい}",
+       "fr": "église"
+      }
+     ]
+    },
+    {
+     "h": "習 · apprendre, s'exercer",
+     "p": [
+      "**On** : シュウ　**Kun** : なら(う)",
+      "Deux ailes 羽 au-dessus du blanc 白 : l'oisillon s'exerce à voler."
+     ],
+     "vocab": [
+      {
+       "jp": "{習|なら}う",
+       "fr": "apprendre (avec qqn)"
+      },
+      {
+       "jp": "{練習|れんしゅう}",
+       "fr": "entraînement"
+      },
+      {
+       "jp": "{予習|よしゅう}",
+       "fr": "préparation (d'un cours)"
+      }
+     ]
+    },
+    {
+     "h": "勉 · effort",
+     "p": [
+      "**On** : ベン　**Kun** : —",
+      "Échapper 免 à force de bras 力 : on fait des efforts."
+     ],
+     "vocab": [
+      {
+       "jp": "{勉強|べんきょう}",
+       "fr": "étude"
+      }
+     ]
+    },
+    {
+     "h": "強 · fort",
+     "p": [
+      "**On** : キョウ、ゴウ　**Kun** : つよ(い)",
+      "Un arc 弓 et un insecte 虫 : petit mais fort, comme l'insecte."
+     ],
+     "vocab": [
+      {
+       "jp": "{強|つよ}い",
+       "fr": "fort"
+      },
+      {
+       "jp": "{勉強|べんきょう}",
+       "fr": "étude"
+      }
+     ]
+    },
+    {
+     "h": "試 · essayer, épreuve",
+     "p": [
+      "**On** : シ　**Kun** : ため(す)",
+      "La parole 言 et la règle 式 : on met à l'épreuve."
+     ],
+     "vocab": [
+      {
+       "jp": "{試験|しけん}",
+       "fr": "examen"
+      },
+      {
+       "jp": "{試合|しあい}",
+       "fr": "match"
+      },
+      {
+       "jp": "{試|ため}す",
+       "fr": "essayer"
+      }
+     ]
+    },
+    {
+     "h": "験 · tester",
+     "p": [
+      "**On** : ケン　**Kun** : —",
+      "Un cheval 馬 qu'on examine 僉 avant de l'acheter : on teste."
+     ],
+     "vocab": [
+      {
+       "jp": "{試験|しけん}",
+       "fr": "examen"
+      },
+      {
+       "jp": "{経験|けいけん}",
+       "fr": "expérience"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "習 (apprendre, s'exercer) : ne le confonds pas avec 白 (blanc).",
+    "強 (fort) : ne le confonds pas avec 弱 (faible).",
+    "試 (essayer, épreuve) : ne le confonds pas avec 説 (expliquer)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-11-教-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "教",
+     "explain": "**教** : enseigner. Un enfant 子 et une main avec un bâton 攵 : on enseigne.",
+     "type": "choice",
+     "choices": [
+      "haut, cher",
+      "lune, mois",
+      "enseigner",
+      "blanc"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-11-習-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "習",
+     "explain": "**習** : apprendre, s'exercer. Deux ailes 羽 au-dessus du blanc 白 : l'oisillon s'exerce à voler.",
+     "type": "choice",
+     "choices": [
+      "pays",
+      "apprendre, s'exercer",
+      "riz cuit, repas",
+      "dix"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-11-勉-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "勉",
+     "explain": "**勉** : effort. Échapper 免 à force de bras 力 : on fait des efforts.",
+     "type": "choice",
+     "choices": [
+      "effort",
+      "rentrer",
+      "tenir, avoir",
+      "nom"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-11-強-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "強",
+     "explain": "**強** : fort. Un arc 弓 et un insecte 虫 : petit mais fort, comme l'insecte.",
+     "type": "choice",
+     "choices": [
+      "rencontrer, réunion",
+      "usage, affaire",
+      "fort",
+      "entendre, écouter"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-11-試-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "試",
+     "explain": "**試** : essayer, épreuve. La parole 言 et la règle 式 : on met à l'épreuve.",
+     "type": "choice",
+     "choices": [
+      "essayer, épreuve",
+      "petit",
+      "cent",
+      "endroit"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-11-験-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "験",
+     "explain": "**験** : tester. Un cheval 馬 qu'on examine 僉 avant de l'acheter : on teste.",
+     "type": "choice",
+     "choices": [
+      "tester",
+      "or, argent",
+      "attendre",
+      "deux"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-11-教える-lecture",
+     "q": "Comment se lit **教える** ?",
+     "explain": "{教|おし}える : enseigner.",
+     "type": "choice",
+     "choices": [
+      "うえ",
+      "きょうえる",
+      "おしえる",
+      "こうじょう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-11-習う-lecture",
+     "q": "Comment se lit **習う** ?",
+     "explain": "{習|なら}う : apprendre (avec qqn).",
+     "type": "choice",
+     "choices": [
+      "ならう",
+      "いう",
+      "みみ",
+      "しゅうう"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-11-勉強-lecture",
+     "q": "Comment se lit **勉強** ?",
+     "explain": "{勉強|べんきょう} : étude.",
+     "type": "choice",
+     "choices": [
+      "べんごう",
+      "べんきょう",
+      "べんつよ",
+      "りょこう"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-11-強い-lecture",
+     "q": "Comment se lit **強い** ?",
+     "explain": "{強|つよ}い : fort.",
+     "type": "choice",
+     "choices": [
+      "つよい",
+      "ごうい",
+      "きょうい",
+      "たかい"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-11-試験-lecture",
+     "q": "Comment se lit **試験** ?",
+     "explain": "{試験|しけん} : examen.",
+     "type": "choice",
+     "choices": [
+      "ためけん",
+      "あく",
+      "こんや",
+      "しけん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-11-教える-ecrit",
+     "q": "Quel mot s'écrit **おしえる** (enseigner) ?",
+     "explain": "{教|おし}える : enseigner.",
+     "type": "choice",
+     "choices": [
+      "真える",
+      "孝える",
+      "教える",
+      "数える"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-11-教える-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "田中さんは子どもに{英語|えいご}を**教え**ています。",
+     "explain": "**教え** se lit おしえ ici ({教|おし}える : enseigner). « M. Tanaka enseigne l'anglais aux enfants. »",
+     "type": "choice",
+     "choices": [
+      "あまえ",
+      "しろえ",
+      "おしえ",
+      "やすえ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-11-教-kanji",
+     "q": "Quel kanji veut dire « enseigner » ?",
+     "explain": "**教** : enseigner. Un enfant 子 et une main avec un bâton 攵 : on enseigne.",
+     "type": "choice",
+     "choices": [
+      "数",
+      "教",
+      "気",
+      "孝"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-11-教える-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{教|おし}える se lit おしえる, pas きょうえる.",
+     "type": "choice",
+     "choices": [
+      "教える → きょうえる",
+      "教会 → きょうかい",
+      "試験 → しけん",
+      "経験 → けいけん"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-11-習う-ecrit",
+     "q": "Quel mot s'écrit **ならう** (apprendre (avec qqn)) ?",
+     "explain": "{習|なら}う : apprendre (avec qqn).",
+     "type": "choice",
+     "choices": [
+      "白う",
+      "羽う",
+      "習う",
+      "目う"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k4-12",
+   "title": "Questions et réponses : 研 究 題 答 問 文",
+   "sections": [
+    {
+     "h": "研 · polir, rechercher",
+     "p": [
+      "**On** : ケン　**Kun** : と(ぐ)",
+      "Une pierre 石 et deux montants 开 : on polit sans relâche."
+     ],
+     "vocab": [
+      {
+       "jp": "{研究|けんきゅう}",
+       "fr": "recherche"
+      }
+     ]
+    },
+    {
+     "h": "究 · approfondir",
+     "p": [
+      "**On** : キュウ　**Kun** : きわ(める)",
+      "Un trou 穴 et le chiffre neuf 九 : on creuse jusqu'au bout."
+     ],
+     "vocab": [
+      {
+       "jp": "{研究|けんきゅう}",
+       "fr": "recherche"
+      },
+      {
+       "jp": "{研究室|けんきゅうしつ}",
+       "fr": "laboratoire"
+      }
+     ]
+    },
+    {
+     "h": "題 · sujet, titre",
+     "p": [
+      "**On** : ダイ　**Kun** : —",
+      "Une tête 頁 et ce qui est juste 是 : le titre en tête."
+     ],
+     "vocab": [
+      {
+       "jp": "{問題|もんだい}",
+       "fr": "problème, question"
+      },
+      {
+       "jp": "{宿題|しゅくだい}",
+       "fr": "devoirs"
+      },
+      {
+       "jp": "{話題|わだい}",
+       "fr": "sujet de conversation"
+      }
+     ]
+    },
+    {
+     "h": "答 · répondre",
+     "p": [
+      "**On** : トウ　**Kun** : こた(える)",
+      "Le bambou ⺮ et ce qui s'emboîte 合 : la réponse qui correspond."
+     ],
+     "vocab": [
+      {
+       "jp": "{答|こた}える",
+       "fr": "répondre"
+      },
+      {
+       "jp": "{答|こた}え",
+       "fr": "réponse"
+      }
+     ]
+    },
+    {
+     "h": "問 · question",
+     "p": [
+      "**On** : モン　**Kun** : と(う)",
+      "Une bouche 口 à la porte 門 : on pose une question."
+     ],
+     "vocab": [
+      {
+       "jp": "{問題|もんだい}",
+       "fr": "problème, question"
+      },
+      {
+       "jp": "{質問|しつもん}",
+       "fr": "question"
+      }
+     ]
+    },
+    {
+     "h": "文 · texte, phrase",
+     "p": [
+      "**On** : ブン、モン　**Kun** : ふみ",
+      "Une personne aux bras croisés, couverte de signes : l'écrit."
+     ],
+     "vocab": [
+      {
+       "jp": "{文|ぶん}",
+       "fr": "phrase"
+      },
+      {
+       "jp": "{作文|さくぶん}",
+       "fr": "rédaction"
+      },
+      {
+       "jp": "{文化|ぶんか}",
+       "fr": "culture"
+      },
+      {
+       "jp": "{文字|もじ}",
+       "fr": "caractère, lettre"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "究 (approfondir) : ne le confonds pas avec 空 (ciel, vide), 九 (neuf).",
+    "題 (sujet, titre) : ne le confonds pas avec 顔 (visage), 頭 (tête).",
+    "答 (répondre) : ne le confonds pas avec 合 (s'accorder), 茶 (thé).",
+    "問 (question) : ne le confonds pas avec 間 (intervalle, entre), 門 (portail).",
+    "文 (texte, phrase) : ne le confonds pas avec 父 (père)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-12-研-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "研",
+     "explain": "**研** : polir, rechercher. Une pierre 石 et deux montants 开 : on polit sans relâche.",
+     "type": "choice",
+     "choices": [
+      "midi",
+      "polir, rechercher",
+      "approfondir",
+      "partir, passé"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-12-究-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "究",
+     "explain": "**究** : approfondir. Un trou 穴 et le chiffre neuf 九 : on creuse jusqu'au bout.",
+     "type": "choice",
+     "choices": [
+      "apprendre, s'exercer",
+      "école",
+      "approfondir",
+      "rizière"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-12-題-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "題",
+     "explain": "**題** : sujet, titre. Une tête 頁 et ce qui est juste 是 : le titre en tête.",
+     "type": "choice",
+     "choices": [
+      "tôt",
+      "étudier",
+      "nom",
+      "sujet, titre"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-12-答-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "答",
+     "explain": "**答** : répondre. Le bambou ⺮ et ce qui s'emboîte 合 : la réponse qui correspond.",
+     "type": "choice",
+     "choices": [
+      "répondre",
+      "capitale, métropole",
+      "direction, personne (poli)",
+      "arrondissement"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-12-問-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "問",
+     "explain": "**問** : question. Une bouche 口 à la porte 門 : on pose une question.",
+     "type": "choice",
+     "choices": [
+      "mère",
+      "après, derrière",
+      "question",
+      "préfecture (département)"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-12-文-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "文",
+     "explain": "**文** : texte, phrase. Une personne aux bras croisés, couverte de signes : l'écrit.",
+     "type": "choice",
+     "choices": [
+      "texte, phrase",
+      "emprunter",
+      "arriver, porter (vêtement)",
+      "ciel"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-12-研究-lecture",
+     "q": "Comment se lit **研究** ?",
+     "explain": "{研究|けんきゅう} : recherche.",
+     "type": "choice",
+     "choices": [
+      "けんきわ",
+      "つくる",
+      "けんきゅう",
+      "ときゅう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-12-問題-lecture",
+     "q": "Comment se lit **問題** ?",
+     "explain": "{問題|もんだい} : problème, question.",
+     "type": "choice",
+     "choices": [
+      "ちいさい",
+      "とだい",
+      "もんだい",
+      "みみ"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-12-答える-lecture",
+     "q": "Comment se lit **答える** ?",
+     "explain": "{答|こた}える : répondre.",
+     "type": "choice",
+     "choices": [
+      "とうえる",
+      "しちがつ",
+      "たいせつ",
+      "こたえる"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-12-作文-lecture",
+     "q": "Comment se lit **作文** ?",
+     "explain": "{作文|さくぶん} : rédaction.",
+     "type": "choice",
+     "choices": [
+      "ごしゅじん",
+      "さくぶん",
+      "さぶん",
+      "つくぶん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-12-研究-trou",
+     "q": "Complète le mot **けんきゅう** (recherche) :",
+     "jp": "研＿",
+     "explain": "{研究|けんきゅう} : recherche.",
+     "type": "choice",
+     "choices": [
+      "空",
+      "本",
+      "五",
+      "究"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-12-研究-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{姉|あね}は大学で日本の{歴史|れきし}を**研究**しています。",
+     "explain": "**研究** se lit けんきゅう ici ({研究|けんきゅう} : recherche). « Ma grande sœur fait des recherches sur l'histoire du Japon à l'université. »",
+     "type": "choice",
+     "choices": [
+      "けんきゅう",
+      "いれる",
+      "おくる",
+      "て"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-12-研-kanji",
+     "q": "Quel kanji veut dire « polir, rechercher » ?",
+     "explain": "**研** : polir, rechercher. Une pierre 石 et deux montants 开 : on polit sans relâche.",
+     "type": "choice",
+     "choices": [
+      "形",
+      "石",
+      "研",
+      "外"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-12-研究-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{研究|けんきゅう} se lit けんきゅう, pas けんきわ.",
+     "type": "choice",
+     "choices": [
+      "問題 → もんだい",
+      "文化 → ぶんか",
+      "研究 → けんきわ",
+      "答える → こたえる"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-12-研究室-trou",
+     "q": "Complète le mot **けんきゅうしつ** (laboratoire) :",
+     "jp": "研究＿",
+     "explain": "{研究室|けんきゅうしつ} : laboratoire.",
+     "type": "choice",
+     "choices": [
+      "室",
+      "空",
+      "屋",
+      "国"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-12-研究室-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "先生は**研究室**にいます。",
+     "explain": "**研究室** se lit けんきゅうしつ ici ({研究室|けんきゅうしつ} : laboratoire). « Le professeur est dans son laboratoire. »",
+     "type": "choice",
+     "choices": [
+      "けんきわしつ",
+      "けんきゅうむろ",
+      "けんきゅうしつ",
+      "ときゅうしつ"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "k4-13",
+   "title": "Lettres et langues : 字 漢 英 洋 説 計",
+   "sections": [
+    {
+     "h": "字 · caractère (écrit)",
+     "p": [
+      "**On** : ジ　**Kun** : あざ",
+      "Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison."
+     ],
+     "vocab": [
+      {
+       "jp": "{漢字|かんじ}",
+       "fr": "kanji"
+      },
+      {
+       "jp": "{字|じ}",
+       "fr": "écriture"
+      },
+      {
+       "jp": "{文字|もじ}",
+       "fr": "caractère, lettre"
+      }
+     ]
+    },
+    {
+     "h": "漢 · Chine (des Han)",
+     "p": [
+      "**On** : カン　**Kun** : —",
+      "L'eau 氵 et une terre sèche : le fleuve Han, puis la Chine."
+     ],
+     "vocab": [
+      {
+       "jp": "{漢字|かんじ}",
+       "fr": "kanji"
+      }
+     ]
+    },
+    {
+     "h": "英 · anglais, excellent",
+     "p": [
+      "**On** : エイ　**Kun** : —",
+      "L'herbe 艹 et le centre 央 : la fleur au cœur, l'excellence ; aujourd'hui l'Angleterre."
+     ],
+     "vocab": [
+      {
+       "jp": "{英語|えいご}",
+       "fr": "anglais (langue)"
+      },
+      {
+       "jp": "{英会話|えいかいわ}",
+       "fr": "conversation en anglais"
+      }
+     ]
+    },
+    {
+     "h": "洋 · océan, occidental",
+     "p": [
+      "**On** : ヨウ　**Kun** : —",
+      "L'eau 氵 et un mouton 羊 : l'eau à perte de vue, l'océan, puis l'Occident."
+     ],
+     "vocab": [
+      {
+       "jp": "{洋服|ようふく}",
+       "fr": "vêtements (occidentaux)"
+      },
+      {
+       "jp": "{西洋|せいよう}",
+       "fr": "Occident"
+      },
+      {
+       "jp": "{太平洋|たいへいよう}",
+       "fr": "océan Pacifique"
+      }
+     ]
+    },
+    {
+     "h": "説 · expliquer",
+     "p": [
+      "**On** : セツ　**Kun** : と(く)",
+      "La parole 言 et un frère qui sourit 兑 : on explique avec le sourire."
+     ],
+     "vocab": [
+      {
+       "jp": "{説明|せつめい}",
+       "fr": "explication"
+      },
+      {
+       "jp": "{小説|しょうせつ}",
+       "fr": "roman"
+      }
+     ]
+    },
+    {
+     "h": "計 · mesurer, compter",
+     "p": [
+      "**On** : ケイ　**Kun** : はか(る)",
+      "La parole 言 et dix 十 : on compte à voix haute."
+     ],
+     "vocab": [
+      {
+       "jp": "{時計|とけい}",
+       "fr": "montre, horloge"
+      },
+      {
+       "jp": "{計画|けいかく}",
+       "fr": "plan, projet"
+      },
+      {
+       "jp": "{合計|ごうけい}",
+       "fr": "total"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "字 (caractère (écrit)) : ne le confonds pas avec 学 (étudier), 子 (enfant).",
+    "英 (anglais, excellent) : ne le confonds pas avec 映 (projeter, refléter).",
+    "洋 (océan, occidental) : ne le confonds pas avec 注 (verser, faire attention).",
+    "説 (expliquer) : ne le confonds pas avec 話 (parler, histoire)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-13-字-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "字",
+     "explain": "**字** : caractère (écrit). Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison.",
+     "type": "choice",
+     "choices": [
+      "préfecture (département)",
+      "tôt",
+      "partir, passé",
+      "caractère (écrit)"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-13-漢-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "漢",
+     "explain": "**漢** : Chine (des Han). L'eau 氵 et une terre sèche : le fleuve Han, puis la Chine.",
+     "type": "choice",
+     "choices": [
+      "main",
+      "chemin, route",
+      "capitale, métropole",
+      "Chine (des Han)"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-13-英-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "英",
+     "explain": "**英** : anglais, excellent. L'herbe 艹 et le centre 央 : la fleur au cœur, l'excellence ; aujourd'hui l'Angleterre.",
+     "type": "choice",
+     "choices": [
+      "anglais, excellent",
+      "monde, limite",
+      "je, moi",
+      "préfecture (département)"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-13-洋-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "洋",
+     "explain": "**洋** : océan, occidental. L'eau 氵 et un mouton 羊 : l'eau à perte de vue, l'océan, puis l'Occident.",
+     "type": "choice",
+     "choices": [
+      "usage, affaire",
+      "question",
+      "océan, occidental",
+      "feu"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-13-説-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "説",
+     "explain": "**説** : expliquer. La parole 言 et un frère qui sourit 兑 : on explique avec le sourire.",
+     "type": "choice",
+     "choices": [
+      "homme",
+      "ciel, vide",
+      "expliquer",
+      "acheter"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-13-計-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "計",
+     "explain": "**計** : mesurer, compter. La parole 言 et dix 十 : on compte à voix haute.",
+     "type": "choice",
+     "choices": [
+      "mesurer, compter",
+      "esprit, énergie",
+      "endroit",
+      "monde, génération"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-13-漢字-lecture",
+     "q": "Comment se lit **漢字** ?",
+     "explain": "{漢字|かんじ} : kanji.",
+     "type": "choice",
+     "choices": [
+      "かんじ",
+      "ごぜん",
+      "かんあざ",
+      "せんげつ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-13-英会話-lecture",
+     "q": "Comment se lit **英会話** ?",
+     "explain": "{英会話|えいかいわ} : conversation en anglais.",
+     "type": "choice",
+     "choices": [
+      "えいかいわ",
+      "えいえわ",
+      "だいどころ",
+      "えいかいはなし"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-13-洋服-lecture",
+     "q": "Comment se lit **洋服** ?",
+     "explain": "{洋服|ようふく} : vêtements (occidentaux).",
+     "type": "choice",
+     "choices": [
+      "かよう",
+      "こうこうせい",
+      "ひっこす",
+      "ようふく"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-13-説明-lecture",
+     "q": "Comment se lit **説明** ?",
+     "explain": "{説明|せつめい} : explication.",
+     "type": "choice",
+     "choices": [
+      "せつみょう",
+      "よっつ",
+      "せつあ",
+      "せつめい"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-13-時計-lecture",
+     "q": "Comment se lit **時計** ?",
+     "explain": "{時計|とけい} : montre, horloge.",
+     "type": "choice",
+     "choices": [
+      "てんいん",
+      "きょねん",
+      "しんぶん",
+      "とけい"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-13-漢字-trou",
+     "q": "Complète le mot **かんじ** (kanji) :",
+     "jp": "漢＿",
+     "explain": "{漢字|かんじ} : kanji.",
+     "type": "choice",
+     "choices": [
+      "子",
+      "十",
+      "字",
+      "学"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-13-漢字-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**漢字**はむずかしいですが、おもしろいです。",
+     "explain": "**漢字** se lit かんじ ici ({漢字|かんじ} : kanji). « Les kanji sont difficiles, mais intéressants. »",
+     "type": "choice",
+     "choices": [
+      "かんじ",
+      "ほどう",
+      "ちかい",
+      "せわ"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-13-字-kanji",
+     "q": "Quel kanji veut dire « caractère (écrit) » ?",
+     "explain": "**字** : caractère (écrit). Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison.",
+     "type": "choice",
+     "choices": [
+      "字",
+      "方",
+      "子",
+      "学"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-13-漢字-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{漢字|かんじ} se lit かんじ, pas かんあざ.",
+     "type": "choice",
+     "choices": [
+      "計画 → けいかく",
+      "英語 → えいご",
+      "英会話 → えいかいわ",
+      "漢字 → かんあざ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-13-英語-trou",
+     "q": "Complète le mot **えいご** (anglais (langue)) :",
+     "jp": "英＿",
+     "explain": "{英語|えいご} : anglais (langue).",
+     "type": "choice",
+     "choices": [
+      "語",
+      "話",
+      "休",
+      "用"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "k4-14",
+   "title": "Le travail : 仕 事 働 業 員 工 産",
+   "sections": [
+    {
+     "h": "仕 · servir",
+     "p": [
+      "**On** : シ、ジ　**Kun** : つか(える)",
+      "Une personne 亻 et un lettré 士 : celui qui sert."
+     ],
+     "vocab": [
+      {
+       "jp": "{仕事|しごと}",
+       "fr": "travail"
+      },
+      {
+       "jp": "{仕方|しかた}",
+       "fr": "manière, moyen"
+      }
+     ]
+    },
+    {
+     "h": "事 · chose, affaire",
+     "p": [
+      "**On** : ジ、ズ　**Kun** : こと",
+      "Une main qui tient un pinceau : l'affaire qu'on traite."
+     ],
+     "vocab": [
+      {
+       "jp": "{事|こと}",
+       "fr": "chose (abstraite)"
+      },
+      {
+       "jp": "{仕事|しごと}",
+       "fr": "travail"
+      },
+      {
+       "jp": "{食事|しょくじ}",
+       "fr": "repas"
+      },
+      {
+       "jp": "{火事|かじ}",
+       "fr": "incendie"
+      }
+     ]
+    },
+    {
+     "h": "働 · travailler",
+     "p": [
+      "**On** : ドウ　**Kun** : はたら(く)",
+      "Une personne 亻 qui bouge 動 : elle travaille."
+     ],
+     "vocab": [
+      {
+       "jp": "{働|はたら}く",
+       "fr": "travailler"
+      }
+     ]
+    },
+    {
+     "h": "業 · métier, industrie",
+     "p": [
+      "**On** : ギョウ、ゴウ　**Kun** : わざ",
+      "Un support chargé de cloches : l'ouvrage du métier."
+     ],
+     "vocab": [
+      {
+       "jp": "{授業|じゅぎょう}",
+       "fr": "cours (en classe)"
+      },
+      {
+       "jp": "{卒業|そつぎょう}",
+       "fr": "fin d'études"
+      },
+      {
+       "jp": "{工業|こうぎょう}",
+       "fr": "industrie"
+      }
+     ]
+    },
+    {
+     "h": "員 · membre, employé",
+     "p": [
+      "**On** : イン　**Kun** : —",
+      "Une bouche 口 au-dessus d'un coquillage 貝 : celui qui compte l'argent, l'employé."
+     ],
+     "vocab": [
+      {
+       "jp": "{会社員|かいしゃいん}",
+       "fr": "employé de bureau"
+      },
+      {
+       "jp": "{店員|てんいん}",
+       "fr": "vendeur, vendeuse"
+      },
+      {
+       "jp": "{駅員|えきいん}",
+       "fr": "employé de gare"
+      }
+     ]
+    },
+    {
+     "h": "工 · construction, artisanat",
+     "p": [
+      "**On** : コウ、ク　**Kun** : —",
+      "Une équerre de charpentier."
+     ],
+     "vocab": [
+      {
+       "jp": "{工場|こうじょう}",
+       "fr": "usine"
+      },
+      {
+       "jp": "{工業|こうぎょう}",
+       "fr": "industrie"
+      },
+      {
+       "jp": "{大工|だいく}",
+       "fr": "charpentier"
+      }
+     ]
+    },
+    {
+     "h": "産 · produire, naître",
+     "p": [
+      "**On** : サン　**Kun** : う(む)",
+      "Debout 立 sous une falaise 厂, on donne la vie 生."
+     ],
+     "vocab": [
+      {
+       "jp": "お{土産|みやげ}",
+       "fr": "souvenir (cadeau)"
+      },
+      {
+       "jp": "{産業|さんぎょう}",
+       "fr": "industrie"
+      },
+      {
+       "jp": "{生産|せいさん}",
+       "fr": "production"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "事 (chose, affaire) : ne le confonds pas avec 書 (écrire).",
+    "働 (travailler) : ne le confonds pas avec 動 (bouger), 重 (lourd).",
+    "員 (membre, employé) : ne le confonds pas avec 買 (acheter).",
+    "工 (construction, artisanat) : ne le confonds pas avec 土 (terre, sol).",
+    "産 (produire, naître) : ne le confonds pas avec 生 (vie, naître)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-14-仕-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "仕",
+     "explain": "**仕** : servir. Une personne 亻 et un lettré 士 : celui qui sert.",
+     "type": "choice",
+     "choices": [
+      "effort",
+      "couper",
+      "servir",
+      "répondre"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-事-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "事",
+     "explain": "**事** : chose, affaire. Une main qui tient un pinceau : l'affaire qu'on traite.",
+     "type": "choice",
+     "choices": [
+      "tôt",
+      "chose, affaire",
+      "pied, jambe",
+      "huit"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-14-働-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "働",
+     "explain": "**働** : travailler. Une personne 亻 qui bouge 動 : elle travaille.",
+     "type": "choice",
+     "choices": [
+      "femme",
+      "travailler",
+      "droite",
+      "texte, phrase"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-14-業-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "業",
+     "explain": "**業** : métier, industrie. Un support chargé de cloches : l'ouvrage du métier.",
+     "type": "choice",
+     "choices": [
+      "cent",
+      "métier, industrie",
+      "feu",
+      "neuf"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-14-員-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "員",
+     "explain": "**員** : membre, employé. Une bouche 口 au-dessus d'un coquillage 貝 : celui qui compte l'argent, l'employé.",
+     "type": "choice",
+     "choices": [
+      "bouche",
+      "œil",
+      "membre, employé",
+      "esprit, énergie"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-工-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "工",
+     "explain": "**工** : construction, artisanat. Une équerre de charpentier.",
+     "type": "choice",
+     "choices": [
+      "heure, temps",
+      "construction, artisanat",
+      "rizière",
+      "institution"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-14-産-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "産",
+     "explain": "**産** : produire, naître. Debout 立 sous une falaise 厂, on donne la vie 生.",
+     "type": "choice",
+     "choices": [
+      "après, derrière",
+      "chose, affaire",
+      "produire, naître",
+      "arriver, porter (vêtement)"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-仕事-lecture",
+     "q": "Comment se lit **仕事** ?",
+     "explain": "{仕事|しごと} : travail.",
+     "type": "choice",
+     "choices": [
+      "しじ",
+      "しず",
+      "かえる",
+      "しごと"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-14-事-lecture",
+     "q": "Comment se lit **事** ?",
+     "explain": "{事|こと} : chose (abstraite).",
+     "type": "choice",
+     "choices": [
+      "いなか",
+      "こと",
+      "かりる",
+      "ふたり"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-14-働く-lecture",
+     "q": "Comment se lit **働く** ?",
+     "explain": "{働|はたら}く : travailler.",
+     "type": "choice",
+     "choices": [
+      "どうく",
+      "まいばん",
+      "はたらく",
+      "でんき"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-授業-lecture",
+     "q": "Comment se lit **授業** ?",
+     "explain": "{授業|じゅぎょう} : cours (en classe).",
+     "type": "choice",
+     "choices": [
+      "いれる",
+      "じゅわざ",
+      "じゅぎょう",
+      "じゅごう"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-店員-lecture",
+     "q": "Comment se lit **店員** ?",
+     "explain": "{店員|てんいん} : vendeur, vendeuse.",
+     "type": "choice",
+     "choices": [
+      "にほんご",
+      "じんじゃ",
+      "てんいん",
+      "みせいん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-工場-lecture",
+     "q": "Comment se lit **工場** ?",
+     "explain": "{工場|こうじょう} : usine.",
+     "type": "choice",
+     "choices": [
+      "さくねん",
+      "くじょう",
+      "こうじょう",
+      "こうば"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-お土産-lecture",
+     "q": "Comment se lit **お土産** ?",
+     "explain": "お{土産|みやげ} : souvenir (cadeau).",
+     "type": "choice",
+     "choices": [
+      "たいせつ",
+      "やおや",
+      "おみやげ",
+      "りょかん"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-14-仕事-trou",
+     "q": "Complète le mot **しごと** (travail) :",
+     "jp": "仕＿",
+     "explain": "{仕事|しごと} : travail.",
+     "type": "choice",
+     "choices": [
+      "事",
+      "争",
+      "究",
+      "書"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-14-仕事-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**仕事**は六時に{終|お}わります。",
+     "explain": "**仕事** se lit しごと ici ({仕事|しごと} : travail). « Le travail finit à six heures. »",
+     "type": "choice",
+     "choices": [
+      "じごと",
+      "しず",
+      "しじ",
+      "しごと"
+     ],
+     "a": 3
+    }
+   ]
+  },
+  {
+   "id": "k4-15",
+   "title": "Gens et objets : 主 者 代 台 物 紙",
+   "sections": [
+    {
+     "h": "主 · maître, principal",
+     "p": [
+      "**On** : シュ　**Kun** : ぬし、おも",
+      "Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille."
+     ],
+     "vocab": [
+      {
+       "jp": "ご{主人|しゅじん}",
+       "fr": "votre mari"
+      },
+      {
+       "jp": "{主|おも}な",
+       "fr": "principal"
+      },
+      {
+       "jp": "{主婦|しゅふ}",
+       "fr": "femme au foyer"
+      }
+     ]
+    },
+    {
+     "h": "者 · personne (qui fait)",
+     "p": [
+      "**On** : シャ　**Kun** : もの",
+      "Un vieillard 耂 qui parle 日 : celui qui fait."
+     ],
+     "vocab": [
+      {
+       "jp": "{医者|いしゃ}",
+       "fr": "médecin"
+      },
+      {
+       "jp": "{学者|がくしゃ}",
+       "fr": "savant, chercheur"
+      },
+      {
+       "jp": "{若者|わかもの}",
+       "fr": "jeune (personne)"
+      }
+     ]
+    },
+    {
+     "h": "代 · remplacer, époque, prix",
+     "p": [
+      "**On** : ダイ、タイ　**Kun** : か(わる)、よ",
+      "Une personne 亻 et un piquet 弋 : chacun son tour de garde."
+     ],
+     "vocab": [
+      {
+       "jp": "{時代|じだい}",
+       "fr": "époque"
+      },
+      {
+       "jp": "{電気代|でんきだい}",
+       "fr": "facture d'électricité"
+      },
+      {
+       "jp": "{代|か}わる",
+       "fr": "remplacer"
+      }
+     ]
+    },
+    {
+     "h": "台 · socle, estrade",
+     "p": [
+      "**On** : ダイ、タイ　**Kun** : —",
+      "Un nez ム au-dessus d'une bouche 口 : une estrade où l'on parle."
+     ],
+     "vocab": [
+      {
+       "jp": "{台所|だいどころ}",
+       "fr": "cuisine (pièce)"
+      },
+      {
+       "jp": "{台風|たいふう}",
+       "fr": "typhon"
+      },
+      {
+       "jp": "{一台|いちだい}",
+       "fr": "un (véhicule, machine)"
+      }
+     ]
+    },
+    {
+     "h": "物 · chose",
+     "p": [
+      "**On** : ブツ、モツ　**Kun** : もの",
+      "Une vache 牛 et une bannière 勿 : les biens, les choses."
+     ],
+     "vocab": [
+      {
+       "jp": "{物|もの}",
+       "fr": "chose, objet"
+      },
+      {
+       "jp": "{食|た}べ{物|もの}",
+       "fr": "nourriture"
+      },
+      {
+       "jp": "{動物|どうぶつ}",
+       "fr": "animal"
+      },
+      {
+       "jp": "{荷物|にもつ}",
+       "fr": "bagage"
+      }
+     ]
+    },
+    {
+     "h": "紙 · papier",
+     "p": [
+      "**On** : シ　**Kun** : かみ",
+      "Un fil 糸 et une famille 氏 : le papier fait de fibres."
+     ],
+     "vocab": [
+      {
+       "jp": "{紙|かみ}",
+       "fr": "papier"
+      },
+      {
+       "jp": "{手紙|てがみ}",
+       "fr": "lettre (courrier)"
+      }
+     ]
+    }
+   ],
+   "pieges": [
+    "主 (maître, principal) : ne le confonds pas avec 生 (vie, naître).",
+    "者 (personne (qui fait)) : ne le confonds pas avec 着 (arriver, porter (vêtement)), 都 (capitale, métropole).",
+    "台 (socle, estrade) : ne le confonds pas avec 合 (s'accorder).",
+    "物 (chose) : ne le confonds pas avec 牛 (vache, bœuf), 特 (spécial).",
+    "紙 (papier) : ne le confonds pas avec 低 (bas)."
+   ],
+   "exercises": [
+    {
+     "id": "k4-15-主-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "主",
+     "explain": "**主** : maître, principal. Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille.",
+     "type": "choice",
+     "choices": [
+      "maître, principal",
+      "trois",
+      "courir",
+      "envoyer"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-15-者-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "者",
+     "explain": "**者** : personne (qui fait). Un vieillard 耂 qui parle 日 : celui qui fait.",
+     "type": "choice",
+     "choices": [
+      "enseigner",
+      "arbre, bois",
+      "personne (qui fait)",
+      "or, argent"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-15-代-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "代",
+     "explain": "**代** : remplacer, époque, prix. Une personne 亻 et un piquet 弋 : chacun son tour de garde.",
+     "type": "choice",
+     "choices": [
+      "remplacer, époque, prix",
+      "marcher",
+      "bon marché, tranquille",
+      "faire, fabriquer"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-15-台-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "台",
+     "explain": "**台** : socle, estrade. Un nez ム au-dessus d'une bouche 口 : une estrade où l'on parle.",
+     "type": "choice",
+     "choices": [
+      "socle, estrade",
+      "essayer, épreuve",
+      "champ, nature",
+      "nouveau"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-15-物-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "物",
+     "explain": "**物** : chose. Une vache 牛 et une bannière 勿 : les biens, les choses.",
+     "type": "choice",
+     "choices": [
+      "chose",
+      "travailler",
+      "partir, passé",
+      "est"
+     ],
+     "a": 0
+    },
+    {
+     "id": "k4-15-紙-sens",
+     "q": "Que veut dire ce kanji ?",
+     "jp": "紙",
+     "explain": "**紙** : papier. Un fil 糸 et une famille 氏 : le papier fait de fibres.",
+     "type": "choice",
+     "choices": [
+      "pièce, salle",
+      "poisson",
+      "papier",
+      "boire"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-15-ご主人-lecture",
+     "q": "Comment se lit **ご主人** ?",
+     "explain": "ご{主人|しゅじん} : votre mari.",
+     "type": "choice",
+     "choices": [
+      "ごしゅにん",
+      "ごしゅじん",
+      "ごおもじん",
+      "きょうと"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-15-医者-lecture",
+     "q": "Comment se lit **医者** ?",
+     "explain": "{医者|いしゃ} : médecin.",
+     "type": "choice",
+     "choices": [
+      "め",
+      "いもの",
+      "やっつ",
+      "いしゃ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-15-時代-lecture",
+     "q": "Comment se lit **時代** ?",
+     "explain": "{時代|じだい} : époque.",
+     "type": "choice",
+     "choices": [
+      "じよ",
+      "みせる",
+      "じだい",
+      "じか"
+     ],
+     "a": 2
+    },
+    {
+     "id": "k4-15-台所-lecture",
+     "q": "Comment se lit **台所** ?",
+     "explain": "{台所|だいどころ} : cuisine (pièce).",
+     "type": "choice",
+     "choices": [
+      "ひとり",
+      "だいしょ",
+      "たいどころ",
+      "だいどころ"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-15-物-lecture",
+     "q": "Comment se lit **物** ?",
+     "explain": "{物|もの} : chose, objet.",
+     "type": "choice",
+     "choices": [
+      "かぞく",
+      "もの",
+      "そら",
+      "ごぜん"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-15-紙-lecture",
+     "q": "Comment se lit **紙** ?",
+     "explain": "{紙|かみ} : papier.",
+     "type": "choice",
+     "choices": [
+      "おおごえ",
+      "かみ",
+      "わかる",
+      "わだい"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-15-ご主人-trou",
+     "q": "Complète le mot **ごしゅじん** (votre mari) :",
+     "jp": "ご主＿",
+     "explain": "ご{主人|しゅじん} : votre mari.",
+     "type": "choice",
+     "choices": [
+      "二",
+      "入",
+      "大",
+      "人"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-15-ご主人-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**ご主人**はお{元気|げんき}ですか。",
+     "explain": "**ご主人** se lit ごしゅじん ici (ご{主人|しゅじん} : votre mari). « Votre mari va bien ? »",
+     "type": "choice",
+     "choices": [
+      "ごしゅひと",
+      "ごおもじん",
+      "ごしゅにん",
+      "ごしゅじん"
+     ],
+     "a": 3
+    },
+    {
+     "id": "k4-15-主-kanji",
+     "q": "Quel kanji veut dire « maître, principal » ?",
+     "explain": "**主** : maître, principal. Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille.",
+     "type": "choice",
+     "choices": [
+      "半",
+      "主",
+      "生",
+      "王"
+     ],
+     "a": 1
+    },
+    {
+     "id": "k4-15-ご主人-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "ご{主人|しゅじん} se lit ごしゅじん, pas ごぬしじん.",
+     "type": "choice",
+     "choices": [
+      "台風 → たいふう",
+      "ご主人 → ごぬしじん",
+      "食べ物 → たべもの",
+      "電気代 → でんきだい"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ],
+ "test": [
+  {
+   "id": "k4-b03-教室-ecrit",
+   "q": "Quel mot s'écrit **きょうしつ** (salle de classe) ?",
+   "explain": "{教室|きょうしつ} : salle de classe.",
+   "type": "choice",
+   "choices": [
+    "入室",
+    "数室",
+    "孝室",
+    "教室"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-教会-lecture",
+   "q": "Comment se lit **教会** ?",
+   "explain": "{教会|きょうかい} : église.",
+   "type": "choice",
+   "choices": [
+    "ひとつ",
+    "おしかい",
+    "きょうかい",
+    "きょうあ"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b03-練習-lecture",
+   "q": "Comment se lit **練習** ?",
+   "explain": "{練習|れんしゅう} : entraînement.",
+   "type": "choice",
+   "choices": [
+    "こんど",
+    "れんなら",
+    "いじょう",
+    "れんしゅう"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-予習-lecture",
+   "q": "Comment se lit **予習** ?",
+   "explain": "{予習|よしゅう} : préparation (d'un cours).",
+   "type": "choice",
+   "choices": [
+    "よしゅう",
+    "やまだ",
+    "よなら",
+    "ぎんいろ"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b03-勉強-ecrit",
+   "q": "Quel mot s'écrit **べんきょう** (étude) ?",
+   "explain": "{勉強|べんきょう} : étude.",
+   "type": "choice",
+   "choices": [
+    "主強",
+    "免強",
+    "勤強",
+    "勉強"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-試験-ecrit",
+   "q": "Quel mot s'écrit **しけん** (examen) ?",
+   "explain": "{試験|しけん} : examen.",
+   "type": "choice",
+   "choices": [
+    "式験",
+    "試験",
+    "館験",
+    "説験"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b03-試合-lecture",
+   "q": "Comment se lit **試合** ?",
+   "explain": "{試合|しあい} : match.",
+   "type": "choice",
+   "choices": [
+    "ためあい",
+    "しあ",
+    "しあい",
+    "へた"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b03-試す-lecture",
+   "q": "Comment se lit **試す** ?",
+   "explain": "{試|ため}す : essayer.",
+   "type": "choice",
+   "choices": [
+    "しよう",
+    "ためす",
+    "ついたち",
+    "しす"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b03-経験-lecture",
+   "q": "Comment se lit **経験** ?",
+   "explain": "{経験|けいけん} : expérience.",
+   "type": "choice",
+   "choices": [
+    "くる",
+    "げつようび",
+    "がか",
+    "けいけん"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-研究室-lecture",
+   "q": "Comment se lit **研究室** ?",
+   "explain": "{研究室|けんきゅうしつ} : laboratoire.",
+   "type": "choice",
+   "choices": [
+    "けんきわしつ",
+    "けんきゅうしつ",
+    "えいかいわ",
+    "けんきゅうむろ"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b03-問題-ecrit",
+   "q": "Quel mot s'écrit **もんだい** (problème, question) ?",
+   "explain": "{問題|もんだい} : problème, question.",
+   "type": "choice",
+   "choices": [
+    "間題",
+    "起題",
+    "世題",
+    "問題"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-宿題-lecture",
+   "q": "Comment se lit **宿題** ?",
+   "explain": "{宿題|しゅくだい} : devoirs.",
+   "type": "choice",
+   "choices": [
+    "やきゅう",
+    "あおぞら",
+    "しゅくだい",
+    "こうかいどう"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b03-話題-lecture",
+   "q": "Comment se lit **話題** ?",
+   "explain": "{話題|わだい} : sujet de conversation.",
+   "type": "choice",
+   "choices": [
+    "おんなのこ",
+    "はなだい",
+    "はなしだい",
+    "わだい"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-答える-ecrit",
+   "q": "Quel mot s'écrit **こたえる** (répondre) ?",
+   "explain": "{答|こた}える : répondre.",
+   "type": "choice",
+   "choices": [
+    "答える",
+    "茶える",
+    "所える",
+    "合える"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b03-答え-lecture",
+   "q": "Comment se lit **答え** ?",
+   "explain": "{答|こた}え : réponse.",
+   "type": "choice",
+   "choices": [
+    "おとな",
+    "とうえ",
+    "ばいてん",
+    "こたえ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-質問-ecrit",
+   "q": "Quel mot s'écrit **しつもん** (question) ?",
+   "explain": "{質問|しつもん} : question.",
+   "type": "choice",
+   "choices": [
+    "森問",
+    "賃問",
+    "質問",
+    "貨問"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b03-作文-ecrit",
+   "q": "Quel mot s'écrit **さくぶん** (rédaction) ?",
+   "explain": "{作文|さくぶん} : rédaction.",
+   "type": "choice",
+   "choices": [
+    "森文",
+    "件文",
+    "作文",
+    "転文"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b03-文化-lecture",
+   "q": "Comment se lit **文化** ?",
+   "explain": "{文化|ぶんか} : culture.",
+   "type": "choice",
+   "choices": [
+    "ぶんか",
+    "もんか",
+    "ふみか",
+    "ほんや"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b03-文字-lecture",
+   "q": "Comment se lit **文字** ?",
+   "explain": "{文字|もじ} : caractère, lettre.",
+   "type": "choice",
+   "choices": [
+    "もじ",
+    "いちば",
+    "よなか",
+    "だす"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b03-字-ecrit",
+   "q": "Quel mot s'écrit **じ** (écriture) ?",
+   "explain": "{字|じ} : écriture.",
+   "type": "choice",
+   "choices": [
+    "子",
+    "大",
+    "学",
+    "字"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-英会話-ecrit",
+   "q": "Quel mot s'écrit **えいかいわ** (conversation en anglais) ?",
+   "explain": "{英会話|えいかいわ} : conversation en anglais.",
+   "type": "choice",
+   "choices": [
+    "聞会話",
+    "母会話",
+    "英会話",
+    "央会話"
+   ],
+   "a": 2
+  },
+  {
+   "id": "k4-b03-洋服-ecrit",
+   "q": "Quel mot s'écrit **ようふく** (vêtements (occidentaux)) ?",
+   "explain": "{洋服|ようふく} : vêtements (occidentaux).",
+   "type": "choice",
+   "choices": [
+    "注服",
+    "洋服",
+    "中服",
+    "羊服"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b03-西洋-lecture",
+   "q": "Comment se lit **西洋** ?",
+   "explain": "{西洋|せいよう} : Occident.",
+   "type": "choice",
+   "choices": [
+    "せいよう",
+    "さくぶん",
+    "さいよう",
+    "にしよう"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b03-太平洋-lecture",
+   "q": "Comment se lit **太平洋** ?",
+   "explain": "{太平洋|たいへいよう} : océan Pacifique.",
+   "type": "choice",
+   "choices": [
+    "たへいよう",
+    "たいへいよう",
+    "じょうず",
+    "ふとへいよう"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b03-教える-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "待ち{合|あ}わせの場所を**教え**てください。",
+   "explain": "**教え** se lit おしえ ici ({教|おし}える : enseigner). « Dites-moi le lieu du rendez-vous. »",
+   "type": "choice",
+   "choices": [
+    "あめえ",
+    "したえ",
+    "はこえ",
+    "おしえ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-教室-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**教室**に学生が二十人います。",
+   "explain": "**教室** se lit きょうしつ ici ({教室|きょうしつ} : salle de classe). « Il y a vingt étudiants dans la salle. »",
+   "type": "choice",
+   "choices": [
+    "ここのつ",
+    "ごふん",
+    "おんなのこ",
+    "きょうしつ"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-教会-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "日曜日に**教会**へ行きます。",
+   "explain": "**教会** se lit きょうかい ici ({教会|きょうかい} : église). « Le dimanche, je vais à l'église. »",
+   "type": "choice",
+   "choices": [
+    "きょうあ",
+    "きょうえ",
+    "おしかい",
+    "きょうかい"
+   ],
+   "a": 3
+  },
+  {
+   "id": "k4-b03-習う-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "毎週ピアノを**習**っています。",
+   "explain": "**習** se lit なら ici ({習|なら}う : apprendre (avec qqn)). « Je prends des cours de piano toutes les semaines. »",
+   "type": "choice",
+   "choices": [
+    "なら",
+    "おお",
+    "いち",
+    "ちか"
+   ],
+   "a": 0
+  },
+  {
+   "id": "k4-b03-練習-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "毎日{漢字|かんじ}の**練習**をしています。",
+   "explain": "**練習** se lit れんしゅう ici ({練習|れんしゅう} : entraînement). « Je m'entraîne aux kanji tous les jours. »",
+   "type": "choice",
+   "choices": [
+    "だいがくせい",
+    "れんしゅう",
+    "はやし",
+    "とまる"
+   ],
+   "a": 1
+  },
+  {
+   "id": "k4-b03-予習-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "{授業|じゅぎょう}の前に**予習**をします。",
+   "explain": "**予習** se lit よしゅう ici ({予習|よしゅう} : préparation (d'un cours)). « Je prépare le cours avant d'y aller. »",
+   "type": "choice",
+   "choices": [
+    "あと",
+    "もつ",
+    "くるま",
+    "よしゅう"
+   ],
+   "a": 3
+  }
+ ],
+ "examTest": []
+}

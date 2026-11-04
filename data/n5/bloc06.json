@@ -24,10 +24,10 @@
    "explain": "**駅** se lit えき ici ({駅|えき} : gare). « Excusez-moi, où est la gare ? »",
    "type": "choice",
    "choices": [
-    "わたし",
-    "かいもの",
+    "うしろ",
+    "たつ",
     "えき",
-    "ゆうじん"
+    "おかね"
    ],
    "a": 2
   },
@@ -39,9 +39,9 @@
    "type": "choice",
    "choices": [
     "くるま",
-    "はは",
-    "なんじ",
-    "ひとり"
+    "じんじゃ",
+    "やすみ",
+    "にちようび"
    ],
    "a": 0
   },
@@ -52,9 +52,9 @@
    "explain": "**友だち** se lit ともだち ici ({友|とも}だち : ami(e)). « J'ai offert un cadeau à un ami. »",
    "type": "choice",
    "choices": [
-    "いりぐち",
-    "ごがつ",
-    "ついたち",
+    "だす",
+    "はは",
+    "ながい",
     "ともだち"
    ],
    "a": 3
@@ -67,9 +67,9 @@
    "type": "choice",
    "choices": [
     "ひと",
-    "ちゅうがくせい",
-    "のみもの",
-    "こども"
+    "らいしゅう",
+    "ごふん",
+    "うんてんしゅ"
    ],
    "a": 0
   },
@@ -80,10 +80,10 @@
    "explain": "**新しい** se lit あたらしい ici ({新|あたら}しい : nouveau). « J'ai mis mes nouvelles chaussures. »",
    "type": "choice",
    "choices": [
-    "うんてんしゅ",
+    "がいこく",
     "あたらしい",
-    "だいがくせい",
-    "ひがし"
+    "のむ",
+    "かぞく"
    ],
    "a": 1
   },
@@ -94,10 +94,10 @@
    "explain": "**国** se lit くに ici ({国|くに} : pays). « De quel pays venez-vous ? »",
    "type": "choice",
    "choices": [
-    "ひだり",
     "じゅうまん",
+    "みせる",
     "くに",
-    "しがつ"
+    "にほんじん"
    ],
    "a": 2
   },
@@ -108,10 +108,10 @@
    "explain": "**子ども** se lit こども ici ({子|こ}ども : enfant). « Les enfants regardent la télé. »",
    "type": "choice",
    "choices": [
-    "たいせつ",
+    "やっつ",
     "がくせい",
     "こども",
-    "ひとり"
+    "にし"
    ],
    "a": 2
   },
@@ -136,10 +136,10 @@
    "explain": "**学校** se lit がっこう ici ({学校|がっこう} : école). « Je vais à l'école. »",
    "type": "choice",
    "choices": [
-    "えん",
-    "にほんご",
+    "つち",
+    "こうこうせい",
     "がっこう",
-    "おんなのこ"
+    "はちがつ"
    ],
    "a": 2
   },
@@ -151,9 +151,9 @@
    "type": "choice",
    "choices": [
     "まいあさ",
-    "ちかてつ",
-    "しょくどう",
-    "ことし"
+    "うえ",
+    "さんぜん",
+    "ちゅうごく"
    ],
    "a": 0
   },
@@ -164,10 +164,10 @@
    "explain": "**帰** se lit かえ ici ({帰|かえ}る : rentrer). « Rentrons ensemble. »",
    "type": "choice",
    "choices": [
-    "めし",
+    "なん",
     "とも",
     "かえ",
-    "なん"
+    "たか"
    ],
    "a": 2
   },
@@ -179,9 +179,9 @@
    "type": "choice",
    "choices": [
     "あめ",
-    "みる",
-    "おんなのひと",
-    "じょうず"
+    "うまれる",
+    "おかね",
+    "せん"
    ],
    "a": 0
   },
@@ -192,9 +192,9 @@
    "explain": "**中** se lit なか ici ({中|なか} : intérieur, dedans). « Il y a un livre dans le sac. »",
    "type": "choice",
    "choices": [
-    "さくねん",
-    "まいにち",
-    "あと",
+    "ちかてつ",
+    "しんぶん",
+    "おとな",
     "なか"
    ],
    "a": 3
@@ -220,10 +220,10 @@
    "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)). « Une pomme, s'il vous plaît. »",
    "type": "choice",
    "choices": [
-    "そら",
-    "うんてんしゅ",
+    "でぐち",
+    "ゆうめい",
     "ひとつ",
-    "にほんご"
+    "ほんだな"
    ],
    "a": 2
   },
@@ -234,9 +234,9 @@
    "explain": "**お金** se lit おかね ici (お{金|かね} : argent). « Il n'y a pas d'argent dans mon porte-monnaie. »",
    "type": "choice",
    "choices": [
-    "きた",
-    "えき",
-    "にほん",
+    "うまれる",
+    "さんぷん",
+    "ください",
     "おかね"
    ],
    "a": 3
@@ -278,9 +278,9 @@
    "explain": "**人** se lit ひと ici ({人|ひと} : personne). « Cette personne là-bas est professeur. »",
    "type": "choice",
    "choices": [
-    "ごがつ",
-    "じょうず",
-    "あいだ",
+    "みず",
+    "ごふん",
+    "てんき",
     "ひと"
    ],
    "a": 3
@@ -292,9 +292,9 @@
    "explain": "**読む** se lit よむ ici ({読|よ}む : lire). « Quand je lis, je mets mes lunettes. »",
    "type": "choice",
    "choices": [
-    "ごふん",
-    "いう",
-    "みみ",
+    "ななつ",
+    "はん",
+    "くる",
     "よむ"
    ],
    "a": 3
@@ -306,10 +306,10 @@
    "explain": "**今週** se lit こんしゅう ici ({今週|こんしゅう} : cette semaine). « Cette semaine, je suis occupé. »",
    "type": "choice",
    "choices": [
-    "なんにん",
-    "おとな",
+    "うしろ",
+    "ぎんこう",
     "こんしゅう",
-    "くち"
+    "にがつ"
    ],
    "a": 2
   },
@@ -320,10 +320,10 @@
    "explain": "**話** se lit はなし ici ({話|はなし} : histoire, conversation). « Ce que raconte le professeur est intéressant. »",
    "type": "choice",
    "choices": [
-    "とお",
-    "いく",
+    "ちゅうがくせい",
+    "ちち",
     "はなし",
-    "たつ"
+    "にじゅう"
    ],
    "a": 2
   },
@@ -348,10 +348,10 @@
    "explain": "**新しい** se lit あたらしい ici ({新|あたら}しい : nouveau). « Je retiens dix mots nouveaux par jour. »",
    "type": "choice",
    "choices": [
-    "はなす",
+    "きょう",
     "にほんじん",
     "あたらしい",
-    "つち"
+    "たべもの"
    ],
    "a": 2
   },
@@ -362,10 +362,10 @@
    "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)). « Un café, s'il vous plaît. »",
    "type": "choice",
    "choices": [
-    "はん",
+    "いえ",
     "ひとつ",
-    "さかな",
-    "ながい"
+    "がいこくじん",
+    "さんびゃく"
    ],
    "a": 1
   },
@@ -377,9 +377,9 @@
    "type": "choice",
    "choices": [
     "たか",
-    "にし",
     "のぼ",
-    "やま"
+    "めし",
+    "とし"
    ],
    "a": 0
   },
@@ -391,9 +391,9 @@
    "type": "choice",
    "choices": [
     "うえ",
-    "はっぴゃく",
-    "きょねん",
-    "ほん"
+    "ふじさん",
+    "しょうがっこう",
+    "ひゃくえん"
    ],
    "a": 0
   },
@@ -464,10 +464,10 @@
      "explain": "**車** se lit くるま ici ({車|くるま} : voiture). « J'ai acheté une voiture neuve. »",
      "type": "choice",
      "choices": [
-      "あんしん",
+      "びょうき",
       "くるま",
-      "いう",
-      "ちゅうがくせい"
+      "うえ",
+      "ちち"
      ],
      "a": 1,
      "uses": [
@@ -481,10 +481,10 @@
      "explain": "**電車** se lit でんしゃ ici ({電車|でんしゃ} : train). « Le bus est lent, alors j'y vais en train. »",
      "type": "choice",
      "choices": [
-      "いま",
+      "ろくがつ",
       "でんしゃ",
-      "すいようび",
-      "かしゅ"
+      "ひこうき",
+      "しがつ"
      ],
      "a": 1,
      "uses": [
@@ -498,10 +498,10 @@
      "explain": "**毎朝** se lit まいあさ ici ({毎朝|まいあさ} : tous les matins). « Je bois du café tous les matins. »",
      "type": "choice",
      "choices": [
-      "いえ",
-      "こうこう",
+      "へた",
+      "じゅうまん",
       "まいあさ",
-      "どようび"
+      "なに"
      ],
      "a": 2,
      "uses": [
@@ -515,10 +515,10 @@
      "explain": "**何時** se lit なんじ ici ({何時|なんじ} : quelle heure). « Quelle heure est-il (maintenant) ? »",
      "type": "choice",
      "choices": [
-      "かじ",
+      "たべる",
       "なんじ",
-      "なにじ",
-      "なんとき"
+      "そと",
+      "ちゅうがくせい"
      ],
      "a": 1,
      "uses": [
@@ -532,9 +532,9 @@
      "explain": "**話** se lit はな ici ({話|はな}す : parler). « Je parle avec ma mère au téléphone. »",
      "type": "choice",
      "choices": [
-      "そと",
-      "くに",
-      "なが",
+      "あし",
+      "よっ",
+      "よん",
       "はな"
      ],
      "a": 3,
@@ -549,10 +549,10 @@
      "explain": "**水** se lit みず ici ({水|みず} : eau). « J'achète de l'eau à la supérette. »",
      "type": "choice",
      "choices": [
-      "せん",
-      "はっぴゃく",
+      "こうこう",
+      "よむ",
       "みず",
-      "ゆうめい"
+      "はっぴゃく"
      ],
      "a": 2,
      "uses": [
@@ -567,9 +567,9 @@
      "type": "choice",
      "choices": [
       "えき",
-      "ほん",
-      "にがつ",
-      "かえる"
+      "たかい",
+      "なんにん",
+      "がくせい"
      ],
      "a": 0,
      "uses": [
@@ -634,9 +634,9 @@
      "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner). « Ce matin, je n'ai pas pris de petit-déjeuner. »",
      "type": "choice",
      "choices": [
-      "たべる",
-      "おとこのひと",
-      "やすむ",
+      "かく",
+      "じてんしゃ",
+      "ちいさい",
       "あさごはん"
      ],
      "a": 3,
@@ -685,10 +685,10 @@
      "explain": "**帰** se lit かえ ici ({帰|かえ}る : rentrer). « Je rentre à la maison à six heures. »",
      "type": "choice",
      "choices": [
-      "した",
-      "とし",
+      "やす",
+      "なん",
       "かえ",
-      "くに"
+      "うち"
      ],
      "a": 2,
      "uses": [
@@ -717,10 +717,10 @@
      "explain": "**大きい** se lit おおきい ici ({大|おお}きい : grand). « C'est très grand. »",
      "type": "choice",
      "choices": [
-      "きのう",
+      "きょねん",
       "おおきい",
-      "がくせい",
-      "ちかてつ"
+      "ひだり",
+      "たべもの"
      ],
      "a": 1,
      "uses": [
@@ -734,9 +734,9 @@
      "explain": "**下** se lit した ici ({下|した} : dessous, en bas). « Il y a un chat sous la chaise. »",
      "type": "choice",
      "choices": [
-      "にほん",
-      "にほんじん",
-      "おとうさん",
+      "ろくがつ",
+      "おおきい",
+      "ちかてつ",
       "した"
      ],
      "a": 3,
@@ -751,10 +751,10 @@
      "explain": "**四つ** se lit よっつ ici ({四|よっ}つ : quatre (objets)). « Il y a quatre chaises. »",
      "type": "choice",
      "choices": [
-      "しつ",
+      "えき",
       "よっつ",
-      "ながい",
-      "のむ"
+      "きく",
+      "にほん"
      ],
      "a": 1,
      "uses": [
@@ -768,10 +768,10 @@
      "explain": "**大人** se lit おとな ici ({大人|おとな} : adulte). « C'est 500 yens pour les adultes, 300 yens pour les enfants. »",
      "type": "choice",
      "choices": [
-      "やすみ",
+      "つち",
       "おとな",
-      "みぎ",
-      "ちゅうがくせい"
+      "じんじゃ",
+      "きょう"
      ],
      "a": 1,
      "uses": [
@@ -802,10 +802,10 @@
      "explain": "**十** se lit とお ici ({十|とお} : dix (objets)). « Compte jusqu'à dix. »",
      "type": "choice",
      "choices": [
-      "ほんだな",
-      "いちまん",
+      "たいせつ",
+      "じてんしゃ",
       "とお",
-      "きく"
+      "ひこうき"
      ],
      "a": 2,
      "uses": [
@@ -819,10 +819,10 @@
      "explain": "**百円** se lit ひゃくえん ici ({百円|ひゃくえん} : cent yens). « Je l'ai acheté dans une boutique à 100 yens. »",
      "type": "choice",
      "choices": [
-      "でんしゃ",
+      "せんしゅう",
       "ひゃくえん",
-      "おとうさん",
-      "わたし"
+      "さんぜん",
+      "へた"
      ],
      "a": 1,
      "uses": [
@@ -837,9 +837,9 @@
      "type": "choice",
      "choices": [
       "がっこう",
+      "ちいさい",
       "した",
-      "でんしゃ",
-      "しょくどう"
+      "でかける"
      ],
      "a": 0,
      "uses": [
@@ -854,9 +854,9 @@
      "type": "choice",
      "choices": [
       "ふたつ",
-      "しゃちょう",
-      "たべる",
-      "しちがつ"
+      "しょうがっこう",
+      "まいにち",
+      "ください"
      ],
      "a": 0,
      "uses": [
@@ -870,9 +870,9 @@
      "explain": "**友だち** se lit ともだち ici ({友|とも}だち : ami(e)). « Je retrouve un ami devant la gare. »",
      "type": "choice",
      "choices": [
-      "たつ",
-      "て",
-      "ろくがつ",
+      "かいしゃ",
+      "あめ",
+      "あう",
       "ともだち"
      ],
      "a": 3,
@@ -888,9 +888,9 @@
      "type": "choice",
      "choices": [
       "せんしゅう",
-      "にほんじん",
-      "みち",
-      "ふたり"
+      "にほんご",
+      "さんぷん",
+      "とうきょう"
      ],
      "a": 0,
      "uses": [
@@ -922,9 +922,9 @@
      "type": "choice",
      "choices": [
       "みっ",
-      "きた",
-      "した",
-      "むっ"
+      "さき",
+      "いえ",
+      "あま"
      ],
      "a": 0,
      "uses": [
@@ -956,9 +956,9 @@
      "type": "choice",
      "choices": [
       "いつつ",
-      "かく",
-      "さんぷん",
-      "ほっかいどう"
+      "ふたり",
+      "ひとり",
+      "こうこう"
      ],
      "a": 0,
      "uses": [
@@ -987,9 +987,9 @@
      "explain": "**名前** se lit なまえ ici ({名前|なまえ} : nom, prénom). « Je m'appelle Marie. »",
      "type": "choice",
      "choices": [
-      "かく",
-      "せんしゅう",
-      "やすみ",
+      "えん",
+      "ちいさい",
+      "あめ",
       "なまえ"
      ],
      "a": 3,
@@ -1004,9 +1004,9 @@
      "explain": "**前** se lit まえ ici ({前|まえ} : devant, avant). « Un enfant est debout devant la porte. »",
      "type": "choice",
      "choices": [
-      "へた",
-      "さくねん",
-      "でる",
+      "はっぴゃく",
+      "がいこく",
+      "あいだ",
       "まえ"
      ],
      "a": 3,
@@ -1021,9 +1021,9 @@
      "explain": "**お金** se lit おかね ici (お{金|かね} : argent). « Aujourd'hui, je n'ai pas d'argent. »",
      "type": "choice",
      "choices": [
-      "ひと",
-      "ごご",
-      "ちかてつ",
+      "ごがつ",
+      "ひとつめ",
+      "はなす",
       "おかね"
      ],
      "a": 3,
@@ -1038,10 +1038,10 @@
      "explain": "**道** se lit みち ici ({道|みち} : chemin, route). « Allez tout droit dans cette rue. »",
      "type": "choice",
      "choices": [
-      "ぎんこう",
-      "わたし",
+      "でぐち",
+      "おおきい",
       "みち",
-      "ゆうめい"
+      "はな"
      ],
      "a": 2,
      "uses": [
@@ -1055,10 +1055,10 @@
      "explain": "**朝** se lit あさ ici ({朝|あさ} : matin). « Le matin, je suis toujours pressé. »",
      "type": "choice",
      "choices": [
-      "てがみ",
-      "いちまん",
+      "きた",
+      "ごはん",
       "あさ",
-      "よっつ"
+      "どようび"
      ],
      "a": 2,
      "uses": [
@@ -1072,10 +1072,10 @@
      "explain": "**雨** se lit あめ ici ({雨|あめ} : pluie). « Demain, il pleuvra probablement. »",
      "type": "choice",
      "choices": [
-      "ふたつ",
-      "ろっぴゃく",
+      "ごはん",
+      "らいしゅう",
       "あめ",
-      "たりる"
+      "かしゅ"
      ],
      "a": 2,
      "uses": [
@@ -1089,10 +1089,10 @@
      "explain": "**毎朝** se lit まいあさ ici ({毎朝|まいあさ} : tous les matins). « Grand-père se promène tous les matins. »",
      "type": "choice",
      "choices": [
-      "かわ",
-      "はっせん",
+      "かえる",
+      "はいる",
       "まいあさ",
-      "はいる"
+      "あさ"
      ],
      "a": 2,
      "uses": [
@@ -1106,10 +1106,10 @@
      "explain": "**山** se lit やま ici ({山|やま} : montagne). « Quelle est la plus haute montagne du Japon ? »",
      "type": "choice",
      "choices": [
-      "ゆうめい",
-      "だいがくせい",
+      "うえ",
+      "でんわ",
       "やま",
-      "せん"
+      "でんき"
      ],
      "a": 2,
      "uses": [
@@ -1140,9 +1140,9 @@
      "explain": "**昨日** se lit きのう ici ({昨日|きのう} : hier). « Hier, j'ai acheté beaucoup de livres. »",
      "type": "choice",
      "choices": [
-      "ともだち",
-      "みぎ",
-      "にがつ",
+      "はんぶん",
+      "はっせん",
+      "わたし",
       "きのう"
      ],
      "a": 3,
@@ -1191,10 +1191,10 @@
      "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner). « J'ai mangé un œuf au petit-déjeuner. »",
      "type": "choice",
      "choices": [
-      "ほんだな",
-      "たべもの",
+      "みなみ",
+      "やすみ",
       "あさごはん",
-      "たりる"
+      "ごがつ"
      ],
      "a": 2,
      "uses": [
@@ -1225,10 +1225,10 @@
      "explain": "**分か** se lit わか ici ({分|わ}かる : comprendre). « Je ne connaissais pas le chemin, alors j'ai demandé à un agent de police. »",
      "type": "choice",
      "choices": [
-      "だか",
+      "ちか",
       "わか",
-      "ひか",
-      "よか"
+      "よか",
+      "だか"
      ],
      "a": 1,
      "uses": [
@@ -1257,9 +1257,9 @@
      "explain": "**入** se lit はい ici ({入|はい}る : entrer). « Je vous en prie, entrez. »",
      "type": "choice",
      "choices": [
-      "かわ",
-      "やま",
-      "みち",
+      "にし",
+      "ふた",
+      "にゅう",
       "はい"
      ],
      "a": 3,
@@ -1291,10 +1291,10 @@
      "explain": "**高い** se lit たかい ici ({高|たか}い : haut, cher). « Cet appareil photo est cher. Il coûte 100 000 yens. »",
      "type": "choice",
      "choices": [
-      "しんぶん",
-      "かようび",
+      "にがつ",
+      "うえ",
       "たかい",
-      "のむ"
+      "でんしゃ"
      ],
      "a": 2,
      "uses": [
@@ -1325,10 +1325,10 @@
      "explain": "**古い** se lit ふるい ici ({古|ふる}い : vieux). « La voiture de mon père est vieille. »",
      "type": "choice",
      "choices": [
-      "おとな",
-      "むっつ",
+      "たべもの",
+      "やま",
       "ふるい",
-      "かいしゃいん"
+      "くうこう"
      ],
      "a": 2,
      "uses": [
@@ -1342,10 +1342,10 @@
      "explain": "**新聞** se lit しんぶん ici ({新聞|しんぶん} : journal). « Passe-moi ce journal, s'il te plaît. »",
      "type": "choice",
      "choices": [
-      "さんびゃく",
-      "あし",
+      "やま",
+      "ここのつ",
       "しんぶん",
-      "にちようび"
+      "いく"
      ],
      "a": 2,
      "uses": [
@@ -1359,10 +1359,10 @@
      "explain": "**電車** se lit でんしゃ ici ({電車|でんしゃ} : train). « J'ai oublié mon parapluie dans le train. »",
      "type": "choice",
      "choices": [
-      "がくせい",
+      "じてんしゃ",
       "でんしゃ",
-      "じゅうがつ",
-      "らいげつ"
+      "ひとつ",
+      "くち"
      ],
      "a": 1,
      "uses": [
@@ -1377,9 +1377,9 @@
      "type": "choice",
      "choices": [
       "こども",
-      "やっつ",
-      "かようび",
-      "すども"
+      "そら",
+      "じょうず",
+      "ちゅうがくせい"
      ],
      "a": 0,
      "uses": [
@@ -1393,10 +1393,10 @@
      "explain": "**休み** se lit やすみ ici ({休|やす}み : repos, congé). « J'ai attrapé un rhume, alors je ne vais pas à l'école. »",
      "type": "choice",
      "choices": [
+      "みっつ",
       "ことし",
-      "なんぷん",
       "やすみ",
-      "えいご"
+      "あさごはん"
      ],
      "a": 2,
      "uses": [
@@ -1495,10 +1495,10 @@
      "explain": "**お母さん** se lit おかあさん ici (お{母|かあ}さん : mère (de quelqu'un)). « Maman, je suis rentré ! »",
      "type": "choice",
      "choices": [
-      "こども",
-      "がっこう",
+      "みず",
+      "すいようび",
       "おかあさん",
-      "みせる"
+      "なんぷん"
      ],
      "a": 2,
      "uses": [
@@ -1527,10 +1527,10 @@
      "explain": "**朝ご飯** se lit あさごはん ici ({朝|あさ}ご{飯|はん} : petit déjeuner). « Je n'ai pas pris de petit-déjeuner, alors j'ai faim. »",
      "type": "choice",
      "choices": [
-      "かいしゃいん",
+      "うしろ",
       "あさごはん",
-      "かようび",
-      "おとこのひと"
+      "ついたち",
+      "せんしゅう"
      ],
      "a": 1,
      "uses": [
@@ -1545,9 +1545,9 @@
      "type": "choice",
      "choices": [
       "ふるい",
-      "もくようび",
-      "とうきょう",
-      "ぎんこう"
+      "ひゃく",
+      "きゅう",
+      "ほん"
      ],
      "a": 0,
      "uses": [
@@ -1629,9 +1629,9 @@
      "explain": "**名前** se lit なまえ ici ({名前|なまえ} : nom, prénom). « Excusez-moi, comment vous appelez-vous ? »",
      "type": "choice",
      "choices": [
-      "まいばん",
-      "せんげつ",
-      "あと",
+      "いつつ",
+      "くるま",
+      "けさ",
       "なまえ"
      ],
      "a": 3,
@@ -1680,9 +1680,9 @@
      "explain": "**家** se lit いえ ici ({家|いえ} : maison). « De chez moi à la gare, il y a dix minutes. »",
      "type": "choice",
      "choices": [
-      "かえる",
+      "あいだ",
       "ゆうめい",
-      "ちゅうがくせい",
+      "なまえ",
       "いえ"
      ],
      "a": 3,
@@ -1714,10 +1714,10 @@
      "explain": "**話** se lit はな ici ({話|はな}す : parler). « Parlez lentement, s'il vous plaît. »",
      "type": "choice",
      "choices": [
-      "ふた",
+      "そと",
       "はな",
-      "あめ",
-      "つき"
+      "みず",
+      "ふる"
      ],
      "a": 1,
      "uses": [
@@ -1732,9 +1732,9 @@
      "type": "choice",
      "choices": [
       "いま",
-      "ちゅうがくせい",
-      "かいしゃ",
-      "さっか"
+      "ひとり",
+      "くに",
+      "そと"
      ],
      "a": 0,
      "uses": [
@@ -1749,9 +1749,9 @@
      "type": "choice",
      "choices": [
       "ちち",
-      "がっこう",
-      "ひがし",
-      "すいようび"
+      "よん",
+      "ごふん",
+      "じんじゃ"
      ],
      "a": 0,
      "uses": [
@@ -1765,10 +1765,10 @@
      "explain": "**上** se lit うえ ici ({上|うえ} : dessus, en haut). « Il y a un stylo sur le bureau. »",
      "type": "choice",
      "choices": [
-      "むっつ",
+      "たつ",
       "うえ",
-      "ひがし",
-      "ちち"
+      "した",
+      "あたらしい"
      ],
      "a": 1,
      "uses": [

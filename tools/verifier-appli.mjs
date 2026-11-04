@@ -12,7 +12,7 @@ const reading = s => s.replace(/\{[^|{}]+\|([^{}]+)\}/g, '$1');
 // Fiches : lectures bien écrites, 1 à 5 mots qui contiennent le kanji, lecture identique à l'appli vocabulaire.
 const voc = new Map();
 for (const w of read('data/sources/mots-vocab.json')) (voc.get(plain(w.jp)) ?? voc.set(plain(w.jp), new Set()).get(plain(w.jp))).add(w.kana);
-const lecons = read('data/sources/kanji-n5.json');
+const lecons = ['kanji-n5.json', 'kanji-n4.json'].flatMap(f => read(`data/sources/${f}`));
 const fiches = lecons.flatMap(l => l.kanji);
 if (new Set(fiches.map(k => k.k)).size !== fiches.length) err('fiches', 'kanji en double');
 for (const l of lecons) if (l.kanji.length < 5 || l.kanji.length > 8) err(l.id, 'il faut 5 à 8 kanji');

@@ -1,0 +1,239 @@
+[
+{"id": "k4-01", "title": "Villes et régions", "kanji": [
+ {"k": "町", "fr": "ville, quartier", "on": ["チョウ"], "kun": ["まち"], "memo": "Un champ 田 et un clou 丁 : le quartier tracé au cordeau.", "res": ["田", "画"], "mots": [["{町|まち}", "ville, quartier"], ["{下|した}{町|まち}", "vieux quartier populaire"]]},
+ {"k": "村", "fr": "village", "on": ["ソン"], "kun": ["むら"], "memo": "Un arbre 木 et une main 寸 : là où l'on plante, le village.", "res": ["林", "材"], "mots": [["{村|むら}", "village"], ["{村|そん}{長|ちょう}", "chef du village"]]},
+ {"k": "市", "fr": "ville (commune), marché", "on": ["シ"], "kun": ["いち"], "memo": "Un toit et un tissu suspendu : l'étal du marché, puis la ville.", "res": ["布", "姉"], "mots": [["{市|し}", "ville (commune)"], ["{市|し}{長|ちょう}", "maire"], ["{市|いち}{場|ば}", "marché"]]},
+ {"k": "区", "fr": "arrondissement", "on": ["ク"], "kun": [], "memo": "Une boîte 匚 où l'on range des morceaux ✕ : la ville découpée en arrondissements.", "res": ["医", "匹"], "mots": [["{区|く}", "arrondissement"], ["{地|ち}{区|く}", "quartier, zone"], ["{区|く}{役|やく}{所|しょ}", "mairie d'arrondissement"]]},
+ {"k": "県", "fr": "préfecture (département)", "on": ["ケン"], "kun": [], "memo": "Un œil 目 posé sur un socle : le chef-lieu qui surveille la région.", "res": ["見", "具"], "mots": [["{県|けん}", "préfecture (région)"], ["{県|けん}{民|みん}", "habitants de la préfecture"]]},
+ {"k": "都", "fr": "capitale, métropole", "on": ["ト", "ツ"], "kun": ["みやこ"], "memo": "Des gens 者 et un village 阝 : la grande ville, la capitale.", "res": ["部", "者"], "mots": [["{京|きょう}{都|と}", "Kyoto"], ["{都|つ}{合|ごう}", "disponibilité, convenance"], ["{首|しゅ}{都|と}", "capitale"]]},
+ {"k": "京", "fr": "capitale", "on": ["キョウ", "ケイ"], "kun": [], "memo": "Une haute tour sur une colline : la capitale.", "res": ["高", "景"], "mots": [["{東|とう}{京|きょう}", "Tokyo"], ["{京|きょう}{都|と}", "Kyoto"]]}
+]},
+{"id": "k4-02", "title": "Bâtiments et pièces", "kanji": [
+ {"k": "店", "fr": "magasin", "on": ["テン"], "kun": ["みせ"], "memo": "Un abri 广 et un devin 占 : la boutique où l'on vend.", "res": ["広", "占"], "mots": [["{店|みせ}", "magasin"], ["{店|てん}{員|いん}", "vendeur, vendeuse"], ["{喫|きっ}{茶|さ}{店|てん}", "café (salon de thé)"]]},
+ {"k": "屋", "fr": "toit, boutique", "on": ["オク"], "kun": ["や"], "memo": "Un corps couché 尸 qui arrive 至 : la maison où l'on dort.", "res": ["室", "居"], "mots": [["{部|へ}{屋|や}", "pièce, chambre"], ["{本|ほん}{屋|や}", "librairie"], ["{八百|やお}{屋|や}", "marchand de légumes"], ["{屋|おく}{上|じょう}", "toit-terrasse"]]},
+ {"k": "館", "fr": "grand bâtiment", "on": ["カン"], "kun": [], "memo": "La nourriture 食 et un grand toit 官 : l'auberge, puis le grand bâtiment.", "res": ["食", "飯"], "mots": [["{図|と}{書|しょ}{館|かん}", "bibliothèque"], ["{映|えい}{画|が}{館|かん}", "cinéma (salle)"], ["{大|たい}{使|し}{館|かん}", "ambassade"]]},
+ {"k": "院", "fr": "institution", "on": ["イン"], "kun": [], "memo": "Une colline 阝 et une maison achevée 完 : un grand établissement.", "res": ["完", "陽"], "mots": [["{病|びょう}{院|いん}", "hôpital"], ["{入|にゅう}{院|いん}", "hospitalisation"], ["{大|だい}{学|がく}{院|いん}", "études supérieures (master)"]]},
+ {"k": "堂", "fr": "grande salle", "on": ["ドウ"], "kun": [], "memo": "Une maison haute posée sur la terre 土 : la grande salle.", "res": ["室", "党"], "mots": [["{食|しょく}{堂|どう}", "cantine, réfectoire"], ["{公|こう}{会|かい}{堂|どう}", "salle municipale"]]},
+ {"k": "室", "fr": "pièce, salle", "on": ["シツ"], "kun": ["むろ"], "memo": "Un toit 宀 et ce qui arrive 至 : la pièce où l'on s'arrête.", "res": ["屋", "空"], "mots": [["{教|きょう}{室|しつ}", "salle de classe"], ["{会|かい}{議|ぎ}{室|しつ}", "salle de réunion"], ["{室|しつ}{内|ない}", "intérieur"]]},
+ {"k": "場", "fr": "lieu", "on": ["ジョウ"], "kun": ["ば"], "memo": "La terre 土 et le soleil qui se lève 昜 : un terrain dégagé, un lieu.", "res": ["湯", "陽"], "mots": [["{場|ば}{所|しょ}", "lieu, endroit"], ["{会|かい}{場|じょう}", "salle (d'un événement)"], ["{売|う}り{場|ば}", "rayon (de magasin)"], ["{駐|ちゅう}{車|しゃ}{場|じょう}", "parking"]]}
+]},
+{"id": "k4-03", "title": "Sorties en ville", "kanji": [
+ {"k": "銀", "fr": "argent (métal)", "on": ["ギン"], "kun": [], "memo": "Le métal 金 et un œil qui fixe 艮 : le métal blanc qui brille.", "res": ["金", "根"], "mots": [["{銀|ぎん}{行|こう}", "banque"], ["{銀|ぎん}", "argent (métal)"], ["{銀|ぎん}{色|いろ}", "couleur argent"]]},
+ {"k": "図", "fr": "plan, schéma", "on": ["ズ", "ト"], "kun": ["はか(る)"], "memo": "Un cadre 囗 avec un dessin dedans : le plan.", "res": ["国", "回"], "mots": [["{地|ち}{図|ず}", "carte (plan)"], ["{図|と}{書|しょ}{館|かん}", "bibliothèque"], ["{図|ず}", "schéma"]]},
+ {"k": "映", "fr": "projeter, refléter", "on": ["エイ"], "kun": ["うつ(る)", "うつ(す)"], "memo": "Le soleil 日 au centre 央 : l'image qui se reflète.", "res": ["英", "央"], "mots": [["{映|えい}{画|が}", "film"], ["{映|えい}{画|が}{館|かん}", "cinéma (salle)"]]},
+ {"k": "画", "fr": "dessin, image", "on": ["ガ", "カク"], "kun": [], "memo": "Un champ 田 entouré d'un cadre : le dessin, l'image.", "res": ["面", "田"], "mots": [["{映|えい}{画|が}", "film"], ["{画|が}{家|か}", "peintre"], ["{計|けい}{画|かく}", "plan, projet"]]},
+ {"k": "写", "fr": "copier, photographier", "on": ["シャ"], "kun": ["うつ(す)"], "memo": "Un couvercle 冖 posé sur un modèle : on recopie l'image.", "res": ["与", "字"], "mots": [["{写|しゃ}{真|しん}", "photo"], ["{写|うつ}す", "copier, photographier"]]},
+ {"k": "真", "fr": "vrai, juste", "on": ["シン"], "kun": ["ま"], "memo": "Un œil 目 posé bien droit sur un socle : ce qui est vrai.", "res": ["具", "直"], "mots": [["{写|しゃ}{真|しん}", "photo"], ["{真|ま}ん{中|なか}", "plein milieu"], ["{真|ま}っ{白|しろ}", "tout blanc"]]}
+]},
+{"id": "k4-04", "title": "Le monde et les gens", "kanji": [
+ {"k": "地", "fr": "terre, sol", "on": ["チ", "ジ"], "kun": [], "memo": "La terre 土 et un serpent 也 qui rampe : le sol.", "res": ["池", "他"], "mots": [["{地|ち}{下|か}{鉄|てつ}", "métro"], ["{地|ち}{図|ず}", "carte (plan)"], ["{地|じ}{震|しん}", "tremblement de terre"]]},
+ {"k": "方", "fr": "direction, personne (poli)", "on": ["ホウ"], "kun": ["かた"], "memo": "Une charrue qui pointe vers une direction.", "res": ["万", "力"], "mots": [["{方|かた}", "personne (poli)"], ["{夕|ゆう}{方|がた}", "fin d'après-midi"], ["{読|よ}み{方|かた}", "façon de lire"], ["{方|ほう}{法|ほう}", "méthode"]]},
+ {"k": "所", "fr": "endroit", "on": ["ショ"], "kun": ["ところ"], "memo": "Une porte 戸 et une hache 斤 : l'endroit où l'on coupe le bois.", "res": ["近", "新"], "mots": [["{所|ところ}", "endroit"], ["{台|だい}{所|どころ}", "cuisine (pièce)"], ["{住|じゅう}{所|しょ}", "adresse"]]},
+ {"k": "世", "fr": "monde, génération", "on": ["セイ", "セ"], "kun": ["よ"], "memo": "Trois fois dix 十 réunis : trente ans, une génération, le monde.", "res": ["也", "廿"], "mots": [["{世|せ}{界|かい}", "monde"], ["{世|せ}{話|わ}", "soin, aide"]]},
+ {"k": "界", "fr": "monde, limite", "on": ["カイ"], "kun": [], "memo": "Un champ 田 et une limite 介 : le domaine, le monde.", "res": ["男", "思"], "mots": [["{世|せ}{界|かい}", "monde"]]},
+ {"k": "民", "fr": "peuple", "on": ["ミン"], "kun": ["たみ"], "memo": "Un œil percé par une aiguille : les sujets, le peuple.", "res": ["氏", "昆"], "mots": [["{国|こく}{民|みん}", "citoyens, la nation"], ["{市|し}{民|みん}", "citoyen (d'une ville)"]]}
+]},
+{"id": "k4-05", "title": "Autour de la ville", "kanji": [
+ {"k": "門", "fr": "portail", "on": ["モン"], "kun": ["かど"], "memo": "Deux battants de porte face à face.", "res": ["間", "問"], "mots": [["{門|もん}", "portail"], ["{専|せん}{門|もん}", "spécialité"]]},
+ {"k": "池", "fr": "étang", "on": ["チ"], "kun": ["いけ"], "memo": "L'eau 氵 et un serpent 也 : l'étang.", "res": ["地", "他"], "mots": [["{池|いけ}", "étang"], ["{電|でん}{池|ち}", "pile (électrique)"]]},
+ {"k": "田", "fr": "rizière", "on": ["デン"], "kun": ["た"], "memo": "Une rizière vue d'en haut, en quatre parcelles.", "res": ["由", "目"], "mots": [["{田舎|いなか}", "campagne"], ["{田|た}んぼ", "rizière"], ["{山|やま}{田|だ}", "Yamada (nom)"]]},
+ {"k": "野", "fr": "champ, nature", "on": ["ヤ"], "kun": ["の"], "memo": "Un village 里 et un fil tendu 予 : les champs autour du village.", "res": ["里", "予"], "mots": [["{野|や}{菜|さい}", "légumes"], ["{野|や}{球|きゅう}", "baseball"], ["{野|の}{原|はら}", "plaine"]]},
+ {"k": "林", "fr": "bois, bosquet", "on": ["リン"], "kun": ["はやし"], "memo": "Deux arbres 木 : un petit bois.", "res": ["森", "木"], "mots": [["{林|はやし}", "bois, bosquet"], ["{小|こ}{林|ばやし}", "Kobayashi (nom)"]]},
+ {"k": "森", "fr": "forêt", "on": ["シン"], "kun": ["もり"], "memo": "Trois arbres 木 : une forêt.", "res": ["林", "木"], "mots": [["{森|もり}", "forêt"], ["{森|しん}{林|りん}", "forêt (mot écrit)"]]}
+]},
+{"id": "k4-06", "title": "Se déplacer", "kanji": [
+ {"k": "歩", "fr": "marcher", "on": ["ホ", "ポ"], "kun": ["ある(く)"], "memo": "Un pied 止 au-dessus d'un autre : on avance pas à pas.", "res": ["少", "止"], "mots": [["{歩|ある}く", "marcher"], ["{散|さん}{歩|ぽ}", "promenade"], ["{歩|ほ}{道|どう}", "trottoir"]]},
+ {"k": "走", "fr": "courir", "on": ["ソウ"], "kun": ["はし(る)"], "memo": "La terre 土 et un pied 止 qui pousse fort : on court.", "res": ["起", "足"], "mots": [["{走|はし}る", "courir"]]},
+ {"k": "止", "fr": "s'arrêter", "on": ["シ"], "kun": ["と(まる)", "と(める)"], "memo": "Un pied posé au sol : on s'arrête.", "res": ["上", "正"], "mots": [["{止|と}まる", "s'arrêter"], ["{止|と}める", "arrêter (qqch)"], ["{中|ちゅう}{止|し}", "annulation"]]},
+ {"k": "進", "fr": "avancer", "on": ["シン"], "kun": ["すす(む)"], "memo": "Un oiseau 隹 sur la route ⻌ : l'oiseau ne recule jamais, il avance.", "res": ["近", "集"], "mots": [["{進|すす}む", "avancer"], ["{進|しん}{学|がく}", "poursuivre ses études"]]},
+ {"k": "運", "fr": "transporter, chance", "on": ["ウン"], "kun": ["はこ(ぶ)"], "memo": "Un char 軍 sur la route ⻌ : on transporte.", "res": ["連", "軍"], "mots": [["{運|うん}{転|てん}", "conduite (d'un véhicule)"], ["{運|はこ}ぶ", "transporter"], ["{運|うん}{動|どう}", "exercice, sport"]]},
+ {"k": "転", "fr": "tourner, rouler", "on": ["テン"], "kun": ["ころ(ぶ)"], "memo": "Un char 車 dont la roue tourne 云.", "res": ["車", "軽"], "mots": [["{自|じ}{転|てん}{車|しゃ}", "vélo"], ["{運|うん}{転|てん}", "conduite (d'un véhicule)"], ["{転|ころ}ぶ", "tomber, trébucher"]]}
+]},
+{"id": "k4-07", "title": "Aller et venir", "kanji": [
+ {"k": "乗", "fr": "monter (dans un véhicule)", "on": ["ジョウ"], "kun": ["の(る)"], "memo": "Une personne perchée en haut d'un arbre 木 : elle monte dessus.", "res": ["来", "垂"], "mots": [["{乗|の}る", "monter (dans un véhicule)"], ["{乗|の}り{物|もの}", "véhicule"]]},
+ {"k": "通", "fr": "passer, fréquenter", "on": ["ツウ"], "kun": ["とお(る)", "かよ(う)"], "memo": "Un tube 甬 sur la route ⻌ : on passe au travers.", "res": ["進", "週"], "mots": [["{通|とお}る", "passer"], ["{通|かよ}う", "fréquenter, faire le trajet"], ["{交|こう}{通|つう}", "circulation"]]},
+ {"k": "送", "fr": "envoyer", "on": ["ソウ"], "kun": ["おく(る)"], "memo": "Deux mains qui poussent sur la route ⻌ : on envoie, on raccompagne.", "res": ["道", "迷"], "mots": [["{送|おく}る", "envoyer, raccompagner"], ["{放|ほう}{送|そう}", "diffusion (radio, télé)"]]},
+ {"k": "去", "fr": "partir, passé", "on": ["キョ"], "kun": ["さ(る)"], "memo": "La terre 土 et un détour ム : on s'en va.", "res": ["法", "云"], "mots": [["{去|きょ}{年|ねん}", "l'an dernier"]]},
+ {"k": "近", "fr": "proche", "on": ["キン"], "kun": ["ちか(い)"], "memo": "Une hache 斤 sur la route ⻌ : à portée de main, tout près.", "res": ["遠", "所"], "mots": [["{近|ちか}い", "proche"], ["{近|ちか}く", "les environs"], ["{最|さい}{近|きん}", "récemment"]]},
+ {"k": "遠", "fr": "loin", "on": ["エン"], "kun": ["とお(い)"], "memo": "Une longue robe 袁 sur la route ⻌ : le voyage est long.", "res": ["近", "園"], "mots": [["{遠|とお}い", "loin"]]}
+]},
+{"id": "k4-08", "title": "Partir, arriver", "kanji": [
+ {"k": "起", "fr": "se lever", "on": ["キ"], "kun": ["お(きる)", "お(こす)"], "memo": "Courir 走 et soi-même 己 : on se lève d'un bond.", "res": ["走", "超"], "mots": [["{起|お}きる", "se lever"], ["{起|お}こす", "réveiller"]]},
+ {"k": "待", "fr": "attendre", "on": ["タイ"], "kun": ["ま(つ)"], "memo": "Un chemin 彳 et un temple 寺 : on attend devant le temple.", "res": ["持", "特"], "mots": [["{待|ま}つ", "attendre"], ["{招|しょう}{待|たい}", "invitation"]]},
+ {"k": "急", "fr": "se presser, urgent", "on": ["キュウ"], "kun": ["いそ(ぐ)"], "memo": "Une main qui attrape 刍 un cœur 心 : le cœur s'emballe.", "res": ["思", "息"], "mots": [["{急|いそ}ぐ", "se dépêcher"], ["{急|きゅう}{行|こう}", "train express"], ["{急|きゅう}に", "soudain"]]},
+ {"k": "早", "fr": "tôt", "on": ["ソウ"], "kun": ["はや(い)"], "memo": "Le soleil 日 au-dessus de l'horizon 十 : il est tôt.", "res": ["草", "旱"], "mots": [["{早|はや}い", "tôt"], ["{早|はや}く", "vite, tôt"]]},
+ {"k": "発", "fr": "partir, émettre", "on": ["ハツ", "ホツ"], "kun": [], "memo": "Deux pieds 癶 qui s'élancent : le départ.", "res": ["登", "祭"], "mots": [["{出|しゅっ}{発|ぱつ}", "départ"], ["{発|はつ}{音|おん}", "prononciation"], ["{発|はっ}{表|ぴょう}", "présentation, exposé"]]},
+ {"k": "着", "fr": "arriver, porter (vêtement)", "on": ["チャク"], "kun": ["き(る)", "つ(く)"], "memo": "Un mouton 羊 et un œil 目 : on enfile la laine.", "res": ["者", "差"], "mots": [["{着|き}る", "porter (un haut)"], ["{着|つ}く", "arriver"], ["{着|き}{物|もの}", "kimono"], ["{下|した}{着|ぎ}", "sous-vêtement"]]}
+]},
+{"id": "k4-09", "title": "Avec les mains", "kanji": [
+ {"k": "開", "fr": "ouvrir", "on": ["カイ"], "kun": ["あ(く)", "あ(ける)", "ひら(く)"], "memo": "Une porte 門 dont on lève la barre : on ouvre.", "res": ["閉", "間", "聞"], "mots": [["{開|あ}ける", "ouvrir"], ["{開|あ}く", "s'ouvrir"]]},
+ {"k": "引", "fr": "tirer", "on": ["イン"], "kun": ["ひ(く)"], "memo": "Un arc 弓 et sa corde tendue : on tire.", "res": ["弓", "弘"], "mots": [["{引|ひ}く", "tirer"], ["{引|ひ}き{出|だ}し", "tiroir"], ["{引|ひ}っ{越|こ}す", "déménager"]]},
+ {"k": "持", "fr": "tenir, avoir", "on": ["ジ"], "kun": ["も(つ)"], "memo": "Une main 扌 et un temple 寺 : on tient bien.", "res": ["待", "特"], "mots": [["{持|も}つ", "tenir, avoir"], ["{気|き}{持|も}ち", "sentiment"], ["{金|かね}{持|も}ち", "riche"]]},
+ {"k": "貸", "fr": "prêter", "on": ["タイ"], "kun": ["か(す)"], "memo": "De l'argent 貝 et un remplaçant 代 : on prête.", "res": ["貨", "借"], "mots": [["{貸|か}す", "prêter"]]},
+ {"k": "借", "fr": "emprunter", "on": ["シャク"], "kun": ["か(りる)"], "memo": "Une personne 亻 et autrefois 昔 : on emprunte ce qui servait jadis.", "res": ["貸", "昔"], "mots": [["{借|か}りる", "emprunter"]]},
+ {"k": "使", "fr": "utiliser", "on": ["シ"], "kun": ["つか(う)"], "memo": "Une personne 亻 et un fonctionnaire 吏 : on l'emploie.", "res": ["便", "史"], "mots": [["{使|つか}う", "utiliser"], ["{大|たい}{使|し}{館|かん}", "ambassade"]]}
+]},
+{"id": "k4-10", "title": "Faire et vendre", "kanji": [
+ {"k": "作", "fr": "faire, fabriquer", "on": ["サク", "サ"], "kun": ["つく(る)"], "memo": "Une personne 亻 et un outil 乍 : on fabrique.", "res": ["昨", "件"], "mots": [["{作|つく}る", "faire, fabriquer"], ["{作|さく}{文|ぶん}", "rédaction"], ["{作|さっ}{家|か}", "écrivain"]]},
+ {"k": "洗", "fr": "laver", "on": ["セン"], "kun": ["あら(う)"], "memo": "L'eau 氵 et ce qui est devant 先 : on lave d'abord.", "res": ["先", "流"], "mots": [["{洗|あら}う", "laver"], ["お{手|て}{洗|あら}い", "toilettes"], ["{洗|せん}{濯|たく}", "lessive"]]},
+ {"k": "切", "fr": "couper", "on": ["セツ", "サイ"], "kun": ["き(る)"], "memo": "Le chiffre sept 七 et un sabre 刀 : on coupe.", "res": ["功", "初"], "mots": [["{切|き}る", "couper"], ["{切|きっ}{手|て}", "timbre"], ["{大|たい}{切|せつ}", "important, précieux"], ["{親|しん}{切|せつ}", "gentil"]]},
+ {"k": "売", "fr": "vendre", "on": ["バイ"], "kun": ["う(る)"], "memo": "Un lettré 士 qui porte un sac : il vend.", "res": ["買", "読"], "mots": [["{売|う}る", "vendre"], ["{売|う}り{場|ば}", "rayon (de magasin)"], ["{売|ばい}{店|てん}", "kiosque"]]},
+ {"k": "用", "fr": "usage, affaire", "on": ["ヨウ"], "kun": ["もち(いる)"], "memo": "Une palissade bien construite : un outil prêt à servir.", "res": ["月", "角"], "mots": [["{用|よう}{事|じ}", "affaire, course à faire"], ["{使|し}{用|よう}", "usage, utilisation"], ["{用|よう}{意|い}", "préparation"]]},
+ {"k": "集", "fr": "rassembler", "on": ["シュウ"], "kun": ["あつ(まる)", "あつ(める)"], "memo": "Des oiseaux 隹 sur un arbre 木 : ils se rassemblent.", "res": ["進", "焦"], "mots": [["{集|あつ}める", "rassembler"], ["{集|あつ}まる", "se réunir"]]}
+]},
+{"id": "k4-11", "title": "Apprendre", "kanji": [
+ {"k": "教", "fr": "enseigner", "on": ["キョウ"], "kun": ["おし(える)"], "memo": "Un enfant 子 et une main avec un bâton 攵 : on enseigne.", "res": ["数", "孝"], "mots": [["{教|おし}える", "enseigner"], ["{教|きょう}{室|しつ}", "salle de classe"], ["{教|きょう}{会|かい}", "église"]]},
+ {"k": "習", "fr": "apprendre, s'exercer", "on": ["シュウ"], "kun": ["なら(う)"], "memo": "Deux ailes 羽 au-dessus du blanc 白 : l'oisillon s'exerce à voler.", "res": ["羽", "白"], "mots": [["{習|なら}う", "apprendre (avec qqn)"], ["{練|れん}{習|しゅう}", "entraînement"], ["{予|よ}{習|しゅう}", "préparation (d'un cours)"]]},
+ {"k": "勉", "fr": "effort", "on": ["ベン"], "kun": [], "memo": "Échapper 免 à force de bras 力 : on fait des efforts.", "res": ["免", "勤"], "mots": [["{勉|べん}{強|きょう}", "étude"]]},
+ {"k": "強", "fr": "fort", "on": ["キョウ", "ゴウ"], "kun": ["つよ(い)"], "memo": "Un arc 弓 et un insecte 虫 : petit mais fort, comme l'insecte.", "res": ["弱", "弘"], "mots": [["{強|つよ}い", "fort"], ["{勉|べん}{強|きょう}", "étude"]]},
+ {"k": "試", "fr": "essayer, épreuve", "on": ["シ"], "kun": ["ため(す)"], "memo": "La parole 言 et la règle 式 : on met à l'épreuve.", "res": ["式", "説"], "mots": [["{試|し}{験|けん}", "examen"], ["{試|し}{合|あい}", "match"], ["{試|ため}す", "essayer"]]},
+ {"k": "験", "fr": "tester", "on": ["ケン"], "kun": [], "memo": "Un cheval 馬 qu'on examine 僉 avant de l'acheter : on teste.", "res": ["検", "険"], "mots": [["{試|し}{験|けん}", "examen"], ["{経|けい}{験|けん}", "expérience"]]}
+]},
+{"id": "k4-12", "title": "Questions et réponses", "kanji": [
+ {"k": "研", "fr": "polir, rechercher", "on": ["ケン"], "kun": ["と(ぐ)"], "memo": "Une pierre 石 et deux montants 开 : on polit sans relâche.", "res": ["石", "形"], "mots": [["{研|けん}{究|きゅう}", "recherche"]]},
+ {"k": "究", "fr": "approfondir", "on": ["キュウ"], "kun": ["きわ(める)"], "memo": "Un trou 穴 et le chiffre neuf 九 : on creuse jusqu'au bout.", "res": ["空", "九"], "mots": [["{研|けん}{究|きゅう}", "recherche"], ["{研|けん}{究|きゅう}{室|しつ}", "laboratoire"]]},
+ {"k": "題", "fr": "sujet, titre", "on": ["ダイ"], "kun": [], "memo": "Une tête 頁 et ce qui est juste 是 : le titre en tête.", "res": ["顔", "頭"], "mots": [["{問|もん}{題|だい}", "problème, question"], ["{宿|しゅく}{題|だい}", "devoirs"], ["{話|わ}{題|だい}", "sujet de conversation"]]},
+ {"k": "答", "fr": "répondre", "on": ["トウ"], "kun": ["こた(える)"], "memo": "Le bambou ⺮ et ce qui s'emboîte 合 : la réponse qui correspond.", "res": ["合", "茶"], "mots": [["{答|こた}える", "répondre"], ["{答|こた}え", "réponse"]]},
+ {"k": "問", "fr": "question", "on": ["モン"], "kun": ["と(う)"], "memo": "Une bouche 口 à la porte 門 : on pose une question.", "res": ["間", "門"], "mots": [["{問|もん}{題|だい}", "problème, question"], ["{質|しつ}{問|もん}", "question"]]},
+ {"k": "文", "fr": "texte, phrase", "on": ["ブン", "モン"], "kun": ["ふみ"], "memo": "Une personne aux bras croisés, couverte de signes : l'écrit.", "res": ["父", "交"], "mots": [["{文|ぶん}", "phrase"], ["{作|さく}{文|ぶん}", "rédaction"], ["{文|ぶん}{化|か}", "culture"], ["{文字|もじ}", "caractère, lettre"]]}
+]},
+{"id": "k4-13", "title": "Lettres et langues", "kanji": [
+ {"k": "字", "fr": "caractère (écrit)", "on": ["ジ"], "kun": ["あざ"], "memo": "Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison.", "res": ["学", "子"], "mots": [["{漢|かん}{字|じ}", "kanji"], ["{字|じ}", "écriture"], ["{文字|もじ}", "caractère, lettre"]]},
+ {"k": "漢", "fr": "Chine (des Han)", "on": ["カン"], "kun": [], "memo": "L'eau 氵 et une terre sèche : le fleuve Han, puis la Chine.", "res": ["難", "僕"], "mots": [["{漢|かん}{字|じ}", "kanji"]]},
+ {"k": "英", "fr": "anglais, excellent", "on": ["エイ"], "kun": [], "memo": "L'herbe 艹 et le centre 央 : la fleur au cœur, l'excellence ; aujourd'hui l'Angleterre.", "res": ["映", "央"], "mots": [["{英|えい}{語|ご}", "anglais (langue)"], ["{英|えい}{会|かい}{話|わ}", "conversation en anglais"]]},
+ {"k": "洋", "fr": "océan, occidental", "on": ["ヨウ"], "kun": [], "memo": "L'eau 氵 et un mouton 羊 : l'eau à perte de vue, l'océan, puis l'Occident.", "res": ["羊", "注"], "mots": [["{洋|よう}{服|ふく}", "vêtements (occidentaux)"], ["{西|せい}{洋|よう}", "Occident"], ["{太|たい}{平|へい}{洋|よう}", "océan Pacifique"]]},
+ {"k": "説", "fr": "expliquer", "on": ["セツ"], "kun": ["と(く)"], "memo": "La parole 言 et un frère qui sourit 兑 : on explique avec le sourire.", "res": ["話", "税"], "mots": [["{説|せつ}{明|めい}", "explication"], ["{小|しょう}{説|せつ}", "roman"]]},
+ {"k": "計", "fr": "mesurer, compter", "on": ["ケイ"], "kun": ["はか(る)"], "memo": "La parole 言 et dix 十 : on compte à voix haute.", "res": ["針", "許"], "mots": [["{時計|とけい}", "montre, horloge"], ["{計|けい}{画|かく}", "plan, projet"], ["{合|ごう}{計|けい}", "total"]]}
+]},
+{"id": "k4-14", "title": "Le travail", "kanji": [
+ {"k": "仕", "fr": "servir", "on": ["シ", "ジ"], "kun": ["つか(える)"], "memo": "Une personne 亻 et un lettré 士 : celui qui sert.", "res": ["任", "化"], "mots": [["{仕|し}{事|ごと}", "travail"], ["{仕|し}{方|かた}", "manière, moyen"]]},
+ {"k": "事", "fr": "chose, affaire", "on": ["ジ", "ズ"], "kun": ["こと"], "memo": "Une main qui tient un pinceau : l'affaire qu'on traite.", "res": ["争", "書"], "mots": [["{事|こと}", "chose (abstraite)"], ["{仕|し}{事|ごと}", "travail"], ["{食|しょく}{事|じ}", "repas"], ["{火|か}{事|じ}", "incendie"]]},
+ {"k": "働", "fr": "travailler", "on": ["ドウ"], "kun": ["はたら(く)"], "memo": "Une personne 亻 qui bouge 動 : elle travaille.", "res": ["動", "重"], "mots": [["{働|はたら}く", "travailler"]]},
+ {"k": "業", "fr": "métier, industrie", "on": ["ギョウ", "ゴウ"], "kun": ["わざ"], "memo": "Un support chargé de cloches : l'ouvrage du métier.", "res": ["美", "実"], "mots": [["{授|じゅ}{業|ぎょう}", "cours (en classe)"], ["{卒|そつ}{業|ぎょう}", "fin d'études"], ["{工|こう}{業|ぎょう}", "industrie"]]},
+ {"k": "員", "fr": "membre, employé", "on": ["イン"], "kun": [], "memo": "Une bouche 口 au-dessus d'un coquillage 貝 : celui qui compte l'argent, l'employé.", "res": ["貝", "買"], "mots": [["{会|かい}{社|しゃ}{員|いん}", "employé de bureau"], ["{店|てん}{員|いん}", "vendeur, vendeuse"], ["{駅|えき}{員|いん}", "employé de gare"]]},
+ {"k": "工", "fr": "construction, artisanat", "on": ["コウ", "ク"], "kun": [], "memo": "Une équerre de charpentier.", "res": ["土", "王"], "mots": [["{工|こう}{場|じょう}", "usine"], ["{工|こう}{業|ぎょう}", "industrie"], ["{大|だい}{工|く}", "charpentier"]]},
+ {"k": "産", "fr": "produire, naître", "on": ["サン"], "kun": ["う(む)"], "memo": "Debout 立 sous une falaise 厂, on donne la vie 生.", "res": ["生", "彦"], "mots": [["お{土産|みやげ}", "souvenir (cadeau)"], ["{産|さん}{業|ぎょう}", "industrie"], ["{生|せい}{産|さん}", "production"]]}
+]},
+{"id": "k4-15", "title": "Gens et objets", "kanji": [
+ {"k": "主", "fr": "maître, principal", "on": ["シュ"], "kun": ["ぬし", "おも"], "memo": "Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille.", "res": ["王", "生"], "mots": [["ご{主|しゅ}{人|じん}", "votre mari"], ["{主|おも}な", "principal"], ["{主|しゅ}{婦|ふ}", "femme au foyer"]]},
+ {"k": "者", "fr": "personne (qui fait)", "on": ["シャ"], "kun": ["もの"], "memo": "Un vieillard 耂 qui parle 日 : celui qui fait.", "res": ["着", "都"], "mots": [["{医|い}{者|しゃ}", "médecin"], ["{学|がく}{者|しゃ}", "savant, chercheur"], ["{若|わか}{者|もの}", "jeune (personne)"]]},
+ {"k": "代", "fr": "remplacer, époque, prix", "on": ["ダイ", "タイ"], "kun": ["か(わる)", "よ"], "memo": "Une personne 亻 et un piquet 弋 : chacun son tour de garde.", "res": ["伐", "化"], "mots": [["{時|じ}{代|だい}", "époque"], ["{電|でん}{気|き}{代|だい}", "facture d'électricité"], ["{代|か}わる", "remplacer"]]},
+ {"k": "台", "fr": "socle, estrade", "on": ["ダイ", "タイ"], "kun": [], "memo": "Un nez ム au-dessus d'une bouche 口 : une estrade où l'on parle.", "res": ["治", "合"], "mots": [["{台|だい}{所|どころ}", "cuisine (pièce)"], ["{台|たい}{風|ふう}", "typhon"], ["{一|いち}{台|だい}", "un (véhicule, machine)"]]},
+ {"k": "物", "fr": "chose", "on": ["ブツ", "モツ"], "kun": ["もの"], "memo": "Une vache 牛 et une bannière 勿 : les biens, les choses.", "res": ["牛", "特"], "mots": [["{物|もの}", "chose, objet"], ["{食|た}べ{物|もの}", "nourriture"], ["{動|どう}{物|ぶつ}", "animal"], ["{荷|に}{物|もつ}", "bagage"]]},
+ {"k": "紙", "fr": "papier", "on": ["シ"], "kun": ["かみ"], "memo": "Un fil 糸 et une famille 氏 : le papier fait de fibres.", "res": ["低", "級"], "mots": [["{紙|かみ}", "papier"], ["{手|て}{紙|がみ}", "lettre (courrier)"]]}
+]},
+{"id": "k4-16", "title": "Couleurs et lumière", "kanji": [
+ {"k": "色", "fr": "couleur", "on": ["ショク", "シキ"], "kun": ["いろ"], "memo": "Une personne penchée sur une autre : le teint, puis la couleur.", "res": ["巴", "邑"], "mots": [["{色|いろ}", "couleur"], ["{茶|ちゃ}{色|いろ}", "marron"], ["{黄|き}{色|いろ}", "jaune"], ["{景|け}{色|しき}", "paysage"]]},
+ {"k": "赤", "fr": "rouge", "on": ["セキ"], "kun": ["あか(い)"], "memo": "Un grand feu 火 sous la terre 土 : rouge.", "res": ["亦", "赦"], "mots": [["{赤|あか}い", "rouge"], ["{赤|あか}ちゃん", "bébé"]]},
+ {"k": "青", "fr": "bleu", "on": ["セイ"], "kun": ["あお(い)"], "memo": "Une jeune pousse 生 au-dessus d'un puits : le bleu-vert de l'eau.", "res": ["責", "静"], "mots": [["{青|あお}い", "bleu"], ["{青|あお}{空|ぞら}", "ciel bleu"], ["{青|せい}{年|ねん}", "jeune homme"]]},
+ {"k": "黒", "fr": "noir", "on": ["コク"], "kun": ["くろ(い)"], "memo": "Une fenêtre noircie au-dessus du feu 灬 : noir de suie.", "res": ["里", "黙"], "mots": [["{黒|くろ}い", "noir"]]},
+ {"k": "明", "fr": "clair, lumineux", "on": ["メイ", "ミョウ"], "kun": ["あか(るい)", "あ(ける)"], "memo": "Le soleil 日 et la lune 月 : la lumière.", "res": ["朋", "暗"], "mots": [["{明|あか}るい", "clair, lumineux"], ["{説|せつ}{明|めい}", "explication"], ["{明日|あした}", "demain"]]},
+ {"k": "暗", "fr": "sombre", "on": ["アン"], "kun": ["くら(い)"], "memo": "Le soleil 日 et un son 音 : quand on ne voit plus et qu'on n'entend que des bruits, il fait sombre.", "res": ["音", "明"], "mots": [["{暗|くら}い", "sombre"], ["{暗|あん}{記|き}", "apprendre par cœur"]]}
+]},
+{"id": "k4-17", "title": "Les saisons", "kanji": [
+ {"k": "春", "fr": "printemps", "on": ["シュン"], "kun": ["はる"], "memo": "Des plantes qui poussent au soleil 日 : le printemps.", "res": ["奏", "泰"], "mots": [["{春|はる}", "printemps"], ["{春|はる}{休|やす}み", "vacances de printemps"]]},
+ {"k": "夏", "fr": "été", "on": ["カ", "ゲ"], "kun": ["なつ"], "memo": "Une tête 頁 sur des pieds 夂 qui traînent : on se traîne de chaleur.", "res": ["憂", "复"], "mots": [["{夏|なつ}", "été"], ["{夏|なつ}{休|やす}み", "vacances d'été"]]},
+ {"k": "秋", "fr": "automne", "on": ["シュウ"], "kun": ["あき"], "memo": "Les céréales 禾 et le feu 火 : on brûle les chaumes après la récolte.", "res": ["私", "科"], "mots": [["{秋|あき}", "automne"]]},
+ {"k": "冬", "fr": "hiver", "on": ["トウ"], "kun": ["ふゆ"], "memo": "Des pieds 夂 qui glissent sur deux gouttes de glace.", "res": ["各", "終"], "mots": [["{冬|ふゆ}", "hiver"], ["{冬|ふゆ}{休|やす}み", "vacances d'hiver"]]},
+ {"k": "暑", "fr": "chaud (temps)", "on": ["ショ"], "kun": ["あつ(い)"], "memo": "Le soleil 日 au-dessus d'une personne 者 : il fait chaud.", "res": ["者", "署"], "mots": [["{暑|あつ}い", "chaud (météo)"]]},
+ {"k": "寒", "fr": "froid (temps)", "on": ["カン"], "kun": ["さむ(い)"], "memo": "Une maison 宀 bourrée de paille au-dessus de la glace : il fait froid.", "res": ["実", "塞"], "mots": [["{寒|さむ}い", "froid (météo)"]]}
+]},
+{"id": "k4-18", "title": "Le jour, la nuit, le ciel", "kanji": [
+ {"k": "昼", "fr": "midi, journée", "on": ["チュウ"], "kun": ["ひる"], "memo": "Le soleil 日 bien délimité, au plus haut : midi.", "res": ["書", "尽"], "mots": [["{昼|ひる}", "midi, journée"], ["{昼|ひる}ご{飯|はん}", "déjeuner"], ["{昼|ひる}{休|やす}み", "pause de midi"]]},
+ {"k": "夜", "fr": "nuit", "on": ["ヤ"], "kun": ["よる", "よ"], "memo": "Une personne 亻 sous un toit 亠 avec la lune 夕 : la nuit.", "res": ["液", "夕"], "mots": [["{夜|よる}", "nuit, soir"], ["{今|こん}{夜|や}", "ce soir"], ["{夜|よ}{中|なか}", "milieu de la nuit"]]},
+ {"k": "夕", "fr": "soir", "on": ["セキ"], "kun": ["ゆう"], "memo": "Une demi-lune au crépuscule.", "res": ["多", "名"], "mots": [["{夕|ゆう}{方|がた}", "fin d'après-midi"], ["{夕|ゆう}{飯|はん}", "dîner"], ["{夕|ゆう}べ", "hier soir"]]},
+ {"k": "風", "fr": "vent", "on": ["フウ", "フ"], "kun": ["かぜ"], "memo": "Un insecte 虫 sous une voile 几 : le vent.", "res": ["凪", "鳳"], "mots": [["{風|かぜ}", "vent"], ["{台|たい}{風|ふう}", "typhon"], ["お{風|ふ}{呂|ろ}", "bain"], ["{風邪|かぜ}", "rhume"]]},
+ {"k": "光", "fr": "lumière", "on": ["コウ"], "kun": ["ひかり", "ひか(る)"], "memo": "Un feu porté au-dessus d'une personne 儿 : la lumière.", "res": ["先", "兆"], "mots": [["{光|ひかり}", "lumière"], ["{光|ひか}る", "briller"], ["{観|かん}{光|こう}", "tourisme"]]},
+ {"k": "海", "fr": "mer", "on": ["カイ"], "kun": ["うみ"], "memo": "L'eau 氵 et chaque 毎 : de l'eau partout, la mer.", "res": ["毎", "梅"], "mots": [["{海|うみ}", "mer"], ["{海|かい}{外|がい}", "étranger (outre-mer)"]]}
+]},
+{"id": "k4-19", "title": "À table", "kanji": [
+ {"k": "牛", "fr": "vache, bœuf", "on": ["ギュウ"], "kun": ["うし"], "memo": "Une tête de vache avec sa corne qui dépasse.", "res": ["午", "生"], "mots": [["{牛|ぎゅう}{肉|にく}", "bœuf (viande)"], ["{牛|ぎゅう}{乳|にゅう}", "lait"], ["{牛|うし}", "vache"]]},
+ {"k": "鳥", "fr": "oiseau", "on": ["チョウ"], "kun": ["とり"], "memo": "Un oiseau avec son œil, ses plumes et ses pattes 灬.", "res": ["島", "烏"], "mots": [["{鳥|とり}", "oiseau"], ["{小|こ}{鳥|とり}", "petit oiseau"], ["{鳥|とり}{肉|にく}", "poulet (viande)"]]},
+ {"k": "肉", "fr": "viande", "on": ["ニク"], "kun": [], "memo": "Une carcasse avec ses côtes.", "res": ["内", "両"], "mots": [["{肉|にく}", "viande"], ["{豚|ぶた}{肉|にく}", "porc (viande)"]]},
+ {"k": "菜", "fr": "légume", "on": ["サイ"], "kun": ["な"], "memo": "L'herbe 艹 et une main qui cueille 采 : les légumes.", "res": ["采", "茶"], "mots": [["{野|や}{菜|さい}", "légumes"]]},
+ {"k": "茶", "fr": "thé", "on": ["チャ", "サ"], "kun": [], "memo": "L'herbe 艹 au-dessus d'une personne sous un abri : les feuilles de thé.", "res": ["菜", "答"], "mots": [["お{茶|ちゃ}", "thé"], ["{茶|ちゃ}{色|いろ}", "marron"], ["{喫|きっ}{茶|さ}{店|てん}", "café (salon de thé)"]]},
+ {"k": "料", "fr": "frais, ingrédient", "on": ["リョウ"], "kun": [], "memo": "Du riz 米 et une louche 斗 : on mesure les ingrédients.", "res": ["科", "斜"], "mots": [["{料|りょう}{理|り}", "cuisine (plats)"], ["{料|りょう}{金|きん}", "tarif"], ["{無|む}{料|りょう}", "gratuit"]]},
+ {"k": "理", "fr": "raison, logique", "on": ["リ"], "kun": [], "memo": "Un joyau 王 et un village 里 : on taille la pierre en suivant son veinage, la logique.", "res": ["里", "埋"], "mots": [["{料|りょう}{理|り}", "cuisine (plats)"], ["{無|む}{理|り}", "impossible, déraisonnable"], ["{理|り}{由|ゆう}", "raison, motif"]]}
+]},
+{"id": "k4-20", "title": "Loisirs", "kanji": [
+ {"k": "犬", "fr": "chien", "on": ["ケン"], "kun": ["いぬ"], "memo": "Un grand 大 avec un point en haut à droite : le chien à côté de l'homme.", "res": ["大", "太"], "mots": [["{犬|いぬ}", "chien"]]},
+ {"k": "音", "fr": "son", "on": ["オン", "イン"], "kun": ["おと", "ね"], "memo": "Debout 立 au-dessus du soleil 日 : un son qui s'élève.", "res": ["暗", "立"], "mots": [["{音|おと}", "son, bruit"], ["{音|おん}{楽|がく}", "musique"], ["{発|はつ}{音|おん}", "prononciation"]]},
+ {"k": "歌", "fr": "chanson, chanter", "on": ["カ"], "kun": ["うた", "うた(う)"], "memo": "Deux fois 可 et une bouche grande ouverte 欠 : on chante.", "res": ["欠", "哥"], "mots": [["{歌|うた}", "chanson"], ["{歌|うた}う", "chanter"], ["{歌|か}{手|しゅ}", "chanteur, chanteuse"]]},
+ {"k": "楽", "fr": "plaisir, musique", "on": ["ガク", "ラク"], "kun": ["たの(しい)"], "memo": "Des clochettes accrochées à un arbre 木 : la musique, le plaisir.", "res": ["薬", "率"], "mots": [["{楽|たの}しい", "agréable, amusant"], ["{音|おん}{楽|がく}", "musique"], ["{楽|らく}", "facile, confortable"]]},
+ {"k": "旅", "fr": "voyage", "on": ["リョ"], "kun": ["たび"], "memo": "Une bannière 方 et des gens qui la suivent : on part en voyage.", "res": ["族", "放"], "mots": [["{旅|りょ}{行|こう}", "voyage"], ["{旅|たび}", "voyage (long)"], ["{旅|りょ}{館|かん}", "auberge japonaise"]]}
+]},
+{"id": "k4-21", "title": "Le corps", "kanji": [
+ {"k": "体", "fr": "corps", "on": ["タイ", "テイ"], "kun": ["からだ"], "memo": "Une personne 亻 et sa racine 本 : le corps.", "res": ["休", "本"], "mots": [["{体|からだ}", "corps"], ["{大|だい}{体|たい}", "environ, en gros"], ["{体|たい}{育|いく}", "éducation physique"]]},
+ {"k": "頭", "fr": "tête", "on": ["トウ", "ズ"], "kun": ["あたま"], "memo": "Un bol 豆 et une tête 頁 : la tête ronde comme un bol.", "res": ["顔", "題"], "mots": [["{頭|あたま}", "tête"], ["{頭|ず}{痛|つう}", "mal de tête"]]},
+ {"k": "顔", "fr": "visage", "on": ["ガン"], "kun": ["かお"], "memo": "Une belle allure 彦 et une tête 頁 : le visage.", "res": ["頭", "額"], "mots": [["{顔|かお}", "visage"], ["{笑|え}{顔|がお}", "sourire, visage souriant"]]},
+ {"k": "首", "fr": "cou", "on": ["シュ"], "kun": ["くび"], "memo": "Des cheveux au-dessus d'un œil 目 : la tête posée sur son cou.", "res": ["自", "道"], "mots": [["{首|くび}", "cou"], ["{首|しゅ}{都|と}", "capitale"]]},
+ {"k": "心", "fr": "cœur", "on": ["シン"], "kun": ["こころ"], "memo": "Un cœur avec ses battements.", "res": ["必", "沁"], "mots": [["{心|こころ}", "cœur (sentiments)"], ["{安|あん}{心|しん}", "soulagement"], ["{心|しん}{配|ぱい}", "inquiétude"]]},
+ {"k": "声", "fr": "voix", "on": ["セイ"], "kun": ["こえ"], "memo": "Un lettré 士 et une cloche qui résonne : la voix qui porte.", "res": ["売", "吉"], "mots": [["{声|こえ}", "voix"], ["{大|おお}{声|ごえ}", "voix forte"]]}
+]},
+{"id": "k4-22", "title": "La santé", "kanji": [
+ {"k": "病", "fr": "maladie", "on": ["ビョウ"], "kun": ["やまい"], "memo": "Un lit de malade 疒 et une flamme 丙 : la fièvre.", "res": ["痛", "疲"], "mots": [["{病|びょう}{気|き}", "maladie"], ["{病|びょう}{院|いん}", "hôpital"]]},
+ {"k": "医", "fr": "médecine", "on": ["イ"], "kun": [], "memo": "Une flèche 矢 rangée dans une boîte 匚 : on soigne la blessure.", "res": ["区", "矢"], "mots": [["{医|い}{者|しゃ}", "médecin"], ["{医|い}{学|がく}", "médecine"], ["{歯|は}{医|い}{者|しゃ}", "dentiste"]]},
+ {"k": "薬", "fr": "médicament", "on": ["ヤク"], "kun": ["くすり"], "memo": "L'herbe 艹 et la musique 楽 : la plante qui fait du bien.", "res": ["楽", "葉"], "mots": [["{薬|くすり}", "médicament"], ["{薬|やっ}{局|きょく}", "pharmacie"]]},
+ {"k": "死", "fr": "mort", "on": ["シ"], "kun": ["し(ぬ)"], "memo": "Un os 歹 et une personne courbée 匕 : la mort.", "res": ["列", "化"], "mots": [["{死|し}ぬ", "mourir"]]},
+ {"k": "元", "fr": "origine, énergie", "on": ["ゲン", "ガン"], "kun": ["もと"], "memo": "Deux traits au-dessus de jambes 儿 : la tête, le début.", "res": ["完", "无"], "mots": [["{元|げん}{気|き}", "en forme"], ["{元|がん}{日|じつ}", "jour de l'an"], ["{地|じ}{元|もと}", "chez soi, région natale"]]},
+ {"k": "力", "fr": "force", "on": ["リョク", "リキ"], "kun": ["ちから"], "memo": "Un bras musclé.", "res": ["刀", "九"], "mots": [["{力|ちから}", "force"], ["{協|きょう}{力|りょく}", "coopération"], ["{努|ど}{力|りょく}", "effort"]]}
+]},
+{"id": "k4-23", "title": "La famille", "kanji": [
+ {"k": "兄", "fr": "grand frère", "on": ["ケイ", "キョウ"], "kun": ["あに"], "memo": "Une grande bouche 口 sur des jambes 儿 : l'aîné qui donne les ordres.", "res": ["足", "元"], "mots": [["{兄|あに}", "(mon) grand frère"], ["お{兄|にい}さん", "grand frère"], ["{兄|きょう}{弟|だい}", "frères et sœurs"]]},
+ {"k": "弟", "fr": "petit frère", "on": ["ダイ", "テイ"], "kun": ["おとうと"], "memo": "Une corde enroulée autour d'un bâton, du haut vers le bas : le cadet.", "res": ["第", "弔"], "mots": [["{弟|おとうと}", "petit frère"], ["{兄|きょう}{弟|だい}", "frères et sœurs"]]},
+ {"k": "姉", "fr": "grande sœur", "on": ["シ"], "kun": ["あね"], "memo": "Une femme 女 et la ville 市 : la grande sœur qui va au marché.", "res": ["妹", "市"], "mots": [["{姉|あね}", "(ma) grande sœur"], ["お{姉|ねえ}さん", "grande sœur"]]},
+ {"k": "妹", "fr": "petite sœur", "on": ["マイ"], "kun": ["いもうと"], "memo": "Une femme 女 et pas encore 未 : la petite sœur, pas encore grande.", "res": ["姉", "味"], "mots": [["{妹|いもうと}", "petite sœur"], ["{姉|し}{妹|まい}", "sœurs"]]},
+ {"k": "親", "fr": "parent, intime", "on": ["シン"], "kun": ["おや", "した(しい)"], "memo": "Debout 立 sur un arbre 木 pour regarder 見 : le parent qui veille.", "res": ["新", "視"], "mots": [["{親|おや}", "parent"], ["{両|りょう}{親|しん}", "les parents"], ["{親|しん}{切|せつ}", "gentil"]]},
+ {"k": "族", "fr": "famille, clan", "on": ["ゾク"], "kun": [], "memo": "Une bannière 方 et une flèche 矢 : le clan réuni sous son drapeau.", "res": ["旅", "放"], "mots": [["{家|か}{族|ぞく}", "famille"]]}
+]},
+{"id": "k4-24", "title": "Chez soi", "kanji": [
+ {"k": "住", "fr": "habiter", "on": ["ジュウ"], "kun": ["す(む)"], "memo": "Une personne 亻 et un maître 主 : celle qui habite là.", "res": ["注", "主"], "mots": [["{住|す}む", "habiter"], ["{住|じゅう}{所|しょ}", "adresse"]]},
+ {"k": "服", "fr": "vêtement", "on": ["フク"], "kun": [], "memo": "Une barque 月 et une main qui l'ajuste : le vêtement qui s'ajuste au corps.", "res": ["報", "眼"], "mots": [["{服|ふく}", "vêtement"], ["{洋|よう}{服|ふく}", "vêtements (occidentaux)"]]},
+ {"k": "自", "fr": "soi-même", "on": ["ジ", "シ"], "kun": ["みずか(ら)"], "memo": "Un nez : on montre son nez du doigt pour dire « moi ».", "res": ["白", "目", "首"], "mots": [["{自|じ}{分|ぶん}", "soi-même"], ["{自|じ}{転|てん}{車|しゃ}", "vélo"], ["{自|し}{然|ぜん}", "nature"]]},
+ {"k": "有", "fr": "avoir, exister", "on": ["ユウ", "ウ"], "kun": ["あ(る)"], "memo": "Une main 𠂇 qui tient de la viande 月 : on possède.", "res": ["右", "布"], "mots": [["{有|ゆう}{名|めい}", "célèbre"]]},
+ {"k": "便", "fr": "pratique, courrier", "on": ["ベン", "ビン"], "kun": ["たよ(り)"], "memo": "Une personne 亻 qui change 更 les choses : c'est plus pratique.", "res": ["使", "更"], "mots": [["{便|べん}{利|り}", "pratique"], ["{不|ふ}{便|べん}", "pas pratique"], ["{郵|ゆう}{便|びん}{局|きょく}", "bureau de poste"]]}
+]},
+{"id": "k4-25", "title": "Commencer, finir", "kanji": [
+ {"k": "始", "fr": "commencer", "on": ["シ"], "kun": ["はじ(める)", "はじ(まる)"], "memo": "Une femme 女 et un socle 台 : la naissance, le début.", "res": ["治", "姉"], "mots": [["{始|はじ}める", "commencer"], ["{始|はじ}まる", "débuter"]]},
+ {"k": "終", "fr": "finir", "on": ["シュウ"], "kun": ["お(わる)", "お(える)"], "memo": "Un fil 糸 et l'hiver 冬 : la fin de la pelote, la fin de l'année.", "res": ["冬", "級"], "mots": [["{終|お}わる", "finir"], ["{終|しゅう}{電|でん}", "dernier train"]]},
+ {"k": "動", "fr": "bouger", "on": ["ドウ"], "kun": ["うご(く)"], "memo": "Lourd 重 et force 力 : il faut de la force pour faire bouger.", "res": ["働", "重"], "mots": [["{動|うご}く", "bouger"], ["{動|どう}{物|ぶつ}", "animal"], ["{運|うん}{動|どう}", "exercice, sport"]]},
+ {"k": "同", "fr": "même", "on": ["ドウ"], "kun": ["おな(じ)"], "memo": "Un cadre 冂 où une seule bouche 口 parle : tout le monde dit la même chose.", "res": ["向", "回"], "mots": [["{同|おな}じ", "même"], ["{同|どう}{時|じ}", "en même temps"]]},
+ {"k": "別", "fr": "séparé, autre", "on": ["ベツ"], "kun": ["わか(れる)"], "memo": "Des os et un sabre 刂 : on sépare.", "res": ["列", "利"], "mots": [["{別|べつ}", "autre, à part"], ["{特|とく}{別|べつ}", "spécial"], ["{別|わか}れる", "se séparer"]]}
+]},
+{"id": "k4-26", "title": "Penser et comprendre", "kanji": [
+ {"k": "思", "fr": "penser", "on": ["シ"], "kun": ["おも(う)"], "memo": "Un champ 田 au-dessus du cœur 心 : les pensées.", "res": ["恩", "男"], "mots": [["{思|おも}う", "penser"], ["{思|おも}い{出|で}", "souvenir"]]},
+ {"k": "考", "fr": "réfléchir", "on": ["コウ"], "kun": ["かんが(える)"], "memo": "Un vieillard 耂 courbé sur sa canne : il réfléchit.", "res": ["老", "孝"], "mots": [["{考|かんが}える", "réfléchir"]]},
+ {"k": "知", "fr": "savoir", "on": ["チ"], "kun": ["し(る)"], "memo": "Une flèche 矢 et une bouche 口 : on dit vite et juste ce qu'on sait.", "res": ["和", "短"], "mots": [["{知|し}る", "savoir, connaître"], ["お{知|し}らせ", "avis, annonce"]]},
+ {"k": "意", "fr": "intention, sens", "on": ["イ"], "kun": [], "memo": "Un son 音 qui sort du cœur 心 : l'intention.", "res": ["音", "息"], "mots": [["{意|い}{味|み}", "sens, signification"], ["{注|ちゅう}{意|い}", "attention"], ["{用|よう}{意|い}", "préparation"]]},
+ {"k": "味", "fr": "goût", "on": ["ミ"], "kun": ["あじ"], "memo": "Une bouche 口 et pas encore 未 : on goûte avant d'avaler.", "res": ["妹", "未"], "mots": [["{味|あじ}", "goût"], ["{意|い}{味|み}", "sens, signification"], ["{興|きょう}{味|み}", "intérêt"]]}
+]},
+{"id": "k4-27", "title": "Aimer, juger", "kanji": [
+ {"k": "好", "fr": "aimer", "on": ["コウ"], "kun": ["す(き)", "この(む)"], "memo": "Une femme 女 et un enfant 子 : ce qu'on aime.", "res": ["妤", "奸"], "mots": [["{好|す}き", "aimer, apprécier"], ["{大|だい}{好|す}き", "adorer"]]},
+ {"k": "悪", "fr": "mauvais", "on": ["アク", "オ"], "kun": ["わる(い)"], "memo": "Un cœur 心 écrasé sous un poids : c'est mauvais.", "res": ["思", "恵"], "mots": [["{悪|わる}い", "mauvais"]]},
+ {"k": "正", "fr": "juste, correct", "on": ["セイ", "ショウ"], "kun": ["ただ(しい)"], "memo": "Un pied 止 qui s'arrête pile sur la ligne 一 : c'est juste.", "res": ["止", "五"], "mots": [["{正|ただ}しい", "correct, juste"], ["{正|しょう}{月|がつ}", "Nouvel An"]]},
+ {"k": "注", "fr": "verser, faire attention", "on": ["チュウ"], "kun": ["そそ(ぐ)"], "memo": "L'eau 氵 et le maître 主 : le maître verse l'eau avec attention.", "res": ["住", "主"], "mots": [["{注|ちゅう}{意|い}", "attention"], ["{注|ちゅう}{文|もん}", "commande"]]},
+ {"k": "特", "fr": "spécial", "on": ["トク"], "kun": [], "memo": "Une vache 牛 et un temple 寺 : la bête réservée au temple, spéciale.", "res": ["持", "待", "物"], "mots": [["{特|とく}に", "surtout, en particulier"], ["{特|とく}{別|べつ}", "spécial"], ["{特|とっ}{急|きゅう}", "train express (limité)"]]}
+]},
+{"id": "k4-28", "title": "Combien, combien de fois", "kanji": [
+ {"k": "多", "fr": "nombreux", "on": ["タ"], "kun": ["おお(い)"], "memo": "Deux soirs 夕 empilés : beaucoup de jours, beaucoup.", "res": ["夕", "名"], "mots": [["{多|おお}い", "nombreux"]]},
+ {"k": "少", "fr": "peu", "on": ["ショウ"], "kun": ["すく(ない)", "すこ(し)"], "memo": "Petit 小 avec un trait qui part : encore moins.", "res": ["小", "歩"], "mots": [["{少|すく}ない", "peu nombreux"], ["{少|すこ}し", "un peu"]]},
+ {"k": "以", "fr": "à partir de", "on": ["イ"], "kun": [], "memo": "Une personne 人 qui pousse une charrue : à partir d'ici.", "res": ["似", "人"], "mots": [["{以|い}{上|じょう}", "plus de, au-delà"], ["{以|い}{下|か}", "moins de, en dessous"], ["{以|い}{外|がい}", "à part, sauf"], ["{以|い}{前|ぜん}", "auparavant"]]},
+ {"k": "度", "fr": "fois, degré", "on": ["ド", "ト"], "kun": ["たび"], "memo": "Un abri 广 et une main 又 qui mesure : le degré, la fois.", "res": ["席", "庭"], "mots": [["{今|こん}{度|ど}", "cette fois, la prochaine fois"], ["{一|いち}{度|ど}", "une fois"], ["{温|おん}{度|ど}", "température"]]},
+ {"k": "不", "fr": "non, pas", "on": ["フ", "ブ"], "kun": [], "memo": "Un oiseau qui s'envole sans atteindre le ciel 一 : non.", "res": ["下", "木"], "mots": [["{不|ふ}{便|べん}", "pas pratique"], ["{不|ふ}{安|あん}", "inquiétude"]]},
+ {"k": "合", "fr": "s'accorder", "on": ["ゴウ", "ガッ"], "kun": ["あ(う)"], "memo": "Un couvercle 亼 posé sur une bouche 口 : ça s'emboîte.", "res": ["今", "会", "答"], "mots": [["{合|あ}う", "convenir, aller ensemble"], ["{試|し}{合|あい}", "match"], ["{場|ば}{合|あい}", "cas"], ["{都|つ}{合|ごう}", "disponibilité, convenance"]]}
+]},
+{"id": "k4-29", "title": "Décrire les choses", "kanji": [
+ {"k": "重", "fr": "lourd", "on": ["ジュウ", "チョウ"], "kun": ["おも(い)", "かさ(ねる)"], "memo": "Une personne qui porte un gros sac sur la terre 里 : c'est lourd.", "res": ["里", "動"], "mots": [["{重|おも}い", "lourd"], ["{体|たい}{重|じゅう}", "poids (du corps)"]]},
+ {"k": "軽", "fr": "léger", "on": ["ケイ"], "kun": ["かる(い)"], "memo": "Un char 車 et une tige fine : léger à tirer.", "res": ["転", "経"], "mots": [["{軽|かる}い", "léger"]]},
+ {"k": "広", "fr": "large, spacieux", "on": ["コウ"], "kun": ["ひろ(い)"], "memo": "Un abri 广 et un bras ム qui s'étend : un espace large.", "res": ["店", "応"], "mots": [["{広|ひろ}い", "large, spacieux"]]},
+ {"k": "短", "fr": "court", "on": ["タン"], "kun": ["みじか(い)"], "memo": "Une flèche 矢 et un bol 豆 : des objets courts.", "res": ["知", "豆"], "mots": [["{短|みじか}い", "court"]]},
+ {"k": "低", "fr": "bas", "on": ["テイ"], "kun": ["ひく(い)"], "memo": "Une personne 亻 et une base 氐 : tout en bas.", "res": ["紙", "氏"], "mots": [["{低|ひく}い", "bas"]]}
+]},
+{"id": "k4-30", "title": "Forme et qualité", "kanji": [
+ {"k": "太", "fr": "gros, épais", "on": ["タイ", "タ"], "kun": ["ふと(い)"], "memo": "Grand 大 avec un point en bas : encore plus gros.", "res": ["大", "犬"], "mots": [["{太|ふと}い", "gros, épais"], ["{太|ふと}る", "grossir"], ["{太|たい}{平|へい}{洋|よう}", "océan Pacifique"]]},
+ {"k": "弱", "fr": "faible", "on": ["ジャク"], "kun": ["よわ(い)"], "memo": "Deux arcs 弓 aux cordes usées : faible.", "res": ["強", "羽"], "mots": [["{弱|よわ}い", "faible"]]},
+ {"k": "建", "fr": "construire", "on": ["ケン", "コン"], "kun": ["た(てる)"], "memo": "Un pinceau 聿 qui trace un plan au sol 廴 : on construit.", "res": ["健", "律"], "mots": [["{建|た}てる", "construire"], ["{建|たて}{物|もの}", "bâtiment"]]},
+ {"k": "質", "fr": "qualité, question", "on": ["シツ"], "kun": [], "memo": "Deux haches 斤 sur de l'argent 貝 : le gage qui garantit la qualité.", "res": ["貨", "賃"], "mots": [["{質|しつ}{問|もん}", "question"]]},
+ {"k": "品", "fr": "article, marchandise", "on": ["ヒン"], "kun": ["しな"], "memo": "Trois bouches 口 : les articles empilés à l'étal.", "res": ["器", "晶"], "mots": [["{品|しな}{物|もの}", "marchandise"], ["{作|さく}{品|ひん}", "œuvre"], ["{食|しょく}{料|りょう}{品|ひん}", "produits alimentaires"]]}
+]}
+]

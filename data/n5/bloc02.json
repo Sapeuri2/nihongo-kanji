@@ -132,7 +132,9 @@
    ],
    "pieges": [
     "先 (avant, précédent) : ne le confonds pas avec 生 (vie, naître).",
-    "生 (vie, naître) : ne le confonds pas avec 先 (avant, précédent)."
+    "生 (vie, naître) : ne le confonds pas avec 先 (avant, précédent), 牛 (vache, bœuf).",
+    "学 (étudier) : ne le confonds pas avec 字 (caractère (écrit)).",
+    "友 (ami) : ne le confonds pas avec 有 (avoir, exister)."
    ],
    "exercises": [
     {
@@ -467,7 +469,8 @@
    "pieges": [
     "上 (haut, sur) : ne le confonds pas avec 下 (bas, sous), 土 (terre, sol).",
     "下 (bas, sous) : ne le confonds pas avec 上 (haut, sur).",
-    "大 (grand) : ne le confonds pas avec 人 (personne)."
+    "大 (grand) : ne le confonds pas avec 太 (gros, épais), 犬 (chien), 人 (personne).",
+    "小 (petit) : ne le confonds pas avec 少 (peu)."
    ],
    "exercises": [
     {
@@ -1142,6 +1145,7 @@
    "pieges": [
     "七 (sept) : ne le confonds pas avec 十 (dix).",
     "八 (huit) : ne le confonds pas avec 人 (personne), 入 (entrer).",
+    "九 (neuf) : ne le confonds pas avec 力 (force).",
     "十 (dix) : ne le confonds pas avec 千 (mille), 七 (sept)."
    ],
    "exercises": [
@@ -1466,6 +1470,7 @@
    "pieges": [
     "百 (cent) : ne le confonds pas avec 白 (blanc).",
     "千 (mille) : ne le confonds pas avec 十 (dix).",
+    "万 (dix mille) : ne le confonds pas avec 方 (direction, personne (poli)).",
     "買 (acheter) : ne le confonds pas avec 見 (voir)."
    ],
    "exercises": [
@@ -1626,9 +1631,9 @@
      "type": "choice",
      "choices": [
       "ひゃくえん",
-      "ちゅうがくせい",
-      "みっつ",
-      "のみもの"
+      "らいげつ",
+      "なんにん",
+      "にちようび"
      ],
      "a": 0
     },
@@ -1679,9 +1684,9 @@
      "explain": "**買** se lit か ici ({買|か}う : acheter). « J'achète de l'eau à la supérette. »",
      "type": "choice",
      "choices": [
+      "ち",
       "ばい",
-      "だ",
-      "あ",
+      "な",
       "か"
      ],
      "a": 3
@@ -1839,10 +1844,10 @@
    "explain": "{有名|ゆうめい} : célèbre.",
    "type": "choice",
    "choices": [
-    "しょくどう",
+    "あめい",
     "ゆうめい",
-    "なまえ",
-    "ゆうな"
+    "しょくどう",
+    "うめい"
    ],
    "a": 1
   },
@@ -1878,7 +1883,7 @@
    "explain": "{地下鉄|ちかてつ} : métro.",
    "type": "choice",
    "choices": [
-    "ちくだてつ",
+    "じかてつ",
     "ちげてつ",
     "ちかてつ",
     "いつつ"
@@ -1946,7 +1951,7 @@
     "たいせつ",
     "げつようび",
     "だいせつ",
-    "おおせつ"
+    "たいき"
    ],
    "a": 0
   },
@@ -2023,9 +2028,9 @@
    "explain": "**先週** se lit せんしゅう ici ({先週|せんしゅう} : la semaine dernière). « La semaine dernière, je suis rentré dans mon pays. »",
    "type": "choice",
    "choices": [
-    "よっつ",
-    "くるま",
-    "にじゅう",
+    "こんばん",
+    "はなし",
+    "じゅうまん",
     "せんしゅう"
    ],
    "a": 3
@@ -2079,10 +2084,10 @@
    "explain": "**学校** se lit がっこう ici ({学校|がっこう} : école). « Aujourd'hui c'est dimanche, donc il n'y a pas d'école. »",
    "type": "choice",
    "choices": [
-    "ほん",
-    "たいせつ",
+    "らいねん",
+    "きょう",
     "がっこう",
-    "はちがつ"
+    "ちいさい"
    ],
    "a": 2
   }
@@ -2123,10 +2128,10 @@
    "explain": "**学校** se lit がっこう ici ({学校|がっこう} : école). « Je vais à l'école. »",
    "type": "choice",
    "choices": [
-    "とけい",
+    "へた",
     "がっこう",
-    "いく",
-    "うえ"
+    "らいねん",
+    "きゅう"
    ],
    "a": 1
   },
@@ -2151,9 +2156,9 @@
    "explain": "**上** se lit うえ ici ({上|うえ} : dessus, en haut). « Il y a un livre sur le bureau. »",
    "type": "choice",
    "choices": [
-    "みせる",
-    "らいげつ",
-    "きょう",
+    "くがつ",
+    "にほん",
+    "とけい",
     "うえ"
    ],
    "a": 3
@@ -2165,9 +2170,9 @@
    "explain": "**下** se lit した ici ({下|した} : dessous, en bas). « Il y a un chat sous la chaise. »",
    "type": "choice",
    "choices": [
-    "とお",
-    "はっぴゃく",
-    "みる",
+    "ほん",
+    "やっつ",
+    "すいようび",
     "した"
    ],
    "a": 3
@@ -2179,9 +2184,9 @@
    "explain": "**中** se lit なか ici ({中|なか} : intérieur, dedans). « Il y a un livre dans le sac. »",
    "type": "choice",
    "choices": [
-    "かいもの",
-    "じてんしゃ",
-    "おんなのひと",
+    "らいしゅう",
+    "にほんじん",
+    "たべもの",
     "なか"
    ],
    "a": 3
@@ -2194,9 +2199,9 @@
    "type": "choice",
    "choices": [
     "おおきい",
-    "もくようび",
-    "まいあさ",
-    "らいげつ"
+    "ひと",
+    "ろっぴゃく",
+    "ひゃくえん"
    ],
    "a": 0
   },
@@ -2207,9 +2212,9 @@
    "explain": "**一つ** se lit ひとつ ici ({一|ひと}つ : un (objet)). « Un café, s'il vous plaît. »",
    "type": "choice",
    "choices": [
-    "まいにち",
-    "ちゅうがくせい",
-    "いちがつ",
+    "たべもの",
+    "おおきい",
+    "みせる",
     "ひとつ"
    ],
    "a": 3
@@ -2221,9 +2226,9 @@
    "explain": "**二つ** se lit ふたつ ici ({二|ふた}つ : deux (objets)). « Deux cafés, s'il vous plaît. »",
    "type": "choice",
    "choices": [
-    "おおきい",
-    "でんわ",
-    "ななつ",
+    "のむ",
+    "ひゃく",
+    "せん",
     "ふたつ"
    ],
    "a": 3
@@ -2235,10 +2240,10 @@
    "explain": "**三** se lit みっ ici ({三|みっ}つ : trois (objets)). « J'ai acheté trois œufs. »",
    "type": "choice",
    "choices": [
-    "あさ",
-    "した",
+    "まな",
+    "いま",
     "みっ",
-    "あめ"
+    "なな"
    ],
    "a": 2
   },
@@ -2250,8 +2255,8 @@
    "type": "choice",
    "choices": [
     "よっつ",
-    "かようび",
-    "らいねん",
+    "たべる",
+    "しちがつ",
     "ついたち"
    ],
    "a": 0
