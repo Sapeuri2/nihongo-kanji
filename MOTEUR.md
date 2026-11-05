@@ -12,6 +12,7 @@ Le code de cette appli sert de **moteur commun** à plusieurs applis d'apprentis
 | `js/state.js` | Progression, répétition espacée, fusion entre appareils |
 | `js/sync.js` | Synchronisation via un Gist GitHub privé |
 | `js/text.js` | Furigana `{漢字|かんじ}`, gras, trous |
+| `js/liste.js` | « Ma liste » : stockage, fusion, export |
 | `css/style.css` | Apparence commune |
 | `sw.js` | Hors ligne (cache nommé d'après l'adresse de l'appli) |
 | `tools/verifier.mjs` | Vérification du contenu |
@@ -84,7 +85,31 @@ Une question n'apparaît que si les leçons de son `uses` sont faites. Dans tous
 Les exercices d'un point clé peuvent être écrits à la main ou générés par un script propre à l'appli
 (ex. `tools/generer-adjectifs.mjs` dans la grammaire).
 
+## Format : Ma liste (commune aux applis)
+
+Les mots mis de côté (☆) forment **une seule liste pour toutes les applis** du domaine `sapeuri2.github.io`.
+- Stockage : clé fixe `nihongo-ma-liste-v1` (indépendante de `storageKey`), gérée par `js/liste.js`.
+- Synchro : un Gist commun, fichier `nihongo-ma-liste.json` (trouvé par son nom, créé s'il manque), avec la clé GitHub de l'appli ouverte. Le Gist trouvé est retenu dans `nihongo-ma-liste-gist`.
+- Un mot : `{ id, jp, kana, fr, app: [..], src, at, stats: { vu, juste, faux, serie, boite, prochain, dernier }, log }`.
+  `id` = `jp` sans furigana. `log` = `[[horodatage, 1|0], …]` : les stats en sont déduites, ce qui permet de fusionner sans compter deux fois une réponse.
+  `boite` 0 à 5 ; `prochain` = boîte → 0, 1, 3, 7, 14, 30 jours.
+- Fusion : réunion des mots, ajout le plus ancien, applis d'origine et réponses réunies ; `supprimes: { id: date }` empêche un mot retiré de revenir (sauf s'il est rajouté après).
+- Aucun retrait automatique : seul « Retirer de ma liste » (page `#/liste`, avec confirmation) enlève un mot.
+- Réglages `js/config.js` : `listeEnabled` (`true`) et `appId` (`grammaire`, `vocabulaire`, `kanji` : sert d'étiquette et de tag Anki ; à défaut, déduit de l'adresse).
+- ☆ : lignes des tableaux `words` et `vocab`, et bloc de réponse après chaque question (phrase japonaise sans trou, sinon bonne réponse, sinon le japonais de la consigne).
+- Page `#/liste` + bouton 📌 + carte d'accueil : tri, « Réviser ma liste » (20 questions générées : mot → sens, sens → mot, kanji → lecture ; mauvaises réponses prises dans la liste, complétées par le vocabulaire de l'appli si elle est courte), export Anki (CSV `recto;verso;tags`), JSON, copie.
+- Ces révisions comptent dans le 🔥 mais pas dans la progression de l'appli.
+
 ## Historique des changements du moteur
+
+### 2026-11-04 — Suite automatique et « Ma liste »
+- **Nouveau fichier `js/liste.js`** (ajouté à `tools/maj-moteur.sh` et au cache de `sw.js`).
+- Nouveaux réglages dans `js/config.js` : `autoNext` (ms, `0` = désactivé), `listeEnabled`, `appId`.
+- `autoNext` : après une **bonne** réponse, la bonne réponse passe en vert puis la série continue seule
+  (pas d'explication ni de « Continuer ») ; toucher l'écran, ou Entrée, passe tout de suite à la suite ;
+  une mauvaise réponse garde l'explication et « Continuer » ; ☆ pendant le délai garde la question à l'écran.
+- « Ma liste » : voir plus haut. `sync.js` synchronise aussi la liste (Gist commun).
+- `css/style.css` : étoile, page de la liste, message bref ; le tableau `vocab` a une colonne de plus (☆).
 
 ### 2026-10-28 — Plusieurs points clés
 - La bulle affiche les étiquettes de tous les points clés débloqués (ex. い・な｜て) ; l'antisèche

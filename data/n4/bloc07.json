@@ -13,6 +13,16 @@
       "**On** : カイ　**Kun** : まわ(る)、まわ(す)",
       "Un carré dans un carré : on tourne en rond, encore une fois."
      ],
+     "ex": [
+      {
+       "jp": "{一週間|いっしゅうかん}に{一回|いっかい}、プールに{行|い}きます。",
+       "fr": "Je vais à la piscine une fois par semaine."
+      },
+      {
+       "jp": "{今回|こんかい}の{試験|しけん}はやさしかったです。",
+       "fr": "L'examen de cette fois-ci était facile."
+      }
+     ],
      "vocab": [
       {
        "jp": "{一回|いっかい}",
@@ -33,6 +43,20 @@
      "p": [
       "**On** : バン　**Kun** : —",
       "Des graines semées sur un champ 田, rang par rang : chacun son tour, chacun son numéro."
+     ],
+     "ex": [
+      {
+       "jp": "{動物|どうぶつ}の{中|なか}で{何|なに}が{一番|いちばん}{好|す}きですか。",
+       "fr": "Parmi les animaux, lequel préfères-tu ?"
+      },
+      {
+       "jp": "{電話番号|でんわばんごう}を{教|おし}えてください。",
+       "fr": "Donne-moi ton numéro de téléphone, s'il te plaît."
+      },
+      {
+       "jp": "{東京|とうきょう}{行|ゆ}きは{何番|なんばん}のホームですか。",
+       "fr": "Le train pour Tokyo part de quel quai ?"
+      }
      ],
      "vocab": [
       {
@@ -55,6 +79,20 @@
       "**On** : ゴウ　**Kun** : —",
       "Une bouche 口 qui crie au-dessus d'un crochet : on appelle par le numéro."
      ],
+     "ex": [
+      {
+       "jp": "{電話番号|でんわばんごう}を{教|おし}えてください。",
+       "fr": "Donne-moi ton numéro de téléphone, s'il te plaît."
+      },
+      {
+       "jp": "{会社|かいしゃ}の{電話番号|でんわばんごう}を{忘|わす}れました。",
+       "fr": "J'ai oublié le numéro de téléphone de l'entreprise."
+      },
+      {
+       "jp": "{私|わたし}の{席|せき}は{一号車|いちごうしゃ}です。",
+       "fr": "Ma place est dans la voiture n° 1."
+      }
+     ],
      "vocab": [
       {
        "jp": "{番号|ばんごう}",
@@ -76,6 +114,20 @@
       "**On** : カイ　**Kun** : —",
       "La colline 阝 et « tout le monde » 皆 : chacun à son étage."
      ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}の{部屋|へや}は{二階|にかい}にあります。",
+       "fr": "Le bureau du professeur est au premier étage."
+      },
+      {
+       "jp": "{靴|くつ}の{売|う}り{場|ば}は{何階|なんがい}ですか。",
+       "fr": "Le rayon des chaussures est à quel étage ?"
+      },
+      {
+       "jp": "{一階|いっかい}に{小|ちい}さい{本屋|ほんや}があります。",
+       "fr": "Il y a une petite librairie au rez-de-chaussée."
+      }
+     ],
      "vocab": [
       {
        "jp": "{二階|にかい}",
@@ -96,6 +148,20 @@
      "p": [
       "**On** : サイ、セイ　**Kun** : —",
       "Un pied 止 qui avance avec une hallebarde 戈 : les années qui passent."
+     ],
+     "ex": [
+      {
+       "jp": "{妹|いもうと}さんは{何歳|なんさい}ですか。",
+       "fr": "Quel âge a ta petite sœur ?"
+      },
+      {
+       "jp": "{兄|あに}は{二十歳|はたち}で{結婚|けっこん}しました。",
+       "fr": "Mon grand frère s'est marié à vingt ans."
+      },
+      {
+       "jp": "{弟|おとうと}は{三歳|さんさい}の{時|とき}から{泳|およ}げます。",
+       "fr": "Mon petit frère sait nager depuis ses trois ans."
+      }
      ],
      "vocab": [
       {
@@ -122,7 +188,7 @@
    "exercises": [
     {
      "id": "k4-31-回-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "回",
      "explain": "**回** : fois, tourner. Un carré dans un carré : on tourne en rond, encore une fois.",
      "type": "choice",
@@ -132,11 +198,17 @@
       "fois, tourner",
       "gauche"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "回",
+      "kana": "カイ、まわ(る)、まわ(す)",
+      "fr": "fois, tourner"
+     },
+     "card": "回"
     },
     {
      "id": "k4-31-番-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "番",
      "explain": "**番** : numéro, tour. Des graines semées sur un champ 田, rang par rang : chacun son tour, chacun son numéro.",
      "type": "choice",
@@ -146,11 +218,17 @@
       "nouveau",
       "fleur"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "番",
+      "kana": "バン",
+      "fr": "numéro, tour"
+     },
+     "card": "番"
     },
     {
      "id": "k4-31-号-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "号",
      "explain": "**号** : numéro, signal. Une bouche 口 qui crie au-dessus d'un crochet : on appelle par le numéro.",
      "type": "choice",
@@ -160,11 +238,17 @@
       "loin",
       "courir"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "号",
+      "kana": "ゴウ",
+      "fr": "numéro, signal"
+     },
+     "card": "号"
     },
     {
      "id": "k4-31-階-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "階",
      "explain": "**階** : étage. La colline 阝 et « tout le monde » 皆 : chacun à son étage.",
      "type": "choice",
@@ -174,11 +258,17 @@
       "spécial",
       "étage"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "階",
+      "kana": "カイ",
+      "fr": "étage"
+     },
+     "card": "階"
     },
     {
      "id": "k4-31-歳-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "歳",
      "explain": "**歳** : âge (an). Un pied 止 qui avance avec une hallebarde 戈 : les années qui passent.",
      "type": "choice",
@@ -188,11 +278,17 @@
       "âge (an)",
       "personne (qui fait)"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "歳",
+      "kana": "サイ、セイ",
+      "fr": "âge (an)"
+     },
+     "card": "歳"
     },
     {
      "id": "k4-31-一回-lecture",
-     "q": "Comment se lit **一回** ?",
+     "q": "**一回**の{読|よ}み{方|かた}は？",
      "explain": "{一回|いっかい} : une fois.",
      "type": "choice",
      "choices": [
@@ -201,11 +297,17 @@
       "しみん",
       "きる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{一回|いっかい}",
+      "kana": "いっかい",
+      "fr": "une fois"
+     },
+     "card": "一回"
     },
     {
      "id": "k4-31-一番-lecture",
-     "q": "Comment se lit **一番** ?",
+     "q": "**一番**の{読|よ}み{方|かた}は？",
      "explain": "{一番|いちばん} : le premier, le plus.",
      "type": "choice",
      "choices": [
@@ -214,11 +316,17 @@
       "ほんだな",
       "ちゅうもん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{一番|いちばん}",
+      "kana": "いちばん",
+      "fr": "le premier, le plus"
+     },
+     "card": "一番"
     },
     {
      "id": "k4-31-番号-lecture",
-     "q": "Comment se lit **番号** ?",
+     "q": "**番号**の{読|よ}み{方|かた}は？",
      "explain": "{番号|ばんごう} : numéro.",
      "type": "choice",
      "choices": [
@@ -227,11 +335,17 @@
       "おおきい",
       "ばんごう"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{番号|ばんごう}",
+      "kana": "ばんごう",
+      "fr": "numéro"
+     },
+     "card": "番号"
     },
     {
      "id": "k4-31-二階-lecture",
-     "q": "Comment se lit **二階** ?",
+     "q": "**二階**の{読|よ}み{方|かた}は？",
      "explain": "{二階|にかい} : 1er étage (au-dessus du rez-de-chaussée).",
      "type": "choice",
      "choices": [
@@ -240,11 +354,17 @@
       "こと",
       "にかい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{二階|にかい}",
+      "kana": "にかい",
+      "fr": "1er étage (au-dessus du rez-de-chaussée)"
+     },
+     "card": "二階"
     },
     {
      "id": "k4-31-何歳-lecture",
-     "q": "Comment se lit **何歳** ?",
+     "q": "**何歳**の{読|よ}み{方|かた}は？",
      "explain": "{何歳|なんさい} : quel âge.",
      "type": "choice",
      "choices": [
@@ -253,11 +373,17 @@
       "あいだ",
       "なんさい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{何歳|なんさい}",
+      "kana": "なんさい",
+      "fr": "quel âge"
+     },
+     "card": "何歳"
     },
     {
      "id": "k4-31-回る-ecrit",
-     "q": "Quel mot s'écrit **まわる** (tourner) ?",
+     "q": "**まわる**（tourner）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{回|まわ}る : tourner.",
      "type": "choice",
      "choices": [
@@ -266,11 +392,17 @@
       "待る",
       "四る"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{回|まわ}る",
+      "kana": "まわる",
+      "fr": "tourner"
+     },
+     "card": "回る"
     },
     {
      "id": "k4-31-一回-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "一週間に**一回**、プールに行きます。",
      "explain": "**一回** se lit いっかい ici ({一回|いっかい} : une fois). « Je vais à la piscine une fois par semaine. »",
      "type": "choice",
@@ -280,11 +412,17 @@
       "あし",
       "いっかい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{一回|いっかい}",
+      "kana": "いっかい",
+      "fr": "une fois"
+     },
+     "card": "一回"
     },
     {
      "id": "k4-31-回-kanji",
-     "q": "Quel kanji veut dire « fois, tourner » ?",
+     "q": "「fois, tourner」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**回** : fois, tourner. Un carré dans un carré : on tourne en rond, encore une fois.",
      "type": "choice",
      "choices": [
@@ -293,11 +431,17 @@
       "土",
       "口"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "回",
+      "kana": "カイ、まわ(る)、まわ(す)",
+      "fr": "fois, tourner"
+     },
+     "card": "回"
     },
     {
      "id": "k4-31-回る-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{回|まわ}る se lit まわる, pas かいる.",
      "type": "choice",
      "choices": [
@@ -306,11 +450,17 @@
       "何番 → なんばん",
       "一番 → いちばん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{回|まわ}る",
+      "kana": "まわる",
+      "fr": "tourner"
+     },
+     "card": "回る"
     },
     {
      "id": "k4-31-今回-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**今回**の試験はやさしかったです。",
      "explain": "**今回** se lit こんかい ici ({今回|こんかい} : cette fois-ci). « L'examen de cette fois-ci était facile. »",
      "type": "choice",
@@ -320,11 +470,17 @@
       "おと",
       "ろっぴゃく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{今回|こんかい}",
+      "kana": "こんかい",
+      "fr": "cette fois-ci"
+     },
+     "card": "今回"
     },
     {
      "id": "k4-31-番-kanji",
-     "q": "Quel kanji veut dire « numéro, tour » ?",
+     "q": "「numéro, tour」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**番** : numéro, tour. Des graines semées sur un champ 田, rang par rang : chacun son tour, chacun son numéro.",
      "type": "choice",
      "choices": [
@@ -333,7 +489,52 @@
       "軽",
       "田"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "番",
+      "kana": "バン",
+      "fr": "numéro, tour"
+     },
+     "card": "番"
+    },
+    {
+     "id": "k4-31-回る-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "{地球|ちきゅう}は{太陽|たいよう}のまわりを**回**ります。",
+     "explain": "**回** se lit まわ ici ({回|まわ}る : tourner). « La Terre tourne autour du Soleil. »",
+     "type": "choice",
+     "choices": [
+      "まわ",
+      "はな",
+      "あし",
+      "のち"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{回|まわ}る",
+      "kana": "まわる",
+      "fr": "tourner"
+     },
+     "card": "回る"
+    },
+    {
+     "id": "k4-31-号-kanji",
+     "q": "「numéro, signal」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**号** : numéro, signal. Une bouche 口 qui crie au-dessus d'un crochet : on appelle par le numéro.",
+     "type": "choice",
+     "choices": [
+      "習",
+      "弓",
+      "口",
+      "号"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "号",
+      "kana": "ゴウ",
+      "fr": "numéro, signal"
+     },
+     "card": "号"
     }
    ]
   },
@@ -347,6 +548,7 @@
       "**On** : ケツ　**Kun** : き(める)、き(まる)",
       "L'eau 氵 qui force la digue : c'est tranché, c'est décidé."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{決|き}める",
@@ -363,6 +565,20 @@
      "p": [
       "**On** : ジ、シ　**Kun** : つぎ",
       "De la glace 冫 et quelqu'un qui bâille 欠 en attendant : au suivant !"
+     ],
+     "ex": [
+      {
+       "jp": "{次|つぎ}の{駅|えき}で{降|お}ります。",
+       "fr": "Je descends à la prochaine gare."
+      },
+      {
+       "jp": "{本|ほん}を{読|よ}む{前|まえ}に{目次|もくじ}を{見|み}ます。",
+       "fr": "Avant de lire un livre, je regarde la table des matières."
+      },
+      {
+       "jp": "{次|つぎ}は{何|なに}をしましょうか。",
+       "fr": "Qu'est-ce qu'on fait ensuite ?"
+      }
      ],
      "vocab": [
       {
@@ -381,6 +597,12 @@
       "**On** : チョウ　**Kun** : しら(べる)",
       "Des paroles 言 qui font le tour 周 de la question : on enquête."
      ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{体|からだ}の{調子|ちょうし}がいいです。",
+       "fr": "Aujourd'hui, je suis en forme."
+      }
+     ],
      "vocab": [
       {
        "jp": "{調|しら}べる",
@@ -398,6 +620,12 @@
       "**On** : ヘン　**Kun** : かえ(す)、かえ(る)",
       "Le chemin ⻌ et le revers 反 : on revient sur ses pas, on rend."
      ],
+     "ex": [
+      {
+       "jp": "{友|とも}だちからまだ{返事|へんじ}が{来|き}ません。",
+       "fr": "Mon ami ne m'a toujours pas répondu."
+      }
+     ],
      "vocab": [
       {
        "jp": "{返|かえ}す",
@@ -414,6 +642,16 @@
      "p": [
       "**On** : フツ　**Kun** : はら(う)",
       "Une main 扌 qui tend une pièce : on paie."
+     ],
+     "ex": [
+      {
+       "jp": "{電気代|でんきだい}を{払|はら}うのを{忘|わす}れました。",
+       "fr": "J'ai oublié de payer la facture d'électricité."
+      },
+      {
+       "jp": "{支払|しはら}いは{来月|らいげつ}でもいいですか。",
+       "fr": "Est-ce que le paiement peut attendre le mois prochain ?"
+      }
      ],
      "vocab": [
       {
@@ -436,7 +674,7 @@
    "exercises": [
     {
      "id": "k4-32-決-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "決",
      "explain": "**決** : décider. L'eau 氵 qui force la digue : c'est tranché, c'est décidé.",
      "type": "choice",
@@ -446,11 +684,17 @@
       "semaine",
       "utiliser"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "決",
+      "kana": "ケツ、き(める)、き(まる)",
+      "fr": "décider"
+     },
+     "card": "決"
     },
     {
      "id": "k4-32-次-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "次",
      "explain": "**次** : suivant. De la glace 冫 et quelqu'un qui bâille 欠 en attendant : au suivant !",
      "type": "choice",
@@ -460,11 +704,17 @@
       "suivant",
       "nouveau"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "次",
+      "kana": "ジ、シ、つぎ",
+      "fr": "suivant"
+     },
+     "card": "次"
     },
     {
      "id": "k4-32-調-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "調",
      "explain": "**調** : chercher, ton. Des paroles 言 qui font le tour 周 de la question : on enquête.",
      "type": "choice",
@@ -474,11 +724,17 @@
       "maintenant",
       "minute, partager"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "調",
+      "kana": "チョウ、しら(べる)",
+      "fr": "chercher, ton"
+     },
+     "card": "調"
     },
     {
      "id": "k4-32-返-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "返",
      "explain": "**返** : rendre. Le chemin ⻌ et le revers 反 : on revient sur ses pas, on rend.",
      "type": "choice",
@@ -488,11 +744,17 @@
       "dix mille",
       "se presser, urgent"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "返",
+      "kana": "ヘン、かえ(す)、かえ(る)",
+      "fr": "rendre"
+     },
+     "card": "返"
     },
     {
      "id": "k4-32-払-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "払",
      "explain": "**払** : payer. Une main 扌 qui tend une pièce : on paie.",
      "type": "choice",
@@ -502,11 +764,17 @@
       "payer",
       "vrai, juste"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "払",
+      "kana": "フツ、はら(う)",
+      "fr": "payer"
+     },
+     "card": "払"
     },
     {
      "id": "k4-32-決める-lecture",
-     "q": "Comment se lit **決める** ?",
+     "q": "**決める**の{読|よ}み{方|かた}は？",
      "explain": "{決|き}める : décider.",
      "type": "choice",
      "choices": [
@@ -515,11 +783,17 @@
       "がんじつ",
       "いちばん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{決|き}める",
+      "kana": "きめる",
+      "fr": "décider"
+     },
+     "card": "決める"
     },
     {
      "id": "k4-32-次-lecture",
-     "q": "Comment se lit **次** ?",
+     "q": "**次**の{読|よ}み{方|かた}は？",
      "explain": "{次|つぎ} : suivant, prochain.",
      "type": "choice",
      "choices": [
@@ -528,11 +802,17 @@
       "でかける",
       "くに"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{次|つぎ}",
+      "kana": "つぎ",
+      "fr": "suivant, prochain"
+     },
+     "card": "次"
     },
     {
      "id": "k4-32-調べる-lecture",
-     "q": "Comment se lit **調べる** ?",
+     "q": "**調べる**の{読|よ}み{方|かた}は？",
      "explain": "{調|しら}べる : chercher, vérifier.",
      "type": "choice",
      "choices": [
@@ -541,11 +821,17 @@
       "ちょうべる",
       "しらべる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{調|しら}べる",
+      "kana": "しらべる",
+      "fr": "chercher, vérifier"
+     },
+     "card": "調べる"
     },
     {
      "id": "k4-32-返す-lecture",
-     "q": "Comment se lit **返す** ?",
+     "q": "**返す**の{読|よ}み{方|かた}は？",
      "explain": "{返|かえ}す : rendre.",
      "type": "choice",
      "choices": [
@@ -554,11 +840,17 @@
       "いがい",
       "はっぴょう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{返|かえ}す",
+      "kana": "かえす",
+      "fr": "rendre"
+     },
+     "card": "返す"
     },
     {
      "id": "k4-32-払う-lecture",
-     "q": "Comment se lit **払う** ?",
+     "q": "**払う**の{読|よ}み{方|かた}は？",
      "explain": "{払|はら}う : payer.",
      "type": "choice",
      "choices": [
@@ -567,11 +859,17 @@
       "ふつう",
       "こうじょう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{払|はら}う",
+      "kana": "はらう",
+      "fr": "payer"
+     },
+     "card": "払う"
     },
     {
      "id": "k4-32-決める-ecrit",
-     "q": "Quel mot s'écrit **きめる** (décider) ?",
+     "q": "**きめる**（décider）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{決|き}める : décider.",
      "type": "choice",
      "choices": [
@@ -580,11 +878,17 @@
       "千める",
       "快める"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{決|き}める",
+      "kana": "きめる",
+      "fr": "décider"
+     },
+     "card": "決める"
     },
     {
      "id": "k4-32-決める-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "夏休みにどこへ行くか、まだ**決め**ていません。",
      "explain": "**決め** se lit きめ ici ({決|き}める : décider). « Je n'ai pas encore décidé où aller pendant les vacances d'été. »",
      "type": "choice",
@@ -594,11 +898,17 @@
       "ため",
       "きめ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{決|き}める",
+      "kana": "きめる",
+      "fr": "décider"
+     },
+     "card": "決める"
     },
     {
      "id": "k4-32-決-kanji",
-     "q": "Quel kanji veut dire « décider » ?",
+     "q": "「décider」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**決** : décider. L'eau 氵 qui force la digue : c'est tranché, c'est décidé.",
      "type": "choice",
      "choices": [
@@ -607,11 +917,17 @@
       "決",
       "町"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "決",
+      "kana": "ケツ、き(める)、き(まる)",
+      "fr": "décider"
+     },
+     "card": "決"
     },
     {
      "id": "k4-32-決める-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{決|き}める se lit きめる, pas けつめる.",
      "type": "choice",
      "choices": [
@@ -620,11 +936,17 @@
       "次 → つぎ",
       "決める → けつめる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{決|き}める",
+      "kana": "きめる",
+      "fr": "décider"
+     },
+     "card": "決める"
     },
     {
      "id": "k4-32-次-ecrit",
-     "q": "Quel mot s'écrit **つぎ** (suivant, prochain) ?",
+     "q": "**つぎ**（suivant, prochain）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{次|つぎ} : suivant, prochain.",
      "type": "choice",
      "choices": [
@@ -633,11 +955,17 @@
       "欠",
       "次"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{次|つぎ}",
+      "kana": "つぎ",
+      "fr": "suivant, prochain"
+     },
+     "card": "次"
     },
     {
      "id": "k4-32-決まる-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "{会議|かいぎ}の日が**決ま**りました。",
      "explain": "**決ま** se lit きま ici ({決|き}まる : être décidé). « La date de la réunion a été fixée. »",
      "type": "choice",
@@ -647,7 +975,51 @@
       "きま",
       "でま"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{決|き}まる",
+      "kana": "きまる",
+      "fr": "être décidé"
+     },
+     "card": "決まる"
+    },
+    {
+     "id": "k4-32-次-kanji",
+     "q": "「suivant」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**次** : suivant. De la glace 冫 et quelqu'un qui bâille 欠 en attendant : au suivant !",
+     "type": "choice",
+     "choices": [
+      "欠",
+      "決",
+      "次",
+      "食"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "次",
+      "kana": "ジ、シ、つぎ",
+      "fr": "suivant"
+     },
+     "card": "次"
+    },
+    {
+     "id": "k4-32-調べる-ecrit",
+     "q": "**しらべる**（chercher, vérifier）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{調|しら}べる : chercher, vérifier.",
+     "type": "choice",
+     "choices": [
+      "語べる",
+      "音べる",
+      "週べる",
+      "調べる"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{調|しら}べる",
+      "kana": "しらべる",
+      "fr": "chercher, vérifier"
+     },
+     "card": "調べる"
     }
    ]
   },
@@ -660,6 +1032,12 @@
      "p": [
       "**On** : ユウ　**Kun** : あそ(ぶ)",
       "Le chemin ⻌, un drapeau 方 et un enfant 子 : l'enfant part jouer dehors."
+     ],
+     "ex": [
+      {
+       "jp": "{日曜日|にちようび}に{家族|かぞく}で{遊園地|ゆうえんち}へ{行|い}きました。",
+       "fr": "Dimanche, je suis allé au parc d'attractions en famille."
+      }
      ],
      "vocab": [
       {
@@ -678,6 +1056,20 @@
       "**On** : エイ　**Kun** : およ(ぐ)",
       "L'eau 氵 et « éternel » 永 : nager longtemps."
      ],
+     "ex": [
+      {
+       "jp": "{海|うみ}で{泳|およ}ぐのが{好|す}きです。",
+       "fr": "J'aime nager dans la mer."
+      },
+      {
+       "jp": "{兄|あに}は{毎朝|まいあさ}{水泳|すいえい}をしています。",
+       "fr": "Mon grand frère fait de la natation tous les matins."
+      },
+      {
+       "jp": "{去年|きょねん}から{水泳|すいえい}を{始|はじ}めました。",
+       "fr": "J'ai commencé la natation l'an dernier."
+      }
+     ],
      "vocab": [
       {
        "jp": "{泳|およ}ぐ",
@@ -694,6 +1086,20 @@
      "p": [
       "**On** : シュ　**Kun** : さけ、さか",
       "L'eau 氵 et la jarre 酉 : le saké."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}はお{酒|さけ}に{弱|よわ}いです。",
+       "fr": "Mon grand frère ne tient pas l'alcool."
+      },
+      {
+       "jp": "{京都|きょうと}でおいしい{日本酒|にほんしゅ}を{飲|の}みました。",
+       "fr": "J'ai bu un délicieux saké japonais à Kyoto."
+      },
+      {
+       "jp": "{駅|えき}の{近|ちか}くに{古|ふる}い{酒屋|さかや}があります。",
+       "fr": "Il y a un vieux marchand d'alcool près de la gare."
+      }
      ],
      "vocab": [
       {
@@ -716,6 +1122,20 @@
       "**On** : バン　**Kun** : —",
       "Le soleil 日 qui s'échappe 免 : le soir tombe. Même 免 que dans 勉."
      ],
+     "ex": [
+      {
+       "jp": "{今晩|こんばん}は{家|いえ}で{料理|りょうり}をします。",
+       "fr": "Ce soir, je cuisine à la maison."
+      },
+      {
+       "jp": "{毎晩|まいばん}{本|ほん}を{読|よ}みます。",
+       "fr": "Je lis un livre tous les soirs."
+      },
+      {
+       "jp": "{家族|かぞく}と{晩|ばん}ご{飯|はん}を{食|た}べます。",
+       "fr": "Je dîne avec ma famille."
+      }
+     ],
      "vocab": [
       {
        "jp": "{今晩|こんばん}",
@@ -737,6 +1157,20 @@
       "**On** : コウ　**Kun** : お(りる)、ふ(る)",
       "La colline 阝 et des pieds qui descendent : on descend, la pluie tombe."
      ],
+     "ex": [
+      {
+       "jp": "{明日|あした}は{雨|あめ}が{降|ふ}ると{思|おも}います。",
+       "fr": "Je pense qu'il pleuvra demain."
+      },
+      {
+       "jp": "{明日|あした}は{雨|あめ}が{降|ふ}ると{思|おも}います。",
+       "fr": "Je pense qu'il pleuvra demain."
+      },
+      {
+       "jp": "{夕方|ゆうがた}から{雨|あめ}が{降|ふ}るそうです。",
+       "fr": "Il paraît qu'il va pleuvoir à partir de la fin d'après-midi."
+      }
+     ],
      "vocab": [
       {
        "jp": "{降|お}りる",
@@ -757,7 +1191,7 @@
    "exercises": [
     {
      "id": "k4-33-遊-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "遊",
      "explain": "**遊** : jouer, s'amuser. Le chemin ⻌, un drapeau 方 et un enfant 子 : l'enfant part jouer dehors.",
      "type": "choice",
@@ -767,11 +1201,17 @@
       "petite sœur",
       "lourd"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "遊",
+      "kana": "ユウ、あそ(ぶ)",
+      "fr": "jouer, s'amuser"
+     },
+     "card": "遊"
     },
     {
      "id": "k4-33-泳-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "泳",
      "explain": "**泳** : nager. L'eau 氵 et « éternel » 永 : nager longtemps.",
      "type": "choice",
@@ -781,11 +1221,17 @@
       "goût",
       "lumière"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "泳",
+      "kana": "エイ、およ(ぐ)",
+      "fr": "nager"
+     },
+     "card": "泳"
     },
     {
      "id": "k4-33-酒-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "酒",
      "explain": "**酒** : alcool, saké. L'eau 氵 et la jarre 酉 : le saké.",
      "type": "choice",
@@ -795,11 +1241,17 @@
       "magasin",
       "alcool, saké"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "酒",
+      "kana": "シュ、さけ、さか",
+      "fr": "alcool, saké"
+     },
+     "card": "酒"
     },
     {
      "id": "k4-33-晩-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "晩",
      "explain": "**晩** : soir. Le soleil 日 qui s'échappe 免 : le soir tombe. Même 免 que dans 勉.",
      "type": "choice",
@@ -809,11 +1261,17 @@
       "commencer",
       "soir"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "晩",
+      "kana": "バン",
+      "fr": "soir"
+     },
+     "card": "晩"
     },
     {
      "id": "k4-33-降-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "降",
      "explain": "**降** : descendre, tomber. La colline 阝 et des pieds qui descendent : on descend, la pluie tombe.",
      "type": "choice",
@@ -823,11 +1281,17 @@
       "toit, boutique",
       "bleu"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "降",
+      "kana": "コウ、お(りる)、ふ(る)",
+      "fr": "descendre, tomber"
+     },
+     "card": "降"
     },
     {
      "id": "k4-33-遊ぶ-lecture",
-     "q": "Comment se lit **遊ぶ** ?",
+     "q": "**遊ぶ**の{読|よ}み{方|かた}は？",
      "explain": "{遊|あそ}ぶ : jouer, s'amuser.",
      "type": "choice",
      "choices": [
@@ -836,11 +1300,17 @@
       "あそぶ",
       "ゆうぶ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{遊|あそ}ぶ",
+      "kana": "あそぶ",
+      "fr": "jouer, s'amuser"
+     },
+     "card": "遊ぶ"
     },
     {
      "id": "k4-33-泳ぐ-lecture",
-     "q": "Comment se lit **泳ぐ** ?",
+     "q": "**泳ぐ**の{読|よ}み{方|かた}は？",
      "explain": "{泳|およ}ぐ : nager.",
      "type": "choice",
      "choices": [
@@ -849,11 +1319,17 @@
       "およぐ",
       "えいぐ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{泳|およ}ぐ",
+      "kana": "およぐ",
+      "fr": "nager"
+     },
+     "card": "泳ぐ"
     },
     {
      "id": "k4-33-お酒-lecture",
-     "q": "Comment se lit **お酒** ?",
+     "q": "**お酒**の{読|よ}み{方|かた}は？",
      "explain": "お{酒|さけ} : alcool, saké.",
      "type": "choice",
      "choices": [
@@ -862,11 +1338,17 @@
       "おさけ",
       "おしゅ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "お{酒|さけ}",
+      "kana": "おさけ",
+      "fr": "alcool, saké"
+     },
+     "card": "お酒"
     },
     {
      "id": "k4-33-今晩-lecture",
-     "q": "Comment se lit **今晩** ?",
+     "q": "**今晩**の{読|よ}み{方|かた}は？",
      "explain": "{今晩|こんばん} : ce soir.",
      "type": "choice",
      "choices": [
@@ -875,11 +1357,17 @@
       "ふたつ",
       "ひかり"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{今晩|こんばん}",
+      "kana": "こんばん",
+      "fr": "ce soir"
+     },
+     "card": "今晩"
     },
     {
      "id": "k4-33-降りる-lecture",
-     "q": "Comment se lit **降りる** ?",
+     "q": "**降りる**の{読|よ}み{方|かた}は？",
      "explain": "{降|お}りる : descendre (d'un véhicule).",
      "type": "choice",
      "choices": [
@@ -888,11 +1376,17 @@
       "おりる",
       "さんぽ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{降|お}りる",
+      "kana": "おりる",
+      "fr": "descendre (d'un véhicule)"
+     },
+     "card": "降りる"
     },
     {
      "id": "k4-33-遊ぶ-ecrit",
-     "q": "Quel mot s'écrit **あそぶ** (jouer, s'amuser) ?",
+     "q": "**あそぶ**（jouer, s'amuser）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{遊|あそ}ぶ : jouer, s'amuser.",
      "type": "choice",
      "choices": [
@@ -901,11 +1395,17 @@
       "旅ぶ",
       "遊ぶ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{遊|あそ}ぶ",
+      "kana": "あそぶ",
+      "fr": "jouer, s'amuser"
+     },
+     "card": "遊ぶ"
     },
     {
      "id": "k4-33-遊ぶ-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "{公園|こうえん}で子どもが**遊**んでいます。",
      "explain": "**遊** se lit あそ ici ({遊|あそ}ぶ : jouer, s'amuser). « Des enfants jouent au parc. »",
      "type": "choice",
@@ -915,11 +1415,17 @@
       "あそ",
       "しな"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{遊|あそ}ぶ",
+      "kana": "あそぶ",
+      "fr": "jouer, s'amuser"
+     },
+     "card": "遊ぶ"
     },
     {
      "id": "k4-33-遊-kanji",
-     "q": "Quel kanji veut dire « jouer, s'amuser » ?",
+     "q": "「jouer, s'amuser」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**遊** : jouer, s'amuser. Le chemin ⻌, un drapeau 方 et un enfant 子 : l'enfant part jouer dehors.",
      "type": "choice",
      "choices": [
@@ -928,11 +1434,17 @@
       "遊",
       "旅"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "遊",
+      "kana": "ユウ、あそ(ぶ)",
+      "fr": "jouer, s'amuser"
+     },
+     "card": "遊"
     },
     {
      "id": "k4-33-遊ぶ-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{遊|あそ}ぶ se lit あそぶ, pas ゆうぶ.",
      "type": "choice",
      "choices": [
@@ -941,11 +1453,17 @@
       "降る → ふる",
       "今晩 → こんばん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{遊|あそ}ぶ",
+      "kana": "あそぶ",
+      "fr": "jouer, s'amuser"
+     },
+     "card": "遊ぶ"
     },
     {
      "id": "k4-33-泳ぐ-ecrit",
-     "q": "Quel mot s'écrit **およぐ** (nager) ?",
+     "q": "**およぐ**（nager）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{泳|およ}ぐ : nager.",
      "type": "choice",
      "choices": [
@@ -954,11 +1472,17 @@
       "中ぐ",
       "氷ぐ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{泳|およ}ぐ",
+      "kana": "およぐ",
+      "fr": "nager"
+     },
+     "card": "泳ぐ"
     },
     {
      "id": "k4-33-遊園地-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "日曜日に家族で**遊園地**へ行きました。",
      "explain": "**遊園地** se lit ゆうえんち ici ({遊園地|ゆうえんち} : parc d'attractions). « Dimanche, je suis allé au parc d'attractions en famille. »",
      "type": "choice",
@@ -968,7 +1492,51 @@
       "ゆうえんち",
       "かす"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{遊園地|ゆうえんち}",
+      "kana": "ゆうえんち",
+      "fr": "parc d'attractions"
+     },
+     "card": "遊園地"
+    },
+    {
+     "id": "k4-33-泳-kanji",
+     "q": "「nager」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**泳** : nager. L'eau 氵 et « éternel » 永 : nager longtemps.",
+     "type": "choice",
+     "choices": [
+      "氷",
+      "永",
+      "知",
+      "泳"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "泳",
+      "kana": "エイ、およ(ぐ)",
+      "fr": "nager"
+     },
+     "card": "泳"
+    },
+    {
+     "id": "k4-33-お酒-ecrit",
+     "q": "**おさけ**（alcool, saké）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "お{酒|さけ} : alcool, saké.",
+     "type": "choice",
+     "choices": [
+      "お西",
+      "お酒",
+      "お配",
+      "お雨"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "お{酒|さけ}",
+      "kana": "おさけ",
+      "fr": "alcool, saké"
+     },
+     "card": "お酒"
     }
    ]
   },
@@ -981,6 +1549,20 @@
      "p": [
       "**On** : コウ　**Kun** : おおやけ",
       "Ce qui s'ouvre 八 au-dessus du « moi » 厶 : ce qui est à tous. Le contraire de 私."
+     ],
+     "ex": [
+      {
+       "jp": "{毎朝|まいあさ}{公園|こうえん}を{走|はし}ります。",
+       "fr": "Je cours dans le parc tous les matins."
+      },
+      {
+       "jp": "この{物語|ものがたり}の{主人公|しゅじんこう}は{高校生|こうこうせい}です。",
+       "fr": "Le héros de cette histoire est un lycéen."
+      },
+      {
+       "jp": "きれいな{公園|こうえん}ですね。",
+       "fr": "Quel joli parc !"
+      }
      ],
      "vocab": [
       {
@@ -999,6 +1581,20 @@
       "**On** : ケツ　**Kun** : むす(ぶ)",
       "Un fil 糸 et une bonne chose 吉 : on noue les liens."
      ],
+     "ex": [
+      {
+       "jp": "{姉|あね}は{来年|らいねん}{結婚|けっこん}します。",
+       "fr": "Ma grande sœur se marie l'année prochaine."
+      },
+      {
+       "jp": "{結婚式|けっこんしき}はいつですか。",
+       "fr": "Quand a lieu le mariage ?"
+      },
+      {
+       "jp": "{結婚式|けっこんしき}で{歌|うた}を{歌|うた}いました。",
+       "fr": "J'ai chanté une chanson au mariage."
+      }
+     ],
      "vocab": [
       {
        "jp": "{結婚|けっこん}",
@@ -1016,6 +1612,20 @@
       "**On** : コン　**Kun** : —",
       "Une femme 女 et le crépuscule 昏 : la cérémonie du mariage, le soir."
      ],
+     "ex": [
+      {
+       "jp": "{結婚式|けっこんしき}はいつですか。",
+       "fr": "Quand a lieu le mariage ?"
+      },
+      {
+       "jp": "{新婚|しんこん}の{二人|ふたり}は{海|うみ}の{近|ちか}くに{住|す}んでいます。",
+       "fr": "Les deux jeunes mariés habitent près de la mer."
+      },
+      {
+       "jp": "{結婚式|けっこんしき}で{歌|うた}を{歌|うた}いました。",
+       "fr": "J'ai chanté une chanson au mariage."
+      }
+     ],
      "vocab": [
       {
        "jp": "{結婚式|けっこんしき}",
@@ -1032,6 +1642,20 @@
      "p": [
       "**On** : リュウ、ル　**Kun** : と(める)",
       "Un champ 田 sous un abri : on reste, on retient."
+     ],
+     "ex": [
+      {
+       "jp": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}したいです。",
+       "fr": "L'année prochaine, je voudrais aller étudier au Japon."
+      },
+      {
+       "jp": "{留学生|りゅうがくせい}と{日本語|にほんご}で{話|はな}しました。",
+       "fr": "J'ai parlé en japonais avec un étudiant étranger."
+      },
+      {
+       "jp": "{電話|でんわ}をしましたが、{留守|るす}でした。",
+       "fr": "J'ai téléphoné, mais il n'y avait personne."
+      }
      ],
      "vocab": [
       {
@@ -1054,6 +1678,20 @@
       "**On** : カイ　**Kun** : みな、みんな",
       "Deux personnes côte à côte 比 sous le soleil 白 : tout le monde."
      ],
+     "ex": [
+      {
+       "jp": "{皆|みな}さん、おはようございます。",
+       "fr": "Bonjour à tous."
+      },
+      {
+       "jp": "{皆|みな}さん、{静|しず}かにしてください。",
+       "fr": "Tout le monde, un peu de silence, s'il vous plaît."
+      },
+      {
+       "jp": "{皆|みな}さんのご{協力|きょうりょく}をお{願|ねが}いします。",
+       "fr": "Je compte sur la coopération de tout le monde."
+      }
+     ],
      "vocab": [
       {
        "jp": "{皆|みな}さん",
@@ -1072,7 +1710,7 @@
    "exercises": [
     {
      "id": "k4-34-公-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "公",
      "explain": "**公** : public. Ce qui s'ouvre 八 au-dessus du « moi » 厶 : ce qui est à tous. Le contraire de 私.",
      "type": "choice",
@@ -1082,11 +1720,17 @@
       "public",
       "prêter"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "公",
+      "kana": "コウ、おおやけ",
+      "fr": "public"
+     },
+     "card": "公"
     },
     {
      "id": "k4-34-結-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "結",
      "explain": "**結** : nouer, lier. Un fil 糸 et une bonne chose 吉 : on noue les liens.",
      "type": "choice",
@@ -1096,11 +1740,17 @@
       "esprit, énergie",
       "huit"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "結",
+      "kana": "ケツ、むす(ぶ)",
+      "fr": "nouer, lier"
+     },
+     "card": "結"
     },
     {
      "id": "k4-34-婚-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "婚",
      "explain": "**婚** : mariage. Une femme 女 et le crépuscule 昏 : la cérémonie du mariage, le soir.",
      "type": "choice",
@@ -1110,11 +1760,17 @@
       "suivant",
       "mariage"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "婚",
+      "kana": "コン",
+      "fr": "mariage"
+     },
+     "card": "婚"
     },
     {
      "id": "k4-34-留-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "留",
      "explain": "**留** : rester, retenir. Un champ 田 sous un abri : on reste, on retient.",
      "type": "choice",
@@ -1124,11 +1780,17 @@
       "finir",
       "forêt"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "留",
+      "kana": "リュウ、ル、と(める)",
+      "fr": "rester, retenir"
+     },
+     "card": "留"
     },
     {
      "id": "k4-34-皆-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "皆",
      "explain": "**皆** : tout le monde. Deux personnes côte à côte 比 sous le soleil 白 : tout le monde.",
      "type": "choice",
@@ -1138,11 +1800,17 @@
       "utiliser",
       "moitié"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "皆",
+      "kana": "カイ、みな、みんな",
+      "fr": "tout le monde"
+     },
+     "card": "皆"
     },
     {
      "id": "k4-34-公園-lecture",
-     "q": "Comment se lit **公園** ?",
+     "q": "**公園**の{読|よ}み{方|かた}は？",
      "explain": "{公園|こうえん} : parc.",
      "type": "choice",
      "choices": [
@@ -1151,11 +1819,17 @@
       "だす",
       "もくようび"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{公園|こうえん}",
+      "kana": "こうえん",
+      "fr": "parc"
+     },
+     "card": "公園"
     },
     {
      "id": "k4-34-結婚-lecture",
-     "q": "Comment se lit **結婚** ?",
+     "q": "**結婚**の{読|よ}み{方|かた}は？",
      "explain": "{結婚|けっこん} : mariage.",
      "type": "choice",
      "choices": [
@@ -1164,11 +1838,17 @@
       "どりょく",
       "きゅうこう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{結婚|けっこん}",
+      "kana": "けっこん",
+      "fr": "mariage"
+     },
+     "card": "結婚"
     },
     {
      "id": "k4-34-結婚式-lecture",
-     "q": "Comment se lit **結婚式** ?",
+     "q": "**結婚式**の{読|よ}み{方|かた}は？",
      "explain": "{結婚式|けっこんしき} : cérémonie de mariage.",
      "type": "choice",
      "choices": [
@@ -1177,11 +1857,17 @@
       "ほうそう",
       "よみかた"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{結婚式|けっこんしき}",
+      "kana": "けっこんしき",
+      "fr": "cérémonie de mariage"
+     },
+     "card": "結婚式"
     },
     {
      "id": "k4-34-留学-lecture",
-     "q": "Comment se lit **留学** ?",
+     "q": "**留学**の{読|よ}み{方|かた}は？",
      "explain": "{留学|りゅうがく} : études à l'étranger.",
      "type": "choice",
      "choices": [
@@ -1190,11 +1876,17 @@
       "りゅうがく",
       "はつおん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{留学|りゅうがく}",
+      "kana": "りゅうがく",
+      "fr": "études à l'étranger"
+     },
+     "card": "留学"
     },
     {
      "id": "k4-34-皆さん-lecture",
-     "q": "Comment se lit **皆さん** ?",
+     "q": "**皆さん**の{読|よ}み{方|かた}は？",
      "explain": "{皆|みな}さん : tout le monde (vous tous).",
      "type": "choice",
      "choices": [
@@ -1203,11 +1895,17 @@
       "みんなさん",
       "つよい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{皆|みな}さん",
+      "kana": "みなさん",
+      "fr": "tout le monde (vous tous)"
+     },
+     "card": "皆さん"
     },
     {
      "id": "k4-34-結ぶ-ecrit",
-     "q": "Quel mot s'écrit **むすぶ** (nouer, relier) ?",
+     "q": "**むすぶ**（nouer, relier）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{結|むす}ぶ : nouer, relier.",
      "type": "choice",
      "choices": [
@@ -1216,11 +1914,17 @@
       "紙ぶ",
       "計ぶ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{結|むす}ぶ",
+      "kana": "むすぶ",
+      "fr": "nouer, relier"
+     },
+     "card": "結ぶ"
     },
     {
      "id": "k4-34-公園-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**公園**に子どもがたくさんいます。",
      "explain": "**公園** se lit こうえん ici ({公園|こうえん} : parc). « Il y a beaucoup d'enfants au parc. »",
      "type": "choice",
@@ -1230,11 +1934,17 @@
       "ようじ",
       "つかう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{公園|こうえん}",
+      "kana": "こうえん",
+      "fr": "parc"
+     },
+     "card": "公園"
     },
     {
      "id": "k4-34-公-kanji",
-     "q": "Quel kanji veut dire « public » ?",
+     "q": "「public」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**公** : public. Ce qui s'ouvre 八 au-dessus du « moi » 厶 : ce qui est à tous. Le contraire de 私.",
      "type": "choice",
      "choices": [
@@ -1243,11 +1953,17 @@
       "弟",
       "私"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "公",
+      "kana": "コウ、おおやけ",
+      "fr": "public"
+     },
+     "card": "公"
     },
     {
      "id": "k4-34-結ぶ-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{結|むす}ぶ se lit むすぶ, pas けつぶ.",
      "type": "choice",
      "choices": [
@@ -1256,11 +1972,17 @@
       "留学生 → りゅうがくせい",
       "留学 → りゅうがく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{結|むす}ぶ",
+      "kana": "むすぶ",
+      "fr": "nouer, relier"
+     },
+     "card": "結ぶ"
     },
     {
      "id": "k4-34-皆さん-ecrit",
-     "q": "Quel mot s'écrit **みなさん** (tout le monde (vous tous)) ?",
+     "q": "**みなさん**（tout le monde (vous tous)）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{皆|みな}さん : tout le monde (vous tous).",
      "type": "choice",
      "choices": [
@@ -1269,11 +1991,17 @@
       "教さん",
       "階さん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{皆|みな}さん",
+      "kana": "みなさん",
+      "fr": "tout le monde (vous tous)"
+     },
+     "card": "皆さん"
     },
     {
      "id": "k4-34-主人公-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "この物語の**主人公**は高校生です。",
      "explain": "**主人公** se lit しゅじんこう ici ({主人公|しゅじんこう} : héros (d'une histoire)). « Le héros de cette histoire est un lycéen. »",
      "type": "choice",
@@ -1283,7 +2011,52 @@
       "こんかい",
       "しゅじんこう"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{主人公|しゅじんこう}",
+      "kana": "しゅじんこう",
+      "fr": "héros (d'une histoire)"
+     },
+     "card": "主人公"
+    },
+    {
+     "id": "k4-34-結-kanji",
+     "q": "「nouer, lier」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**結** : nouer, lier. Un fil 糸 et une bonne chose 吉 : on noue les liens.",
+     "type": "choice",
+     "choices": [
+      "給",
+      "結",
+      "紙",
+      "友"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "結",
+      "kana": "ケツ、むす(ぶ)",
+      "fr": "nouer, lier"
+     },
+     "card": "結"
+    },
+    {
+     "id": "k4-34-結婚-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "兄は{二十歳|はたち}で**結婚**しました。",
+     "explain": "**結婚** se lit けっこん ici ({結婚|けっこん} : mariage). « Mon grand frère s'est marié à vingt ans. »",
+     "type": "choice",
+     "choices": [
+      "けっこん",
+      "はやい",
+      "へんじ",
+      "きょうしつ"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{結婚|けっこん}",
+      "kana": "けっこん",
+      "fr": "mariage"
+     },
+     "card": "結婚"
     }
    ]
   },
@@ -1296,6 +2069,20 @@
      "p": [
       "**On** : ブ　**Kun** : —",
       "Le village 阝 et ce qui se tient debout : une partie, un service."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}の{部屋|へや}は{広|ひろ}いです。",
+       "fr": "La chambre de mon grand frère est spacieuse."
+      },
+      {
+       "jp": "{一日|いちにち}で{全部|ぜんぶ}{読|よ}むのは{無理|むり}です。",
+       "fr": "Tout lire en une journée, c'est impossible."
+      },
+      {
+       "jp": "{部長|ぶちょう}は{今|いま}、{会議|かいぎ}{中|ちゅう}です。",
+       "fr": "Le chef de service est en réunion en ce moment."
+      }
      ],
      "vocab": [
       {
@@ -1318,6 +2105,20 @@
       "**On** : ソウ　**Kun** : まど",
       "Un trou 穴 au-dessus du cœur 心 : la fenêtre."
      ],
+     "ex": [
+      {
+       "jp": "{窓|まど}をあけましょうか。",
+       "fr": "J'ouvre la fenêtre ?"
+      },
+      {
+       "jp": "{切符|きっぷ}は{二番|にばん}の{窓口|まどぐち}で{買|か}えます。",
+       "fr": "On peut acheter les billets au guichet numéro deux."
+      },
+      {
+       "jp": "{部屋|へや}に{窓|まど}が{二|ふた}つあります。",
+       "fr": "Il y a deux fenêtres dans la chambre."
+      }
+     ],
      "vocab": [
       {
        "jp": "{窓|まど}",
@@ -1334,6 +2135,20 @@
      "p": [
       "**On** : レイ　**Kun** : つめ(たい)、ひ(える)",
       "De la glace 冫 et un ordre 令 : c'est froid. 寒 = il fait froid, 冷 = c'est froid au toucher."
+     ],
+     "ex": [
+      {
+       "jp": "{冷|つめ}たい{水|みず}を{一杯|いっぱい}ください。",
+       "fr": "Un verre d'eau fraîche, s'il vous plaît."
+      },
+      {
+       "jp": "{牛乳|ぎゅうにゅう}は{冷蔵庫|れいぞうこ}に{入|い}れてください。",
+       "fr": "Mets le lait au réfrigérateur, s'il te plaît."
+      },
+      {
+       "jp": "{窓|まど}から{冷|つめ}たい{風|かぜ}が{入|はい}ります。",
+       "fr": "Un vent froid entre par la fenêtre."
+      }
      ],
      "vocab": [
       {
@@ -1356,6 +2171,20 @@
       "**On** : ム、ブ　**Kun** : な(い)",
       "Des herbes qui brûlent sur un feu 灬 : il ne reste rien."
      ],
+     "ex": [
+      {
+       "jp": "{無理|むり}をしないでください。",
+       "fr": "Ne vous forcez pas."
+      },
+      {
+       "jp": "この{美術館|びじゅつかん}は{無料|むりょう}です。",
+       "fr": "Ce musée est gratuit."
+      },
+      {
+       "jp": "{一日|いちにち}で{全部|ぜんぶ}{読|よ}むのは{無理|むり}です。",
+       "fr": "Tout lire en une journée, c'est impossible."
+      }
+     ],
      "vocab": [
       {
        "jp": "{無理|むり}",
@@ -1372,6 +2201,20 @@
      "p": [
       "**On** : ユ、ユウ　**Kun** : —",
       "Une pousse qui sort du champ 田 : l'origine, la raison."
+     ],
+     "ex": [
+      {
+       "jp": "{週末|しゅうまつ}は{自由|じゆう}な{時間|じかん}が{多|おお}いです。",
+       "fr": "Le week-end, j'ai beaucoup de temps libre."
+      },
+      {
+       "jp": "{遅|おく}れた{理由|りゆう}を{話|はな}してください。",
+       "fr": "Expliquez pourquoi vous êtes en retard."
+      },
+      {
+       "jp": "{週末|しゅうまつ}は{自由|じゆう}に{過|す}ごしたいです。",
+       "fr": "Le week-end, je veux faire ce qui me plaît."
+      }
      ],
      "vocab": [
       {
@@ -1394,7 +2237,7 @@
    "exercises": [
     {
      "id": "k4-35-部-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "部",
      "explain": "**部** : partie, service. Le village 阝 et ce qui se tient debout : une partie, un service.",
      "type": "choice",
@@ -1404,11 +2247,17 @@
       "sept",
       "partie, service"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "部",
+      "kana": "ブ",
+      "fr": "partie, service"
+     },
+     "card": "部"
     },
     {
      "id": "k4-35-窓-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "窓",
      "explain": "**窓** : fenêtre. Un trou 穴 au-dessus du cœur 心 : la fenêtre.",
      "type": "choice",
@@ -1418,11 +2267,17 @@
       "copier, photographier",
       "fenêtre"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "窓",
+      "kana": "ソウ、まど",
+      "fr": "fenêtre"
+     },
+     "card": "窓"
     },
     {
      "id": "k4-35-冷-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "冷",
      "explain": "**冷** : froid (au toucher). De la glace 冫 et un ordre 令 : c'est froid. 寒 = il fait froid, 冷 = c'est froid au toucher.",
      "type": "choice",
@@ -1432,11 +2287,17 @@
       "froid (au toucher)",
       "oiseau"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "冷",
+      "kana": "レイ、つめ(たい)、ひ(える)",
+      "fr": "froid (au toucher)"
+     },
+     "card": "冷"
     },
     {
      "id": "k4-35-無-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "無",
      "explain": "**無** : rien, sans. Des herbes qui brûlent sur un feu 灬 : il ne reste rien.",
      "type": "choice",
@@ -1446,11 +2307,17 @@
       "goût",
       "rien, sans"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "無",
+      "kana": "ム、ブ、な(い)",
+      "fr": "rien, sans"
+     },
+     "card": "無"
     },
     {
      "id": "k4-35-由-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "由",
      "explain": "**由** : raison, origine. Une pousse qui sort du champ 田 : l'origine, la raison.",
      "type": "choice",
@@ -1460,11 +2327,17 @@
       "construction, artisanat",
       "utiliser"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "由",
+      "kana": "ユ、ユウ",
+      "fr": "raison, origine"
+     },
+     "card": "由"
     },
     {
      "id": "k4-35-全部-lecture",
-     "q": "Comment se lit **全部** ?",
+     "q": "**全部**の{読|よ}み{方|かた}は？",
      "explain": "{全部|ぜんぶ} : tout.",
      "type": "choice",
      "choices": [
@@ -1473,11 +2346,17 @@
       "ぜんぶ",
       "いしゃ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{全部|ぜんぶ}",
+      "kana": "ぜんぶ",
+      "fr": "tout"
+     },
+     "card": "全部"
     },
     {
      "id": "k4-35-窓-lecture",
-     "q": "Comment se lit **窓** ?",
+     "q": "**窓**の{読|よ}み{方|かた}は？",
      "explain": "{窓|まど} : fenêtre.",
      "type": "choice",
      "choices": [
@@ -1486,11 +2365,17 @@
       "きめる",
       "こんや"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{窓|まど}",
+      "kana": "まど",
+      "fr": "fenêtre"
+     },
+     "card": "窓"
     },
     {
      "id": "k4-35-冷たい-lecture",
-     "q": "Comment se lit **冷たい** ?",
+     "q": "**冷たい**の{読|よ}み{方|かた}は？",
      "explain": "{冷|つめ}たい : froid (au toucher).",
      "type": "choice",
      "choices": [
@@ -1499,11 +2384,17 @@
       "かじ",
       "つめたい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{冷|つめ}たい",
+      "kana": "つめたい",
+      "fr": "froid (au toucher)"
+     },
+     "card": "冷たい"
     },
     {
      "id": "k4-35-無理-lecture",
-     "q": "Comment se lit **無理** ?",
+     "q": "**無理**の{読|よ}み{方|かた}は？",
      "explain": "{無理|むり} : impossible, déraisonnable.",
      "type": "choice",
      "choices": [
@@ -1512,11 +2403,17 @@
       "だいく",
       "ぶり"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{無理|むり}",
+      "kana": "むり",
+      "fr": "impossible, déraisonnable"
+     },
+     "card": "無理"
     },
     {
      "id": "k4-35-自由-lecture",
-     "q": "Comment se lit **自由** ?",
+     "q": "**自由**の{読|よ}み{方|かた}は？",
      "explain": "{自由|じゆう} : liberté.",
      "type": "choice",
      "choices": [
@@ -1525,11 +2422,17 @@
       "はこぶ",
       "さんぜん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{自由|じゆう}",
+      "kana": "じゆう",
+      "fr": "liberté"
+     },
+     "card": "自由"
     },
     {
      "id": "k4-35-部屋-trou",
-     "q": "Complète le mot **へや** (pièce, chambre) :",
+     "q": "**へや**（pièce, chambre）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "部＿",
      "explain": "{部屋|へや} : pièce, chambre.",
      "type": "choice",
@@ -1539,11 +2442,17 @@
       "屋",
       "室"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{部屋|へや}",
+      "kana": "へや",
+      "fr": "pièce, chambre"
+     },
+     "card": "部屋"
     },
     {
      "id": "k4-35-部屋-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**部屋**に{窓|まど}が二つあります。",
      "explain": "**部屋** se lit へや ici ({部屋|へや} : pièce, chambre). « Il y a deux fenêtres dans la chambre. »",
      "type": "choice",
@@ -1553,11 +2462,17 @@
       "みず",
       "へや"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{部屋|へや}",
+      "kana": "へや",
+      "fr": "pièce, chambre"
+     },
+     "card": "部屋"
     },
     {
      "id": "k4-35-部-kanji",
-     "q": "Quel kanji veut dire « partie, service » ?",
+     "q": "「partie, service」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**部** : partie, service. Le village 阝 et ce qui se tient debout : une partie, un service.",
      "type": "choice",
      "choices": [
@@ -1566,11 +2481,17 @@
       "部",
       "読"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "部",
+      "kana": "ブ",
+      "fr": "partie, service"
+     },
+     "card": "部"
     },
     {
      "id": "k4-35-部屋-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{部屋|へや} se lit へや, pas ぶや.",
      "type": "choice",
      "choices": [
@@ -1579,11 +2500,17 @@
       "自由 → じゆう",
       "理由 → りゆう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{部屋|へや}",
+      "kana": "へや",
+      "fr": "pièce, chambre"
+     },
+     "card": "部屋"
     },
     {
      "id": "k4-35-冷たい-ecrit",
-     "q": "Quel mot s'écrit **つめたい** (froid (au toucher)) ?",
+     "q": "**つめたい**（froid (au toucher)）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{冷|つめ}たい : froid (au toucher).",
      "type": "choice",
      "choices": [
@@ -1592,11 +2519,17 @@
       "寒たい",
       "野たい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{冷|つめ}たい",
+      "kana": "つめたい",
+      "fr": "froid (au toucher)"
+     },
+     "card": "冷たい"
     },
     {
      "id": "k4-35-部長-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**部長**は今、{会議|かいぎ}中です。",
      "explain": "**部長** se lit ぶちょう ici ({部長|ぶちょう} : chef de service). « Le chef de service est en réunion en ce moment. »",
      "type": "choice",
@@ -1606,7 +2539,52 @@
       "かるい",
       "ぶちょう"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{部長|ぶちょう}",
+      "kana": "ぶちょう",
+      "fr": "chef de service"
+     },
+     "card": "部長"
+    },
+    {
+     "id": "k4-35-窓-kanji",
+     "q": "「fenêtre」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**窓** : fenêtre. Un trou 穴 au-dessus du cœur 心 : la fenêtre.",
+     "type": "choice",
+     "choices": [
+      "手",
+      "窓",
+      "思",
+      "空"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "窓",
+      "kana": "ソウ、まど",
+      "fr": "fenêtre"
+     },
+     "card": "窓"
+    },
+    {
+     "id": "k4-35-無理-trou",
+     "q": "**むり**（impossible, déraisonnable）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "無＿",
+     "explain": "{無理|むり} : impossible, déraisonnable.",
+     "type": "choice",
+     "choices": [
+      "理",
+      "埋",
+      "里",
+      "物"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{無理|むり}",
+      "kana": "むり",
+      "fr": "impossible, déraisonnable"
+     },
+     "card": "無理"
     }
    ]
   }
@@ -1614,7 +2592,7 @@
  "test": [
   {
    "id": "k4-b07-今回-lecture",
-   "q": "Comment se lit **今回** ?",
+   "q": "**今回**の{読|よ}み{方|かた}は？",
    "explain": "{今回|こんかい} : cette fois-ci.",
    "type": "choice",
    "choices": [
@@ -1623,11 +2601,17 @@
     "でぐち",
     "きもち"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{今回|こんかい}",
+    "kana": "こんかい",
+    "fr": "cette fois-ci"
+   },
+   "card": "今回"
   },
   {
    "id": "k4-b07-回る-lecture",
-   "q": "Comment se lit **回る** ?",
+   "q": "**回る**の{読|よ}み{方|かた}は？",
    "explain": "{回|まわ}る : tourner.",
    "type": "choice",
    "choices": [
@@ -1636,11 +2620,17 @@
     "じゆう",
     "まわる"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{回|まわ}る",
+    "kana": "まわる",
+    "fr": "tourner"
+   },
+   "card": "回る"
   },
   {
    "id": "k4-b07-何番-lecture",
-   "q": "Comment se lit **何番** ?",
+   "q": "**何番**の{読|よ}み{方|かた}は？",
    "explain": "{何番|なんばん} : quel numéro.",
    "type": "choice",
    "choices": [
@@ -1649,11 +2639,17 @@
     "しんせつ",
     "なんばん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{何番|なんばん}",
+    "kana": "なんばん",
+    "fr": "quel numéro"
+   },
+   "card": "何番"
   },
   {
    "id": "k4-b07-電話番号-lecture",
-   "q": "Comment se lit **電話番号** ?",
+   "q": "**電話番号**の{読|よ}み{方|かた}は？",
    "explain": "{電話番号|でんわばんごう} : numéro de téléphone.",
    "type": "choice",
    "choices": [
@@ -1662,11 +2658,17 @@
     "こうじょう",
     "うんてんしゅ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{電話番号|でんわばんごう}",
+    "kana": "でんわばんごう",
+    "fr": "numéro de téléphone"
+   },
+   "card": "電話番号"
   },
   {
    "id": "k4-b07-一号車-lecture",
-   "q": "Comment se lit **一号車** ?",
+   "q": "**一号車**の{読|よ}み{方|かた}は？",
    "explain": "{一号車|いちごうしゃ} : voiture n° 1 (train).",
    "type": "choice",
    "choices": [
@@ -1675,11 +2677,17 @@
     "こうぎょう",
     "いちごうしゃ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{一号車|いちごうしゃ}",
+    "kana": "いちごうしゃ",
+    "fr": "voiture n° 1 (train)"
+   },
+   "card": "一号車"
   },
   {
    "id": "k4-b07-何階-lecture",
-   "q": "Comment se lit **何階** ?",
+   "q": "**何階**の{読|よ}み{方|かた}は？",
    "explain": "{何階|なんがい} : quel étage.",
    "type": "choice",
    "choices": [
@@ -1688,11 +2696,17 @@
     "しょくどう",
     "なんがい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{何階|なんがい}",
+    "kana": "なんがい",
+    "fr": "quel étage"
+   },
+   "card": "何階"
   },
   {
    "id": "k4-b07-一階-lecture",
-   "q": "Comment se lit **一階** ?",
+   "q": "**一階**の{読|よ}み{方|かた}は？",
    "explain": "{一階|いっかい} : rez-de-chaussée.",
    "type": "choice",
    "choices": [
@@ -1701,11 +2715,17 @@
     "じゅうしょ",
     "かいじょう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{一階|いっかい}",
+    "kana": "いっかい",
+    "fr": "rez-de-chaussée"
+   },
+   "card": "一階"
   },
   {
    "id": "k4-b07-二十歳-lecture",
-   "q": "Comment se lit **二十歳** ?",
+   "q": "**二十歳**の{読|よ}み{方|かた}は？",
    "explain": "{二十歳|はたち} : vingt ans.",
    "type": "choice",
    "choices": [
@@ -1714,11 +2734,17 @@
     "はたち",
     "わかれる"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{二十歳|はたち}",
+    "kana": "はたち",
+    "fr": "vingt ans"
+   },
+   "card": "二十歳"
   },
   {
    "id": "k4-b07-三歳-lecture",
-   "q": "Comment se lit **三歳** ?",
+   "q": "**三歳**の{読|よ}み{方|かた}は？",
    "explain": "{三歳|さんさい} : trois ans.",
    "type": "choice",
    "choices": [
@@ -1727,11 +2753,17 @@
     "さんさい",
     "みず"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{三歳|さんさい}",
+    "kana": "さんさい",
+    "fr": "trois ans"
+   },
+   "card": "三歳"
   },
   {
    "id": "k4-b07-決まる-lecture",
-   "q": "Comment se lit **決まる** ?",
+   "q": "**決まる**の{読|よ}み{方|かた}は？",
    "explain": "{決|き}まる : être décidé.",
    "type": "choice",
    "choices": [
@@ -1740,11 +2772,17 @@
     "きまる",
     "けつまる"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{決|き}まる",
+    "kana": "きまる",
+    "fr": "être décidé"
+   },
+   "card": "決まる"
   },
   {
    "id": "k4-b07-目次-lecture",
-   "q": "Comment se lit **目次** ?",
+   "q": "**目次**の{読|よ}み{方|かた}は？",
    "explain": "{目次|もくじ} : table des matières.",
    "type": "choice",
    "choices": [
@@ -1753,24 +2791,17 @@
     "なつ",
     "あと"
    ],
-   "a": 1
-  },
-  {
-   "id": "k4-b07-調べる-ecrit",
-   "q": "Quel mot s'écrit **しらべる** (chercher, vérifier) ?",
-   "explain": "{調|しら}べる : chercher, vérifier.",
-   "type": "choice",
-   "choices": [
-    "家べる",
-    "語べる",
-    "調べる",
-    "週べる"
-   ],
-   "a": 2
+   "a": 1,
+   "star": {
+    "jp": "{目次|もくじ}",
+    "kana": "もくじ",
+    "fr": "table des matières"
+   },
+   "card": "目次"
   },
   {
    "id": "k4-b07-調子-lecture",
-   "q": "Comment se lit **調子** ?",
+   "q": "**調子**の{読|よ}み{方|かた}は？",
    "explain": "{調子|ちょうし} : forme, état.",
    "type": "choice",
    "choices": [
@@ -1779,11 +2810,17 @@
     "きょうりょく",
     "しつない"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{調子|ちょうし}",
+    "kana": "ちょうし",
+    "fr": "forme, état"
+   },
+   "card": "調子"
   },
   {
    "id": "k4-b07-返す-ecrit",
-   "q": "Quel mot s'écrit **かえす** (rendre) ?",
+   "q": "**かえす**（rendre）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{返|かえ}す : rendre.",
    "type": "choice",
    "choices": [
@@ -1792,11 +2829,17 @@
     "返す",
     "近す"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{返|かえ}す",
+    "kana": "かえす",
+    "fr": "rendre"
+   },
+   "card": "返す"
   },
   {
    "id": "k4-b07-返事-lecture",
-   "q": "Comment se lit **返事** ?",
+   "q": "**返事**の{読|よ}み{方|かた}は？",
    "explain": "{返事|へんじ} : réponse.",
    "type": "choice",
    "choices": [
@@ -1805,11 +2848,17 @@
     "はっぴゃく",
     "こばやし"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{返事|へんじ}",
+    "kana": "へんじ",
+    "fr": "réponse"
+   },
+   "card": "返事"
   },
   {
    "id": "k4-b07-払う-ecrit",
-   "q": "Quel mot s'écrit **はらう** (payer) ?",
+   "q": "**はらう**（payer）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{払|はら}う : payer.",
    "type": "choice",
    "choices": [
@@ -1818,11 +2867,17 @@
     "仏う",
     "女う"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{払|はら}う",
+    "kana": "はらう",
+    "fr": "payer"
+   },
+   "card": "払う"
   },
   {
    "id": "k4-b07-支払い-lecture",
-   "q": "Comment se lit **支払い** ?",
+   "q": "**支払い**の{読|よ}み{方|かた}は？",
    "explain": "{支払|しはら}い : paiement.",
    "type": "choice",
    "choices": [
@@ -1831,11 +2886,17 @@
     "しはらい",
     "でる"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{支払|しはら}い",
+    "kana": "しはらい",
+    "fr": "paiement"
+   },
+   "card": "支払い"
   },
   {
    "id": "k4-b07-遊園地-lecture",
-   "q": "Comment se lit **遊園地** ?",
+   "q": "**遊園地**の{読|よ}み{方|かた}は？",
    "explain": "{遊園地|ゆうえんち} : parc d'attractions.",
    "type": "choice",
    "choices": [
@@ -1844,11 +2905,17 @@
     "ことば",
     "いぜん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{遊園地|ゆうえんち}",
+    "kana": "ゆうえんち",
+    "fr": "parc d'attractions"
+   },
+   "card": "遊園地"
   },
   {
    "id": "k4-b07-水泳-lecture",
-   "q": "Comment se lit **水泳** ?",
+   "q": "**水泳**の{読|よ}み{方|かた}は？",
    "explain": "{水泳|すいえい} : natation.",
    "type": "choice",
    "choices": [
@@ -1857,24 +2924,17 @@
     "きんようび",
     "すいえい"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b07-お酒-ecrit",
-   "q": "Quel mot s'écrit **おさけ** (alcool, saké) ?",
-   "explain": "お{酒|さけ} : alcool, saké.",
-   "type": "choice",
-   "choices": [
-    "お西",
-    "お区",
-    "お酒",
-    "お配"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{水泳|すいえい}",
+    "kana": "すいえい",
+    "fr": "natation"
+   },
+   "card": "水泳"
   },
   {
    "id": "k4-b07-日本酒-lecture",
-   "q": "Comment se lit **日本酒** ?",
+   "q": "**日本酒**の{読|よ}み{方|かた}は？",
    "explain": "{日本酒|にほんしゅ} : saké japonais.",
    "type": "choice",
    "choices": [
@@ -1883,11 +2943,17 @@
     "やすい",
     "へんじ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{日本酒|にほんしゅ}",
+    "kana": "にほんしゅ",
+    "fr": "saké japonais"
+   },
+   "card": "日本酒"
   },
   {
    "id": "k4-b07-酒屋-lecture",
-   "q": "Comment se lit **酒屋** ?",
+   "q": "**酒屋**の{読|よ}み{方|かた}は？",
    "explain": "{酒屋|さかや} : marchand d'alcool.",
    "type": "choice",
    "choices": [
@@ -1896,11 +2962,17 @@
     "せんげつ",
     "かじ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{酒屋|さかや}",
+    "kana": "さかや",
+    "fr": "marchand d'alcool"
+   },
+   "card": "酒屋"
   },
   {
    "id": "k4-b07-今晩-ecrit",
-   "q": "Quel mot s'écrit **こんばん** (ce soir) ?",
+   "q": "**こんばん**（ce soir）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{今晩|こんばん} : ce soir.",
    "type": "choice",
    "choices": [
@@ -1909,11 +2981,17 @@
     "明晩",
     "今晩"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{今晩|こんばん}",
+    "kana": "こんばん",
+    "fr": "ce soir"
+   },
+   "card": "今晩"
   },
   {
    "id": "k4-b07-毎晩-lecture",
-   "q": "Comment se lit **毎晩** ?",
+   "q": "**毎晩**の{読|よ}み{方|かた}は？",
    "explain": "{毎晩|まいばん} : tous les soirs.",
    "type": "choice",
    "choices": [
@@ -1922,25 +3000,75 @@
     "まいばん",
     "たいいく"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{毎晩|まいばん}",
+    "kana": "まいばん",
+    "fr": "tous les soirs"
+   },
+   "card": "毎晩"
   },
   {
-   "id": "k4-b07-回る-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "{地球|ちきゅう}は{太陽|たいよう}のまわりを**回**ります。",
-   "explain": "**回** se lit まわ ici ({回|まわ}る : tourner). « La Terre tourne autour du Soleil. »",
+   "id": "k4-b07-晩ご飯-lecture",
+   "q": "**晩ご飯**の{読|よ}み{方|かた}は？",
+   "explain": "{晩|ばん}ご{飯|はん} : dîner.",
    "type": "choice",
    "choices": [
-    "いろ",
-    "はな",
-    "まわ",
-    "うご"
+    "じだい",
+    "ばんごはん",
+    "かようび",
+    "ばんごめし"
    ],
-   "a": 2
+   "a": 1,
+   "star": {
+    "jp": "{晩|ばん}ご{飯|はん}",
+    "kana": "ばんごはん",
+    "fr": "dîner"
+   },
+   "card": "晩ご飯"
+  },
+  {
+   "id": "k4-b07-降りる-ecrit",
+   "q": "**おりる**（descendre (d'un véhicule)）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{降|お}りる : descendre (d'un véhicule).",
+   "type": "choice",
+   "choices": [
+    "陸りる",
+    "隆りる",
+    "業りる",
+    "降りる"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{降|お}りる",
+    "kana": "おりる",
+    "fr": "descendre (d'un véhicule)"
+   },
+   "card": "降りる"
+  },
+  {
+   "id": "k4-b07-番号-phrase",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "{部屋|へや}の**番号**は{三百五号|さんびゃくごごう}です。",
+   "explain": "**番号** se lit ばんごう ici ({番号|ばんごう} : numéro). « Le numéro de la chambre est le 305. »",
+   "type": "choice",
+   "choices": [
+    "きっさてん",
+    "ばんごう",
+    "ひくい",
+    "しょくりょうひん"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{番号|ばんごう}",
+    "kana": "ばんごう",
+    "fr": "numéro"
+   },
+   "card": "番号"
   },
   {
    "id": "k4-b07-何番-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "東京行きは**何番**のホームですか。",
    "explain": "**何番** se lit なんばん ici ({何番|なんばん} : quel numéro). « Le train pour Tokyo part de quel quai ? »",
    "type": "choice",
@@ -1950,11 +3078,17 @@
     "なんばん",
     "うし"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{何番|なんばん}",
+    "kana": "なんばん",
+    "fr": "quel numéro"
+   },
+   "card": "何番"
   },
   {
    "id": "k4-b07-電話番号-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**電話番号**を教えてください。",
    "explain": "**電話番号** se lit でんわばんごう ici ({電話番号|でんわばんごう} : numéro de téléphone). « Donne-moi ton numéro de téléphone, s'il te plaît. »",
    "type": "choice",
@@ -1964,11 +3098,17 @@
     "わるい",
     "だいがくいん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{電話番号|でんわばんごう}",
+    "kana": "でんわばんごう",
+    "fr": "numéro de téléphone"
+   },
+   "card": "電話番号"
   },
   {
    "id": "k4-b07-一号車-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "私の{席|せき}は**一号車**です。",
    "explain": "**一号車** se lit いちごうしゃ ici ({一号車|いちごうしゃ} : voiture n° 1 (train)). « Ma place est dans la voiture n° 1. »",
    "type": "choice",
@@ -1978,11 +3118,17 @@
     "よしゅう",
     "いちごうしゃ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{一号車|いちごうしゃ}",
+    "kana": "いちごうしゃ",
+    "fr": "voiture n° 1 (train)"
+   },
+   "card": "一号車"
   },
   {
    "id": "k4-b07-二階-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "この{荷物|にもつ}を**二階**に運んでください。",
    "explain": "**二階** se lit にかい ici ({二階|にかい} : 1er étage (au-dessus du rez-de-chaussée)). « Montez ce bagage au premier étage, s'il vous plaît. »",
    "type": "choice",
@@ -1992,11 +3138,17 @@
     "つごう",
     "にかい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{二階|にかい}",
+    "kana": "にかい",
+    "fr": "1er étage (au-dessus du rez-de-chaussée)"
+   },
+   "card": "二階"
   },
   {
    "id": "k4-b07-何階-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "すみません、トイレは**何階**ですか。",
    "explain": "**何階** se lit なんがい ici ({何階|なんがい} : quel étage). « Excusez-moi, les toilettes sont à quel étage ? »",
    "type": "choice",
@@ -2006,7 +3158,13 @@
     "がっこう",
     "いちだい"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{何階|なんがい}",
+    "kana": "なんがい",
+    "fr": "quel étage"
+   },
+   "card": "何階"
   }
  ],
  "examTest": []

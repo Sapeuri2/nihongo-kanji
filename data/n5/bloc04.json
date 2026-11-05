@@ -13,6 +13,20 @@
       "**On** : フ　**Kun** : ちち",
       "Une main qui tient une hache : le père au travail."
      ],
+     "ex": [
+      {
+       "jp": "{父|ちち}の{車|くるま}は{古|ふる}いです。",
+       "fr": "La voiture de mon père est vieille."
+      },
+      {
+       "jp": "{田中|たなか}さんのお{父|とう}さんは{先生|せんせい}です。",
+       "fr": "Le père de M. Tanaka est professeur."
+      },
+      {
+       "jp": "{父|ちち}は{魚|さかな}が{好|す}きです。",
+       "fr": "Mon père aime le poisson."
+      }
+     ],
      "vocab": [
       {
        "jp": "{父|ちち}",
@@ -30,6 +44,20 @@
       "**On** : ボ　**Kun** : はは",
       "Une femme vue de face, deux points pour la poitrine."
      ],
+     "ex": [
+      {
+       "jp": "{母|はは}と{電話|でんわ}で{話|はな}します。",
+       "fr": "Je parle avec ma mère au téléphone."
+      },
+      {
+       "jp": "お{母|かあ}さん、ただいま。",
+       "fr": "Maman, je suis rentré !"
+      },
+      {
+       "jp": "{母|はは}は{料理|りょうり}が{上手|じょうず}です。",
+       "fr": "Ma mère cuisine très bien."
+      }
+     ],
      "vocab": [
       {
        "jp": "{母|はは}",
@@ -46,6 +74,20 @@
      "p": [
       "**On** : シ、ス　**Kun** : こ",
       "Un bébé emmailloté, les bras ouverts."
+     ],
+     "ex": [
+      {
+       "jp": "{公園|こうえん}に{子|こ}どもがいます。",
+       "fr": "Il y a des enfants dans le parc."
+      },
+      {
+       "jp": "{子|こ}どもは{野菜|やさい}がきらいです。",
+       "fr": "Les enfants n'aiment pas les légumes."
+      },
+      {
+       "jp": "{公園|こうえん}で{子|こ}どもが{遊|あそ}んでいます。",
+       "fr": "Des enfants jouent au parc."
+      }
      ],
      "vocab": [
       {
@@ -68,6 +110,12 @@
       "**On** : ダン、ナン　**Kun** : おとこ",
       "Un champ 田 et la force 力 : celui qui laboure."
      ],
+     "ex": [
+      {
+       "jp": "{男|おとこ}の{人|ひと}が{三人|さんにん}います。",
+       "fr": "Il y a trois hommes."
+      }
+     ],
      "vocab": [
       {
        "jp": "{男|おとこ}の{人|ひと}",
@@ -84,6 +132,12 @@
      "p": [
       "**On** : ジョ、ニョ　**Kun** : おんな",
       "Une femme agenouillée, les bras croisés."
+     ],
+     "ex": [
+      {
+       "jp": "あの{女|おんな}の{人|ひと}は{山田|やまだ}さんです。",
+       "fr": "Cette femme, c'est Mme Yamada."
+      }
      ],
      "vocab": [
       {
@@ -114,7 +168,13 @@
       "père",
       "chaque"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "父",
+      "kana": "フ、ちち",
+      "fr": "père"
+     },
+     "card": "父"
     },
     {
      "id": "k5-16-母-sens",
@@ -128,7 +188,13 @@
       "père",
       "petit"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "母",
+      "kana": "ボ、はは",
+      "fr": "mère"
+     },
+     "card": "母"
     },
     {
      "id": "k5-16-子-sens",
@@ -142,7 +208,13 @@
       "enfant",
       "huit"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "子",
+      "kana": "シ、ス、こ",
+      "fr": "enfant"
+     },
+     "card": "子"
     },
     {
      "id": "k5-16-男-sens",
@@ -156,7 +228,13 @@
       "sud",
       "étudier"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "男",
+      "kana": "ダン、ナン、おとこ",
+      "fr": "homme"
+     },
+     "card": "男"
     },
     {
      "id": "k5-16-女-sens",
@@ -170,7 +248,13 @@
       "riz cuit, repas",
       "eau"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "女",
+      "kana": "ジョ、ニョ、おんな",
+      "fr": "femme"
+     },
+     "card": "女"
     },
     {
      "id": "k5-16-父-lecture",
@@ -183,7 +267,13 @@
       "ろくがつ",
       "あいだ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{父|ちち}",
+      "kana": "ちち",
+      "fr": "mon père"
+     },
+     "card": "父"
     },
     {
      "id": "k5-16-母-lecture",
@@ -196,7 +286,13 @@
       "さんぷん",
       "きょう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{母|はは}",
+      "kana": "はは",
+      "fr": "ma mère"
+     },
+     "card": "母"
     },
     {
      "id": "k5-16-子ども-lecture",
@@ -209,7 +305,13 @@
       "こども",
       "すども"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{子|こ}ども",
+      "kana": "こども",
+      "fr": "enfant"
+     },
+     "card": "子ども"
     },
     {
      "id": "k5-16-男の人-lecture",
@@ -222,7 +324,13 @@
       "おとこのじん",
       "なんのひと"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{男|おとこ}の{人|ひと}",
+      "kana": "おとこのひと",
+      "fr": "homme"
+     },
+     "card": "男の人"
     },
     {
      "id": "k5-16-女の人-lecture",
@@ -235,7 +343,13 @@
       "せんせい",
       "じょのひと"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{女|おんな}の{人|ひと}",
+      "kana": "おんなのひと",
+      "fr": "femme"
+     },
+     "card": "女の人"
     },
     {
      "id": "k5-16-お父さん-ecrit",
@@ -248,7 +362,13 @@
       "お交さん",
       "お昨さん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "お{父|とう}さん",
+      "kana": "おとうさん",
+      "fr": "père (de quelqu'un)"
+     },
+     "card": "お父さん"
     },
     {
      "id": "k5-16-父-phrase",
@@ -262,7 +382,13 @@
       "こども",
       "とけい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{父|ちち}",
+      "kana": "ちち",
+      "fr": "mon père"
+     },
+     "card": "父"
     },
     {
      "id": "k5-16-父-kanji",
@@ -275,7 +401,13 @@
       "交",
       "後"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "父",
+      "kana": "フ、ちち",
+      "fr": "père"
+     },
+     "card": "父"
     },
     {
      "id": "k5-16-お父さん-intrus",
@@ -288,7 +420,13 @@
       "女の人 → おんなのひと",
       "父 → ちち"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "お{父|とう}さん",
+      "kana": "おとうさん",
+      "fr": "père (de quelqu'un)"
+     },
+     "card": "お父さん"
     },
     {
      "id": "k5-16-お母さん-ecrit",
@@ -301,7 +439,13 @@
       "お左さん",
       "お母さん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "お{母|かあ}さん",
+      "kana": "おかあさん",
+      "fr": "mère (de quelqu'un)"
+     },
+     "card": "お母さん"
     },
     {
      "id": "k5-16-お父さん-phrase",
@@ -315,7 +459,51 @@
       "にちようび",
       "なんようび"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "お{父|とう}さん",
+      "kana": "おとうさん",
+      "fr": "père (de quelqu'un)"
+     },
+     "card": "お父さん"
+    },
+    {
+     "id": "k5-16-母-kanji",
+     "q": "Quel kanji veut dire « mère » ?",
+     "explain": "**母** : mère. Une femme vue de face, deux points pour la poitrine.",
+     "type": "choice",
+     "choices": [
+      "母",
+      "西",
+      "川",
+      "毎"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "母",
+      "kana": "ボ、はは",
+      "fr": "mère"
+     },
+     "card": "母"
+    },
+    {
+     "id": "k5-16-子ども-ecrit",
+     "q": "Quel mot s'écrit **こども** (enfant) ?",
+     "explain": "{子|こ}ども : enfant.",
+     "type": "choice",
+     "choices": [
+      "子ども",
+      "字ども",
+      "道ども",
+      "学ども"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{子|こ}ども",
+      "kana": "こども",
+      "fr": "enfant"
+     },
+     "card": "子ども"
     }
    ]
   },
@@ -328,6 +516,20 @@
      "p": [
       "**On** : カ、ケ　**Kun** : いえ、うち",
       "Un cochon 豕 sous un toit : le foyer d'autrefois."
+     ],
+     "ex": [
+      {
+       "jp": "{家族|かぞく}は{四人|よにん}です。",
+       "fr": "Nous sommes quatre dans ma famille."
+      },
+      {
+       "jp": "{家族|かぞく}は{何人|なんにん}ですか。",
+       "fr": "Combien êtes-vous dans votre famille ?"
+      },
+      {
+       "jp": "この{本|ほん}の{作家|さっか}はとても{有名|ゆうめい}です。",
+       "fr": "L'auteur de ce livre est très célèbre."
+      }
      ],
      "vocab": [
       {
@@ -350,6 +552,20 @@
       "**On** : カイ、エ　**Kun** : あ(う)",
       "Un toit au-dessus d'une table : on s'y réunit."
      ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{会社員|かいしゃいん}です。",
+       "fr": "Mon grand frère est employé de bureau."
+      },
+      {
+       "jp": "{昼|ひる}は{会社|かいしゃ}の{近|ちか}くで{食|た}べます。",
+       "fr": "À midi, je mange près du bureau."
+      },
+      {
+       "jp": "{兄|あに}の{会社|かいしゃ}は{東京|とうきょう}にあります。",
+       "fr": "L'entreprise de mon grand frère est à Tokyo."
+      }
+     ],
      "vocab": [
       {
        "jp": "{会|あ}う",
@@ -371,6 +587,20 @@
       "**On** : シャ　**Kun** : やしろ",
       "L'autel 礻 sur la terre 土 : là où un groupe se réunit."
      ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{会社員|かいしゃいん}です。",
+       "fr": "Mon grand frère est employé de bureau."
+      },
+      {
+       "jp": "{昼|ひる}は{会社|かいしゃ}の{近|ちか}くで{食|た}べます。",
+       "fr": "À midi, je mange près du bureau."
+      },
+      {
+       "jp": "{兄|あに}の{会社|かいしゃ}は{東京|とうきょう}にあります。",
+       "fr": "L'entreprise de mon grand frère est à Tokyo."
+      }
+     ],
      "vocab": [
       {
        "jp": "{会社|かいしゃ}",
@@ -387,6 +617,20 @@
      "p": [
       "**On** : デン　**Kun** : —",
       "La pluie 雨 au-dessus d'un éclair."
+     ],
+     "ex": [
+      {
+       "jp": "{電車|でんしゃ}で{行|い}きます。",
+       "fr": "J'y vais en train."
+      },
+      {
+       "jp": "{母|はは}と{電話|でんわ}で{話|はな}します。",
+       "fr": "Je parle avec ma mère au téléphone."
+      },
+      {
+       "jp": "ねるまえに{電気|でんき}を{消|け}します。",
+       "fr": "J'éteins la lumière avant de dormir."
+      }
      ],
      "vocab": [
       {
@@ -409,6 +653,20 @@
       "**On** : コク　**Kun** : くに",
       "Un trésor 玉 protégé par une frontière 囗."
      ],
+     "ex": [
+      {
+       "jp": "お{国|くに}はどちらですか。",
+       "fr": "De quel pays venez-vous ?"
+      },
+      {
+       "jp": "この{町|まち}は{外国人|がいこくじん}が{多|おお}いです。",
+       "fr": "Il y a beaucoup d'étrangers dans cette ville."
+      },
+      {
+       "jp": "{先週|せんしゅう}、{国|くに}へ{帰|かえ}りました。",
+       "fr": "La semaine dernière, je suis rentré dans mon pays."
+      }
+     ],
      "vocab": [
       {
        "jp": "{国|くに}",
@@ -429,6 +687,16 @@
      "p": [
       "**On** : ガイ、ゲ　**Kun** : そと、はず(す)",
       "Le soir 夕 et la divination 卜 : on la faisait dehors, à la nuit."
+     ],
+     "ex": [
+      {
+       "jp": "{外|そと}は{寒|さむ}いです。",
+       "fr": "Dehors, il fait froid."
+      },
+      {
+       "jp": "この{町|まち}は{外国人|がいこくじん}が{多|おお}いです。",
+       "fr": "Il y a beaucoup d'étrangers dans cette ville."
+      }
      ],
      "vocab": [
       {
@@ -463,7 +731,13 @@
       "maison, famille",
       "passé, dernier"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "家",
+      "kana": "カ、ケ、いえ、うち",
+      "fr": "maison, famille"
+     },
+     "card": "家"
     },
     {
      "id": "k5-17-会-sens",
@@ -477,7 +751,13 @@
       "dehors",
       "rencontrer, réunion"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "会",
+      "kana": "カイ、エ、あ(う)",
+      "fr": "rencontrer, réunion"
+     },
+     "card": "会"
     },
     {
      "id": "k5-17-社-sens",
@@ -491,7 +771,13 @@
       "société, sanctuaire",
       "milieu, dans"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "社",
+      "kana": "シャ、やしろ",
+      "fr": "société, sanctuaire"
+     },
+     "card": "社"
     },
     {
      "id": "k5-17-電-sens",
@@ -505,7 +791,13 @@
       "feu",
       "jour de la semaine"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "電",
+      "kana": "デン",
+      "fr": "électricité"
+     },
+     "card": "電"
     },
     {
      "id": "k5-17-国-sens",
@@ -519,7 +811,13 @@
       "pays",
       "manger"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "国",
+      "kana": "コク、くに",
+      "fr": "pays"
+     },
+     "card": "国"
     },
     {
      "id": "k5-17-外-sens",
@@ -533,7 +831,13 @@
       "passé, dernier",
       "après, derrière"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "外",
+      "kana": "ガイ、ゲ、そと、はず(す)",
+      "fr": "dehors"
+     },
+     "card": "外"
     },
     {
      "id": "k5-17-家-lecture",
@@ -546,7 +850,13 @@
       "じょうず",
       "いえ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{家|いえ}",
+      "kana": "いえ",
+      "fr": "maison"
+     },
+     "card": "家"
     },
     {
      "id": "k5-17-会う-lecture",
@@ -559,7 +869,13 @@
       "かいう",
       "ひとつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{会|あ}う",
+      "kana": "あう",
+      "fr": "rencontrer"
+     },
+     "card": "会う"
     },
     {
      "id": "k5-17-会社-lecture",
@@ -572,7 +888,13 @@
       "じゅうまん",
       "かいしゃ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{会社|かいしゃ}",
+      "kana": "かいしゃ",
+      "fr": "entreprise"
+     },
+     "card": "会社"
     },
     {
      "id": "k5-17-電車-lecture",
@@ -585,7 +907,13 @@
       "さんぷん",
       "でんくるま"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{電車|でんしゃ}",
+      "kana": "でんしゃ",
+      "fr": "train"
+     },
+     "card": "電車"
     },
     {
      "id": "k5-17-国-lecture",
@@ -598,7 +926,13 @@
       "あいだ",
       "うしろ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{国|くに}",
+      "kana": "くに",
+      "fr": "pays"
+     },
+     "card": "国"
     },
     {
      "id": "k5-17-外-lecture",
@@ -611,7 +945,13 @@
       "はなす",
       "そと"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{外|そと}",
+      "kana": "そと",
+      "fr": "dehors"
+     },
+     "card": "外"
     },
     {
      "id": "k5-17-家族-trou",
@@ -625,7 +965,13 @@
       "人",
       "族"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{家族|かぞく}",
+      "kana": "かぞく",
+      "fr": "famille"
+     },
+     "card": "家族"
     },
     {
      "id": "k5-17-家-phrase",
@@ -639,7 +985,13 @@
       "ほん",
       "いえ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{家|いえ}",
+      "kana": "いえ",
+      "fr": "maison"
+     },
+     "card": "家"
     },
     {
      "id": "k5-17-家-kanji",
@@ -652,7 +1004,13 @@
       "飲",
       "空"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "家",
+      "kana": "カ、ケ、いえ、うち",
+      "fr": "maison, famille"
+     },
+     "card": "家"
     },
     {
      "id": "k5-17-家族-intrus",
@@ -665,7 +1023,52 @@
       "電気 → でんき",
       "作家 → さっか"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{家族|かぞく}",
+      "kana": "かぞく",
+      "fr": "famille"
+     },
+     "card": "家族"
+    },
+    {
+     "id": "k5-17-会う-ecrit",
+     "q": "Quel mot s'écrit **あう** (rencontrer) ?",
+     "explain": "{会|あ}う : rencontrer.",
+     "type": "choice",
+     "choices": [
+      "会う",
+      "川う",
+      "今う",
+      "下う"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{会|あ}う",
+      "kana": "あう",
+      "fr": "rencontrer"
+     },
+     "card": "会う"
+    },
+    {
+     "id": "k5-17-家族-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**家族**と{晩|ばん}ご飯を食べます。",
+     "explain": "**家族** se lit かぞく ici ({家族|かぞく} : famille). « Je dîne avec ma famille. »",
+     "type": "choice",
+     "choices": [
+      "けぞく",
+      "かぞく",
+      "いえぞく",
+      "うちぞく"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{家族|かぞく}",
+      "kana": "かぞく",
+      "fr": "famille"
+     },
+     "card": "家族"
     }
    ]
   },
@@ -678,6 +1081,20 @@
      "p": [
       "**On** : シュ　**Kun** : て",
       "Une main ouverte, les doigts sur une paume."
+     ],
+     "ex": [
+      {
+       "jp": "まだ{運転|うんてん}が{下手|へた}です。",
+       "fr": "Je conduis encore mal."
+      },
+      {
+       "jp": "{友|とも}だちに{手紙|てがみ}を{書|か}きます。",
+       "fr": "J'écris une lettre à un ami."
+      },
+      {
+       "jp": "{有名|ゆうめい}な{歌手|かしゅ}のコンサートに{行|い}きました。",
+       "fr": "Je suis allé au concert d'un chanteur célèbre."
+      }
      ],
      "vocab": [
       {
@@ -704,6 +1121,12 @@
       "**On** : ソク　**Kun** : あし、た(りる)",
       "Un genou 口 posé sur un pied."
      ],
+     "ex": [
+      {
+       "jp": "たくさん{歩|ある}きましたから、{足|あし}がいたいです。",
+       "fr": "J'ai beaucoup marché, alors j'ai mal aux pieds."
+      }
+     ],
      "vocab": [
       {
        "jp": "{足|あし}",
@@ -720,6 +1143,12 @@
      "p": [
       "**On** : モク　**Kun** : め",
       "Un œil dressé à la verticale, avec ses paupières."
+     ],
+     "ex": [
+      {
+       "jp": "{田中|たなか}さんは{目|め}が{大|おお}きいです。",
+       "fr": "M. Tanaka a de grands yeux."
+      }
      ],
      "vocab": [
       {
@@ -738,6 +1167,12 @@
       "**On** : ジ　**Kun** : みみ",
       "Le pavillon d'une oreille et ses replis."
      ],
+     "ex": [
+      {
+       "jp": "おじいさんは{耳|みみ}が{悪|わる}いです。",
+       "fr": "Grand-père entend mal."
+      }
+     ],
      "vocab": [
       {
        "jp": "{耳|みみ}",
@@ -750,6 +1185,16 @@
      "p": [
       "**On** : コウ　**Kun** : くち",
       "Une bouche grande ouverte."
+     ],
+     "ex": [
+      {
+       "jp": "{駅|えき}の{南口|みなみぐち}で{待|ま}っています。",
+       "fr": "Je t'attends à la sortie sud de la gare."
+      },
+      {
+       "jp": "{口|くち}を{大|おお}きく{開|あ}けてください。",
+       "fr": "Ouvrez grand la bouche, s'il vous plaît."
+      }
      ],
      "vocab": [
       {
@@ -785,7 +1230,13 @@
       "ami",
       "aller"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "手",
+      "kana": "シュ、て",
+      "fr": "main"
+     },
+     "card": "手"
     },
     {
      "id": "k5-18-足-sens",
@@ -799,7 +1250,13 @@
       "sud",
       "dix mille"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "足",
+      "kana": "ソク、あし、た(りる)",
+      "fr": "pied, jambe"
+     },
+     "card": "足"
     },
     {
      "id": "k5-18-目-sens",
@@ -813,7 +1270,13 @@
       "pied, jambe",
       "œil"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "目",
+      "kana": "モク、め",
+      "fr": "œil"
+     },
+     "card": "目"
     },
     {
      "id": "k5-18-耳-sens",
@@ -827,7 +1290,13 @@
       "avant, précédent",
       "dix mille"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "耳",
+      "kana": "ジ、みみ",
+      "fr": "oreille"
+     },
+     "card": "耳"
     },
     {
      "id": "k5-18-口-sens",
@@ -841,7 +1310,13 @@
       "ouest",
       "chemin, route"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "口",
+      "kana": "コウ、くち",
+      "fr": "bouche"
+     },
+     "card": "口"
     },
     {
      "id": "k5-18-手-lecture",
@@ -854,7 +1329,13 @@
       "かえる",
       "て"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{手|て}",
+      "kana": "て",
+      "fr": "main"
+     },
+     "card": "手"
     },
     {
      "id": "k5-18-足-lecture",
@@ -867,7 +1348,13 @@
       "えき",
       "きょう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{足|あし}",
+      "kana": "あし",
+      "fr": "pied, jambe"
+     },
+     "card": "足"
     },
     {
      "id": "k5-18-目-lecture",
@@ -880,7 +1367,13 @@
       "め",
       "やま"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{目|め}",
+      "kana": "め",
+      "fr": "œil"
+     },
+     "card": "目"
     },
     {
      "id": "k5-18-耳-lecture",
@@ -893,7 +1386,13 @@
       "かいもの",
       "みみ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{耳|みみ}",
+      "kana": "みみ",
+      "fr": "oreille"
+     },
+     "card": "耳"
     },
     {
      "id": "k5-18-口-lecture",
@@ -906,7 +1405,13 @@
       "みっつ",
       "まえ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{口|くち}",
+      "kana": "くち",
+      "fr": "bouche"
+     },
+     "card": "口"
     },
     {
      "id": "k5-18-手紙-trou",
@@ -920,7 +1425,13 @@
       "低",
       "級"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{手紙|てがみ}",
+      "kana": "てがみ",
+      "fr": "lettre"
+     },
+     "card": "手紙"
     },
     {
      "id": "k5-18-手紙-phrase",
@@ -934,7 +1445,13 @@
       "てがみ",
       "しゅがみ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{手紙|てがみ}",
+      "kana": "てがみ",
+      "fr": "lettre"
+     },
+     "card": "手紙"
     },
     {
      "id": "k5-18-手-kanji",
@@ -947,7 +1464,13 @@
       "学",
       "手"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "手",
+      "kana": "シュ、て",
+      "fr": "main"
+     },
+     "card": "手"
     },
     {
      "id": "k5-18-手紙-intrus",
@@ -960,7 +1483,13 @@
       "手紙 → てし",
       "口 → くち"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{手紙|てがみ}",
+      "kana": "てがみ",
+      "fr": "lettre"
+     },
+     "card": "手紙"
     },
     {
      "id": "k5-18-足りる-ecrit",
@@ -973,7 +1502,13 @@
       "行りる",
       "女りる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{足|た}りる",
+      "kana": "たりる",
+      "fr": "suffire"
+     },
+     "card": "足りる"
     },
     {
      "id": "k5-18-歌手-phrase",
@@ -987,7 +1522,51 @@
       "ごがつ",
       "つき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{歌手|かしゅ}",
+      "kana": "かしゅ",
+      "fr": "chanteur"
+     },
+     "card": "歌手"
+    },
+    {
+     "id": "k5-18-足-kanji",
+     "q": "Quel kanji veut dire « pied, jambe » ?",
+     "explain": "**足** : pied, jambe. Un genou 口 posé sur un pied.",
+     "type": "choice",
+     "choices": [
+      "十",
+      "一",
+      "足",
+      "気"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "足",
+      "kana": "ソク、あし、た(りる)",
+      "fr": "pied, jambe"
+     },
+     "card": "足"
+    },
+    {
+     "id": "k5-18-目-ecrit",
+     "q": "Quel mot s'écrit **め** (œil) ?",
+     "explain": "{目|め} : œil.",
+     "type": "choice",
+     "choices": [
+      "分",
+      "自",
+      "日",
+      "目"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{目|め}",
+      "kana": "め",
+      "fr": "œil"
+     },
+     "card": "目"
     }
    ]
   },
@@ -1000,6 +1579,12 @@
      "p": [
       "**On** : ニュウ　**Kun** : はい(る)、い(れる)",
       "Une flèche qui plonge dans une ouverture."
+     ],
+     "ex": [
+      {
+       "jp": "{部屋|へや}に{入|はい}るまえに、くつをぬぎます。",
+       "fr": "J'enlève mes chaussures avant d'entrer dans la pièce."
+      }
      ],
      "vocab": [
       {
@@ -1022,6 +1607,7 @@
       "**On** : シュツ　**Kun** : で(る)、だ(す)",
       "Une pousse qui sort d'un pot, étage par étage."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{出|で}る",
@@ -1047,6 +1633,7 @@
       "**On** : リツ　**Kun** : た(つ)",
       "Une personne debout sur le sol."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{立|た}つ",
@@ -1059,6 +1646,20 @@
      "p": [
       "**On** : キュウ　**Kun** : やす(む)",
       "Une personne 亻 appuyée contre un arbre 木."
+     ],
+     "ex": [
+      {
+       "jp": "{夏休|なつやす}みは{短|みじか}いです。",
+       "fr": "Les vacances d'été sont courtes."
+      },
+      {
+       "jp": "{少|すこ}し{休|やす}みましょう。",
+       "fr": "Faisons une petite pause."
+      },
+      {
+       "jp": "{明日|あした}は{仕事|しごと}が{休|やす}みです。",
+       "fr": "Demain, je ne travaille pas."
+      }
      ],
      "vocab": [
       {
@@ -1077,6 +1678,7 @@
       "**On** : ゲン　**Kun** : い(う)、こと",
       "Des paroles qui sortent d'une bouche 口."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{言|い}う",
@@ -1107,7 +1709,13 @@
       "entrer",
       "parler, histoire"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "入",
+      "kana": "ニュウ、はい(る)、い(れる)",
+      "fr": "entrer"
+     },
+     "card": "入"
     },
     {
      "id": "k5-19-出-sens",
@@ -1121,7 +1729,13 @@
       "entendre, écouter",
       "sortir"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "出",
+      "kana": "シュツ、で(る)、だ(す)",
+      "fr": "sortir"
+     },
+     "card": "出"
     },
     {
      "id": "k5-19-立-sens",
@@ -1135,7 +1749,13 @@
       "se lever, debout",
       "bas, sous"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "立",
+      "kana": "リツ、た(つ)",
+      "fr": "se lever, debout"
+     },
+     "card": "立"
     },
     {
      "id": "k5-19-休-sens",
@@ -1149,7 +1769,13 @@
       "avant, devant",
       "cinq"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "休",
+      "kana": "キュウ、やす(む)",
+      "fr": "se reposer"
+     },
+     "card": "休"
     },
     {
      "id": "k5-19-言-sens",
@@ -1163,7 +1789,13 @@
       "grand",
       "montagne"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "言",
+      "kana": "ゲン、い(う)、こと",
+      "fr": "dire"
+     },
+     "card": "言"
     },
     {
      "id": "k5-19-入る-lecture",
@@ -1176,7 +1808,13 @@
       "はいる",
       "もくようび"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{入|はい}る",
+      "kana": "はいる",
+      "fr": "entrer"
+     },
+     "card": "入る"
     },
     {
      "id": "k5-19-出る-lecture",
@@ -1189,7 +1827,13 @@
       "でる",
       "しゅつる"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{出|で}る",
+      "kana": "でる",
+      "fr": "sortir"
+     },
+     "card": "出る"
     },
     {
      "id": "k5-19-立つ-lecture",
@@ -1202,7 +1846,13 @@
       "はな",
       "たつ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{立|た}つ",
+      "kana": "たつ",
+      "fr": "se lever"
+     },
+     "card": "立つ"
     },
     {
      "id": "k5-19-休む-lecture",
@@ -1215,7 +1865,13 @@
       "けさ",
       "きゅうむ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{休|やす}む",
+      "kana": "やすむ",
+      "fr": "se reposer"
+     },
+     "card": "休む"
     },
     {
      "id": "k5-19-言う-lecture",
@@ -1228,7 +1884,13 @@
       "いう",
       "ことう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{言|い}う",
+      "kana": "いう",
+      "fr": "dire"
+     },
+     "card": "言う"
     },
     {
      "id": "k5-19-入る-ecrit",
@@ -1241,7 +1903,13 @@
       "南る",
       "人る"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{入|はい}る",
+      "kana": "はいる",
+      "fr": "entrer"
+     },
+     "card": "入る"
     },
     {
      "id": "k5-19-入る-phrase",
@@ -1255,7 +1923,13 @@
       "はい",
       "あし"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{入|はい}る",
+      "kana": "はいる",
+      "fr": "entrer"
+     },
+     "card": "入る"
     },
     {
      "id": "k5-19-入-kanji",
@@ -1268,7 +1942,13 @@
       "分",
       "入"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "入",
+      "kana": "ニュウ、はい(る)、い(れる)",
+      "fr": "entrer"
+     },
+     "card": "入"
     },
     {
      "id": "k5-19-入る-intrus",
@@ -1281,7 +1961,13 @@
       "休む → やすむ",
       "入れる → いれる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{入|はい}る",
+      "kana": "はいる",
+      "fr": "entrer"
+     },
+     "card": "入る"
     },
     {
      "id": "k5-19-出る-ecrit",
@@ -1294,7 +1980,13 @@
       "出る",
       "山る"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{出|で}る",
+      "kana": "でる",
+      "fr": "sortir"
+     },
+     "card": "出る"
     },
     {
      "id": "k5-19-入れる-phrase",
@@ -1308,7 +2000,51 @@
       "みれ",
       "いれ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{入|い}れる",
+      "kana": "いれる",
+      "fr": "mettre dedans"
+     },
+     "card": "入れる"
+    },
+    {
+     "id": "k5-19-出-kanji",
+     "q": "Quel kanji veut dire « sortir » ?",
+     "explain": "**出** : sortir. Une pousse qui sort d'un pot, étage par étage.",
+     "type": "choice",
+     "choices": [
+      "山",
+      "東",
+      "何",
+      "出"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "出",
+      "kana": "シュツ、で(る)、だ(す)",
+      "fr": "sortir"
+     },
+     "card": "出"
+    },
+    {
+     "id": "k5-19-立つ-ecrit",
+     "q": "Quel mot s'écrit **たつ** (se lever) ?",
+     "explain": "{立|た}つ : se lever.",
+     "type": "choice",
+     "choices": [
+      "立つ",
+      "万つ",
+      "校つ",
+      "出つ"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{立|た}つ",
+      "kana": "たつ",
+      "fr": "se lever"
+     },
+     "card": "立つ"
     }
    ]
   },
@@ -1321,6 +2057,20 @@
      "p": [
       "**On** : コウ　**Kun** : たか(い)",
       "Une haute tour à plusieurs étages."
+     ],
+     "ex": [
+      {
+       "jp": "この{店|みせ}の{果物|くだもの}は{高|たか}いです。",
+       "fr": "Les fruits de ce magasin sont chers."
+      },
+      {
+       "jp": "{弟|おとうと}は{高校生|こうこうせい}です。",
+       "fr": "Mon petit frère est lycéen."
+      },
+      {
+       "jp": "{弟|おとうと}は{高校生|こうこうせい}で、サッカーが{好|す}きです。",
+       "fr": "Mon petit frère est lycéen et il aime le foot."
+      }
      ],
      "vocab": [
       {
@@ -1343,6 +2093,16 @@
       "**On** : アン　**Kun** : やす(い)",
       "Une femme 女 à l'abri sous un toit : la tranquillité."
      ],
+     "ex": [
+      {
+       "jp": "この{店|みせ}は{安|やす}いです。",
+       "fr": "Ce magasin n'est pas cher."
+      },
+      {
+       "jp": "{駅|えき}の{近|ちか}くに{安|やす}いレストランがあります。",
+       "fr": "Il y a un restaurant pas cher près de la gare."
+      }
+     ],
      "vocab": [
       {
        "jp": "{安|やす}い",
@@ -1359,6 +2119,20 @@
      "p": [
       "**On** : シン　**Kun** : あたら(しい)",
       "Une hache 斤 qui coupe du bois neuf."
+     ],
+     "ex": [
+      {
+       "jp": "{新|あたら}しい{車|くるま}を{買|か}いました。",
+       "fr": "J'ai acheté une voiture neuve."
+      },
+      {
+       "jp": "{図書館|としょかん}で{新聞|しんぶん}を{読|よ}みます。",
+       "fr": "Je lis le journal à la bibliothèque."
+      },
+      {
+       "jp": "{新|あたら}しい{服|ふく}を{買|か}いました。",
+       "fr": "J'ai acheté de nouveaux vêtements."
+      }
      ],
      "vocab": [
       {
@@ -1377,6 +2151,20 @@
       "**On** : コ　**Kun** : ふる(い)",
       "Dix 十 bouches 口 : une histoire passée de bouche en bouche."
      ],
+     "ex": [
+      {
+       "jp": "{父|ちち}の{車|くるま}は{古|ふる}いです。",
+       "fr": "La voiture de mon père est vieille."
+      },
+      {
+       "jp": "{古|ふる}い{家|いえ}に{住|す}んでいます。",
+       "fr": "J'habite dans une vieille maison."
+      },
+      {
+       "jp": "このいすはとても{古|ふる}いです。",
+       "fr": "Cette chaise est très vieille."
+      }
+     ],
      "vocab": [
       {
        "jp": "{古|ふる}い",
@@ -1389,6 +2177,12 @@
      "p": [
       "**On** : チョウ　**Kun** : なが(い)",
       "Une personne aux longs cheveux."
+     ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}の{話|はなし}は{長|なが}いです。",
+       "fr": "Les discours du professeur sont longs."
+      }
      ],
      "vocab": [
       {
@@ -1406,6 +2200,20 @@
      "p": [
       "**On** : ハク、ビャク　**Kun** : しろ(い)",
       "Un rayon qui part du soleil 日 : la lumière blanche."
+     ],
+     "ex": [
+      {
+       "jp": "{白|しろ}いシャツを{着|き}ています。",
+       "fr": "Il porte une chemise blanche."
+      },
+      {
+       "jp": "あの{白|しろ}い{建物|たてもの}は{病院|びょういん}です。",
+       "fr": "Ce bâtiment blanc là-bas, c'est l'hôpital."
+      },
+      {
+       "jp": "{白|しろ}いシャツを{着|き}ています。",
+       "fr": "Je porte une chemise blanche."
+      }
      ],
      "vocab": [
       {
@@ -1432,7 +2240,13 @@
       "gare",
       "langue, mot"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "高",
+      "kana": "コウ、たか(い)",
+      "fr": "haut, cher"
+     },
+     "card": "高"
     },
     {
      "id": "k5-20-安-sens",
@@ -1446,7 +2260,13 @@
       "personne",
       "aller"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "安",
+      "kana": "アン、やす(い)",
+      "fr": "bon marché, tranquille"
+     },
+     "card": "安"
     },
     {
      "id": "k5-20-新-sens",
@@ -1460,7 +2280,13 @@
       "nouveau",
       "matin"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "新",
+      "kana": "シン、あたら(しい)",
+      "fr": "nouveau"
+     },
+     "card": "新"
     },
     {
      "id": "k5-20-古-sens",
@@ -1474,7 +2300,13 @@
       "avant, précédent",
       "vieux"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "古",
+      "kana": "コ、ふる(い)",
+      "fr": "vieux"
+     },
+     "card": "古"
     },
     {
      "id": "k5-20-長-sens",
@@ -1488,7 +2320,13 @@
       "écrire",
       "fleur"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "長",
+      "kana": "チョウ、なが(い)",
+      "fr": "long, chef"
+     },
+     "card": "長"
     },
     {
      "id": "k5-20-白-sens",
@@ -1502,7 +2340,13 @@
       "blanc",
       "or, argent"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "白",
+      "kana": "ハク、ビャク、しろ(い)",
+      "fr": "blanc"
+     },
+     "card": "白"
     },
     {
      "id": "k5-20-高い-lecture",
@@ -1515,7 +2359,13 @@
       "たかい",
       "こうい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{高|たか}い",
+      "kana": "たかい",
+      "fr": "haut, cher"
+     },
+     "card": "高い"
     },
     {
      "id": "k5-20-安い-lecture",
@@ -1528,7 +2378,13 @@
       "げんき",
       "あんい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{安|やす}い",
+      "kana": "やすい",
+      "fr": "pas cher"
+     },
+     "card": "安い"
     },
     {
      "id": "k5-20-新しい-lecture",
@@ -1541,7 +2397,13 @@
       "しんしい",
       "だいがく"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{新|あたら}しい",
+      "kana": "あたらしい",
+      "fr": "nouveau"
+     },
+     "card": "新しい"
     },
     {
      "id": "k5-20-古い-lecture",
@@ -1554,7 +2416,13 @@
       "こい",
       "にほんじん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{古|ふる}い",
+      "kana": "ふるい",
+      "fr": "vieux"
+     },
+     "card": "古い"
     },
     {
      "id": "k5-20-長い-lecture",
@@ -1567,7 +2435,13 @@
       "ちょうい",
       "でんき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{長|なが}い",
+      "kana": "ながい",
+      "fr": "long"
+     },
+     "card": "長い"
     },
     {
      "id": "k5-20-白い-lecture",
@@ -1580,7 +2454,13 @@
       "まいばん",
       "びゃくい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{白|しろ}い",
+      "kana": "しろい",
+      "fr": "blanc"
+     },
+     "card": "白い"
     },
     {
      "id": "k5-20-高い-ecrit",
@@ -1593,7 +2473,13 @@
       "高い",
       "買い"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{高|たか}い",
+      "kana": "たかい",
+      "fr": "haut, cher"
+     },
+     "card": "高い"
     },
     {
      "id": "k5-20-高い-phrase",
@@ -1607,7 +2493,13 @@
       "えいご",
       "たかい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{高|たか}い",
+      "kana": "たかい",
+      "fr": "haut, cher"
+     },
+     "card": "高い"
     },
     {
      "id": "k5-20-高-kanji",
@@ -1620,7 +2512,13 @@
       "右",
       "高"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "高",
+      "kana": "コウ、たか(い)",
+      "fr": "haut, cher"
+     },
+     "card": "高"
     },
     {
      "id": "k5-20-高い-intrus",
@@ -1633,7 +2531,52 @@
       "長い → ながい",
       "高い → こうい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{高|たか}い",
+      "kana": "たかい",
+      "fr": "haut, cher"
+     },
+     "card": "高い"
+    },
+    {
+     "id": "k5-20-安い-ecrit",
+     "q": "Quel mot s'écrit **やすい** (pas cher) ?",
+     "explain": "{安|やす}い : pas cher.",
+     "type": "choice",
+     "choices": [
+      "行い",
+      "安い",
+      "先い",
+      "七い"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{安|やす}い",
+      "kana": "やすい",
+      "fr": "pas cher"
+     },
+     "card": "安い"
+    },
+    {
+     "id": "k5-20-高校生-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{弟|おとうと}は**高校生**です。",
+     "explain": "**高校生** se lit こうこうせい ici ({高校生|こうこうせい} : lycéen). « Mon petit frère est lycéen. »",
+     "type": "choice",
+     "choices": [
+      "たかこうせい",
+      "こうこうしょう",
+      "こうこうせい",
+      "こうこうなま"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{高校生|こうこうせい}",
+      "kana": "こうこうせい",
+      "fr": "lycéen"
+     },
+     "card": "高校生"
     }
    ]
   }
@@ -1650,7 +2593,13 @@
     "時",
     "父"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{父|ちち}",
+    "kana": "ちち",
+    "fr": "mon père"
+   },
+   "card": "父"
   },
   {
    "id": "k5-b04-お父さん-lecture",
@@ -1663,7 +2612,13 @@
     "ちゅうごく",
     "おちちさん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "お{父|とう}さん",
+    "kana": "おとうさん",
+    "fr": "père (de quelqu'un)"
+   },
+   "card": "お父さん"
   },
   {
    "id": "k5-b04-お母さん-lecture",
@@ -1676,20 +2631,13 @@
     "でんわ",
     "おかあさん"
    ],
-   "a": 3
-  },
-  {
-   "id": "k5-b04-子ども-ecrit",
-   "q": "Quel mot s'écrit **こども** (enfant) ?",
-   "explain": "{子|こ}ども : enfant.",
-   "type": "choice",
-   "choices": [
-    "国ども",
-    "学ども",
-    "子ども",
-    "字ども"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "お{母|かあ}さん",
+    "kana": "おかあさん",
+    "fr": "mère (de quelqu'un)"
+   },
+   "card": "お母さん"
   },
   {
    "id": "k5-b04-女の子-lecture",
@@ -1702,7 +2650,13 @@
     "かいもの",
     "おんなのこ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{女|おんな}の{子|こ}",
+    "kana": "おんなのこ",
+    "fr": "fille"
+   },
+   "card": "女の子"
   },
   {
    "id": "k5-b04-男の子-lecture",
@@ -1715,7 +2669,13 @@
     "おとこのこ",
     "だんのこ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{男|おとこ}の{子|こ}",
+    "kana": "おとこのこ",
+    "fr": "garçon"
+   },
+   "card": "男の子"
   },
   {
    "id": "k5-b04-男の人-ecrit",
@@ -1728,7 +2688,13 @@
     "男の人",
     "先の人"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{男|おとこ}の{人|ひと}",
+    "kana": "おとこのひと",
+    "fr": "homme"
+   },
+   "card": "男の人"
   },
   {
    "id": "k5-b04-女の人-ecrit",
@@ -1741,7 +2707,13 @@
     "木の人",
     "百の人"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{女|おんな}の{人|ひと}",
+    "kana": "おんなのひと",
+    "fr": "femme"
+   },
+   "card": "女の人"
   },
   {
    "id": "k5-b04-家族-lecture",
@@ -1754,7 +2726,13 @@
     "にほん",
     "けぞく"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{家族|かぞく}",
+    "kana": "かぞく",
+    "fr": "famille"
+   },
+   "card": "家族"
   },
   {
    "id": "k5-b04-作家-lecture",
@@ -1767,20 +2745,13 @@
     "さっいえ",
     "さっうち"
    ],
-   "a": 1
-  },
-  {
-   "id": "k5-b04-会う-ecrit",
-   "q": "Quel mot s'écrit **あう** (rencontrer) ?",
-   "explain": "{会|あ}う : rencontrer.",
-   "type": "choice",
-   "choices": [
-    "女う",
-    "電う",
-    "今う",
-    "会う"
-   ],
-   "a": 3
+   "a": 1,
+   "star": {
+    "jp": "{作家|さっか}",
+    "kana": "さっか",
+    "fr": "écrivain"
+   },
+   "card": "作家"
   },
   {
    "id": "k5-b04-会社-ecrit",
@@ -1793,7 +2764,13 @@
     "今社",
     "午社"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{会社|かいしゃ}",
+    "kana": "かいしゃ",
+    "fr": "entreprise"
+   },
+   "card": "会社"
   },
   {
    "id": "k5-b04-会社員-lecture",
@@ -1806,7 +2783,13 @@
     "かいしゃいん",
     "だいがくせい"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{会社員|かいしゃいん}",
+    "kana": "かいしゃいん",
+    "fr": "employé de bureau"
+   },
+   "card": "会社員"
   },
   {
    "id": "k5-b04-神社-lecture",
@@ -1819,7 +2802,13 @@
     "たりる",
     "じんやしろ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{神社|じんじゃ}",
+    "kana": "じんじゃ",
+    "fr": "sanctuaire shintō"
+   },
+   "card": "神社"
   },
   {
    "id": "k5-b04-電話-lecture",
@@ -1832,20 +2821,32 @@
     "でんはな",
     "こうこう"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{電話|でんわ}",
+    "kana": "でんわ",
+    "fr": "téléphone"
+   },
+   "card": "電話"
   },
   {
-   "id": "k5-b04-電気-lecture",
-   "q": "Comment se lit **電気** ?",
+   "id": "k5-b04-電気-ecrit",
+   "q": "Quel mot s'écrit **でんき** (électricité, lumière) ?",
    "explain": "{電気|でんき} : électricité, lumière.",
    "type": "choice",
    "choices": [
-    "かえる",
-    "ちかてつ",
-    "でんき",
-    "でんけ"
+    "雷気",
+    "友気",
+    "電気",
+    "白気"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{電気|でんき}",
+    "kana": "でんき",
+    "fr": "électricité, lumière"
+   },
+   "card": "電気"
   },
   {
    "id": "k5-b04-外国人-ecrit",
@@ -1858,7 +2859,13 @@
     "外国人",
     "本国人"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{外国人|がいこくじん}",
+    "kana": "がいこくじん",
+    "fr": "étranger"
+   },
+   "card": "外国人"
   },
   {
    "id": "k5-b04-外-ecrit",
@@ -1871,7 +2878,13 @@
     "外",
     "万"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{外|そと}",
+    "kana": "そと",
+    "fr": "dehors"
+   },
+   "card": "外"
   },
   {
    "id": "k5-b04-外国-lecture",
@@ -1884,7 +2897,13 @@
     "がいこく",
     "ください"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{外国|がいこく}",
+    "kana": "がいこく",
+    "fr": "pays étranger"
+   },
+   "card": "外国"
   },
   {
    "id": "k5-b04-手紙-lecture",
@@ -1897,7 +2916,13 @@
     "うまれる",
     "てがみ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{手紙|てがみ}",
+    "kana": "てがみ",
+    "fr": "lettre"
+   },
+   "card": "手紙"
   },
   {
    "id": "k5-b04-歌手-lecture",
@@ -1910,7 +2935,13 @@
     "かしゅ",
     "かて"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{歌手|かしゅ}",
+    "kana": "かしゅ",
+    "fr": "chanteur"
+   },
+   "card": "歌手"
   },
   {
    "id": "k5-b04-運転手-lecture",
@@ -1923,7 +2954,13 @@
     "うんころしゅ",
     "うんてんしゅ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{運転手|うんてんしゅ}",
+    "kana": "うんてんしゅ",
+    "fr": "chauffeur"
+   },
+   "card": "運転手"
   },
   {
    "id": "k5-b04-足りる-lecture",
@@ -1936,7 +2973,13 @@
     "あしりる",
     "たりる"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{足|た}りる",
+    "kana": "たりる",
+    "fr": "suffire"
+   },
+   "card": "足りる"
   },
   {
    "id": "k5-b04-一つ目-lecture",
@@ -1949,7 +2992,51 @@
     "いつつめ",
     "こんしゅう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{一|ひと}つ{目|め}",
+    "kana": "ひとつめ",
+    "fr": "le premier"
+   },
+   "card": "一つ目"
+  },
+  {
+   "id": "k5-b04-口-ecrit",
+   "q": "Quel mot s'écrit **くち** (bouche) ?",
+   "explain": "{口|くち} : bouche.",
+   "type": "choice",
+   "choices": [
+    "天",
+    "日",
+    "言",
+    "口"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{口|くち}",
+    "kana": "くち",
+    "fr": "bouche"
+   },
+   "card": "口"
+  },
+  {
+   "id": "k5-b04-入口-lecture",
+   "q": "Comment se lit **入口** ?",
+   "explain": "{入口|いりぐち} : entrée.",
+   "type": "choice",
+   "choices": [
+    "いりぐち",
+    "かしゅ",
+    "いりこう",
+    "いりくち"
+   ],
+   "a": 0,
+   "star": {
+    "jp": "{入口|いりぐち}",
+    "kana": "いりぐち",
+    "fr": "entrée"
+   },
+   "card": "入口"
   },
   {
    "id": "k5-b04-父-phrase",
@@ -1963,7 +3050,13 @@
     "ちち",
     "がいこくじん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{父|ちち}",
+    "kana": "ちち",
+    "fr": "mon père"
+   },
+   "card": "父"
   },
   {
    "id": "k5-b04-母-phrase",
@@ -1977,7 +3070,13 @@
     "にほんじん",
     "はは"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{母|はは}",
+    "kana": "はは",
+    "fr": "ma mère"
+   },
+   "card": "母"
   },
   {
    "id": "k5-b04-お母さん-phrase",
@@ -1991,7 +3090,13 @@
     "おかあさん",
     "なんにん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "お{母|かあ}さん",
+    "kana": "おかあさん",
+    "fr": "mère (de quelqu'un)"
+   },
+   "card": "お母さん"
   },
   {
    "id": "k5-b04-子ども-phrase",
@@ -2005,7 +3110,13 @@
     "こども",
     "にほん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{子|こ}ども",
+    "kana": "こども",
+    "fr": "enfant"
+   },
+   "card": "子ども"
   },
   {
    "id": "k5-b04-男の人-phrase",
@@ -2019,7 +3130,13 @@
     "おとこのにん",
     "おとこのじん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{男|おとこ}の{人|ひと}",
+    "kana": "おとこのひと",
+    "fr": "homme"
+   },
+   "card": "男の人"
   },
   {
    "id": "k5-b04-女の人-phrase",
@@ -2033,7 +3150,13 @@
     "おんなのにん",
     "にょのひと"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{女|おんな}の{人|ひと}",
+    "kana": "おんなのひと",
+    "fr": "femme"
+   },
+   "card": "女の人"
   }
  ],
  "examTest": [
@@ -2049,7 +3172,13 @@
     "ふたつ",
     "ちち"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{父|ちち}",
+    "kana": "ちち",
+    "fr": "mon père"
+   },
+   "card": "父"
   },
   {
    "id": "k5-b04x-子ども-phrase",
@@ -2063,7 +3192,13 @@
     "ちゅうごく",
     "うしろ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{子|こ}ども",
+    "kana": "こども",
+    "fr": "enfant"
+   },
+   "card": "子ども"
   },
   {
    "id": "k5-b04x-家-phrase",
@@ -2077,7 +3212,13 @@
     "じてんしゃ",
     "ひとり"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{家|いえ}",
+    "kana": "いえ",
+    "fr": "maison"
+   },
+   "card": "家"
   },
   {
    "id": "k5-b04x-会う-phrase",
@@ -2091,7 +3232,13 @@
     "あ",
     "か"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{会|あ}う",
+    "kana": "あう",
+    "fr": "rencontrer"
+   },
+   "card": "会う"
   },
   {
    "id": "k5-b04x-会社-phrase",
@@ -2105,7 +3252,13 @@
     "かいしゃ",
     "あしゃ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{会社|かいしゃ}",
+    "kana": "かいしゃ",
+    "fr": "entreprise"
+   },
+   "card": "会社"
   },
   {
    "id": "k5-b04x-電車-phrase",
@@ -2119,7 +3272,13 @@
     "ふつか",
     "ここのつ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{電車|でんしゃ}",
+    "kana": "でんしゃ",
+    "fr": "train"
+   },
+   "card": "電車"
   },
   {
    "id": "k5-b04x-国-phrase",
@@ -2133,7 +3292,13 @@
     "あんしん",
     "えき"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{国|くに}",
+    "kana": "くに",
+    "fr": "pays"
+   },
+   "card": "国"
   },
   {
    "id": "k5-b04x-出る-phrase",
@@ -2147,7 +3312,13 @@
     "て",
     "た"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{出|で}る",
+    "kana": "でる",
+    "fr": "sortir"
+   },
+   "card": "出る"
   },
   {
    "id": "k5-b04x-出かける-phrase",
@@ -2161,7 +3332,13 @@
     "くかけ",
     "ちかけ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{出|で}かける",
+    "kana": "でかける",
+    "fr": "sortir, partir"
+   },
+   "card": "出かける"
   },
   {
    "id": "k5-b04x-立つ-phrase",
@@ -2175,7 +3352,13 @@
     "あ",
     "な"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{立|た}つ",
+    "kana": "たつ",
+    "fr": "se lever"
+   },
+   "card": "立つ"
   },
   {
    "id": "k5-b04x-休む-phrase",
@@ -2189,7 +3372,13 @@
     "そと",
     "やす"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{休|やす}む",
+    "kana": "やすむ",
+    "fr": "se reposer"
+   },
+   "card": "休む"
   },
   {
    "id": "k5-b04x-言う-phrase",
@@ -2203,7 +3392,13 @@
     "あ",
     "い"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{言|い}う",
+    "kana": "いう",
+    "fr": "dire"
+   },
+   "card": "言う"
   }
  ]
 }

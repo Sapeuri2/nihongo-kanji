@@ -4,7 +4,7 @@
 set -euo pipefail
 
 SOURCE="${MOTEUR_SOURCE:-https://github.com/Sapeuri2/nihongo-grammaire}"
-FILES=(js/app.js js/state.js js/sync.js js/text.js css/style.css sw.js tools/verifier.mjs tools/maj-moteur.sh MOTEUR.md)
+FILES=(js/app.js js/state.js js/sync.js js/text.js js/liste.js css/style.css sw.js tools/verifier.mjs tools/maj-moteur.sh MOTEUR.md)
 
 if [ ! -f data/manifest.json ]; then
   echo "À lancer depuis la racine du dépôt de l'appli (data/manifest.json introuvable)." >&2

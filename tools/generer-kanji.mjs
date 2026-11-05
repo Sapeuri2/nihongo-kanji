@@ -5,10 +5,14 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 
 const src = f => JSON.parse(readFileSync(new URL(`../data/sources/${f}`, import.meta.url), 'utf8'));
 // Furigana sur le mot entier : {日|に}{本|ほん} → {日本|にほん}. Toucher le mot affiche toute sa lecture.
+// Seulement pour les MOTS (fiches, antisèches), écrits kanji par kanji. Les phrases ont déjà un groupe
+// par mot : y fusionner deux groupes voisins collerait deux mots ({毎日|まいにち}{日本語|にほんご}).
+// Les mots gardent leurs groupes par kanji dans le générateur (pour les trous) ; on ne fusionne qu'en écrivant.
 const motEntier = s => { let t; while ((t = s.replace(/\{([^|{}]+)\|([^{}]+)\}\{([^|{}]+)\|([^{}]+)\}/g, '{$1$3|$2$4}')) !== s) s = t; return s; };
+const entier = o => JSON.parse(JSON.stringify(o), (k, v) => (typeof v === 'string' ? motEntier(v) : v));
 function out(f, o) {
   mkdirSync(new URL(`../data/${f.replace(/[^/]+$/, '')}`, import.meta.url), { recursive: true });
-  writeFileSync(new URL(`../data/${f}`, import.meta.url), JSON.stringify(o, (k, v) => (typeof v === 'string' ? motEntier(v) : v), 1) + '\n');
+  writeFileSync(new URL(`../data/${f}`, import.meta.url), JSON.stringify(o, (k, v) => (typeof v === 'string' ? fusionMots(v) : v), 1) + '\n');
 }
 
 const LECONS5 = src('kanji-n5.json');
@@ -19,7 +23,7 @@ const VOC = src('mots-vocab.json');
 const PHRASES = [...src('phrases.json'), ...(LECONS4.length ? src('phrases-n4.json').map(p => ({ ...p, n4: true })) : [])];
 
 // Blocs de nouveaux kanji : 5 leçons chacun.
-const LECON_MAX = 16;
+const LECON_MAX = 18;
 const BLOCS = [
   'Les kanji de tous les jours', 'École, positions et nombres',
   'Le temps, les directions, la nature', 'Famille, maison, corps, adjectifs',
@@ -60,6 +64,9 @@ LECONS.forEach((l, i) => l.kanji.forEach(k => {
 const mot = (jp, fr) => ({ jp, fr, plain: plain(jp), kana: reading(jp), t: tokens(jp) });
 const MOTS = new Map();
 LECONS.forEach((l, li) => l.kanji.forEach(k => { k.w = k.mots.map(([jp, fr]) => { const m = mot(jp, fr); if (!MOTS.has(m.plain)) MOTS.set(m.plain, { ...m, n5: li < LECONS5.length }); return MOTS.get(m.plain); }); }));
+// Écriture : chaque mot écrit kanji par kanji ({日|に}{本|ほん}) devient un seul groupe ({日本|にほん}), où qu'il apparaisse.
+const FUSION = [...MOTS.values()].map(m => [m.jp, motEntier(m.jp)]).filter(([a, b]) => a !== b).sort((a, b) => b[0].length - a[0].length);
+const fusionMots = s => (s.includes('}{') ? FUSION.reduce((t, [a, b]) => t.replaceAll(a, b), s) : s);
 const CONNUS = new Set([...MOTS.keys(), ...VOC.map(w => plain(w.jp))]);
 const KANAS = new Set([...[...MOTS.values()].map(m => m.kana), ...VOC.map(w => w.kana)]);
 
@@ -251,18 +258,28 @@ function exOnKun(pre, m, x) {
 }
 const paires = [...MOTS.values()].filter(m => rangMot(m) < LECONS5.length).flatMap(m => m.t.filter(x => x.p.length === 1 && FICHE[x.p] && FICHE[x.p].rang < LECONS5.length && !x.r.match(/っ$/) && m.t.length > 1).map(x => [m, x]));
 
-const SHEET = {
+const SHEET = entier({
   onkun: { sections: [{ h: 'La règle de base', p: ['**Kun** : la lecture japonaise. Kanji seul, ou suivi de kana (okurigana) : {食|た}べる, {山|やま}.', '**On** : la lecture venue du chinois. Kanji collés entre eux : {学|がく}{生|せい}, {電|でん}{車|しゃ}.', 'En katakana dans les fiches : on. En hiragana : kun.'], grid: { head: ['Forme', 'Lecture', 'Exemple'], rows: [['Kanji + kana', 'kun', '{高|たか}い, {行|い}く'], ['Kanji seul', 'kun', '{水|みず}, {人|ひと}'], ['Deux kanji ou plus', 'on', '{毎|まい}{日|にち}, {来|らい}{週|しゅう}']] } }], pieges: ['Il y a des exceptions : {今年|ことし}, {大人|おとな}, {今日|きょう} se lisent en bloc.', 'Certains composés sont en kun : {名|な}{前|まえ}, {手|て}{紙|がみ}.'] },
   pieges: { sections: [{ h: 'Un kanji, plusieurs lectures', p: ['Retiens un **mot** par lecture, pas une liste de lectures.'], grid: { head: ['Kanji', 'Mots à retenir'], rows: [['日', '{毎|まい}{日|にち}・{日|に}{本|ほん}・{日|にち}{曜|よう}{日|び}・{二日|ふつか}'], ['生', '{学|がく}{生|せい}・{生|う}まれる'], ['人', '{人|ひと}・{日|に}{本|ほん}{人|じん}・{何|なん}{人|にん}・{一人|ひとり}'], ['下', '{下|した}・{地|ち}{下|か}{鉄|てつ}・{下手|へた}・{下|くだ}さい'], ['大', '{大|おお}きい・{大|だい}{学|がく}・{大|たい}{切|せつ}・{大人|おとな}'], ['月', '{月|つき}・{月|げつ}{曜|よう}{日|び}・{一|いち}{月|がつ}'], ['金', 'お{金|かね}・{金|きん}{曜|よう}{日|び}'], ['行', '{行|い}く・{銀|ぎん}{行|こう}']] } }], pieges: ['何 : なに ou なん selon ce qui suit ({何|なん}ですか、{何|なに}を{食|た}べますか).'] },
   compteurs: { sections: [{ h: 'Les personnes', p: ['**{一人|ひとり}, {二人|ふたり}** sont irréguliers, puis {三人|さんにん}, {四人|よにん} (pas よんにん).'] }, { h: 'Sons qui changent', p: ['Compteur en は/ひ/ふ/ほ : le son change après 1, 3, 6, 8.'], grid: { head: ['', '本', '百', '分'], rows: [['1', 'いっ==ぽん==', 'ひゃく', 'いっ==ぷん=='], ['3', 'さん==ぼん==', 'さん==びゃく==', 'さん==ぷん=='], ['6', 'ろっ==ぽん==', 'ろっ==ぴゃく==', 'ろっ==ぷん=='], ['8', 'はっ==ぽん==', 'はっ==ぴゃく==', 'はっ==ぷん==']] } }, { h: 'Les jours du mois', p: ['1 à 10 et 20 ont une lecture japonaise. 14 et 24 aussi. Les autres sont réguliers : {十一日|じゅういちにち}.'], grid: { head: ['Jour', 'Lecture', 'Jour', 'Lecture'], rows: [['1', 'ついたち', '6', 'むいか'], ['2', 'ふつか', '7', 'なのか'], ['3', 'みっか', '8', 'ようか'], ['4', 'よっか', '9', 'ここのか'], ['5', 'いつか', '10', 'とおか'], ['14', 'じゅうよっか', '20', 'はつか']] } }], pieges: ['{四時|よじ} et {四月|しがつ} : ni よん, ni la même lecture !', '{九時|くじ}, {九月|くがつ}, mais {九|きゅう}.', '{七時|しちじ}, {七月|しちがつ} : on dit しち ici.'] },
   sosies: { sections: [{ h: 'Paires à séparer', p: ['Regarde le détail qui change, et rattache chaque kanji à un mot connu.'], grid: { head: ['Kanji', 'Différence'], rows: [['日 / 目', '目 a deux barres et il est plus haut (un œil).'], ['大 / 犬 / 太', '犬 : point en haut à droite. 太 : point en bas.'], ['土 / 士', '土 : barre du bas plus longue. 士 : barre du haut plus longue.'], ['末 / 未', '末 : barre du haut longue (la fin). 未 : barre du haut courte (pas encore).'], ['人 / 入 / 八', '入 : le trait de droite domine. 八 : traits séparés.'], ['午 / 牛', '牛 a une corne : le trait central dépasse.'], ['聞 / 間', '聞 : une oreille 耳 dans la porte. 間 : un soleil 日.'], ['右 / 左', '右 : bouche 口 (mange). 左 : outil 工.'], ['毎 / 母', '毎 = 母 + un chapeau.'], ['白 / 百', '百 = 白 + un trait au-dessus.']] } }], pieges: ['Les kanji hors N5 de ces paires (犬, 太, 士, 末, 未, 牛…) sont ici seulement pour les distinguer.'] },
-};
+});
 
 // ---------- Construction des blocs ----------
 const connusJusque = rang => new Set(ORDRE.filter(k => FICHE[k].rang <= rang));
 const union = (...ss) => new Set(ss.flatMap(x => [...x]));
 const prisLecture = new Set(), prisEcrit = new Set();
-const fiche = k => ({ h: `${k.k} · ${k.fr}`, p: [`**On** : ${k.on.join('、') || '—'}　**Kun** : ${k.kun.join('、') || '—'}`, k.memo], vocab: k.mots.map(([jp, fr]) => ({ jp, fr })) });
+// Phrases d'exemple de la fiche (3 au plus) : une par mot du kanji d'abord, les plus courtes en premier.
+// Au N5, jamais de phrase écrite pour le N4.
+function exemplesDe(k) {
+  const n5 = FICHE[k.k].rang < LECONS5.length;
+  const tri = PHRASES.filter(s => !(s.n4 && n5) && k.w.some(w => plain(s.jp).includes(w.plain))).sort((a, b) => plain(a.jp).length - plain(b.jp).length);
+  const pris = [];
+  for (const w of k.w) { const s = tri.find(x => !pris.includes(x) && plain(x.jp).includes(w.plain)); if (s) pris.push(s); }
+  for (const s of tri) if (pris.length < 3 && !pris.includes(s)) pris.push(s);
+  return pris.slice(0, 3).map(({ jp, fr }) => ({ jp, fr }));
+}
+const fiche = k => ({ h: `${k.k} · ${k.fr}`, p: [`**On** : ${k.on.join('、') || '—'}　**Kun** : ${k.kun.join('、') || '—'}`, k.memo], ex: exemplesDe(k), vocab: k.mots.map(([jp, fr]) => ({ jp, fr })) });
 
 // Blocs de nouveaux kanji (5 leçons chacun). `offset` = rang de la 1re leçon,
 // `base` = kanji déjà acquis (jamais de furigana dans les phrases).
@@ -371,6 +388,68 @@ if (LECONS4.length) {
   ], connusJusque(R4), R4, 'Ici, plus aucun kanji du N5 ni du N4 n\'a de furigana. Lis toute la phrase avant de répondre, le contexte t\'aide.'));
 }
 
+// ---------- Mot gardé par ☆ (« Ma liste ») ----------
+// Le moteur prend par défaut la phrase ou la bonne réponse, ce qui donne souvent une lecture seule
+// (にほん) ou un morceau de mot (本 pour 日本). Chaque exercice dit donc quel mot garder.
+const lecturesDe = k => [...k.on, ...k.kun].join('、');
+const etoileKanji = c => ({ jp: c, kana: lecturesDe(FICHE[c]), fr: FICHE[c].fr });
+const etoileMot = m => ({ jp: m.jp, kana: m.kana, fr: m.fr });
+function etoile(ex) {
+  const parts = ex.id.split('-').slice(2), type = parts.at(-1);
+  if ((type === 'sens' || type === 'kanji') && FICHE[parts[0]]) return etoileKanji(parts[0]);
+  const m = parts.map(p => MOTS.get(p)).find(Boolean);
+  if (m) return etoileMot(m);
+  const bonne = plain(ex.choices[ex.a] ?? '');
+  // Mot à trou (sosies) : le mot entier, trou rempli.
+  if (ex.jp?.includes('＿')) {
+    const plein = plain(ex.jp).replace('＿', bonne), kana = ex.q?.match(/\*\*([ぁ-ん]+)\*\*/)?.[1];
+    if (MOTS.has(plein)) return etoileMot(MOTS.get(plein));
+    if (kana) return { jp: `{${plein}|${kana}}`, kana, fr: ex.q.match(/\(([^)]+)\)/)?.[1] ?? '' };
+  }
+  if (MOTS.has(bonne)) return etoileMot(MOTS.get(bonne));
+  // Mot hors fiches (compteurs, dates) : le mot en gras et sa lecture donnée dans l'explication.
+  const gras = ex.q?.match(/\*\*([^*]+)\*\*/)?.[1], lu = ex.explain?.match(/se lit ([ぁ-ん]+)/)?.[1];
+  if (gras && lu && /[㐀-鿿]/.test(gras)) return { jp: `{${gras}|${lu}}`, kana: lu, fr: ex.q.match(/\(([^)]+)\)/)?.[1] ?? '' };
+  if (FICHE[bonne]) return etoileKanji(bonne);
+  const k = parts.find(p => FICHE[p]);
+  return k ? etoileKanji(k) : undefined;
+}
+
+// ---------- Consignes en japonais (à partir du bloc 3 du N4) ----------
+const JA = [
+  [/^Que veut dire ce kanji \?$/, () => 'この{漢字|かんじ}の{意味|いみ}は？'],
+  [/^Comment se lit \*\*(.+)\*\* \?$/, x => `**${x}**の{読|よ}み{方|かた}は？`],
+  [/^Comment se lit le mot en gras \?$/, () => '{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？'],
+  [/^Sans furigana : comment se lit le mot en gras \?$/, () => 'ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？'],
+  [/^Quel mot s'écrit \*\*(.+)\*\* \((.+)\) \?$/, (x, fr) => `**${x}**（${fr}）は{漢字|かんじ}でどう{書|か}きますか。`],
+  [/^Complète le mot \*\*(.+)\*\* \((.+)\) :$/, (x, fr) => `**${x}**（${fr}）：{足|た}りない{漢字|かんじ}はどれ？`],
+  [/^Quel kanji veut dire « (.+) » \?$/, x => `「${x}」という{意味|いみ}の{漢字|かんじ}は？`],
+  [/^Un seul de ces mots est mal lu\. Lequel \?$/, () => '{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？'],
+];
+const enJaponais = q => { for (const [re, f] of JA) { const r = q?.match(re); if (r) return f(...r.slice(1)); } return q; };
+const CONSIGNES = {
+  h: 'Les consignes passent en japonais',
+  p: ['À partir d\'ici, les questions sont posées en japonais. Les fiches restent en français. Voici les consignes que tu vas croiser :'],
+  ex: [
+    { jp: 'この{漢字|かんじ}の{意味|いみ}は？', fr: 'Que veut dire ce kanji ?' },
+    { jp: '「…」という{意味|いみ}の{漢字|かんじ}は？', fr: 'Quel kanji veut dire « … » ?' },
+    { jp: '**…**の{読|よ}み{方|かた}は？', fr: 'Comment se lit … ?' },
+    { jp: '{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？', fr: 'Comment se lit le mot en gras ?' },
+    { jp: '**…**は{漢字|かんじ}でどう{書|か}きますか。', fr: 'Comment s\'écrit … en kanji ?' },
+    { jp: '{足|た}りない{漢字|かんじ}はどれ？', fr: 'Quel est le kanji qui manque ?' },
+    { jp: '{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？', fr: 'Lequel est mal lu ?' },
+    { jp: 'ふりがななし', fr: 'sans furigana' },
+  ],
+};
+
+const tousLesExercices = b => [...b.lessons.flatMap(l => l.exercises), ...b.test, ...b.examTest];
+// `card` : ce qu'on apprend vraiment (le kanji ou le mot), commun à toutes les formes de question.
+for (const b of [...blocs, ...blocs4]) for (const e of tousLesExercices(b)) { e.star = etoile(e); if (e.star) e.card = plain(e.star.jp); }
+blocs4.slice(2).forEach((b, i) => {
+  for (const e of tousLesExercices(b)) e.q = enJaponais(e.q);
+  if (i === 0) b.lessons[0].sections.unshift(CONSIGNES);
+});
+
 // ---------- Écriture ----------
 blocs.forEach((b, i) => out(`n5/bloc0${i + 1}.json`, b));
 blocs4.forEach((b, i) => out(`n4/bloc0${i + 1}.json`, b));
@@ -384,7 +463,7 @@ const FOCUS = BULLE.length ? [{
     const k = FICHE[c];
     const ms = k.w.filter(m => !AMBIGUS.has(m.plain));
     return [exSens('f-mk', k, R), exKanji('f-mk', k, R), ...ms.map(m => exLecture('f-mk', m, R)), ...ms.map(m => exTrou('f-mk', m, R) ?? exEcrit('f-mk', m, R))]
-      .filter(Boolean).map(e => ({ ...e, uses: [LECON_DE[c]] }));
+      .filter(Boolean).map(e => ({ ...e, uses: [LECON_DE[c]], star: etoile(e), card: plain(etoile(e)?.jp ?? '') || undefined }));
   })),
 }] : [];
 FOCUS.forEach(({ file, ...f }) => out(`focus/${file}.json`, f));

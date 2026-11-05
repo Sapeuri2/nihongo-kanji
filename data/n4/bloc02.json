@@ -13,6 +13,20 @@
       "**On** : ホ、ポ　**Kun** : ある(く)",
       "Un pied 止 au-dessus d'un autre : on avance pas à pas."
      ],
+     "ex": [
+      {
+       "jp": "{林|はやし}の{中|なか}を{歩|ある}くのが{好|す}きです。",
+       "fr": "J'aime marcher dans le bois."
+      },
+      {
+       "jp": "{昼休|ひるやす}みに{公園|こうえん}を{散歩|さんぽ}します。",
+       "fr": "Je me promène dans le parc pendant la pause de midi."
+      },
+      {
+       "jp": "{自転車|じてんしゃ}は{歩道|ほどう}を{走|はし}らないでください。",
+       "fr": "Ne roulez pas à vélo sur le trottoir."
+      }
+     ],
      "vocab": [
       {
        "jp": "{歩|ある}く",
@@ -34,6 +48,12 @@
       "**On** : ソウ　**Kun** : はし(る)",
       "La terre 土 et un pied 止 qui pousse fort : on court."
      ],
+     "ex": [
+      {
+       "jp": "{車|くるま}が{走|はし}る{音|おと}がうるさいです。",
+       "fr": "Le bruit des voitures qui passent est bruyant."
+      }
+     ],
      "vocab": [
       {
        "jp": "{走|はし}る",
@@ -46,6 +66,16 @@
      "p": [
       "**On** : シ　**Kun** : と(まる)、と(める)",
       "Un pied posé au sol : on s'arrête."
+     ],
+     "ex": [
+      {
+       "jp": "{雨|あめ}の{場合|ばあい}は{中止|ちゅうし}です。",
+       "fr": "En cas de pluie, c'est annulé."
+      },
+      {
+       "jp": "{雨|あめ}で{試合|しあい}は{中止|ちゅうし}になりました。",
+       "fr": "Le match a été annulé à cause de la pluie."
+      }
      ],
      "vocab": [
       {
@@ -68,6 +98,16 @@
       "**On** : シン　**Kun** : すす(む)",
       "Un oiseau 隹 sur la route ⻌ : l'oiseau ne recule jamais, il avance."
      ],
+     "ex": [
+      {
+       "jp": "{姉|あね}は{大学|だいがく}に{進学|しんがく}しました。",
+       "fr": "Ma grande sœur est entrée à l'université."
+      },
+      {
+       "jp": "{妹|いもうと}は{大学|だいがく}に{進学|しんがく}したいそうです。",
+       "fr": "Il paraît que ma petite sœur veut poursuivre ses études à l'université."
+      }
+     ],
      "vocab": [
       {
        "jp": "{進|すす}む",
@@ -84,6 +124,20 @@
      "p": [
       "**On** : ウン　**Kun** : はこ(ぶ)",
       "Un char 軍 sur la route ⻌ : on transporte."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{車|くるま}を{運転|うんてん}します。",
+       "fr": "Mon grand frère conduit une voiture."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{少|すこ}し{運動|うんどう}をしています。",
+       "fr": "Je fais un peu d'exercice tous les matins."
+      },
+      {
+       "jp": "まだ{運転|うんてん}が{下手|へた}です。",
+       "fr": "Je conduis encore mal."
+      }
      ],
      "vocab": [
       {
@@ -105,6 +159,20 @@
      "p": [
       "**On** : テン　**Kun** : ころ(ぶ)",
       "Un char 車 dont la roue tourne 云."
+     ],
+     "ex": [
+      {
+       "jp": "この{自転車|じてんしゃ}は{軽|かる}いです。",
+       "fr": "Ce vélo est léger."
+      },
+      {
+       "jp": "{兄|あに}は{車|くるま}を{運転|うんてん}します。",
+       "fr": "Mon grand frère conduit une voiture."
+      },
+      {
+       "jp": "まだ{運転|うんてん}が{下手|へた}です。",
+       "fr": "Je conduis encore mal."
+      }
      ],
      "vocab": [
       {
@@ -142,7 +210,13 @@
       "année",
       "marcher"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "歩",
+      "kana": "ホ、ポ、ある(く)",
+      "fr": "marcher"
+     },
+     "card": "歩"
     },
     {
      "id": "k4-06-走-sens",
@@ -156,7 +230,13 @@
       "grand",
       "milieu, dans"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "走",
+      "kana": "ソウ、はし(る)",
+      "fr": "courir"
+     },
+     "card": "走"
     },
     {
      "id": "k4-06-止-sens",
@@ -170,7 +250,13 @@
       "rizière",
       "quoi, combien"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "止",
+      "kana": "シ、と(まる)、と(める)",
+      "fr": "s'arrêter"
+     },
+     "card": "止"
     },
     {
      "id": "k4-06-進-sens",
@@ -184,7 +270,13 @@
       "cinq",
       "mère"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "進",
+      "kana": "シン、すす(む)",
+      "fr": "avancer"
+     },
+     "card": "進"
     },
     {
      "id": "k4-06-運-sens",
@@ -198,7 +290,13 @@
       "capitale, métropole",
       "manger"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "運",
+      "kana": "ウン、はこ(ぶ)",
+      "fr": "transporter, chance"
+     },
+     "card": "運"
     },
     {
      "id": "k4-06-転-sens",
@@ -212,7 +310,13 @@
       "parler, histoire",
       "langue, mot"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "転",
+      "kana": "テン、ころ(ぶ)",
+      "fr": "tourner, rouler"
+     },
+     "card": "転"
     },
     {
      "id": "k4-06-歩く-lecture",
@@ -225,7 +329,13 @@
       "あるく",
       "ぽく"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{歩|ある}く",
+      "kana": "あるく",
+      "fr": "marcher"
+     },
+     "card": "歩く"
     },
     {
      "id": "k4-06-走る-lecture",
@@ -238,7 +348,13 @@
       "けいかく",
       "あおぞら"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{走|はし}る",
+      "kana": "はしる",
+      "fr": "courir"
+     },
+     "card": "走る"
     },
     {
      "id": "k4-06-止まる-lecture",
@@ -251,7 +367,13 @@
       "おんなのこ",
       "はいる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{止|と}まる",
+      "kana": "とまる",
+      "fr": "s'arrêter"
+     },
+     "card": "止まる"
     },
     {
      "id": "k4-06-進む-lecture",
@@ -264,7 +386,13 @@
       "えいご",
       "しょくじ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{進|すす}む",
+      "kana": "すすむ",
+      "fr": "avancer"
+     },
+     "card": "進む"
     },
     {
      "id": "k4-06-運転-lecture",
@@ -277,7 +405,13 @@
       "ところ",
       "うんてん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{運転|うんてん}",
+      "kana": "うんてん",
+      "fr": "conduite (d'un véhicule)"
+     },
+     "card": "運転"
     },
     {
      "id": "k4-06-歩く-ecrit",
@@ -290,7 +424,13 @@
       "少く",
       "門く"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{歩|ある}く",
+      "kana": "あるく",
+      "fr": "marcher"
+     },
+     "card": "歩く"
     },
     {
      "id": "k4-06-歩く-phrase",
@@ -304,7 +444,13 @@
       "いえ",
       "ある"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{歩|ある}く",
+      "kana": "あるく",
+      "fr": "marcher"
+     },
+     "card": "歩く"
     },
     {
      "id": "k4-06-歩-kanji",
@@ -317,7 +463,13 @@
       "国",
       "少"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "歩",
+      "kana": "ホ、ポ、ある(く)",
+      "fr": "marcher"
+     },
+     "card": "歩"
     },
     {
      "id": "k4-06-歩く-intrus",
@@ -330,7 +482,13 @@
       "運転 → うんてん",
       "歩く → ぽく"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{歩|ある}く",
+      "kana": "あるく",
+      "fr": "marcher"
+     },
+     "card": "歩く"
     },
     {
      "id": "k4-06-走る-ecrit",
@@ -343,7 +501,52 @@
       "起る",
       "足る"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{走|はし}る",
+      "kana": "はしる",
+      "fr": "courir"
+     },
+     "card": "走る"
+    },
+    {
+     "id": "k4-06-散歩-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "日曜日の朝は{犬|いぬ}と**散歩**します。",
+     "explain": "**散歩** se lit さんぽ ici ({散歩|さんぽ} : promenade). « Le dimanche matin, je me promène avec le chien. »",
+     "type": "choice",
+     "choices": [
+      "かいもの",
+      "さんぽ",
+      "きもち",
+      "おみやげ"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{散歩|さんぽ}",
+      "kana": "さんぽ",
+      "fr": "promenade"
+     },
+     "card": "散歩"
+    },
+    {
+     "id": "k4-06-走-kanji",
+     "q": "Quel kanji veut dire « courir » ?",
+     "explain": "**走** : courir. La terre 土 et un pied 止 qui pousse fort : on court.",
+     "type": "choice",
+     "choices": [
+      "走",
+      "上",
+      "足",
+      "起"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "走",
+      "kana": "ソウ、はし(る)",
+      "fr": "courir"
+     },
+     "card": "走"
     }
    ]
   },
@@ -356,6 +559,16 @@
      "p": [
       "**On** : ジョウ　**Kun** : の(る)",
       "Une personne perchée en haut d'un arbre 木 : elle monte dessus."
+     ],
+     "ex": [
+      {
+       "jp": "{子|こ}どもは{乗|の}り{物|もの}が{好|す}きです。",
+       "fr": "Les enfants aiment les véhicules."
+      },
+      {
+       "jp": "{子供|こども}は{乗|の}り{物|もの}が{大好|だいす}きです。",
+       "fr": "Les enfants adorent les véhicules."
+      }
      ],
      "vocab": [
       {
@@ -373,6 +586,12 @@
      "p": [
       "**On** : ツウ　**Kun** : とお(る)、かよ(う)",
       "Un tube 甬 sur la route ⻌ : on passe au travers."
+     ],
+     "ex": [
+      {
+       "jp": "この{町|まち}は{交通|こうつう}が{便利|べんり}です。",
+       "fr": "Dans cette ville, les transports sont pratiques."
+      }
      ],
      "vocab": [
       {
@@ -395,6 +614,16 @@
       "**On** : ソウ　**Kun** : おく(る)",
       "Deux mains qui poussent sur la route ⻌ : on envoie, on raccompagne."
      ],
+     "ex": [
+      {
+       "jp": "その{番組|ばんぐみ}は{夜|よる}{九時|くじ}に{放送|ほうそう}されます。",
+       "fr": "Cette émission est diffusée à 21 heures."
+      },
+      {
+       "jp": "その{試合|しあい}はテレビで{放送|ほうそう}されます。",
+       "fr": "Ce match sera diffusé à la télévision."
+      }
+     ],
      "vocab": [
       {
        "jp": "{送|おく}る",
@@ -412,6 +641,20 @@
       "**On** : キョ　**Kun** : さ(る)",
       "La terre 土 et un détour ム : on s'en va."
      ],
+     "ex": [
+      {
+       "jp": "{祖父|そふ}は{去年|きょねん}{死|し}にました。",
+       "fr": "Mon grand-père est mort l'an dernier."
+      },
+      {
+       "jp": "{去年|きょねん}から{水泳|すいえい}を{始|はじ}めました。",
+       "fr": "J'ai commencé la natation l'an dernier."
+      },
+      {
+       "jp": "{去年|きょねん}の{夏|なつ}、{沖縄|おきなわ}へ{行|い}きました。",
+       "fr": "L'été dernier, je suis allé à Okinawa."
+      }
+     ],
      "vocab": [
       {
        "jp": "{去年|きょねん}",
@@ -424,6 +667,20 @@
      "p": [
       "**On** : キン　**Kun** : ちか(い)",
       "Une hache 斤 sur la route ⻌ : à portée de main, tout près."
+     ],
+     "ex": [
+      {
+       "jp": "{駅|えき}は{家|いえ}から{近|ちか}いです。",
+       "fr": "La gare est près de chez moi."
+      },
+      {
+       "jp": "{駅|えき}の{近|ちか}くは{便利|べんり}です。",
+       "fr": "Près de la gare, c'est pratique."
+      },
+      {
+       "jp": "{最近|さいきん}、{少|すこ}し{太|ふと}りました。",
+       "fr": "Ces derniers temps, j'ai un peu grossi."
+      }
      ],
      "vocab": [
       {
@@ -445,6 +702,20 @@
      "p": [
       "**On** : エン　**Kun** : とお(い)",
       "Une longue robe 袁 sur la route ⻌ : le voyage est long."
+     ],
+     "ex": [
+      {
+       "jp": "{学校|がっこう}は{家|いえ}から{遠|とお}いです。",
+       "fr": "L'école est loin de chez moi."
+      },
+      {
+       "jp": "{会社|かいしゃ}は{駅|えき}から{少|すこ}し{遠|とお}いです。",
+       "fr": "L'entreprise est un peu loin de la gare."
+      },
+      {
+       "jp": "{会社|かいしゃ}は{遠|とお}いですから、{六時|ろくじ}に{起|お}きます。",
+       "fr": "Mon bureau est loin, alors je me lève à six heures."
+      }
      ],
      "vocab": [
       {
@@ -474,7 +745,13 @@
       "forêt",
       "envoyer"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "乗",
+      "kana": "ジョウ、の(る)",
+      "fr": "monter (dans un véhicule)"
+     },
+     "card": "乗"
     },
     {
      "id": "k4-07-通-sens",
@@ -488,7 +765,13 @@
       "maintenant",
       "passer, fréquenter"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "通",
+      "kana": "ツウ、とお(る)、かよ(う)",
+      "fr": "passer, fréquenter"
+     },
+     "card": "通"
     },
     {
      "id": "k4-07-送-sens",
@@ -502,7 +785,13 @@
       "envoyer",
       "entendre, écouter"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "送",
+      "kana": "ソウ、おく(る)",
+      "fr": "envoyer"
+     },
+     "card": "送"
     },
     {
      "id": "k4-07-去-sens",
@@ -516,7 +805,13 @@
       "poisson",
       "passer, fréquenter"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "去",
+      "kana": "キョ、さ(る)",
+      "fr": "partir, passé"
+     },
+     "card": "去"
     },
     {
      "id": "k4-07-近-sens",
@@ -530,7 +825,13 @@
       "ciel, vide",
       "capitale, métropole"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "近",
+      "kana": "キン、ちか(い)",
+      "fr": "proche"
+     },
+     "card": "近"
     },
     {
      "id": "k4-07-遠-sens",
@@ -544,7 +845,13 @@
       "loin",
       "direction, personne (poli)"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "遠",
+      "kana": "エン、とお(い)",
+      "fr": "loin"
+     },
+     "card": "遠"
     },
     {
      "id": "k4-07-乗る-lecture",
@@ -557,7 +864,13 @@
       "なに",
       "じょうる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{乗|の}る",
+      "kana": "のる",
+      "fr": "monter (dans un véhicule)"
+     },
+     "card": "乗る"
     },
     {
      "id": "k4-07-通る-lecture",
@@ -570,7 +883,13 @@
       "とおる",
       "かよる"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{通|とお}る",
+      "kana": "とおる",
+      "fr": "passer"
+     },
+     "card": "通る"
     },
     {
      "id": "k4-07-送る-lecture",
@@ -583,7 +902,13 @@
       "そうる",
       "おくる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{送|おく}る",
+      "kana": "おくる",
+      "fr": "envoyer, raccompagner"
+     },
+     "card": "送る"
     },
     {
      "id": "k4-07-近い-lecture",
@@ -596,7 +921,13 @@
       "ちかい",
       "えいが"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{近|ちか}い",
+      "kana": "ちかい",
+      "fr": "proche"
+     },
+     "card": "近い"
     },
     {
      "id": "k4-07-遠い-lecture",
@@ -609,7 +940,13 @@
       "じょうず",
       "えんい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{遠|とお}い",
+      "kana": "とおい",
+      "fr": "loin"
+     },
+     "card": "遠い"
     },
     {
      "id": "k4-07-乗り物-trou",
@@ -623,7 +960,13 @@
       "特",
       "物"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{乗|の}り{物|もの}",
+      "kana": "のりもの",
+      "fr": "véhicule"
+     },
+     "card": "乗り物"
     },
     {
      "id": "k4-07-乗る-phrase",
@@ -637,7 +980,13 @@
       "あ",
       "ば"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{乗|の}る",
+      "kana": "のる",
+      "fr": "monter (dans un véhicule)"
+     },
+     "card": "乗る"
     },
     {
      "id": "k4-07-乗-kanji",
@@ -650,7 +999,13 @@
       "来",
       "垂"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "乗",
+      "kana": "ジョウ、の(る)",
+      "fr": "monter (dans un véhicule)"
+     },
+     "card": "乗"
     },
     {
      "id": "k4-07-乗る-intrus",
@@ -663,7 +1018,13 @@
       "遠い → とおい",
       "近く → ちかく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{乗|の}る",
+      "kana": "のる",
+      "fr": "monter (dans un véhicule)"
+     },
+     "card": "乗る"
     },
     {
      "id": "k4-07-通る-ecrit",
@@ -676,7 +1037,52 @@
       "月る",
       "進る"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{通|とお}る",
+      "kana": "とおる",
+      "fr": "passer"
+     },
+     "card": "通る"
+    },
+    {
+     "id": "k4-07-乗り物-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "子どもは**乗り物**が{好|す}きです。",
+     "explain": "**乗り物** se lit のりもの ici ({乗|の}り{物|もの} : véhicule). « Les enfants aiment les véhicules. »",
+     "type": "choice",
+     "choices": [
+      "のりぶつ",
+      "のりもの",
+      "のりもつ",
+      "じょうりもの"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{乗|の}り{物|もの}",
+      "kana": "のりもの",
+      "fr": "véhicule"
+     },
+     "card": "乗り物"
+    },
+    {
+     "id": "k4-07-通-kanji",
+     "q": "Quel kanji veut dire « passer, fréquenter » ?",
+     "explain": "**通** : passer, fréquenter. Un tube 甬 sur la route ⻌ : on passe au travers.",
+     "type": "choice",
+     "choices": [
+      "週",
+      "何",
+      "進",
+      "通"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "通",
+      "kana": "ツウ、とお(る)、かよ(う)",
+      "fr": "passer, fréquenter"
+     },
+     "card": "通"
     }
    ]
   },
@@ -690,6 +1096,7 @@
       "**On** : キ　**Kun** : お(きる)、お(こす)",
       "Courir 走 et soi-même 己 : on se lève d'un bond."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{起|お}きる",
@@ -707,6 +1114,12 @@
       "**On** : タイ　**Kun** : ま(つ)",
       "Un chemin 彳 et un temple 寺 : on attend devant le temple."
      ],
+     "ex": [
+      {
+       "jp": "{結婚式|けっこんしき}の{招待|しょうたい}を{受|う}けました。",
+       "fr": "J'ai reçu une invitation au mariage."
+      }
+     ],
      "vocab": [
       {
        "jp": "{待|ま}つ",
@@ -723,6 +1136,16 @@
      "p": [
       "**On** : キュウ　**Kun** : いそ(ぐ)",
       "Une main qui attrape 刍 un cœur 心 : le cœur s'emballe."
+     ],
+     "ex": [
+      {
+       "jp": "{急行|きゅうこう}はこの{駅|えき}に{止|と}まりません。",
+       "fr": "L'express ne s'arrête pas à cette gare."
+      },
+      {
+       "jp": "{急|きゅう}に{雨|あめ}が{降|ふ}ってきました。",
+       "fr": "Il s'est mis à pleuvoir tout à coup."
+      }
      ],
      "vocab": [
       {
@@ -745,6 +1168,20 @@
       "**On** : ソウ　**Kun** : はや(い)",
       "Le soleil 日 au-dessus de l'horizon 十 : il est tôt."
      ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{早|はや}く{寝|ね}ます。",
+       "fr": "Aujourd'hui, je me couche tôt."
+      },
+      {
+       "jp": "{明日|あした}は{早|はや}く{起|お}きます。",
+       "fr": "Demain, je me lève tôt."
+      },
+      {
+       "jp": "{祖母|そぼ}は{毎晩|まいばん}{早|はや}く{寝|ね}ます。",
+       "fr": "Ma grand-mère se couche tôt tous les soirs."
+      }
+     ],
      "vocab": [
       {
        "jp": "{早|はや}い",
@@ -761,6 +1198,20 @@
      "p": [
       "**On** : ハツ、ホツ　**Kun** : —",
       "Deux pieds 癶 qui s'élancent : le départ."
+     ],
+     "ex": [
+      {
+       "jp": "{飛行機|ひこうき}の{出発|しゅっぱつ}は{十時|じゅうじ}です。",
+       "fr": "Le départ de l'avion est à dix heures."
+      },
+      {
+       "jp": "{日本語|にほんご}の{発音|はつおん}は{難|むずか}しくないです。",
+       "fr": "La prononciation du japonais n'est pas difficile."
+      },
+      {
+       "jp": "{明日|あした}、{授業|じゅぎょう}で{発表|はっぴょう}をします。",
+       "fr": "Demain, je fais un exposé en cours."
+      }
      ],
      "vocab": [
       {
@@ -782,6 +1233,12 @@
      "p": [
       "**On** : チャク　**Kun** : き(る)、つ(く)",
       "Un mouton 羊 et un œil 目 : on enfile la laine."
+     ],
+     "ex": [
+      {
+       "jp": "お{正月|しょうがつ}に{着物|きもの}を{着|き}ました。",
+       "fr": "J'ai porté un kimono au Nouvel An."
+      }
      ],
      "vocab": [
       {
@@ -822,7 +1279,13 @@
       "se lever",
       "ville, quartier"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "起",
+      "kana": "キ、お(きる)、お(こす)",
+      "fr": "se lever"
+     },
+     "card": "起"
     },
     {
      "id": "k4-08-待-sens",
@@ -836,7 +1299,13 @@
       "arbre, bois",
       "attendre"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "待",
+      "kana": "タイ、ま(つ)",
+      "fr": "attendre"
+     },
+     "card": "待"
     },
     {
      "id": "k4-08-急-sens",
@@ -850,7 +1319,13 @@
       "montagne",
       "se presser, urgent"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "急",
+      "kana": "キュウ、いそ(ぐ)",
+      "fr": "se presser, urgent"
+     },
+     "card": "急"
     },
     {
      "id": "k4-08-早-sens",
@@ -864,7 +1339,13 @@
       "tôt",
       "midi"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "早",
+      "kana": "ソウ、はや(い)",
+      "fr": "tôt"
+     },
+     "card": "早"
     },
     {
      "id": "k4-08-発-sens",
@@ -878,7 +1359,13 @@
       "nouveau",
       "plan, schéma"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "発",
+      "kana": "ハツ、ホツ",
+      "fr": "partir, émettre"
+     },
+     "card": "発"
     },
     {
      "id": "k4-08-着-sens",
@@ -892,7 +1379,13 @@
       "capitale, métropole",
       "projeter, refléter"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "着",
+      "kana": "チャク、き(る)、つ(く)",
+      "fr": "arriver, porter (vêtement)"
+     },
+     "card": "着"
     },
     {
      "id": "k4-08-起きる-lecture",
@@ -905,7 +1398,13 @@
       "きのう",
       "なつやすみ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{起|お}きる",
+      "kana": "おきる",
+      "fr": "se lever"
+     },
+     "card": "起きる"
     },
     {
      "id": "k4-08-待つ-lecture",
@@ -918,7 +1417,13 @@
       "よっつ",
       "したまち"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{待|ま}つ",
+      "kana": "まつ",
+      "fr": "attendre"
+     },
+     "card": "待つ"
     },
     {
      "id": "k4-08-急ぐ-lecture",
@@ -931,7 +1436,13 @@
       "じだい",
       "いそぐ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{急|いそ}ぐ",
+      "kana": "いそぐ",
+      "fr": "se dépêcher"
+     },
+     "card": "急ぐ"
     },
     {
      "id": "k4-08-早い-lecture",
@@ -944,7 +1455,13 @@
       "はやい",
       "そうい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{早|はや}い",
+      "kana": "はやい",
+      "fr": "tôt"
+     },
+     "card": "早い"
     },
     {
      "id": "k4-08-出発-lecture",
@@ -957,7 +1474,13 @@
       "しゅっぱつ",
       "しゅっはつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{出発|しゅっぱつ}",
+      "kana": "しゅっぱつ",
+      "fr": "départ"
+     },
+     "card": "出発"
     },
     {
      "id": "k4-08-着る-lecture",
@@ -970,7 +1493,13 @@
       "ちゃくる",
       "きる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{着|き}る",
+      "kana": "きる",
+      "fr": "porter (un haut)"
+     },
+     "card": "着る"
     },
     {
      "id": "k4-08-起きる-ecrit",
@@ -983,7 +1512,13 @@
       "走きる",
       "起きる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{起|お}きる",
+      "kana": "おきる",
+      "fr": "se lever"
+     },
+     "card": "起きる"
     },
     {
      "id": "k4-08-起きる-phrase",
@@ -997,7 +1532,13 @@
       "おき",
       "くき"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{起|お}きる",
+      "kana": "おきる",
+      "fr": "se lever"
+     },
+     "card": "起きる"
     },
     {
      "id": "k4-08-起-kanji",
@@ -1010,7 +1551,13 @@
       "走",
       "道"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "起",
+      "kana": "キ、お(きる)、お(こす)",
+      "fr": "se lever"
+     },
+     "card": "起"
     },
     {
      "id": "k4-08-起きる-intrus",
@@ -1023,7 +1570,53 @@
       "早い → はやい",
       "起きる → ききる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{起|お}きる",
+      "kana": "おきる",
+      "fr": "se lever"
+     },
+     "card": "起きる"
+    },
+    {
+     "id": "k4-08-招待-trou",
+     "q": "Complète le mot **しょうたい** (invitation) :",
+     "jp": "招＿",
+     "explain": "{招待|しょうたい} : invitation.",
+     "type": "choice",
+     "choices": [
+      "特",
+      "持",
+      "父",
+      "待"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{招待|しょうたい}",
+      "kana": "しょうたい",
+      "fr": "invitation"
+     },
+     "card": "招待"
+    },
+    {
+     "id": "k4-08-起こす-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{明日|あした}七時に**起こ**してください。",
+     "explain": "**起こ** se lit おこ ici ({起|お}こす : réveiller). « Réveillez-moi à sept heures demain, s'il vous plaît. »",
+     "type": "choice",
+     "choices": [
+      "いこ",
+      "みこ",
+      "だこ",
+      "おこ"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{起|お}こす",
+      "kana": "おこす",
+      "fr": "réveiller"
+     },
+     "card": "起こす"
     }
    ]
   },
@@ -1037,6 +1630,7 @@
       "**On** : カイ　**Kun** : あ(く)、あ(ける)、ひら(く)",
       "Une porte 門 dont on lève la barre : on ouvre."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{開|あ}ける",
@@ -1053,6 +1647,16 @@
      "p": [
       "**On** : イン　**Kun** : ひ(く)",
       "Un arc 弓 et sa corde tendue : on tire."
+     ],
+     "ex": [
+      {
+       "jp": "{鍵|かぎ}は{机|つくえ}の{引|ひ}き{出|だ}しにあります。",
+       "fr": "La clé est dans le tiroir du bureau."
+      },
+      {
+       "jp": "{鍵|かぎ}は{机|つくえ}の{引|ひ}き{出|だ}しに{入|はい}っています。",
+       "fr": "La clé est dans le tiroir du bureau."
+      }
      ],
      "vocab": [
       {
@@ -1075,6 +1679,16 @@
       "**On** : ジ　**Kun** : も(つ)",
       "Une main 扌 et un temple 寺 : on tient bien."
      ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}はいい{気持|きも}ちです。",
+       "fr": "Aujourd'hui, je me sens bien."
+      },
+      {
+       "jp": "{友|とも}だちの{気持|きも}ちがよくわかります。",
+       "fr": "Je comprends bien ce que ressent mon ami."
+      }
+     ],
      "vocab": [
       {
        "jp": "{持|も}つ",
@@ -1096,6 +1710,7 @@
       "**On** : タイ　**Kun** : か(す)",
       "De l'argent 貝 et un remplaçant 代 : on prête."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{貸|か}す",
@@ -1109,6 +1724,7 @@
       "**On** : シャク　**Kun** : か(りる)",
       "Une personne 亻 et autrefois 昔 : on emprunte ce qui servait jadis."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{借|か}りる",
@@ -1121,6 +1737,12 @@
      "p": [
       "**On** : シ　**Kun** : つか(う)",
       "Une personne 亻 et un fonctionnaire 吏 : on l'emploie."
+     ],
+     "ex": [
+      {
+       "jp": "{大使館|たいしかん}でビザをもらいました。",
+       "fr": "J'ai obtenu un visa à l'ambassade."
+      }
      ],
      "vocab": [
       {
@@ -1154,7 +1776,13 @@
       "mère",
       "ouvrir"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "開",
+      "kana": "カイ、あ(く)、あ(ける)、ひら(く)",
+      "fr": "ouvrir"
+     },
+     "card": "開"
     },
     {
      "id": "k4-09-引-sens",
@@ -1168,7 +1796,13 @@
       "s'arrêter",
       "se lever, debout"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "引",
+      "kana": "イン、ひ(く)",
+      "fr": "tirer"
+     },
+     "card": "引"
     },
     {
      "id": "k4-09-持-sens",
@@ -1182,7 +1816,13 @@
       "école",
       "tenir, avoir"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "持",
+      "kana": "ジ、も(つ)",
+      "fr": "tenir, avoir"
+     },
+     "card": "持"
     },
     {
      "id": "k4-09-貸-sens",
@@ -1196,7 +1836,13 @@
       "pied, jambe",
       "passé, dernier"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "貸",
+      "kana": "タイ、か(す)",
+      "fr": "prêter"
+     },
+     "card": "貸"
     },
     {
      "id": "k4-09-借-sens",
@@ -1210,7 +1856,13 @@
       "blanc",
       "attendre"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "借",
+      "kana": "シャク、か(りる)",
+      "fr": "emprunter"
+     },
+     "card": "借"
     },
     {
      "id": "k4-09-使-sens",
@@ -1224,7 +1876,13 @@
       "utiliser",
       "or, argent"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "使",
+      "kana": "シ、つか(う)",
+      "fr": "utiliser"
+     },
+     "card": "使"
     },
     {
      "id": "k4-09-開ける-lecture",
@@ -1237,7 +1895,13 @@
       "あける",
       "えいご"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{開|あ}ける",
+      "kana": "あける",
+      "fr": "ouvrir"
+     },
+     "card": "開ける"
     },
     {
      "id": "k4-09-引く-lecture",
@@ -1250,7 +1914,13 @@
       "ひく",
       "せいねん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{引|ひ}く",
+      "kana": "ひく",
+      "fr": "tirer"
+     },
+     "card": "引く"
     },
     {
      "id": "k4-09-持つ-lecture",
@@ -1263,7 +1933,13 @@
       "じつ",
       "こくみん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{持|も}つ",
+      "kana": "もつ",
+      "fr": "tenir, avoir"
+     },
+     "card": "持つ"
     },
     {
      "id": "k4-09-貸す-lecture",
@@ -1276,7 +1952,13 @@
       "いりぐち",
       "ちち"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{貸|か}す",
+      "kana": "かす",
+      "fr": "prêter"
+     },
+     "card": "貸す"
     },
     {
      "id": "k4-09-借りる-lecture",
@@ -1289,7 +1971,13 @@
       "しゃくりる",
       "はっぴょう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{借|か}りる",
+      "kana": "かりる",
+      "fr": "emprunter"
+     },
+     "card": "借りる"
     },
     {
      "id": "k4-09-使う-lecture",
@@ -1302,7 +1990,13 @@
       "まいあさ",
       "つかう"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{使|つか}う",
+      "kana": "つかう",
+      "fr": "utiliser"
+     },
+     "card": "使う"
     },
     {
      "id": "k4-09-開ける-ecrit",
@@ -1315,7 +2009,13 @@
       "開ける",
       "閉ける"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{開|あ}ける",
+      "kana": "あける",
+      "fr": "ouvrir"
+     },
+     "card": "開ける"
     },
     {
      "id": "k4-09-開ける-phrase",
@@ -1329,7 +2029,13 @@
       "めけ",
       "あけ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{開|あ}ける",
+      "kana": "あける",
+      "fr": "ouvrir"
+     },
+     "card": "開ける"
     },
     {
      "id": "k4-09-開-kanji",
@@ -1342,7 +2048,13 @@
       "開",
       "聞"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "開",
+      "kana": "カイ、あ(く)、あ(ける)、ひら(く)",
+      "fr": "ouvrir"
+     },
+     "card": "開"
     },
     {
      "id": "k4-09-開ける-intrus",
@@ -1355,7 +2067,52 @@
       "気持ち → きもち",
       "開ける → ひらける"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{開|あ}ける",
+      "kana": "あける",
+      "fr": "ouvrir"
+     },
+     "card": "開ける"
+    },
+    {
+     "id": "k4-09-引く-ecrit",
+     "q": "Quel mot s'écrit **ひく** (tirer) ?",
+     "explain": "{引|ひ}く : tirer.",
+     "type": "choice",
+     "choices": [
+      "弓く",
+      "分く",
+      "引く",
+      "弘く"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{引|ひ}く",
+      "kana": "ひく",
+      "fr": "tirer"
+     },
+     "card": "引く"
+    },
+    {
+     "id": "k4-09-開く-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "口を大きく**開**けてください。",
+     "explain": "**開** se lit あ ici ({開|あ}く : s'ouvrir). « Ouvrez grand la bouche, s'il vous plaît. »",
+     "type": "choice",
+     "choices": [
+      "あ",
+      "か",
+      "ち",
+      "わ"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{開|あ}く",
+      "kana": "あく",
+      "fr": "s'ouvrir"
+     },
+     "card": "開く"
     }
    ]
   },
@@ -1368,6 +2125,20 @@
      "p": [
       "**On** : サク、サ　**Kun** : つく(る)",
       "Une personne 亻 et un outil 乍 : on fabrique."
+     ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}に{作文|さくぶん}を{出|だ}しました。",
+       "fr": "J'ai rendu ma rédaction au professeur."
+      },
+      {
+       "jp": "{好|す}きな{作家|さっか}は{誰|だれ}ですか。",
+       "fr": "Qui est ton écrivain préféré ?"
+      },
+      {
+       "jp": "この{本|ほん}の{作家|さっか}はとても{有名|ゆうめい}です。",
+       "fr": "L'auteur de ce livre est très célèbre."
+      }
      ],
      "vocab": [
       {
@@ -1390,6 +2161,16 @@
       "**On** : セン　**Kun** : あら(う)",
       "L'eau 氵 et ce qui est devant 先 : on lave d'abord."
      ],
+     "ex": [
+      {
+       "jp": "すみません、お{手洗|てあら}いはどこですか。",
+       "fr": "Excusez-moi, où sont les toilettes ?"
+      },
+      {
+       "jp": "{日曜日|にちようび}は{洗濯|せんたく}をします。",
+       "fr": "Le dimanche, je fais la lessive."
+      }
+     ],
      "vocab": [
       {
        "jp": "{洗|あら}う",
@@ -1410,6 +2191,20 @@
      "p": [
       "**On** : セツ、サイ　**Kun** : き(る)",
       "Le chiffre sept 七 et un sabre 刀 : on coupe."
+     ],
+     "ex": [
+      {
+       "jp": "{切手|きって}を{三|さん}まい{買|か}いました。",
+       "fr": "J'ai acheté trois timbres."
+      },
+      {
+       "jp": "{毎日|まいにち}の{努力|どりょく}が{大切|たいせつ}です。",
+       "fr": "Les efforts de chaque jour sont importants."
+      },
+      {
+       "jp": "{駅|えき}の{人|ひと}はとても{親切|しんせつ}でした。",
+       "fr": "L'employé de la gare a été très serviable."
+      }
      ],
      "vocab": [
       {
@@ -1436,6 +2231,20 @@
       "**On** : バイ　**Kun** : う(る)",
       "Un lettré 士 qui porte un sac : il vend."
      ],
+     "ex": [
+      {
+       "jp": "{靴|くつ}の{売|う}り{場|ば}は{三階|さんがい}です。",
+       "fr": "Le rayon des chaussures est au troisième étage."
+      },
+      {
+       "jp": "{駅|えき}の{売店|ばいてん}で{新聞|しんぶん}を{買|か}います。",
+       "fr": "J'achète le journal au kiosque de la gare."
+      },
+      {
+       "jp": "{靴|くつ}の{売|う}り{場|ば}は{何階|なんがい}ですか。",
+       "fr": "Le rayon des chaussures est à quel étage ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{売|う}る",
@@ -1456,6 +2265,20 @@
      "p": [
       "**On** : ヨウ　**Kun** : もち(いる)",
       "Une palissade bien construite : un outil prêt à servir."
+     ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{用事|ようじ}があるので{早|はや}く{帰|かえ}ります。",
+       "fr": "Aujourd'hui j'ai une course à faire, je rentre tôt."
+      },
+      {
+       "jp": "{会議|かいぎ}の{資料|しりょう}を{用意|ようい}しました。",
+       "fr": "J'ai préparé les documents de la réunion."
+      },
+      {
+       "jp": "{晩|ばん}ご{飯|はん}の{用意|ようい}ができました。",
+       "fr": "Le dîner est prêt."
+      }
      ],
      "vocab": [
       {
@@ -1478,6 +2301,7 @@
       "**On** : シュウ　**Kun** : あつ(まる)、あつ(める)",
       "Des oiseaux 隹 sur un arbre 木 : ils se rassemblent."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{集|あつ}める",
@@ -1510,7 +2334,13 @@
       "faire, fabriquer",
       "magasin"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "作",
+      "kana": "サク、サ、つく(る)",
+      "fr": "faire, fabriquer"
+     },
+     "card": "作"
     },
     {
      "id": "k4-10-洗-sens",
@@ -1524,7 +2354,13 @@
       "prêter",
       "laver"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "洗",
+      "kana": "セン、あら(う)",
+      "fr": "laver"
+     },
+     "card": "洗"
     },
     {
      "id": "k4-10-切-sens",
@@ -1538,7 +2374,13 @@
       "esprit, énergie",
       "couper"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "切",
+      "kana": "セツ、サイ、き(る)",
+      "fr": "couper"
+     },
+     "card": "切"
     },
     {
      "id": "k4-10-売-sens",
@@ -1552,7 +2394,13 @@
       "marcher",
       "courir"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "売",
+      "kana": "バイ、う(る)",
+      "fr": "vendre"
+     },
+     "card": "売"
     },
     {
      "id": "k4-10-用-sens",
@@ -1566,7 +2414,13 @@
       "usage, affaire",
       "pluie"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "用",
+      "kana": "ヨウ、もち(いる)",
+      "fr": "usage, affaire"
+     },
+     "card": "用"
     },
     {
      "id": "k4-10-集-sens",
@@ -1580,7 +2434,13 @@
       "neuf",
       "rassembler"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "集",
+      "kana": "シュウ、あつ(まる)、あつ(める)",
+      "fr": "rassembler"
+     },
+     "card": "集"
     },
     {
      "id": "k4-10-作る-lecture",
@@ -1593,7 +2453,13 @@
       "みち",
       "さる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{作|つく}る",
+      "kana": "つくる",
+      "fr": "faire, fabriquer"
+     },
+     "card": "作る"
     },
     {
      "id": "k4-10-洗う-lecture",
@@ -1606,7 +2472,13 @@
       "あらう",
       "さかや"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{洗|あら}う",
+      "kana": "あらう",
+      "fr": "laver"
+     },
+     "card": "洗う"
     },
     {
      "id": "k4-10-切る-lecture",
@@ -1619,7 +2491,13 @@
       "さいる",
       "きる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{切|き}る",
+      "kana": "きる",
+      "fr": "couper"
+     },
+     "card": "切る"
     },
     {
      "id": "k4-10-売る-lecture",
@@ -1632,7 +2510,13 @@
       "ばいる",
       "うる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{売|う}る",
+      "kana": "うる",
+      "fr": "vendre"
+     },
+     "card": "売る"
     },
     {
      "id": "k4-10-用事-lecture",
@@ -1645,7 +2529,13 @@
       "ようこと",
       "もちじ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{用事|ようじ}",
+      "kana": "ようじ",
+      "fr": "affaire, course à faire"
+     },
+     "card": "用事"
     },
     {
      "id": "k4-10-集める-lecture",
@@ -1658,7 +2548,13 @@
       "いれる",
       "しゅうめる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{集|あつ}める",
+      "kana": "あつめる",
+      "fr": "rassembler"
+     },
+     "card": "集める"
     },
     {
      "id": "k4-10-作る-ecrit",
@@ -1671,7 +2567,13 @@
       "界る",
       "件る"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{作|つく}る",
+      "kana": "つくる",
+      "fr": "faire, fabriquer"
+     },
+     "card": "作る"
     },
     {
      "id": "k4-10-作る-phrase",
@@ -1685,7 +2587,13 @@
       "はや",
       "たか"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{作|つく}る",
+      "kana": "つくる",
+      "fr": "faire, fabriquer"
+     },
+     "card": "作る"
     },
     {
      "id": "k4-10-作-kanji",
@@ -1698,7 +2606,13 @@
       "件",
       "作"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "作",
+      "kana": "サク、サ、つく(る)",
+      "fr": "faire, fabriquer"
+     },
+     "card": "作"
     },
     {
      "id": "k4-10-作る-intrus",
@@ -1711,7 +2625,53 @@
       "親切 → しんせつ",
       "洗濯 → せんたく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{作|つく}る",
+      "kana": "つくる",
+      "fr": "faire, fabriquer"
+     },
+     "card": "作る"
+    },
+    {
+     "id": "k4-10-お手洗い-trou",
+     "q": "Complète le mot **おてあらい** (toilettes) :",
+     "jp": "お手＿い",
+     "explain": "お{手洗|てあら}い : toilettes.",
+     "type": "choice",
+     "choices": [
+      "洗",
+      "先",
+      "室",
+      "流"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "お{手洗|てあら}い",
+      "kana": "おてあらい",
+      "fr": "toilettes"
+     },
+     "card": "お手洗い"
+    },
+    {
+     "id": "k4-10-作文-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{週末|しゅうまつ}に日本語で**作文**を書きました。",
+     "explain": "**作文** se lit さくぶん ici ({作文|さくぶん} : rédaction). « Ce week-end, j'ai écrit une rédaction en japonais. »",
+     "type": "choice",
+     "choices": [
+      "さくふみ",
+      "つくぶん",
+      "さくもん",
+      "さくぶん"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{作文|さくぶん}",
+      "kana": "さくぶん",
+      "fr": "rédaction"
+     },
+     "card": "作文"
     }
    ]
   }
@@ -1728,7 +2688,13 @@
     "さんある",
     "さんほ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{散歩|さんぽ}",
+    "kana": "さんぽ",
+    "fr": "promenade"
+   },
+   "card": "散歩"
   },
   {
    "id": "k4-b02-歩道-lecture",
@@ -1741,7 +2707,13 @@
     "はるやすみ",
     "ほどう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{歩道|ほどう}",
+    "kana": "ほどう",
+    "fr": "trottoir"
+   },
+   "card": "歩道"
   },
   {
    "id": "k4-b02-止める-lecture",
@@ -1754,7 +2726,13 @@
     "とめる",
     "にほんしゅ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{止|と}める",
+    "kana": "とめる",
+    "fr": "arrêter (qqch)"
+   },
+   "card": "止める"
   },
   {
    "id": "k4-b02-中止-lecture",
@@ -1767,7 +2745,13 @@
     "つき",
     "なかし"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{中止|ちゅうし}",
+    "kana": "ちゅうし",
+    "fr": "annulation"
+   },
+   "card": "中止"
   },
   {
    "id": "k4-b02-進む-ecrit",
@@ -1780,7 +2764,13 @@
     "進む",
     "集む"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{進|すす}む",
+    "kana": "すすむ",
+    "fr": "avancer"
+   },
+   "card": "進む"
   },
   {
    "id": "k4-b02-進学-lecture",
@@ -1793,7 +2783,13 @@
     "すすがく",
     "しんがく"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{進学|しんがく}",
+    "kana": "しんがく",
+    "fr": "poursuivre ses études"
+   },
+   "card": "進学"
   },
   {
    "id": "k4-b02-運転-ecrit",
@@ -1806,7 +2802,13 @@
     "運転",
     "軍転"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{運転|うんてん}",
+    "kana": "うんてん",
+    "fr": "conduite (d'un véhicule)"
+   },
+   "card": "運転"
   },
   {
    "id": "k4-b02-運ぶ-lecture",
@@ -1819,7 +2821,13 @@
     "はこぶ",
     "きょう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{運|はこ}ぶ",
+    "kana": "はこぶ",
+    "fr": "transporter"
+   },
+   "card": "運ぶ"
   },
   {
    "id": "k4-b02-運動-lecture",
@@ -1832,7 +2840,13 @@
     "ゆうじん",
     "うんうご"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{運動|うんどう}",
+    "kana": "うんどう",
+    "fr": "exercice, sport"
+   },
+   "card": "運動"
   },
   {
    "id": "k4-b02-自転車-ecrit",
@@ -1845,7 +2859,13 @@
     "白転車",
     "目転車"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{自転車|じてんしゃ}",
+    "kana": "じてんしゃ",
+    "fr": "vélo"
+   },
+   "card": "自転車"
   },
   {
    "id": "k4-b02-転ぶ-lecture",
@@ -1858,7 +2878,13 @@
     "ころぶ",
     "もくじ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{転|ころ}ぶ",
+    "kana": "ころぶ",
+    "fr": "tomber, trébucher"
+   },
+   "card": "転ぶ"
   },
   {
    "id": "k4-b02-乗り物-lecture",
@@ -1871,7 +2897,13 @@
     "のりもの",
     "うんどう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{乗|の}り{物|もの}",
+    "kana": "のりもの",
+    "fr": "véhicule"
+   },
+   "card": "乗り物"
   },
   {
    "id": "k4-b02-通う-lecture",
@@ -1884,7 +2916,13 @@
     "つうう",
     "かよう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{通|かよ}う",
+    "kana": "かよう",
+    "fr": "fréquenter, faire le trajet"
+   },
+   "card": "通う"
   },
   {
    "id": "k4-b02-交通-lecture",
@@ -1897,7 +2935,13 @@
     "こうつう",
     "だいく"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{交通|こうつう}",
+    "kana": "こうつう",
+    "fr": "circulation"
+   },
+   "card": "交通"
   },
   {
    "id": "k4-b02-送る-ecrit",
@@ -1910,7 +2954,13 @@
     "送る",
     "道る"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{送|おく}る",
+    "kana": "おくる",
+    "fr": "envoyer, raccompagner"
+   },
+   "card": "送る"
   },
   {
    "id": "k4-b02-放送-lecture",
@@ -1923,7 +2973,13 @@
     "ほうそう",
     "かいしゃいん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{放送|ほうそう}",
+    "kana": "ほうそう",
+    "fr": "diffusion (radio, télé)"
+   },
+   "card": "放送"
   },
   {
    "id": "k4-b02-去年-ecrit",
@@ -1936,7 +2992,13 @@
     "法年",
     "云年"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{去年|きょねん}",
+    "kana": "きょねん",
+    "fr": "l'année dernière"
+   },
+   "card": "去年"
   },
   {
    "id": "k4-b02-近く-lecture",
@@ -1949,7 +3011,13 @@
     "ちかく",
     "しゅっぱつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{近|ちか}く",
+    "kana": "ちかく",
+    "fr": "les environs"
+   },
+   "card": "近く"
   },
   {
    "id": "k4-b02-最近-lecture",
@@ -1962,7 +3030,13 @@
     "なんばん",
     "さいちか"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{最近|さいきん}",
+    "kana": "さいきん",
+    "fr": "récemment"
+   },
+   "card": "最近"
   },
   {
    "id": "k4-b02-起こす-lecture",
@@ -1975,7 +3049,13 @@
     "おこす",
     "きこす"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{起|お}こす",
+    "kana": "おこす",
+    "fr": "réveiller"
+   },
+   "card": "起こす"
   },
   {
    "id": "k4-b02-招待-lecture",
@@ -1988,7 +3068,13 @@
     "やすみ",
     "ひとり"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{招待|しょうたい}",
+    "kana": "しょうたい",
+    "fr": "invitation"
+   },
+   "card": "招待"
   },
   {
    "id": "k4-b02-急ぐ-ecrit",
@@ -2001,7 +3087,13 @@
     "急ぐ",
     "息ぐ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{急|いそ}ぐ",
+    "kana": "いそぐ",
+    "fr": "se dépêcher"
+   },
+   "card": "急ぐ"
   },
   {
    "id": "k4-b02-急行-lecture",
@@ -2014,7 +3106,13 @@
     "きゅうこう",
     "さかな"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{急行|きゅうこう}",
+    "kana": "きゅうこう",
+    "fr": "train express"
+   },
+   "card": "急行"
   },
   {
    "id": "k4-b02-急に-lecture",
@@ -2027,7 +3125,13 @@
     "えき",
     "きゅうに"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{急|きゅう}に",
+    "kana": "きゅうに",
+    "fr": "soudain"
+   },
+   "card": "急に"
   },
   {
    "id": "k4-b02-歩く-phrase",
@@ -2041,13 +3145,19 @@
     "なか",
     "かよ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{歩|ある}く",
+    "kana": "あるく",
+    "fr": "marcher"
+   },
+   "card": "歩く"
   },
   {
    "id": "k4-b02-散歩-phrase",
    "q": "Comment se lit le mot en gras ?",
-   "jp": "日曜日の朝は{犬|いぬ}と**散歩**します。",
-   "explain": "**散歩** se lit さんぽ ici ({散歩|さんぽ} : promenade). « Le dimanche matin, je me promène avec le chien. »",
+   "jp": "{昼休|ひるやす}みに{公園|こうえん}を**散歩**します。",
+   "explain": "**散歩** se lit さんぽ ici ({散歩|さんぽ} : promenade). « Je me promène dans le parc pendant la pause de midi. »",
    "type": "choice",
    "choices": [
     "さんぽ",
@@ -2055,7 +3165,13 @@
     "たかい",
     "きょうかい"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{散歩|さんぽ}",
+    "kana": "さんぽ",
+    "fr": "promenade"
+   },
+   "card": "散歩"
   },
   {
    "id": "k4-b02-歩道-phrase",
@@ -2069,7 +3185,13 @@
     "ぽどう",
     "ほみち"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{歩道|ほどう}",
+    "kana": "ほどう",
+    "fr": "trottoir"
+   },
+   "card": "歩道"
   },
   {
    "id": "k4-b02-走る-phrase",
@@ -2083,7 +3205,13 @@
     "まえ",
     "そら"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{走|はし}る",
+    "kana": "はしる",
+    "fr": "courir"
+   },
+   "card": "走る"
   },
   {
    "id": "k4-b02-止まる-phrase",
@@ -2097,7 +3225,13 @@
     "ひま",
     "とま"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{止|と}まる",
+    "kana": "とまる",
+    "fr": "s'arrêter"
+   },
+   "card": "止まる"
   },
   {
    "id": "k4-b02-止める-phrase",
@@ -2111,7 +3245,13 @@
     "もめ",
     "ちめ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{止|と}める",
+    "kana": "とめる",
+    "fr": "arrêter (qqch)"
+   },
+   "card": "止める"
   }
  ],
  "examTest": [
@@ -2127,7 +3267,13 @@
     "すす",
     "ある"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{歩|ある}く",
+    "kana": "あるく",
+    "fr": "marcher"
+   },
+   "card": "歩く"
   },
   {
    "id": "k4-b02x-止まる-phrase",
@@ -2141,7 +3287,33 @@
     "とま",
     "あま"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{止|と}まる",
+    "kana": "とまる",
+    "fr": "s'arrêter"
+   },
+   "card": "止まる"
+  },
+  {
+   "id": "k4-b02x-進む-phrase",
+   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "jp": "この道をまっすぐ**進**んでください。",
+   "explain": "**進** se lit すす ici ({進|すす}む : avancer). « Avancez tout droit sur cette route, s'il vous plaît. »",
+   "type": "choice",
+   "choices": [
+    "いけ",
+    "もち",
+    "ひと",
+    "すす"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{進|すす}む",
+    "kana": "すすむ",
+    "fr": "avancer"
+   },
+   "card": "進む"
   },
   {
    "id": "k4-b02x-運転-phrase",
@@ -2155,7 +3327,13 @@
     "うんてん",
     "けいかく"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{運転|うんてん}",
+    "kana": "うんてん",
+    "fr": "conduite (d'un véhicule)"
+   },
+   "card": "運転"
   },
   {
    "id": "k4-b02x-乗る-phrase",
@@ -2169,7 +3347,13 @@
     "の",
     "て"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{乗|の}る",
+    "kana": "のる",
+    "fr": "monter (dans un véhicule)"
+   },
+   "card": "乗る"
   },
   {
    "id": "k4-b02x-通る-phrase",
@@ -2183,7 +3367,13 @@
     "ちい",
     "めし"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{通|とお}る",
+    "kana": "とおる",
+    "fr": "passer"
+   },
+   "card": "通る"
   },
   {
    "id": "k4-b02x-送る-phrase",
@@ -2197,7 +3387,13 @@
     "おく",
     "みぎ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{送|おく}る",
+    "kana": "おくる",
+    "fr": "envoyer, raccompagner"
+   },
+   "card": "送る"
   },
   {
    "id": "k4-b02x-近い-phrase",
@@ -2211,7 +3407,13 @@
     "なか",
     "あら"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{近|ちか}い",
+    "kana": "ちかい",
+    "fr": "proche"
+   },
+   "card": "近い"
   },
   {
    "id": "k4-b02x-近く-phrase",
@@ -2225,7 +3427,13 @@
     "しろ",
     "あし"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{近|ちか}く",
+    "kana": "ちかく",
+    "fr": "les environs"
+   },
+   "card": "近く"
   },
   {
    "id": "k4-b02x-遠い-phrase",
@@ -2239,7 +3447,13 @@
     "えん",
     "とおい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{遠|とお}い",
+    "kana": "とおい",
+    "fr": "loin"
+   },
+   "card": "遠い"
   },
   {
    "id": "k4-b02x-起きる-phrase",
@@ -2253,7 +3467,13 @@
     "おき",
     "つき"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{起|お}きる",
+    "kana": "おきる",
+    "fr": "se lever"
+   },
+   "card": "起きる"
   },
   {
    "id": "k4-b02x-待つ-phrase",
@@ -2267,21 +3487,13 @@
     "か",
     "あ"
    ],
-   "a": 1
-  },
-  {
-   "id": "k4-b02x-急ぐ-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "時間がないので**急**ぎましょう。",
-   "explain": "**急** se lit いそ ici ({急|いそ}ぐ : se dépêcher). « On n'a pas le temps, dépêchons-nous. »",
-   "type": "choice",
-   "choices": [
-    "よん",
-    "いそ",
-    "かね",
-    "つき"
-   ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{待|ま}つ",
+    "kana": "まつ",
+    "fr": "attendre"
+   },
+   "card": "待つ"
   }
  ]
 }

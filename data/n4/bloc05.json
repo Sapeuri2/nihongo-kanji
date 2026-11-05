@@ -13,6 +13,20 @@
       "**On** : タイ、テイ　**Kun** : からだ",
       "Une personne 亻 et sa racine 本 : le corps."
      ],
+     "ex": [
+      {
+       "jp": "{祖|そ}{母|ぼ}は{体|からだ}が{弱|よわ}いです。",
+       "fr": "Ma grand-mère est de santé fragile."
+      },
+      {
+       "jp": "{宿題|しゅくだい}は{大体|だいたい}{終|お}わりました。",
+       "fr": "J'ai presque fini mes devoirs."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{体重|たいじゅう}を{量|はか}ります。",
+       "fr": "Je me pèse tous les matins."
+      }
+     ],
      "vocab": [
       {
        "jp": "{体|からだ}",
@@ -34,6 +48,20 @@
       "**On** : トウ、ズ　**Kun** : あたま",
       "Un bol 豆 et une tête 頁 : la tête ronde comme un bol."
      ],
+     "ex": [
+      {
+       "jp": "{頭|あたま}がいたいです。",
+       "fr": "J'ai mal à la tête."
+      },
+      {
+       "jp": "{朝|あさ}から{頭痛|ずつう}がします。",
+       "fr": "J'ai mal à la tête depuis ce matin."
+      },
+      {
+       "jp": "{朝|あさ}から{頭|あたま}が{痛|いた}いです。",
+       "fr": "J'ai mal à la tête depuis ce matin."
+      }
+     ],
      "vocab": [
       {
        "jp": "{頭|あたま}",
@@ -50,6 +78,20 @@
      "p": [
       "**On** : ガン　**Kun** : かお",
       "Une belle allure 彦 et une tête 頁 : le visage."
+     ],
+     "ex": [
+      {
+       "jp": "{毎朝|まいあさ}{顔|かお}を{洗|あら}います。",
+       "fr": "Je me lave le visage tous les matins."
+      },
+      {
+       "jp": "{妹|いもうと}はいつも{笑顔|えがお}です。",
+       "fr": "Ma petite sœur a toujours le sourire."
+      },
+      {
+       "jp": "{顔|かお}が{赤|あか}いですよ。{大丈夫|だいじょうぶ}ですか。",
+       "fr": "Tu as le visage tout rouge. Ça va ?"
+      }
      ],
      "vocab": [
       {
@@ -68,6 +110,20 @@
       "**On** : シュ　**Kun** : くび",
       "Des cheveux au-dessus d'un œil 目 : la tête posée sur son cou."
      ],
+     "ex": [
+      {
+       "jp": "{首|くび}が{少|すこ}し{痛|いた}いです。",
+       "fr": "J'ai un peu mal au cou."
+      },
+      {
+       "jp": "{東京|とうきょう}は{日本|にほん}の{首都|しゅと}です。",
+       "fr": "Tokyo est la capitale du Japon."
+      },
+      {
+       "jp": "{首|くび}が{痛|いた}くて{動|うご}けません。",
+       "fr": "J'ai mal au cou, je ne peux pas bouger."
+      }
+     ],
      "vocab": [
       {
        "jp": "{首|くび}",
@@ -84,6 +140,20 @@
      "p": [
       "**On** : シン　**Kun** : こころ",
       "Un cœur avec ses battements."
+     ],
+     "ex": [
+      {
+       "jp": "{試験|しけん}が{心配|しんぱい}です。",
+       "fr": "Je suis inquiet pour l'examen."
+      },
+      {
+       "jp": "{合格|ごうかく}して{安心|あんしん}しました。",
+       "fr": "J'ai été soulagé d'être reçu."
+      },
+      {
+       "jp": "{心配|しんぱい}しないでください。",
+       "fr": "Ne vous inquiétez pas."
+      }
      ],
      "vocab": [
       {
@@ -105,6 +175,20 @@
      "p": [
       "**On** : セイ　**Kun** : こえ",
       "Un lettré 士 et une cloche qui résonne : la voix qui porte."
+     ],
+     "ex": [
+      {
+       "jp": "{大声|おおごえ}で{歌|うた}を{歌|うた}いました。",
+       "fr": "J'ai chanté à pleine voix."
+      },
+      {
+       "jp": "{図書館|としょかん}で{大声|おおごえ}を{出|だ}さないでください。",
+       "fr": "Ne parlez pas fort à la bibliothèque."
+      },
+      {
+       "jp": "{低|ひく}い{声|こえ}で{話|はな}してください。",
+       "fr": "Parlez à voix basse, s'il vous plaît."
+      }
      ],
      "vocab": [
       {
@@ -128,7 +212,7 @@
    "exercises": [
     {
      "id": "k4-21-体-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "体",
      "explain": "**体** : corps. Une personne 亻 et sa racine 本 : le corps.",
      "type": "choice",
@@ -138,11 +222,17 @@
       "livre, origine",
       "corps"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "体",
+      "kana": "タイ、テイ、からだ",
+      "fr": "corps"
+     },
+     "card": "体"
     },
     {
      "id": "k4-21-頭-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "頭",
      "explain": "**頭** : tête. Un bol 豆 et une tête 頁 : la tête ronde comme un bol.",
      "type": "choice",
@@ -152,11 +242,17 @@
       "acheter",
       "tête"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "頭",
+      "kana": "トウ、ズ、あたま",
+      "fr": "tête"
+     },
+     "card": "頭"
     },
     {
      "id": "k4-21-顔-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "顔",
      "explain": "**顔** : visage. Une belle allure 彦 et une tête 頁 : le visage.",
      "type": "choice",
@@ -166,11 +262,17 @@
       "chanson, chanter",
       "jour de la semaine"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "顔",
+      "kana": "ガン、かお",
+      "fr": "visage"
+     },
+     "card": "顔"
     },
     {
      "id": "k4-21-首-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "首",
      "explain": "**首** : cou. Des cheveux au-dessus d'un œil 目 : la tête posée sur son cou.",
      "type": "choice",
@@ -180,11 +282,17 @@
       "dehors",
       "remplacer, époque, prix"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "首",
+      "kana": "シュ、くび",
+      "fr": "cou"
+     },
+     "card": "首"
     },
     {
      "id": "k4-21-心-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "心",
      "explain": "**心** : cœur. Un cœur avec ses battements.",
      "type": "choice",
@@ -194,11 +302,17 @@
       "cœur",
       "bois, bosquet"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "心",
+      "kana": "シン、こころ",
+      "fr": "cœur"
+     },
+     "card": "心"
     },
     {
      "id": "k4-21-声-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "声",
      "explain": "**声** : voix. Un lettré 士 et une cloche qui résonne : la voix qui porte.",
      "type": "choice",
@@ -208,11 +322,17 @@
       "rivière",
       "chaud (temps)"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "声",
+      "kana": "セイ、こえ",
+      "fr": "voix"
+     },
+     "card": "声"
     },
     {
      "id": "k4-21-体-lecture",
-     "q": "Comment se lit **体** ?",
+     "q": "**体**の{読|よ}み{方|かた}は？",
      "explain": "{体|からだ} : corps.",
      "type": "choice",
      "choices": [
@@ -221,11 +341,17 @@
       "ふゆ",
       "むっつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{体|からだ}",
+      "kana": "からだ",
+      "fr": "corps"
+     },
+     "card": "体"
     },
     {
      "id": "k4-21-頭-lecture",
-     "q": "Comment se lit **頭** ?",
+     "q": "**頭**の{読|よ}み{方|かた}は？",
      "explain": "{頭|あたま} : tête.",
      "type": "choice",
      "choices": [
@@ -234,11 +360,17 @@
       "しみん",
       "らいねん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{頭|あたま}",
+      "kana": "あたま",
+      "fr": "tête"
+     },
+     "card": "頭"
     },
     {
      "id": "k4-21-顔-lecture",
-     "q": "Comment se lit **顔** ?",
+     "q": "**顔**の{読|よ}み{方|かた}は？",
      "explain": "{顔|かお} : visage.",
      "type": "choice",
      "choices": [
@@ -247,11 +379,17 @@
       "ぎんいろ",
       "はっせん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{顔|かお}",
+      "kana": "かお",
+      "fr": "visage"
+     },
+     "card": "顔"
     },
     {
      "id": "k4-21-首-lecture",
-     "q": "Comment se lit **首** ?",
+     "q": "**首**の{読|よ}み{方|かた}は？",
      "explain": "{首|くび} : cou.",
      "type": "choice",
      "choices": [
@@ -260,11 +398,17 @@
       "くび",
       "だいがく"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{首|くび}",
+      "kana": "くび",
+      "fr": "cou"
+     },
+     "card": "首"
     },
     {
      "id": "k4-21-安心-lecture",
-     "q": "Comment se lit **安心** ?",
+     "q": "**安心**の{読|よ}み{方|かた}は？",
      "explain": "{安心|あんしん} : être rassuré.",
      "type": "choice",
      "choices": [
@@ -273,11 +417,17 @@
       "やすしん",
       "あんしん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{安心|あんしん}",
+      "kana": "あんしん",
+      "fr": "être rassuré"
+     },
+     "card": "安心"
     },
     {
      "id": "k4-21-声-lecture",
-     "q": "Comment se lit **声** ?",
+     "q": "**声**の{読|よ}み{方|かた}は？",
      "explain": "{声|こえ} : voix.",
      "type": "choice",
      "choices": [
@@ -286,11 +436,17 @@
       "なんじ",
       "おこす"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{声|こえ}",
+      "kana": "こえ",
+      "fr": "voix"
+     },
+     "card": "声"
     },
     {
      "id": "k4-21-大体-trou",
-     "q": "Complète le mot **だいたい** (environ, en gros) :",
+     "q": "**だいたい**（environ, en gros）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "大＿",
      "explain": "{大体|だいたい} : environ, en gros.",
      "type": "choice",
@@ -300,11 +456,17 @@
       "食",
       "休"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{大体|だいたい}",
+      "kana": "だいたい",
+      "fr": "environ, en gros"
+     },
+     "card": "大体"
     },
     {
      "id": "k4-21-体-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**体**に気をつけてください。",
      "explain": "**体** se lit からだ ici ({体|からだ} : corps). « Prenez soin de vous. »",
      "type": "choice",
@@ -314,11 +476,17 @@
       "なんぷん",
       "さんぽ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{体|からだ}",
+      "kana": "からだ",
+      "fr": "corps"
+     },
+     "card": "体"
     },
     {
      "id": "k4-21-体-kanji",
-     "q": "Quel kanji veut dire « corps » ?",
+     "q": "「corps」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**体** : corps. Une personne 亻 et sa racine 本 : le corps.",
      "type": "choice",
      "choices": [
@@ -327,11 +495,17 @@
       "校",
       "休"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "体",
+      "kana": "タイ、テイ、からだ",
+      "fr": "corps"
+     },
+     "card": "体"
     },
     {
      "id": "k4-21-大体-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{大体|だいたい} se lit だいたい, pas だいてい.",
      "type": "choice",
      "choices": [
@@ -340,7 +514,53 @@
       "笑顔 → えがお",
       "大体 → だいてい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{大体|だいたい}",
+      "kana": "だいたい",
+      "fr": "environ, en gros"
+     },
+     "card": "大体"
+    },
+    {
+     "id": "k4-21-頭痛-trou",
+     "q": "**ずつう**（mal de tête）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "頭＿",
+     "explain": "{頭痛|ずつう} : mal de tête.",
+     "type": "choice",
+     "choices": [
+      "物",
+      "究",
+      "痛",
+      "市"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{頭痛|ずつう}",
+      "kana": "ずつう",
+      "fr": "mal de tête"
+     },
+     "card": "頭痛"
+    },
+    {
+     "id": "k4-21-頭-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**頭**がいたいです。",
+     "explain": "**頭** se lit あたま ici ({頭|あたま} : tête). « J'ai mal à la tête. »",
+     "type": "choice",
+     "choices": [
+      "さんぽ",
+      "なつやすみ",
+      "やすむ",
+      "あたま"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{頭|あたま}",
+      "kana": "あたま",
+      "fr": "tête"
+     },
+     "card": "頭"
     }
    ]
   },
@@ -353,6 +573,20 @@
      "p": [
       "**On** : ビョウ　**Kun** : やまい",
       "Un lit de malade 疒 et une flamme 丙 : la fièvre."
+     ],
+     "ex": [
+      {
+       "jp": "{病気|びょうき}で{学校|がっこう}を{休|やす}みました。",
+       "fr": "J'ai manqué l'école parce que j'étais malade."
+      },
+      {
+       "jp": "{病院|びょういん}は{何時|なんじ}までですか。",
+       "fr": "Jusqu'à quelle heure l'hôpital est-il ouvert ?"
+      },
+      {
+       "jp": "{病院|びょういん}で{薬|くすり}をもらいました。",
+       "fr": "On m'a donné des médicaments à l'hôpital."
+      }
      ],
      "vocab": [
       {
@@ -370,6 +604,20 @@
      "p": [
       "**On** : イ　**Kun** : —",
       "Une flèche 矢 rangée dans une boîte 匚 : on soigne la blessure."
+     ],
+     "ex": [
+      {
+       "jp": "{歯医者|はいしゃ}に{行|い}くのが{嫌|きら}いです。",
+       "fr": "Je déteste aller chez le dentiste."
+      },
+      {
+       "jp": "{姉|あね}は{大学|だいがく}で{医学|いがく}を{勉強|べんきょう}しています。",
+       "fr": "Ma grande sœur étudie la médecine à l'université."
+      },
+      {
+       "jp": "{兄|あに}は{病院|びょういん}で{医者|いしゃ}をしています。",
+       "fr": "Mon grand frère est médecin à l'hôpital."
+      }
      ],
      "vocab": [
       {
@@ -392,6 +640,20 @@
       "**On** : ヤク　**Kun** : くすり",
       "L'herbe 艹 et la musique 楽 : la plante qui fait du bien."
      ],
+     "ex": [
+      {
+       "jp": "{病院|びょういん}で{薬|くすり}をもらいました。",
+       "fr": "On m'a donné des médicaments à l'hôpital."
+      },
+      {
+       "jp": "{駅|えき}の{前|まえ}に{薬局|やっきょく}があります。",
+       "fr": "Il y a une pharmacie devant la gare."
+      },
+      {
+       "jp": "{薬|くすり}を{飲|の}まなければなりません。",
+       "fr": "Je dois prendre un médicament."
+      }
+     ],
      "vocab": [
       {
        "jp": "{薬|くすり}",
@@ -409,6 +671,12 @@
       "**On** : シ　**Kun** : し(ぬ)",
       "Un os 歹 et une personne courbée 匕 : la mort."
      ],
+     "ex": [
+      {
+       "jp": "{死|し}ぬまでに{一度|いちど}{富士山|ふじさん}に{登|のぼ}りたいです。",
+       "fr": "Avant de mourir, je voudrais gravir le mont Fuji une fois."
+      }
+     ],
      "vocab": [
       {
        "jp": "{死|し}ぬ",
@@ -421,6 +689,20 @@
      "p": [
       "**On** : ゲン、ガン　**Kun** : もと",
       "Deux traits au-dessus de jambes 儿 : la tête, le début."
+     ],
+     "ex": [
+      {
+       "jp": "お{元気|げんき}ですか。",
+       "fr": "Comment allez-vous ?"
+      },
+      {
+       "jp": "{元日|がんじつ}に{家族|かぞく}で{寺|てら}へ{行|い}きました。",
+       "fr": "Le jour de l'an, je suis allé au temple en famille."
+      },
+      {
+       "jp": "お{正月|しょうがつ}は{地元|じもと}に{帰|かえ}ります。",
+       "fr": "Pour le Nouvel An, je rentre dans ma région natale."
+      }
      ],
      "vocab": [
       {
@@ -442,6 +724,20 @@
      "p": [
       "**On** : リョク、リキ　**Kun** : ちから",
       "Un bras musclé."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{力|ちから}が{強|つよ}いです。",
+       "fr": "Mon grand frère est fort."
+      },
+      {
+       "jp": "{皆|みな}さんのご{協力|きょうりょく}をお{願|ねが}いします。",
+       "fr": "Je compte sur la coopération de tout le monde."
+      },
+      {
+       "jp": "{毎日|まいにち}の{努力|どりょく}が{大切|たいせつ}です。",
+       "fr": "Les efforts de chaque jour sont importants."
+      }
      ],
      "vocab": [
       {
@@ -467,7 +763,7 @@
    "exercises": [
     {
      "id": "k4-22-病-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "病",
      "explain": "**病** : maladie. Un lit de malade 疒 et une flamme 丙 : la fièvre.",
      "type": "choice",
@@ -477,11 +773,17 @@
       "chose, affaire",
       "rivière"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "病",
+      "kana": "ビョウ、やまい",
+      "fr": "maladie"
+     },
+     "card": "病"
     },
     {
      "id": "k4-22-医-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "医",
      "explain": "**医** : médecine. Une flèche 矢 rangée dans une boîte 匚 : on soigne la blessure.",
      "type": "choice",
@@ -491,11 +793,17 @@
       "droite",
       "poisson"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "医",
+      "kana": "イ",
+      "fr": "médecine"
+     },
+     "card": "医"
     },
     {
      "id": "k4-22-薬-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "薬",
      "explain": "**薬** : médicament. L'herbe 艹 et la musique 楽 : la plante qui fait du bien.",
      "type": "choice",
@@ -505,11 +813,17 @@
       "rizière",
       "médicament"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "薬",
+      "kana": "ヤク、くすり",
+      "fr": "médicament"
+     },
+     "card": "薬"
     },
     {
      "id": "k4-22-死-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "死",
      "explain": "**死** : mort. Un os 歹 et une personne courbée 匕 : la mort.",
      "type": "choice",
@@ -519,11 +833,17 @@
       "année",
       "six"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "死",
+      "kana": "シ、し(ぬ)",
+      "fr": "mort"
+     },
+     "card": "死"
     },
     {
      "id": "k4-22-元-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "元",
      "explain": "**元** : origine, énergie. Deux traits au-dessus de jambes 儿 : la tête, le début.",
      "type": "choice",
@@ -533,11 +853,17 @@
       "neuf",
       "personne"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "元",
+      "kana": "ゲン、ガン、もと",
+      "fr": "origine, énergie"
+     },
+     "card": "元"
     },
     {
      "id": "k4-22-力-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "力",
      "explain": "**力** : force. Un bras musclé.",
      "type": "choice",
@@ -547,24 +873,17 @@
       "travailler",
       "mesurer, compter"
      ],
-     "a": 0
-    },
-    {
-     "id": "k4-22-病気-lecture",
-     "q": "Comment se lit **病気** ?",
-     "explain": "{病気|びょうき} : maladie.",
-     "type": "choice",
-     "choices": [
-      "やまいき",
-      "かいしゃ",
-      "びょうき",
-      "びょうけ"
-     ],
-     "a": 2
+     "a": 0,
+     "star": {
+      "jp": "力",
+      "kana": "リョク、リキ、ちから",
+      "fr": "force"
+     },
+     "card": "力"
     },
     {
      "id": "k4-22-医学-lecture",
-     "q": "Comment se lit **医学** ?",
+     "q": "**医学**の{読|よ}み{方|かた}は？",
      "explain": "{医学|いがく} : médecine.",
      "type": "choice",
      "choices": [
@@ -573,11 +892,17 @@
       "きんようび",
       "いがく"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{医学|いがく}",
+      "kana": "いがく",
+      "fr": "médecine"
+     },
+     "card": "医学"
     },
     {
      "id": "k4-22-薬-lecture",
-     "q": "Comment se lit **薬** ?",
+     "q": "**薬**の{読|よ}み{方|かた}は？",
      "explain": "{薬|くすり} : médicament.",
      "type": "choice",
      "choices": [
@@ -586,11 +911,17 @@
       "くすり",
       "あき"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{薬|くすり}",
+      "kana": "くすり",
+      "fr": "médicament"
+     },
+     "card": "薬"
     },
     {
      "id": "k4-22-死ぬ-lecture",
-     "q": "Comment se lit **死ぬ** ?",
+     "q": "**死ぬ**の{読|よ}み{方|かた}は？",
      "explain": "{死|し}ぬ : mourir.",
      "type": "choice",
      "choices": [
@@ -599,11 +930,17 @@
       "ほんや",
       "しぬ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{死|し}ぬ",
+      "kana": "しぬ",
+      "fr": "mourir"
+     },
+     "card": "死ぬ"
     },
     {
      "id": "k4-22-元日-lecture",
-     "q": "Comment se lit **元日** ?",
+     "q": "**元日**の{読|よ}み{方|かた}は？",
      "explain": "{元日|がんじつ} : jour de l'an.",
      "type": "choice",
      "choices": [
@@ -612,11 +949,17 @@
       "なんじ",
       "がんじつ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{元日|がんじつ}",
+      "kana": "がんじつ",
+      "fr": "jour de l'an"
+     },
+     "card": "元日"
     },
     {
      "id": "k4-22-協力-lecture",
-     "q": "Comment se lit **協力** ?",
+     "q": "**協力**の{読|よ}み{方|かた}は？",
      "explain": "{協力|きょうりょく} : coopération.",
      "type": "choice",
      "choices": [
@@ -625,11 +968,17 @@
       "きょうりき",
       "きょうりょく"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{協力|きょうりょく}",
+      "kana": "きょうりょく",
+      "fr": "coopération"
+     },
+     "card": "協力"
     },
     {
      "id": "k4-22-病気-trou",
-     "q": "Complète le mot **びょうき** (maladie) :",
+     "q": "**びょうき**（maladie）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "病＿",
      "explain": "{病気|びょうき} : maladie.",
      "type": "choice",
@@ -639,11 +988,17 @@
       "水",
       "赤"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{病気|びょうき}",
+      "kana": "びょうき",
+      "fr": "maladie"
+     },
+     "card": "病気"
     },
     {
      "id": "k4-22-病気-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "父は**病気**で会社を休みました。",
      "explain": "**病気** se lit びょうき ici ({病気|びょうき} : maladie). « Mon père était malade et n'est pas allé au travail. »",
      "type": "choice",
@@ -653,11 +1008,17 @@
       "まいばん",
       "ぎんこう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{病気|びょうき}",
+      "kana": "びょうき",
+      "fr": "maladie"
+     },
+     "card": "病気"
     },
     {
      "id": "k4-22-病-kanji",
-     "q": "Quel kanji veut dire « maladie » ?",
+     "q": "「maladie」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**病** : maladie. Un lit de malade 疒 et une flamme 丙 : la fièvre.",
      "type": "choice",
      "choices": [
@@ -666,11 +1027,17 @@
       "朝",
       "疲"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "病",
+      "kana": "ビョウ、やまい",
+      "fr": "maladie"
+     },
+     "card": "病"
     },
     {
      "id": "k4-22-病気-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{病気|びょうき} se lit びょうき, pas びょうけ.",
      "type": "choice",
      "choices": [
@@ -679,7 +1046,72 @@
       "薬 → くすり",
       "歯医者 → はいしゃ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{病気|びょうき}",
+      "kana": "びょうき",
+      "fr": "maladie"
+     },
+     "card": "病気"
+    },
+    {
+     "id": "k4-22-医学-trou",
+     "q": "**いがく**（médecine）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "医＿",
+     "explain": "{医学|いがく} : médecine.",
+     "type": "choice",
+     "choices": [
+      "万",
+      "左",
+      "学",
+      "字"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{医学|いがく}",
+      "kana": "いがく",
+      "fr": "médecine"
+     },
+     "card": "医学"
+    },
+    {
+     "id": "k4-22-病院-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**病院**で{薬|くすり}をもらいました。",
+     "explain": "**病院** se lit びょういん ici ({病院|びょういん} : hôpital). « On m'a donné des médicaments à l'hôpital. »",
+     "type": "choice",
+     "choices": [
+      "かく",
+      "ことし",
+      "とけい",
+      "びょういん"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{病院|びょういん}",
+      "kana": "びょういん",
+      "fr": "hôpital"
+     },
+     "card": "病院"
+    },
+    {
+     "id": "k4-22-医-kanji",
+     "q": "「médecine」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**医** : médecine. Une flèche 矢 rangée dans une boîte 匚 : on soigne la blessure.",
+     "type": "choice",
+     "choices": [
+      "医",
+      "矢",
+      "家",
+      "区"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "医",
+      "kana": "イ",
+      "fr": "médecine"
+     },
+     "card": "医"
     }
    ]
   },
@@ -692,6 +1124,20 @@
      "p": [
       "**On** : ケイ、キョウ　**Kun** : あに",
       "Une grande bouche 口 sur des jambes 儿 : l'aîné qui donne les ordres."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{会社員|かいしゃいん}です。",
+       "fr": "Mon grand frère est employé de bureau."
+      },
+      {
+       "jp": "{山田|やまだ}さんのお{兄|にい}さんは{医者|いしゃ}です。",
+       "fr": "Le grand frère de M. Yamada est médecin."
+      },
+      {
+       "jp": "{兄弟|きょうだい}は{何人|なんにん}いますか。",
+       "fr": "Combien de frères et sœurs as-tu ?"
+      }
      ],
      "vocab": [
       {
@@ -714,6 +1160,20 @@
       "**On** : ダイ、テイ　**Kun** : おとうと",
       "Une corde enroulée autour d'un bâton, du haut vers le bas : le cadet."
      ],
+     "ex": [
+      {
+       "jp": "{弟|おとうと}は{高校生|こうこうせい}です。",
+       "fr": "Mon petit frère est lycéen."
+      },
+      {
+       "jp": "{兄弟|きょうだい}は{何人|なんにん}いますか。",
+       "fr": "Combien de frères et sœurs as-tu ?"
+      },
+      {
+       "jp": "{弟|おとうと}はまだねています。",
+       "fr": "Mon petit frère dort encore."
+      }
+     ],
      "vocab": [
       {
        "jp": "{弟|おとうと}",
@@ -730,6 +1190,20 @@
      "p": [
       "**On** : シ　**Kun** : あね",
       "Une femme 女 et la ville 市 : la grande sœur qui va au marché."
+     ],
+     "ex": [
+      {
+       "jp": "{姉|あね}は{会社員|かいしゃいん}です。",
+       "fr": "Ma grande sœur est employée de bureau."
+      },
+      {
+       "jp": "お{姉|ねえ}さんはお{元気|げんき}ですか。",
+       "fr": "Votre grande sœur va bien ?"
+      },
+      {
+       "jp": "{姉|あね}は{二十五|にじゅうご}さいです。",
+       "fr": "Ma grande sœur a vingt-cinq ans."
+      }
      ],
      "vocab": [
       {
@@ -748,6 +1222,20 @@
       "**On** : マイ　**Kun** : いもうと",
       "Une femme 女 et pas encore 未 : la petite sœur, pas encore grande."
      ],
+     "ex": [
+      {
+       "jp": "{妹|いもうと}はまだ{小学生|しょうがくせい}です。",
+       "fr": "Ma petite sœur est encore à l'école primaire."
+      },
+      {
+       "jp": "{妹|いもうと}は{猫|ねこ}が{大好|だいす}きです。",
+       "fr": "Ma petite sœur adore les chats."
+      },
+      {
+       "jp": "{妹|いもうと}さんは{何歳|なんさい}ですか。",
+       "fr": "Quel âge a ta petite sœur ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{妹|いもうと}",
@@ -764,6 +1252,20 @@
      "p": [
       "**On** : シン　**Kun** : おや、した(しい)",
       "Debout 立 sur un arbre 木 pour regarder 見 : le parent qui veille."
+     ],
+     "ex": [
+      {
+       "jp": "{親|おや}に{電話|でんわ}をかけました。",
+       "fr": "J'ai téléphoné à mes parents."
+      },
+      {
+       "jp": "{両親|りょうしん}は{大阪|おおさか}に{住|す}んでいます。",
+       "fr": "Mes parents habitent à Osaka."
+      },
+      {
+       "jp": "{駅|えき}の{人|ひと}はとても{親切|しんせつ}でした。",
+       "fr": "L'employé de la gare a été très serviable."
+      }
      ],
      "vocab": [
       {
@@ -786,6 +1288,20 @@
       "**On** : ゾク　**Kun** : —",
       "Une bannière 方 et une flèche 矢 : le clan réuni sous son drapeau."
      ],
+     "ex": [
+      {
+       "jp": "{家族|かぞく}は{四人|よにん}です。",
+       "fr": "Nous sommes quatre dans ma famille."
+      },
+      {
+       "jp": "{家族|かぞく}は{何人|なんにん}ですか。",
+       "fr": "Combien êtes-vous dans votre famille ?"
+      },
+      {
+       "jp": "これは{家族|かぞく}の{写真|しゃしん}です。",
+       "fr": "C'est une photo de ma famille."
+      }
+     ],
      "vocab": [
       {
        "jp": "{家族|かぞく}",
@@ -804,7 +1320,7 @@
    "exercises": [
     {
      "id": "k4-23-兄-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "兄",
      "explain": "**兄** : grand frère. Une grande bouche 口 sur des jambes 儿 : l'aîné qui donne les ordres.",
      "type": "choice",
@@ -814,11 +1330,17 @@
       "son",
       "répondre"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "兄",
+      "kana": "ケイ、キョウ、あに",
+      "fr": "grand frère"
+     },
+     "card": "兄"
     },
     {
      "id": "k4-23-弟-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "弟",
      "explain": "**弟** : petit frère. Une corde enroulée autour d'un bâton, du haut vers le bas : le cadet.",
      "type": "choice",
@@ -828,11 +1350,17 @@
       "petit frère",
       "sujet, titre"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "弟",
+      "kana": "ダイ、テイ、おとうと",
+      "fr": "petit frère"
+     },
+     "card": "弟"
     },
     {
      "id": "k4-23-姉-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "姉",
      "explain": "**姉** : grande sœur. Une femme 女 et la ville 市 : la grande sœur qui va au marché.",
      "type": "choice",
@@ -842,11 +1370,17 @@
       "grande sœur",
       "rivière"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "姉",
+      "kana": "シ、あね",
+      "fr": "grande sœur"
+     },
+     "card": "姉"
     },
     {
      "id": "k4-23-妹-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "妹",
      "explain": "**妹** : petite sœur. Une femme 女 et pas encore 未 : la petite sœur, pas encore grande.",
      "type": "choice",
@@ -856,11 +1390,17 @@
       "un",
       "grand frère"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "妹",
+      "kana": "マイ、いもうと",
+      "fr": "petite sœur"
+     },
+     "card": "妹"
     },
     {
      "id": "k4-23-親-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "親",
      "explain": "**親** : parent, intime. Debout 立 sur un arbre 木 pour regarder 見 : le parent qui veille.",
      "type": "choice",
@@ -870,11 +1410,17 @@
       "passé, dernier",
       "parent, intime"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "親",
+      "kana": "シン、おや、した(しい)",
+      "fr": "parent, intime"
+     },
+     "card": "親"
     },
     {
      "id": "k4-23-族-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "族",
      "explain": "**族** : famille, clan. Une bannière 方 et une flèche 矢 : le clan réuni sous son drapeau.",
      "type": "choice",
@@ -884,11 +1430,17 @@
       "plan, schéma",
       "famille, clan"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "族",
+      "kana": "ゾク",
+      "fr": "famille, clan"
+     },
+     "card": "族"
     },
     {
      "id": "k4-23-兄-lecture",
-     "q": "Comment se lit **兄** ?",
+     "q": "**兄**の{読|よ}み{方|かた}は？",
      "explain": "{兄|あに} : (mon) grand frère.",
      "type": "choice",
      "choices": [
@@ -897,11 +1449,17 @@
       "もくじ",
       "しろい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{兄|あに}",
+      "kana": "あに",
+      "fr": "(mon) grand frère"
+     },
+     "card": "兄"
     },
     {
      "id": "k4-23-弟-lecture",
-     "q": "Comment se lit **弟** ?",
+     "q": "**弟**の{読|よ}み{方|かた}は？",
      "explain": "{弟|おとうと} : petit frère.",
      "type": "choice",
      "choices": [
@@ -910,11 +1468,17 @@
       "かた",
       "いしゃ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{弟|おとうと}",
+      "kana": "おとうと",
+      "fr": "petit frère"
+     },
+     "card": "弟"
     },
     {
      "id": "k4-23-姉-lecture",
-     "q": "Comment se lit **姉** ?",
+     "q": "**姉**の{読|よ}み{方|かた}は？",
      "explain": "{姉|あね} : (ma) grande sœur.",
      "type": "choice",
      "choices": [
@@ -923,11 +1487,17 @@
       "じょうず",
       "あね"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{姉|あね}",
+      "kana": "あね",
+      "fr": "(ma) grande sœur"
+     },
+     "card": "姉"
     },
     {
      "id": "k4-23-妹-lecture",
-     "q": "Comment se lit **妹** ?",
+     "q": "**妹**の{読|よ}み{方|かた}は？",
      "explain": "{妹|いもうと} : petite sœur.",
      "type": "choice",
      "choices": [
@@ -936,11 +1506,17 @@
       "いもうと",
       "うんてんしゅ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{妹|いもうと}",
+      "kana": "いもうと",
+      "fr": "petite sœur"
+     },
+     "card": "妹"
     },
     {
      "id": "k4-23-親-lecture",
-     "q": "Comment se lit **親** ?",
+     "q": "**親**の{読|よ}み{方|かた}は？",
      "explain": "{親|おや} : parent.",
      "type": "choice",
      "choices": [
@@ -949,11 +1525,17 @@
       "おや",
       "けいけん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{親|おや}",
+      "kana": "おや",
+      "fr": "parent"
+     },
+     "card": "親"
     },
     {
      "id": "k4-23-お兄さん-ecrit",
-     "q": "Quel mot s'écrit **おにいさん** (grand frère) ?",
+     "q": "**おにいさん**（grand frère）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "お{兄|にい}さん : grand frère.",
      "type": "choice",
      "choices": [
@@ -962,11 +1544,17 @@
       "お兄さん",
       "お元さん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "お{兄|にい}さん",
+      "kana": "おにいさん",
+      "fr": "grand frère"
+     },
+     "card": "お兄さん"
     },
     {
      "id": "k4-23-兄-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**兄**は会社員です。",
      "explain": "**兄** se lit あに ici ({兄|あに} : (mon) grand frère). « Mon grand frère est employé de bureau. »",
      "type": "choice",
@@ -976,11 +1564,17 @@
       "あに",
       "しょくどう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{兄|あに}",
+      "kana": "あに",
+      "fr": "(mon) grand frère"
+     },
+     "card": "兄"
     },
     {
      "id": "k4-23-兄-kanji",
-     "q": "Quel kanji veut dire « grand frère » ?",
+     "q": "「grand frère」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**兄** : grand frère. Une grande bouche 口 sur des jambes 儿 : l'aîné qui donne les ordres.",
      "type": "choice",
      "choices": [
@@ -989,11 +1583,17 @@
       "足",
       "物"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "兄",
+      "kana": "ケイ、キョウ、あに",
+      "fr": "grand frère"
+     },
+     "card": "兄"
     },
     {
      "id": "k4-23-お兄さん-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "お{兄|にい}さん se lit おにいさん, pas おあにさん.",
      "type": "choice",
      "choices": [
@@ -1002,11 +1602,17 @@
       "お兄さん → おあにさん",
       "姉妹 → しまい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "お{兄|にい}さん",
+      "kana": "おにいさん",
+      "fr": "grand frère"
+     },
+     "card": "お兄さん"
     },
     {
      "id": "k4-23-弟-ecrit",
-     "q": "Quel mot s'écrit **おとうと** (petit frère) ?",
+     "q": "**おとうと**（petit frère）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{弟|おとうと} : petit frère.",
      "type": "choice",
      "choices": [
@@ -1015,7 +1621,52 @@
       "弔",
       "第"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{弟|おとうと}",
+      "kana": "おとうと",
+      "fr": "petit frère"
+     },
+     "card": "弟"
+    },
+    {
+     "id": "k4-23-お兄さん-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "山田さんの**お兄さん**は{医者|いしゃ}です。",
+     "explain": "**お兄さん** se lit おにいさん ici (お{兄|にい}さん : grand frère). « Le grand frère de M. Yamada est médecin. »",
+     "type": "choice",
+     "choices": [
+      "おきょうさん",
+      "おにいさん",
+      "おけいさん",
+      "おあにさん"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "お{兄|にい}さん",
+      "kana": "おにいさん",
+      "fr": "grand frère"
+     },
+     "card": "お兄さん"
+    },
+    {
+     "id": "k4-23-弟-kanji",
+     "q": "「petit frère」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**弟** : petit frère. Une corde enroulée autour d'un bâton, du haut vers le bas : le cadet.",
+     "type": "choice",
+     "choices": [
+      "第",
+      "弔",
+      "曜",
+      "弟"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "弟",
+      "kana": "ダイ、テイ、おとうと",
+      "fr": "petit frère"
+     },
+     "card": "弟"
     }
    ]
   },
@@ -1028,6 +1679,20 @@
      "p": [
       "**On** : ジュウ　**Kun** : す(む)",
       "Une personne 亻 et un maître 主 : celle qui habite là."
+     ],
+     "ex": [
+      {
+       "jp": "{一人|ひとり}で{住|す}むのは{不安|ふあん}です。",
+       "fr": "Vivre seul m'inquiète."
+      },
+      {
+       "jp": "{区役所|くやくしょ}で{住所|じゅうしょ}を{変|か}えました。",
+       "fr": "J'ai changé mon adresse à la mairie d'arrondissement."
+      },
+      {
+       "jp": "ここに{住所|じゅうしょ}を{書|か}いてください。",
+       "fr": "Écrivez votre adresse ici, s'il vous plaît."
+      }
      ],
      "vocab": [
       {
@@ -1046,6 +1711,20 @@
       "**On** : フク　**Kun** : —",
       "Une barque 月 et une main qui l'ajuste : le vêtement qui s'ajuste au corps."
      ],
+     "ex": [
+      {
+       "jp": "{新|あたら}しい{服|ふく}を{買|か}いました。",
+       "fr": "J'ai acheté de nouveaux vêtements."
+      },
+      {
+       "jp": "{新|あたら}しい{洋服|ようふく}を{買|か}いに{行|い}きます。",
+       "fr": "Je vais acheter de nouveaux vêtements."
+      },
+      {
+       "jp": "この{服|ふく}は{私|わたし}に{合|あ}いません。",
+       "fr": "Ce vêtement ne me va pas."
+      }
+     ],
      "vocab": [
       {
        "jp": "{服|ふく}",
@@ -1062,6 +1741,20 @@
      "p": [
       "**On** : ジ、シ　**Kun** : みずか(ら)",
       "Un nez : on montre son nez du doigt pour dire « moi »."
+     ],
+     "ex": [
+      {
+       "jp": "{自分|じぶん}で{料理|りょうり}を{作|つく}ります。",
+       "fr": "Je cuisine moi-même."
+      },
+      {
+       "jp": "この{自転車|じてんしゃ}は{軽|かる}いです。",
+       "fr": "Ce vélo est léger."
+      },
+      {
+       "jp": "{田舎|いなか}には{自然|しぜん}がたくさんあります。",
+       "fr": "À la campagne, il y a beaucoup de nature."
+      }
      ],
      "vocab": [
       {
@@ -1084,6 +1777,20 @@
       "**On** : ユウ、ウ　**Kun** : あ(る)",
       "Une main 𠂇 qui tient de la viande 月 : on possède."
      ],
+     "ex": [
+      {
+       "jp": "この{店|みせ}は{有名|ゆうめい}です。",
+       "fr": "Ce magasin est célèbre."
+      },
+      {
+       "jp": "{父|ちち}は{有名|ゆうめい}な{学者|がくしゃ}です。",
+       "fr": "Mon père est un chercheur célèbre."
+      },
+      {
+       "jp": "{有名|ゆうめい}なレストランです。",
+       "fr": "C'est un restaurant célèbre."
+      }
+     ],
      "vocab": [
       {
        "jp": "{有名|ゆうめい}",
@@ -1096,6 +1803,20 @@
      "p": [
       "**On** : ベン、ビン　**Kun** : たよ(り)",
       "Une personne 亻 qui change 更 les choses : c'est plus pratique."
+     ],
+     "ex": [
+      {
+       "jp": "この{町|まち}は{便利|べんり}です。",
+       "fr": "Cette ville est pratique."
+      },
+      {
+       "jp": "{車|くるま}がないと{不便|ふべん}です。",
+       "fr": "Sans voiture, ce n'est pas pratique."
+      },
+      {
+       "jp": "{郵便局|ゆうびんきょく}で{切手|きって}を{買|か}いました。",
+       "fr": "J'ai acheté des timbres au bureau de poste."
+      }
      ],
      "vocab": [
       {
@@ -1122,7 +1843,7 @@
    "exercises": [
     {
      "id": "k4-24-住-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "住",
      "explain": "**住** : habiter. Une personne 亻 et un maître 主 : celle qui habite là.",
      "type": "choice",
@@ -1132,11 +1853,17 @@
       "copier, photographier",
       "marcher"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "住",
+      "kana": "ジュウ、す(む)",
+      "fr": "habiter"
+     },
+     "card": "住"
     },
     {
      "id": "k4-24-服-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "服",
      "explain": "**服** : vêtement. Une barque 月 et une main qui l'ajuste : le vêtement qui s'ajuste au corps.",
      "type": "choice",
@@ -1146,11 +1873,17 @@
       "chien",
       "sortir"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "服",
+      "kana": "フク",
+      "fr": "vêtement"
+     },
+     "card": "服"
     },
     {
      "id": "k4-24-自-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "自",
      "explain": "**自** : soi-même. Un nez : on montre son nez du doigt pour dire « moi ».",
      "type": "choice",
@@ -1160,11 +1893,17 @@
       "soi-même",
       "pratique, courrier"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "自",
+      "kana": "ジ、シ、みずか(ら)",
+      "fr": "soi-même"
+     },
+     "card": "自"
     },
     {
      "id": "k4-24-有-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "有",
      "explain": "**有** : avoir, exister. Une main 𠂇 qui tient de la viande 月 : on possède.",
      "type": "choice",
@@ -1174,11 +1913,17 @@
       "mort",
       "fort"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "有",
+      "kana": "ユウ、ウ、あ(る)",
+      "fr": "avoir, exister"
+     },
+     "card": "有"
     },
     {
      "id": "k4-24-便-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "便",
      "explain": "**便** : pratique, courrier. Une personne 亻 qui change 更 les choses : c'est plus pratique.",
      "type": "choice",
@@ -1188,11 +1933,17 @@
       "rizière",
       "faire, fabriquer"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "便",
+      "kana": "ベン、ビン、たよ(り)",
+      "fr": "pratique, courrier"
+     },
+     "card": "便"
     },
     {
      "id": "k4-24-住む-lecture",
-     "q": "Comment se lit **住む** ?",
+     "q": "**住む**の{読|よ}み{方|かた}は？",
      "explain": "{住|す}む : habiter.",
      "type": "choice",
      "choices": [
@@ -1201,11 +1952,17 @@
       "こうつう",
       "すむ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{住|す}む",
+      "kana": "すむ",
+      "fr": "habiter"
+     },
+     "card": "住む"
     },
     {
      "id": "k4-24-服-lecture",
-     "q": "Comment se lit **服** ?",
+     "q": "**服**の{読|よ}み{方|かた}は？",
      "explain": "{服|ふく} : vêtement.",
      "type": "choice",
      "choices": [
@@ -1214,11 +1971,17 @@
       "こうこう",
       "しゃしん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{服|ふく}",
+      "kana": "ふく",
+      "fr": "vêtement"
+     },
+     "card": "服"
     },
     {
      "id": "k4-24-自分-lecture",
-     "q": "Comment se lit **自分** ?",
+     "q": "**自分**の{読|よ}み{方|かた}は？",
      "explain": "{自分|じぶん} : soi-même.",
      "type": "choice",
      "choices": [
@@ -1227,11 +1990,17 @@
       "じわ",
       "じぶん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{自分|じぶん}",
+      "kana": "じぶん",
+      "fr": "soi-même"
+     },
+     "card": "自分"
     },
     {
      "id": "k4-24-便利-lecture",
-     "q": "Comment se lit **便利** ?",
+     "q": "**便利**の{読|よ}み{方|かた}は？",
      "explain": "{便利|べんり} : pratique.",
      "type": "choice",
      "choices": [
@@ -1240,11 +2009,17 @@
       "もり",
       "べんり"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{便利|べんり}",
+      "kana": "べんり",
+      "fr": "pratique"
+     },
+     "card": "便利"
     },
     {
      "id": "k4-24-住む-ecrit",
-     "q": "Quel mot s'écrit **すむ** (habiter) ?",
+     "q": "**すむ**（habiter）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{住|す}む : habiter.",
      "type": "choice",
      "choices": [
@@ -1253,11 +2028,17 @@
       "地む",
       "住む"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{住|す}む",
+      "kana": "すむ",
+      "fr": "habiter"
+     },
+     "card": "住む"
     },
     {
      "id": "k4-24-住む-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "古い家に**住**んでいます。",
      "explain": "**住** se lit す ici ({住|す}む : habiter). « J'habite dans une vieille maison. »",
      "type": "choice",
@@ -1267,11 +2048,17 @@
       "た",
       "つ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{住|す}む",
+      "kana": "すむ",
+      "fr": "habiter"
+     },
+     "card": "住む"
     },
     {
      "id": "k4-24-住-kanji",
-     "q": "Quel kanji veut dire « habiter » ?",
+     "q": "「habiter」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**住** : habiter. Une personne 亻 et un maître 主 : celle qui habite là.",
      "type": "choice",
      "choices": [
@@ -1280,11 +2067,17 @@
       "主",
       "住"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "住",
+      "kana": "ジュウ、す(む)",
+      "fr": "habiter"
+     },
+     "card": "住"
     },
     {
      "id": "k4-24-住む-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{住|す}む se lit すむ, pas じゅうむ.",
      "type": "choice",
      "choices": [
@@ -1293,11 +2086,17 @@
       "住む → じゅうむ",
       "不便 → ふべん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{住|す}む",
+      "kana": "すむ",
+      "fr": "habiter"
+     },
+     "card": "住む"
     },
     {
      "id": "k4-24-服-ecrit",
-     "q": "Quel mot s'écrit **ふく** (vêtement) ?",
+     "q": "**ふく**（vêtement）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{服|ふく} : vêtement.",
      "type": "choice",
      "choices": [
@@ -1306,11 +2105,17 @@
       "服",
       "眼"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{服|ふく}",
+      "kana": "ふく",
+      "fr": "vêtement"
+     },
+     "card": "服"
     },
     {
      "id": "k4-24-住所-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "ここに**住所**を書いてください。",
      "explain": "**住所** se lit じゅうしょ ici ({住所|じゅうしょ} : adresse). « Écrivez votre adresse ici, s'il vous plaît. »",
      "type": "choice",
@@ -1320,11 +2125,17 @@
       "とうきょう",
       "ひとり"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{住所|じゅうしょ}",
+      "kana": "じゅうしょ",
+      "fr": "adresse"
+     },
+     "card": "住所"
     },
     {
      "id": "k4-24-服-kanji",
-     "q": "Quel kanji veut dire « vêtement » ?",
+     "q": "「vêtement」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**服** : vêtement. Une barque 月 et une main qui l'ajuste : le vêtement qui s'ajuste au corps.",
      "type": "choice",
      "choices": [
@@ -1333,7 +2144,53 @@
       "報",
       "服"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "服",
+      "kana": "フク",
+      "fr": "vêtement"
+     },
+     "card": "服"
+    },
+    {
+     "id": "k4-24-自分-trou",
+     "q": "**じぶん**（soi-même）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "自＿",
+     "explain": "{自分|じぶん} : soi-même.",
+     "type": "choice",
+     "choices": [
+      "本",
+      "分",
+      "音",
+      "親"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{自分|じぶん}",
+      "kana": "じぶん",
+      "fr": "soi-même"
+     },
+     "card": "自分"
+    },
+    {
+     "id": "k4-24-服-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "新しい**服**を買いました。",
+     "explain": "**服** se lit ふく ici ({服|ふく} : vêtement). « J'ai acheté de nouveaux vêtements. »",
+     "type": "choice",
+     "choices": [
+      "なつやすみ",
+      "さんぜん",
+      "かた",
+      "ふく"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{服|ふく}",
+      "kana": "ふく",
+      "fr": "vêtement"
+     },
+     "card": "服"
     }
    ]
   },
@@ -1347,6 +2204,7 @@
       "**On** : シ　**Kun** : はじ(める)、はじ(まる)",
       "Une femme 女 et un socle 台 : la naissance, le début."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{始|はじ}める",
@@ -1364,6 +2222,12 @@
       "**On** : シュウ　**Kun** : お(わる)、お(える)",
       "Un fil 糸 et l'hiver 冬 : la fin de la pelote, la fin de l'année."
      ],
+     "ex": [
+      {
+       "jp": "{終電|しゅうでん}に{間|ま}に{合|あ}いませんでした。",
+       "fr": "J'ai raté le dernier train."
+      }
+     ],
      "vocab": [
       {
        "jp": "{終|お}わる",
@@ -1380,6 +2244,20 @@
      "p": [
       "**On** : ドウ　**Kun** : うご(く)",
       "Lourd 重 et force 力 : il faut de la force pour faire bouger."
+     ],
+     "ex": [
+      {
+       "jp": "{動物園|どうぶつえん}でパンダを{見|み}ました。",
+       "fr": "J'ai vu un panda au zoo."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{少|すこ}し{運動|うんどう}をしています。",
+       "fr": "Je fais un peu d'exercice tous les matins."
+      },
+      {
+       "jp": "{動物|どうぶつ}の{中|なか}で{何|なに}が{一番|いちばん}{好|す}きですか。",
+       "fr": "Parmi les animaux, lequel préfères-tu ?"
+      }
      ],
      "vocab": [
       {
@@ -1402,6 +2280,20 @@
       "**On** : ドウ　**Kun** : おな(じ)",
       "Un cadre 冂 où une seule bouche 口 parle : tout le monde dit la même chose."
      ],
+     "ex": [
+      {
+       "jp": "{兄|あに}と{私|わたし}は{同|おな}じ{学校|がっこう}に{通|かよ}っています。",
+       "fr": "Mon frère et moi allons dans la même école."
+      },
+      {
+       "jp": "{二人|ふたり}は{同時|どうじ}に{答|こた}えました。",
+       "fr": "Les deux ont répondu en même temps."
+      },
+      {
+       "jp": "{私|わたし}と{兄|あに}は{同|おな}じ{学校|がっこう}に{通|かよ}っていました。",
+       "fr": "Mon grand frère et moi allions à la même école."
+      }
+     ],
      "vocab": [
       {
        "jp": "{同|おな}じ",
@@ -1418,6 +2310,20 @@
      "p": [
       "**On** : ベツ　**Kun** : わか(れる)",
       "Des os et un sabre 刂 : on sépare."
+     ],
+     "ex": [
+      {
+       "jp": "{別|べつ}の{日|ひ}にしましょう。",
+       "fr": "Choisissons un autre jour."
+      },
+      {
+       "jp": "{今日|きょう}は{特別|とくべつ}な{日|ひ}です。",
+       "fr": "Aujourd'hui est un jour spécial."
+      },
+      {
+       "jp": "それは{別|べつ}の{問題|もんだい}です。",
+       "fr": "C'est un autre problème."
+      }
      ],
      "vocab": [
       {
@@ -1444,7 +2350,7 @@
    "exercises": [
     {
      "id": "k4-25-始-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "始",
      "explain": "**始** : commencer. Une femme 女 et un socle 台 : la naissance, le début.",
      "type": "choice",
@@ -1454,11 +2360,17 @@
       "commencer",
       "acheter"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "始",
+      "kana": "シ、はじ(める)、はじ(まる)",
+      "fr": "commencer"
+     },
+     "card": "始"
     },
     {
      "id": "k4-25-終-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "終",
      "explain": "**終** : finir. Un fil 糸 et l'hiver 冬 : la fin de la pelote, la fin de l'année.",
      "type": "choice",
@@ -1468,11 +2380,17 @@
       "courir",
       "finir"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "終",
+      "kana": "シュウ、お(わる)、お(える)",
+      "fr": "finir"
+     },
+     "card": "終"
     },
     {
      "id": "k4-25-動-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "動",
      "explain": "**動** : bouger. Lourd 重 et force 力 : il faut de la force pour faire bouger.",
      "type": "choice",
@@ -1482,11 +2400,17 @@
       "maître, principal",
       "nouveau"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "動",
+      "kana": "ドウ、うご(く)",
+      "fr": "bouger"
+     },
+     "card": "動"
     },
     {
      "id": "k4-25-同-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "同",
      "explain": "**同** : même. Un cadre 冂 où une seule bouche 口 parle : tout le monde dit la même chose.",
      "type": "choice",
@@ -1496,11 +2420,17 @@
       "manger",
       "haut, sur"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "同",
+      "kana": "ドウ、おな(じ)",
+      "fr": "même"
+     },
+     "card": "同"
     },
     {
      "id": "k4-25-別-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "別",
      "explain": "**別** : séparé, autre. Des os et un sabre 刂 : on sépare.",
      "type": "choice",
@@ -1510,11 +2440,17 @@
       "six",
       "séparé, autre"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "別",
+      "kana": "ベツ、わか(れる)",
+      "fr": "séparé, autre"
+     },
+     "card": "別"
     },
     {
      "id": "k4-25-始める-lecture",
-     "q": "Comment se lit **始める** ?",
+     "q": "**始める**の{読|よ}み{方|かた}は？",
      "explain": "{始|はじ}める : commencer.",
      "type": "choice",
      "choices": [
@@ -1523,11 +2459,17 @@
       "しょうたい",
       "はじめる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{始|はじ}める",
+      "kana": "はじめる",
+      "fr": "commencer"
+     },
+     "card": "始める"
     },
     {
      "id": "k4-25-終わる-lecture",
-     "q": "Comment se lit **終わる** ?",
+     "q": "**終わる**の{読|よ}み{方|かた}は？",
      "explain": "{終|お}わる : finir.",
      "type": "choice",
      "choices": [
@@ -1536,11 +2478,17 @@
       "しゅうわる",
       "おわる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{終|お}わる",
+      "kana": "おわる",
+      "fr": "finir"
+     },
+     "card": "終わる"
     },
     {
      "id": "k4-25-動く-lecture",
-     "q": "Comment se lit **動く** ?",
+     "q": "**動く**の{読|よ}み{方|かた}は？",
      "explain": "{動|うご}く : bouger.",
      "type": "choice",
      "choices": [
@@ -1549,11 +2497,17 @@
       "うごく",
       "どうく"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{動|うご}く",
+      "kana": "うごく",
+      "fr": "bouger"
+     },
+     "card": "動く"
     },
     {
      "id": "k4-25-同じ-lecture",
-     "q": "Comment se lit **同じ** ?",
+     "q": "**同じ**の{読|よ}み{方|かた}は？",
      "explain": "{同|おな}じ : même.",
      "type": "choice",
      "choices": [
@@ -1562,11 +2516,17 @@
       "おなじ",
       "さんぷん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{同|おな}じ",
+      "kana": "おなじ",
+      "fr": "même"
+     },
+     "card": "同じ"
     },
     {
      "id": "k4-25-別-lecture",
-     "q": "Comment se lit **別** ?",
+     "q": "**別**の{読|よ}み{方|かた}は？",
      "explain": "{別|べつ} : autre, à part.",
      "type": "choice",
      "choices": [
@@ -1575,11 +2535,17 @@
       "べつ",
       "したぎ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{別|べつ}",
+      "kana": "べつ",
+      "fr": "autre, à part"
+     },
+     "card": "別"
     },
     {
      "id": "k4-25-始める-ecrit",
-     "q": "Quel mot s'écrit **はじめる** (commencer) ?",
+     "q": "**はじめる**（commencer）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{始|はじ}める : commencer.",
      "type": "choice",
      "choices": [
@@ -1588,11 +2554,17 @@
       "治める",
       "姉める"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{始|はじ}める",
+      "kana": "はじめる",
+      "fr": "commencer"
+     },
+     "card": "始める"
     },
     {
      "id": "k4-25-始める-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "去年、日本語の勉強を**始め**ました。",
      "explain": "**始め** se lit はじめ ici ({始|はじ}める : commencer). « J'ai commencé le japonais l'année dernière. »",
      "type": "choice",
@@ -1602,11 +2574,17 @@
       "はじめ",
       "おやめ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{始|はじ}める",
+      "kana": "はじめる",
+      "fr": "commencer"
+     },
+     "card": "始める"
     },
     {
      "id": "k4-25-始-kanji",
-     "q": "Quel kanji veut dire « commencer » ?",
+     "q": "「commencer」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**始** : commencer. Une femme 女 et un socle 台 : la naissance, le début.",
      "type": "choice",
      "choices": [
@@ -1615,11 +2593,17 @@
       "始",
       "治"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "始",
+      "kana": "シ、はじ(める)、はじ(まる)",
+      "fr": "commencer"
+     },
+     "card": "始"
     },
     {
      "id": "k4-25-終わる-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{終|お}わる se lit おわる, pas しゅうわる.",
      "type": "choice",
      "choices": [
@@ -1628,11 +2612,17 @@
       "同時 → どうじ",
       "終わる → しゅうわる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{終|お}わる",
+      "kana": "おわる",
+      "fr": "finir"
+     },
+     "card": "終わる"
     },
     {
      "id": "k4-25-終わる-ecrit",
-     "q": "Quel mot s'écrit **おわる** (finir) ?",
+     "q": "**おわる**（finir）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{終|お}わる : finir.",
      "type": "choice",
      "choices": [
@@ -1641,11 +2631,17 @@
       "冬わる",
       "級わる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{終|お}わる",
+      "kana": "おわる",
+      "fr": "finir"
+     },
+     "card": "終わる"
     },
     {
      "id": "k4-25-始まる-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "学校は八時半に**始ま**ります。",
      "explain": "**始ま** se lit はじま ici ({始|はじ}まる : débuter). « L'école commence à huit heures et demie. »",
      "type": "choice",
@@ -1655,7 +2651,52 @@
       "よるま",
       "はじま"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{始|はじ}まる",
+      "kana": "はじまる",
+      "fr": "débuter"
+     },
+     "card": "始まる"
+    },
+    {
+     "id": "k4-25-終-kanji",
+     "q": "「finir」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**終** : finir. Un fil 糸 et l'hiver 冬 : la fin de la pelote, la fin de l'année.",
+     "type": "choice",
+     "choices": [
+      "級",
+      "母",
+      "終",
+      "冬"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "終",
+      "kana": "シュウ、お(わる)、お(える)",
+      "fr": "finir"
+     },
+     "card": "終"
+    },
+    {
+     "id": "k4-25-動物-trou",
+     "q": "**どうぶつ**（animal）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "動＿",
+     "explain": "{動物|どうぶつ} : animal.",
+     "type": "choice",
+     "choices": [
+      "特",
+      "茶",
+      "物",
+      "牛"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{動物|どうぶつ}",
+      "kana": "どうぶつ",
+      "fr": "animal"
+     },
+     "card": "動物"
     }
    ]
   }
@@ -1663,7 +2704,7 @@
  "test": [
   {
    "id": "k4-b05-大体-lecture",
-   "q": "Comment se lit **大体** ?",
+   "q": "**大体**の{読|よ}み{方|かた}は？",
    "explain": "{大体|だいたい} : environ, en gros.",
    "type": "choice",
    "choices": [
@@ -1672,11 +2713,17 @@
     "だいからだ",
     "たいたい"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{大体|だいたい}",
+    "kana": "だいたい",
+    "fr": "environ, en gros"
+   },
+   "card": "大体"
   },
   {
    "id": "k4-b05-体育-lecture",
-   "q": "Comment se lit **体育** ?",
+   "q": "**体育**の{読|よ}み{方|かた}は？",
    "explain": "{体育|たいいく} : éducation physique.",
    "type": "choice",
    "choices": [
@@ -1685,11 +2732,17 @@
     "からだいく",
     "ふつか"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{体育|たいいく}",
+    "kana": "たいいく",
+    "fr": "éducation physique"
+   },
+   "card": "体育"
   },
   {
    "id": "k4-b05-頭痛-lecture",
-   "q": "Comment se lit **頭痛** ?",
+   "q": "**頭痛**の{読|よ}み{方|かた}は？",
    "explain": "{頭痛|ずつう} : mal de tête.",
    "type": "choice",
    "choices": [
@@ -1698,11 +2751,17 @@
     "らく",
     "ずつう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{頭痛|ずつう}",
+    "kana": "ずつう",
+    "fr": "mal de tête"
+   },
+   "card": "頭痛"
   },
   {
    "id": "k4-b05-笑顔-lecture",
-   "q": "Comment se lit **笑顔** ?",
+   "q": "**笑顔**の{読|よ}み{方|かた}は？",
    "explain": "{笑顔|えがお} : sourire, visage souriant.",
    "type": "choice",
    "choices": [
@@ -1711,11 +2770,17 @@
     "えかお",
     "えがお"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{笑顔|えがお}",
+    "kana": "えがお",
+    "fr": "sourire, visage souriant"
+   },
+   "card": "笑顔"
   },
   {
    "id": "k4-b05-首都-ecrit",
-   "q": "Quel mot s'écrit **しゅと** (capitale) ?",
+   "q": "**しゅと**（capitale）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{首都|しゅと} : capitale.",
    "type": "choice",
    "choices": [
@@ -1724,11 +2789,17 @@
     "洗都",
     "首都"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{首都|しゅと}",
+    "kana": "しゅと",
+    "fr": "capitale"
+   },
+   "card": "首都"
   },
   {
    "id": "k4-b05-心-ecrit",
-   "q": "Quel mot s'écrit **こころ** (cœur (sentiments)) ?",
+   "q": "**こころ**（cœur (sentiments)）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{心|こころ} : cœur (sentiments).",
    "type": "choice",
    "choices": [
@@ -1737,11 +2808,17 @@
     "心",
     "必"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{心|こころ}",
+    "kana": "こころ",
+    "fr": "cœur (sentiments)"
+   },
+   "card": "心"
   },
   {
    "id": "k4-b05-安心-ecrit",
-   "q": "Quel mot s'écrit **あんしん** (être rassuré) ?",
+   "q": "**あんしん**（être rassuré）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{安心|あんしん} : être rassuré.",
    "type": "choice",
    "choices": [
@@ -1750,11 +2827,17 @@
     "二心",
     "南心"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{安心|あんしん}",
+    "kana": "あんしん",
+    "fr": "être rassuré"
+   },
+   "card": "安心"
   },
   {
    "id": "k4-b05-心配-lecture",
-   "q": "Comment se lit **心配** ?",
+   "q": "**心配**の{読|よ}み{方|かた}は？",
    "explain": "{心配|しんぱい} : inquiétude.",
    "type": "choice",
    "choices": [
@@ -1763,11 +2846,17 @@
     "でんち",
     "しんぱい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{心配|しんぱい}",
+    "kana": "しんぱい",
+    "fr": "inquiétude"
+   },
+   "card": "心配"
   },
   {
    "id": "k4-b05-声-ecrit",
-   "q": "Quel mot s'écrit **こえ** (voix) ?",
+   "q": "**こえ**（voix）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{声|こえ} : voix.",
    "type": "choice",
    "choices": [
@@ -1776,11 +2865,17 @@
     "教",
     "売"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{声|こえ}",
+    "kana": "こえ",
+    "fr": "voix"
+   },
+   "card": "声"
   },
   {
    "id": "k4-b05-大声-lecture",
-   "q": "Comment se lit **大声** ?",
+   "q": "**大声**の{読|よ}み{方|かた}は？",
    "explain": "{大声|おおごえ} : voix forte.",
    "type": "choice",
    "choices": [
@@ -1789,37 +2884,17 @@
     "おおこえ",
     "おおごえ"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b05-医者-ecrit",
-   "q": "Quel mot s'écrit **いしゃ** (médecin) ?",
-   "explain": "{医者|いしゃ} : médecin.",
-   "type": "choice",
-   "choices": [
-    "買者",
-    "矢者",
-    "医者",
-    "区者"
-   ],
-   "a": 2
-  },
-  {
-   "id": "k4-b05-医学-ecrit",
-   "q": "Quel mot s'écrit **いがく** (médecine) ?",
-   "explain": "{医学|いがく} : médecine.",
-   "type": "choice",
-   "choices": [
-    "医学",
-    "区学",
-    "洗学",
-    "矢学"
-   ],
-   "a": 0
+   "a": 3,
+   "star": {
+    "jp": "{大声|おおごえ}",
+    "kana": "おおごえ",
+    "fr": "voix forte"
+   },
+   "card": "大声"
   },
   {
    "id": "k4-b05-歯医者-lecture",
-   "q": "Comment se lit **歯医者** ?",
+   "q": "**歯医者**の{読|よ}み{方|かた}は？",
    "explain": "{歯医者|はいしゃ} : dentiste.",
    "type": "choice",
    "choices": [
@@ -1828,11 +2903,17 @@
     "がんじつ",
     "はいもの"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{歯医者|はいしゃ}",
+    "kana": "はいしゃ",
+    "fr": "dentiste"
+   },
+   "card": "歯医者"
   },
   {
    "id": "k4-b05-薬局-lecture",
-   "q": "Comment se lit **薬局** ?",
+   "q": "**薬局**の{読|よ}み{方|かた}は？",
    "explain": "{薬局|やっきょく} : pharmacie.",
    "type": "choice",
    "choices": [
@@ -1841,11 +2922,17 @@
     "たかい",
     "くすりきょく"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{薬局|やっきょく}",
+    "kana": "やっきょく",
+    "fr": "pharmacie"
+   },
+   "card": "薬局"
   },
   {
    "id": "k4-b05-死ぬ-ecrit",
-   "q": "Quel mot s'écrit **しぬ** (mourir) ?",
+   "q": "**しぬ**（mourir）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{死|し}ぬ : mourir.",
    "type": "choice",
    "choices": [
@@ -1854,11 +2941,17 @@
     "六ぬ",
     "化ぬ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{死|し}ぬ",
+    "kana": "しぬ",
+    "fr": "mourir"
+   },
+   "card": "死ぬ"
   },
   {
    "id": "k4-b05-元気-ecrit",
-   "q": "Quel mot s'écrit **げんき** (en forme) ?",
+   "q": "**げんき**（en forme）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{元気|げんき} : en forme.",
    "type": "choice",
    "choices": [
@@ -1867,11 +2960,17 @@
     "完気",
     "牛気"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{元気|げんき}",
+    "kana": "げんき",
+    "fr": "en forme"
+   },
+   "card": "元気"
   },
   {
    "id": "k4-b05-元日-ecrit",
-   "q": "Quel mot s'écrit **がんじつ** (jour de l'an) ?",
+   "q": "**がんじつ**（jour de l'an）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{元日|がんじつ} : jour de l'an.",
    "type": "choice",
    "choices": [
@@ -1880,11 +2979,17 @@
     "元日",
     "无日"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{元日|がんじつ}",
+    "kana": "がんじつ",
+    "fr": "jour de l'an"
+   },
+   "card": "元日"
   },
   {
    "id": "k4-b05-地元-lecture",
-   "q": "Comment se lit **地元** ?",
+   "q": "**地元**の{読|よ}み{方|かた}は？",
    "explain": "{地元|じもと} : chez soi, région natale.",
    "type": "choice",
    "choices": [
@@ -1893,11 +2998,17 @@
     "じがん",
     "ちもと"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{地元|じもと}",
+    "kana": "じもと",
+    "fr": "chez soi, région natale"
+   },
+   "card": "地元"
   },
   {
    "id": "k4-b05-協力-ecrit",
-   "q": "Quel mot s'écrit **きょうりょく** (coopération) ?",
+   "q": "**きょうりょく**（coopération）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{協力|きょうりょく} : coopération.",
    "type": "choice",
    "choices": [
@@ -1906,11 +3017,17 @@
     "道力",
     "金力"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{協力|きょうりょく}",
+    "kana": "きょうりょく",
+    "fr": "coopération"
+   },
+   "card": "協力"
   },
   {
    "id": "k4-b05-努力-lecture",
-   "q": "Comment se lit **努力** ?",
+   "q": "**努力**の{読|よ}み{方|かた}は？",
    "explain": "{努力|どりょく} : effort.",
    "type": "choice",
    "choices": [
@@ -1919,11 +3036,17 @@
     "どりき",
     "どちから"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{努力|どりょく}",
+    "kana": "どりょく",
+    "fr": "effort"
+   },
+   "card": "努力"
   },
   {
    "id": "k4-b05-お兄さん-lecture",
-   "q": "Comment se lit **お兄さん** ?",
+   "q": "**お兄さん**の{読|よ}み{方|かた}は？",
    "explain": "お{兄|にい}さん : grand frère.",
    "type": "choice",
    "choices": [
@@ -1932,11 +3055,17 @@
     "にがつ",
     "おにいさん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "お{兄|にい}さん",
+    "kana": "おにいさん",
+    "fr": "grand frère"
+   },
+   "card": "お兄さん"
   },
   {
    "id": "k4-b05-兄弟-lecture",
-   "q": "Comment se lit **兄弟** ?",
+   "q": "**兄弟**の{読|よ}み{方|かた}は？",
    "explain": "{兄弟|きょうだい} : frères et sœurs.",
    "type": "choice",
    "choices": [
@@ -1945,11 +3074,17 @@
     "けいだい",
     "きょうだい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{兄弟|きょうだい}",
+    "kana": "きょうだい",
+    "fr": "frères et sœurs"
+   },
+   "card": "兄弟"
   },
   {
    "id": "k4-b05-お姉さん-lecture",
-   "q": "Comment se lit **お姉さん** ?",
+   "q": "**お姉さん**の{読|よ}み{方|かた}は？",
    "explain": "お{姉|ねえ}さん : grande sœur.",
    "type": "choice",
    "choices": [
@@ -1958,11 +3093,17 @@
     "おあねさん",
     "いもうと"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "お{姉|ねえ}さん",
+    "kana": "おねえさん",
+    "fr": "grande sœur"
+   },
+   "card": "お姉さん"
   },
   {
    "id": "k4-b05-姉妹-lecture",
-   "q": "Comment se lit **姉妹** ?",
+   "q": "**姉妹**の{読|よ}み{方|かた}は？",
    "explain": "{姉妹|しまい} : sœurs.",
    "type": "choice",
    "choices": [
@@ -1971,11 +3112,55 @@
     "しまい",
     "しいもうと"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{姉妹|しまい}",
+    "kana": "しまい",
+    "fr": "sœurs"
+   },
+   "card": "姉妹"
+  },
+  {
+   "id": "k4-b05-親-ecrit",
+   "q": "**おや**（parent）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{親|おや} : parent.",
+   "type": "choice",
+   "choices": [
+    "新",
+    "親",
+    "民",
+    "視"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{親|おや}",
+    "kana": "おや",
+    "fr": "parent"
+   },
+   "card": "親"
+  },
+  {
+   "id": "k4-b05-両親-lecture",
+   "q": "**両親**の{読|よ}み{方|かた}は？",
+   "explain": "{両親|りょうしん} : les parents.",
+   "type": "choice",
+   "choices": [
+    "りょうした",
+    "りょうおや",
+    "きょうりょく",
+    "りょうしん"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{両親|りょうしん}",
+    "kana": "りょうしん",
+    "fr": "les parents"
+   },
+   "card": "両親"
   },
   {
    "id": "k4-b05-体-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "{祖|そ}母は**体**が{弱|よわ}いです。",
    "explain": "**体** se lit からだ ici ({体|からだ} : corps). « Ma grand-mère est de santé fragile. »",
    "type": "choice",
@@ -1985,13 +3170,19 @@
     "からだ",
     "ちゅうしゃじょう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{体|からだ}",
+    "kana": "からだ",
+    "fr": "corps"
+   },
+   "card": "体"
   },
   {
    "id": "k4-b05-頭-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "**頭**がいたいです。",
-   "explain": "**頭** se lit あたま ici ({頭|あたま} : tête). « J'ai mal à la tête. »",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "**頭**がいたいですから、{薬|くすり}を飲みます。",
+   "explain": "**頭** se lit あたま ici ({頭|あたま} : tête). « J'ai mal à la tête, alors je prends un médicament. »",
    "type": "choice",
    "choices": [
     "どりょく",
@@ -1999,11 +3190,37 @@
     "あたま",
     "しろい"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{頭|あたま}",
+    "kana": "あたま",
+    "fr": "tête"
+   },
+   "card": "頭"
+  },
+  {
+   "id": "k4-b05-頭痛-phrase",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "朝から**頭痛**がします。",
+   "explain": "**頭痛** se lit ずつう ici ({頭痛|ずつう} : mal de tête). « J'ai mal à la tête depuis ce matin. »",
+   "type": "choice",
+   "choices": [
+    "ずつう",
+    "うしろ",
+    "いしゃ",
+    "でんわ"
+   ],
+   "a": 0,
+   "star": {
+    "jp": "{頭痛|ずつう}",
+    "kana": "ずつう",
+    "fr": "mal de tête"
+   },
+   "card": "頭痛"
   },
   {
    "id": "k4-b05-顔-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**顔**を洗ってから朝ご飯を食べます。",
    "explain": "**顔** se lit かお ici ({顔|かお} : visage). « Je me lave le visage, puis je prends le petit-déjeuner. »",
    "type": "choice",
@@ -2013,11 +3230,37 @@
     "みず",
     "かお"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{顔|かお}",
+    "kana": "かお",
+    "fr": "visage"
+   },
+   "card": "顔"
+  },
+  {
+   "id": "k4-b05-笑顔-phrase",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "{妹|いもうと}はいつも**笑顔**です。",
+   "explain": "**笑顔** se lit えがお ici ({笑顔|えがお} : sourire, visage souriant). « Ma petite sœur a toujours le sourire. »",
+   "type": "choice",
+   "choices": [
+    "はん",
+    "えがお",
+    "うる",
+    "かいもの"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{笑顔|えがお}",
+    "kana": "えがお",
+    "fr": "sourire, visage souriant"
+   },
+   "card": "笑顔"
   },
   {
    "id": "k4-b05-首-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**首**が{少|すこ}し{痛|いた}いです。",
    "explain": "**首** se lit くび ici ({首|くび} : cou). « J'ai un peu mal au cou. »",
    "type": "choice",
@@ -2027,35 +3270,13 @@
     "くび",
     "びょういん"
    ],
-   "a": 2
-  },
-  {
-   "id": "k4-b05-首都-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "東京は日本の**首都**です。",
-   "explain": "**首都** se lit しゅと ici ({首都|しゅと} : capitale). « Tokyo est la capitale du Japon. »",
-   "type": "choice",
-   "choices": [
-    "くびと",
-    "しゅみやこ",
-    "しゅと",
-    "しゅつ"
-   ],
-   "a": 2
-  },
-  {
-   "id": "k4-b05-心-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "母は**心**のやさしい人です。",
-   "explain": "**心** se lit こころ ici ({心|こころ} : cœur (sentiments)). « Ma mère a le cœur tendre. »",
-   "type": "choice",
-   "choices": [
-    "こころ",
-    "おとこのひと",
-    "ちかてつ",
-    "きって"
-   ],
-   "a": 0
+   "a": 2,
+   "star": {
+    "jp": "{首|くび}",
+    "kana": "くび",
+    "fr": "cou"
+   },
+   "card": "首"
   }
  ],
  "examTest": []

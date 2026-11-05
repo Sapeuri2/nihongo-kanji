@@ -8,10 +8,64 @@
    "title": "Apprendre : 教 習 勉 強 試 験",
    "sections": [
     {
+     "h": "Les consignes passent en japonais",
+     "p": [
+      "À partir d'ici, les questions sont posées en japonais. Les fiches restent en français. Voici les consignes que tu vas croiser :"
+     ],
+     "ex": [
+      {
+       "jp": "この{漢字|かんじ}の{意味|いみ}は？",
+       "fr": "Que veut dire ce kanji ?"
+      },
+      {
+       "jp": "「…」という{意味|いみ}の{漢字|かんじ}は？",
+       "fr": "Quel kanji veut dire « … » ?"
+      },
+      {
+       "jp": "**…**の{読|よ}み{方|かた}は？",
+       "fr": "Comment se lit … ?"
+      },
+      {
+       "jp": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+       "fr": "Comment se lit le mot en gras ?"
+      },
+      {
+       "jp": "**…**は{漢字|かんじ}でどう{書|か}きますか。",
+       "fr": "Comment s'écrit … en kanji ?"
+      },
+      {
+       "jp": "{足|た}りない{漢字|かんじ}はどれ？",
+       "fr": "Quel est le kanji qui manque ?"
+      },
+      {
+       "jp": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
+       "fr": "Lequel est mal lu ?"
+      },
+      {
+       "jp": "ふりがななし",
+       "fr": "sans furigana"
+      }
+     ]
+    },
+    {
      "h": "教 · enseigner",
      "p": [
       "**On** : キョウ　**Kun** : おし(える)",
       "Un enfant 子 et une main avec un bâton 攵 : on enseigne."
+     ],
+     "ex": [
+      {
+       "jp": "{教室|きょうしつ}に{学生|がくせい}が{二十人|にじゅうにん}います。",
+       "fr": "Il y a vingt étudiants dans la salle."
+      },
+      {
+       "jp": "{日曜日|にちようび}に{教会|きょうかい}へ{行|い}きます。",
+       "fr": "Le dimanche, je vais à l'église."
+      },
+      {
+       "jp": "{教室|きょうしつ}で{食|た}べてはいけません。",
+       "fr": "On ne mange pas en classe."
+      }
      ],
      "vocab": [
       {
@@ -34,6 +88,20 @@
       "**On** : シュウ　**Kun** : なら(う)",
       "Deux ailes 羽 au-dessus du blanc 白 : l'oisillon s'exerce à voler."
      ],
+     "ex": [
+      {
+       "jp": "{毎日|まいにち}{漢字|かんじ}の{練習|れんしゅう}をしています。",
+       "fr": "Je m'entraîne aux kanji tous les jours."
+      },
+      {
+       "jp": "{授業|じゅぎょう}の{前|まえ}に{予習|よしゅう}をします。",
+       "fr": "Je prépare le cours avant d'y aller."
+      },
+      {
+       "jp": "{試合|しあい}の{前|まえ}に{毎日|まいにち}{練習|れんしゅう}しました。",
+       "fr": "Je me suis entraîné tous les jours avant le match."
+      }
+     ],
      "vocab": [
       {
        "jp": "{習|なら}う",
@@ -55,6 +123,20 @@
       "**On** : ベン　**Kun** : —",
       "Échapper 免 à force de bras 力 : on fait des efforts."
      ],
+     "ex": [
+      {
+       "jp": "ひとりで{勉強|べんきょう}しました。",
+       "fr": "J'ai étudié seul."
+      },
+      {
+       "jp": "{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}します。",
+       "fr": "J'étudie le japonais tous les jours."
+      },
+      {
+       "jp": "{午後|ごご}は{図書館|としょかん}で{勉強|べんきょう}します。",
+       "fr": "L'après-midi, j'étudie à la bibliothèque."
+      }
+     ],
      "vocab": [
       {
        "jp": "{勉強|べんきょう}",
@@ -67,6 +149,20 @@
      "p": [
       "**On** : キョウ、ゴウ　**Kun** : つよ(い)",
       "Un arc 弓 et un insecte 虫 : petit mais fort, comme l'insecte."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{力|ちから}が{強|つよ}いです。",
+       "fr": "Mon grand frère est fort."
+      },
+      {
+       "jp": "ひとりで{勉強|べんきょう}しました。",
+       "fr": "J'ai étudié seul."
+      },
+      {
+       "jp": "{今日|きょう}は{風|かぜ}が{強|つよ}いです。",
+       "fr": "Aujourd'hui, le vent est fort."
+      }
      ],
      "vocab": [
       {
@@ -84,6 +180,20 @@
      "p": [
       "**On** : シ　**Kun** : ため(す)",
       "La parole 言 et la règle 式 : on met à l'épreuve."
+     ],
+     "ex": [
+      {
+       "jp": "{試験|しけん}が{心配|しんぱい}です。",
+       "fr": "Je suis inquiet pour l'examen."
+      },
+      {
+       "jp": "{雨|あめ}で{試合|しあい}は{中止|ちゅうし}になりました。",
+       "fr": "Le match a été annulé à cause de la pluie."
+      },
+      {
+       "jp": "{試合|しあい}の{前|まえ}に{毎日|まいにち}{練習|れんしゅう}しました。",
+       "fr": "Je me suis entraîné tous les jours avant le match."
+      }
      ],
      "vocab": [
       {
@@ -106,6 +216,20 @@
       "**On** : ケン　**Kun** : —",
       "Un cheval 馬 qu'on examine 僉 avant de l'acheter : on teste."
      ],
+     "ex": [
+      {
+       "jp": "{試験|しけん}が{心配|しんぱい}です。",
+       "fr": "Je suis inquiet pour l'examen."
+      },
+      {
+       "jp": "{日本|にほん}で{働|はたら}いた{経験|けいけん}があります。",
+       "fr": "J'ai déjà travaillé au Japon."
+      },
+      {
+       "jp": "{来週|らいしゅう}、{日本語|にほんご}の{試験|しけん}があります。",
+       "fr": "La semaine prochaine, j'ai un examen de japonais."
+      }
+     ],
      "vocab": [
       {
        "jp": "{試験|しけん}",
@@ -126,7 +250,7 @@
    "exercises": [
     {
      "id": "k4-11-教-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "教",
      "explain": "**教** : enseigner. Un enfant 子 et une main avec un bâton 攵 : on enseigne.",
      "type": "choice",
@@ -136,11 +260,17 @@
       "enseigner",
       "blanc"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "教",
+      "kana": "キョウ、おし(える)",
+      "fr": "enseigner"
+     },
+     "card": "教"
     },
     {
      "id": "k4-11-習-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "習",
      "explain": "**習** : apprendre, s'exercer. Deux ailes 羽 au-dessus du blanc 白 : l'oisillon s'exerce à voler.",
      "type": "choice",
@@ -150,11 +280,17 @@
       "riz cuit, repas",
       "dix"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "習",
+      "kana": "シュウ、なら(う)",
+      "fr": "apprendre, s'exercer"
+     },
+     "card": "習"
     },
     {
      "id": "k4-11-勉-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "勉",
      "explain": "**勉** : effort. Échapper 免 à force de bras 力 : on fait des efforts.",
      "type": "choice",
@@ -164,11 +300,17 @@
       "tenir, avoir",
       "nom"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "勉",
+      "kana": "ベン",
+      "fr": "effort"
+     },
+     "card": "勉"
     },
     {
      "id": "k4-11-強-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "強",
      "explain": "**強** : fort. Un arc 弓 et un insecte 虫 : petit mais fort, comme l'insecte.",
      "type": "choice",
@@ -178,11 +320,17 @@
       "fort",
       "entendre, écouter"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "強",
+      "kana": "キョウ、ゴウ、つよ(い)",
+      "fr": "fort"
+     },
+     "card": "強"
     },
     {
      "id": "k4-11-試-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "試",
      "explain": "**試** : essayer, épreuve. La parole 言 et la règle 式 : on met à l'épreuve.",
      "type": "choice",
@@ -192,11 +340,17 @@
       "cent",
       "endroit"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "試",
+      "kana": "シ、ため(す)",
+      "fr": "essayer, épreuve"
+     },
+     "card": "試"
     },
     {
      "id": "k4-11-験-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "験",
      "explain": "**験** : tester. Un cheval 馬 qu'on examine 僉 avant de l'acheter : on teste.",
      "type": "choice",
@@ -206,11 +360,17 @@
       "attendre",
       "deux"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "験",
+      "kana": "ケン",
+      "fr": "tester"
+     },
+     "card": "験"
     },
     {
      "id": "k4-11-教える-lecture",
-     "q": "Comment se lit **教える** ?",
+     "q": "**教える**の{読|よ}み{方|かた}は？",
      "explain": "{教|おし}える : enseigner.",
      "type": "choice",
      "choices": [
@@ -219,11 +379,17 @@
       "おしえる",
       "としょかん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{教|おし}える",
+      "kana": "おしえる",
+      "fr": "enseigner"
+     },
+     "card": "教える"
     },
     {
      "id": "k4-11-習う-lecture",
-     "q": "Comment se lit **習う** ?",
+     "q": "**習う**の{読|よ}み{方|かた}は？",
      "explain": "{習|なら}う : apprendre (avec qqn).",
      "type": "choice",
      "choices": [
@@ -232,11 +398,17 @@
       "くやくしょ",
       "しゅうう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{習|なら}う",
+      "kana": "ならう",
+      "fr": "apprendre (avec qqn)"
+     },
+     "card": "習う"
     },
     {
      "id": "k4-11-勉強-lecture",
-     "q": "Comment se lit **勉強** ?",
+     "q": "**勉強**の{読|よ}み{方|かた}は？",
      "explain": "{勉強|べんきょう} : étude.",
      "type": "choice",
      "choices": [
@@ -245,11 +417,17 @@
       "べんつよ",
       "あいだ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{勉強|べんきょう}",
+      "kana": "べんきょう",
+      "fr": "étude"
+     },
+     "card": "勉強"
     },
     {
      "id": "k4-11-強い-lecture",
-     "q": "Comment se lit **強い** ?",
+     "q": "**強い**の{読|よ}み{方|かた}は？",
      "explain": "{強|つよ}い : fort.",
      "type": "choice",
      "choices": [
@@ -258,11 +436,17 @@
       "きょうい",
       "したまち"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{強|つよ}い",
+      "kana": "つよい",
+      "fr": "fort"
+     },
+     "card": "強い"
     },
     {
      "id": "k4-11-試験-lecture",
-     "q": "Comment se lit **試験** ?",
+     "q": "**試験**の{読|よ}み{方|かた}は？",
      "explain": "{試験|しけん} : examen.",
      "type": "choice",
      "choices": [
@@ -271,11 +455,17 @@
       "へた",
       "しけん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{試験|しけん}",
+      "kana": "しけん",
+      "fr": "examen"
+     },
+     "card": "試験"
     },
     {
      "id": "k4-11-教える-ecrit",
-     "q": "Quel mot s'écrit **おしえる** (enseigner) ?",
+     "q": "**おしえる**（enseigner）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{教|おし}える : enseigner.",
      "type": "choice",
      "choices": [
@@ -284,11 +474,17 @@
       "教える",
       "数える"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{教|おし}える",
+      "kana": "おしえる",
+      "fr": "enseigner"
+     },
+     "card": "教える"
     },
     {
      "id": "k4-11-教える-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "田中さんは子どもに{英語|えいご}を**教え**ています。",
      "explain": "**教え** se lit おしえ ici ({教|おし}える : enseigner). « M. Tanaka enseigne l'anglais aux enfants. »",
      "type": "choice",
@@ -298,11 +494,17 @@
       "おしえ",
       "やすえ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{教|おし}える",
+      "kana": "おしえる",
+      "fr": "enseigner"
+     },
+     "card": "教える"
     },
     {
      "id": "k4-11-教-kanji",
-     "q": "Quel kanji veut dire « enseigner » ?",
+     "q": "「enseigner」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**教** : enseigner. Un enfant 子 et une main avec un bâton 攵 : on enseigne.",
      "type": "choice",
      "choices": [
@@ -311,11 +513,17 @@
       "気",
       "孝"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "教",
+      "kana": "キョウ、おし(える)",
+      "fr": "enseigner"
+     },
+     "card": "教"
     },
     {
      "id": "k4-11-教える-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{教|おし}える se lit おしえる, pas きょうえる.",
      "type": "choice",
      "choices": [
@@ -324,11 +532,17 @@
       "試験 → しけん",
       "経験 → けいけん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{教|おし}える",
+      "kana": "おしえる",
+      "fr": "enseigner"
+     },
+     "card": "教える"
     },
     {
      "id": "k4-11-習う-ecrit",
-     "q": "Quel mot s'écrit **ならう** (apprendre (avec qqn)) ?",
+     "q": "**ならう**（apprendre (avec qqn)）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{習|なら}う : apprendre (avec qqn).",
      "type": "choice",
      "choices": [
@@ -337,7 +551,52 @@
       "習う",
       "目う"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{習|なら}う",
+      "kana": "ならう",
+      "fr": "apprendre (avec qqn)"
+     },
+     "card": "習う"
+    },
+    {
+     "id": "k4-11-教室-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**教室**に学生が二十人います。",
+     "explain": "**教室** se lit きょうしつ ici ({教室|きょうしつ} : salle de classe). « Il y a vingt étudiants dans la salle. »",
+     "type": "choice",
+     "choices": [
+      "ところ",
+      "きょうしつ",
+      "はしる",
+      "よむ"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{教室|きょうしつ}",
+      "kana": "きょうしつ",
+      "fr": "salle de classe"
+     },
+     "card": "教室"
+    },
+    {
+     "id": "k4-11-習-kanji",
+     "q": "「apprendre, s'exercer」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**習** : apprendre, s'exercer. Deux ailes 羽 au-dessus du blanc 白 : l'oisillon s'exerce à voler.",
+     "type": "choice",
+     "choices": [
+      "羽",
+      "南",
+      "白",
+      "習"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "習",
+      "kana": "シュウ、なら(う)",
+      "fr": "apprendre, s'exercer"
+     },
+     "card": "習"
     }
    ]
   },
@@ -351,6 +610,20 @@
       "**On** : ケン　**Kun** : と(ぐ)",
       "Une pierre 石 et deux montants 开 : on polit sans relâche."
      ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}は{研究室|けんきゅうしつ}にいます。",
+       "fr": "Le professeur est dans son laboratoire."
+      },
+      {
+       "jp": "{研究室|けんきゅうしつ}は{四階|よんかい}にあります。",
+       "fr": "Le laboratoire est au troisième étage."
+      },
+      {
+       "jp": "{兄|あに}は{大学院|だいがくいん}で{研究|けんきゅう}をしています。",
+       "fr": "Mon grand frère fait de la recherche en master."
+      }
+     ],
      "vocab": [
       {
        "jp": "{研究|けんきゅう}",
@@ -363,6 +636,20 @@
      "p": [
       "**On** : キュウ　**Kun** : きわ(める)",
       "Un trou 穴 et le chiffre neuf 九 : on creuse jusqu'au bout."
+     ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}は{研究室|けんきゅうしつ}にいます。",
+       "fr": "Le professeur est dans son laboratoire."
+      },
+      {
+       "jp": "{研究室|けんきゅうしつ}は{四階|よんかい}にあります。",
+       "fr": "Le laboratoire est au troisième étage."
+      },
+      {
+       "jp": "{兄|あに}は{大学院|だいがくいん}で{研究|けんきゅう}をしています。",
+       "fr": "Mon grand frère fait de la recherche en master."
+      }
      ],
      "vocab": [
       {
@@ -380,6 +667,20 @@
      "p": [
       "**On** : ダイ　**Kun** : —",
       "Une tête 頁 et ce qui est juste 是 : le titre en tête."
+     ],
+     "ex": [
+      {
+       "jp": "それは{別|べつ}の{問題|もんだい}です。",
+       "fr": "C'est un autre problème."
+      },
+      {
+       "jp": "{宿題|しゅくだい}がたくさんあります。",
+       "fr": "J'ai beaucoup de devoirs."
+      },
+      {
+       "jp": "{天気|てんき}の{話題|わだい}は{便利|べんり}です。",
+       "fr": "La météo est un sujet de conversation pratique."
+      }
      ],
      "vocab": [
       {
@@ -402,6 +703,20 @@
       "**On** : トウ　**Kun** : こた(える)",
       "Le bambou ⺮ et ce qui s'emboîte 合 : la réponse qui correspond."
      ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}の{質問|しつもん}に{答|こた}えます。",
+       "fr": "Je réponds à la question du professeur."
+      },
+      {
+       "jp": "{先生|せんせい}の{質問|しつもん}に{答|こた}えました。",
+       "fr": "J'ai répondu à la question du professeur."
+      },
+      {
+       "jp": "{二人|ふたり}は{同時|どうじ}に{答|こた}えました。",
+       "fr": "Les deux ont répondu en même temps."
+      }
+     ],
      "vocab": [
       {
        "jp": "{答|こた}える",
@@ -419,6 +734,20 @@
       "**On** : モン　**Kun** : と(う)",
       "Une bouche 口 à la porte 門 : on pose une question."
      ],
+     "ex": [
+      {
+       "jp": "それは{別|べつ}の{問題|もんだい}です。",
+       "fr": "C'est un autre problème."
+      },
+      {
+       "jp": "{先生|せんせい}、{質問|しつもん}があります。",
+       "fr": "Monsieur (le professeur), j'ai une question."
+      },
+      {
+       "jp": "{先生|せんせい}の{質問|しつもん}に{答|こた}えます。",
+       "fr": "Je réponds à la question du professeur."
+      }
+     ],
      "vocab": [
       {
        "jp": "{問題|もんだい}",
@@ -435,6 +764,20 @@
      "p": [
       "**On** : ブン、モン　**Kun** : ふみ",
       "Une personne aux bras croisés, couverte de signes : l'écrit."
+     ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}に{作文|さくぶん}を{出|だ}しました。",
+       "fr": "J'ai rendu ma rédaction au professeur."
+      },
+      {
+       "jp": "{週末|しゅうまつ}に{日本語|にほんご}で{作文|さくぶん}を{書|か}きました。",
+       "fr": "Ce week-end, j'ai écrit une rédaction en japonais."
+      },
+      {
+       "jp": "{兄|あに}の{専門|せんもん}は{日本|にほん}の{文化|ぶんか}です。",
+       "fr": "La spécialité de mon frère, c'est la culture japonaise."
+      }
      ],
      "vocab": [
       {
@@ -466,7 +809,7 @@
    "exercises": [
     {
      "id": "k4-12-研-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "研",
      "explain": "**研** : polir, rechercher. Une pierre 石 et deux montants 开 : on polit sans relâche.",
      "type": "choice",
@@ -476,11 +819,17 @@
       "approfondir",
       "partir, passé"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "研",
+      "kana": "ケン、と(ぐ)",
+      "fr": "polir, rechercher"
+     },
+     "card": "研"
     },
     {
      "id": "k4-12-究-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "究",
      "explain": "**究** : approfondir. Un trou 穴 et le chiffre neuf 九 : on creuse jusqu'au bout.",
      "type": "choice",
@@ -490,11 +839,17 @@
       "approfondir",
       "rizière"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "究",
+      "kana": "キュウ、きわ(める)",
+      "fr": "approfondir"
+     },
+     "card": "究"
     },
     {
      "id": "k4-12-題-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "題",
      "explain": "**題** : sujet, titre. Une tête 頁 et ce qui est juste 是 : le titre en tête.",
      "type": "choice",
@@ -504,11 +859,17 @@
       "nom",
       "sujet, titre"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "題",
+      "kana": "ダイ",
+      "fr": "sujet, titre"
+     },
+     "card": "題"
     },
     {
      "id": "k4-12-答-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "答",
      "explain": "**答** : répondre. Le bambou ⺮ et ce qui s'emboîte 合 : la réponse qui correspond.",
      "type": "choice",
@@ -518,11 +879,17 @@
       "direction, personne (poli)",
       "arrondissement"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "答",
+      "kana": "トウ、こた(える)",
+      "fr": "répondre"
+     },
+     "card": "答"
     },
     {
      "id": "k4-12-問-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "問",
      "explain": "**問** : question. Une bouche 口 à la porte 門 : on pose une question.",
      "type": "choice",
@@ -532,11 +899,17 @@
       "question",
       "préfecture (département)"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "問",
+      "kana": "モン、と(う)",
+      "fr": "question"
+     },
+     "card": "問"
     },
     {
      "id": "k4-12-文-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "文",
      "explain": "**文** : texte, phrase. Une personne aux bras croisés, couverte de signes : l'écrit.",
      "type": "choice",
@@ -546,11 +919,17 @@
       "arriver, porter (vêtement)",
       "ciel"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "文",
+      "kana": "ブン、モン、ふみ",
+      "fr": "texte, phrase"
+     },
+     "card": "文"
     },
     {
      "id": "k4-12-研究-lecture",
-     "q": "Comment se lit **研究** ?",
+     "q": "**研究**の{読|よ}み{方|かた}は？",
      "explain": "{研究|けんきゅう} : recherche.",
      "type": "choice",
      "choices": [
@@ -559,11 +938,17 @@
       "けんきゅう",
       "ときゅう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{研究|けんきゅう}",
+      "kana": "けんきゅう",
+      "fr": "recherche"
+     },
+     "card": "研究"
     },
     {
      "id": "k4-12-問題-lecture",
-     "q": "Comment se lit **問題** ?",
+     "q": "**問題**の{読|よ}み{方|かた}は？",
      "explain": "{問題|もんだい} : problème, question.",
      "type": "choice",
      "choices": [
@@ -572,11 +957,17 @@
       "もんだい",
       "てんいん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{問題|もんだい}",
+      "kana": "もんだい",
+      "fr": "problème, question"
+     },
+     "card": "問題"
     },
     {
      "id": "k4-12-答える-lecture",
-     "q": "Comment se lit **答える** ?",
+     "q": "**答える**の{読|よ}み{方|かた}は？",
      "explain": "{答|こた}える : répondre.",
      "type": "choice",
      "choices": [
@@ -585,11 +976,17 @@
       "きゅうこう",
       "こたえる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{答|こた}える",
+      "kana": "こたえる",
+      "fr": "répondre"
+     },
+     "card": "答える"
     },
     {
      "id": "k4-12-作文-lecture",
-     "q": "Comment se lit **作文** ?",
+     "q": "**作文**の{読|よ}み{方|かた}は？",
      "explain": "{作文|さくぶん} : rédaction.",
      "type": "choice",
      "choices": [
@@ -598,11 +995,17 @@
       "さぶん",
       "つくぶん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{作文|さくぶん}",
+      "kana": "さくぶん",
+      "fr": "rédaction"
+     },
+     "card": "作文"
     },
     {
      "id": "k4-12-研究-trou",
-     "q": "Complète le mot **けんきゅう** (recherche) :",
+     "q": "**けんきゅう**（recherche）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "研＿",
      "explain": "{研究|けんきゅう} : recherche.",
      "type": "choice",
@@ -612,11 +1015,17 @@
       "五",
       "究"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{研究|けんきゅう}",
+      "kana": "けんきゅう",
+      "fr": "recherche"
+     },
+     "card": "研究"
     },
     {
      "id": "k4-12-研究-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "{姉|あね}は大学で日本の{歴史|れきし}を**研究**しています。",
      "explain": "**研究** se lit けんきゅう ici ({研究|けんきゅう} : recherche). « Ma grande sœur fait des recherches sur l'histoire du Japon à l'université. »",
      "type": "choice",
@@ -626,11 +1035,17 @@
       "じしん",
       "ばんごはん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{研究|けんきゅう}",
+      "kana": "けんきゅう",
+      "fr": "recherche"
+     },
+     "card": "研究"
     },
     {
      "id": "k4-12-研-kanji",
-     "q": "Quel kanji veut dire « polir, rechercher » ?",
+     "q": "「polir, rechercher」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**研** : polir, rechercher. Une pierre 石 et deux montants 开 : on polit sans relâche.",
      "type": "choice",
      "choices": [
@@ -639,11 +1054,17 @@
       "研",
       "外"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "研",
+      "kana": "ケン、と(ぐ)",
+      "fr": "polir, rechercher"
+     },
+     "card": "研"
     },
     {
      "id": "k4-12-研究-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{研究|けんきゅう} se lit けんきゅう, pas けんきわ.",
      "type": "choice",
      "choices": [
@@ -652,11 +1073,17 @@
       "研究 → けんきわ",
       "答える → こたえる"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{研究|けんきゅう}",
+      "kana": "けんきゅう",
+      "fr": "recherche"
+     },
+     "card": "研究"
     },
     {
      "id": "k4-12-研究室-trou",
-     "q": "Complète le mot **けんきゅうしつ** (laboratoire) :",
+     "q": "**けんきゅうしつ**（laboratoire）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "研究＿",
      "explain": "{研究室|けんきゅうしつ} : laboratoire.",
      "type": "choice",
@@ -666,11 +1093,17 @@
       "屋",
       "国"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{研究室|けんきゅうしつ}",
+      "kana": "けんきゅうしつ",
+      "fr": "laboratoire"
+     },
+     "card": "研究室"
     },
     {
      "id": "k4-12-研究室-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "先生は**研究室**にいます。",
      "explain": "**研究室** se lit けんきゅうしつ ici ({研究室|けんきゅうしつ} : laboratoire). « Le professeur est dans son laboratoire. »",
      "type": "choice",
@@ -680,7 +1113,52 @@
       "けんきゅうしつ",
       "ときゅうしつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{研究室|けんきゅうしつ}",
+      "kana": "けんきゅうしつ",
+      "fr": "laboratoire"
+     },
+     "card": "研究室"
+    },
+    {
+     "id": "k4-12-究-kanji",
+     "q": "「approfondir」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**究** : approfondir. Un trou 穴 et le chiffre neuf 九 : on creuse jusqu'au bout.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "究",
+      "空",
+      "九"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "究",
+      "kana": "キュウ、きわ(める)",
+      "fr": "approfondir"
+     },
+     "card": "究"
+    },
+    {
+     "id": "k4-12-問題-trou",
+     "q": "**もんだい**（problème, question）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "問＿",
+     "explain": "{問題|もんだい} : problème, question.",
+     "type": "choice",
+     "choices": [
+      "顔",
+      "昨",
+      "題",
+      "頭"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{問題|もんだい}",
+      "kana": "もんだい",
+      "fr": "problème, question"
+     },
+     "card": "問題"
     }
    ]
   },
@@ -693,6 +1171,20 @@
      "p": [
       "**On** : ジ　**Kun** : あざ",
       "Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison."
+     ],
+     "ex": [
+      {
+       "jp": "{漢字|かんじ}を{百|ひゃく}{覚|おぼ}えました。",
+       "fr": "J'ai retenu cent kanji."
+      },
+      {
+       "jp": "ノートに{漢字|かんじ}を{書|か}きます。",
+       "fr": "J'écris des kanji dans mon cahier."
+      },
+      {
+       "jp": "{小|ちい}さい{文字|もじ}は{読|よ}みにくいです。",
+       "fr": "Les petits caractères sont difficiles à lire."
+      }
      ],
      "vocab": [
       {
@@ -715,6 +1207,20 @@
       "**On** : カン　**Kun** : —",
       "L'eau 氵 et une terre sèche : le fleuve Han, puis la Chine."
      ],
+     "ex": [
+      {
+       "jp": "{漢字|かんじ}を{百|ひゃく}{覚|おぼ}えました。",
+       "fr": "J'ai retenu cent kanji."
+      },
+      {
+       "jp": "ノートに{漢字|かんじ}を{書|か}きます。",
+       "fr": "J'écris des kanji dans mon cahier."
+      },
+      {
+       "jp": "{毎日|まいにち}{漢字|かんじ}を{五|いつ}つ{覚|おぼ}えます。",
+       "fr": "J'apprends cinq kanji par jour."
+      }
+     ],
      "vocab": [
       {
        "jp": "{漢字|かんじ}",
@@ -727,6 +1233,20 @@
      "p": [
       "**On** : エイ　**Kun** : —",
       "L'herbe 艹 et le centre 央 : la fleur au cœur, l'excellence ; aujourd'hui l'Angleterre."
+     ],
+     "ex": [
+      {
+       "jp": "{父|ちち}は{英語|えいご}が{話|はな}せます。",
+       "fr": "Mon père sait parler anglais."
+      },
+      {
+       "jp": "{駅|えき}の{近|ちか}くに{英会話|えいかいわ}の{学校|がっこう}があります。",
+       "fr": "Il y a une école de conversation anglaise près de la gare."
+      },
+      {
+       "jp": "{小林|こばやし}さんは{英語|えいご}の{先生|せんせい}です。",
+       "fr": "Mme Kobayashi est professeure d'anglais."
+      }
      ],
      "vocab": [
       {
@@ -744,6 +1264,20 @@
      "p": [
       "**On** : ヨウ　**Kun** : —",
       "L'eau 氵 et un mouton 羊 : l'eau à perte de vue, l'océan, puis l'Occident."
+     ],
+     "ex": [
+      {
+       "jp": "{新|あたら}しい{洋服|ようふく}を{買|か}いに{行|い}きます。",
+       "fr": "Je vais acheter de nouveaux vêtements."
+      },
+      {
+       "jp": "{西洋|せいよう}の{音楽|おんがく}をよく{聞|き}きます。",
+       "fr": "J'écoute souvent de la musique occidentale."
+      },
+      {
+       "jp": "{太平洋|たいへいよう}はとても{広|ひろ}いです。",
+       "fr": "L'océan Pacifique est immense."
+      }
      ],
      "vocab": [
       {
@@ -766,6 +1300,16 @@
       "**On** : セツ　**Kun** : と(く)",
       "La parole 言 et un frère qui sourit 兑 : on explique avec le sourire."
      ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}の{説明|せつめい}はわかりやすいです。",
+       "fr": "Les explications du professeur sont faciles à comprendre."
+      },
+      {
+       "jp": "{寝|ね}る{前|まえ}に{小説|しょうせつ}を{読|よ}みます。",
+       "fr": "Je lis un roman avant de dormir."
+      }
+     ],
      "vocab": [
       {
        "jp": "{説明|せつめい}",
@@ -782,6 +1326,20 @@
      "p": [
       "**On** : ケイ　**Kun** : はか(る)",
       "La parole 言 et dix 十 : on compte à voix haute."
+     ],
+     "ex": [
+      {
+       "jp": "この{時計|とけい}は{高|たか}かったです。",
+       "fr": "Cette montre était chère."
+      },
+      {
+       "jp": "{夏休|なつやす}みの{計画|けいかく}を{立|た}てました。",
+       "fr": "J'ai fait mes projets pour les vacances d'été."
+      },
+      {
+       "jp": "{合計|ごうけい}で{三千円|さんぜんえん}です。",
+       "fr": "Ça fait trois mille yens au total."
+      }
      ],
      "vocab": [
       {
@@ -808,7 +1366,7 @@
    "exercises": [
     {
      "id": "k4-13-字-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "字",
      "explain": "**字** : caractère (écrit). Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison.",
      "type": "choice",
@@ -818,11 +1376,17 @@
       "partir, passé",
       "caractère (écrit)"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "字",
+      "kana": "ジ、あざ",
+      "fr": "caractère (écrit)"
+     },
+     "card": "字"
     },
     {
      "id": "k4-13-漢-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "漢",
      "explain": "**漢** : Chine (des Han). L'eau 氵 et une terre sèche : le fleuve Han, puis la Chine.",
      "type": "choice",
@@ -832,11 +1396,17 @@
       "capitale, métropole",
       "Chine (des Han)"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "漢",
+      "kana": "カン",
+      "fr": "Chine (des Han)"
+     },
+     "card": "漢"
     },
     {
      "id": "k4-13-英-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "英",
      "explain": "**英** : anglais, excellent. L'herbe 艹 et le centre 央 : la fleur au cœur, l'excellence ; aujourd'hui l'Angleterre.",
      "type": "choice",
@@ -846,11 +1416,17 @@
       "je, moi",
       "préfecture (département)"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "英",
+      "kana": "エイ",
+      "fr": "anglais, excellent"
+     },
+     "card": "英"
     },
     {
      "id": "k4-13-洋-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "洋",
      "explain": "**洋** : océan, occidental. L'eau 氵 et un mouton 羊 : l'eau à perte de vue, l'océan, puis l'Occident.",
      "type": "choice",
@@ -860,11 +1436,17 @@
       "océan, occidental",
       "feu"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "洋",
+      "kana": "ヨウ",
+      "fr": "océan, occidental"
+     },
+     "card": "洋"
     },
     {
      "id": "k4-13-説-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "説",
      "explain": "**説** : expliquer. La parole 言 et un frère qui sourit 兑 : on explique avec le sourire.",
      "type": "choice",
@@ -874,11 +1456,17 @@
       "expliquer",
       "acheter"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "説",
+      "kana": "セツ、と(く)",
+      "fr": "expliquer"
+     },
+     "card": "説"
     },
     {
      "id": "k4-13-計-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "計",
      "explain": "**計** : mesurer, compter. La parole 言 et dix 十 : on compte à voix haute.",
      "type": "choice",
@@ -888,11 +1476,17 @@
       "endroit",
       "monde, génération"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "計",
+      "kana": "ケイ、はか(る)",
+      "fr": "mesurer, compter"
+     },
+     "card": "計"
     },
     {
      "id": "k4-13-漢字-lecture",
-     "q": "Comment se lit **漢字** ?",
+     "q": "**漢字**の{読|よ}み{方|かた}は？",
      "explain": "{漢字|かんじ} : kanji.",
      "type": "choice",
      "choices": [
@@ -901,11 +1495,17 @@
       "かんあざ",
       "とっきゅう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{漢字|かんじ}",
+      "kana": "かんじ",
+      "fr": "kanji"
+     },
+     "card": "漢字"
     },
     {
      "id": "k4-13-英会話-lecture",
-     "q": "Comment se lit **英会話** ?",
+     "q": "**英会話**の{読|よ}み{方|かた}は？",
      "explain": "{英会話|えいかいわ} : conversation en anglais.",
      "type": "choice",
      "choices": [
@@ -914,11 +1514,17 @@
       "つよい",
       "えいかいはなし"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{英会話|えいかいわ}",
+      "kana": "えいかいわ",
+      "fr": "conversation en anglais"
+     },
+     "card": "英会話"
     },
     {
      "id": "k4-13-洋服-lecture",
-     "q": "Comment se lit **洋服** ?",
+     "q": "**洋服**の{読|よ}み{方|かた}は？",
      "explain": "{洋服|ようふく} : vêtements (occidentaux).",
      "type": "choice",
      "choices": [
@@ -927,11 +1533,17 @@
       "りゅうがく",
       "ようふく"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{洋服|ようふく}",
+      "kana": "ようふく",
+      "fr": "vêtements (occidentaux)"
+     },
+     "card": "洋服"
     },
     {
      "id": "k4-13-説明-lecture",
-     "q": "Comment se lit **説明** ?",
+     "q": "**説明**の{読|よ}み{方|かた}は？",
      "explain": "{説明|せつめい} : explication.",
      "type": "choice",
      "choices": [
@@ -940,11 +1552,17 @@
       "せつあ",
       "せつめい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{説明|せつめい}",
+      "kana": "せつめい",
+      "fr": "explication"
+     },
+     "card": "説明"
     },
     {
      "id": "k4-13-時計-lecture",
-     "q": "Comment se lit **時計** ?",
+     "q": "**時計**の{読|よ}み{方|かた}は？",
      "explain": "{時計|とけい} : montre, horloge.",
      "type": "choice",
      "choices": [
@@ -953,11 +1571,17 @@
       "しみん",
       "とけい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{時計|とけい}",
+      "kana": "とけい",
+      "fr": "montre, horloge"
+     },
+     "card": "時計"
     },
     {
      "id": "k4-13-漢字-trou",
-     "q": "Complète le mot **かんじ** (kanji) :",
+     "q": "**かんじ**（kanji）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "漢＿",
      "explain": "{漢字|かんじ} : kanji.",
      "type": "choice",
@@ -967,11 +1591,17 @@
       "字",
       "学"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{漢字|かんじ}",
+      "kana": "かんじ",
+      "fr": "kanji"
+     },
+     "card": "漢字"
     },
     {
      "id": "k4-13-漢字-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**漢字**はむずかしいですが、おもしろいです。",
      "explain": "**漢字** se lit かんじ ici ({漢字|かんじ} : kanji). « Les kanji sont difficiles, mais intéressants. »",
      "type": "choice",
@@ -981,11 +1611,17 @@
       "おとこのひと",
       "なんがい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{漢字|かんじ}",
+      "kana": "かんじ",
+      "fr": "kanji"
+     },
+     "card": "漢字"
     },
     {
      "id": "k4-13-字-kanji",
-     "q": "Quel kanji veut dire « caractère (écrit) » ?",
+     "q": "「caractère (écrit)」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**字** : caractère (écrit). Un enfant 子 sous un toit 宀 : les signes qu'on apprend à la maison.",
      "type": "choice",
      "choices": [
@@ -994,11 +1630,17 @@
       "子",
       "学"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "字",
+      "kana": "ジ、あざ",
+      "fr": "caractère (écrit)"
+     },
+     "card": "字"
     },
     {
      "id": "k4-13-漢字-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{漢字|かんじ} se lit かんじ, pas かんあざ.",
      "type": "choice",
      "choices": [
@@ -1007,11 +1649,17 @@
       "英会話 → えいかいわ",
       "漢字 → かんあざ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{漢字|かんじ}",
+      "kana": "かんじ",
+      "fr": "kanji"
+     },
+     "card": "漢字"
     },
     {
      "id": "k4-13-英語-trou",
-     "q": "Complète le mot **えいご** (anglais (langue)) :",
+     "q": "**えいご**（anglais (langue)）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "英＿",
      "explain": "{英語|えいご} : anglais (langue).",
      "type": "choice",
@@ -1021,7 +1669,52 @@
       "休",
       "用"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{英語|えいご}",
+      "kana": "えいご",
+      "fr": "anglais (langue)"
+     },
+     "card": "英語"
+    },
+    {
+     "id": "k4-13-文字-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "小さい**文字**は読みにくいです。",
+     "explain": "**文字** se lit もじ ici ({文字|もじ} : caractère, lettre). « Les petits caractères sont difficiles à lire. »",
+     "type": "choice",
+     "choices": [
+      "いえ",
+      "ちかく",
+      "もじ",
+      "した"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{文字|もじ}",
+      "kana": "もじ",
+      "fr": "caractère, lettre"
+     },
+     "card": "文字"
+    },
+    {
+     "id": "k4-13-漢-kanji",
+     "q": "「Chine (des Han)」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**漢** : Chine (des Han). L'eau 氵 et une terre sèche : le fleuve Han, puis la Chine.",
+     "type": "choice",
+     "choices": [
+      "僕",
+      "着",
+      "難",
+      "漢"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "漢",
+      "kana": "カン",
+      "fr": "Chine (des Han)"
+     },
+     "card": "漢"
     }
    ]
   },
@@ -1034,6 +1727,20 @@
      "p": [
       "**On** : シ、ジ　**Kun** : つか(える)",
       "Une personne 亻 et un lettré 士 : celui qui sert."
+     ],
+     "ex": [
+      {
+       "jp": "{明日|あした}は{仕事|しごと}が{休|やす}みです。",
+       "fr": "Demain, je ne travaille pas."
+      },
+      {
+       "jp": "{雨|あめ}ですから、{仕方|しかた}がありません。",
+       "fr": "Il pleut, on n'y peut rien."
+      },
+      {
+       "jp": "{仕事|しごと}は{六時|ろくじ}に{終|お}わります。",
+       "fr": "Le travail finit à six heures."
+      }
      ],
      "vocab": [
       {
@@ -1051,6 +1758,20 @@
      "p": [
       "**On** : ジ、ズ　**Kun** : こと",
       "Une main qui tient un pinceau : l'affaire qu'on traite."
+     ],
+     "ex": [
+      {
+       "jp": "{明日|あした}は{仕事|しごと}が{休|やす}みです。",
+       "fr": "Demain, je ne travaille pas."
+      },
+      {
+       "jp": "{仕事|しごと}は{六時|ろくじ}に{終|お}わります。",
+       "fr": "Le travail finit à six heures."
+      },
+      {
+       "jp": "{家族|かぞく}と{食事|しょくじ}をしました。",
+       "fr": "J'ai pris un repas en famille."
+      }
      ],
      "vocab": [
       {
@@ -1077,6 +1798,7 @@
       "**On** : ドウ　**Kun** : はたら(く)",
       "Une personne 亻 qui bouge 動 : elle travaille."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{働|はたら}く",
@@ -1089,6 +1811,20 @@
      "p": [
       "**On** : ギョウ、ゴウ　**Kun** : わざ",
       "Un support chargé de cloches : l'ouvrage du métier."
+     ],
+     "ex": [
+      {
+       "jp": "{授業|じゅぎょう}は{九時|くじ}に{始|はじ}まります。",
+       "fr": "Le cours commence à neuf heures."
+      },
+      {
+       "jp": "{来年|らいねん}、{大学|だいがく}を{卒業|そつぎょう}します。",
+       "fr": "L'an prochain, je finis l'université."
+      },
+      {
+       "jp": "この{町|まち}は{工業|こうぎょう}で{有名|ゆうめい}です。",
+       "fr": "Cette ville est connue pour son industrie."
+      }
      ],
      "vocab": [
       {
@@ -1111,6 +1847,20 @@
       "**On** : イン　**Kun** : —",
       "Une bouche 口 au-dessus d'un coquillage 貝 : celui qui compte l'argent, l'employé."
      ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{会社員|かいしゃいん}です。",
+       "fr": "Mon grand frère est employé de bureau."
+      },
+      {
+       "jp": "{店員|てんいん}さんに{道|みち}を{聞|き}きました。",
+       "fr": "J'ai demandé le chemin au vendeur."
+      },
+      {
+       "jp": "{駅員|えきいん}さんに{道|みち}を{聞|き}きました。",
+       "fr": "J'ai demandé le chemin à un employé de la gare."
+      }
+     ],
      "vocab": [
       {
        "jp": "{会社員|かいしゃいん}",
@@ -1132,6 +1882,20 @@
       "**On** : コウ、ク　**Kun** : —",
       "Une équerre de charpentier."
      ],
+     "ex": [
+      {
+       "jp": "{父|ちち}は{車|くるま}の{工場|こうじょう}で{働|はたら}いています。",
+       "fr": "Mon père travaille dans une usine automobile."
+      },
+      {
+       "jp": "この{町|まち}は{工業|こうぎょう}で{有名|ゆうめい}です。",
+       "fr": "Cette ville est connue pour son industrie."
+      },
+      {
+       "jp": "{大工|だいく}さんが{家|いえ}を{建|た}てています。",
+       "fr": "Un charpentier construit une maison."
+      }
+     ],
      "vocab": [
       {
        "jp": "{工場|こうじょう}",
@@ -1152,6 +1916,20 @@
      "p": [
       "**On** : サン　**Kun** : う(む)",
       "Debout 立 sous une falaise 厂, on donne la vie 生."
+     ],
+     "ex": [
+      {
+       "jp": "{京都|きょうと}でお{土産|みやげ}を{買|か}いました。",
+       "fr": "J'ai acheté des souvenirs à Kyoto."
+      },
+      {
+       "jp": "この{町|まち}の{主|おも}な{産業|さんぎょう}は{何|なん}ですか。",
+       "fr": "Quelle est la principale industrie de cette ville ?"
+      },
+      {
+       "jp": "この{国|くに}は{米|こめ}の{生産|せいさん}が{多|おお}いです。",
+       "fr": "Ce pays produit beaucoup de riz."
+      }
      ],
      "vocab": [
       {
@@ -1179,7 +1957,7 @@
    "exercises": [
     {
      "id": "k4-14-仕-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "仕",
      "explain": "**仕** : servir. Une personne 亻 et un lettré 士 : celui qui sert.",
      "type": "choice",
@@ -1189,11 +1967,17 @@
       "servir",
       "répondre"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "仕",
+      "kana": "シ、ジ、つか(える)",
+      "fr": "servir"
+     },
+     "card": "仕"
     },
     {
      "id": "k4-14-事-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "事",
      "explain": "**事** : chose, affaire. Une main qui tient un pinceau : l'affaire qu'on traite.",
      "type": "choice",
@@ -1203,11 +1987,17 @@
       "pied, jambe",
       "huit"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "事",
+      "kana": "ジ、ズ、こと",
+      "fr": "chose, affaire"
+     },
+     "card": "事"
     },
     {
      "id": "k4-14-働-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "働",
      "explain": "**働** : travailler. Une personne 亻 qui bouge 動 : elle travaille.",
      "type": "choice",
@@ -1217,11 +2007,17 @@
       "droite",
       "texte, phrase"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "働",
+      "kana": "ドウ、はたら(く)",
+      "fr": "travailler"
+     },
+     "card": "働"
     },
     {
      "id": "k4-14-業-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "業",
      "explain": "**業** : métier, industrie. Un support chargé de cloches : l'ouvrage du métier.",
      "type": "choice",
@@ -1231,11 +2027,17 @@
       "feu",
       "neuf"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "業",
+      "kana": "ギョウ、ゴウ、わざ",
+      "fr": "métier, industrie"
+     },
+     "card": "業"
     },
     {
      "id": "k4-14-員-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "員",
      "explain": "**員** : membre, employé. Une bouche 口 au-dessus d'un coquillage 貝 : celui qui compte l'argent, l'employé.",
      "type": "choice",
@@ -1245,11 +2047,17 @@
       "membre, employé",
       "esprit, énergie"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "員",
+      "kana": "イン",
+      "fr": "membre, employé"
+     },
+     "card": "員"
     },
     {
      "id": "k4-14-工-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "工",
      "explain": "**工** : construction, artisanat. Une équerre de charpentier.",
      "type": "choice",
@@ -1259,11 +2067,17 @@
       "rizière",
       "institution"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "工",
+      "kana": "コウ、ク",
+      "fr": "construction, artisanat"
+     },
+     "card": "工"
     },
     {
      "id": "k4-14-産-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "産",
      "explain": "**産** : produire, naître. Debout 立 sous une falaise 厂, on donne la vie 生.",
      "type": "choice",
@@ -1273,11 +2087,17 @@
       "produire, naître",
       "arriver, porter (vêtement)"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "産",
+      "kana": "サン、う(む)",
+      "fr": "produire, naître"
+     },
+     "card": "産"
     },
     {
      "id": "k4-14-仕事-lecture",
-     "q": "Comment se lit **仕事** ?",
+     "q": "**仕事**の{読|よ}み{方|かた}は？",
      "explain": "{仕事|しごと} : travail.",
      "type": "choice",
      "choices": [
@@ -1286,11 +2106,17 @@
       "がいこく",
       "しごと"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{仕事|しごと}",
+      "kana": "しごと",
+      "fr": "travail"
+     },
+     "card": "仕事"
     },
     {
      "id": "k4-14-事-lecture",
-     "q": "Comment se lit **事** ?",
+     "q": "**事**の{読|よ}み{方|かた}は？",
      "explain": "{事|こと} : chose (abstraite).",
      "type": "choice",
      "choices": [
@@ -1299,11 +2125,17 @@
       "はたらく",
       "みせる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{事|こと}",
+      "kana": "こと",
+      "fr": "chose (abstraite)"
+     },
+     "card": "事"
     },
     {
      "id": "k4-14-働く-lecture",
-     "q": "Comment se lit **働く** ?",
+     "q": "**働く**の{読|よ}み{方|かた}は？",
      "explain": "{働|はたら}く : travailler.",
      "type": "choice",
      "choices": [
@@ -1312,11 +2144,17 @@
       "はたらく",
       "みち"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{働|はたら}く",
+      "kana": "はたらく",
+      "fr": "travailler"
+     },
+     "card": "働く"
     },
     {
      "id": "k4-14-授業-lecture",
-     "q": "Comment se lit **授業** ?",
+     "q": "**授業**の{読|よ}み{方|かた}は？",
      "explain": "{授業|じゅぎょう} : cours (en classe).",
      "type": "choice",
      "choices": [
@@ -1325,11 +2163,17 @@
       "じゅぎょう",
       "じゅごう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{授業|じゅぎょう}",
+      "kana": "じゅぎょう",
+      "fr": "cours (en classe)"
+     },
+     "card": "授業"
     },
     {
      "id": "k4-14-店員-lecture",
-     "q": "Comment se lit **店員** ?",
+     "q": "**店員**の{読|よ}み{方|かた}は？",
      "explain": "{店員|てんいん} : vendeur, vendeuse.",
      "type": "choice",
      "choices": [
@@ -1338,11 +2182,17 @@
       "てんいん",
       "みせいん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{店員|てんいん}",
+      "kana": "てんいん",
+      "fr": "vendeur, vendeuse"
+     },
+     "card": "店員"
     },
     {
      "id": "k4-14-工場-lecture",
-     "q": "Comment se lit **工場** ?",
+     "q": "**工場**の{読|よ}み{方|かた}は？",
      "explain": "{工場|こうじょう} : usine.",
      "type": "choice",
      "choices": [
@@ -1351,11 +2201,17 @@
       "こうじょう",
       "こうば"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{工場|こうじょう}",
+      "kana": "こうじょう",
+      "fr": "usine"
+     },
+     "card": "工場"
     },
     {
      "id": "k4-14-お土産-lecture",
-     "q": "Comment se lit **お土産** ?",
+     "q": "**お土産**の{読|よ}み{方|かた}は？",
      "explain": "お{土産|みやげ} : souvenir (cadeau).",
      "type": "choice",
      "choices": [
@@ -1364,11 +2220,17 @@
       "おみやげ",
       "せんげつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "お{土産|みやげ}",
+      "kana": "おみやげ",
+      "fr": "souvenir (cadeau)"
+     },
+     "card": "お土産"
     },
     {
      "id": "k4-14-仕事-trou",
-     "q": "Complète le mot **しごと** (travail) :",
+     "q": "**しごと**（travail）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "仕＿",
      "explain": "{仕事|しごと} : travail.",
      "type": "choice",
@@ -1378,11 +2240,17 @@
       "究",
       "書"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{仕事|しごと}",
+      "kana": "しごと",
+      "fr": "travail"
+     },
+     "card": "仕事"
     },
     {
      "id": "k4-14-仕事-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**仕事**は六時に{終|お}わります。",
      "explain": "**仕事** se lit しごと ici ({仕事|しごと} : travail). « Le travail finit à six heures. »",
      "type": "choice",
@@ -1392,7 +2260,51 @@
       "しじ",
       "しごと"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{仕事|しごと}",
+      "kana": "しごと",
+      "fr": "travail"
+     },
+     "card": "仕事"
+    },
+    {
+     "id": "k4-14-仕-kanji",
+     "q": "「servir」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**仕** : servir. Une personne 亻 et un lettré 士 : celui qui sert.",
+     "type": "choice",
+     "choices": [
+      "学",
+      "任",
+      "仕",
+      "化"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "仕",
+      "kana": "シ、ジ、つか(える)",
+      "fr": "servir"
+     },
+     "card": "仕"
+    },
+    {
+     "id": "k4-14-仕事-intrus",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
+     "explain": "{仕事|しごと} se lit しごと, pas しこと.",
+     "type": "choice",
+     "choices": [
+      "仕事 → しこと",
+      "授業 → じゅぎょう",
+      "火事 → かじ",
+      "仕方 → しかた"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{仕事|しごと}",
+      "kana": "しごと",
+      "fr": "travail"
+     },
+     "card": "仕事"
     }
    ]
   },
@@ -1405,6 +2317,20 @@
      "p": [
       "**On** : シュ　**Kun** : ぬし、おも",
       "Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille."
+     ],
+     "ex": [
+      {
+       "jp": "ご{主人|しゅじん}はお{元気|げんき}ですか。",
+       "fr": "Votre mari va bien ?"
+      },
+      {
+       "jp": "この{町|まち}の{主|おも}な{産業|さんぎょう}は{何|なん}ですか。",
+       "fr": "Quelle est la principale industrie de cette ville ?"
+      },
+      {
+       "jp": "{母|はは}は{主婦|しゅふ}です。",
+       "fr": "Ma mère est femme au foyer."
+      }
      ],
      "vocab": [
       {
@@ -1427,6 +2353,20 @@
       "**On** : シャ　**Kun** : もの",
       "Un vieillard 耂 qui parle 日 : celui qui fait."
      ],
+     "ex": [
+      {
+       "jp": "{歯医者|はいしゃ}に{行|い}くのが{嫌|きら}いです。",
+       "fr": "Je déteste aller chez le dentiste."
+      },
+      {
+       "jp": "{父|ちち}は{有名|ゆうめい}な{学者|がくしゃ}です。",
+       "fr": "Mon père est un chercheur célèbre."
+      },
+      {
+       "jp": "{若者|わかもの}はこの{歌|うた}が{好|す}きです。",
+       "fr": "Les jeunes aiment cette chanson."
+      }
+     ],
      "vocab": [
       {
        "jp": "{医者|いしゃ}",
@@ -1447,6 +2387,20 @@
      "p": [
       "**On** : ダイ、タイ　**Kun** : か(わる)、よ",
       "Une personne 亻 et un piquet 弋 : chacun son tour de garde."
+     ],
+     "ex": [
+      {
+       "jp": "{江戸|えど}{時代|じだい}の{話|はなし}を{聞|き}きました。",
+       "fr": "J'ai écouté une histoire de l'époque d'Edo."
+      },
+      {
+       "jp": "{今月|こんげつ}は{電気代|でんきだい}が{高|たか}かったです。",
+       "fr": "Ce mois-ci, la facture d'électricité était chère."
+      },
+      {
+       "jp": "{今月|こんげつ}の{電気代|でんきだい}は{高|たか}かったです。",
+       "fr": "La facture d'électricité de ce mois-ci était chère."
+      }
      ],
      "vocab": [
       {
@@ -1469,6 +2423,20 @@
       "**On** : ダイ、タイ　**Kun** : —",
       "Un nez ム au-dessus d'une bouche 口 : une estrade où l'on parle."
      ],
+     "ex": [
+      {
+       "jp": "{母|はは}は{台所|だいどころ}で{料理|りょうり}をしています。",
+       "fr": "Ma mère cuisine dans la cuisine."
+      },
+      {
+       "jp": "{明日|あした}、{台風|たいふう}が{来|き}ます。",
+       "fr": "Un typhon arrive demain."
+      },
+      {
+       "jp": "{台風|たいふう}で{電車|でんしゃ}が{止|と}まりました。",
+       "fr": "Les trains se sont arrêtés à cause du typhon."
+      }
+     ],
      "vocab": [
       {
        "jp": "{台所|だいどころ}",
@@ -1489,6 +2457,20 @@
      "p": [
       "**On** : ブツ、モツ　**Kun** : もの",
       "Une vache 牛 et une bannière 勿 : les biens, les choses."
+     ],
+     "ex": [
+      {
+       "jp": "この{店|みせ}の{果物|くだもの}は{高|たか}いです。",
+       "fr": "Les fruits de ce magasin sont chers."
+      },
+      {
+       "jp": "{好|す}きな{食|た}べ{物|もの}は{何|なん}ですか。",
+       "fr": "Quel est ton plat préféré ?"
+      },
+      {
+       "jp": "{動物園|どうぶつえん}でパンダを{見|み}ました。",
+       "fr": "J'ai vu un panda au zoo."
+      }
      ],
      "vocab": [
       {
@@ -1515,6 +2497,20 @@
       "**On** : シ　**Kun** : かみ",
       "Un fil 糸 et une famille 氏 : le papier fait de fibres."
      ],
+     "ex": [
+      {
+       "jp": "{白|しろ}い{紙|かみ}を{一枚|いちまい}ください。",
+       "fr": "Donnez-moi une feuille de papier blanc, s'il vous plaît."
+      },
+      {
+       "jp": "{友|とも}だちに{手紙|てがみ}を{書|か}きます。",
+       "fr": "J'écris une lettre à un ami."
+      },
+      {
+       "jp": "{祖|そ}{母|ぼ}に{手紙|てがみ}を{書|か}きました。",
+       "fr": "J'ai écrit une lettre à ma grand-mère."
+      }
+     ],
      "vocab": [
       {
        "jp": "{紙|かみ}",
@@ -1537,7 +2533,7 @@
    "exercises": [
     {
      "id": "k4-15-主-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "主",
      "explain": "**主** : maître, principal. Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille.",
      "type": "choice",
@@ -1547,11 +2543,17 @@
       "courir",
       "envoyer"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "主",
+      "kana": "シュ、ぬし、おも",
+      "fr": "maître, principal"
+     },
+     "card": "主"
     },
     {
      "id": "k4-15-者-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "者",
      "explain": "**者** : personne (qui fait). Un vieillard 耂 qui parle 日 : celui qui fait.",
      "type": "choice",
@@ -1561,11 +2563,17 @@
       "personne (qui fait)",
       "or, argent"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "者",
+      "kana": "シャ、もの",
+      "fr": "personne (qui fait)"
+     },
+     "card": "者"
     },
     {
      "id": "k4-15-代-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "代",
      "explain": "**代** : remplacer, époque, prix. Une personne 亻 et un piquet 弋 : chacun son tour de garde.",
      "type": "choice",
@@ -1575,11 +2583,17 @@
       "bon marché, tranquille",
       "faire, fabriquer"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "代",
+      "kana": "ダイ、タイ、か(わる)、よ",
+      "fr": "remplacer, époque, prix"
+     },
+     "card": "代"
     },
     {
      "id": "k4-15-台-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "台",
      "explain": "**台** : socle, estrade. Un nez ム au-dessus d'une bouche 口 : une estrade où l'on parle.",
      "type": "choice",
@@ -1589,11 +2603,17 @@
       "champ, nature",
       "nouveau"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "台",
+      "kana": "ダイ、タイ",
+      "fr": "socle, estrade"
+     },
+     "card": "台"
     },
     {
      "id": "k4-15-物-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "物",
      "explain": "**物** : chose. Une vache 牛 et une bannière 勿 : les biens, les choses.",
      "type": "choice",
@@ -1603,11 +2623,17 @@
       "partir, passé",
       "est"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "物",
+      "kana": "ブツ、モツ、もの",
+      "fr": "chose"
+     },
+     "card": "物"
     },
     {
      "id": "k4-15-紙-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "紙",
      "explain": "**紙** : papier. Un fil 糸 et une famille 氏 : le papier fait de fibres.",
      "type": "choice",
@@ -1617,11 +2643,17 @@
       "papier",
       "boire"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "紙",
+      "kana": "シ、かみ",
+      "fr": "papier"
+     },
+     "card": "紙"
     },
     {
      "id": "k4-15-ご主人-lecture",
-     "q": "Comment se lit **ご主人** ?",
+     "q": "**ご主人**の{読|よ}み{方|かた}は？",
      "explain": "ご{主人|しゅじん} : votre mari.",
      "type": "choice",
      "choices": [
@@ -1630,11 +2662,17 @@
       "ごおもじん",
       "ことり"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "ご{主人|しゅじん}",
+      "kana": "ごしゅじん",
+      "fr": "votre mari"
+     },
+     "card": "ご主人"
     },
     {
      "id": "k4-15-医者-lecture",
-     "q": "Comment se lit **医者** ?",
+     "q": "**医者**の{読|よ}み{方|かた}は？",
      "explain": "{医者|いしゃ} : médecin.",
      "type": "choice",
      "choices": [
@@ -1643,11 +2681,17 @@
       "みち",
       "いしゃ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{医者|いしゃ}",
+      "kana": "いしゃ",
+      "fr": "médecin"
+     },
+     "card": "医者"
     },
     {
      "id": "k4-15-時代-lecture",
-     "q": "Comment se lit **時代** ?",
+     "q": "**時代**の{読|よ}み{方|かた}は？",
      "explain": "{時代|じだい} : époque.",
      "type": "choice",
      "choices": [
@@ -1656,11 +2700,17 @@
       "じだい",
       "じか"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{時代|じだい}",
+      "kana": "じだい",
+      "fr": "époque"
+     },
+     "card": "時代"
     },
     {
      "id": "k4-15-台所-lecture",
-     "q": "Comment se lit **台所** ?",
+     "q": "**台所**の{読|よ}み{方|かた}は？",
      "explain": "{台所|だいどころ} : cuisine (pièce).",
      "type": "choice",
      "choices": [
@@ -1669,11 +2719,17 @@
       "たいどころ",
       "だいどころ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{台所|だいどころ}",
+      "kana": "だいどころ",
+      "fr": "cuisine (pièce)"
+     },
+     "card": "台所"
     },
     {
      "id": "k4-15-物-lecture",
-     "q": "Comment se lit **物** ?",
+     "q": "**物**の{読|よ}み{方|かた}は？",
      "explain": "{物|もの} : chose, objet.",
      "type": "choice",
      "choices": [
@@ -1682,11 +2738,17 @@
       "じかん",
       "いえ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{物|もの}",
+      "kana": "もの",
+      "fr": "chose, objet"
+     },
+     "card": "物"
     },
     {
      "id": "k4-15-紙-lecture",
-     "q": "Comment se lit **紙** ?",
+     "q": "**紙**の{読|よ}み{方|かた}は？",
      "explain": "{紙|かみ} : papier.",
      "type": "choice",
      "choices": [
@@ -1695,11 +2757,17 @@
       "し",
       "いちば"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{紙|かみ}",
+      "kana": "かみ",
+      "fr": "papier"
+     },
+     "card": "紙"
     },
     {
      "id": "k4-15-ご主人-trou",
-     "q": "Complète le mot **ごしゅじん** (votre mari) :",
+     "q": "**ごしゅじん**（votre mari）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "ご主＿",
      "explain": "ご{主人|しゅじん} : votre mari.",
      "type": "choice",
@@ -1709,11 +2777,17 @@
       "大",
       "人"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "ご{主人|しゅじん}",
+      "kana": "ごしゅじん",
+      "fr": "votre mari"
+     },
+     "card": "ご主人"
     },
     {
      "id": "k4-15-ご主人-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**ご主人**はお{元気|げんき}ですか。",
      "explain": "**ご主人** se lit ごしゅじん ici (ご{主人|しゅじん} : votre mari). « Votre mari va bien ? »",
      "type": "choice",
@@ -1723,11 +2797,17 @@
       "ごしゅにん",
       "ごしゅじん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "ご{主人|しゅじん}",
+      "kana": "ごしゅじん",
+      "fr": "votre mari"
+     },
+     "card": "ご主人"
     },
     {
      "id": "k4-15-主-kanji",
-     "q": "Quel kanji veut dire « maître, principal » ?",
+     "q": "「maître, principal」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**主** : maître, principal. Une lampe surmontée de sa flamme 丶 : le maître de maison qui veille.",
      "type": "choice",
      "choices": [
@@ -1736,11 +2816,17 @@
       "生",
       "王"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "主",
+      "kana": "シュ、ぬし、おも",
+      "fr": "maître, principal"
+     },
+     "card": "主"
     },
     {
      "id": "k4-15-ご主人-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "ご{主人|しゅじん} se lit ごしゅじん, pas ごぬしじん.",
      "type": "choice",
      "choices": [
@@ -1749,7 +2835,53 @@
       "食べ物 → たべもの",
       "電気代 → でんきだい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "ご{主人|しゅじん}",
+      "kana": "ごしゅじん",
+      "fr": "votre mari"
+     },
+     "card": "ご主人"
+    },
+    {
+     "id": "k4-15-医者-trou",
+     "q": "**いしゃ**（médecin）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "医＿",
+     "explain": "{医者|いしゃ} : médecin.",
+     "type": "choice",
+     "choices": [
+      "着",
+      "都",
+      "者",
+      "金"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{医者|いしゃ}",
+      "kana": "いしゃ",
+      "fr": "médecin"
+     },
+     "card": "医者"
+    },
+    {
+     "id": "k4-15-主な-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "この町の**主**な{産業|さんぎょう}は何ですか。",
+     "explain": "**主** se lit おも ici ({主|おも}な : principal). « Quelle est la principale industrie de cette ville ? »",
+     "type": "choice",
+     "choices": [
+      "おも",
+      "あつ",
+      "こた",
+      "みみ"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{主|おも}な",
+      "kana": "おもな",
+      "fr": "principal"
+     },
+     "card": "主な"
     }
    ]
   }
@@ -1757,7 +2889,7 @@
  "test": [
   {
    "id": "k4-b03-教室-ecrit",
-   "q": "Quel mot s'écrit **きょうしつ** (salle de classe) ?",
+   "q": "**きょうしつ**（salle de classe）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{教室|きょうしつ} : salle de classe.",
    "type": "choice",
    "choices": [
@@ -1766,11 +2898,17 @@
     "孝室",
     "教室"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{教室|きょうしつ}",
+    "kana": "きょうしつ",
+    "fr": "salle de classe"
+   },
+   "card": "教室"
   },
   {
    "id": "k4-b03-教会-lecture",
-   "q": "Comment se lit **教会** ?",
+   "q": "**教会**の{読|よ}み{方|かた}は？",
    "explain": "{教会|きょうかい} : église.",
    "type": "choice",
    "choices": [
@@ -1779,11 +2917,17 @@
     "きょうかい",
     "きょうあ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{教会|きょうかい}",
+    "kana": "きょうかい",
+    "fr": "église"
+   },
+   "card": "教会"
   },
   {
    "id": "k4-b03-練習-lecture",
-   "q": "Comment se lit **練習** ?",
+   "q": "**練習**の{読|よ}み{方|かた}は？",
    "explain": "{練習|れんしゅう} : entraînement.",
    "type": "choice",
    "choices": [
@@ -1792,11 +2936,17 @@
     "ころぶ",
     "れんしゅう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{練習|れんしゅう}",
+    "kana": "れんしゅう",
+    "fr": "entraînement"
+   },
+   "card": "練習"
   },
   {
    "id": "k4-b03-予習-lecture",
-   "q": "Comment se lit **予習** ?",
+   "q": "**予習**の{読|よ}み{方|かた}は？",
    "explain": "{予習|よしゅう} : préparation (d'un cours).",
    "type": "choice",
    "choices": [
@@ -1805,11 +2955,17 @@
     "よなら",
     "つく"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{予習|よしゅう}",
+    "kana": "よしゅう",
+    "fr": "préparation (d'un cours)"
+   },
+   "card": "予習"
   },
   {
    "id": "k4-b03-勉強-ecrit",
-   "q": "Quel mot s'écrit **べんきょう** (étude) ?",
+   "q": "**べんきょう**（étude）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{勉強|べんきょう} : étude.",
    "type": "choice",
    "choices": [
@@ -1818,11 +2974,17 @@
     "勤強",
     "勉強"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{勉強|べんきょう}",
+    "kana": "べんきょう",
+    "fr": "étude"
+   },
+   "card": "勉強"
   },
   {
    "id": "k4-b03-試験-ecrit",
-   "q": "Quel mot s'écrit **しけん** (examen) ?",
+   "q": "**しけん**（examen）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{試験|しけん} : examen.",
    "type": "choice",
    "choices": [
@@ -1831,11 +2993,17 @@
     "館験",
     "説験"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{試験|しけん}",
+    "kana": "しけん",
+    "fr": "examen"
+   },
+   "card": "試験"
   },
   {
    "id": "k4-b03-試合-lecture",
-   "q": "Comment se lit **試合** ?",
+   "q": "**試合**の{読|よ}み{方|かた}は？",
    "explain": "{試合|しあい} : match.",
    "type": "choice",
    "choices": [
@@ -1844,11 +3012,17 @@
     "しあい",
     "かぞく"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{試合|しあい}",
+    "kana": "しあい",
+    "fr": "match"
+   },
+   "card": "試合"
   },
   {
    "id": "k4-b03-試す-lecture",
-   "q": "Comment se lit **試す** ?",
+   "q": "**試す**の{読|よ}み{方|かた}は？",
    "explain": "{試|ため}す : essayer.",
    "type": "choice",
    "choices": [
@@ -1857,11 +3031,17 @@
     "じんじゃ",
     "しす"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{試|ため}す",
+    "kana": "ためす",
+    "fr": "essayer"
+   },
+   "card": "試す"
   },
   {
    "id": "k4-b03-経験-lecture",
-   "q": "Comment se lit **経験** ?",
+   "q": "**経験**の{読|よ}み{方|かた}は？",
    "explain": "{経験|けいけん} : expérience.",
    "type": "choice",
    "choices": [
@@ -1870,11 +3050,17 @@
     "きゅうこう",
     "けいけん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{経験|けいけん}",
+    "kana": "けいけん",
+    "fr": "expérience"
+   },
+   "card": "経験"
   },
   {
    "id": "k4-b03-研究室-lecture",
-   "q": "Comment se lit **研究室** ?",
+   "q": "**研究室**の{読|よ}み{方|かた}は？",
    "explain": "{研究室|けんきゅうしつ} : laboratoire.",
    "type": "choice",
    "choices": [
@@ -1883,24 +3069,17 @@
     "じゅぎょう",
     "けんきゅうむろ"
    ],
-   "a": 1
-  },
-  {
-   "id": "k4-b03-問題-ecrit",
-   "q": "Quel mot s'écrit **もんだい** (problème, question) ?",
-   "explain": "{問題|もんだい} : problème, question.",
-   "type": "choice",
-   "choices": [
-    "間題",
-    "起題",
-    "世題",
-    "問題"
-   ],
-   "a": 3
+   "a": 1,
+   "star": {
+    "jp": "{研究室|けんきゅうしつ}",
+    "kana": "けんきゅうしつ",
+    "fr": "laboratoire"
+   },
+   "card": "研究室"
   },
   {
    "id": "k4-b03-宿題-lecture",
-   "q": "Comment se lit **宿題** ?",
+   "q": "**宿題**の{読|よ}み{方|かた}は？",
    "explain": "{宿題|しゅくだい} : devoirs.",
    "type": "choice",
    "choices": [
@@ -1909,11 +3088,17 @@
     "しゅくだい",
     "けんきゅうしつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{宿題|しゅくだい}",
+    "kana": "しゅくだい",
+    "fr": "devoirs"
+   },
+   "card": "宿題"
   },
   {
    "id": "k4-b03-話題-lecture",
-   "q": "Comment se lit **話題** ?",
+   "q": "**話題**の{読|よ}み{方|かた}は？",
    "explain": "{話題|わだい} : sujet de conversation.",
    "type": "choice",
    "choices": [
@@ -1922,11 +3107,17 @@
     "はなしだい",
     "わだい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{話題|わだい}",
+    "kana": "わだい",
+    "fr": "sujet de conversation"
+   },
+   "card": "話題"
   },
   {
    "id": "k4-b03-答える-ecrit",
-   "q": "Quel mot s'écrit **こたえる** (répondre) ?",
+   "q": "**こたえる**（répondre）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{答|こた}える : répondre.",
    "type": "choice",
    "choices": [
@@ -1935,11 +3126,17 @@
     "所える",
     "合える"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{答|こた}える",
+    "kana": "こたえる",
+    "fr": "répondre"
+   },
+   "card": "答える"
   },
   {
    "id": "k4-b03-答え-lecture",
-   "q": "Comment se lit **答え** ?",
+   "q": "**答え**の{読|よ}み{方|かた}は？",
    "explain": "{答|こた}え : réponse.",
    "type": "choice",
    "choices": [
@@ -1948,24 +3145,17 @@
     "じゅうがつ",
     "こたえ"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b03-質問-ecrit",
-   "q": "Quel mot s'écrit **しつもん** (question) ?",
-   "explain": "{質問|しつもん} : question.",
-   "type": "choice",
-   "choices": [
-    "森問",
-    "賃問",
-    "質問",
-    "貨問"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{答|こた}え",
+    "kana": "こたえ",
+    "fr": "réponse"
+   },
+   "card": "答え"
   },
   {
    "id": "k4-b03-作文-ecrit",
-   "q": "Quel mot s'écrit **さくぶん** (rédaction) ?",
+   "q": "**さくぶん**（rédaction）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{作文|さくぶん} : rédaction.",
    "type": "choice",
    "choices": [
@@ -1974,11 +3164,17 @@
     "作文",
     "転文"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{作文|さくぶん}",
+    "kana": "さくぶん",
+    "fr": "rédaction"
+   },
+   "card": "作文"
   },
   {
    "id": "k4-b03-文化-lecture",
-   "q": "Comment se lit **文化** ?",
+   "q": "**文化**の{読|よ}み{方|かた}は？",
    "explain": "{文化|ぶんか} : culture.",
    "type": "choice",
    "choices": [
@@ -1987,11 +3183,17 @@
     "ふみか",
     "つくる"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{文化|ぶんか}",
+    "kana": "ぶんか",
+    "fr": "culture"
+   },
+   "card": "文化"
   },
   {
    "id": "k4-b03-文字-lecture",
-   "q": "Comment se lit **文字** ?",
+   "q": "**文字**の{読|よ}み{方|かた}は？",
    "explain": "{文字|もじ} : caractère, lettre.",
    "type": "choice",
    "choices": [
@@ -2000,11 +3202,17 @@
     "とまる",
     "さんぷん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{文字|もじ}",
+    "kana": "もじ",
+    "fr": "caractère, lettre"
+   },
+   "card": "文字"
   },
   {
    "id": "k4-b03-字-ecrit",
-   "q": "Quel mot s'écrit **じ** (écriture) ?",
+   "q": "**じ**（écriture）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{字|じ} : écriture.",
    "type": "choice",
    "choices": [
@@ -2013,11 +3221,17 @@
     "学",
     "字"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{字|じ}",
+    "kana": "じ",
+    "fr": "écriture"
+   },
+   "card": "字"
   },
   {
    "id": "k4-b03-英会話-ecrit",
-   "q": "Quel mot s'écrit **えいかいわ** (conversation en anglais) ?",
+   "q": "**えいかいわ**（conversation en anglais）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{英会話|えいかいわ} : conversation en anglais.",
    "type": "choice",
    "choices": [
@@ -2026,11 +3240,17 @@
     "英会話",
     "央会話"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{英会話|えいかいわ}",
+    "kana": "えいかいわ",
+    "fr": "conversation en anglais"
+   },
+   "card": "英会話"
   },
   {
    "id": "k4-b03-洋服-ecrit",
-   "q": "Quel mot s'écrit **ようふく** (vêtements (occidentaux)) ?",
+   "q": "**ようふく**（vêtements (occidentaux)）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{洋服|ようふく} : vêtements (occidentaux).",
    "type": "choice",
    "choices": [
@@ -2039,11 +3259,17 @@
     "中服",
     "羊服"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{洋服|ようふく}",
+    "kana": "ようふく",
+    "fr": "vêtements (occidentaux)"
+   },
+   "card": "洋服"
   },
   {
    "id": "k4-b03-西洋-lecture",
-   "q": "Comment se lit **西洋** ?",
+   "q": "**西洋**の{読|よ}み{方|かた}は？",
    "explain": "{西洋|せいよう} : Occident.",
    "type": "choice",
    "choices": [
@@ -2052,11 +3278,17 @@
     "さいよう",
     "にしよう"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{西洋|せいよう}",
+    "kana": "せいよう",
+    "fr": "Occident"
+   },
+   "card": "西洋"
   },
   {
    "id": "k4-b03-太平洋-lecture",
-   "q": "Comment se lit **太平洋** ?",
+   "q": "**太平洋**の{読|よ}み{方|かた}は？",
    "explain": "{太平洋|たいへいよう} : océan Pacifique.",
    "type": "choice",
    "choices": [
@@ -2065,11 +3297,55 @@
     "のみもの",
     "ふとへいよう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{太平洋|たいへいよう}",
+    "kana": "たいへいよう",
+    "fr": "océan Pacifique"
+   },
+   "card": "太平洋"
+  },
+  {
+   "id": "k4-b03-説明-ecrit",
+   "q": "**せつめい**（explication）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{説明|せつめい} : explication.",
+   "type": "choice",
+   "choices": [
+    "説明",
+    "税明",
+    "主明",
+    "話明"
+   ],
+   "a": 0,
+   "star": {
+    "jp": "{説明|せつめい}",
+    "kana": "せつめい",
+    "fr": "explication"
+   },
+   "card": "説明"
+  },
+  {
+   "id": "k4-b03-小説-lecture",
+   "q": "**小説**の{読|よ}み{方|かた}は？",
+   "explain": "{小説|しょうせつ} : roman.",
+   "type": "choice",
+   "choices": [
+    "しょうと",
+    "せんげつ",
+    "しょうせつ",
+    "ちいせつ"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{小説|しょうせつ}",
+    "kana": "しょうせつ",
+    "fr": "roman"
+   },
+   "card": "小説"
   },
   {
    "id": "k4-b03-教える-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "待ち{合|あ}わせの場所を**教え**てください。",
    "explain": "**教え** se lit おしえ ici ({教|おし}える : enseigner). « Dites-moi le lieu du rendez-vous. »",
    "type": "choice",
@@ -2079,13 +3355,19 @@
     "はこえ",
     "おしえ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{教|おし}える",
+    "kana": "おしえる",
+    "fr": "enseigner"
+   },
+   "card": "教える"
   },
   {
    "id": "k4-b03-教室-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "**教室**に学生が二十人います。",
-   "explain": "**教室** se lit きょうしつ ici ({教室|きょうしつ} : salle de classe). « Il y a vingt étudiants dans la salle. »",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "**教室**で食べてはいけません。",
+   "explain": "**教室** se lit きょうしつ ici ({教室|きょうしつ} : salle de classe). « On ne mange pas en classe. »",
    "type": "choice",
    "choices": [
     "だいがくいん",
@@ -2093,11 +3375,17 @@
     "りょかん",
     "きょうしつ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{教室|きょうしつ}",
+    "kana": "きょうしつ",
+    "fr": "salle de classe"
+   },
+   "card": "教室"
   },
   {
    "id": "k4-b03-教会-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "日曜日に**教会**へ行きます。",
    "explain": "**教会** se lit きょうかい ici ({教会|きょうかい} : église). « Le dimanche, je vais à l'église. »",
    "type": "choice",
@@ -2107,11 +3395,17 @@
     "おしかい",
     "きょうかい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{教会|きょうかい}",
+    "kana": "きょうかい",
+    "fr": "église"
+   },
+   "card": "教会"
   },
   {
    "id": "k4-b03-習う-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "毎週ピアノを**習**っています。",
    "explain": "**習** se lit なら ici ({習|なら}う : apprendre (avec qqn)). « Je prends des cours de piano toutes les semaines. »",
    "type": "choice",
@@ -2121,11 +3415,17 @@
     "いち",
     "ちか"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{習|なら}う",
+    "kana": "ならう",
+    "fr": "apprendre (avec qqn)"
+   },
+   "card": "習う"
   },
   {
    "id": "k4-b03-練習-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "毎日{漢字|かんじ}の**練習**をしています。",
    "explain": "**練習** se lit れんしゅう ici ({練習|れんしゅう} : entraînement). « Je m'entraîne aux kanji tous les jours. »",
    "type": "choice",
@@ -2135,11 +3435,17 @@
     "なか",
     "なんばん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{練習|れんしゅう}",
+    "kana": "れんしゅう",
+    "fr": "entraînement"
+   },
+   "card": "練習"
   },
   {
    "id": "k4-b03-予習-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "{授業|じゅぎょう}の前に**予習**をします。",
    "explain": "**予習** se lit よしゅう ici ({予習|よしゅう} : préparation (d'un cours)). « Je prépare le cours avant d'y aller. »",
    "type": "choice",
@@ -2149,7 +3455,13 @@
     "さかや",
     "よしゅう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{予習|よしゅう}",
+    "kana": "よしゅう",
+    "fr": "préparation (d'un cours)"
+   },
+   "card": "予習"
   }
  ],
  "examTest": []

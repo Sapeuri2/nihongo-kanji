@@ -13,6 +13,20 @@
       "**On** : ニチ、ジツ　**Kun** : ひ、か",
       "Un soleil dessiné en carré, avec un trait au centre."
      ],
+     "ex": [
+      {
+       "jp": "{日本|にほん}へ{行|い}きます。",
+       "fr": "Je vais au Japon."
+      },
+      {
+       "jp": "{毎日|まいにち}ご{飯|はん}を{食|た}べます。",
+       "fr": "Je mange du riz tous les jours."
+      },
+      {
+       "jp": "きのうは{日曜日|にちようび}でした。",
+       "fr": "Hier, c'était dimanche."
+      }
+     ],
      "vocab": [
       {
        "jp": "{日本|にほん}",
@@ -38,6 +52,20 @@
       "**On** : ホン　**Kun** : もと",
       "Un arbre 木 avec un trait qui marque ses racines : l'origine, puis le livre."
      ],
+     "ex": [
+      {
+       "jp": "{私|わたし}の{本|ほん}です。",
+       "fr": "C'est mon livre."
+      },
+      {
+       "jp": "{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}します。",
+       "fr": "J'étudie le japonais tous les jours."
+      },
+      {
+       "jp": "{本|ほん}だなにじしょがあります。",
+       "fr": "Il y a un dictionnaire sur l'étagère."
+      }
+     ],
      "vocab": [
       {
        "jp": "{本|ほん}",
@@ -58,6 +86,20 @@
      "p": [
       "**On** : ジン、ニン　**Kun** : ひと",
       "Une personne de profil qui marche, deux jambes écartées."
+     ],
+     "ex": [
+      {
+       "jp": "{家族|かぞく}は{四人|よにん}です。",
+       "fr": "Nous sommes quatre dans ma famille."
+      },
+      {
+       "jp": "{山田|やまだ}さんは{日本人|にほんじん}です。",
+       "fr": "Mme Yamada est japonaise."
+      },
+      {
+       "jp": "この{町|まち}は{外国人|がいこくじん}が{多|おお}いです。",
+       "fr": "Il y a beaucoup d'étrangers dans cette ville."
+      }
      ],
      "vocab": [
       {
@@ -84,6 +126,20 @@
       "**On** : シ　**Kun** : わたし",
       "À gauche la céréale 禾 : ma part de la récolte, ce qui est à moi."
      ],
+     "ex": [
+      {
+       "jp": "{私|わたし}の{本|ほん}です。",
+       "fr": "C'est mon livre."
+      },
+      {
+       "jp": "{私|わたし}は{学生|がくせい}です。",
+       "fr": "Je suis étudiant(e)."
+      },
+      {
+       "jp": "この{本|ほん}は{私|わたし}のです。",
+       "fr": "Ce livre-ci est à moi."
+      }
+     ],
      "vocab": [
       {
        "jp": "{私|わたし}",
@@ -96,6 +152,20 @@
      "p": [
       "**On** : ゴ　**Kun** : かた(る)",
       "La clé de la parole 言 à gauche : ce qui se dit avec des mots."
+     ],
+     "ex": [
+      {
+       "jp": "{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}します。",
+       "fr": "J'étudie le japonais tous les jours."
+      },
+      {
+       "jp": "{田中|たなか}さんは{子|こ}どもに{英語|えいご}を{教|おし}えています。",
+       "fr": "M. Tanaka enseigne l'anglais aux enfants."
+      },
+      {
+       "jp": "{日本語|にほんご}が{少|すこ}し{分|わ}かります。",
+       "fr": "Je comprends un peu le japonais."
+      }
      ],
      "vocab": [
       {
@@ -128,7 +198,13 @@
       "langue, mot",
       "jour, soleil"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "日",
+      "kana": "ニチ、ジツ、ひ、か",
+      "fr": "jour, soleil"
+     },
+     "card": "日"
     },
     {
      "id": "k5-01-本-sens",
@@ -142,7 +218,13 @@
       "langue, mot",
       "livre, origine"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "本",
+      "kana": "ホン、もと",
+      "fr": "livre, origine"
+     },
+     "card": "本"
     },
     {
      "id": "k5-01-人-sens",
@@ -156,7 +238,13 @@
       "riz cuit, repas",
       "lire"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "人",
+      "kana": "ジン、ニン、ひと",
+      "fr": "personne"
+     },
+     "card": "人"
     },
     {
      "id": "k5-01-私-sens",
@@ -170,7 +258,13 @@
       "voiture, roue",
       "jour, soleil"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "私",
+      "kana": "シ、わたし",
+      "fr": "je, moi"
+     },
+     "card": "私"
     },
     {
      "id": "k5-01-語-sens",
@@ -184,7 +278,13 @@
       "langue, mot",
       "rentrer"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "語",
+      "kana": "ゴ、かた(る)",
+      "fr": "langue, mot"
+     },
+     "card": "語"
     },
     {
      "id": "k5-01-日本-lecture",
@@ -197,7 +297,13 @@
       "にもと",
       "にほん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{日本|にほん}",
+      "kana": "にほん",
+      "fr": "Japon"
+     },
+     "card": "日本"
     },
     {
      "id": "k5-01-本-lecture",
@@ -210,7 +316,13 @@
       "ほん",
       "のむ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{本|ほん}",
+      "kana": "ほん",
+      "fr": "livre"
+     },
+     "card": "本"
     },
     {
      "id": "k5-01-人-lecture",
@@ -223,7 +335,13 @@
       "ひと",
       "たべもの"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{人|ひと}",
+      "kana": "ひと",
+      "fr": "personne"
+     },
+     "card": "人"
     },
     {
      "id": "k5-01-私-lecture",
@@ -236,7 +354,13 @@
       "なんぷん",
       "らいげつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{私|わたし}",
+      "kana": "わたし",
+      "fr": "je, moi"
+     },
+     "card": "私"
     },
     {
      "id": "k5-01-日本語-lecture",
@@ -249,7 +373,13 @@
       "にちほんご",
       "にほんご"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{日本語|にほんご}",
+      "kana": "にほんご",
+      "fr": "japonais (langue)"
+     },
+     "card": "日本語"
     },
     {
      "id": "k5-01-日本-trou",
@@ -263,7 +393,13 @@
       "飲",
       "本"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{日本|にほん}",
+      "kana": "にほん",
+      "fr": "Japon"
+     },
+     "card": "日本"
     },
     {
      "id": "k5-01-日本-phrase",
@@ -277,7 +413,13 @@
       "にほん",
       "にもと"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{日本|にほん}",
+      "kana": "にほん",
+      "fr": "Japon"
+     },
+     "card": "日本"
     },
     {
      "id": "k5-01-日-kanji",
@@ -290,7 +432,13 @@
       "目",
       "日"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "日",
+      "kana": "ニチ、ジツ、ひ、か",
+      "fr": "jour, soleil"
+     },
+     "card": "日"
     },
     {
      "id": "k5-01-日本-intrus",
@@ -303,7 +451,13 @@
       "二日 → ふつか",
       "日本 → かほん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{日本|にほん}",
+      "kana": "にほん",
+      "fr": "Japon"
+     },
+     "card": "日本"
     },
     {
      "id": "k5-01-日本語-trou",
@@ -317,7 +471,13 @@
       "話",
       "語"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{日本語|にほんご}",
+      "kana": "にほんご",
+      "fr": "japonais (langue)"
+     },
+     "card": "日本語"
     },
     {
      "id": "k5-01-毎日-phrase",
@@ -331,7 +491,51 @@
       "まいじつ",
       "まいか"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{毎日|まいにち}",
+      "kana": "まいにち",
+      "fr": "tous les jours"
+     },
+     "card": "毎日"
+    },
+    {
+     "id": "k5-01-本-kanji",
+     "q": "Quel kanji veut dire « livre, origine » ?",
+     "explain": "**本** : livre, origine. Un arbre 木 avec un trait qui marque ses racines : l'origine, puis le livre.",
+     "type": "choice",
+     "choices": [
+      "話",
+      "本",
+      "木",
+      "人"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "本",
+      "kana": "ホン、もと",
+      "fr": "livre, origine"
+     },
+     "card": "本"
+    },
+    {
+     "id": "k5-01-人-ecrit",
+     "q": "Quel mot s'écrit **ひと** (personne) ?",
+     "explain": "{人|ひと} : personne.",
+     "type": "choice",
+     "choices": [
+      "入",
+      "人",
+      "大",
+      "見"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{人|ひと}",
+      "kana": "ひと",
+      "fr": "personne"
+     },
+     "card": "人"
     }
    ]
   },
@@ -344,6 +548,20 @@
      "p": [
       "**On** : コウ、ギョウ　**Kun** : い(く)、おこな(う)",
       "Un carrefour vu du ciel : on y passe pour aller quelque part."
+     ],
+     "ex": [
+      {
+       "jp": "{日本|にほん}に{行|い}くまえに、{日本語|にほんご}を{勉強|べんきょう}しました。",
+       "fr": "Avant d'aller au Japon, j'ai étudié le japonais."
+      },
+      {
+       "jp": "{銀行|ぎんこう}は{三時|さんじ}までです。",
+       "fr": "La banque est ouverte jusqu'à trois heures."
+      },
+      {
+       "jp": "{飛行機|ひこうき}で{日本|にほん}へ{行|い}きます。",
+       "fr": "Je vais au Japon en avion."
+      }
      ],
      "vocab": [
       {
@@ -365,6 +583,20 @@
      "p": [
       "**On** : ライ　**Kun** : く(る)",
       "Un épi de blé qui arrive à maturité : ce qui vient."
+     ],
+     "ex": [
+      {
+       "jp": "あした{来|く}る？",
+       "fr": "Tu viens demain ?"
+      },
+      {
+       "jp": "{来週|らいしゅう}、{京都|きょうと}へ{行|い}きます。",
+       "fr": "La semaine prochaine, je vais à Kyoto."
+      },
+      {
+       "jp": "{来月|らいげつ}、{日本|にほん}へ{行|い}きます。",
+       "fr": "Le mois prochain, je vais au Japon."
+      }
      ],
      "vocab": [
       {
@@ -391,6 +623,7 @@
       "**On** : キ　**Kun** : かえ(る)",
       "Pense au balai à droite : on rentre chez soi, là où est son foyer."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{帰|かえ}る",
@@ -403,6 +636,20 @@
      "p": [
       "**On** : シャ　**Kun** : くるま",
       "Une charrette vue du dessus : l'essieu et ses deux roues."
+     ],
+     "ex": [
+      {
+       "jp": "{電車|でんしゃ}で{行|い}きます。",
+       "fr": "J'y vais en train."
+      },
+      {
+       "jp": "{駅|えき}で{電車|でんしゃ}に{乗|の}ります。",
+       "fr": "Je prends le train à la gare."
+      },
+      {
+       "jp": "この{自転車|じてんしゃ}は{軽|かる}いです。",
+       "fr": "Ce vélo est léger."
+      }
      ],
      "vocab": [
       {
@@ -424,6 +671,20 @@
      "p": [
       "**On** : エキ　**Kun** : —",
       "Le cheval 馬 à gauche : autrefois, le relais où l'on changeait de chevaux."
+     ],
+     "ex": [
+      {
+       "jp": "{駅|えき}はあそこです。",
+       "fr": "La gare est là-bas."
+      },
+      {
+       "jp": "{駅|えき}は{家|いえ}から{近|ちか}いです。",
+       "fr": "La gare est près de chez moi."
+      },
+      {
+       "jp": "{駅|えき}で{電車|でんしゃ}に{乗|の}ります。",
+       "fr": "Je prends le train à la gare."
+      }
      ],
      "vocab": [
       {
@@ -450,7 +711,13 @@
       "jour de la semaine",
       "lire"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "行",
+      "kana": "コウ、ギョウ、い(く)、おこな(う)",
+      "fr": "aller"
+     },
+     "card": "行"
     },
     {
      "id": "k5-02-来-sens",
@@ -464,7 +731,13 @@
       "lire",
       "venir"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "来",
+      "kana": "ライ、く(る)",
+      "fr": "venir"
+     },
+     "card": "来"
     },
     {
      "id": "k5-02-帰-sens",
@@ -478,7 +751,13 @@
       "venir",
       "rentrer"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "帰",
+      "kana": "キ、かえ(る)",
+      "fr": "rentrer"
+     },
+     "card": "帰"
     },
     {
      "id": "k5-02-車-sens",
@@ -492,7 +771,13 @@
       "jour, soleil",
       "maintenant"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "車",
+      "kana": "シャ、くるま",
+      "fr": "voiture, roue"
+     },
+     "card": "車"
     },
     {
      "id": "k5-02-駅-sens",
@@ -506,7 +791,13 @@
       "lire",
       "heure, temps"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "駅",
+      "kana": "エキ",
+      "fr": "gare"
+     },
+     "card": "駅"
     },
     {
      "id": "k5-02-行く-lecture",
@@ -519,7 +810,13 @@
       "たべもの",
       "こうく"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{行|い}く",
+      "kana": "いく",
+      "fr": "aller"
+     },
+     "card": "行く"
     },
     {
      "id": "k5-02-来る-lecture",
@@ -532,7 +829,13 @@
       "きのう",
       "らいる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{来|く}る",
+      "kana": "くる",
+      "fr": "venir"
+     },
+     "card": "来る"
     },
     {
      "id": "k5-02-帰る-lecture",
@@ -545,7 +848,13 @@
       "たべもの",
       "とけい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{帰|かえ}る",
+      "kana": "かえる",
+      "fr": "rentrer"
+     },
+     "card": "帰る"
     },
     {
      "id": "k5-02-車-lecture",
@@ -558,7 +867,13 @@
       "ぎんこう",
       "えいご"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{車|くるま}",
+      "kana": "くるま",
+      "fr": "voiture"
+     },
+     "card": "車"
     },
     {
      "id": "k5-02-駅-lecture",
@@ -571,7 +886,13 @@
       "えき",
       "なんじ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{駅|えき}",
+      "kana": "えき",
+      "fr": "gare"
+     },
+     "card": "駅"
     },
     {
      "id": "k5-02-行く-ecrit",
@@ -584,7 +905,13 @@
       "水く",
       "日く"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{行|い}く",
+      "kana": "いく",
+      "fr": "aller"
+     },
+     "card": "行く"
     },
     {
      "id": "k5-02-行く-phrase",
@@ -598,7 +925,13 @@
       "こう",
       "ぎょう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{行|い}く",
+      "kana": "いく",
+      "fr": "aller"
+     },
+     "card": "行く"
     },
     {
      "id": "k5-02-行-kanji",
@@ -611,7 +944,13 @@
       "来",
       "読"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "行",
+      "kana": "コウ、ギョウ、い(く)、おこな(う)",
+      "fr": "aller"
+     },
+     "card": "行"
     },
     {
      "id": "k5-02-行く-intrus",
@@ -624,7 +963,13 @@
       "自転車 → じてんしゃ",
       "来る → くる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{行|い}く",
+      "kana": "いく",
+      "fr": "aller"
+     },
+     "card": "行く"
     },
     {
      "id": "k5-02-来る-ecrit",
@@ -637,7 +982,13 @@
       "米る",
       "木る"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{来|く}る",
+      "kana": "くる",
+      "fr": "venir"
+     },
+     "card": "来る"
     },
     {
      "id": "k5-02-銀行-phrase",
@@ -651,7 +1002,51 @@
       "ぎんこう",
       "ぎんおこな"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{銀行|ぎんこう}",
+      "kana": "ぎんこう",
+      "fr": "banque"
+     },
+     "card": "銀行"
+    },
+    {
+     "id": "k5-02-来-kanji",
+     "q": "Quel kanji veut dire « venir » ?",
+     "explain": "**来** : venir. Un épi de blé qui arrive à maturité : ce qui vient.",
+     "type": "choice",
+     "choices": [
+      "木",
+      "曜",
+      "来",
+      "米"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "来",
+      "kana": "ライ、く(る)",
+      "fr": "venir"
+     },
+     "card": "来"
+    },
+    {
+     "id": "k5-02-帰る-ecrit",
+     "q": "Quel mot s'écrit **かえる** (rentrer) ?",
+     "explain": "{帰|かえ}る : rentrer.",
+     "type": "choice",
+     "choices": [
+      "食る",
+      "私る",
+      "車る",
+      "帰る"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{帰|かえ}る",
+      "kana": "かえる",
+      "fr": "rentrer"
+     },
+     "card": "帰る"
     }
    ]
   },
@@ -664,6 +1059,20 @@
      "p": [
       "**On** : ショク　**Kun** : た(べる)",
       "Un toit sur un bol bien rempli : le repas est servi."
+     ],
+     "ex": [
+      {
+       "jp": "{食|た}べるまえに{手|て}を{洗|あら}います。",
+       "fr": "Je me lave les mains avant de manger."
+      },
+      {
+       "jp": "{好|す}きな{食|た}べ{物|もの}は{何|なん}ですか。",
+       "fr": "Quel est ton plat préféré ?"
+      },
+      {
+       "jp": "{食|た}べるまえに、{手|て}を{洗|あら}います。",
+       "fr": "Je me lave les mains avant de manger."
+      }
      ],
      "vocab": [
       {
@@ -686,6 +1095,12 @@
       "**On** : イン　**Kun** : の(む)",
       "Le repas 食 à gauche, et à droite quelqu'un qui ouvre grand la bouche 欠."
      ],
+     "ex": [
+      {
+       "jp": "{飲|の}み{物|もの}は{何|なに}がいいですか。",
+       "fr": "Qu'est-ce que vous voulez boire ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{飲|の}む",
@@ -702,6 +1117,20 @@
      "p": [
       "**On** : ハン　**Kun** : めし",
       "Le repas 食 à gauche : le riz, base de tout repas japonais."
+     ],
+     "ex": [
+      {
+       "jp": "{毎日|まいにち}ご{飯|はん}を{食|た}べます。",
+       "fr": "Je mange du riz tous les jours."
+      },
+      {
+       "jp": "{朝|あさ}ご{飯|はん}にたまごを{食|た}べました。",
+       "fr": "J'ai mangé un œuf au petit-déjeuner."
+      },
+      {
+       "jp": "{家族|かぞく}と{晩|ばん}ご{飯|はん}を{食|た}べます。",
+       "fr": "Je dîne avec ma famille."
+      }
      ],
      "vocab": [
       {
@@ -720,6 +1149,20 @@
       "**On** : ギョ　**Kun** : さかな",
       "Tête en haut, écailles au milieu, quatre traits pour la queue."
      ],
+     "ex": [
+      {
+       "jp": "{父|ちち}は{魚|さかな}が{好|す}きです。",
+       "fr": "Mon père aime le poisson."
+      },
+      {
+       "jp": "{日本人|にほんじん}はよく{魚|さかな}を{食|た}べます。",
+       "fr": "Les Japonais mangent souvent du poisson."
+      },
+      {
+       "jp": "{肉|にく}と{魚|さかな}と、どちらが{好|す}きですか。",
+       "fr": "Tu préfères la viande ou le poisson ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{魚|さかな}",
@@ -732,6 +1175,20 @@
      "p": [
       "**On** : スイ　**Kun** : みず",
       "Un courant central et des éclaboussures de chaque côté."
+     ],
+     "ex": [
+      {
+       "jp": "{水|みず}をください。",
+       "fr": "De l'eau, s'il vous plaît."
+      },
+      {
+       "jp": "{水曜日|すいようび}の{午後|ごご}はひまです。",
+       "fr": "Le mercredi après-midi, je suis libre."
+      },
+      {
+       "jp": "{水|みず}が{飲|の}みたいです。",
+       "fr": "Je veux boire de l'eau."
+      }
      ],
      "vocab": [
       {
@@ -764,7 +1221,13 @@
       "écrire",
       "manger"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "食",
+      "kana": "ショク、た(べる)",
+      "fr": "manger"
+     },
+     "card": "食"
     },
     {
      "id": "k5-03-飲-sens",
@@ -778,7 +1241,13 @@
       "boire",
       "personne"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "飲",
+      "kana": "イン、の(む)",
+      "fr": "boire"
+     },
+     "card": "飲"
     },
     {
      "id": "k5-03-飯-sens",
@@ -792,7 +1261,13 @@
       "voiture, roue",
       "riz cuit, repas"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "飯",
+      "kana": "ハン、めし",
+      "fr": "riz cuit, repas"
+     },
+     "card": "飯"
     },
     {
      "id": "k5-03-魚-sens",
@@ -806,7 +1281,13 @@
       "boire",
       "maintenant"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "魚",
+      "kana": "ギョ、さかな",
+      "fr": "poisson"
+     },
+     "card": "魚"
     },
     {
      "id": "k5-03-水-sens",
@@ -820,7 +1301,13 @@
       "entendre, écouter",
       "je, moi"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "水",
+      "kana": "スイ、みず",
+      "fr": "eau"
+     },
+     "card": "水"
     },
     {
      "id": "k5-03-食べる-lecture",
@@ -833,7 +1320,13 @@
       "なんにん",
       "しょくべる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{食|た}べる",
+      "kana": "たべる",
+      "fr": "manger"
+     },
+     "card": "食べる"
     },
     {
      "id": "k5-03-飲む-lecture",
@@ -846,7 +1339,13 @@
       "いんむ",
       "のむ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{飲|の}む",
+      "kana": "のむ",
+      "fr": "boire"
+     },
+     "card": "飲む"
     },
     {
      "id": "k5-03-ご飯-lecture",
@@ -859,7 +1358,13 @@
       "ごめし",
       "たべもの"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "ご{飯|はん}",
+      "kana": "ごはん",
+      "fr": "riz cuit, repas"
+     },
+     "card": "ご飯"
     },
     {
      "id": "k5-03-魚-lecture",
@@ -872,7 +1377,13 @@
       "なんぷん",
       "さかな"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{魚|さかな}",
+      "kana": "さかな",
+      "fr": "poisson"
+     },
+     "card": "魚"
     },
     {
      "id": "k5-03-水-lecture",
@@ -885,7 +1396,13 @@
       "みず",
       "でんわ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{水|みず}",
+      "kana": "みず",
+      "fr": "eau"
+     },
+     "card": "水"
     },
     {
      "id": "k5-03-食べる-ecrit",
@@ -898,7 +1415,13 @@
       "語べる",
       "食べる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{食|た}べる",
+      "kana": "たべる",
+      "fr": "manger"
+     },
+     "card": "食べる"
     },
     {
      "id": "k5-03-食べる-phrase",
@@ -912,7 +1435,13 @@
       "のべ",
       "かべ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{食|た}べる",
+      "kana": "たべる",
+      "fr": "manger"
+     },
+     "card": "食べる"
     },
     {
      "id": "k5-03-食-kanji",
@@ -925,7 +1454,13 @@
       "食",
       "読"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "食",
+      "kana": "ショク、た(べる)",
+      "fr": "manger"
+     },
+     "card": "食"
     },
     {
      "id": "k5-03-食べる-intrus",
@@ -938,7 +1473,13 @@
       "魚 → さかな",
       "ご飯 → ごはん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{食|た}べる",
+      "kana": "たべる",
+      "fr": "manger"
+     },
+     "card": "食べる"
     },
     {
      "id": "k5-03-飲む-ecrit",
@@ -951,7 +1492,13 @@
       "飲む",
       "今む"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{飲|の}む",
+      "kana": "のむ",
+      "fr": "boire"
+     },
+     "card": "飲む"
     },
     {
      "id": "k5-03-食べ物-phrase",
@@ -965,7 +1512,51 @@
       "しょくべもの",
       "たべもつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{食|た}べ{物|もの}",
+      "kana": "たべもの",
+      "fr": "nourriture"
+     },
+     "card": "食べ物"
+    },
+    {
+     "id": "k5-03-飲-kanji",
+     "q": "Quel kanji veut dire « boire » ?",
+     "explain": "**飲** : boire. Le repas 食 à gauche, et à droite quelqu'un qui ouvre grand la bouche 欠.",
+     "type": "choice",
+     "choices": [
+      "飲",
+      "食",
+      "見",
+      "飯"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "飲",
+      "kana": "イン、の(む)",
+      "fr": "boire"
+     },
+     "card": "飲"
+    },
+    {
+     "id": "k5-03-ご飯-ecrit",
+     "q": "Quel mot s'écrit **ごはん** (riz cuit, repas) ?",
+     "explain": "ご{飯|はん} : riz cuit, repas.",
+     "type": "choice",
+     "choices": [
+      "ご飲",
+      "ご飯",
+      "ご食",
+      "ご読"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "ご{飯|はん}",
+      "kana": "ごはん",
+      "fr": "riz cuit, repas"
+     },
+     "card": "ご飯"
     }
    ]
   },
@@ -979,6 +1570,7 @@
       "**On** : ケン　**Kun** : み(る)",
       "Un grand œil 目 posé sur deux jambes : quelqu'un qui regarde."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{見|み}る",
@@ -995,6 +1587,20 @@
      "p": [
       "**On** : ブン　**Kun** : き(く)",
       "Une oreille 耳 collée à une porte 門."
+     ],
+     "ex": [
+      {
+       "jp": "{図書館|としょかん}で{新聞|しんぶん}を{読|よ}みます。",
+       "fr": "Je lis le journal à la bibliothèque."
+      },
+      {
+       "jp": "{父|ちち}は{毎朝|まいあさ}{新聞|しんぶん}を{読|よ}みます。",
+       "fr": "Mon père lit le journal tous les matins."
+      },
+      {
+       "jp": "その{新聞|しんぶん}をとってください。",
+       "fr": "Passe-moi ce journal, s'il te plaît."
+      }
      ],
      "vocab": [
       {
@@ -1013,6 +1619,12 @@
       "**On** : ドク　**Kun** : よ(む)",
       "La parole 言 à gauche : on lit à voix haute."
      ],
+     "ex": [
+      {
+       "jp": "{本|ほん}を{読|よ}むとき、めがねをかけます。",
+       "fr": "Quand je lis, je mets mes lunettes."
+      }
+     ],
      "vocab": [
       {
        "jp": "{読|よ}む",
@@ -1025,6 +1637,20 @@
      "p": [
       "**On** : ショ　**Kun** : か(く)",
       "En haut, une main qui tient un pinceau ; en bas, le soleil."
+     ],
+     "ex": [
+      {
+       "jp": "{図書館|としょかん}は{静|しず}かです。",
+       "fr": "La bibliothèque est calme."
+      },
+      {
+       "jp": "{図書館|としょかん}で{本|ほん}を{借|か}ります。",
+       "fr": "J'emprunte des livres à la bibliothèque."
+      },
+      {
+       "jp": "{図書館|としょかん}で{本|ほん}を{借|か}ります。",
+       "fr": "J'emprunte des livres à la bibliothèque."
+      }
      ],
      "vocab": [
       {
@@ -1042,6 +1668,20 @@
      "p": [
       "**On** : ワ　**Kun** : はな(す)、はなし",
       "La parole 言 sort de la langue 舌."
+     ],
+     "ex": [
+      {
+       "jp": "{母|はは}と{電話|でんわ}で{話|はな}します。",
+       "fr": "Je parle avec ma mère au téléphone."
+      },
+      {
+       "jp": "{夜|よる}、{友|とも}だちに{電話|でんわ}をかけます。",
+       "fr": "Le soir, j'appelle un ami."
+      },
+      {
+       "jp": "{先生|せんせい}の{話|はなし}は{長|なが}いです。",
+       "fr": "Les discours du professeur sont longs."
+      }
      ],
      "vocab": [
       {
@@ -1076,7 +1716,13 @@
       "personne",
       "semaine"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "見",
+      "kana": "ケン、み(る)",
+      "fr": "voir"
+     },
+     "card": "見"
     },
     {
      "id": "k5-04-聞-sens",
@@ -1090,7 +1736,13 @@
       "langue, mot",
       "je, moi"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "聞",
+      "kana": "ブン、き(く)",
+      "fr": "entendre, écouter"
+     },
+     "card": "聞"
     },
     {
      "id": "k5-04-読-sens",
@@ -1104,7 +1756,13 @@
       "lire",
       "je, moi"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "読",
+      "kana": "ドク、よ(む)",
+      "fr": "lire"
+     },
+     "card": "読"
     },
     {
      "id": "k5-04-書-sens",
@@ -1118,7 +1776,13 @@
       "chaque",
       "heure, temps"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "書",
+      "kana": "ショ、か(く)",
+      "fr": "écrire"
+     },
+     "card": "書"
     },
     {
      "id": "k5-04-話-sens",
@@ -1132,7 +1796,13 @@
       "chaque",
       "parler, histoire"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "話",
+      "kana": "ワ、はな(す)、はなし",
+      "fr": "parler, histoire"
+     },
+     "card": "話"
     },
     {
      "id": "k5-04-見る-lecture",
@@ -1145,7 +1815,13 @@
       "ほん",
       "けんる"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{見|み}る",
+      "kana": "みる",
+      "fr": "voir, regarder"
+     },
+     "card": "見る"
     },
     {
      "id": "k5-04-聞く-lecture",
@@ -1158,7 +1834,13 @@
       "まいあさ",
       "ぶんく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{聞|き}く",
+      "kana": "きく",
+      "fr": "écouter, demander"
+     },
+     "card": "聞く"
     },
     {
      "id": "k5-04-読む-lecture",
@@ -1171,7 +1853,13 @@
       "よむ",
       "どくむ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{読|よ}む",
+      "kana": "よむ",
+      "fr": "lire"
+     },
+     "card": "読む"
     },
     {
      "id": "k5-04-書く-lecture",
@@ -1184,7 +1872,13 @@
       "にほんご",
       "かく"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{書|か}く",
+      "kana": "かく",
+      "fr": "écrire"
+     },
+     "card": "書く"
     },
     {
      "id": "k5-04-話す-lecture",
@@ -1197,7 +1891,13 @@
       "はなす",
       "わす"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{話|はな}す",
+      "kana": "はなす",
+      "fr": "parler"
+     },
+     "card": "話す"
     },
     {
      "id": "k5-04-見る-ecrit",
@@ -1210,7 +1910,13 @@
       "食る",
       "書る"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{見|み}る",
+      "kana": "みる",
+      "fr": "voir, regarder"
+     },
+     "card": "見る"
     },
     {
      "id": "k5-04-見る-phrase",
@@ -1224,7 +1930,13 @@
       "た",
       "み"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{見|み}る",
+      "kana": "みる",
+      "fr": "voir, regarder"
+     },
+     "card": "見る"
     },
     {
      "id": "k5-04-見-kanji",
@@ -1237,7 +1949,13 @@
       "聞",
       "日"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "見",
+      "kana": "ケン、み(る)",
+      "fr": "voir"
+     },
+     "card": "見"
     },
     {
      "id": "k5-04-見る-intrus",
@@ -1250,7 +1968,13 @@
       "話 → はなし",
       "話す → はなす"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{見|み}る",
+      "kana": "みる",
+      "fr": "voir, regarder"
+     },
+     "card": "見る"
     },
     {
      "id": "k5-04-聞く-ecrit",
@@ -1263,7 +1987,13 @@
       "間く",
       "聞く"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{聞|き}く",
+      "kana": "きく",
+      "fr": "écouter, demander"
+     },
+     "card": "聞く"
     },
     {
      "id": "k5-04-見せる-phrase",
@@ -1277,7 +2007,51 @@
       "みせ",
       "いせ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{見|み}せる",
+      "kana": "みせる",
+      "fr": "montrer"
+     },
+     "card": "見せる"
+    },
+    {
+     "id": "k5-04-聞-kanji",
+     "q": "Quel kanji veut dire « entendre, écouter » ?",
+     "explain": "**聞** : entendre, écouter. Une oreille 耳 collée à une porte 門.",
+     "type": "choice",
+     "choices": [
+      "聞",
+      "食",
+      "話",
+      "間"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "聞",
+      "kana": "ブン、き(く)",
+      "fr": "entendre, écouter"
+     },
+     "card": "聞"
+    },
+    {
+     "id": "k5-04-読む-ecrit",
+     "q": "Quel mot s'écrit **よむ** (lire) ?",
+     "explain": "{読|よ}む : lire.",
+     "type": "choice",
+     "choices": [
+      "時む",
+      "日む",
+      "読む",
+      "来む"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{読|よ}む",
+      "kana": "よむ",
+      "fr": "lire"
+     },
+     "card": "読む"
     }
    ]
   },
@@ -1290,6 +2064,20 @@
      "p": [
       "**On** : コン　**Kun** : いま",
       "Un toit qui couvre l'instant présent."
+     ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}、ひま？",
+       "fr": "Tu es libre aujourd'hui ?"
+      },
+      {
+       "jp": "{今週|こんしゅう}はいそがしいです。",
+       "fr": "Cette semaine, je suis occupé."
+      },
+      {
+       "jp": "{今晩|こんばん}はたぶん{寒|さむ}いでしょう。",
+       "fr": "Ce soir, il fera sans doute froid."
+      }
      ],
      "vocab": [
       {
@@ -1316,6 +2104,20 @@
       "**On** : カ　**Kun** : なに、なん",
       "Une personne 亻 à côté de 可 : quelqu'un qui demande « quoi ? »."
      ],
+     "ex": [
+      {
+       "jp": "{何|なに}を{見|み}ますか。",
+       "fr": "Qu'est-ce que tu regardes / vas regarder ?"
+      },
+      {
+       "jp": "{今|いま}、{何時|なんじ}ですか。",
+       "fr": "Quelle heure est-il (maintenant) ?"
+      },
+      {
+       "jp": "{今日|きょう}は{何曜日|なんようび}ですか。— {水曜日|すいようび}です。",
+       "fr": "On est quel jour aujourd'hui ? — Mercredi."
+      }
+     ],
      "vocab": [
       {
        "jp": "{何|なに}",
@@ -1337,6 +2139,20 @@
       "**On** : ジ　**Kun** : とき",
       "Le soleil 日 à gauche, et le temple 寺 où sonnait la cloche des heures."
      ],
+     "ex": [
+      {
+       "jp": "{毎晩|まいばん}{一時間|いちじかん}{日本語|にほんご}を{勉強|べんきょう}します。",
+       "fr": "J'étudie le japonais une heure tous les soirs."
+      },
+      {
+       "jp": "この{時計|とけい}は{高|たか}かったです。",
+       "fr": "Cette montre était chère."
+      },
+      {
+       "jp": "{父|ちち}に{時計|とけい}をもらいました。",
+       "fr": "Mon père m'a donné une montre (j'ai reçu de mon père)."
+      }
+     ],
      "vocab": [
       {
        "jp": "{時間|じかん}",
@@ -1353,6 +2169,20 @@
      "p": [
       "**On** : マイ　**Kun** : —",
       "母 la mère, coiffée d'un trait : chaque jour, elle recommence."
+     ],
+     "ex": [
+      {
+       "jp": "{毎日|まいにち}ご{飯|はん}を{食|た}べます。",
+       "fr": "Je mange du riz tous les jours."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{顔|かお}を{洗|あら}います。",
+       "fr": "Je me lave le visage tous les matins."
+      },
+      {
+       "jp": "{毎晩|まいばん}{本|ほん}を{読|よ}みます。",
+       "fr": "Je lis un livre tous les soirs."
+      }
      ],
      "vocab": [
       {
@@ -1375,6 +2205,20 @@
       "**On** : シュウ　**Kun** : —",
       "La clé de la marche 辶 : le cycle qui fait le tour des jours."
      ],
+     "ex": [
+      {
+       "jp": "{今週|こんしゅう}はいそがしいです。",
+       "fr": "Cette semaine, je suis occupé."
+      },
+      {
+       "jp": "{先週|せんしゅう}、{国|くに}へ{帰|かえ}りました。",
+       "fr": "La semaine dernière, je suis rentré dans mon pays."
+      },
+      {
+       "jp": "{来週|らいしゅう}、{京都|きょうと}へ{行|い}きます。",
+       "fr": "La semaine prochaine, je vais à Kyoto."
+      }
+     ],
      "vocab": [
       {
        "jp": "{今週|こんしゅう}",
@@ -1394,7 +2238,21 @@
      "h": "曜 · jour de la semaine",
      "p": [
       "**On** : ヨウ　**Kun** : —",
-      "Le soleil 日 à gauche ; on le voit surtout dans 〜{曜日|ようび}."
+      "Le soleil 日 à gauche ; on le voit surtout dans 〜{曜|よう}{日|び}."
+     ],
+     "ex": [
+      {
+       "jp": "{月曜日|げつようび}から{金曜日|きんようび}まで{働|はたら}きます。",
+       "fr": "Je travaille du lundi au vendredi."
+      },
+      {
+       "jp": "{金曜日|きんようび}の{夜|よる}、{友|とも}だちとお{酒|さけ}を{飲|の}みます。",
+       "fr": "Vendredi soir, je bois un verre avec des amis."
+      },
+      {
+       "jp": "{今日|きょう}は{何曜日|なんようび}ですか。— {水曜日|すいようび}です。",
+       "fr": "On est quel jour aujourd'hui ? — Mercredi."
+      }
      ],
      "vocab": [
       {
@@ -1429,7 +2287,13 @@
       "entendre, écouter",
       "maintenant"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "今",
+      "kana": "コン、いま",
+      "fr": "maintenant"
+     },
+     "card": "今"
     },
     {
      "id": "k5-05-何-sens",
@@ -1443,7 +2307,13 @@
       "jour, soleil",
       "lire"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "何",
+      "kana": "カ、なに、なん",
+      "fr": "quoi, combien"
+     },
+     "card": "何"
     },
     {
      "id": "k5-05-時-sens",
@@ -1457,7 +2327,13 @@
       "heure, temps",
       "rentrer"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "時",
+      "kana": "ジ、とき",
+      "fr": "heure, temps"
+     },
+     "card": "時"
     },
     {
      "id": "k5-05-毎-sens",
@@ -1471,7 +2347,13 @@
       "langue, mot",
       "chaque"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "毎",
+      "kana": "マイ",
+      "fr": "chaque"
+     },
+     "card": "毎"
     },
     {
      "id": "k5-05-週-sens",
@@ -1485,13 +2367,19 @@
       "écrire",
       "semaine"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "週",
+      "kana": "シュウ",
+      "fr": "semaine"
+     },
+     "card": "週"
     },
     {
      "id": "k5-05-曜-sens",
      "q": "Que veut dire ce kanji ?",
      "jp": "曜",
-     "explain": "**曜** : jour de la semaine. Le soleil 日 à gauche ; on le voit surtout dans 〜{曜日|ようび}.",
+     "explain": "**曜** : jour de la semaine. Le soleil 日 à gauche ; on le voit surtout dans 〜{曜|よう}{日|び}.",
      "type": "choice",
      "choices": [
       "jour de la semaine",
@@ -1499,7 +2387,13 @@
       "maintenant",
       "langue, mot"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "曜",
+      "kana": "ヨウ",
+      "fr": "jour de la semaine"
+     },
+     "card": "曜"
     },
     {
      "id": "k5-05-今-lecture",
@@ -1512,7 +2406,13 @@
       "にほん",
       "らいげつ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{今|いま}",
+      "kana": "いま",
+      "fr": "maintenant"
+     },
+     "card": "今"
     },
     {
      "id": "k5-05-何時-lecture",
@@ -1525,7 +2425,13 @@
       "なにじ",
       "なんとき"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{何時|なんじ}",
+      "kana": "なんじ",
+      "fr": "quelle heure"
+     },
+     "card": "何時"
     },
     {
      "id": "k5-05-時間-lecture",
@@ -1538,7 +2444,13 @@
       "いま",
       "じあいだ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{時間|じかん}",
+      "kana": "じかん",
+      "fr": "temps, durée"
+     },
+     "card": "時間"
     },
     {
      "id": "k5-05-毎日-lecture",
@@ -1551,7 +2463,13 @@
       "まいにち",
       "まいひ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{毎日|まいにち}",
+      "kana": "まいにち",
+      "fr": "tous les jours"
+     },
+     "card": "毎日"
     },
     {
      "id": "k5-05-今週-lecture",
@@ -1564,7 +2482,13 @@
       "いましゅう",
       "げつようび"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{今週|こんしゅう}",
+      "kana": "こんしゅう",
+      "fr": "cette semaine"
+     },
+     "card": "今週"
     },
     {
      "id": "k5-05-月曜日-lecture",
@@ -1577,7 +2501,13 @@
       "げつようか",
       "げつようび"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{月曜日|げつようび}",
+      "kana": "げつようび",
+      "fr": "lundi"
+     },
+     "card": "月曜日"
     },
     {
      "id": "k5-05-今週-trou",
@@ -1591,7 +2521,13 @@
       "週",
       "時"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{今週|こんしゅう}",
+      "kana": "こんしゅう",
+      "fr": "cette semaine"
+     },
+     "card": "今週"
     },
     {
      "id": "k5-05-今-phrase",
@@ -1605,7 +2541,13 @@
       "たべもの",
       "みず"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{今|いま}",
+      "kana": "いま",
+      "fr": "maintenant"
+     },
+     "card": "今"
     },
     {
      "id": "k5-05-今-kanji",
@@ -1618,7 +2560,13 @@
       "今",
       "私"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "今",
+      "kana": "コン、いま",
+      "fr": "maintenant"
+     },
+     "card": "今"
     },
     {
      "id": "k5-05-今週-intrus",
@@ -1631,7 +2579,52 @@
       "今週 → いましゅう",
       "金曜日 → きんようび"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{今週|こんしゅう}",
+      "kana": "こんしゅう",
+      "fr": "cette semaine"
+     },
+     "card": "今週"
+    },
+    {
+     "id": "k5-05-何-ecrit",
+     "q": "Quel mot s'écrit **なに** (quoi) ?",
+     "explain": "{何|なに} : quoi.",
+     "type": "choice",
+     "choices": [
+      "書",
+      "毎",
+      "食",
+      "何"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{何|なに}",
+      "kana": "なに",
+      "fr": "quoi"
+     },
+     "card": "何"
+    },
+    {
+     "id": "k5-05-今週-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**今週**はいそがしいです。",
+     "explain": "**今週** se lit こんしゅう ici ({今週|こんしゅう} : cette semaine). « Cette semaine, je suis occupé. »",
+     "type": "choice",
+     "choices": [
+      "もくようび",
+      "にほん",
+      "ほんだな",
+      "こんしゅう"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{今週|こんしゅう}",
+      "kana": "こんしゅう",
+      "fr": "cette semaine"
+     },
+     "card": "今週"
     }
    ]
   }
@@ -1648,7 +2641,13 @@
     "にちようび",
     "ひようび"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{日曜日|にちようび}",
+    "kana": "にちようび",
+    "fr": "dimanche"
+   },
+   "card": "日曜日"
   },
   {
    "id": "k5-b01-二日-lecture",
@@ -1661,7 +2660,13 @@
     "とけい",
     "ごはん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{二日|ふつか}",
+    "kana": "ふつか",
+    "fr": "le 2 du mois, deux jours"
+   },
+   "card": "二日"
   },
   {
    "id": "k5-b01-本だな-lecture",
@@ -1674,20 +2679,13 @@
     "もとだな",
     "ほんだな"
    ],
-   "a": 3
-  },
-  {
-   "id": "k5-b01-人-ecrit",
-   "q": "Quel mot s'écrit **ひと** (personne) ?",
-   "explain": "{人|ひと} : personne.",
-   "type": "choice",
-   "choices": [
-    "人",
-    "大",
-    "見",
-    "入"
-   ],
-   "a": 0
+   "a": 3,
+   "star": {
+    "jp": "{本|ほん}だな",
+    "kana": "ほんだな",
+    "fr": "étagère à livres"
+   },
+   "card": "本だな"
   },
   {
    "id": "k5-b01-日本人-lecture",
@@ -1700,7 +2698,13 @@
     "にほんじん",
     "じつほんじん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{日本人|にほんじん}",
+    "kana": "にほんじん",
+    "fr": "Japonais(e)"
+   },
+   "card": "日本人"
   },
   {
    "id": "k5-b01-外国人-lecture",
@@ -1713,7 +2717,13 @@
     "がいくにじん",
     "がいこくにん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{外国人|がいこくじん}",
+    "kana": "がいこくじん",
+    "fr": "étranger"
+   },
+   "card": "外国人"
   },
   {
    "id": "k5-b01-何人-lecture",
@@ -1726,7 +2736,13 @@
     "なんにん",
     "なんひと"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{何人|なんにん}",
+    "kana": "なんにん",
+    "fr": "combien de personnes"
+   },
+   "card": "何人"
   },
   {
    "id": "k5-b01-私-ecrit",
@@ -1739,7 +2755,13 @@
     "来",
     "曜"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{私|わたし}",
+    "kana": "わたし",
+    "fr": "je, moi"
+   },
+   "card": "私"
   },
   {
    "id": "k5-b01-英語-lecture",
@@ -1752,7 +2774,13 @@
     "えいご",
     "らいげつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{英語|えいご}",
+    "kana": "えいご",
+    "fr": "anglais (langue)"
+   },
+   "card": "英語"
   },
   {
    "id": "k5-b01-銀行-lecture",
@@ -1765,7 +2793,13 @@
     "ぎんい",
     "じてんしゃ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{銀行|ぎんこう}",
+    "kana": "ぎんこう",
+    "fr": "banque"
+   },
+   "card": "銀行"
   },
   {
    "id": "k5-b01-飛行機-lecture",
@@ -1778,7 +2812,13 @@
     "ひこうき",
     "なんようび"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{飛行機|ひこうき}",
+    "kana": "ひこうき",
+    "fr": "avion"
+   },
+   "card": "飛行機"
   },
   {
    "id": "k5-b01-来週-lecture",
@@ -1791,7 +2831,13 @@
     "まいあさ",
     "らいしゅう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{来週|らいしゅう}",
+    "kana": "らいしゅう",
+    "fr": "la semaine prochaine"
+   },
+   "card": "来週"
   },
   {
    "id": "k5-b01-来月-lecture",
@@ -1804,20 +2850,13 @@
     "くげつ",
     "としょかん"
    ],
-   "a": 1
-  },
-  {
-   "id": "k5-b01-帰る-ecrit",
-   "q": "Quel mot s'écrit **かえる** (rentrer) ?",
-   "explain": "{帰|かえ}る : rentrer.",
-   "type": "choice",
-   "choices": [
-    "車る",
-    "読る",
-    "帰る",
-    "飲る"
-   ],
-   "a": 2
+   "a": 1,
+   "star": {
+    "jp": "{来月|らいげつ}",
+    "kana": "らいげつ",
+    "fr": "le mois prochain"
+   },
+   "card": "来月"
   },
   {
    "id": "k5-b01-電車-ecrit",
@@ -1830,7 +2869,13 @@
     "雷車",
     "人車"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{電車|でんしゃ}",
+    "kana": "でんしゃ",
+    "fr": "train"
+   },
+   "card": "電車"
   },
   {
    "id": "k5-b01-自転車-lecture",
@@ -1843,7 +2888,13 @@
     "じてんしゃ",
     "じてんくるま"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{自転車|じてんしゃ}",
+    "kana": "じてんしゃ",
+    "fr": "vélo"
+   },
+   "card": "自転車"
   },
   {
    "id": "k5-b01-駅-ecrit",
@@ -1856,7 +2907,13 @@
     "来",
     "駅"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{駅|えき}",
+    "kana": "えき",
+    "fr": "gare"
+   },
+   "card": "駅"
   },
   {
    "id": "k5-b01-食べ物-lecture",
@@ -1869,7 +2926,13 @@
     "のむ",
     "たべもの"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{食|た}べ{物|もの}",
+    "kana": "たべもの",
+    "fr": "nourriture"
+   },
+   "card": "食べ物"
   },
   {
    "id": "k5-b01-食堂-lecture",
@@ -1882,7 +2945,13 @@
     "かようび",
     "じかん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{食堂|しょくどう}",
+    "kana": "しょくどう",
+    "fr": "cantine, restaurant"
+   },
+   "card": "食堂"
   },
   {
    "id": "k5-b01-飲み物-lecture",
@@ -1895,20 +2964,13 @@
     "のみぶつ",
     "のみもの"
    ],
-   "a": 3
-  },
-  {
-   "id": "k5-b01-ご飯-ecrit",
-   "q": "Quel mot s'écrit **ごはん** (riz cuit, repas) ?",
-   "explain": "ご{飯|はん} : riz cuit, repas.",
-   "type": "choice",
-   "choices": [
-    "ご飲",
-    "ご曜",
-    "ご飯",
-    "ご食"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{飲|の}み{物|もの}",
+    "kana": "のみもの",
+    "fr": "boisson"
+   },
+   "card": "飲み物"
   },
   {
    "id": "k5-b01-朝ご飯-lecture",
@@ -1921,7 +2983,13 @@
     "とけい",
     "あさごはん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{朝|あさ}ご{飯|はん}",
+    "kana": "あさごはん",
+    "fr": "petit déjeuner"
+   },
+   "card": "朝ご飯"
   },
   {
    "id": "k5-b01-魚-ecrit",
@@ -1934,7 +3002,13 @@
     "見",
     "毎"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{魚|さかな}",
+    "kana": "さかな",
+    "fr": "poisson"
+   },
+   "card": "魚"
   },
   {
    "id": "k5-b01-水曜日-lecture",
@@ -1947,7 +3021,70 @@
     "すいようひ",
     "すいようにち"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{水曜日|すいようび}",
+    "kana": "すいようび",
+    "fr": "mercredi"
+   },
+   "card": "水曜日"
+  },
+  {
+   "id": "k5-b01-見せる-lecture",
+   "q": "Comment se lit **見せる** ?",
+   "explain": "{見|み}せる : montrer.",
+   "type": "choice",
+   "choices": [
+    "けんせる",
+    "みせる",
+    "じてんしゃ",
+    "ごはん"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{見|み}せる",
+    "kana": "みせる",
+    "fr": "montrer"
+   },
+   "card": "見せる"
+  },
+  {
+   "id": "k5-b01-新聞-lecture",
+   "q": "Comment se lit **新聞** ?",
+   "explain": "{新聞|しんぶん} : journal.",
+   "type": "choice",
+   "choices": [
+    "あたらぶん",
+    "しんぶん",
+    "ごはん",
+    "しんき"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{新聞|しんぶん}",
+    "kana": "しんぶん",
+    "fr": "journal"
+   },
+   "card": "新聞"
+  },
+  {
+   "id": "k5-b01-書く-ecrit",
+   "q": "Quel mot s'écrit **かく** (écrire) ?",
+   "explain": "{書|か}く : écrire.",
+   "type": "choice",
+   "choices": [
+    "見く",
+    "人く",
+    "書く",
+    "駅く"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{書|か}く",
+    "kana": "かく",
+    "fr": "écrire"
+   },
+   "card": "書く"
   },
   {
    "id": "k5-b01-日本-phrase",
@@ -1961,7 +3098,13 @@
     "かほん",
     "じつほん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{日本|にほん}",
+    "kana": "にほん",
+    "fr": "Japon"
+   },
+   "card": "日本"
   },
   {
    "id": "k5-b01-毎日-phrase",
@@ -1975,7 +3118,13 @@
     "まいじつ",
     "まいか"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{毎日|まいにち}",
+    "kana": "まいにち",
+    "fr": "tous les jours"
+   },
+   "card": "毎日"
   },
   {
    "id": "k5-b01-日曜日-phrase",
@@ -1989,7 +3138,13 @@
     "じつようび",
     "にちようにち"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{日曜日|にちようび}",
+    "kana": "にちようび",
+    "fr": "dimanche"
+   },
+   "card": "日曜日"
   },
   {
    "id": "k5-b01-本-phrase",
@@ -2003,7 +3158,13 @@
     "はなみ",
     "ついたち"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{本|ほん}",
+    "kana": "ほん",
+    "fr": "livre"
+   },
+   "card": "本"
   },
   {
    "id": "k5-b01-日本語-phrase",
@@ -2017,7 +3178,13 @@
     "にほんご",
     "じつほんご"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{日本語|にほんご}",
+    "kana": "にほんご",
+    "fr": "japonais (langue)"
+   },
+   "card": "日本語"
   },
   {
    "id": "k5-b01-本だな-phrase",
@@ -2031,7 +3198,13 @@
     "かようび",
     "おんなのひと"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{本|ほん}だな",
+    "kana": "ほんだな",
+    "fr": "étagère à livres"
+   },
+   "card": "本だな"
   }
  ],
  "examTest": []

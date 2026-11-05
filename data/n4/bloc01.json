@@ -13,6 +13,20 @@
       "**On** : チョウ　**Kun** : まち",
       "Un champ 田 et un clou 丁 : le quartier tracé au cordeau."
      ],
+     "ex": [
+      {
+       "jp": "この{町|まち}は{便利|べんり}です。",
+       "fr": "Cette ville est pratique."
+      },
+      {
+       "jp": "{祖|そ}{母|ぼ}は{下町|したまち}に{住|す}んでいます。",
+       "fr": "Ma grand-mère habite dans le vieux quartier populaire."
+      },
+      {
+       "jp": "{東京|とうきょう}は{大|おお}きい{町|まち}です。",
+       "fr": "Tokyo est une grande ville."
+      }
+     ],
      "vocab": [
       {
        "jp": "{町|まち}",
@@ -30,6 +44,20 @@
       "**On** : ソン　**Kun** : むら",
       "Un arbre 木 et une main 寸 : là où l'on plante, le village."
      ],
+     "ex": [
+      {
+       "jp": "{山|やま}の{上|うえ}に{小|ちい}さい{村|むら}があります。",
+       "fr": "Il y a un petit village en haut de la montagne."
+      },
+      {
+       "jp": "{村長|そんちょう}が{村|むら}の{人|ひと}たちに{話|はな}しました。",
+       "fr": "Le chef du village a parlé aux villageois."
+      },
+      {
+       "jp": "{祖父|そふ}は{小|ちい}さな{村|むら}で{生|う}まれました。",
+       "fr": "Mon grand-père est né dans un petit village."
+      }
+     ],
      "vocab": [
       {
        "jp": "{村|むら}",
@@ -46,6 +74,20 @@
      "p": [
       "**On** : シ　**Kun** : いち",
       "Un toit et un tissu suspendu : l'étal du marché, puis la ville."
+     ],
+     "ex": [
+      {
+       "jp": "{市長|しちょう}は{毎朝|まいあさ}{駅|えき}まで{歩|ある}きます。",
+       "fr": "Le maire marche jusqu'à la gare tous les matins."
+      },
+      {
+       "jp": "{日曜日|にちようび}に{市場|いちば}で{魚|さかな}を{買|か}いました。",
+       "fr": "Dimanche, j'ai acheté du poisson au marché."
+      },
+      {
+       "jp": "{市民|しみん}の{声|こえ}を{聞|き}いてください。",
+       "fr": "Écoutez la voix des citoyens."
+      }
      ],
      "vocab": [
       {
@@ -68,6 +110,20 @@
       "**On** : ク　**Kun** : —",
       "Une boîte 匚 où l'on range des morceaux ✕ : la ville découpée en arrondissements."
      ],
+     "ex": [
+      {
+       "jp": "{私|わたし}の{家|いえ}はこの{区|く}にあります。",
+       "fr": "Ma maison est dans cet arrondissement."
+      },
+      {
+       "jp": "この{地区|ちく}には{古|ふる}い{寺|てら}が{多|おお}いです。",
+       "fr": "Il y a beaucoup de vieux temples dans ce quartier."
+      },
+      {
+       "jp": "{区役所|くやくしょ}で{住所|じゅうしょ}を{変|か}えました。",
+       "fr": "J'ai changé mon adresse à la mairie d'arrondissement."
+      }
+     ],
      "vocab": [
       {
        "jp": "{区|く}",
@@ -89,6 +145,20 @@
       "**On** : ケン　**Kun** : —",
       "Un œil 目 posé sur un socle : le chef-lieu qui surveille la région."
      ],
+     "ex": [
+      {
+       "jp": "{山田|やまだ}さんは{長野県|ながのけん}の{出身|しゅっしん}です。",
+       "fr": "M. Yamada est originaire de la préfecture de Nagano."
+      },
+      {
+       "jp": "{県民|けんみん}の{多|おお}くが{車|くるま}で{会社|かいしゃ}に{行|い}きます。",
+       "fr": "Beaucoup d'habitants de la préfecture vont au travail en voiture."
+      },
+      {
+       "jp": "{大阪|おおさか}は{大|おお}きい{県|けん}ではありません。",
+       "fr": "Osaka n'est pas une grande préfecture."
+      }
+     ],
      "vocab": [
       {
        "jp": "{県|けん}",
@@ -105,6 +175,20 @@
      "p": [
       "**On** : ト、ツ　**Kun** : みやこ",
       "Des gens 者 et un village 阝 : la grande ville, la capitale."
+     ],
+     "ex": [
+      {
+       "jp": "{来週|らいしゅう}{京都|きょうと}へ{行|い}きます。",
+       "fr": "J'irai à Kyoto la semaine prochaine."
+      },
+      {
+       "jp": "{明日|あした}のご{都合|つごう}はどうですか。",
+       "fr": "Êtes-vous disponible demain ?"
+      },
+      {
+       "jp": "{東京|とうきょう}は{日本|にほん}の{首都|しゅと}です。",
+       "fr": "Tokyo est la capitale du Japon."
+      }
      ],
      "vocab": [
       {
@@ -126,6 +210,20 @@
      "p": [
       "**On** : キョウ、ケイ　**Kun** : —",
       "Une haute tour sur une colline : la capitale."
+     ],
+     "ex": [
+      {
+       "jp": "{東京|とうきょう}は{大|おお}きい{町|まち}です。",
+       "fr": "Tokyo est une grande ville."
+      },
+      {
+       "jp": "{来週|らいしゅう}{京都|きょうと}へ{行|い}きます。",
+       "fr": "J'irai à Kyoto la semaine prochaine."
+      },
+      {
+       "jp": "{東京|とうきょう}は{人|ひと}が{多|おお}いです。",
+       "fr": "À Tokyo, il y a beaucoup de monde."
+      }
      ],
      "vocab": [
       {
@@ -161,7 +259,13 @@
       "gare",
       "haut, sur"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "町",
+      "kana": "チョウ、まち",
+      "fr": "ville, quartier"
+     },
+     "card": "町"
     },
     {
      "id": "k4-01-村-sens",
@@ -175,7 +279,13 @@
       "village",
       "passé, dernier"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "村",
+      "kana": "ソン、むら",
+      "fr": "village"
+     },
+     "card": "村"
     },
     {
      "id": "k4-01-市-sens",
@@ -189,7 +299,13 @@
       "ville (commune), marché",
       "champ, nature"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "市",
+      "kana": "シ、いち",
+      "fr": "ville (commune), marché"
+     },
+     "card": "市"
     },
     {
      "id": "k4-01-区-sens",
@@ -203,7 +319,13 @@
       "venir",
       "arrondissement"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "区",
+      "kana": "ク",
+      "fr": "arrondissement"
+     },
+     "card": "区"
     },
     {
      "id": "k4-01-県-sens",
@@ -217,7 +339,13 @@
       "minute, partager",
       "étang"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "県",
+      "kana": "ケン",
+      "fr": "préfecture (département)"
+     },
+     "card": "県"
     },
     {
      "id": "k4-01-都-sens",
@@ -231,7 +359,13 @@
       "capitale, métropole",
       "montagne"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "都",
+      "kana": "ト、ツ、みやこ",
+      "fr": "capitale, métropole"
+     },
+     "card": "都"
     },
     {
      "id": "k4-01-京-sens",
@@ -245,7 +379,13 @@
       "étudier",
       "capitale"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "京",
+      "kana": "キョウ、ケイ",
+      "fr": "capitale"
+     },
+     "card": "京"
     },
     {
      "id": "k4-01-下町-lecture",
@@ -258,7 +398,13 @@
       "したちょう",
       "かまち"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{下町|したまち}",
+      "kana": "したまち",
+      "fr": "vieux quartier populaire"
+     },
+     "card": "下町"
     },
     {
      "id": "k4-01-村-lecture",
@@ -271,7 +417,13 @@
       "みる",
       "やっつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{村|むら}",
+      "kana": "むら",
+      "fr": "village"
+     },
+     "card": "村"
     },
     {
      "id": "k4-01-市長-lecture",
@@ -284,7 +436,13 @@
       "しちょう",
       "いちちょう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{市長|しちょう}",
+      "kana": "しちょう",
+      "fr": "maire"
+     },
+     "card": "市長"
     },
     {
      "id": "k4-01-区-lecture",
@@ -297,7 +455,13 @@
       "く",
       "ひだり"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{区|く}",
+      "kana": "く",
+      "fr": "arrondissement"
+     },
+     "card": "区"
     },
     {
      "id": "k4-01-県-lecture",
@@ -310,7 +474,13 @@
       "でんき",
       "うりば"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{県|けん}",
+      "kana": "けん",
+      "fr": "préfecture (région)"
+     },
+     "card": "県"
     },
     {
      "id": "k4-01-京都-lecture",
@@ -323,7 +493,13 @@
       "きょうと",
       "せいねん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{京都|きょうと}",
+      "kana": "きょうと",
+      "fr": "Kyoto"
+     },
+     "card": "京都"
     },
     {
      "id": "k4-01-東京-lecture",
@@ -336,7 +512,13 @@
       "ひがしきょう",
       "やおや"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{東京|とうきょう}",
+      "kana": "とうきょう",
+      "fr": "Tokyo"
+     },
+     "card": "東京"
     },
     {
      "id": "k4-01-町-ecrit",
@@ -349,7 +531,13 @@
       "田",
       "生"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{町|まち}",
+      "kana": "まち",
+      "fr": "ville, quartier"
+     },
+     "card": "町"
     },
     {
      "id": "k4-01-町-phrase",
@@ -363,7 +551,51 @@
       "はな",
       "やすい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{町|まち}",
+      "kana": "まち",
+      "fr": "ville, quartier"
+     },
+     "card": "町"
+    },
+    {
+     "id": "k4-01-町-kanji",
+     "q": "Quel kanji veut dire « ville, quartier » ?",
+     "explain": "**町** : ville, quartier. Un champ 田 et un clou 丁 : le quartier tracé au cordeau.",
+     "type": "choice",
+     "choices": [
+      "町",
+      "田",
+      "道",
+      "画"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "町",
+      "kana": "チョウ、まち",
+      "fr": "ville, quartier"
+     },
+     "card": "町"
+    },
+    {
+     "id": "k4-01-下町-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{下町|したまち} se lit したまち, pas したちょう.",
+     "type": "choice",
+     "choices": [
+      "下町 → したちょう",
+      "市場 → いちば",
+      "村 → むら",
+      "東京 → とうきょう"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{下町|したまち}",
+      "kana": "したまち",
+      "fr": "vieux quartier populaire"
+     },
+     "card": "下町"
     }
    ]
   },
@@ -376,6 +608,20 @@
      "p": [
       "**On** : テン　**Kun** : みせ",
       "Un abri 广 et un devin 占 : la boutique où l'on vend."
+     ],
+     "ex": [
+      {
+       "jp": "この{店|みせ}は{安|やす}いです。",
+       "fr": "Ce magasin n'est pas cher."
+      },
+      {
+       "jp": "{店員|てんいん}さんに{道|みち}を{聞|き}きました。",
+       "fr": "J'ai demandé le chemin au vendeur."
+      },
+      {
+       "jp": "{駅前|えきまえ}の{喫茶店|きっさてん}でコーヒーを{飲|の}みました。",
+       "fr": "J'ai bu un café au salon de thé devant la gare."
+      }
      ],
      "vocab": [
       {
@@ -397,6 +643,20 @@
      "p": [
       "**On** : オク　**Kun** : や",
       "Un corps couché 尸 qui arrive 至 : la maison où l'on dort."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}の{部屋|へや}は{広|ひろ}いです。",
+       "fr": "La chambre de mon grand frère est spacieuse."
+      },
+      {
+       "jp": "{本屋|ほんや}で{英語|えいご}の{本|ほん}を{買|か}いました。",
+       "fr": "J'ai acheté un livre en anglais à la librairie."
+      },
+      {
+       "jp": "{八百屋|やおや}で{野菜|やさい}を{買|か}います。",
+       "fr": "J'achète des légumes chez le marchand de légumes."
+      }
      ],
      "vocab": [
       {
@@ -423,6 +683,20 @@
       "**On** : カン　**Kun** : —",
       "La nourriture 食 et un grand toit 官 : l'auberge, puis le grand bâtiment."
      ],
+     "ex": [
+      {
+       "jp": "{図書館|としょかん}は{静|しず}かです。",
+       "fr": "La bibliothèque est calme."
+      },
+      {
+       "jp": "{映画館|えいがかん}は{駅|えき}の{近|ちか}くにあります。",
+       "fr": "Le cinéma est près de la gare."
+      },
+      {
+       "jp": "{大使館|たいしかん}でビザをもらいました。",
+       "fr": "J'ai obtenu un visa à l'ambassade."
+      }
+     ],
      "vocab": [
       {
        "jp": "{図書館|としょかん}",
@@ -443,6 +717,20 @@
      "p": [
       "**On** : イン　**Kun** : —",
       "Une colline 阝 et une maison achevée 完 : un grand établissement."
+     ],
+     "ex": [
+      {
+       "jp": "{病院|びょういん}は{何時|なんじ}までですか。",
+       "fr": "Jusqu'à quelle heure l'hôpital est-il ouvert ?"
+      },
+      {
+       "jp": "{父|ちち}は{先週|せんしゅう}から{入院|にゅういん}しています。",
+       "fr": "Mon père est hospitalisé depuis la semaine dernière."
+      },
+      {
+       "jp": "{兄|あに}は{大学院|だいがくいん}で{研究|けんきゅう}をしています。",
+       "fr": "Mon grand frère fait de la recherche en master."
+      }
      ],
      "vocab": [
       {
@@ -465,6 +753,20 @@
       "**On** : ドウ　**Kun** : —",
       "Une maison haute posée sur la terre 土 : la grande salle."
      ],
+     "ex": [
+      {
+       "jp": "{昼|ひる}ご{飯|はん}は{会社|かいしゃ}の{食堂|しょくどう}で{食|た}べます。",
+       "fr": "Je déjeune à la cantine de l'entreprise."
+      },
+      {
+       "jp": "{公会堂|こうかいどう}で{音楽|おんがく}の{会|かい}があります。",
+       "fr": "Il y a un concert à la salle municipale."
+      },
+      {
+       "jp": "{大学|だいがく}の{食堂|しょくどう}は{安|やす}くておいしいです。",
+       "fr": "La cantine de l'université est bon marché et bonne."
+      }
+     ],
      "vocab": [
       {
        "jp": "{食堂|しょくどう}",
@@ -481,6 +783,20 @@
      "p": [
       "**On** : シツ　**Kun** : むろ",
       "Un toit 宀 et ce qui arrive 至 : la pièce où l'on s'arrête."
+     ],
+     "ex": [
+      {
+       "jp": "{教室|きょうしつ}に{学生|がくせい}が{二十人|にじゅうにん}います。",
+       "fr": "Il y a vingt étudiants dans la salle."
+      },
+      {
+       "jp": "{会議室|かいぎしつ}はどこですか。",
+       "fr": "Où est la salle de réunion ?"
+      },
+      {
+       "jp": "{室内|しつない}ではくつを{脱|ぬ}いでください。",
+       "fr": "Enlevez vos chaussures à l'intérieur, s'il vous plaît."
+      }
      ],
      "vocab": [
       {
@@ -502,6 +818,20 @@
      "p": [
       "**On** : ジョウ　**Kun** : ば",
       "La terre 土 et le soleil qui se lève 昜 : un terrain dégagé, un lieu."
+     ],
+     "ex": [
+      {
+       "jp": "{待|ま}ち{合|あ}わせの{場所|ばしょ}を{決|き}めましょう。",
+       "fr": "Décidons du lieu de rendez-vous."
+      },
+      {
+       "jp": "{会場|かいじょう}にはもう{人|ひと}が{集|あつ}まっています。",
+       "fr": "Les gens sont déjà rassemblés dans la salle."
+      },
+      {
+       "jp": "{靴|くつ}の{売|う}り{場|ば}は{三階|さんがい}です。",
+       "fr": "Le rayon des chaussures est au troisième étage."
+      }
      ],
      "vocab": [
       {
@@ -543,7 +873,13 @@
       "fleur",
       "magasin"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "店",
+      "kana": "テン、みせ",
+      "fr": "magasin"
+     },
+     "card": "店"
     },
     {
      "id": "k4-02-屋-sens",
@@ -557,7 +893,13 @@
       "capitale, métropole",
       "direction, personne (poli)"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "屋",
+      "kana": "オク、や",
+      "fr": "toit, boutique"
+     },
+     "card": "屋"
     },
     {
      "id": "k4-02-館-sens",
@@ -571,7 +913,13 @@
       "magasin",
       "bouche"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "館",
+      "kana": "カン",
+      "fr": "grand bâtiment"
+     },
+     "card": "館"
     },
     {
      "id": "k4-02-院-sens",
@@ -585,7 +933,13 @@
       "maison, famille",
       "institution"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "院",
+      "kana": "イン",
+      "fr": "institution"
+     },
+     "card": "院"
     },
     {
      "id": "k4-02-堂-sens",
@@ -599,7 +953,13 @@
       "grande salle",
       "bas, sous"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "堂",
+      "kana": "ドウ",
+      "fr": "grande salle"
+     },
+     "card": "堂"
     },
     {
      "id": "k4-02-室-sens",
@@ -613,7 +973,13 @@
       "peuple",
       "pièce, salle"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "室",
+      "kana": "シツ、むろ",
+      "fr": "pièce, salle"
+     },
+     "card": "室"
     },
     {
      "id": "k4-02-場-sens",
@@ -627,7 +993,13 @@
       "se lever, debout",
       "lieu"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "場",
+      "kana": "ジョウ、ば",
+      "fr": "lieu"
+     },
+     "card": "場"
     },
     {
      "id": "k4-02-店-lecture",
@@ -640,7 +1012,13 @@
       "みせ",
       "がっこう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{店|みせ}",
+      "kana": "みせ",
+      "fr": "magasin"
+     },
+     "card": "店"
     },
     {
      "id": "k4-02-部屋-lecture",
@@ -653,7 +1031,13 @@
       "かようび",
       "ぶや"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{部屋|へや}",
+      "kana": "へや",
+      "fr": "pièce, chambre"
+     },
+     "card": "部屋"
     },
     {
      "id": "k4-02-図書館-lecture",
@@ -666,7 +1050,13 @@
       "ずしょかん",
       "とかかん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{図書館|としょかん}",
+      "kana": "としょかん",
+      "fr": "bibliothèque"
+     },
+     "card": "図書館"
     },
     {
      "id": "k4-02-病院-lecture",
@@ -679,7 +1069,13 @@
       "びょういん",
       "しつない"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{病院|びょういん}",
+      "kana": "びょういん",
+      "fr": "hôpital"
+     },
+     "card": "病院"
     },
     {
      "id": "k4-02-公会堂-lecture",
@@ -692,7 +1088,13 @@
       "ぎんこう",
       "おおやけかいどう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{公会堂|こうかいどう}",
+      "kana": "こうかいどう",
+      "fr": "salle municipale"
+     },
+     "card": "公会堂"
     },
     {
      "id": "k4-02-教室-lecture",
@@ -705,7 +1107,13 @@
       "きょうむろ",
       "きょうしつ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{教室|きょうしつ}",
+      "kana": "きょうしつ",
+      "fr": "salle de classe"
+     },
+     "card": "教室"
     },
     {
      "id": "k4-02-場所-lecture",
@@ -718,7 +1126,13 @@
       "ばしょ",
       "びょういん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{場所|ばしょ}",
+      "kana": "ばしょ",
+      "fr": "lieu, endroit"
+     },
+     "card": "場所"
     },
     {
      "id": "k4-02-店-ecrit",
@@ -731,7 +1145,13 @@
       "占",
       "子"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{店|みせ}",
+      "kana": "みせ",
+      "fr": "magasin"
+     },
+     "card": "店"
     },
     {
      "id": "k4-02-店-phrase",
@@ -745,7 +1165,51 @@
       "みせ",
       "ひきだし"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{店|みせ}",
+      "kana": "みせ",
+      "fr": "magasin"
+     },
+     "card": "店"
+    },
+    {
+     "id": "k4-02-店-kanji",
+     "q": "Quel kanji veut dire « magasin » ?",
+     "explain": "**店** : magasin. Un abri 广 et un devin 占 : la boutique où l'on vend.",
+     "type": "choice",
+     "choices": [
+      "広",
+      "門",
+      "店",
+      "占"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "店",
+      "kana": "テン、みせ",
+      "fr": "magasin"
+     },
+     "card": "店"
+    },
+    {
+     "id": "k4-02-店員-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{店員|てんいん} se lit てんいん, pas みせいん.",
+     "type": "choice",
+     "choices": [
+      "店員 → みせいん",
+      "会場 → かいじょう",
+      "大使館 → たいしかん",
+      "部屋 → へや"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{店員|てんいん}",
+      "kana": "てんいん",
+      "fr": "vendeur, vendeuse"
+     },
+     "card": "店員"
     }
    ]
   },
@@ -758,6 +1222,20 @@
      "p": [
       "**On** : ギン　**Kun** : —",
       "Le métal 金 et un œil qui fixe 艮 : le métal blanc qui brille."
+     ],
+     "ex": [
+      {
+       "jp": "{銀行|ぎんこう}は{三時|さんじ}までです。",
+       "fr": "La banque est ouverte jusqu'à trois heures."
+      },
+      {
+       "jp": "{銀行|ぎんこう}は{駅|えき}を{出|で}て{右|みぎ}です。",
+       "fr": "La banque est à droite en sortant de la gare."
+      },
+      {
+       "jp": "{銀色|ぎんいろ}の{車|くるま}が{家|いえ}の{前|まえ}に{止|と}まっています。",
+       "fr": "Une voiture couleur argent est garée devant la maison."
+      }
      ],
      "vocab": [
       {
@@ -780,6 +1258,20 @@
       "**On** : ズ、ト　**Kun** : はか(る)",
       "Un cadre 囗 avec un dessin dedans : le plan."
      ],
+     "ex": [
+      {
+       "jp": "この{地図|ちず}はとても{便利|べんり}です。",
+       "fr": "Cette carte est très pratique."
+      },
+      {
+       "jp": "{図書館|としょかん}は{静|しず}かです。",
+       "fr": "La bibliothèque est calme."
+      },
+      {
+       "jp": "{図書館|としょかん}で{本|ほん}を{借|か}ります。",
+       "fr": "J'emprunte des livres à la bibliothèque."
+      }
+     ],
      "vocab": [
       {
        "jp": "{地図|ちず}",
@@ -801,6 +1293,20 @@
       "**On** : エイ　**Kun** : うつ(る)、うつ(す)",
       "Le soleil 日 au centre 央 : l'image qui se reflète."
      ],
+     "ex": [
+      {
+       "jp": "{映画|えいが}を{見|み}に{行|い}きます。",
+       "fr": "Je vais voir un film."
+      },
+      {
+       "jp": "{映画館|えいがかん}は{駅|えき}の{近|ちか}くにあります。",
+       "fr": "Le cinéma est près de la gare."
+      },
+      {
+       "jp": "{昨日|きのう}、{映画|えいが}を{見|み}ました。",
+       "fr": "Hier, j'ai vu un film."
+      }
+     ],
      "vocab": [
       {
        "jp": "{映画|えいが}",
@@ -817,6 +1323,20 @@
      "p": [
       "**On** : ガ、カク　**Kun** : —",
       "Un champ 田 entouré d'un cadre : le dessin, l'image."
+     ],
+     "ex": [
+      {
+       "jp": "{映画|えいが}を{見|み}に{行|い}きます。",
+       "fr": "Je vais voir un film."
+      },
+      {
+       "jp": "{兄|あに}は{画家|がか}になりたいと{言|い}っています。",
+       "fr": "Mon grand frère dit qu'il veut devenir peintre."
+      },
+      {
+       "jp": "{夏休|なつやす}みの{計画|けいかく}を{立|た}てました。",
+       "fr": "J'ai fait mes projets pour les vacances d'été."
+      }
      ],
      "vocab": [
       {
@@ -839,6 +1359,20 @@
       "**On** : シャ　**Kun** : うつ(す)",
       "Un couvercle 冖 posé sur un modèle : on recopie l'image."
      ],
+     "ex": [
+      {
+       "jp": "これは{家族|かぞく}の{写真|しゃしん}です。",
+       "fr": "C'est une photo de ma famille."
+      },
+      {
+       "jp": "{写真|しゃしん}の{左|ひだり}の{人|ひと}は{父|ちち}です。",
+       "fr": "La personne à gauche sur la photo, c'est mon père."
+      },
+      {
+       "jp": "これは{母|はは}の{大切|たいせつ}な{写真|しゃしん}です。",
+       "fr": "C'est une photo précieuse pour ma mère."
+      }
+     ],
      "vocab": [
       {
        "jp": "{写真|しゃしん}",
@@ -855,6 +1389,20 @@
      "p": [
       "**On** : シン　**Kun** : ま",
       "Un œil 目 posé bien droit sur un socle : ce qui est vrai."
+     ],
+     "ex": [
+      {
+       "jp": "これは{家族|かぞく}の{写真|しゃしん}です。",
+       "fr": "C'est une photo de ma famille."
+      },
+      {
+       "jp": "{部屋|へや}の{真|ま}ん{中|なか}に{大|おお}きいテーブルがあります。",
+       "fr": "Il y a une grande table au milieu de la pièce."
+      },
+      {
+       "jp": "{雪|ゆき}で{山|やま}が{真|ま}っ{白|しろ}です。",
+       "fr": "La montagne est toute blanche de neige."
+      }
      ],
      "vocab": [
       {
@@ -892,7 +1440,13 @@
       "argent (métal)",
       "venir"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "銀",
+      "kana": "ギン",
+      "fr": "argent (métal)"
+     },
+     "card": "銀"
     },
     {
      "id": "k4-03-図-sens",
@@ -906,7 +1460,13 @@
       "haut, cher",
       "poisson"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "図",
+      "kana": "ズ、ト、はか(る)",
+      "fr": "plan, schéma"
+     },
+     "card": "図"
     },
     {
      "id": "k4-03-映-sens",
@@ -920,7 +1480,13 @@
       "peuple",
       "trois"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "映",
+      "kana": "エイ、うつ(る)、うつ(す)",
+      "fr": "projeter, refléter"
+     },
+     "card": "映"
     },
     {
      "id": "k4-03-画-sens",
@@ -934,7 +1500,13 @@
       "se lever, debout",
       "chaque"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "画",
+      "kana": "ガ、カク",
+      "fr": "dessin, image"
+     },
+     "card": "画"
     },
     {
      "id": "k4-03-写-sens",
@@ -948,7 +1520,13 @@
       "pluie",
       "société, sanctuaire"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "写",
+      "kana": "シャ、うつ(す)",
+      "fr": "copier, photographier"
+     },
+     "card": "写"
     },
     {
      "id": "k4-03-真-sens",
@@ -962,7 +1540,13 @@
       "bon marché, tranquille",
       "année"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "真",
+      "kana": "シン、ま",
+      "fr": "vrai, juste"
+     },
+     "card": "真"
     },
     {
      "id": "k4-03-銀-lecture",
@@ -975,7 +1559,13 @@
       "ぎん",
       "てがみ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{銀|ぎん}",
+      "kana": "ぎん",
+      "fr": "argent (métal)"
+     },
+     "card": "銀"
     },
     {
      "id": "k4-03-地図-lecture",
@@ -988,7 +1578,13 @@
       "じず",
       "ちず"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{地図|ちず}",
+      "kana": "ちず",
+      "fr": "carte (plan)"
+     },
+     "card": "地図"
     },
     {
      "id": "k4-03-映画-lecture",
@@ -1001,7 +1597,13 @@
       "ふゆやすみ",
       "えいかく"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{映画|えいが}",
+      "kana": "えいが",
+      "fr": "film"
+     },
+     "card": "映画"
     },
     {
      "id": "k4-03-写真-lecture",
@@ -1014,7 +1616,13 @@
       "うつしん",
       "ろっぴゃく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{写真|しゃしん}",
+      "kana": "しゃしん",
+      "fr": "photo"
+     },
+     "card": "写真"
     },
     {
      "id": "k4-03-銀行-trou",
@@ -1028,7 +1636,13 @@
       "休",
       "時"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{銀行|ぎんこう}",
+      "kana": "ぎんこう",
+      "fr": "banque"
+     },
+     "card": "銀行"
     },
     {
      "id": "k4-03-銀行-phrase",
@@ -1042,7 +1656,13 @@
       "ぎんぎょう",
       "ぎんい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{銀行|ぎんこう}",
+      "kana": "ぎんこう",
+      "fr": "banque"
+     },
+     "card": "銀行"
     },
     {
      "id": "k4-03-銀-kanji",
@@ -1055,7 +1675,13 @@
       "金",
       "銀"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "銀",
+      "kana": "ギン",
+      "fr": "argent (métal)"
+     },
+     "card": "銀"
     },
     {
      "id": "k4-03-銀行-intrus",
@@ -1068,7 +1694,13 @@
       "地図 → ちず",
       "銀行 → ぎんぎょう"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{銀行|ぎんこう}",
+      "kana": "ぎんこう",
+      "fr": "banque"
+     },
+     "card": "銀行"
     },
     {
      "id": "k4-03-地図-trou",
@@ -1082,21 +1714,72 @@
       "国",
       "回"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{地図|ちず}",
+      "kana": "ちず",
+      "fr": "carte (plan)"
+     },
+     "card": "地図"
     },
     {
-     "id": "k4-03-地図-phrase",
+     "id": "k4-03-銀色-phrase",
      "q": "Comment se lit le mot en gras ?",
-     "jp": "**地図**を見て、駅へ行きました。",
-     "explain": "**地図** se lit ちず ici ({地図|ちず} : carte (plan)). « J'ai regardé le plan et je suis allé à la gare. »",
+     "jp": "**銀色**の車が家の前に{止|と}まっています。",
+     "explain": "**銀色** se lit ぎんいろ ici ({銀色|ぎんいろ} : couleur argent). « Une voiture couleur argent est garée devant la maison. »",
      "type": "choice",
      "choices": [
-      "ちはか",
-      "ちと",
-      "ちず",
-      "じず"
+      "せんせい",
+      "ぎんいろ",
+      "あし",
+      "ごがつ"
      ],
-     "a": 2
+     "a": 1,
+     "star": {
+      "jp": "{銀色|ぎんいろ}",
+      "kana": "ぎんいろ",
+      "fr": "couleur argent"
+     },
+     "card": "銀色"
+    },
+    {
+     "id": "k4-03-図-kanji",
+     "q": "Quel kanji veut dire « plan, schéma » ?",
+     "explain": "**図** : plan, schéma. Un cadre 囗 avec un dessin dedans : le plan.",
+     "type": "choice",
+     "choices": [
+      "図",
+      "国",
+      "回",
+      "手"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "図",
+      "kana": "ズ、ト、はか(る)",
+      "fr": "plan, schéma"
+     },
+     "card": "図"
+    },
+    {
+     "id": "k4-03-映画-trou",
+     "q": "Complète le mot **えいが** (film) :",
+     "jp": "映＿",
+     "explain": "{映画|えいが} : film.",
+     "type": "choice",
+     "choices": [
+      "手",
+      "田",
+      "画",
+      "面"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{映画|えいが}",
+      "kana": "えいが",
+      "fr": "film"
+     },
+     "card": "映画"
     }
    ]
   },
@@ -1109,6 +1792,20 @@
      "p": [
       "**On** : チ、ジ　**Kun** : —",
       "La terre 土 et un serpent 也 qui rampe : le sol."
+     ],
+     "ex": [
+      {
+       "jp": "{地下鉄|ちかてつ}で{会社|かいしゃ}に{通|かよ}っています。",
+       "fr": "Je vais au travail en métro."
+      },
+      {
+       "jp": "この{地図|ちず}はとても{便利|べんり}です。",
+       "fr": "Cette carte est très pratique."
+      },
+      {
+       "jp": "{昨日|きのう}の{夜|よる}、{地震|じしん}がありました。",
+       "fr": "Hier soir, il y a eu un tremblement de terre."
+      }
      ],
      "vocab": [
       {
@@ -1130,6 +1827,20 @@
      "p": [
       "**On** : ホウ　**Kun** : かた",
       "Une charrue qui pointe vers une direction."
+     ],
+     "ex": [
+      {
+       "jp": "あの{方|かた}はどなたですか。",
+       "fr": "Qui est cette personne ?"
+      },
+      {
+       "jp": "{夕方|ゆうがた}はすずしいですね。",
+       "fr": "En fin d'après-midi, il fait frais, hein."
+      },
+      {
+       "jp": "この{漢字|かんじ}の{読|よ}み{方|かた}がわかりません。",
+       "fr": "Je ne connais pas la lecture de ce kanji."
+      }
      ],
      "vocab": [
       {
@@ -1156,6 +1867,20 @@
       "**On** : ショ　**Kun** : ところ",
       "Une porte 戸 et une hache 斤 : l'endroit où l'on coupe le bois."
      ],
+     "ex": [
+      {
+       "jp": "{静|しず}かな{所|ところ}で{勉強|べんきょう}したいです。",
+       "fr": "Je veux étudier dans un endroit calme."
+      },
+      {
+       "jp": "{母|はは}は{台所|だいどころ}で{料理|りょうり}をしています。",
+       "fr": "Ma mère cuisine dans la cuisine."
+      },
+      {
+       "jp": "{区役所|くやくしょ}で{住所|じゅうしょ}を{変|か}えました。",
+       "fr": "J'ai changé mon adresse à la mairie d'arrondissement."
+      }
+     ],
      "vocab": [
       {
        "jp": "{所|ところ}",
@@ -1177,6 +1902,20 @@
       "**On** : セイ、セ　**Kun** : よ",
       "Trois fois dix 十 réunis : trente ans, une génération, le monde."
      ],
+     "ex": [
+      {
+       "jp": "いつか{世界|せかい}を{旅行|りょこう}したいです。",
+       "fr": "Un jour, je veux voyager autour du monde."
+      },
+      {
+       "jp": "{犬|いぬ}の{世話|せわ}は{弟|おとうと}がします。",
+       "fr": "C'est mon petit frère qui s'occupe du chien."
+      },
+      {
+       "jp": "{犬|いぬ}の{世話|せわ}は{弟|おとうと}がしています。",
+       "fr": "C'est mon petit frère qui s'occupe du chien."
+      }
+     ],
      "vocab": [
       {
        "jp": "{世界|せかい}",
@@ -1194,6 +1933,20 @@
       "**On** : カイ　**Kun** : —",
       "Un champ 田 et une limite 介 : le domaine, le monde."
      ],
+     "ex": [
+      {
+       "jp": "いつか{世界|せかい}を{旅行|りょこう}したいです。",
+       "fr": "Un jour, je veux voyager autour du monde."
+      },
+      {
+       "jp": "{富士山|ふじさん}は{世界|せかい}で{有名|ゆうめい}な{山|やま}です。",
+       "fr": "Le mont Fuji est une montagne célèbre dans le monde entier."
+      },
+      {
+       "jp": "{世界|せかい}で{一番|いちばん}{高|たか}い{山|やま}はどこですか。",
+       "fr": "Quelle est la plus haute montagne du monde ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{世界|せかい}",
@@ -1206,6 +1959,20 @@
      "p": [
       "**On** : ミン　**Kun** : たみ",
       "Un œil percé par une aiguille : les sujets, le peuple."
+     ],
+     "ex": [
+      {
+       "jp": "{国民|こくみん}の{多|おお}くがこのニュースを{見|み}ました。",
+       "fr": "Une grande partie de la population a vu cette nouvelle."
+      },
+      {
+       "jp": "{市民|しみん}の{声|こえ}を{聞|き}いてください。",
+       "fr": "Écoutez la voix des citoyens."
+      },
+      {
+       "jp": "{市民|しみん}のための{図書館|としょかん}ができました。",
+       "fr": "Une bibliothèque pour les citoyens a ouvert."
+      }
      ],
      "vocab": [
       {
@@ -1238,7 +2005,13 @@
       "un",
       "terre, sol"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "地",
+      "kana": "チ、ジ",
+      "fr": "terre, sol"
+     },
+     "card": "地"
     },
     {
      "id": "k4-04-方-sens",
@@ -1252,7 +2025,13 @@
       "enfant",
       "femme"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "方",
+      "kana": "ホウ、かた",
+      "fr": "direction, personne (poli)"
+     },
+     "card": "方"
     },
     {
      "id": "k4-04-所-sens",
@@ -1266,7 +2045,13 @@
       "blanc",
       "endroit"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "所",
+      "kana": "ショ、ところ",
+      "fr": "endroit"
+     },
+     "card": "所"
     },
     {
      "id": "k4-04-世-sens",
@@ -1280,7 +2065,13 @@
       "rentrer",
       "avant, précédent"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "世",
+      "kana": "セイ、セ、よ",
+      "fr": "monde, génération"
+     },
+     "card": "世"
     },
     {
      "id": "k4-04-界-sens",
@@ -1294,7 +2085,13 @@
       "haut, cher",
       "préfecture (département)"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "界",
+      "kana": "カイ",
+      "fr": "monde, limite"
+     },
+     "card": "界"
     },
     {
      "id": "k4-04-民-sens",
@@ -1308,7 +2105,13 @@
       "étudier",
       "peuple"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "民",
+      "kana": "ミン、たみ",
+      "fr": "peuple"
+     },
+     "card": "民"
     },
     {
      "id": "k4-04-地震-lecture",
@@ -1321,7 +2124,13 @@
       "はなし",
       "じしん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{地震|じしん}",
+      "kana": "じしん",
+      "fr": "tremblement de terre"
+     },
+     "card": "地震"
     },
     {
      "id": "k4-04-夕方-lecture",
@@ -1334,7 +2143,13 @@
       "ゆうかた",
       "ゆうがた"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{夕方|ゆうがた}",
+      "kana": "ゆうがた",
+      "fr": "fin d'après-midi"
+     },
+     "card": "夕方"
     },
     {
      "id": "k4-04-所-lecture",
@@ -1347,7 +2162,13 @@
       "だいがく",
       "ひとつめ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{所|ところ}",
+      "kana": "ところ",
+      "fr": "endroit"
+     },
+     "card": "所"
     },
     {
      "id": "k4-04-世界-lecture",
@@ -1360,7 +2181,13 @@
       "せかい",
       "よかい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{世界|せかい}",
+      "kana": "せかい",
+      "fr": "monde"
+     },
+     "card": "世界"
     },
     {
      "id": "k4-04-国民-lecture",
@@ -1373,7 +2200,13 @@
       "ついたち",
       "こくたみ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{国民|こくみん}",
+      "kana": "こくみん",
+      "fr": "citoyens, la nation"
+     },
+     "card": "国民"
     },
     {
      "id": "k4-04-地震-trou",
@@ -1387,7 +2220,13 @@
       "飲",
       "所"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{地震|じしん}",
+      "kana": "じしん",
+      "fr": "tremblement de terre"
+     },
+     "card": "地震"
     },
     {
      "id": "k4-04-地下鉄-phrase",
@@ -1401,7 +2240,13 @@
       "じかてつ",
       "ちしたてつ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{地下鉄|ちかてつ}",
+      "kana": "ちかてつ",
+      "fr": "métro"
+     },
+     "card": "地下鉄"
     },
     {
      "id": "k4-04-地-kanji",
@@ -1414,7 +2259,13 @@
       "民",
       "地"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "地",
+      "kana": "チ、ジ",
+      "fr": "terre, sol"
+     },
+     "card": "地"
     },
     {
      "id": "k4-04-地下鉄-intrus",
@@ -1427,7 +2278,13 @@
       "方法 → ほうほう",
       "地下鉄 → じかてつ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{地下鉄|ちかてつ}",
+      "kana": "ちかてつ",
+      "fr": "métro"
+     },
+     "card": "地下鉄"
     },
     {
      "id": "k4-04-夕方-trou",
@@ -1441,7 +2298,52 @@
       "万",
       "力"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{夕方|ゆうがた}",
+      "kana": "ゆうがた",
+      "fr": "fin d'après-midi"
+     },
+     "card": "夕方"
+    },
+    {
+     "id": "k4-04-地図-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**地図**を見て、駅へ行きました。",
+     "explain": "**地図** se lit ちず ici ({地図|ちず} : carte (plan)). « J'ai regardé le plan et je suis allé à la gare. »",
+     "type": "choice",
+     "choices": [
+      "ちはか",
+      "じず",
+      "ちず",
+      "ちと"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{地図|ちず}",
+      "kana": "ちず",
+      "fr": "carte (plan)"
+     },
+     "card": "地図"
+    },
+    {
+     "id": "k4-04-方-kanji",
+     "q": "Quel kanji veut dire « direction, personne (poli) » ?",
+     "explain": "**方** : direction, personne (poli). Une charrue qui pointe vers une direction.",
+     "type": "choice",
+     "choices": [
+      "力",
+      "方",
+      "万",
+      "空"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "方",
+      "kana": "ホウ、かた",
+      "fr": "direction, personne (poli)"
+     },
+     "card": "方"
     }
    ]
   },
@@ -1454,6 +2356,20 @@
      "p": [
       "**On** : モン　**Kun** : かど",
       "Deux battants de porte face à face."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}の{専門|せんもん}は{日本|にほん}の{文化|ぶんか}です。",
+       "fr": "La spécialité de mon frère, c'est la culture japonaise."
+      },
+      {
+       "jp": "{兄|あに}の{専門|せんもん}は{日本|にほん}の{歴史|れきし}です。",
+       "fr": "La spécialité de mon grand frère, c'est l'histoire du Japon."
+      },
+      {
+       "jp": "{学校|がっこう}の{門|もん}の{前|まえ}で{会|あ}いましょう。",
+       "fr": "Retrouvons-nous devant le portail de l'école."
+      }
      ],
      "vocab": [
       {
@@ -1472,6 +2388,20 @@
       "**On** : チ　**Kun** : いけ",
       "L'eau 氵 et un serpent 也 : l'étang."
      ],
+     "ex": [
+      {
+       "jp": "{公園|こうえん}の{池|いけ}に{魚|さかな}がいます。",
+       "fr": "Il y a des poissons dans l'étang du parc."
+      },
+      {
+       "jp": "{時計|とけい}の{電池|でんち}が{切|き}れました。",
+       "fr": "La pile de la montre est à plat."
+      },
+      {
+       "jp": "{公園|こうえん}の{池|いけ}に{魚|さかな}がたくさんいます。",
+       "fr": "Il y a beaucoup de poissons dans l'étang du parc."
+      }
+     ],
      "vocab": [
       {
        "jp": "{池|いけ}",
@@ -1488,6 +2418,20 @@
      "p": [
       "**On** : デン　**Kun** : た",
       "Une rizière vue d'en haut, en quatre parcelles."
+     ],
+     "ex": [
+      {
+       "jp": "{夏休|なつやす}みに{田舎|いなか}へ{帰|かえ}ります。",
+       "fr": "Je rentre à la campagne pendant les vacances d'été."
+      },
+      {
+       "jp": "{田|た}んぼで{鳥|とり}が{鳴|な}いています。",
+       "fr": "Des oiseaux chantent dans la rizière."
+      },
+      {
+       "jp": "{山田|やまだ}さんは{日本人|にほんじん}です。",
+       "fr": "Mme Yamada est japonaise."
+      }
      ],
      "vocab": [
       {
@@ -1510,6 +2454,20 @@
       "**On** : ヤ　**Kun** : の",
       "Un village 里 et un fil tendu 予 : les champs autour du village."
      ],
+     "ex": [
+      {
+       "jp": "{野菜|やさい}が{高|たか}くなりました。",
+       "fr": "Les légumes sont devenus chers."
+      },
+      {
+       "jp": "{弟|おとうと}は{野球|やきゅう}が{大好|だいす}きです。",
+       "fr": "Mon petit frère adore le baseball."
+      },
+      {
+       "jp": "{八百屋|やおや}で{野菜|やさい}を{買|か}います。",
+       "fr": "J'achète des légumes chez le marchand de légumes."
+      }
+     ],
      "vocab": [
       {
        "jp": "{野菜|やさい}",
@@ -1531,6 +2489,20 @@
       "**On** : リン　**Kun** : はやし",
       "Deux arbres 木 : un petit bois."
      ],
+     "ex": [
+      {
+       "jp": "{林|はやし}の{中|なか}を{歩|ある}くのが{好|す}きです。",
+       "fr": "J'aime marcher dans le bois."
+      },
+      {
+       "jp": "{小林|こばやし}さんは{英語|えいご}の{先生|せんせい}です。",
+       "fr": "Mme Kobayashi est professeure d'anglais."
+      },
+      {
+       "jp": "{日本|にほん}の{国|くに}の{多|おお}くは{森林|しんりん}です。",
+       "fr": "Une grande partie du Japon est couverte de forêts."
+      }
+     ],
      "vocab": [
       {
        "jp": "{林|はやし}",
@@ -1547,6 +2519,20 @@
      "p": [
       "**On** : シン　**Kun** : もり",
       "Trois arbres 木 : une forêt."
+     ],
+     "ex": [
+      {
+       "jp": "{森|もり}の{中|なか}は{少|すこ}し{暗|くら}いです。",
+       "fr": "Il fait un peu sombre dans la forêt."
+      },
+      {
+       "jp": "{日本|にほん}の{国|くに}の{多|おお}くは{森林|しんりん}です。",
+       "fr": "Une grande partie du Japon est couverte de forêts."
+      },
+      {
+       "jp": "{森|もり}の{中|なか}で{鳥|とり}の{声|こえ}が{聞|き}こえます。",
+       "fr": "On entend des chants d'oiseaux dans la forêt."
+      }
      ],
      "vocab": [
       {
@@ -1580,7 +2566,13 @@
       "entendre, écouter",
       "toit, boutique"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "門",
+      "kana": "モン、かど",
+      "fr": "portail"
+     },
+     "card": "門"
     },
     {
      "id": "k4-05-池-sens",
@@ -1594,7 +2586,13 @@
       "monde, génération",
       "argent (métal)"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "池",
+      "kana": "チ、いけ",
+      "fr": "étang"
+     },
+     "card": "池"
     },
     {
      "id": "k4-05-田-sens",
@@ -1608,7 +2606,13 @@
       "champ, nature",
       "un"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "田",
+      "kana": "デン、た",
+      "fr": "rizière"
+     },
+     "card": "田"
     },
     {
      "id": "k4-05-野-sens",
@@ -1622,7 +2626,13 @@
       "voir",
       "champ, nature"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "野",
+      "kana": "ヤ、の",
+      "fr": "champ, nature"
+     },
+     "card": "野"
     },
     {
      "id": "k4-05-林-sens",
@@ -1636,7 +2646,13 @@
       "or, argent",
       "parler, histoire"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "林",
+      "kana": "リン、はやし",
+      "fr": "bois, bosquet"
+     },
+     "card": "林"
     },
     {
      "id": "k4-05-森-sens",
@@ -1650,7 +2666,13 @@
       "étang",
       "yen, cercle"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "森",
+      "kana": "シン、もり",
+      "fr": "forêt"
+     },
+     "card": "森"
     },
     {
      "id": "k4-05-専門-lecture",
@@ -1663,7 +2685,13 @@
       "がんじつ",
       "せんもん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{専門|せんもん}",
+      "kana": "せんもん",
+      "fr": "spécialité"
+     },
+     "card": "専門"
     },
     {
      "id": "k4-05-池-lecture",
@@ -1676,7 +2704,13 @@
       "なに",
       "えいご"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{池|いけ}",
+      "kana": "いけ",
+      "fr": "étang"
+     },
+     "card": "池"
     },
     {
      "id": "k4-05-田舎-lecture",
@@ -1689,7 +2723,13 @@
       "あさごはん",
       "いなか"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{田舎|いなか}",
+      "kana": "いなか",
+      "fr": "campagne"
+     },
+     "card": "田舎"
     },
     {
      "id": "k4-05-野菜-lecture",
@@ -1702,7 +2742,13 @@
       "のさい",
       "やさい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{野菜|やさい}",
+      "kana": "やさい",
+      "fr": "légumes"
+     },
+     "card": "野菜"
     },
     {
      "id": "k4-05-林-lecture",
@@ -1715,7 +2761,13 @@
       "いえ",
       "はやし"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{林|はやし}",
+      "kana": "はやし",
+      "fr": "bois, bosquet"
+     },
+     "card": "林"
     },
     {
      "id": "k4-05-森-lecture",
@@ -1728,7 +2780,13 @@
       "たつ",
       "びょうき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{森|もり}",
+      "kana": "もり",
+      "fr": "forêt"
+     },
+     "card": "森"
     },
     {
      "id": "k4-05-専門-trou",
@@ -1742,7 +2800,13 @@
       "電",
       "門"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{専門|せんもん}",
+      "kana": "せんもん",
+      "fr": "spécialité"
+     },
+     "card": "専門"
     },
     {
      "id": "k4-05-門-phrase",
@@ -1756,7 +2820,13 @@
       "いま",
       "なんばん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{門|もん}",
+      "kana": "もん",
+      "fr": "portail"
+     },
+     "card": "門"
     },
     {
      "id": "k4-05-門-kanji",
@@ -1769,7 +2839,13 @@
       "行",
       "問"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "門",
+      "kana": "モン、かど",
+      "fr": "portail"
+     },
+     "card": "門"
     },
     {
      "id": "k4-05-専門-intrus",
@@ -1782,7 +2858,52 @@
       "田んぼ → たんぼ",
       "電池 → でんち"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{専門|せんもん}",
+      "kana": "せんもん",
+      "fr": "spécialité"
+     },
+     "card": "専門"
+    },
+    {
+     "id": "k4-05-池-ecrit",
+     "q": "Quel mot s'écrit **いけ** (étang) ?",
+     "explain": "{池|いけ} : étang.",
+     "type": "choice",
+     "choices": [
+      "他",
+      "地",
+      "食",
+      "池"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{池|いけ}",
+      "kana": "いけ",
+      "fr": "étang"
+     },
+     "card": "池"
+    },
+    {
+     "id": "k4-05-専門-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{兄|あに}の**専門**は日本の{文化|ぶんか}です。",
+     "explain": "**専門** se lit せんもん ici ({専門|せんもん} : spécialité). « La spécialité de mon frère, c'est la culture japonaise. »",
+     "type": "choice",
+     "choices": [
+      "せんもん",
+      "がいこくじん",
+      "でんち",
+      "おとな"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{専門|せんもん}",
+      "kana": "せんもん",
+      "fr": "spécialité"
+     },
+     "card": "専門"
     }
    ]
   }
@@ -1799,7 +2920,13 @@
     "下町",
     "上町"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{下町|したまち}",
+    "kana": "したまち",
+    "fr": "vieux quartier populaire"
+   },
+   "card": "下町"
   },
   {
    "id": "k4-b01-村長-lecture",
@@ -1812,7 +2939,13 @@
     "むらちょう",
     "がいこくじん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{村長|そんちょう}",
+    "kana": "そんちょう",
+    "fr": "chef du village"
+   },
+   "card": "村長"
   },
   {
    "id": "k4-b01-市-ecrit",
@@ -1825,7 +2958,13 @@
     "六",
     "市"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{市|し}",
+    "kana": "し",
+    "fr": "ville (commune)"
+   },
+   "card": "市"
   },
   {
    "id": "k4-b01-市長-ecrit",
@@ -1838,7 +2977,13 @@
     "千長",
     "市長"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{市長|しちょう}",
+    "kana": "しちょう",
+    "fr": "maire"
+   },
+   "card": "市長"
   },
   {
    "id": "k4-b01-市場-lecture",
@@ -1851,7 +2996,13 @@
     "いちば",
     "いちじょう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{市場|いちば}",
+    "kana": "いちば",
+    "fr": "marché"
+   },
+   "card": "市場"
   },
   {
    "id": "k4-b01-地区-lecture",
@@ -1864,7 +3015,13 @@
     "じく",
     "ちく"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{地区|ちく}",
+    "kana": "ちく",
+    "fr": "quartier, zone"
+   },
+   "card": "地区"
   },
   {
    "id": "k4-b01-区役所-lecture",
@@ -1877,7 +3034,13 @@
     "くやくしょ",
     "くやくところ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{区役所|くやくしょ}",
+    "kana": "くやくしょ",
+    "fr": "mairie d'arrondissement"
+   },
+   "card": "区役所"
   },
   {
    "id": "k4-b01-県民-lecture",
@@ -1890,7 +3053,13 @@
     "けんたみ",
     "けんみん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{県民|けんみん}",
+    "kana": "けんみん",
+    "fr": "habitants de la préfecture"
+   },
+   "card": "県民"
   },
   {
    "id": "k4-b01-京都-ecrit",
@@ -1903,7 +3072,13 @@
     "景都",
     "高都"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{京都|きょうと}",
+    "kana": "きょうと",
+    "fr": "Kyoto"
+   },
+   "card": "京都"
   },
   {
    "id": "k4-b01-都合-lecture",
@@ -1916,7 +3091,13 @@
     "つごう",
     "つがっ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{都合|つごう}",
+    "kana": "つごう",
+    "fr": "disponibilité, convenance"
+   },
+   "card": "都合"
   },
   {
    "id": "k4-b01-首都-lecture",
@@ -1929,7 +3110,13 @@
     "あたらしい",
     "しゅと"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{首都|しゅと}",
+    "kana": "しゅと",
+    "fr": "capitale"
+   },
+   "card": "首都"
   },
   {
    "id": "k4-b01-店員-ecrit",
@@ -1942,7 +3129,13 @@
     "土員",
     "占員"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{店員|てんいん}",
+    "kana": "てんいん",
+    "fr": "vendeur, vendeuse"
+   },
+   "card": "店員"
   },
   {
    "id": "k4-b01-喫茶店-lecture",
@@ -1955,7 +3148,13 @@
     "きっちゃてん",
     "きっさみせ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{喫茶店|きっさてん}",
+    "kana": "きっさてん",
+    "fr": "café (salon de thé)"
+   },
+   "card": "喫茶店"
   },
   {
    "id": "k4-b01-本屋-lecture",
@@ -1968,7 +3167,13 @@
     "もとや",
     "ほんおく"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{本屋|ほんや}",
+    "kana": "ほんや",
+    "fr": "librairie"
+   },
+   "card": "本屋"
   },
   {
    "id": "k4-b01-八百屋-lecture",
@@ -1981,7 +3186,13 @@
     "こばやし",
     "やおや"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{八百屋|やおや}",
+    "kana": "やおや",
+    "fr": "marchand de légumes"
+   },
+   "card": "八百屋"
   },
   {
    "id": "k4-b01-屋上-lecture",
@@ -1994,7 +3205,13 @@
     "しみん",
     "おくうえ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{屋上|おくじょう}",
+    "kana": "おくじょう",
+    "fr": "toit-terrasse"
+   },
+   "card": "屋上"
   },
   {
    "id": "k4-b01-図書館-ecrit",
@@ -2007,7 +3224,13 @@
     "曜書館",
     "国書館"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{図書館|としょかん}",
+    "kana": "としょかん",
+    "fr": "bibliothèque"
+   },
+   "card": "図書館"
   },
   {
    "id": "k4-b01-映画館-lecture",
@@ -2020,7 +3243,13 @@
     "うつがかん",
     "えいかくかん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{映画館|えいがかん}",
+    "kana": "えいがかん",
+    "fr": "cinéma (salle)"
+   },
+   "card": "映画館"
   },
   {
    "id": "k4-b01-大使館-lecture",
@@ -2033,7 +3262,13 @@
     "おおしかん",
     "おおきい"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{大使館|たいしかん}",
+    "kana": "たいしかん",
+    "fr": "ambassade"
+   },
+   "card": "大使館"
   },
   {
    "id": "k4-b01-病院-ecrit",
@@ -2046,7 +3281,13 @@
     "疲院",
     "千院"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{病院|びょういん}",
+    "kana": "びょういん",
+    "fr": "hôpital"
+   },
+   "card": "病院"
   },
   {
    "id": "k4-b01-入院-lecture",
@@ -2059,7 +3300,13 @@
     "いいん",
     "にゅういん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{入院|にゅういん}",
+    "kana": "にゅういん",
+    "fr": "hospitalisation"
+   },
+   "card": "入院"
   },
   {
    "id": "k4-b01-大学院-lecture",
@@ -2072,7 +3319,13 @@
     "しゅうでん",
     "おおがくいん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{大学院|だいがくいん}",
+    "kana": "だいがくいん",
+    "fr": "études supérieures (master)"
+   },
+   "card": "大学院"
   },
   {
    "id": "k4-b01-食堂-ecrit",
@@ -2085,7 +3338,13 @@
     "飯堂",
     "西堂"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{食堂|しょくどう}",
+    "kana": "しょくどう",
+    "fr": "cantine, restaurant"
+   },
+   "card": "食堂"
   },
   {
    "id": "k4-b01-公会堂-ecrit",
@@ -2098,7 +3357,13 @@
     "三会堂",
     "公会堂"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{公会堂|こうかいどう}",
+    "kana": "こうかいどう",
+    "fr": "salle municipale"
+   },
+   "card": "公会堂"
   },
   {
    "id": "k4-b01-町-phrase",
@@ -2112,7 +3377,13 @@
     "えきいん",
     "あした"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{町|まち}",
+    "kana": "まち",
+    "fr": "ville, quartier"
+   },
+   "card": "町"
   },
   {
    "id": "k4-b01-下町-phrase",
@@ -2126,7 +3397,13 @@
     "したまち",
     "さまち"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{下町|したまち}",
+    "kana": "したまち",
+    "fr": "vieux quartier populaire"
+   },
+   "card": "下町"
   },
   {
    "id": "k4-b01-村-phrase",
@@ -2140,7 +3417,33 @@
     "くち",
     "はん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{村|むら}",
+    "kana": "むら",
+    "fr": "village"
+   },
+   "card": "村"
+  },
+  {
+   "id": "k4-b01-村長-phrase",
+   "q": "Comment se lit le mot en gras ?",
+   "jp": "**村長**が{村|むら}の人たちに話しました。",
+   "explain": "**村長** se lit そんちょう ici ({村長|そんちょう} : chef du village). « Le chef du village a parlé aux villageois. »",
+   "type": "choice",
+   "choices": [
+    "かねもち",
+    "ひるやすみ",
+    "そんちょう",
+    "けん"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{村長|そんちょう}",
+    "kana": "そんちょう",
+    "fr": "chef du village"
+   },
+   "card": "村長"
   },
   {
    "id": "k4-b01-市長-phrase",
@@ -2154,7 +3457,13 @@
     "ふあん",
     "しちょう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{市長|しちょう}",
+    "kana": "しちょう",
+    "fr": "maire"
+   },
+   "card": "市長"
   },
   {
    "id": "k4-b01-市場-phrase",
@@ -2168,21 +3477,13 @@
     "まち",
     "いちば"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b01-県-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "{大阪|おおさか}は大きい**県**ではありません。",
-   "explain": "**県** se lit けん ici ({県|けん} : préfecture (région)). « Osaka n'est pas une grande préfecture. »",
-   "type": "choice",
-   "choices": [
-    "まえ",
-    "ほん",
-    "けん",
-    "へた"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{市場|いちば}",
+    "kana": "いちば",
+    "fr": "marché"
+   },
+   "card": "市場"
   }
  ],
  "examTest": []

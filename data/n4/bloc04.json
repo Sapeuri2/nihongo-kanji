@@ -13,6 +13,20 @@
       "**On** : ショク、シキ　**Kun** : いろ",
       "Une personne penchée sur une autre : le teint, puis la couleur."
      ],
+     "ex": [
+      {
+       "jp": "{好|す}きな{色|いろ}は{青|あお}です。",
+       "fr": "Ma couleur préférée est le bleu."
+      },
+      {
+       "jp": "{茶色|ちゃいろ}のくつを{買|か}いました。",
+       "fr": "J'ai acheté des chaussures marron."
+      },
+      {
+       "jp": "{黄色|きいろ}い{花|はな}が{咲|さ}いています。",
+       "fr": "Des fleurs jaunes sont en fleur."
+      }
+     ],
      "vocab": [
       {
        "jp": "{色|いろ}",
@@ -38,6 +52,20 @@
       "**On** : セキ　**Kun** : あか(い)",
       "Un grand feu 火 sous la terre 土 : rouge."
      ],
+     "ex": [
+      {
+       "jp": "{赤|あか}いセーターを{買|か}いました。",
+       "fr": "J'ai acheté un pull rouge."
+      },
+      {
+       "jp": "{赤|あか}ちゃんが{寝|ね}ています。",
+       "fr": "Le bébé dort."
+      },
+      {
+       "jp": "{赤|あか}いりんごを{三|みっ}つください。",
+       "fr": "Trois pommes rouges, s'il vous plaît."
+      }
+     ],
      "vocab": [
       {
        "jp": "{赤|あか}い",
@@ -54,6 +82,16 @@
      "p": [
       "**On** : セイ　**Kun** : あお(い)",
       "Une jeune pousse 生 au-dessus d'un puits : le bleu-vert de l'eau."
+     ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{空|そら}が{青|あお}いです。",
+       "fr": "Aujourd'hui, le ciel est bleu."
+      },
+      {
+       "jp": "{今日|きょう}は{青空|あおぞら}がきれいです。",
+       "fr": "Le ciel bleu est beau aujourd'hui."
+      }
      ],
      "vocab": [
       {
@@ -76,6 +114,20 @@
       "**On** : コク　**Kun** : くろ(い)",
       "Une fenêtre noircie au-dessus du feu 灬 : noir de suie."
      ],
+     "ex": [
+      {
+       "jp": "{黒|くろ}いくつをはきます。",
+       "fr": "Je mets des chaussures noires."
+      },
+      {
+       "jp": "{黒|くろ}い{車|くるま}が{止|と}まっています。",
+       "fr": "Une voiture noire est garée."
+      },
+      {
+       "jp": "{黒|くろ}いズボンをはいています。",
+       "fr": "Il porte un pantalon noir."
+      }
+     ],
      "vocab": [
       {
        "jp": "{黒|くろ}い",
@@ -88,6 +140,20 @@
      "p": [
       "**On** : メイ、ミョウ　**Kun** : あか(るい)、あ(ける)",
       "Le soleil 日 et la lune 月 : la lumière."
+     ],
+     "ex": [
+      {
+       "jp": "この{部屋|へや}は{明|あか}るいですね。",
+       "fr": "Cette pièce est lumineuse, n'est-ce pas ?"
+      },
+      {
+       "jp": "{先生|せんせい}の{説明|せつめい}はわかりやすいです。",
+       "fr": "Les explications du professeur sont faciles à comprendre."
+      },
+      {
+       "jp": "{明日|あした}は{晴|は}れです。",
+       "fr": "Demain, il fera beau."
+      }
      ],
      "vocab": [
       {
@@ -110,6 +176,20 @@
       "**On** : アン　**Kun** : くら(い)",
       "Le soleil 日 et un son 音 : quand on ne voit plus et qu'on n'entend que des bruits, il fait sombre."
      ],
+     "ex": [
+      {
+       "jp": "{森|もり}の{中|なか}は{少|すこ}し{暗|くら}いです。",
+       "fr": "Il fait un peu sombre dans la forêt."
+      },
+      {
+       "jp": "{新|あたら}しい{単語|たんご}を{暗記|あんき}しました。",
+       "fr": "J'ai appris les nouveaux mots par cœur."
+      },
+      {
+       "jp": "{冬|ふゆ}は{五時|ごじ}になるともう{暗|くら}いです。",
+       "fr": "En hiver, à cinq heures il fait déjà sombre."
+      }
+     ],
      "vocab": [
       {
        "jp": "{暗|くら}い",
@@ -129,7 +209,7 @@
    "exercises": [
     {
      "id": "k4-16-色-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "色",
      "explain": "**色** : couleur. Une personne penchée sur une autre : le teint, puis la couleur.",
      "type": "choice",
@@ -139,11 +219,17 @@
       "tirer",
       "couleur"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "色",
+      "kana": "ショク、シキ、いろ",
+      "fr": "couleur"
+     },
+     "card": "色"
     },
     {
      "id": "k4-16-赤-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "赤",
      "explain": "**赤** : rouge. Un grand feu 火 sous la terre 土 : rouge.",
      "type": "choice",
@@ -153,11 +239,17 @@
       "rouge",
       "tourner, rouler"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "赤",
+      "kana": "セキ、あか(い)",
+      "fr": "rouge"
+     },
+     "card": "赤"
     },
     {
      "id": "k4-16-青-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "青",
      "explain": "**青** : bleu. Une jeune pousse 生 au-dessus d'un puits : le bleu-vert de l'eau.",
      "type": "choice",
@@ -167,11 +259,17 @@
       "vrai, juste",
       "question"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "青",
+      "kana": "セイ、あお(い)",
+      "fr": "bleu"
+     },
+     "card": "青"
     },
     {
      "id": "k4-16-黒-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "黒",
      "explain": "**黒** : noir. Une fenêtre noircie au-dessus du feu 灬 : noir de suie.",
      "type": "choice",
@@ -181,11 +279,17 @@
       "noir",
       "rivière"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "黒",
+      "kana": "コク、くろ(い)",
+      "fr": "noir"
+     },
+     "card": "黒"
     },
     {
      "id": "k4-16-明-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "明",
      "explain": "**明** : clair, lumineux. Le soleil 日 et la lune 月 : la lumière.",
      "type": "choice",
@@ -195,11 +299,17 @@
       "dix",
       "clair, lumineux"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "明",
+      "kana": "メイ、ミョウ、あか(るい)、あ(ける)",
+      "fr": "clair, lumineux"
+     },
+     "card": "明"
     },
     {
      "id": "k4-16-暗-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "暗",
      "explain": "**暗** : sombre. Le soleil 日 et un son 音 : quand on ne voit plus et qu'on n'entend que des bruits, il fait sombre.",
      "type": "choice",
@@ -209,11 +319,17 @@
       "servir",
       "ciel, vide"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "暗",
+      "kana": "アン、くら(い)",
+      "fr": "sombre"
+     },
+     "card": "暗"
     },
     {
      "id": "k4-16-色-lecture",
-     "q": "Comment se lit **色** ?",
+     "q": "**色**の{読|よ}み{方|かた}は？",
      "explain": "{色|いろ} : couleur.",
      "type": "choice",
      "choices": [
@@ -222,11 +338,17 @@
       "いろ",
       "えん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{色|いろ}",
+      "kana": "いろ",
+      "fr": "couleur"
+     },
+     "card": "色"
     },
     {
      "id": "k4-16-赤い-lecture",
-     "q": "Comment se lit **赤い** ?",
+     "q": "**赤い**の{読|よ}み{方|かた}は？",
      "explain": "{赤|あか}い : rouge.",
      "type": "choice",
      "choices": [
@@ -235,11 +357,17 @@
       "せきい",
       "あかい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{赤|あか}い",
+      "kana": "あかい",
+      "fr": "rouge"
+     },
+     "card": "赤い"
     },
     {
      "id": "k4-16-青い-lecture",
-     "q": "Comment se lit **青い** ?",
+     "q": "**青い**の{読|よ}み{方|かた}は？",
      "explain": "{青|あお}い : bleu.",
      "type": "choice",
      "choices": [
@@ -248,11 +376,17 @@
       "じぶん",
       "せいい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{青|あお}い",
+      "kana": "あおい",
+      "fr": "bleu"
+     },
+     "card": "青い"
     },
     {
      "id": "k4-16-黒い-lecture",
-     "q": "Comment se lit **黒い** ?",
+     "q": "**黒い**の{読|よ}み{方|かた}は？",
      "explain": "{黒|くろ}い : noir.",
      "type": "choice",
      "choices": [
@@ -261,11 +395,17 @@
       "くろい",
       "おとな"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{黒|くろ}い",
+      "kana": "くろい",
+      "fr": "noir"
+     },
+     "card": "黒い"
     },
     {
      "id": "k4-16-明るい-lecture",
-     "q": "Comment se lit **明るい** ?",
+     "q": "**明るい**の{読|よ}み{方|かた}は？",
      "explain": "{明|あか}るい : clair, lumineux.",
      "type": "choice",
      "choices": [
@@ -274,11 +414,17 @@
       "あるい",
       "たかい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{明|あか}るい",
+      "kana": "あかるい",
+      "fr": "clair, lumineux"
+     },
+     "card": "明るい"
     },
     {
      "id": "k4-16-暗い-lecture",
-     "q": "Comment se lit **暗い** ?",
+     "q": "**暗い**の{読|よ}み{方|かた}は？",
      "explain": "{暗|くら}い : sombre.",
      "type": "choice",
      "choices": [
@@ -287,11 +433,17 @@
       "せんもん",
       "しゅっぱつ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{暗|くら}い",
+      "kana": "くらい",
+      "fr": "sombre"
+     },
+     "card": "暗い"
     },
     {
      "id": "k4-16-色-ecrit",
-     "q": "Quel mot s'écrit **いろ** (couleur) ?",
+     "q": "**いろ**（couleur）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{色|いろ} : couleur.",
      "type": "choice",
      "choices": [
@@ -300,11 +452,17 @@
       "大",
       "色"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{色|いろ}",
+      "kana": "いろ",
+      "fr": "couleur"
+     },
+     "card": "色"
     },
     {
      "id": "k4-16-色-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "どんな**色**が{好|す}きですか。",
      "explain": "**色** se lit いろ ici ({色|いろ} : couleur). « Quelle couleur aimes-tu ? »",
      "type": "choice",
@@ -314,11 +472,17 @@
       "まいにち",
       "じょうず"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{色|いろ}",
+      "kana": "いろ",
+      "fr": "couleur"
+     },
+     "card": "色"
     },
     {
      "id": "k4-16-色-kanji",
-     "q": "Quel kanji veut dire « couleur » ?",
+     "q": "「couleur」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**色** : couleur. Une personne penchée sur une autre : le teint, puis la couleur.",
      "type": "choice",
      "choices": [
@@ -327,11 +491,17 @@
       "色",
       "邑"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "色",
+      "kana": "ショク、シキ、いろ",
+      "fr": "couleur"
+     },
+     "card": "色"
     },
     {
      "id": "k4-16-茶色-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{茶色|ちゃいろ} se lit ちゃいろ, pas ちゃしき.",
      "type": "choice",
      "choices": [
@@ -340,7 +510,52 @@
       "茶色 → ちゃしき",
       "説明 → せつめい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{茶色|ちゃいろ}",
+      "kana": "ちゃいろ",
+      "fr": "marron"
+     },
+     "card": "茶色"
+    },
+    {
+     "id": "k4-16-赤い-ecrit",
+     "q": "**あかい**（rouge）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{赤|あか}い : rouge.",
+     "type": "choice",
+     "choices": [
+      "赦い",
+      "赤い",
+      "亦い",
+      "耳い"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{赤|あか}い",
+      "kana": "あかい",
+      "fr": "rouge"
+     },
+     "card": "赤い"
+    },
+    {
+     "id": "k4-16-茶色-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**茶色**のかばんを買いました。",
+     "explain": "**茶色** se lit ちゃいろ ici ({茶色|ちゃいろ} : marron). « J'ai acheté un sac marron. »",
+     "type": "choice",
+     "choices": [
+      "さいろ",
+      "ちゃしょく",
+      "ちゃいろ",
+      "ちゃしき"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{茶色|ちゃいろ}",
+      "kana": "ちゃいろ",
+      "fr": "marron"
+     },
+     "card": "茶色"
     }
    ]
   },
@@ -353,6 +568,20 @@
      "p": [
       "**On** : シュン　**Kun** : はる",
       "Des plantes qui poussent au soleil 日 : le printemps."
+     ],
+     "ex": [
+      {
+       "jp": "{春|はる}はあたたかいです。",
+       "fr": "Le printemps est doux."
+      },
+      {
+       "jp": "{春休|はるやす}みに{国|くに}へ{帰|かえ}ります。",
+       "fr": "Je rentre au pays pendant les vacances de printemps."
+      },
+      {
+       "jp": "{春|はる}になると{桜|さくら}が{咲|さ}きます。",
+       "fr": "Au printemps, les cerisiers fleurissent."
+      }
      ],
      "vocab": [
       {
@@ -371,6 +600,20 @@
       "**On** : カ、ゲ　**Kun** : なつ",
       "Une tête 頁 sur des pieds 夂 qui traînent : on se traîne de chaleur."
      ],
+     "ex": [
+      {
+       "jp": "{夏休|なつやす}みは{短|みじか}いです。",
+       "fr": "Les vacances d'été sont courtes."
+      },
+      {
+       "jp": "{夏休|なつやす}みに{田舎|いなか}へ{帰|かえ}ります。",
+       "fr": "Je rentre à la campagne pendant les vacances d'été."
+      },
+      {
+       "jp": "{夏|なつ}は{海|うみ}へ{行|い}きます。",
+       "fr": "En été, je vais à la mer."
+      }
+     ],
      "vocab": [
       {
        "jp": "{夏|なつ}",
@@ -388,6 +631,20 @@
       "**On** : シュウ　**Kun** : あき",
       "Les céréales 禾 et le feu 火 : on brûle les chaumes après la récolte."
      ],
+     "ex": [
+      {
+       "jp": "{今年|ことし}の{秋|あき}は{暖|あたた}かいです。",
+       "fr": "Cet automne est doux."
+      },
+      {
+       "jp": "{秋|あき}は{果物|くだもの}がおいしいです。",
+       "fr": "En automne, les fruits sont bons."
+      },
+      {
+       "jp": "{秋|あき}は{旅行|りょこう}にいい{季節|きせつ}です。",
+       "fr": "L'automne est une bonne saison pour voyager."
+      }
+     ],
      "vocab": [
       {
        "jp": "{秋|あき}",
@@ -400,6 +657,20 @@
      "p": [
       "**On** : トウ　**Kun** : ふゆ",
       "Des pieds 夂 qui glissent sur deux gouttes de glace."
+     ],
+     "ex": [
+      {
+       "jp": "{冬|ふゆ}は{日|ひ}が{短|みじか}いです。",
+       "fr": "En hiver, les jours sont courts."
+      },
+      {
+       "jp": "{冬休|ふゆやす}みにスキーに{行|い}きます。",
+       "fr": "Je vais au ski pendant les vacances d'hiver."
+      },
+      {
+       "jp": "{冬|ふゆ}はとても{寒|さむ}いです。",
+       "fr": "L'hiver est très froid."
+      }
      ],
      "vocab": [
       {
@@ -418,6 +689,20 @@
       "**On** : ショ　**Kun** : あつ(い)",
       "Le soleil 日 au-dessus d'une personne 者 : il fait chaud."
      ],
+     "ex": [
+      {
+       "jp": "{暑|あつ}いですね。",
+       "fr": "Il fait chaud, hein ?"
+      },
+      {
+       "jp": "{今日|きょう}は{暑|あつ}いですね。",
+       "fr": "Il fait chaud aujourd'hui, hein."
+      },
+      {
+       "jp": "{今日|きょう}は{暑|あつ}いですね。",
+       "fr": "Il fait chaud aujourd'hui, hein."
+      }
+     ],
      "vocab": [
       {
        "jp": "{暑|あつ}い",
@@ -430,6 +715,20 @@
      "p": [
       "**On** : カン　**Kun** : さむ(い)",
       "Une maison 宀 bourrée de paille au-dessus de la glace : il fait froid."
+     ],
+     "ex": [
+      {
+       "jp": "{外|そと}は{寒|さむ}いです。",
+       "fr": "Dehors, il fait froid."
+      },
+      {
+       "jp": "{冬|ふゆ}はとても{寒|さむ}いです。",
+       "fr": "L'hiver est très froid."
+      },
+      {
+       "jp": "{寒|さむ}いとき、コートを{着|き}ます。",
+       "fr": "Quand il fait froid, je mets un manteau."
+      }
      ],
      "vocab": [
       {
@@ -447,7 +746,7 @@
    "exercises": [
     {
      "id": "k4-17-春-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "春",
      "explain": "**春** : printemps. Des plantes qui poussent au soleil 日 : le printemps.",
      "type": "choice",
@@ -457,11 +756,17 @@
       "long, chef",
       "vrai, juste"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "春",
+      "kana": "シュン、はる",
+      "fr": "printemps"
+     },
+     "card": "春"
     },
     {
      "id": "k4-17-夏-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "夏",
      "explain": "**夏** : été. Une tête 頁 sur des pieds 夂 qui traînent : on se traîne de chaleur.",
      "type": "choice",
@@ -471,11 +776,17 @@
       "noir",
       "passer, fréquenter"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "夏",
+      "kana": "カ、ゲ、なつ",
+      "fr": "été"
+     },
+     "card": "夏"
     },
     {
      "id": "k4-17-秋-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "秋",
      "explain": "**秋** : automne. Les céréales 禾 et le feu 火 : on brûle les chaumes après la récolte.",
      "type": "choice",
@@ -485,11 +796,17 @@
       "gare",
       "riz cuit, repas"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "秋",
+      "kana": "シュウ、あき",
+      "fr": "automne"
+     },
+     "card": "秋"
     },
     {
      "id": "k4-17-冬-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "冬",
      "explain": "**冬** : hiver. Des pieds 夂 qui glissent sur deux gouttes de glace.",
      "type": "choice",
@@ -499,11 +816,17 @@
       "pied, jambe",
       "se presser, urgent"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "冬",
+      "kana": "トウ、ふゆ",
+      "fr": "hiver"
+     },
+     "card": "冬"
     },
     {
      "id": "k4-17-暑-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "暑",
      "explain": "**暑** : chaud (temps). Le soleil 日 au-dessus d'une personne 者 : il fait chaud.",
      "type": "choice",
@@ -513,11 +836,17 @@
       "acheter",
       "capitale, métropole"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "暑",
+      "kana": "ショ、あつ(い)",
+      "fr": "chaud (temps)"
+     },
+     "card": "暑"
     },
     {
      "id": "k4-17-寒-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "寒",
      "explain": "**寒** : froid (temps). Une maison 宀 bourrée de paille au-dessus de la glace : il fait froid.",
      "type": "choice",
@@ -527,11 +856,17 @@
       "arbre, bois",
       "plan, schéma"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "寒",
+      "kana": "カン、さむ(い)",
+      "fr": "froid (temps)"
+     },
+     "card": "寒"
     },
     {
      "id": "k4-17-春-lecture",
-     "q": "Comment se lit **春** ?",
+     "q": "**春**の{読|よ}み{方|かた}は？",
      "explain": "{春|はる} : printemps.",
      "type": "choice",
      "choices": [
@@ -540,11 +875,17 @@
       "はる",
       "だす"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{春|はる}",
+      "kana": "はる",
+      "fr": "printemps"
+     },
+     "card": "春"
     },
     {
      "id": "k4-17-夏-lecture",
-     "q": "Comment se lit **夏** ?",
+     "q": "**夏**の{読|よ}み{方|かた}は？",
      "explain": "{夏|なつ} : été.",
      "type": "choice",
      "choices": [
@@ -553,11 +894,17 @@
       "おきる",
       "にがつ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{夏|なつ}",
+      "kana": "なつ",
+      "fr": "été"
+     },
+     "card": "夏"
     },
     {
      "id": "k4-17-秋-lecture",
-     "q": "Comment se lit **秋** ?",
+     "q": "**秋**の{読|よ}み{方|かた}は？",
      "explain": "{秋|あき} : automne.",
      "type": "choice",
      "choices": [
@@ -566,11 +913,17 @@
       "とおる",
       "あき"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{秋|あき}",
+      "kana": "あき",
+      "fr": "automne"
+     },
+     "card": "秋"
     },
     {
      "id": "k4-17-冬-lecture",
-     "q": "Comment se lit **冬** ?",
+     "q": "**冬**の{読|よ}み{方|かた}は？",
      "explain": "{冬|ふゆ} : hiver.",
      "type": "choice",
      "choices": [
@@ -579,11 +932,17 @@
       "ふゆ",
       "き"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{冬|ふゆ}",
+      "kana": "ふゆ",
+      "fr": "hiver"
+     },
+     "card": "冬"
     },
     {
      "id": "k4-17-暑い-lecture",
-     "q": "Comment se lit **暑い** ?",
+     "q": "**暑い**の{読|よ}み{方|かた}は？",
      "explain": "{暑|あつ}い : chaud (météo).",
      "type": "choice",
      "choices": [
@@ -592,11 +951,17 @@
       "まいあさ",
       "しょい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{暑|あつ}い",
+      "kana": "あつい",
+      "fr": "chaud (météo)"
+     },
+     "card": "暑い"
     },
     {
      "id": "k4-17-寒い-lecture",
-     "q": "Comment se lit **寒い** ?",
+     "q": "**寒い**の{読|よ}み{方|かた}は？",
      "explain": "{寒|さむ}い : froid (météo).",
      "type": "choice",
      "choices": [
@@ -605,11 +970,17 @@
       "しゃちょう",
       "さむい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{寒|さむ}い",
+      "kana": "さむい",
+      "fr": "froid (météo)"
+     },
+     "card": "寒い"
     },
     {
      "id": "k4-17-春休み-trou",
-     "q": "Complète le mot **はるやすみ** (vacances de printemps) :",
+     "q": "**はるやすみ**（vacances de printemps）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "春＿み",
      "explain": "{春休|はるやす}み : vacances de printemps.",
      "type": "choice",
@@ -619,11 +990,17 @@
       "休",
       "体"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{春休|はるやす}み",
+      "kana": "はるやすみ",
+      "fr": "vacances de printemps"
+     },
+     "card": "春休み"
     },
     {
      "id": "k4-17-春-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "日本の学校は**春**に{始|はじ}まります。",
      "explain": "**春** se lit はる ici ({春|はる} : printemps). « Au Japon, l'école commence au printemps. »",
      "type": "choice",
@@ -633,11 +1010,17 @@
       "はる",
       "しちょう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{春|はる}",
+      "kana": "はる",
+      "fr": "printemps"
+     },
+     "card": "春"
     },
     {
      "id": "k4-17-春-kanji",
-     "q": "Quel kanji veut dire « printemps » ?",
+     "q": "「printemps」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**春** : printemps. Des plantes qui poussent au soleil 日 : le printemps.",
      "type": "choice",
      "choices": [
@@ -646,11 +1029,17 @@
       "春",
       "三"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "春",
+      "kana": "シュン、はる",
+      "fr": "printemps"
+     },
+     "card": "春"
     },
     {
      "id": "k4-17-春休み-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{春休|はるやす}み se lit はるやすみ, pas しゅんやすみ.",
      "type": "choice",
      "choices": [
@@ -659,7 +1048,53 @@
       "夏休み → なつやすみ",
       "冬休み → ふゆやすみ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{春休|はるやす}み",
+      "kana": "はるやすみ",
+      "fr": "vacances de printemps"
+     },
+     "card": "春休み"
+    },
+    {
+     "id": "k4-17-夏休み-trou",
+     "q": "**なつやすみ**（vacances d'été）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "夏＿み",
+     "explain": "{夏休|なつやす}み : vacances d'été.",
+     "type": "choice",
+     "choices": [
+      "気",
+      "休",
+      "年",
+      "体"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{夏休|なつやす}み",
+      "kana": "なつやすみ",
+      "fr": "vacances d'été"
+     },
+     "card": "夏休み"
+    },
+    {
+     "id": "k4-17-春休み-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**春休み**に国へ帰ります。",
+     "explain": "**春休み** se lit はるやすみ ici ({春休|はるやす}み : vacances de printemps). « Je rentre au pays pendant les vacances de printemps. »",
+     "type": "choice",
+     "choices": [
+      "まいあさ",
+      "はるやすみ",
+      "しょうがつ",
+      "にほんじん"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{春休|はるやす}み",
+      "kana": "はるやすみ",
+      "fr": "vacances de printemps"
+     },
+     "card": "春休み"
     }
    ]
   },
@@ -672,6 +1107,20 @@
      "p": [
       "**On** : チュウ　**Kun** : ひる",
       "Le soleil 日 bien délimité, au plus haut : midi."
+     ],
+     "ex": [
+      {
+       "jp": "{昼|ひる}は{会社|かいしゃ}の{近|ちか}くで{食|た}べます。",
+       "fr": "À midi, je mange près du bureau."
+      },
+      {
+       "jp": "まだ{昼|ひる}ご{飯|はん}を{食|た}べていません。",
+       "fr": "Je n'ai pas encore déjeuné."
+      },
+      {
+       "jp": "{昼休|ひるやす}みに{公園|こうえん}を{散歩|さんぽ}します。",
+       "fr": "Je me promène dans le parc pendant la pause de midi."
+      }
      ],
      "vocab": [
       {
@@ -694,6 +1143,20 @@
       "**On** : ヤ　**Kun** : よる、よ",
       "Une personne 亻 sous un toit 亠 avec la lune 夕 : la nuit."
      ],
+     "ex": [
+      {
+       "jp": "{夜|よる}はテレビを{見|み}ます。",
+       "fr": "Le soir, je regarde la télé."
+      },
+      {
+       "jp": "{今夜|こんや}は{牛肉|ぎゅうにく}を{焼|や}きます。",
+       "fr": "Ce soir, je fais griller du bœuf."
+      },
+      {
+       "jp": "{夜中|よなか}に{電話|でんわ}が{鳴|な}りました。",
+       "fr": "Le téléphone a sonné au milieu de la nuit."
+      }
+     ],
      "vocab": [
       {
        "jp": "{夜|よる}",
@@ -715,6 +1178,20 @@
       "**On** : セキ　**Kun** : ゆう",
       "Une demi-lune au crépuscule."
      ],
+     "ex": [
+      {
+       "jp": "{夕方|ゆうがた}はすずしいですね。",
+       "fr": "En fin d'après-midi, il fait frais, hein."
+      },
+      {
+       "jp": "{夕|ゆう}べはよく{寝|ね}られませんでした。",
+       "fr": "Hier soir, je n'ai pas bien dormi."
+      },
+      {
+       "jp": "{夕方|ゆうがた}から{雨|あめ}が{降|ふ}りました。",
+       "fr": "Il a plu à partir de la fin d'après-midi."
+      }
+     ],
      "vocab": [
       {
        "jp": "{夕方|ゆうがた}",
@@ -735,6 +1212,20 @@
      "p": [
       "**On** : フウ、フ　**Kun** : かぜ",
       "Un insecte 虫 sous une voile 几 : le vent."
+     ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{風|かぜ}が{強|つよ}いです。",
+       "fr": "Aujourd'hui, le vent est fort."
+      },
+      {
+       "jp": "{明日|あした}、{台風|たいふう}が{来|き}ます。",
+       "fr": "Un typhon arrive demain."
+      },
+      {
+       "jp": "{寝|ね}る{前|まえ}にお{風呂|ふろ}に{入|はい}ります。",
+       "fr": "Je prends un bain avant de dormir."
+      }
      ],
      "vocab": [
       {
@@ -761,6 +1252,20 @@
       "**On** : コウ　**Kun** : ひかり、ひか(る)",
       "Un feu porté au-dessus d'une personne 儿 : la lumière."
      ],
+     "ex": [
+      {
+       "jp": "{星|ほし}が{光|ひか}っています。",
+       "fr": "Les étoiles brillent."
+      },
+      {
+       "jp": "{京都|きょうと}は{観光|かんこう}の{町|まち}です。",
+       "fr": "Kyoto est une ville touristique."
+      },
+      {
+       "jp": "{朝|あさ}の{光|ひかり}で{目|め}が{覚|さ}めました。",
+       "fr": "Je me suis réveillé avec la lumière du matin."
+      }
+     ],
      "vocab": [
       {
        "jp": "{光|ひかり}",
@@ -781,6 +1286,20 @@
      "p": [
       "**On** : カイ　**Kun** : うみ",
       "L'eau 氵 et chaque 毎 : de l'eau partout, la mer."
+     ],
+     "ex": [
+      {
+       "jp": "{夏|なつ}は{海|うみ}へ{行|い}きます。",
+       "fr": "En été, je vais à la mer."
+      },
+      {
+       "jp": "{来年|らいねん}{海外|かいがい}で{働|はたら}きたいです。",
+       "fr": "L'an prochain, je veux travailler à l'étranger."
+      },
+      {
+       "jp": "{夏|なつ}は{海|うみ}で{泳|およ}ぎたいです。",
+       "fr": "En été, je veux nager à la mer."
+      }
      ],
      "vocab": [
       {
@@ -804,7 +1323,7 @@
    "exercises": [
     {
      "id": "k4-18-昼-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "昼",
      "explain": "**昼** : midi, journée. Le soleil 日 bien délimité, au plus haut : midi.",
      "type": "choice",
@@ -814,11 +1333,17 @@
       "automne",
       "boire"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "昼",
+      "kana": "チュウ、ひる",
+      "fr": "midi, journée"
+     },
+     "card": "昼"
     },
     {
      "id": "k4-18-夜-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "夜",
      "explain": "**夜** : nuit. Une personne 亻 sous un toit 亠 avec la lune 夕 : la nuit.",
      "type": "choice",
@@ -828,11 +1353,17 @@
       "mère",
       "ciel, vide"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "夜",
+      "kana": "ヤ、よる、よ",
+      "fr": "nuit"
+     },
+     "card": "夜"
     },
     {
      "id": "k4-18-夕-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "夕",
      "explain": "**夕** : soir. Une demi-lune au crépuscule.",
      "type": "choice",
@@ -842,11 +1373,17 @@
       "est",
       "passer, fréquenter"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "夕",
+      "kana": "セキ、ゆう",
+      "fr": "soir"
+     },
+     "card": "夕"
     },
     {
      "id": "k4-18-風-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "風",
      "explain": "**風** : vent. Un insecte 虫 sous une voile 几 : le vent.",
      "type": "choice",
@@ -856,11 +1393,17 @@
       "est",
       "tenir, avoir"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "風",
+      "kana": "フウ、フ、かぜ",
+      "fr": "vent"
+     },
+     "card": "風"
     },
     {
      "id": "k4-18-光-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "光",
      "explain": "**光** : lumière. Un feu porté au-dessus d'une personne 儿 : la lumière.",
      "type": "choice",
@@ -870,11 +1413,17 @@
       "blanc",
       "lumière"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "光",
+      "kana": "コウ、ひかり、ひか(る)",
+      "fr": "lumière"
+     },
+     "card": "光"
     },
     {
      "id": "k4-18-海-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "海",
      "explain": "**海** : mer. L'eau 氵 et chaque 毎 : de l'eau partout, la mer.",
      "type": "choice",
@@ -884,11 +1433,17 @@
       "mer",
       "ville (commune), marché"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "海",
+      "kana": "カイ、うみ",
+      "fr": "mer"
+     },
+     "card": "海"
     },
     {
      "id": "k4-18-昼-lecture",
-     "q": "Comment se lit **昼** ?",
+     "q": "**昼**の{読|よ}み{方|かた}は？",
      "explain": "{昼|ひる} : midi, journée.",
      "type": "choice",
      "choices": [
@@ -897,11 +1452,17 @@
       "ふたつ",
       "にかい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{昼|ひる}",
+      "kana": "ひる",
+      "fr": "midi, journée"
+     },
+     "card": "昼"
     },
     {
      "id": "k4-18-今夜-lecture",
-     "q": "Comment se lit **今夜** ?",
+     "q": "**今夜**の{読|よ}み{方|かた}は？",
      "explain": "{今夜|こんや} : ce soir.",
      "type": "choice",
      "choices": [
@@ -910,11 +1471,17 @@
       "こんや",
       "いまや"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{今夜|こんや}",
+      "kana": "こんや",
+      "fr": "ce soir"
+     },
+     "card": "今夜"
     },
     {
      "id": "k4-18-夕飯-lecture",
-     "q": "Comment se lit **夕飯** ?",
+     "q": "**夕飯**の{読|よ}み{方|かた}は？",
      "explain": "{夕飯|ゆうはん} : dîner.",
      "type": "choice",
      "choices": [
@@ -923,11 +1490,17 @@
       "ゆうはん",
       "せきはん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{夕飯|ゆうはん}",
+      "kana": "ゆうはん",
+      "fr": "dîner"
+     },
+     "card": "夕飯"
     },
     {
      "id": "k4-18-風-lecture",
-     "q": "Comment se lit **風** ?",
+     "q": "**風**の{読|よ}み{方|かた}は？",
      "explain": "{風|かぜ} : vent.",
      "type": "choice",
      "choices": [
@@ -936,11 +1509,17 @@
       "どうじ",
       "かぜ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{風|かぜ}",
+      "kana": "かぜ",
+      "fr": "vent"
+     },
+     "card": "風"
     },
     {
      "id": "k4-18-光-lecture",
-     "q": "Comment se lit **光** ?",
+     "q": "**光**の{読|よ}み{方|かた}は？",
      "explain": "{光|ひかり} : lumière.",
      "type": "choice",
      "choices": [
@@ -949,11 +1528,17 @@
       "ばあい",
       "ひかり"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{光|ひかり}",
+      "kana": "ひかり",
+      "fr": "lumière"
+     },
+     "card": "光"
     },
     {
      "id": "k4-18-海-lecture",
-     "q": "Comment se lit **海** ?",
+     "q": "**海**の{読|よ}み{方|かた}は？",
      "explain": "{海|うみ} : mer.",
      "type": "choice",
      "choices": [
@@ -962,11 +1547,17 @@
       "うみ",
       "ばいてん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{海|うみ}",
+      "kana": "うみ",
+      "fr": "mer"
+     },
+     "card": "海"
     },
     {
      "id": "k4-18-昼-ecrit",
-     "q": "Quel mot s'écrit **ひる** (midi, journée) ?",
+     "q": "**ひる**（midi, journée）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{昼|ひる} : midi, journée.",
      "type": "choice",
      "choices": [
@@ -975,11 +1566,17 @@
       "書",
       "主"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{昼|ひる}",
+      "kana": "ひる",
+      "fr": "midi, journée"
+     },
+     "card": "昼"
     },
     {
      "id": "k4-18-昼-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**昼**は会社の近くで食べます。",
      "explain": "**昼** se lit ひる ici ({昼|ひる} : midi, journée). « À midi, je mange près du bureau. »",
      "type": "choice",
@@ -989,11 +1586,17 @@
       "ようふく",
       "けしき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{昼|ひる}",
+      "kana": "ひる",
+      "fr": "midi, journée"
+     },
+     "card": "昼"
     },
     {
      "id": "k4-18-昼-kanji",
-     "q": "Quel kanji veut dire « midi, journée » ?",
+     "q": "「midi, journée」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**昼** : midi, journée. Le soleil 日 bien délimité, au plus haut : midi.",
      "type": "choice",
      "choices": [
@@ -1002,11 +1605,17 @@
       "書",
       "計"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "昼",
+      "kana": "チュウ、ひる",
+      "fr": "midi, journée"
+     },
+     "card": "昼"
     },
     {
      "id": "k4-18-昼ご飯-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{昼|ひる}ご{飯|はん} se lit ひるごはん, pas ひるごめし.",
      "type": "choice",
      "choices": [
@@ -1015,7 +1624,53 @@
       "海外 → かいがい",
       "昼休み → ひるやすみ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{昼|ひる}ご{飯|はん}",
+      "kana": "ひるごはん",
+      "fr": "déjeuner"
+     },
+     "card": "昼ご飯"
+    },
+    {
+     "id": "k4-18-今夜-trou",
+     "q": "**こんや**（ce soir）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "今＿",
+     "explain": "{今夜|こんや} : ce soir.",
+     "type": "choice",
+     "choices": [
+      "夜",
+      "夕",
+      "人",
+      "液"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{今夜|こんや}",
+      "kana": "こんや",
+      "fr": "ce soir"
+     },
+     "card": "今夜"
+    },
+    {
+     "id": "k4-18-昼ご飯-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**昼ご飯**はいつも会社の近くで食べます。",
+     "explain": "**昼ご飯** se lit ひるごはん ici ({昼|ひる}ご{飯|はん} : déjeuner). « Je déjeune toujours près du bureau. »",
+     "type": "choice",
+     "choices": [
+      "へや",
+      "もり",
+      "せんげつ",
+      "ひるごはん"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{昼|ひる}ご{飯|はん}",
+      "kana": "ひるごはん",
+      "fr": "déjeuner"
+     },
+     "card": "昼ご飯"
     }
    ]
   },
@@ -1028,6 +1683,20 @@
      "p": [
       "**On** : ギュウ　**Kun** : うし",
       "Une tête de vache avec sa corne qui dépasse."
+     ],
+     "ex": [
+      {
+       "jp": "{今夜|こんや}は{牛肉|ぎゅうにく}を{焼|や}きます。",
+       "fr": "Ce soir, je fais griller du bœuf."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{牛乳|ぎゅうにゅう}を{飲|の}みます。",
+       "fr": "Je bois du lait tous les matins."
+      },
+      {
+       "jp": "{牧場|ぼくじょう}に{牛|うし}がたくさんいます。",
+       "fr": "Il y a beaucoup de vaches dans la ferme."
+      }
      ],
      "vocab": [
       {
@@ -1050,6 +1719,20 @@
       "**On** : チョウ　**Kun** : とり",
       "Un oiseau avec son œil, ses plumes et ses pattes 灬."
      ],
+     "ex": [
+      {
+       "jp": "{木|き}の{上|うえ}に{鳥|とり}がいます。",
+       "fr": "Il y a un oiseau dans l'arbre."
+      },
+      {
+       "jp": "{小鳥|ことり}が{木|き}の{上|うえ}で{鳴|な}いています。",
+       "fr": "Un petit oiseau chante en haut de l'arbre."
+      },
+      {
+       "jp": "{鳥肉|とりにく}と{野菜|やさい}でスープを{作|つく}りました。",
+       "fr": "J'ai fait une soupe avec du poulet et des légumes."
+      }
+     ],
      "vocab": [
       {
        "jp": "{鳥|とり}",
@@ -1071,6 +1754,20 @@
       "**On** : ニク　**Kun** : —",
       "Une carcasse avec ses côtes."
      ],
+     "ex": [
+      {
+       "jp": "{肉|にく}を{食|た}べません。",
+       "fr": "Je ne mange pas de viande."
+      },
+      {
+       "jp": "{豚肉|ぶたにく}を{三百|さんびゃく}グラムください。",
+       "fr": "Trois cents grammes de porc, s'il vous plaît."
+      },
+      {
+       "jp": "ナイフで{肉|にく}を{切|き}ります。",
+       "fr": "Je coupe la viande avec un couteau."
+      }
+     ],
      "vocab": [
       {
        "jp": "{肉|にく}",
@@ -1088,6 +1785,20 @@
       "**On** : サイ　**Kun** : な",
       "L'herbe 艹 et une main qui cueille 采 : les légumes."
      ],
+     "ex": [
+      {
+       "jp": "{野菜|やさい}が{高|たか}くなりました。",
+       "fr": "Les légumes sont devenus chers."
+      },
+      {
+       "jp": "{八百屋|やおや}で{野菜|やさい}を{買|か}います。",
+       "fr": "J'achète des légumes chez le marchand de légumes."
+      },
+      {
+       "jp": "{毎日|まいにち}{野菜|やさい}を{食|た}べてください。",
+       "fr": "Mangez des légumes tous les jours."
+      }
+     ],
      "vocab": [
       {
        "jp": "{野菜|やさい}",
@@ -1100,6 +1811,20 @@
      "p": [
       "**On** : チャ、サ　**Kun** : —",
       "L'herbe 艹 au-dessus d'une personne sous un abri : les feuilles de thé."
+     ],
+     "ex": [
+      {
+       "jp": "お{茶|ちゃ}をどうぞ。",
+       "fr": "Voici du thé, je vous en prie."
+      },
+      {
+       "jp": "{茶色|ちゃいろ}のくつを{買|か}いました。",
+       "fr": "J'ai acheté des chaussures marron."
+      },
+      {
+       "jp": "{駅前|えきまえ}の{喫茶店|きっさてん}でコーヒーを{飲|の}みました。",
+       "fr": "J'ai bu un café au salon de thé devant la gare."
+      }
      ],
      "vocab": [
       {
@@ -1122,6 +1847,20 @@
       "**On** : リョウ　**Kun** : —",
       "Du riz 米 et une louche 斗 : on mesure les ingrédients."
      ],
+     "ex": [
+      {
+       "jp": "{父|ちち}はよく{料理|りょうり}します。",
+       "fr": "Mon père cuisine souvent."
+      },
+      {
+       "jp": "この{美術館|びじゅつかん}は{無料|むりょう}です。",
+       "fr": "Ce musée est gratuit."
+      },
+      {
+       "jp": "{母|はは}は{料理|りょうり}が{上手|じょうず}です。",
+       "fr": "Ma mère cuisine très bien."
+      }
+     ],
      "vocab": [
       {
        "jp": "{料理|りょうり}",
@@ -1142,6 +1881,20 @@
      "p": [
       "**On** : リ　**Kun** : —",
       "Un joyau 王 et un village 里 : on taille la pierre en suivant son veinage, la logique."
+     ],
+     "ex": [
+      {
+       "jp": "{父|ちち}はよく{料理|りょうり}します。",
+       "fr": "Mon père cuisine souvent."
+      },
+      {
+       "jp": "{無理|むり}をしないでください。",
+       "fr": "Ne vous forcez pas."
+      },
+      {
+       "jp": "{遅|おく}れた{理由|りゆう}を{話|はな}してください。",
+       "fr": "Expliquez pourquoi vous êtes en retard."
+      }
      ],
      "vocab": [
       {
@@ -1167,7 +1920,7 @@
    "exercises": [
     {
      "id": "k4-19-牛-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "牛",
      "explain": "**牛** : vache, bœuf. Une tête de vache avec sa corne qui dépasse.",
      "type": "choice",
@@ -1177,11 +1930,17 @@
       "feu",
       "arbre, bois"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "牛",
+      "kana": "ギュウ、うし",
+      "fr": "vache, bœuf"
+     },
+     "card": "牛"
     },
     {
      "id": "k4-19-鳥-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "鳥",
      "explain": "**鳥** : oiseau. Un oiseau avec son œil, ses plumes et ses pattes 灬.",
      "type": "choice",
@@ -1191,11 +1950,17 @@
       "oiseau",
       "petit"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "鳥",
+      "kana": "チョウ、とり",
+      "fr": "oiseau"
+     },
+     "card": "鳥"
     },
     {
      "id": "k4-19-肉-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "肉",
      "explain": "**肉** : viande. Une carcasse avec ses côtes.",
      "type": "choice",
@@ -1205,11 +1970,17 @@
       "neuf",
       "viande"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "肉",
+      "kana": "ニク",
+      "fr": "viande"
+     },
+     "card": "肉"
     },
     {
      "id": "k4-19-菜-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "菜",
      "explain": "**菜** : légume. L'herbe 艹 et une main qui cueille 采 : les légumes.",
      "type": "choice",
@@ -1219,11 +1990,17 @@
       "terre, sol",
       "partir, émettre"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "菜",
+      "kana": "サイ、な",
+      "fr": "légume"
+     },
+     "card": "菜"
     },
     {
      "id": "k4-19-茶-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "茶",
      "explain": "**茶** : thé. L'herbe 艹 au-dessus d'une personne sous un abri : les feuilles de thé.",
      "type": "choice",
@@ -1233,11 +2010,17 @@
       "thé",
       "mer"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "茶",
+      "kana": "チャ、サ",
+      "fr": "thé"
+     },
+     "card": "茶"
     },
     {
      "id": "k4-19-料-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "料",
      "explain": "**料** : frais, ingrédient. Du riz 米 et une louche 斗 : on mesure les ingrédients.",
      "type": "choice",
@@ -1247,11 +2030,17 @@
       "frais, ingrédient",
       "société, sanctuaire"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "料",
+      "kana": "リョウ",
+      "fr": "frais, ingrédient"
+     },
+     "card": "料"
     },
     {
      "id": "k4-19-理-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "理",
      "explain": "**理** : raison, logique. Un joyau 王 et un village 里 : on taille la pierre en suivant son veinage, la logique.",
      "type": "choice",
@@ -1261,11 +2050,17 @@
       "avant, devant",
       "raison, logique"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "理",
+      "kana": "リ",
+      "fr": "raison, logique"
+     },
+     "card": "理"
     },
     {
      "id": "k4-19-牛肉-lecture",
-     "q": "Comment se lit **牛肉** ?",
+     "q": "**牛肉**の{読|よ}み{方|かた}は？",
      "explain": "{牛肉|ぎゅうにく} : bœuf (viande).",
      "type": "choice",
      "choices": [
@@ -1274,11 +2069,17 @@
       "かわる",
       "うしにく"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{牛肉|ぎゅうにく}",
+      "kana": "ぎゅうにく",
+      "fr": "bœuf (viande)"
+     },
+     "card": "牛肉"
     },
     {
      "id": "k4-19-鳥-lecture",
-     "q": "Comment se lit **鳥** ?",
+     "q": "**鳥**の{読|よ}み{方|かた}は？",
      "explain": "{鳥|とり} : oiseau.",
      "type": "choice",
      "choices": [
@@ -1287,11 +2088,17 @@
       "ちょうし",
       "にもつ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{鳥|とり}",
+      "kana": "とり",
+      "fr": "oiseau"
+     },
+     "card": "鳥"
     },
     {
      "id": "k4-19-肉-lecture",
-     "q": "Comment se lit **肉** ?",
+     "q": "**肉**の{読|よ}み{方|かた}は？",
      "explain": "{肉|にく} : viande.",
      "type": "choice",
      "choices": [
@@ -1300,11 +2107,17 @@
       "あかい",
       "もんだい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{肉|にく}",
+      "kana": "にく",
+      "fr": "viande"
+     },
+     "card": "肉"
     },
     {
      "id": "k4-19-お茶-lecture",
-     "q": "Comment se lit **お茶** ?",
+     "q": "**お茶**の{読|よ}み{方|かた}は？",
      "explain": "お{茶|ちゃ} : thé.",
      "type": "choice",
      "choices": [
@@ -1313,11 +2126,17 @@
       "おさ",
       "びょういん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "お{茶|ちゃ}",
+      "kana": "おちゃ",
+      "fr": "thé"
+     },
+     "card": "お茶"
     },
     {
      "id": "k4-19-料理-lecture",
-     "q": "Comment se lit **料理** ?",
+     "q": "**料理**の{読|よ}み{方|かた}は？",
      "explain": "{料理|りょうり} : cuisine (plats).",
      "type": "choice",
      "choices": [
@@ -1326,11 +2145,17 @@
       "あつい",
       "りょうり"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{料理|りょうり}",
+      "kana": "りょうり",
+      "fr": "cuisine (plats)"
+     },
+     "card": "料理"
     },
     {
      "id": "k4-19-牛肉-trou",
-     "q": "Complète le mot **ぎゅうにく** (bœuf (viande)) :",
+     "q": "**ぎゅうにく**（bœuf (viande)）：{足|た}りない{漢字|かんじ}はどれ？",
      "jp": "牛＿",
      "explain": "{牛肉|ぎゅうにく} : bœuf (viande).",
      "type": "choice",
@@ -1340,11 +2165,17 @@
       "内",
       "両"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{牛肉|ぎゅうにく}",
+      "kana": "ぎゅうにく",
+      "fr": "bœuf (viande)"
+     },
+     "card": "牛肉"
     },
     {
      "id": "k4-19-牛肉-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "{今夜|こんや}は**牛肉**を{焼|や}きます。",
      "explain": "**牛肉** se lit ぎゅうにく ici ({牛肉|ぎゅうにく} : bœuf (viande)). « Ce soir, je fais griller du bœuf. »",
      "type": "choice",
@@ -1354,11 +2185,17 @@
       "した",
       "ばんごはん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{牛肉|ぎゅうにく}",
+      "kana": "ぎゅうにく",
+      "fr": "bœuf (viande)"
+     },
+     "card": "牛肉"
     },
     {
      "id": "k4-19-牛-kanji",
-     "q": "Quel kanji veut dire « vache, bœuf » ?",
+     "q": "「vache, bœuf」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**牛** : vache, bœuf. Une tête de vache avec sa corne qui dépasse.",
      "type": "choice",
      "choices": [
@@ -1367,11 +2204,17 @@
       "生",
       "午"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "牛",
+      "kana": "ギュウ、うし",
+      "fr": "vache, bœuf"
+     },
+     "card": "牛"
     },
     {
      "id": "k4-19-牛肉-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{牛肉|ぎゅうにく} se lit ぎゅうにく, pas うしにく.",
      "type": "choice",
      "choices": [
@@ -1380,7 +2223,52 @@
       "小鳥 → ことり",
       "無理 → むり"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{牛肉|ぎゅうにく}",
+      "kana": "ぎゅうにく",
+      "fr": "bœuf (viande)"
+     },
+     "card": "牛肉"
+    },
+    {
+     "id": "k4-19-鳥-ecrit",
+     "q": "**とり**（oiseau）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{鳥|とり} : oiseau.",
+     "type": "choice",
+     "choices": [
+      "鳥",
+      "烏",
+      "島",
+      "試"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{鳥|とり}",
+      "kana": "とり",
+      "fr": "oiseau"
+     },
+     "card": "鳥"
+    },
+    {
+     "id": "k4-19-牛乳-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "**牛乳**は{冷蔵庫|れいぞうこ}に入れてください。",
+     "explain": "**牛乳** se lit ぎゅうにゅう ici ({牛乳|ぎゅうにゅう} : lait). « Mets le lait au réfrigérateur, s'il te plaît. »",
+     "type": "choice",
+     "choices": [
+      "いつつ",
+      "ぎゅうにゅう",
+      "かいもの",
+      "しちがつ"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{牛乳|ぎゅうにゅう}",
+      "kana": "ぎゅうにゅう",
+      "fr": "lait"
+     },
+     "card": "牛乳"
     }
    ]
   },
@@ -1394,6 +2282,20 @@
       "**On** : ケン　**Kun** : いぬ",
       "Un grand 大 avec un point en haut à droite : le chien à côté de l'homme."
      ],
+     "ex": [
+      {
+       "jp": "{毎朝|まいあさ}{犬|いぬ}とさんぽします。",
+       "fr": "Je me promène avec mon chien tous les matins."
+      },
+      {
+       "jp": "{犬|いぬ}の{世話|せわ}は{弟|おとうと}がします。",
+       "fr": "C'est mon petit frère qui s'occupe du chien."
+      },
+      {
+       "jp": "{犬|いぬ}が{庭|にわ}で{遊|あそ}んでいます。",
+       "fr": "Le chien joue dans le jardin."
+      }
+     ],
      "vocab": [
       {
        "jp": "{犬|いぬ}",
@@ -1406,6 +2308,20 @@
      "p": [
       "**On** : オン、イン　**Kun** : おと、ね",
       "Debout 立 au-dessus du soleil 日 : un son qui s'élève."
+     ],
+     "ex": [
+      {
+       "jp": "{変|へん}な{音|おと}が{聞|き}こえました。",
+       "fr": "J'ai entendu un bruit bizarre."
+      },
+      {
+       "jp": "どんな{音楽|おんがく}が{好|す}きですか。",
+       "fr": "Quel genre de musique aimes-tu ?"
+      },
+      {
+       "jp": "{日本語|にほんご}の{発音|はつおん}は{難|むずか}しくないです。",
+       "fr": "La prononciation du japonais n'est pas difficile."
+      }
      ],
      "vocab": [
       {
@@ -1428,6 +2344,20 @@
       "**On** : カ　**Kun** : うた、うた(う)",
       "Deux fois 可 et une bouche grande ouverte 欠 : on chante."
      ],
+     "ex": [
+      {
+       "jp": "{大声|おおごえ}で{歌|うた}を{歌|うた}いました。",
+       "fr": "J'ai chanté à pleine voix."
+      },
+      {
+       "jp": "{妹|いもうと}は{歌|うた}を{歌|うた}うのが{好|す}きです。",
+       "fr": "Ma petite sœur aime chanter des chansons."
+      },
+      {
+       "jp": "{将来|しょうらい}{歌手|かしゅ}になりたいです。",
+       "fr": "Plus tard, je veux devenir chanteur."
+      }
+     ],
      "vocab": [
       {
        "jp": "{歌|うた}",
@@ -1449,6 +2379,20 @@
       "**On** : ガク、ラク　**Kun** : たの(しい)",
       "Des clochettes accrochées à un arbre 木 : la musique, le plaisir."
      ],
+     "ex": [
+      {
+       "jp": "どんな{音楽|おんがく}が{好|す}きですか。",
+       "fr": "Quel genre de musique aimes-tu ?"
+      },
+      {
+       "jp": "{旅行|りょこう}は{楽|たの}しかったです。",
+       "fr": "Le voyage était amusant."
+      },
+      {
+       "jp": "この{椅子|いす}はとても{楽|らく}です。",
+       "fr": "Cette chaise est très confortable."
+      }
+     ],
      "vocab": [
       {
        "jp": "{楽|たの}しい",
@@ -1469,6 +2413,20 @@
      "p": [
       "**On** : リョ　**Kun** : たび",
       "Une bannière 方 et des gens qui la suivent : on part en voyage."
+     ],
+     "ex": [
+      {
+       "jp": "{一人|ひとり}で{旅行|りょこう}します。",
+       "fr": "Je voyage seul."
+      },
+      {
+       "jp": "{旅行|りょこう}は{楽|たの}しかったです。",
+       "fr": "Le voyage était amusant."
+      },
+      {
+       "jp": "{京都|きょうと}の{旅館|りょかん}に{泊|と}まりました。",
+       "fr": "J'ai dormi dans une auberge japonaise à Kyoto."
+      }
      ],
      "vocab": [
       {
@@ -1495,7 +2453,7 @@
    "exercises": [
     {
      "id": "k4-20-犬-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "犬",
      "explain": "**犬** : chien. Un grand 大 avec un point en haut à droite : le chien à côté de l'homme.",
      "type": "choice",
@@ -1505,11 +2463,17 @@
       "rencontrer, réunion",
       "chien"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "犬",
+      "kana": "ケン、いぬ",
+      "fr": "chien"
+     },
+     "card": "犬"
     },
     {
      "id": "k4-20-音-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "音",
      "explain": "**音** : son. Debout 立 au-dessus du soleil 日 : un son qui s'élève.",
      "type": "choice",
@@ -1519,11 +2483,17 @@
       "voyage",
       "son"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "音",
+      "kana": "オン、イン、おと、ね",
+      "fr": "son"
+     },
+     "card": "音"
     },
     {
      "id": "k4-20-歌-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "歌",
      "explain": "**歌** : chanson, chanter. Deux fois 可 et une bouche grande ouverte 欠 : on chante.",
      "type": "choice",
@@ -1533,11 +2503,17 @@
       "vie, naître",
       "père"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "歌",
+      "kana": "カ、うた、うた(う)",
+      "fr": "chanson, chanter"
+     },
+     "card": "歌"
     },
     {
      "id": "k4-20-楽-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "楽",
      "explain": "**楽** : plaisir, musique. Des clochettes accrochées à un arbre 木 : la musique, le plaisir.",
      "type": "choice",
@@ -1547,11 +2523,17 @@
       "servir",
       "parler, histoire"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "楽",
+      "kana": "ガク、ラク、たの(しい)",
+      "fr": "plaisir, musique"
+     },
+     "card": "楽"
     },
     {
      "id": "k4-20-旅-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "旅",
      "explain": "**旅** : voyage. Une bannière 方 et des gens qui la suivent : on part en voyage.",
      "type": "choice",
@@ -1561,11 +2543,17 @@
       "construction, artisanat",
       "voyage"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "旅",
+      "kana": "リョ、たび",
+      "fr": "voyage"
+     },
+     "card": "旅"
     },
     {
      "id": "k4-20-犬-lecture",
-     "q": "Comment se lit **犬** ?",
+     "q": "**犬**の{読|よ}み{方|かた}は？",
      "explain": "{犬|いぬ} : chien.",
      "type": "choice",
      "choices": [
@@ -1574,11 +2562,17 @@
       "いぬ",
       "かす"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{犬|いぬ}",
+      "kana": "いぬ",
+      "fr": "chien"
+     },
+     "card": "犬"
     },
     {
      "id": "k4-20-音-lecture",
-     "q": "Comment se lit **音** ?",
+     "q": "**音**の{読|よ}み{方|かた}は？",
      "explain": "{音|おと} : son, bruit.",
      "type": "choice",
      "choices": [
@@ -1587,11 +2581,17 @@
       "かいしゃ",
       "はは"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{音|おと}",
+      "kana": "おと",
+      "fr": "son, bruit"
+     },
+     "card": "音"
     },
     {
      "id": "k4-20-歌-lecture",
-     "q": "Comment se lit **歌** ?",
+     "q": "**歌**の{読|よ}み{方|かた}は？",
      "explain": "{歌|うた} : chanson.",
      "type": "choice",
      "choices": [
@@ -1600,11 +2600,17 @@
       "ほうそう",
       "あき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{歌|うた}",
+      "kana": "うた",
+      "fr": "chanson"
+     },
+     "card": "歌"
     },
     {
      "id": "k4-20-楽しい-lecture",
-     "q": "Comment se lit **楽しい** ?",
+     "q": "**楽しい**の{読|よ}み{方|かた}は？",
      "explain": "{楽|たの}しい : agréable, amusant.",
      "type": "choice",
      "choices": [
@@ -1613,11 +2619,17 @@
       "たのしい",
       "がくしい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{楽|たの}しい",
+      "kana": "たのしい",
+      "fr": "agréable, amusant"
+     },
+     "card": "楽しい"
     },
     {
      "id": "k4-20-旅行-lecture",
-     "q": "Comment se lit **旅行** ?",
+     "q": "**旅行**の{読|よ}み{方|かた}は？",
      "explain": "{旅行|りょこう} : voyage.",
      "type": "choice",
      "choices": [
@@ -1626,11 +2638,17 @@
       "ごしゅじん",
       "りょぎょう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{旅行|りょこう}",
+      "kana": "りょこう",
+      "fr": "voyage"
+     },
+     "card": "旅行"
     },
     {
      "id": "k4-20-犬-ecrit",
-     "q": "Quel mot s'écrit **いぬ** (chien) ?",
+     "q": "**いぬ**（chien）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{犬|いぬ} : chien.",
      "type": "choice",
      "choices": [
@@ -1639,11 +2657,17 @@
       "大",
       "犬"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{犬|いぬ}",
+      "kana": "いぬ",
+      "fr": "chien"
+     },
+     "card": "犬"
     },
     {
      "id": "k4-20-犬-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "**犬**の世話は{弟|おとうと}がします。",
      "explain": "**犬** se lit いぬ ici ({犬|いぬ} : chien). « C'est mon petit frère qui s'occupe du chien. »",
      "type": "choice",
@@ -1653,11 +2677,17 @@
       "うる",
       "てがみ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{犬|いぬ}",
+      "kana": "いぬ",
+      "fr": "chien"
+     },
+     "card": "犬"
     },
     {
      "id": "k4-20-犬-kanji",
-     "q": "Quel kanji veut dire « chien » ?",
+     "q": "「chien」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**犬** : chien. Un grand 大 avec un point en haut à droite : le chien à côté de l'homme.",
      "type": "choice",
      "choices": [
@@ -1666,11 +2696,17 @@
       "大",
       "犬"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "犬",
+      "kana": "ケン、いぬ",
+      "fr": "chien"
+     },
+     "card": "犬"
     },
     {
      "id": "k4-20-音楽-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{音楽|おんがく} se lit おんがく, pas ねがく.",
      "type": "choice",
      "choices": [
@@ -1679,11 +2715,17 @@
       "旅 → たび",
       "発音 → はつおん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{音楽|おんがく}",
+      "kana": "おんがく",
+      "fr": "musique"
+     },
+     "card": "音楽"
     },
     {
      "id": "k4-20-音-ecrit",
-     "q": "Quel mot s'écrit **おと** (son, bruit) ?",
+     "q": "**おと**（son, bruit）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{音|おと} : son, bruit.",
      "type": "choice",
      "choices": [
@@ -1692,11 +2734,17 @@
       "暗",
       "音"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{音|おと}",
+      "kana": "おと",
+      "fr": "son, bruit"
+     },
+     "card": "音"
     },
     {
      "id": "k4-20-音-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "{隣|となり}の{部屋|へや}から大きい**音**が聞こえます。",
      "explain": "**音** se lit おと ici ({音|おと} : son, bruit). « On entend un grand bruit dans la pièce d'à côté. »",
      "type": "choice",
@@ -1706,7 +2754,51 @@
       "ゆうえんち",
       "おと"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{音|おと}",
+      "kana": "おと",
+      "fr": "son, bruit"
+     },
+     "card": "音"
+    },
+    {
+     "id": "k4-20-音-kanji",
+     "q": "「son」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**音** : son. Debout 立 au-dessus du soleil 日 : un son qui s'élève.",
+     "type": "choice",
+     "choices": [
+      "手",
+      "立",
+      "暗",
+      "音"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "音",
+      "kana": "オン、イン、おと、ね",
+      "fr": "son"
+     },
+     "card": "音"
+    },
+    {
+     "id": "k4-20-歌-ecrit",
+     "q": "**うた**（chanson）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{歌|うた} : chanson.",
+     "type": "choice",
+     "choices": [
+      "歌",
+      "欠",
+      "哥",
+      "暗"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{歌|うた}",
+      "kana": "うた",
+      "fr": "chanson"
+     },
+     "card": "歌"
     }
    ]
   }
@@ -1714,7 +2806,7 @@
  "test": [
   {
    "id": "k4-b04-茶色-lecture",
-   "q": "Comment se lit **茶色** ?",
+   "q": "**茶色**の{読|よ}み{方|かた}は？",
    "explain": "{茶色|ちゃいろ} : marron.",
    "type": "choice",
    "choices": [
@@ -1723,11 +2815,17 @@
     "ちゃいろ",
     "さいろ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{茶色|ちゃいろ}",
+    "kana": "ちゃいろ",
+    "fr": "marron"
+   },
+   "card": "茶色"
   },
   {
    "id": "k4-b04-黄色-lecture",
-   "q": "Comment se lit **黄色** ?",
+   "q": "**黄色**の{読|よ}み{方|かた}は？",
    "explain": "{黄色|きいろ} : jaune.",
    "type": "choice",
    "choices": [
@@ -1736,11 +2834,17 @@
     "きしょく",
     "きしき"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{黄色|きいろ}",
+    "kana": "きいろ",
+    "fr": "jaune"
+   },
+   "card": "黄色"
   },
   {
    "id": "k4-b04-景色-lecture",
-   "q": "Comment se lit **景色** ?",
+   "q": "**景色**の{読|よ}み{方|かた}は？",
    "explain": "{景色|けしき} : paysage.",
    "type": "choice",
    "choices": [
@@ -1749,24 +2853,17 @@
     "けいろ",
     "かす"
    ],
-   "a": 1
-  },
-  {
-   "id": "k4-b04-赤い-ecrit",
-   "q": "Quel mot s'écrit **あかい** (rouge) ?",
-   "explain": "{赤|あか}い : rouge.",
-   "type": "choice",
-   "choices": [
-    "赤い",
-    "亦い",
-    "赦い",
-    "答い"
-   ],
-   "a": 0
+   "a": 1,
+   "star": {
+    "jp": "{景色|けしき}",
+    "kana": "けしき",
+    "fr": "paysage"
+   },
+   "card": "景色"
   },
   {
    "id": "k4-b04-赤ちゃん-lecture",
-   "q": "Comment se lit **赤ちゃん** ?",
+   "q": "**赤ちゃん**の{読|よ}み{方|かた}は？",
    "explain": "{赤|あか}ちゃん : bébé.",
    "type": "choice",
    "choices": [
@@ -1775,11 +2872,17 @@
     "かいしゃ",
     "あかちゃん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{赤|あか}ちゃん",
+    "kana": "あかちゃん",
+    "fr": "bébé"
+   },
+   "card": "赤ちゃん"
   },
   {
    "id": "k4-b04-青い-ecrit",
-   "q": "Quel mot s'écrit **あおい** (bleu) ?",
+   "q": "**あおい**（bleu）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{青|あお}い : bleu.",
    "type": "choice",
    "choices": [
@@ -1788,11 +2891,17 @@
     "静い",
     "時い"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{青|あお}い",
+    "kana": "あおい",
+    "fr": "bleu"
+   },
+   "card": "青い"
   },
   {
    "id": "k4-b04-青空-lecture",
-   "q": "Comment se lit **青空** ?",
+   "q": "**青空**の{読|よ}み{方|かた}は？",
    "explain": "{青空|あおぞら} : ciel bleu.",
    "type": "choice",
    "choices": [
@@ -1801,11 +2910,17 @@
     "あおあ",
     "ひきだし"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{青空|あおぞら}",
+    "kana": "あおぞら",
+    "fr": "ciel bleu"
+   },
+   "card": "青空"
   },
   {
    "id": "k4-b04-青年-lecture",
-   "q": "Comment se lit **青年** ?",
+   "q": "**青年**の{読|よ}み{方|かた}は？",
    "explain": "{青年|せいねん} : jeune homme.",
    "type": "choice",
    "choices": [
@@ -1814,11 +2929,17 @@
     "せいねん",
     "せいとし"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{青年|せいねん}",
+    "kana": "せいねん",
+    "fr": "jeune homme"
+   },
+   "card": "青年"
   },
   {
    "id": "k4-b04-黒い-ecrit",
-   "q": "Quel mot s'écrit **くろい** (noir) ?",
+   "q": "**くろい**（noir）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{黒|くろ}い : noir.",
    "type": "choice",
    "choices": [
@@ -1827,11 +2948,17 @@
     "黙い",
     "里い"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{黒|くろ}い",
+    "kana": "くろい",
+    "fr": "noir"
+   },
+   "card": "黒い"
   },
   {
    "id": "k4-b04-明るい-ecrit",
-   "q": "Quel mot s'écrit **あかるい** (clair, lumineux) ?",
+   "q": "**あかるい**（clair, lumineux）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{明|あか}るい : clair, lumineux.",
    "type": "choice",
    "choices": [
@@ -1840,24 +2967,17 @@
     "暗るい",
     "朋るい"
    ],
-   "a": 0
-  },
-  {
-   "id": "k4-b04-説明-ecrit",
-   "q": "Quel mot s'écrit **せつめい** (explication) ?",
-   "explain": "{説明|せつめい} : explication.",
-   "type": "choice",
-   "choices": [
-    "話明",
-    "音明",
-    "説明",
-    "税明"
-   ],
-   "a": 2
+   "a": 0,
+   "star": {
+    "jp": "{明|あか}るい",
+    "kana": "あかるい",
+    "fr": "clair, lumineux"
+   },
+   "card": "明るい"
   },
   {
    "id": "k4-b04-明日-lecture",
-   "q": "Comment se lit **明日** ?",
+   "q": "**明日**の{読|よ}み{方|かた}は？",
    "explain": "{明日|あした} : demain.",
    "type": "choice",
    "choices": [
@@ -1866,11 +2986,17 @@
     "とり",
     "きた"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{明日|あした}",
+    "kana": "あした",
+    "fr": "demain"
+   },
+   "card": "明日"
   },
   {
    "id": "k4-b04-暗い-ecrit",
-   "q": "Quel mot s'écrit **くらい** (sombre) ?",
+   "q": "**くらい**（sombre）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{暗|くら}い : sombre.",
    "type": "choice",
    "choices": [
@@ -1879,11 +3005,17 @@
     "明い",
     "犬い"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{暗|くら}い",
+    "kana": "くらい",
+    "fr": "sombre"
+   },
+   "card": "暗い"
   },
   {
    "id": "k4-b04-暗記-lecture",
-   "q": "Comment se lit **暗記** ?",
+   "q": "**暗記**の{読|よ}み{方|かた}は？",
    "explain": "{暗記|あんき} : apprendre par cœur.",
    "type": "choice",
    "choices": [
@@ -1892,11 +3024,17 @@
     "くらき",
     "でかける"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{暗記|あんき}",
+    "kana": "あんき",
+    "fr": "apprendre par cœur"
+   },
+   "card": "暗記"
   },
   {
    "id": "k4-b04-春-ecrit",
-   "q": "Quel mot s'écrit **はる** (printemps) ?",
+   "q": "**はる**（printemps）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{春|はる} : printemps.",
    "type": "choice",
    "choices": [
@@ -1905,11 +3043,17 @@
     "転",
     "泰"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{春|はる}",
+    "kana": "はる",
+    "fr": "printemps"
+   },
+   "card": "春"
   },
   {
    "id": "k4-b04-春休み-lecture",
-   "q": "Comment se lit **春休み** ?",
+   "q": "**春休み**の{読|よ}み{方|かた}は？",
    "explain": "{春休|はるやす}み : vacances de printemps.",
    "type": "choice",
    "choices": [
@@ -1918,11 +3062,17 @@
     "しゅんやすみ",
     "はるきゅうみ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{春休|はるやす}み",
+    "kana": "はるやすみ",
+    "fr": "vacances de printemps"
+   },
+   "card": "春休み"
   },
   {
    "id": "k4-b04-夏-ecrit",
-   "q": "Quel mot s'écrit **なつ** (été) ?",
+   "q": "**なつ**（été）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{夏|なつ} : été.",
    "type": "choice",
    "choices": [
@@ -1931,11 +3081,17 @@
     "憂",
     "复"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{夏|なつ}",
+    "kana": "なつ",
+    "fr": "été"
+   },
+   "card": "夏"
   },
   {
    "id": "k4-b04-夏休み-lecture",
-   "q": "Comment se lit **夏休み** ?",
+   "q": "**夏休み**の{読|よ}み{方|かた}は？",
    "explain": "{夏休|なつやす}み : vacances d'été.",
    "type": "choice",
    "choices": [
@@ -1944,11 +3100,17 @@
     "かえる",
     "なつやすみ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{夏休|なつやす}み",
+    "kana": "なつやすみ",
+    "fr": "vacances d'été"
+   },
+   "card": "夏休み"
   },
   {
    "id": "k4-b04-冬休み-lecture",
-   "q": "Comment se lit **冬休み** ?",
+   "q": "**冬休み**の{読|よ}み{方|かた}は？",
    "explain": "{冬休|ふゆやす}み : vacances d'hiver.",
    "type": "choice",
    "choices": [
@@ -1957,11 +3119,17 @@
     "ふゆきゅうみ",
     "ふゆやすみ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{冬休|ふゆやす}み",
+    "kana": "ふゆやすみ",
+    "fr": "vacances d'hiver"
+   },
+   "card": "冬休み"
   },
   {
    "id": "k4-b04-暑い-ecrit",
-   "q": "Quel mot s'écrit **あつい** (chaud (météo)) ?",
+   "q": "**あつい**（chaud (météo)）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{暑|あつ}い : chaud (météo).",
    "type": "choice",
    "choices": [
@@ -1970,11 +3138,17 @@
     "署い",
     "者い"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{暑|あつ}い",
+    "kana": "あつい",
+    "fr": "chaud (météo)"
+   },
+   "card": "暑い"
   },
   {
    "id": "k4-b04-昼ご飯-lecture",
-   "q": "Comment se lit **昼ご飯** ?",
+   "q": "**昼ご飯**の{読|よ}み{方|かた}は？",
    "explain": "{昼|ひる}ご{飯|はん} : déjeuner.",
    "type": "choice",
    "choices": [
@@ -1983,11 +3157,17 @@
     "ことし",
     "ちゅうごはん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{昼|ひる}ご{飯|はん}",
+    "kana": "ひるごはん",
+    "fr": "déjeuner"
+   },
+   "card": "昼ご飯"
   },
   {
    "id": "k4-b04-昼休み-lecture",
-   "q": "Comment se lit **昼休み** ?",
+   "q": "**昼休み**の{読|よ}み{方|かた}は？",
    "explain": "{昼休|ひるやす}み : pause de midi.",
    "type": "choice",
    "choices": [
@@ -1996,24 +3176,17 @@
     "やまだ",
     "ひるきゅうみ"
    ],
-   "a": 1
-  },
-  {
-   "id": "k4-b04-今夜-ecrit",
-   "q": "Quel mot s'écrit **こんや** (ce soir) ?",
-   "explain": "{今夜|こんや} : ce soir.",
-   "type": "choice",
-   "choices": [
-    "会夜",
-    "引夜",
-    "切夜",
-    "今夜"
-   ],
-   "a": 3
+   "a": 1,
+   "star": {
+    "jp": "{昼休|ひるやす}み",
+    "kana": "ひるやすみ",
+    "fr": "pause de midi"
+   },
+   "card": "昼休み"
   },
   {
    "id": "k4-b04-夜中-lecture",
-   "q": "Comment se lit **夜中** ?",
+   "q": "**夜中**の{読|よ}み{方|かた}は？",
    "explain": "{夜中|よなか} : milieu de la nuit.",
    "type": "choice",
    "choices": [
@@ -2022,11 +3195,74 @@
     "よなか",
     "よちゅう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{夜中|よなか}",
+    "kana": "よなか",
+    "fr": "milieu de la nuit"
+   },
+   "card": "夜中"
+  },
+  {
+   "id": "k4-b04-夕飯-ecrit",
+   "q": "**ゆうはん**（dîner）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{夕飯|ゆうはん} : dîner.",
+   "type": "choice",
+   "choices": [
+    "多飯",
+    "名飯",
+    "夕飯",
+    "四飯"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{夕飯|ゆうはん}",
+    "kana": "ゆうはん",
+    "fr": "dîner"
+   },
+   "card": "夕飯"
+  },
+  {
+   "id": "k4-b04-夕べ-lecture",
+   "q": "**夕べ**の{読|よ}み{方|かた}は？",
+   "explain": "{夕|ゆう}べ : hier soir.",
+   "type": "choice",
+   "choices": [
+    "かた",
+    "ゆうべ",
+    "せきべ",
+    "だいがく"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{夕|ゆう}べ",
+    "kana": "ゆうべ",
+    "fr": "hier soir"
+   },
+   "card": "夕べ"
+  },
+  {
+   "id": "k4-b04-風-ecrit",
+   "q": "**かぜ**（vent）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{風|かぜ} : vent.",
+   "type": "choice",
+   "choices": [
+    "鳳",
+    "風",
+    "凪",
+    "友"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{風|かぜ}",
+    "kana": "かぜ",
+    "fr": "vent"
+   },
+   "card": "風"
   },
   {
    "id": "k4-b04-色-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "{好|す}きな**色**は{青|あお}です。",
    "explain": "**色** se lit いろ ici ({色|いろ} : couleur). « Ma couleur préférée est le bleu. »",
    "type": "choice",
@@ -2036,13 +3272,19 @@
     "でんしゃ",
     "てんき"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{色|いろ}",
+    "kana": "いろ",
+    "fr": "couleur"
+   },
+   "card": "色"
   },
   {
    "id": "k4-b04-茶色-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "**茶色**のかばんを買いました。",
-   "explain": "**茶色** se lit ちゃいろ ici ({茶色|ちゃいろ} : marron). « J'ai acheté un sac marron. »",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "**茶色**のくつを買いました。",
+   "explain": "**茶色** se lit ちゃいろ ici ({茶色|ちゃいろ} : marron). « J'ai acheté des chaussures marron. »",
    "type": "choice",
    "choices": [
     "ちゃしき",
@@ -2050,11 +3292,37 @@
     "さいろ",
     "ちゃしょく"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{茶色|ちゃいろ}",
+    "kana": "ちゃいろ",
+    "fr": "marron"
+   },
+   "card": "茶色"
+  },
+  {
+   "id": "k4-b04-黄色-phrase",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "**黄色**い花が{咲|さ}いています。",
+   "explain": "**黄色** se lit きいろ ici ({黄色|きいろ} : jaune). « Des fleurs jaunes sont en fleur. »",
+   "type": "choice",
+   "choices": [
+    "つくる",
+    "こと",
+    "きいろ",
+    "はっぴゃく"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{黄色|きいろ}",
+    "kana": "きいろ",
+    "fr": "jaune"
+   },
+   "card": "黄色"
   },
   {
    "id": "k4-b04-景色-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "山の上から見た**景色**はきれいでした。",
    "explain": "**景色** se lit けしき ici ({景色|けしき} : paysage). « Le paysage vu du sommet de la montagne était beau. »",
    "type": "choice",
@@ -2064,11 +3332,17 @@
     "けしき",
     "きょうと"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{景色|けしき}",
+    "kana": "けしき",
+    "fr": "paysage"
+   },
+   "card": "景色"
   },
   {
    "id": "k4-b04-赤い-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**赤い**セーターを買いました。",
    "explain": "**赤い** se lit あかい ici ({赤|あか}い : rouge). « J'ai acheté un pull rouge. »",
    "type": "choice",
@@ -2078,11 +3352,17 @@
     "がくしゃ",
     "あかい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{赤|あか}い",
+    "kana": "あかい",
+    "fr": "rouge"
+   },
+   "card": "赤い"
   },
   {
    "id": "k4-b04-赤ちゃん-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**赤ちゃん**が{寝|ね}ています。",
    "explain": "**赤ちゃん** se lit あかちゃん ici ({赤|あか}ちゃん : bébé). « Le bébé dort. »",
    "type": "choice",
@@ -2092,27 +3372,19 @@
     "はいしゃ",
     "うしろ"
    ],
-   "a": 0
-  },
-  {
-   "id": "k4-b04-青い-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "今日は空が**青い**です。",
-   "explain": "**青い** se lit あおい ici ({青|あお}い : bleu). « Aujourd'hui, le ciel est bleu. »",
-   "type": "choice",
-   "choices": [
-    "ぎゅうにく",
-    "たんぼ",
-    "もり",
-    "あおい"
-   ],
-   "a": 3
+   "a": 0,
+   "star": {
+    "jp": "{赤|あか}ちゃん",
+    "kana": "あかちゃん",
+    "fr": "bébé"
+   },
+   "card": "赤ちゃん"
   }
  ],
  "examTest": [
   {
    "id": "k4-b04x-赤い-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**赤い**りんごを三つください。",
    "explain": "**赤い** se lit あかい ici ({赤|あか}い : rouge). « Trois pommes rouges, s'il vous plaît. »",
    "type": "choice",
@@ -2122,25 +3394,57 @@
     "そと",
     "こうぎょう"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{赤|あか}い",
+    "kana": "あかい",
+    "fr": "rouge"
+   },
+   "card": "赤い"
   },
   {
    "id": "k4-b04x-青い-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "今日は空が**青**くてきれいです。",
-   "explain": "**青** se lit あお ici ({青|あお}い : bleu). « Aujourd'hui, le ciel est bleu et beau. »",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "今日は空が**青い**です。",
+   "explain": "**青い** se lit あおい ici ({青|あお}い : bleu). « Aujourd'hui, le ciel est bleu. »",
    "type": "choice",
    "choices": [
-    "みず",
-    "みみ",
-    "とも",
-    "あお"
+    "こと",
+    "らいげつ",
+    "きゅうに",
+    "あおい"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{青|あお}い",
+    "kana": "あおい",
+    "fr": "bleu"
+   },
+   "card": "青い"
+  },
+  {
+   "id": "k4-b04x-青空-phrase",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "今日は**青空**がきれいです。",
+   "explain": "**青空** se lit あおぞら ici ({青空|あおぞら} : ciel bleu). « Le ciel bleu est beau aujourd'hui. »",
+   "type": "choice",
+   "choices": [
+    "あおあ",
+    "あおそら",
+    "あおくう",
+    "あおぞら"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{青空|あおぞら}",
+    "kana": "あおぞら",
+    "fr": "ciel bleu"
+   },
+   "card": "青空"
   },
   {
    "id": "k4-b04x-黒い-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**黒い**ズボンをはいています。",
    "explain": "**黒い** se lit くろい ici ({黒|くろ}い : noir). « Il porte un pantalon noir. »",
    "type": "choice",
@@ -2150,11 +3454,17 @@
     "くろい",
     "けいかく"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{黒|くろ}い",
+    "kana": "くろい",
+    "fr": "noir"
+   },
+   "card": "黒い"
   },
   {
    "id": "k4-b04x-説明-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "先生の**説明**はわかりやすいです。",
    "explain": "**説明** se lit せつめい ici ({説明|せつめい} : explication). « Les explications du professeur sont faciles à comprendre. »",
    "type": "choice",
@@ -2164,11 +3474,17 @@
     "せつあか",
     "せつみょう"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{説明|せつめい}",
+    "kana": "せつめい",
+    "fr": "explication"
+   },
+   "card": "説明"
   },
   {
    "id": "k4-b04x-明日-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**明日**、東京へ行きます。",
    "explain": "**明日** se lit あした ici ({明日|あした} : demain). « Demain, je vais à Tokyo. »",
    "type": "choice",
@@ -2178,11 +3494,17 @@
     "あした",
     "まいばん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{明日|あした}",
+    "kana": "あした",
+    "fr": "demain"
+   },
+   "card": "明日"
   },
   {
    "id": "k4-b04x-暗い-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "冬は五時ごろ**暗**くなります。",
    "explain": "**暗** se lit くら ici ({暗|くら}い : sombre). « En hiver, il fait nuit vers cinq heures. »",
    "type": "choice",
@@ -2192,11 +3514,17 @@
     "くら",
     "ある"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{暗|くら}い",
+    "kana": "くらい",
+    "fr": "sombre"
+   },
+   "card": "暗い"
   },
   {
    "id": "k4-b04x-春-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**春**はあたたかいです。",
    "explain": "**春** se lit はる ici ({春|はる} : printemps). « Le printemps est doux. »",
    "type": "choice",
@@ -2206,25 +3534,17 @@
     "うんどう",
     "はる"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b04x-春休み-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "**春休み**に国へ帰ります。",
-   "explain": "**春休み** se lit はるやすみ ici ({春休|はるやす}み : vacances de printemps). « Je rentre au pays pendant les vacances de printemps. »",
-   "type": "choice",
-   "choices": [
-    "なな",
-    "じゅうしょ",
-    "はるやすみ",
-    "じもと"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{春|はる}",
+    "kana": "はる",
+    "fr": "printemps"
+   },
+   "card": "春"
   },
   {
    "id": "k4-b04x-夏-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**夏**はぼうしをかぶります。",
    "explain": "**夏** se lit なつ ici ({夏|なつ} : été). « En été, je porte un chapeau. »",
    "type": "choice",
@@ -2234,11 +3554,17 @@
     "がくしゃ",
     "しょうせつ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{夏|なつ}",
+    "kana": "なつ",
+    "fr": "été"
+   },
+   "card": "夏"
   },
   {
    "id": "k4-b04x-夏休み-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**夏休み**はどこへ行きますか。",
    "explain": "**夏休み** se lit なつやすみ ici ({夏休|なつやす}み : vacances d'été). « Où vas-tu pendant les vacances d'été ? »",
    "type": "choice",
@@ -2248,11 +3574,17 @@
     "なつきゅうみ",
     "かやすみ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{夏休|なつやす}み",
+    "kana": "なつやすみ",
+    "fr": "vacances d'été"
+   },
+   "card": "夏休み"
   },
   {
    "id": "k4-b04x-秋-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**秋**は食べ物がおいしいです。",
    "explain": "**秋** se lit あき ici ({秋|あき} : automne). « En automne, la nourriture est délicieuse. »",
    "type": "choice",
@@ -2262,11 +3594,17 @@
     "あき",
     "ぎゅうにゅう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{秋|あき}",
+    "kana": "あき",
+    "fr": "automne"
+   },
+   "card": "秋"
   },
   {
    "id": "k4-b04x-冬-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "**冬**はとても寒いです。",
    "explain": "**冬** se lit ふゆ ici ({冬|ふゆ} : hiver). « L'hiver est très froid. »",
    "type": "choice",
@@ -2276,7 +3614,13 @@
     "かく",
     "えいご"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{冬|ふゆ}",
+    "kana": "ふゆ",
+    "fr": "hiver"
+   },
+   "card": "冬"
   }
  ]
 }

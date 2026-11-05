@@ -9,11 +9,14 @@ export const CONFIG = {
   gistFile: 'nihongo-kanji-progression.json',
   gistDescription: 'Progression nihongo-kanji (ne pas supprimer)',
   tokenName: 'nihongo-kanji',
+  appId: 'kanji', // nom de l'appli dans « Ma liste »
+  autoNext: 700, // ms : après une bonne réponse, passe seul à la question suivante
+  listeEnabled: true, // « Ma liste » : mots mis de côté, communs aux applis
 
   // Pédagogie
   lessonPass: 0.7, // score pour valider une leçon
   testPass: 0.8, // score pour valider un test ou un examen
-  lessonRecall: 5, // anciens exercices mélangés à chaque série de leçon
+  lessonRecall: 12, // anciens exercices mélangés à chaque série de leçon (18 nouveaux + 12 = 30)
   testSize: 30, // test de bloc
   miniExamSize: 40, // examen intermédiaire (2 blocs)
   examSize: 60, // grand examen (4 blocs)

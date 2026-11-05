@@ -3,11 +3,14 @@
 Appli web perso pour apprendre à **reconnaître, lire et choisir** les kanji (JLPT N5 et N4, puis N3), en français.
 Même moteur que [nihongo-grammaire](https://github.com/Sapeuri2/nihongo-grammaire) et [nihongo-vocabulaire](https://github.com/Sapeuri2/nihongo-vocabulaire) (voir [MOTEUR.md](MOTEUR.md)), thème vert.
 
-- Leçon (5 à 8 kanji : sens, lectures, mémo, mots d'exemple) → 16 exercices (+ 5 rappels) → test de bloc → examens.
+- Leçon (5 à 8 kanji : sens, lectures, mémo, mots et 3 phrases d'exemple par kanji) → 18 exercices (+ 12 rappels) → test de bloc → examens.
 - Exercices : kanji ↔ sens, kanji → lecture, lecture → bon mot, mot à compléter, lecture dans une phrase, intrus, sosies, on/kun.
 - La bulle des points clés ne contient **que les kanji que tu choisis** (voir « Ma bulle » plus bas). Vide par défaut.
 - Furigana sur le mot entier (`{日本|にほん}`) : toucher un mot affiche toute sa lecture.
 - Phrases : la traduction n'apparaît qu'après la réponse.
+- À partir du bloc 3 du N4 (bloc 9), les consignes des exercices sont en japonais (expliquées au début de la leçon 41). Les fiches restent en français.
+- Après une bonne réponse, la question suivante arrive seule (`autoNext: 700`).
+- « Ma liste » (📌, commune aux trois applis) : chaque exercice dit quel mot garder avec ☆ (champ `star`) et ce qu'il fait apprendre (champ `card`, pour la future révision par carte).
 - Furigana de moins en moins aidés : tous aux blocs 1-2, retirés sur les kanji acquis aux blocs 3-4, plus aucun sur le N5 aux blocs 5-6. Au N4, jamais de furigana sur les kanji du N5.
 - Progression synchronisée via un Gist privé (`nihongo-kanji-progression.json`), hors ligne, installable.
 

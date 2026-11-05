@@ -13,6 +13,20 @@
       "**On** : ゲツ、ガツ　**Kun** : つき",
       "Un croissant de lune."
      ],
+     "ex": [
+      {
+       "jp": "{来月|らいげつ}、{日本|にほん}へ{行|い}きます。",
+       "fr": "Le mois prochain, je vais au Japon."
+      },
+      {
+       "jp": "{月曜日|げつようび}から{金曜日|きんようび}まで{働|はたら}きます。",
+       "fr": "Je travaille du lundi au vendredi."
+      },
+      {
+       "jp": "{五月|ごがつ}{二日|ふつか}に{国|くに}へ{帰|かえ}ります。",
+       "fr": "Je rentre dans mon pays le 2 mai."
+      }
+     ],
      "vocab": [
       {
        "jp": "{月|つき}",
@@ -38,6 +52,12 @@
       "**On** : カ　**Kun** : ひ",
       "Des flammes qui jaillissent."
      ],
+     "ex": [
+      {
+       "jp": "{火曜日|かようび}は{日本語|にほんご}の{授業|じゅぎょう}があります。",
+       "fr": "Le mardi, j'ai cours de japonais."
+      }
+     ],
      "vocab": [
       {
        "jp": "{火|ひ}",
@@ -54,6 +74,16 @@
      "p": [
       "**On** : モク、ボク　**Kun** : き",
       "Un tronc, des branches et des racines."
+     ],
+     "ex": [
+      {
+       "jp": "にわに{木|き}が{三本|さんぼん}あります。",
+       "fr": "Il y a trois arbres dans le jardin."
+      },
+      {
+       "jp": "{木曜日|もくようび}に{図書館|としょかん}へ{行|い}きます。",
+       "fr": "Jeudi, je vais à la bibliothèque."
+      }
      ],
      "vocab": [
       {
@@ -72,6 +102,20 @@
       "**On** : キン、コン　**Kun** : かね",
       "Des pépites sous le toit d'une mine."
      ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}はお{金|かね}がありません。",
+       "fr": "Aujourd'hui, je n'ai pas d'argent."
+      },
+      {
+       "jp": "{月曜日|げつようび}から{金曜日|きんようび}まで{働|はたら}きます。",
+       "fr": "Je travaille du lundi au vendredi."
+      },
+      {
+       "jp": "さいふにお{金|かね}がありません。",
+       "fr": "Il n'y a pas d'argent dans mon porte-monnaie."
+      }
+     ],
      "vocab": [
       {
        "jp": "お{金|かね}",
@@ -88,6 +132,12 @@
      "p": [
       "**On** : ド、ト　**Kun** : つち",
       "Une motte de terre sur le sol."
+     ],
+     "ex": [
+      {
+       "jp": "{土曜日|どようび}は{家|いえ}でそうじします。",
+       "fr": "Le samedi, je fais le ménage à la maison."
+      }
      ],
      "vocab": [
       {
@@ -120,7 +170,13 @@
       "lune, mois",
       "mille"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "月",
+      "kana": "ゲツ、ガツ、つき",
+      "fr": "lune, mois"
+     },
+     "card": "月"
     },
     {
      "id": "k5-11-火-sens",
@@ -134,7 +190,13 @@
       "aller",
       "voiture, roue"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "火",
+      "kana": "カ、ひ",
+      "fr": "feu"
+     },
+     "card": "火"
     },
     {
      "id": "k5-11-木-sens",
@@ -148,7 +210,13 @@
       "or, argent",
       "terre, sol"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "木",
+      "kana": "モク、ボク、き",
+      "fr": "arbre, bois"
+     },
+     "card": "木"
     },
     {
      "id": "k5-11-金-sens",
@@ -162,7 +230,13 @@
       "petit",
       "boire"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "金",
+      "kana": "キン、コン、かね",
+      "fr": "or, argent"
+     },
+     "card": "金"
     },
     {
      "id": "k5-11-土-sens",
@@ -176,7 +250,13 @@
       "jour, soleil",
       "quoi, combien"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "土",
+      "kana": "ド、ト、つち",
+      "fr": "terre, sol"
+     },
+     "card": "土"
     },
     {
      "id": "k5-11-月-lecture",
@@ -189,7 +269,13 @@
       "くるま",
       "おとな"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{月|つき}",
+      "kana": "つき",
+      "fr": "lune"
+     },
+     "card": "月"
     },
     {
      "id": "k5-11-火-lecture",
@@ -202,7 +288,13 @@
       "ひ",
       "じかん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{火|ひ}",
+      "kana": "ひ",
+      "fr": "feu"
+     },
+     "card": "火"
     },
     {
      "id": "k5-11-木-lecture",
@@ -215,7 +307,13 @@
       "き",
       "いく"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{木|き}",
+      "kana": "き",
+      "fr": "arbre"
+     },
+     "card": "木"
     },
     {
      "id": "k5-11-お金-lecture",
@@ -228,7 +326,13 @@
       "おこん",
       "にほんじん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "お{金|かね}",
+      "kana": "おかね",
+      "fr": "argent"
+     },
+     "card": "お金"
     },
     {
      "id": "k5-11-土-lecture",
@@ -241,7 +345,13 @@
       "のみもの",
       "つち"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{土|つち}",
+      "kana": "つち",
+      "fr": "terre"
+     },
+     "card": "土"
     },
     {
      "id": "k5-11-月曜日-trou",
@@ -255,7 +365,13 @@
       "目",
       "月"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{月曜日|げつようび}",
+      "kana": "げつようび",
+      "fr": "lundi"
+     },
+     "card": "月曜日"
     },
     {
      "id": "k5-11-月曜日-phrase",
@@ -269,7 +385,13 @@
       "げつようひ",
       "げつようび"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{月曜日|げつようび}",
+      "kana": "げつようび",
+      "fr": "lundi"
+     },
+     "card": "月曜日"
     },
     {
      "id": "k5-11-月-kanji",
@@ -282,7 +404,13 @@
       "月",
       "二"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "月",
+      "kana": "ゲツ、ガツ、つき",
+      "fr": "lune, mois"
+     },
+     "card": "月"
     },
     {
      "id": "k5-11-月曜日-intrus",
@@ -295,7 +423,13 @@
       "木 → き",
       "木曜日 → もくようび"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{月曜日|げつようび}",
+      "kana": "げつようび",
+      "fr": "lundi"
+     },
+     "card": "月曜日"
     },
     {
      "id": "k5-11-火曜日-trou",
@@ -309,7 +443,13 @@
       "白",
       "火"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{火曜日|かようび}",
+      "kana": "かようび",
+      "fr": "mardi"
+     },
+     "card": "火曜日"
     },
     {
      "id": "k5-11-来月-phrase",
@@ -323,7 +463,52 @@
       "らいがつ",
       "らいつき"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{来月|らいげつ}",
+      "kana": "らいげつ",
+      "fr": "le mois prochain"
+     },
+     "card": "来月"
+    },
+    {
+     "id": "k5-11-火-kanji",
+     "q": "Quel kanji veut dire « feu » ?",
+     "explain": "**火** : feu. Des flammes qui jaillissent.",
+     "type": "choice",
+     "choices": [
+      "火",
+      "水",
+      "何",
+      "飯"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "火",
+      "kana": "カ、ひ",
+      "fr": "feu"
+     },
+     "card": "火"
+    },
+    {
+     "id": "k5-11-木曜日-trou",
+     "q": "Complète le mot **もくようび** (jeudi) :",
+     "jp": "木曜＿",
+     "explain": "{木曜日|もくようび} : jeudi.",
+     "type": "choice",
+     "choices": [
+      "日",
+      "目",
+      "生",
+      "白"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{木曜日|もくようび}",
+      "kana": "もくようび",
+      "fr": "jeudi"
+     },
+     "card": "木曜日"
     }
    ]
   },
@@ -336,6 +521,20 @@
      "p": [
       "**On** : ネン　**Kun** : とし",
       "Une gerbe de riz portée sur le dos : une récolte, une année."
+     ],
+     "ex": [
+      {
+       "jp": "{来年|らいねん}、{大学|だいがく}に{入|はい}ります。",
+       "fr": "L'année prochaine, j'entre à l'université."
+      },
+      {
+       "jp": "{今年|ことし}は{日本|にほん}へ{行|い}きたいです。",
+       "fr": "Cette année, je veux aller au Japon."
+      },
+      {
+       "jp": "{去年|きょねん}、{日本語|にほんご}の{勉強|べんきょう}を{始|はじ}めました。",
+       "fr": "J'ai commencé le japonais l'année dernière."
+      }
      ],
      "vocab": [
       {
@@ -357,6 +556,20 @@
      "p": [
       "**On** : フン、ブン　**Kun** : わ(かる)",
       "Un sabre 刀 qui coupe en deux 八."
+     ],
+     "ex": [
+      {
+       "jp": "{今|いま}、{何時|なんじ}{何分|なんぷん}ですか。",
+       "fr": "Quelle heure est-il, là ?"
+      },
+      {
+       "jp": "{今|いま}、{九時|くじ}{五分|ごふん}{前|まえ}です。",
+       "fr": "Il est neuf heures moins cinq."
+      },
+      {
+       "jp": "{駅|えき}まで{歩|ある}いて{五分|ごふん}です。",
+       "fr": "La gare est à cinq minutes à pied."
+      }
      ],
      "vocab": [
       {
@@ -383,6 +596,20 @@
       "**On** : カン　**Kun** : あいだ、ま",
       "Le soleil 日 vu à travers une porte 門 entrouverte."
      ],
+     "ex": [
+      {
+       "jp": "{毎晩|まいばん}{一時間|いちじかん}{日本語|にほんご}を{勉強|べんきょう}します。",
+       "fr": "J'étudie le japonais une heure tous les soirs."
+      },
+      {
+       "jp": "すみません、{今|いま}{時間|じかん}がありません。",
+       "fr": "Désolé, je n'ai pas le temps maintenant."
+      },
+      {
+       "jp": "{銀行|ぎんこう}と{病院|びょういん}の{間|あいだ}に{店|みせ}があります。",
+       "fr": "Il y a un magasin entre la banque et l'hôpital."
+      }
+     ],
      "vocab": [
       {
        "jp": "{間|あいだ}",
@@ -399,6 +626,16 @@
      "p": [
       "**On** : ハン　**Kun** : なか(ば)",
       "Un objet coupé pile au milieu par un trait vertical."
+     ],
+     "ex": [
+      {
+       "jp": "{学校|がっこう}は{八時半|はちじはん}に{始|はじ}まります。",
+       "fr": "L'école commence à huit heures et demie."
+      },
+      {
+       "jp": "{授業|じゅぎょう}は{九時半|くじはん}に{始|はじ}まります。",
+       "fr": "Le cours commence à neuf heures et demie."
+      }
      ],
      "vocab": [
       {
@@ -417,6 +654,20 @@
       "**On** : ゴ　**Kun** : —",
       "Presque 牛 (vache), mais sans la corne : le trait central ne dépasse pas."
      ],
+     "ex": [
+      {
+       "jp": "{銀行|ぎんこう}は{午前|ごぜん}{九時|くじ}からです。",
+       "fr": "La banque ouvre à neuf heures du matin."
+      },
+      {
+       "jp": "{水曜日|すいようび}の{午後|ごご}はひまです。",
+       "fr": "Le mercredi après-midi, je suis libre."
+      },
+      {
+       "jp": "{午後|ごご}は{図書館|としょかん}で{勉強|べんきょう}します。",
+       "fr": "L'après-midi, j'étudie à la bibliothèque."
+      }
+     ],
      "vocab": [
       {
        "jp": "{午前|ごぜん}",
@@ -433,6 +684,20 @@
      "p": [
       "**On** : ゼン　**Kun** : まえ",
       "Une barque 月 et un couteau 刂 : on avance en fendant l'eau."
+     ],
+     "ex": [
+      {
+       "jp": "{今|いま}、{九時|くじ}{五分|ごふん}{前|まえ}です。",
+       "fr": "Il est neuf heures moins cinq."
+      },
+      {
+       "jp": "{銀行|ぎんこう}は{午前|ごぜん}{九時|くじ}からです。",
+       "fr": "La banque ouvre à neuf heures du matin."
+      },
+      {
+       "jp": "{私|わたし}の{名前|なまえ}はマリーです。",
+       "fr": "Je m'appelle Marie."
+      }
      ],
      "vocab": [
       {
@@ -454,6 +719,20 @@
      "p": [
       "**On** : ゴ、コウ　**Kun** : うし(ろ)、あと、のち",
       "La clé du chemin 彳 : celui qui traîne derrière sur la route."
+     ],
+     "ex": [
+      {
+       "jp": "{田中|たなか}さんは{私|わたし}の{後|うし}ろにいます。",
+       "fr": "M. Tanaka est derrière moi."
+      },
+      {
+       "jp": "{水曜日|すいようび}の{午後|ごご}はひまです。",
+       "fr": "Le mercredi après-midi, je suis libre."
+      },
+      {
+       "jp": "{午後|ごご}は{図書館|としょかん}で{勉強|べんきょう}します。",
+       "fr": "L'après-midi, j'étudie à la bibliothèque."
+      }
      ],
      "vocab": [
       {
@@ -489,7 +768,13 @@
       "année",
       "midi"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "年",
+      "kana": "ネン、とし",
+      "fr": "année"
+     },
+     "card": "年"
     },
     {
      "id": "k5-12-分-sens",
@@ -503,7 +788,13 @@
       "voiture, roue",
       "minute, partager"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "分",
+      "kana": "フン、ブン、わ(かる)",
+      "fr": "minute, partager"
+     },
+     "card": "分"
     },
     {
      "id": "k5-12-間-sens",
@@ -517,7 +808,13 @@
       "dix",
       "intervalle, entre"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "間",
+      "kana": "カン、あいだ、ま",
+      "fr": "intervalle, entre"
+     },
+     "card": "間"
     },
     {
      "id": "k5-12-半-sens",
@@ -531,7 +828,13 @@
       "trois",
       "étudier"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "半",
+      "kana": "ハン、なか(ば)",
+      "fr": "moitié"
+     },
+     "card": "半"
     },
     {
      "id": "k5-12-午-sens",
@@ -545,7 +848,13 @@
       "manger",
       "personne"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "午",
+      "kana": "ゴ",
+      "fr": "midi"
+     },
+     "card": "午"
     },
     {
      "id": "k5-12-前-sens",
@@ -559,7 +868,13 @@
       "minute, partager",
       "or, argent"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "前",
+      "kana": "ゼン、まえ",
+      "fr": "avant, devant"
+     },
+     "card": "前"
     },
     {
      "id": "k5-12-後-sens",
@@ -573,7 +888,13 @@
       "acheter",
       "livre, origine"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "後",
+      "kana": "ゴ、コウ、うし(ろ)、あと、のち",
+      "fr": "après, derrière"
+     },
+     "card": "後"
     },
     {
      "id": "k5-12-来年-lecture",
@@ -586,7 +907,13 @@
       "らいねん",
       "らいとし"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{来年|らいねん}",
+      "kana": "らいねん",
+      "fr": "l'année prochaine"
+     },
+     "card": "来年"
     },
     {
      "id": "k5-12-分かる-lecture",
@@ -599,7 +926,13 @@
       "わかる",
       "はなみ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{分|わ}かる",
+      "kana": "わかる",
+      "fr": "comprendre"
+     },
+     "card": "分かる"
     },
     {
      "id": "k5-12-半-lecture",
@@ -612,7 +945,13 @@
       "にじゅう",
       "きく"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{半|はん}",
+      "kana": "はん",
+      "fr": "moitié, et demie"
+     },
+     "card": "半"
     },
     {
      "id": "k5-12-午前-lecture",
@@ -625,7 +964,13 @@
       "にじゅう",
       "ごまえ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{午前|ごぜん}",
+      "kana": "ごぜん",
+      "fr": "matin (avant midi)"
+     },
+     "card": "午前"
     },
     {
      "id": "k5-12-前-lecture",
@@ -638,7 +983,13 @@
       "おとな",
       "さくねん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{前|まえ}",
+      "kana": "まえ",
+      "fr": "devant, avant"
+     },
+     "card": "前"
     },
     {
      "id": "k5-12-後ろ-lecture",
@@ -651,7 +1002,13 @@
       "こうろ",
       "じゅうまん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{後|うし}ろ",
+      "kana": "うしろ",
+      "fr": "derrière"
+     },
+     "card": "後ろ"
     },
     {
      "id": "k5-12-来年-trou",
@@ -665,7 +1022,13 @@
       "年",
       "牛"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{来年|らいねん}",
+      "kana": "らいねん",
+      "fr": "l'année prochaine"
+     },
+     "card": "来年"
     },
     {
      "id": "k5-12-来年-phrase",
@@ -679,7 +1042,13 @@
       "さくねん",
       "らいねん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{来年|らいねん}",
+      "kana": "らいねん",
+      "fr": "l'année prochaine"
+     },
+     "card": "来年"
     },
     {
      "id": "k5-12-年-kanji",
@@ -692,7 +1061,51 @@
       "年",
       "牛"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "年",
+      "kana": "ネン、とし",
+      "fr": "année"
+     },
+     "card": "年"
+    },
+    {
+     "id": "k5-12-来年-intrus",
+     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "explain": "{来年|らいねん} se lit らいねん, pas くねん.",
+     "type": "choice",
+     "choices": [
+      "半 → はん",
+      "後ろ → うしろ",
+      "午前 → ごぜん",
+      "来年 → くねん"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{来年|らいねん}",
+      "kana": "らいねん",
+      "fr": "l'année prochaine"
+     },
+     "card": "来年"
+    },
+    {
+     "id": "k5-12-分かる-ecrit",
+     "q": "Quel mot s'écrit **わかる** (comprendre) ?",
+     "explain": "{分|わ}かる : comprendre.",
+     "type": "choice",
+     "choices": [
+      "先かる",
+      "六かる",
+      "分かる",
+      "買かる"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{分|わ}かる",
+      "kana": "わかる",
+      "fr": "comprendre"
+     },
+     "card": "分かる"
     }
    ]
   },
@@ -705,6 +1118,20 @@
      "p": [
       "**On** : チョウ　**Kun** : あさ",
       "Le soleil qui se lève entre les herbes, la lune 月 encore là."
+     ],
+     "ex": [
+      {
+       "jp": "{毎朝|まいあさ}{顔|かお}を{洗|あら}います。",
+       "fr": "Je me lave le visage tous les matins."
+      },
+      {
+       "jp": "{朝|あさ}ご{飯|はん}にたまごを{食|た}べました。",
+       "fr": "J'ai mangé un œuf au petit-déjeuner."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{六時|ろくじ}に{起|お}きます。",
+       "fr": "Je me lève à six heures tous les matins."
+      }
      ],
      "vocab": [
       {
@@ -731,6 +1158,20 @@
       "**On** : サク　**Kun** : —",
       "Le soleil 日 à gauche : un jour déjà parti. Se lit surtout dans {昨日|きのう}."
      ],
+     "ex": [
+      {
+       "jp": "{昨日|きのう}、{映画|えいが}を{見|み}ました。",
+       "fr": "Hier, j'ai vu un film."
+      },
+      {
+       "jp": "{昨日|きのう}は{天気|てんき}が{悪|わる}かったです。",
+       "fr": "Hier, il faisait mauvais."
+      },
+      {
+       "jp": "どうして{昨日|きのう}{来|き}ませんでしたか。",
+       "fr": "Pourquoi n'es-tu pas venu hier ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{昨日|きのう}",
@@ -748,6 +1189,20 @@
       "**On** : テン　**Kun** : あま、あめ",
       "Une personne 大 sous un trait : ce qui est au-dessus de sa tête."
      ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}はいい{天気|てんき}ですね。",
+       "fr": "Il fait beau aujourd'hui, hein."
+      },
+      {
+       "jp": "{明日|あした}の{天気|てんき}はどうですか。",
+       "fr": "Quel temps fera-t-il demain ?"
+      },
+      {
+       "jp": "{昨日|きのう}は{天気|てんき}が{悪|わる}かったです。",
+       "fr": "Hier, il faisait mauvais."
+      }
+     ],
      "vocab": [
       {
        "jp": "{天気|てんき}",
@@ -760,6 +1215,20 @@
      "p": [
       "**On** : キ、ケ　**Kun** : —",
       "De la vapeur qui monte d'une marmite de riz : une énergie invisible."
+     ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}はいい{天気|てんき}ですね。",
+       "fr": "Il fait beau aujourd'hui, hein."
+      },
+      {
+       "jp": "さようなら。お{元気|げんき}で。",
+       "fr": "Au revoir. Portez-vous bien."
+      },
+      {
+       "jp": "ねるまえに{電気|でんき}を{消|け}します。",
+       "fr": "J'éteins la lumière avant de dormir."
+      }
      ],
      "vocab": [
       {
@@ -786,6 +1255,20 @@
       "**On** : ウ　**Kun** : あめ",
       "Des gouttes qui tombent derrière une fenêtre."
      ],
+     "ex": [
+      {
+       "jp": "{雨|あめ}が{降|ふ}っています。",
+       "fr": "Il pleut (en ce moment)."
+      },
+      {
+       "jp": "あしたは{雨|あめ}でしょう。",
+       "fr": "Demain, il pleuvra probablement."
+      },
+      {
+       "jp": "{雨|あめ}なので、{出|で}かけません。",
+       "fr": "Comme il pleut, je ne sors pas."
+      }
+     ],
      "vocab": [
       {
        "jp": "{雨|あめ}",
@@ -810,7 +1293,13 @@
       "pluie",
       "riz cuit, repas"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "朝",
+      "kana": "チョウ、あさ",
+      "fr": "matin"
+     },
+     "card": "朝"
     },
     {
      "id": "k5-13-昨-sens",
@@ -824,7 +1313,13 @@
       "dix",
       "passé, dernier"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "昨",
+      "kana": "サク",
+      "fr": "passé, dernier"
+     },
+     "card": "昨"
     },
     {
      "id": "k5-13-天-sens",
@@ -838,7 +1333,13 @@
       "ami",
       "ciel"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "天",
+      "kana": "テン、あま、あめ",
+      "fr": "ciel"
+     },
+     "card": "天"
     },
     {
      "id": "k5-13-気-sens",
@@ -852,7 +1353,13 @@
       "école",
       "entendre, écouter"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "気",
+      "kana": "キ、ケ",
+      "fr": "esprit, énergie"
+     },
+     "card": "気"
     },
     {
      "id": "k5-13-雨-sens",
@@ -866,7 +1373,13 @@
       "venir",
       "chaque"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "雨",
+      "kana": "ウ、あめ",
+      "fr": "pluie"
+     },
+     "card": "雨"
     },
     {
      "id": "k5-13-朝-lecture",
@@ -879,7 +1392,13 @@
       "ちいさい",
       "あさ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{朝|あさ}",
+      "kana": "あさ",
+      "fr": "matin"
+     },
+     "card": "朝"
     },
     {
      "id": "k5-13-昨日-lecture",
@@ -892,7 +1411,13 @@
       "げんき",
       "でんわ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{昨日|きのう}",
+      "kana": "きのう",
+      "fr": "hier"
+     },
+     "card": "昨日"
     },
     {
      "id": "k5-13-天気-lecture",
@@ -905,7 +1430,13 @@
       "てんけ",
       "てんき"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{天気|てんき}",
+      "kana": "てんき",
+      "fr": "temps (météo)"
+     },
+     "card": "天気"
     },
     {
      "id": "k5-13-雨-lecture",
@@ -918,7 +1449,13 @@
       "ごふん",
       "おとな"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{雨|あめ}",
+      "kana": "あめ",
+      "fr": "pluie"
+     },
+     "card": "雨"
     },
     {
      "id": "k5-13-朝ご飯-trou",
@@ -932,7 +1469,13 @@
       "食",
       "飯"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{朝|あさ}ご{飯|はん}",
+      "kana": "あさごはん",
+      "fr": "petit déjeuner"
+     },
+     "card": "朝ご飯"
     },
     {
      "id": "k5-13-朝-phrase",
@@ -946,7 +1489,13 @@
       "みる",
       "くるま"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{朝|あさ}",
+      "kana": "あさ",
+      "fr": "matin"
+     },
+     "card": "朝"
     },
     {
      "id": "k5-13-朝-kanji",
@@ -959,7 +1508,13 @@
       "月",
       "朝"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "朝",
+      "kana": "チョウ、あさ",
+      "fr": "matin"
+     },
+     "card": "朝"
     },
     {
      "id": "k5-13-朝ご飯-intrus",
@@ -972,7 +1527,13 @@
       "病気 → びょうき",
       "天気 → てんき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{朝|あさ}ご{飯|はん}",
+      "kana": "あさごはん",
+      "fr": "petit déjeuner"
+     },
+     "card": "朝ご飯"
     },
     {
      "id": "k5-13-昨年-trou",
@@ -986,7 +1547,13 @@
       "上",
       "年"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{昨年|さくねん}",
+      "kana": "さくねん",
+      "fr": "l'an dernier (soutenu)"
+     },
+     "card": "昨年"
     },
     {
      "id": "k5-13-朝ご飯-phrase",
@@ -1000,7 +1567,13 @@
       "くるま",
       "あさごはん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{朝|あさ}ご{飯|はん}",
+      "kana": "あさごはん",
+      "fr": "petit déjeuner"
+     },
+     "card": "朝ご飯"
     },
     {
      "id": "k5-13-昨-kanji",
@@ -1013,7 +1586,53 @@
       "百",
       "昨"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "昨",
+      "kana": "サク",
+      "fr": "passé, dernier"
+     },
+     "card": "昨"
+    },
+    {
+     "id": "k5-13-天気-trou",
+     "q": "Complète le mot **てんき** (temps (météo)) :",
+     "jp": "天＿",
+     "explain": "{天気|てんき} : temps (météo).",
+     "type": "choice",
+     "choices": [
+      "昨",
+      "四",
+      "十",
+      "気"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{天気|てんき}",
+      "kana": "てんき",
+      "fr": "temps (météo)"
+     },
+     "card": "天気"
+    },
+    {
+     "id": "k5-13-毎朝-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**毎朝**コーヒーを飲みます。",
+     "explain": "**毎朝** se lit まいあさ ici ({毎朝|まいあさ} : tous les matins). « Je bois du café tous les matins. »",
+     "type": "choice",
+     "choices": [
+      "ひとつ",
+      "てんき",
+      "ここのつ",
+      "まいあさ"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{毎朝|まいあさ}",
+      "kana": "まいあさ",
+      "fr": "tous les matins"
+     },
+     "card": "毎朝"
     }
    ]
   },
@@ -1026,6 +1645,20 @@
      "p": [
       "**On** : トウ　**Kun** : ひがし",
       "Le soleil 日 qui se lève derrière un arbre 木."
+     ],
+     "ex": [
+      {
+       "jp": "{東京|とうきょう}は{大|おお}きい{町|まち}です。",
+       "fr": "Tokyo est une grande ville."
+      },
+      {
+       "jp": "{東京|とうきょう}は{人|ひと}が{多|おお}いです。",
+       "fr": "À Tokyo, il y a beaucoup de monde."
+      },
+      {
+       "jp": "{明日|あした}、{東京|とうきょう}へ{行|い}きます。",
+       "fr": "Demain, je vais à Tokyo."
+      }
      ],
      "vocab": [
       {
@@ -1044,6 +1677,12 @@
       "**On** : セイ、サイ　**Kun** : にし",
       "Un oiseau qui rentre au nid quand le soleil se couche à l'ouest."
      ],
+     "ex": [
+      {
+       "jp": "{大阪|おおさか}は{東京|とうきょう}の{西|にし}にあります。",
+       "fr": "Osaka se trouve à l'ouest de Tokyo."
+      }
+     ],
      "vocab": [
       {
        "jp": "{西|にし}",
@@ -1056,6 +1695,12 @@
      "p": [
       "**On** : ナン　**Kun** : みなみ",
       "Une tente chauffée par le soleil du sud."
+     ],
+     "ex": [
+      {
+       "jp": "{駅|えき}の{南口|みなみぐち}で{待|ま}っています。",
+       "fr": "Je t'attends à la sortie sud de la gare."
+      }
      ],
      "vocab": [
       {
@@ -1070,6 +1715,12 @@
       "**On** : ホク　**Kun** : きた",
       "Deux personnes dos à dos, tournant le dos au vent du nord."
      ],
+     "ex": [
+      {
+       "jp": "{北海道|ほっかいどう}は{日本|にほん}の{北|きた}にあります。",
+       "fr": "Hokkaidō se trouve au nord du Japon."
+      }
+     ],
      "vocab": [
       {
        "jp": "{北|きた}",
@@ -1083,6 +1734,12 @@
       "**On** : ウ、ユウ　**Kun** : みぎ",
       "Une main et une bouche 口 : la main avec laquelle on mange."
      ],
+     "ex": [
+      {
+       "jp": "{銀行|ぎんこう}は{駅|えき}を{出|で}て{右|みぎ}です。",
+       "fr": "La banque est à droite en sortant de la gare."
+      }
+     ],
      "vocab": [
       {
        "jp": "{右|みぎ}",
@@ -1095,6 +1752,12 @@
      "p": [
       "**On** : サ　**Kun** : ひだり",
       "Une main et une équerre 工 : l'autre main tient l'outil."
+     ],
+     "ex": [
+      {
+       "jp": "{写真|しゃしん}の{左|ひだり}の{人|ひと}は{父|ちち}です。",
+       "fr": "La personne à gauche sur la photo, c'est mon père."
+      }
      ],
      "vocab": [
       {
@@ -1123,7 +1786,13 @@
       "avant, précédent",
       "matin"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "東",
+      "kana": "トウ、ひがし",
+      "fr": "est"
+     },
+     "card": "東"
     },
     {
      "id": "k5-14-西-sens",
@@ -1137,7 +1806,13 @@
       "ouest",
       "gare"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "西",
+      "kana": "セイ、サイ、にし",
+      "fr": "ouest"
+     },
+     "card": "西"
     },
     {
      "id": "k5-14-南-sens",
@@ -1151,7 +1826,13 @@
       "arbre, bois",
       "nom"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "南",
+      "kana": "ナン、みなみ",
+      "fr": "sud"
+     },
+     "card": "南"
     },
     {
      "id": "k5-14-北-sens",
@@ -1165,7 +1846,13 @@
       "quatre",
       "maintenant"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "北",
+      "kana": "ホク、きた",
+      "fr": "nord"
+     },
+     "card": "北"
     },
     {
      "id": "k5-14-右-sens",
@@ -1179,7 +1866,13 @@
       "minute, partager",
       "riz cuit, repas"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "右",
+      "kana": "ウ、ユウ、みぎ",
+      "fr": "droite"
+     },
+     "card": "右"
     },
     {
      "id": "k5-14-左-sens",
@@ -1193,7 +1886,13 @@
       "matin",
       "moitié"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "左",
+      "kana": "サ、ひだり",
+      "fr": "gauche"
+     },
+     "card": "左"
     },
     {
      "id": "k5-14-東-lecture",
@@ -1206,7 +1905,13 @@
       "ひがし",
       "あいだ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{東|ひがし}",
+      "kana": "ひがし",
+      "fr": "est"
+     },
+     "card": "東"
     },
     {
      "id": "k5-14-西-lecture",
@@ -1219,7 +1924,13 @@
       "ななつ",
       "がくせい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{西|にし}",
+      "kana": "にし",
+      "fr": "ouest"
+     },
+     "card": "西"
     },
     {
      "id": "k5-14-南-lecture",
@@ -1232,7 +1943,13 @@
       "とうきょう",
       "いちまん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{南|みなみ}",
+      "kana": "みなみ",
+      "fr": "sud"
+     },
+     "card": "南"
     },
     {
      "id": "k5-14-北-lecture",
@@ -1245,7 +1962,13 @@
       "なんじ",
       "なに"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{北|きた}",
+      "kana": "きた",
+      "fr": "nord"
+     },
+     "card": "北"
     },
     {
      "id": "k5-14-右-lecture",
@@ -1258,7 +1981,13 @@
       "なに",
       "みぎ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{右|みぎ}",
+      "kana": "みぎ",
+      "fr": "droite"
+     },
+     "card": "右"
     },
     {
      "id": "k5-14-左-lecture",
@@ -1271,7 +2000,13 @@
       "くがつ",
       "とうきょう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{左|ひだり}",
+      "kana": "ひだり",
+      "fr": "gauche"
+     },
+     "card": "左"
     },
     {
      "id": "k5-14-東京-trou",
@@ -1285,7 +2020,13 @@
       "京",
       "飲"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{東京|とうきょう}",
+      "kana": "とうきょう",
+      "fr": "Tokyo"
+     },
+     "card": "東京"
     },
     {
      "id": "k5-14-東-phrase",
@@ -1299,7 +2040,13 @@
       "ほんだな",
       "としょかん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{東|ひがし}",
+      "kana": "ひがし",
+      "fr": "est"
+     },
+     "card": "東"
     },
     {
      "id": "k5-14-東-kanji",
@@ -1312,7 +2059,13 @@
       "車",
       "東"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "東",
+      "kana": "トウ、ひがし",
+      "fr": "est"
+     },
+     "card": "東"
     },
     {
      "id": "k5-14-東京-intrus",
@@ -1325,7 +2078,52 @@
       "東 → ひがし",
       "西 → にし"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{東京|とうきょう}",
+      "kana": "とうきょう",
+      "fr": "Tokyo"
+     },
+     "card": "東京"
+    },
+    {
+     "id": "k5-14-東京-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "{兄|あに}の{会社|かいしゃ}は**東京**にあります。",
+     "explain": "**東京** se lit とうきょう ici ({東京|とうきょう} : Tokyo). « L'entreprise de mon grand frère est à Tokyo. »",
+     "type": "choice",
+     "choices": [
+      "こうこう",
+      "たべる",
+      "ちゅうがくせい",
+      "とうきょう"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{東京|とうきょう}",
+      "kana": "とうきょう",
+      "fr": "Tokyo"
+     },
+     "card": "東京"
+    },
+    {
+     "id": "k5-14-西-kanji",
+     "q": "Quel kanji veut dire « ouest » ?",
+     "explain": "**西** : ouest. Un oiseau qui rentre au nid quand le soleil se couche à l'ouest.",
+     "type": "choice",
+     "choices": [
+      "何",
+      "西",
+      "四",
+      "行"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "西",
+      "kana": "セイ、サイ、にし",
+      "fr": "ouest"
+     },
+     "card": "西"
     }
    ]
   },
@@ -1338,6 +2136,20 @@
      "p": [
       "**On** : サン　**Kun** : やま",
       "Trois sommets."
+     ],
+     "ex": [
+      {
+       "jp": "{山田|やまだ}さんは{日本人|にほんじん}です。",
+       "fr": "Mme Yamada est japonaise."
+      },
+      {
+       "jp": "{山田|やまだ}さんは{何人|なにじん}ですか。",
+       "fr": "De quelle nationalité est Mme Yamada ?"
+      },
+      {
+       "jp": "あの{女|おんな}の{人|ひと}は{山田|やまだ}さんです。",
+       "fr": "Cette femme, c'est Mme Yamada."
+      }
      ],
      "vocab": [
       {
@@ -1356,6 +2168,7 @@
       "**On** : セン　**Kun** : かわ",
       "Trois filets d'eau qui coulent."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{川|かわ}",
@@ -1368,6 +2181,20 @@
      "p": [
       "**On** : ドウ　**Kun** : みち",
       "La tête 首 sur la clé de la marche 辶 : suivre sa route."
+     ],
+     "ex": [
+      {
+       "jp": "{北海道|ほっかいどう}は{日本|にほん}の{北|きた}にあります。",
+       "fr": "Hokkaidō se trouve au nord du Japon."
+      },
+      {
+       "jp": "この{道|みち}をまっすぐ{行|い}ってください。",
+       "fr": "Allez tout droit dans cette rue."
+      },
+      {
+       "jp": "タクシーの{運転手|うんてんしゅ}に{道|みち}を{聞|き}きました。",
+       "fr": "J'ai demandé le chemin au chauffeur de taxi."
+      }
      ],
      "vocab": [
       {
@@ -1386,6 +2213,7 @@
       "**On** : カ　**Kun** : はな",
       "La clé des herbes en haut : une plante qui change 化."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{花|はな}",
@@ -1402,6 +2230,12 @@
      "p": [
       "**On** : クウ　**Kun** : そら、あ(く)",
       "Un trou 穴 sur un outil 工 : un espace vide."
+     ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{空|そら}が{青|あお}いです。",
+       "fr": "Aujourd'hui, le ciel est bleu."
+      }
      ],
      "vocab": [
       {
@@ -1432,7 +2266,13 @@
       "droite",
       "pluie"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "山",
+      "kana": "サン、やま",
+      "fr": "montagne"
+     },
+     "card": "山"
     },
     {
      "id": "k5-15-川-sens",
@@ -1446,7 +2286,13 @@
       "haut, sur",
       "après, derrière"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "川",
+      "kana": "セン、かわ",
+      "fr": "rivière"
+     },
+     "card": "川"
     },
     {
      "id": "k5-15-道-sens",
@@ -1460,7 +2306,13 @@
       "chemin, route",
       "venir"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "道",
+      "kana": "ドウ、みち",
+      "fr": "chemin, route"
+     },
+     "card": "道"
     },
     {
      "id": "k5-15-花-sens",
@@ -1474,7 +2326,13 @@
       "cinq",
       "eau"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "花",
+      "kana": "カ、はな",
+      "fr": "fleur"
+     },
+     "card": "花"
     },
     {
      "id": "k5-15-空-sens",
@@ -1488,7 +2346,13 @@
       "minute, partager",
       "ciel, vide"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "空",
+      "kana": "クウ、そら、あ(く)",
+      "fr": "ciel, vide"
+     },
+     "card": "空"
     },
     {
      "id": "k5-15-山-lecture",
@@ -1501,7 +2365,13 @@
       "ゆうじん",
       "はんぶん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{山|やま}",
+      "kana": "やま",
+      "fr": "montagne"
+     },
+     "card": "山"
     },
     {
      "id": "k5-15-川-lecture",
@@ -1514,7 +2384,13 @@
       "がくせい",
       "よっつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{川|かわ}",
+      "kana": "かわ",
+      "fr": "rivière"
+     },
+     "card": "川"
     },
     {
      "id": "k5-15-道-lecture",
@@ -1527,7 +2403,13 @@
       "ごがつ",
       "げんき"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{道|みち}",
+      "kana": "みち",
+      "fr": "chemin, route"
+     },
+     "card": "道"
     },
     {
      "id": "k5-15-花-lecture",
@@ -1540,7 +2422,13 @@
       "いく",
       "つき"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{花|はな}",
+      "kana": "はな",
+      "fr": "fleur"
+     },
+     "card": "花"
     },
     {
      "id": "k5-15-空-lecture",
@@ -1553,7 +2441,13 @@
       "そら",
       "でんしゃ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{空|そら}",
+      "kana": "そら",
+      "fr": "ciel"
+     },
+     "card": "空"
     },
     {
      "id": "k5-15-富士山-trou",
@@ -1567,7 +2461,13 @@
       "水",
       "出"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{富士山|ふじさん}",
+      "kana": "ふじさん",
+      "fr": "mont Fuji"
+     },
+     "card": "富士山"
     },
     {
      "id": "k5-15-山-phrase",
@@ -1581,7 +2481,13 @@
       "やま",
       "いつつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{山|やま}",
+      "kana": "やま",
+      "fr": "montagne"
+     },
+     "card": "山"
     },
     {
      "id": "k5-15-山-kanji",
@@ -1594,7 +2500,13 @@
       "出",
       "山"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "山",
+      "kana": "サン、やま",
+      "fr": "montagne"
+     },
+     "card": "山"
     },
     {
      "id": "k5-15-富士山-intrus",
@@ -1607,7 +2519,13 @@
       "山 → やま",
       "北海道 → ほっかいどう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{富士山|ふじさん}",
+      "kana": "ふじさん",
+      "fr": "mont Fuji"
+     },
+     "card": "富士山"
     },
     {
      "id": "k5-15-北海道-trou",
@@ -1621,7 +2539,13 @@
       "半",
       "四"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{北海道|ほっかいどう}",
+      "kana": "ほっかいどう",
+      "fr": "Hokkaidō"
+     },
+     "card": "北海道"
     },
     {
      "id": "k5-15-道-phrase",
@@ -1635,7 +2559,52 @@
       "ほんだな",
       "ごはん"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{道|みち}",
+      "kana": "みち",
+      "fr": "chemin, route"
+     },
+     "card": "道"
+    },
+    {
+     "id": "k5-15-川-kanji",
+     "q": "Quel kanji veut dire « rivière » ?",
+     "explain": "**川** : rivière. Trois filets d'eau qui coulent.",
+     "type": "choice",
+     "choices": [
+      "三",
+      "川",
+      "日",
+      "本"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "川",
+      "kana": "セン、かわ",
+      "fr": "rivière"
+     },
+     "card": "川"
+    },
+    {
+     "id": "k5-15-花見-trou",
+     "q": "Complète le mot **はなみ** (contemplation des cerisiers) :",
+     "jp": "花＿",
+     "explain": "{花見|はなみ} : contemplation des cerisiers.",
+     "type": "choice",
+     "choices": [
+      "見",
+      "上",
+      "友",
+      "貝"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "{花見|はなみ}",
+      "kana": "はなみ",
+      "fr": "contemplation des cerisiers"
+     },
+     "card": "花見"
     }
    ]
   }
@@ -1652,7 +2621,13 @@
     "ひとがつ",
     "ひゃく"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{一月|いちがつ}",
+    "kana": "いちがつ",
+    "fr": "janvier"
+   },
+   "card": "一月"
   },
   {
    "id": "k5-b03-火曜日-lecture",
@@ -1665,7 +2640,13 @@
     "ひようび",
     "かようひ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{火曜日|かようび}",
+    "kana": "かようび",
+    "fr": "mardi"
+   },
+   "card": "火曜日"
   },
   {
    "id": "k5-b03-木曜日-lecture",
@@ -1678,7 +2659,13 @@
     "もくようび",
     "もくようにち"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{木曜日|もくようび}",
+    "kana": "もくようび",
+    "fr": "jeudi"
+   },
+   "card": "木曜日"
   },
   {
    "id": "k5-b03-お金-ecrit",
@@ -1691,7 +2678,13 @@
     "お名",
     "お金"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "お{金|かね}",
+    "kana": "おかね",
+    "fr": "argent"
+   },
+   "card": "お金"
   },
   {
    "id": "k5-b03-金曜日-lecture",
@@ -1704,7 +2697,13 @@
     "きんようか",
     "こんようび"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{金曜日|きんようび}",
+    "kana": "きんようび",
+    "fr": "vendredi"
+   },
+   "card": "金曜日"
   },
   {
    "id": "k5-b03-土曜日-lecture",
@@ -1717,7 +2716,13 @@
     "みる",
     "どようか"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{土曜日|どようび}",
+    "kana": "どようび",
+    "fr": "samedi"
+   },
+   "card": "土曜日"
   },
   {
    "id": "k5-b03-今年-lecture",
@@ -1730,7 +2735,13 @@
     "ことし",
     "ひこうき"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{今年|ことし}",
+    "kana": "ことし",
+    "fr": "cette année"
+   },
+   "card": "今年"
   },
   {
    "id": "k5-b03-去年-lecture",
@@ -1743,20 +2754,13 @@
     "きょねん",
     "きょとし"
    ],
-   "a": 2
-  },
-  {
-   "id": "k5-b03-分かる-ecrit",
-   "q": "Quel mot s'écrit **わかる** (comprendre) ?",
-   "explain": "{分|わ}かる : comprendre.",
-   "type": "choice",
-   "choices": [
-    "今かる",
-    "分かる",
-    "一かる",
-    "行かる"
-   ],
-   "a": 1
+   "a": 2,
+   "star": {
+    "jp": "{去年|きょねん}",
+    "kana": "きょねん",
+    "fr": "l'année dernière"
+   },
+   "card": "去年"
   },
   {
    "id": "k5-b03-何分-lecture",
@@ -1769,7 +2773,13 @@
     "さんぷん",
     "なんぷん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{何分|なんぷん}",
+    "kana": "なんぷん",
+    "fr": "combien de minutes"
+   },
+   "card": "何分"
   },
   {
    "id": "k5-b03-三分-lecture",
@@ -1782,7 +2792,13 @@
     "てんき",
     "さんふん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{三分|さんぷん}",
+    "kana": "さんぷん",
+    "fr": "trois minutes"
+   },
+   "card": "三分"
   },
   {
    "id": "k5-b03-五分-lecture",
@@ -1795,7 +2811,13 @@
     "なか",
     "ごふん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{五分|ごふん}",
+    "kana": "ごふん",
+    "fr": "cinq minutes"
+   },
+   "card": "五分"
   },
   {
    "id": "k5-b03-時間-ecrit",
@@ -1808,7 +2830,13 @@
     "金間",
     "朝間"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{時間|じかん}",
+    "kana": "じかん",
+    "fr": "temps, durée"
+   },
+   "card": "時間"
   },
   {
    "id": "k5-b03-半分-lecture",
@@ -1821,7 +2849,13 @@
     "はんふん",
     "はんぶん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{半分|はんぶん}",
+    "kana": "はんぶん",
+    "fr": "la moitié"
+   },
+   "card": "半分"
   },
   {
    "id": "k5-b03-午前-ecrit",
@@ -1834,7 +2868,13 @@
     "飯前",
     "来前"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{午前|ごぜん}",
+    "kana": "ごぜん",
+    "fr": "matin (avant midi)"
+   },
+   "card": "午前"
   },
   {
    "id": "k5-b03-午後-lecture",
@@ -1847,7 +2887,13 @@
     "ごうし",
     "ごご"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{午後|ごご}",
+    "kana": "ごご",
+    "fr": "après-midi"
+   },
+   "card": "午後"
   },
   {
    "id": "k5-b03-前-ecrit",
@@ -1860,7 +2906,13 @@
     "年",
     "見"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{前|まえ}",
+    "kana": "まえ",
+    "fr": "devant, avant"
+   },
+   "card": "前"
   },
   {
    "id": "k5-b03-後ろ-ecrit",
@@ -1873,7 +2925,13 @@
     "後ろ",
     "右ろ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{後|うし}ろ",
+    "kana": "うしろ",
+    "fr": "derrière"
+   },
+   "card": "後ろ"
   },
   {
    "id": "k5-b03-朝-ecrit",
@@ -1886,7 +2944,13 @@
     "週",
     "買"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{朝|あさ}",
+    "kana": "あさ",
+    "fr": "matin"
+   },
+   "card": "朝"
   },
   {
    "id": "k5-b03-毎朝-lecture",
@@ -1899,7 +2963,13 @@
     "さんぷん",
     "ひこうき"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{毎朝|まいあさ}",
+    "kana": "まいあさ",
+    "fr": "tous les matins"
+   },
+   "card": "毎朝"
   },
   {
    "id": "k5-b03-今朝-lecture",
@@ -1912,7 +2982,13 @@
     "けさ",
     "はんぶん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{今朝|けさ}",
+    "kana": "けさ",
+    "fr": "ce matin"
+   },
+   "card": "今朝"
   },
   {
    "id": "k5-b03-昨年-lecture",
@@ -1925,20 +3001,13 @@
     "へた",
     "さくねん"
    ],
-   "a": 3
-  },
-  {
-   "id": "k5-b03-天気-ecrit",
-   "q": "Quel mot s'écrit **てんき** (temps (météo)) ?",
-   "explain": "{天気|てんき} : temps (météo).",
-   "type": "choice",
-   "choices": [
-    "飲気",
-    "大気",
-    "天気",
-    "夫気"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{昨年|さくねん}",
+    "kana": "さくねん",
+    "fr": "l'an dernier (soutenu)"
+   },
+   "card": "昨年"
   },
   {
    "id": "k5-b03-元気-lecture",
@@ -1951,7 +3020,51 @@
     "げんけ",
     "げんき"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{元気|げんき}",
+    "kana": "げんき",
+    "fr": "en forme"
+   },
+   "card": "元気"
+  },
+  {
+   "id": "k5-b03-電気-lecture",
+   "q": "Comment se lit **電気** ?",
+   "explain": "{電気|でんき} : électricité, lumière.",
+   "type": "choice",
+   "choices": [
+    "でんけ",
+    "でんき",
+    "にじゅう",
+    "ここのつ"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{電気|でんき}",
+    "kana": "でんき",
+    "fr": "électricité, lumière"
+   },
+   "card": "電気"
+  },
+  {
+   "id": "k5-b03-病気-lecture",
+   "q": "Comment se lit **病気** ?",
+   "explain": "{病気|びょうき} : maladie.",
+   "type": "choice",
+   "choices": [
+    "らいねん",
+    "びょうき",
+    "びょうけ",
+    "やまいき"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{病気|びょうき}",
+    "kana": "びょうき",
+    "fr": "maladie"
+   },
+   "card": "病気"
   },
   {
    "id": "k5-b03-火曜日-phrase",
@@ -1965,7 +3078,13 @@
     "かようひ",
     "かようか"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{火曜日|かようび}",
+    "kana": "かようび",
+    "fr": "mardi"
+   },
+   "card": "火曜日"
   },
   {
    "id": "k5-b03-木曜日-phrase",
@@ -1979,7 +3098,13 @@
     "もくようび",
     "ぼくようび"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{木曜日|もくようび}",
+    "kana": "もくようび",
+    "fr": "jeudi"
+   },
+   "card": "木曜日"
   },
   {
    "id": "k5-b03-お金-phrase",
@@ -1993,7 +3118,13 @@
     "げんき",
     "おかね"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "お{金|かね}",
+    "kana": "おかね",
+    "fr": "argent"
+   },
+   "card": "お金"
   },
   {
    "id": "k5-b03-金曜日-phrase",
@@ -2007,7 +3138,13 @@
     "きんようび",
     "こんようび"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{金曜日|きんようび}",
+    "kana": "きんようび",
+    "fr": "vendredi"
+   },
+   "card": "金曜日"
   },
   {
    "id": "k5-b03-土曜日-phrase",
@@ -2021,7 +3158,13 @@
     "どようか",
     "どようび"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{土曜日|どようび}",
+    "kana": "どようび",
+    "fr": "samedi"
+   },
+   "card": "土曜日"
   },
   {
    "id": "k5-b03-分かる-phrase",
@@ -2035,7 +3178,13 @@
     "みか",
     "わか"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{分|わ}かる",
+    "kana": "わかる",
+    "fr": "comprendre"
+   },
+   "card": "分かる"
   }
  ],
  "examTest": []

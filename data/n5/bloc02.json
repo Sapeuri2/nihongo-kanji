@@ -13,6 +13,20 @@
       "**On** : セン　**Kun** : さき",
       "Un pied posé devant une personne 儿 : celui qui marche en tête."
      ],
+     "ex": [
+      {
+       "jp": "あの{人|ひと}は{先生|せんせい}です。",
+       "fr": "Cette personne là-bas est professeur."
+      },
+      {
+       "jp": "{先週|せんしゅう}、{国|くに}へ{帰|かえ}りました。",
+       "fr": "La semaine dernière, je suis rentré dans mon pays."
+      },
+      {
+       "jp": "{先月|せんげつ}、{新|あたら}しいカメラを{買|か}いました。",
+       "fr": "Le mois dernier, j'ai acheté un nouvel appareil photo."
+      }
+     ],
      "vocab": [
       {
        "jp": "{先生|せんせい}",
@@ -33,6 +47,20 @@
      "p": [
       "**On** : セイ、ショウ　**Kun** : い(きる)、う(まれる)、なま",
       "Une pousse qui sort de terre."
+     ],
+     "ex": [
+      {
+       "jp": "{私|わたし}は{学生|がくせい}です。",
+       "fr": "Je suis étudiant(e)."
+      },
+      {
+       "jp": "あの{人|ひと}は{先生|せんせい}です。",
+       "fr": "Cette personne là-bas est professeur."
+      },
+      {
+       "jp": "{田中|たなか}さんは{大学生|だいがくせい}です。",
+       "fr": "M. Tanaka est étudiant."
+      }
      ],
      "vocab": [
       {
@@ -59,6 +87,20 @@
       "**On** : ガク　**Kun** : まな(ぶ)",
       "Un enfant 子 sous un toit : il est à l'école."
      ],
+     "ex": [
+      {
+       "jp": "{私|わたし}は{学生|がくせい}です。",
+       "fr": "Je suis étudiant(e)."
+      },
+      {
+       "jp": "{学校|がっこう}に{行|い}きます。",
+       "fr": "Je vais à l'école."
+      },
+      {
+       "jp": "{来年|らいねん}、{大学|だいがく}に{入|はい}ります。",
+       "fr": "L'année prochaine, j'entre à l'université."
+      }
+     ],
      "vocab": [
       {
        "jp": "{学生|がくせい}",
@@ -79,6 +121,20 @@
      "p": [
       "**On** : コウ　**Kun** : —",
       "L'arbre 木 à gauche : l'école autrefois en bois."
+     ],
+     "ex": [
+      {
+       "jp": "{学校|がっこう}に{行|い}きます。",
+       "fr": "Je vais à l'école."
+      },
+      {
+       "jp": "{弟|おとうと}は{高校生|こうこうせい}です。",
+       "fr": "Mon petit frère est lycéen."
+      },
+      {
+       "jp": "{弟|おとうと}は{高校生|こうこうせい}で、サッカーが{好|す}きです。",
+       "fr": "Mon petit frère est lycéen et il aime le foot."
+      }
      ],
      "vocab": [
       {
@@ -101,6 +157,20 @@
       "**On** : ユウ　**Kun** : とも",
       "Deux mains qui se tendent l'une vers l'autre."
      ],
+     "ex": [
+      {
+       "jp": "{駅|えき}で{友|とも}だちに{会|あ}います。",
+       "fr": "Je retrouve un ami à la gare."
+      },
+      {
+       "jp": "{友|とも}だちに{手紙|てがみ}を{書|か}きます。",
+       "fr": "J'écris une lettre à un ami."
+      },
+      {
+       "jp": "{明日|あした}、{友|とも}だちに{会|あ}います。",
+       "fr": "Demain, je vois un ami."
+      }
+     ],
      "vocab": [
       {
        "jp": "{友|とも}だち",
@@ -117,6 +187,20 @@
      "p": [
       "**On** : メイ　**Kun** : な",
       "Le soir 夕 et une bouche 口 : dans le noir, on crie son nom."
+     ],
+     "ex": [
+      {
+       "jp": "{私|わたし}の{名前|なまえ}はマリーです。",
+       "fr": "Je m'appelle Marie."
+      },
+      {
+       "jp": "{有名|ゆうめい}なレストランです。",
+       "fr": "C'est un restaurant célèbre."
+      },
+      {
+       "jp": "ここは{有名|ゆうめい}なレストランです。",
+       "fr": "C'est un restaurant célèbre."
+      }
      ],
      "vocab": [
       {
@@ -149,7 +233,13 @@
       "boire",
       "avant, précédent"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "先",
+      "kana": "セン、さき",
+      "fr": "avant, précédent"
+     },
+     "card": "先"
     },
     {
      "id": "k5-06-生-sens",
@@ -163,7 +253,13 @@
       "vie, naître",
       "quoi, combien"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "生",
+      "kana": "セイ、ショウ、い(きる)、う(まれる)、なま",
+      "fr": "vie, naître"
+     },
+     "card": "生"
     },
     {
      "id": "k5-06-学-sens",
@@ -177,7 +273,13 @@
       "manger",
       "gare"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "学",
+      "kana": "ガク、まな(ぶ)",
+      "fr": "étudier"
+     },
+     "card": "学"
     },
     {
      "id": "k5-06-校-sens",
@@ -191,7 +293,13 @@
       "école",
       "personne"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "校",
+      "kana": "コウ",
+      "fr": "école"
+     },
+     "card": "校"
     },
     {
      "id": "k5-06-友-sens",
@@ -205,7 +313,13 @@
       "ami",
       "jour de la semaine"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "友",
+      "kana": "ユウ、とも",
+      "fr": "ami"
+     },
+     "card": "友"
     },
     {
      "id": "k5-06-名-sens",
@@ -219,7 +333,13 @@
       "nom",
       "vie, naître"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "名",
+      "kana": "メイ、な",
+      "fr": "nom"
+     },
+     "card": "名"
     },
     {
      "id": "k5-06-先生-lecture",
@@ -232,7 +352,13 @@
       "おんなのひと",
       "せんい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{先生|せんせい}",
+      "kana": "せんせい",
+      "fr": "professeur"
+     },
+     "card": "先生"
     },
     {
      "id": "k5-06-学生-lecture",
@@ -245,7 +371,13 @@
       "おとこのひと",
       "がくなま"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{学生|がくせい}",
+      "kana": "がくせい",
+      "fr": "étudiant"
+     },
+     "card": "学生"
     },
     {
      "id": "k5-06-学校-lecture",
@@ -258,7 +390,13 @@
       "まなこう",
       "がくこう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{学校|がっこう}",
+      "kana": "がっこう",
+      "fr": "école"
+     },
+     "card": "学校"
     },
     {
      "id": "k5-06-友だち-lecture",
@@ -271,7 +409,13 @@
       "ゆうだち",
       "ことし"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{友|とも}だち",
+      "kana": "ともだち",
+      "fr": "ami(e)"
+     },
+     "card": "友だち"
     },
     {
      "id": "k5-06-名前-lecture",
@@ -284,7 +428,13 @@
       "めいまえ",
       "きく"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{名前|なまえ}",
+      "kana": "なまえ",
+      "fr": "nom, prénom"
+     },
+     "card": "名前"
     },
     {
      "id": "k5-06-先生-trou",
@@ -298,7 +448,13 @@
       "先",
       "生"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{先生|せんせい}",
+      "kana": "せんせい",
+      "fr": "professeur"
+     },
+     "card": "先生"
     },
     {
      "id": "k5-06-先生-phrase",
@@ -312,7 +468,13 @@
       "せんせい",
       "せんしょう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{先生|せんせい}",
+      "kana": "せんせい",
+      "fr": "professeur"
+     },
+     "card": "先生"
     },
     {
      "id": "k5-06-先-kanji",
@@ -325,7 +487,13 @@
       "先",
       "話"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "先",
+      "kana": "セン、さき",
+      "fr": "avant, précédent"
+     },
+     "card": "先"
     },
     {
      "id": "k5-06-先生-intrus",
@@ -338,7 +506,13 @@
       "友人 → ゆうじん",
       "学生 → がくせい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{先生|せんせい}",
+      "kana": "せんせい",
+      "fr": "professeur"
+     },
+     "card": "先生"
     },
     {
      "id": "k5-06-学生-trou",
@@ -352,7 +526,52 @@
       "生",
       "先"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{学生|がくせい}",
+      "kana": "がくせい",
+      "fr": "étudiant"
+     },
+     "card": "学生"
+    },
+    {
+     "id": "k5-06-先週-phrase",
+     "q": "Comment se lit le mot en gras ?",
+     "jp": "**先週**、{国|くに}へ{帰|かえ}りました。",
+     "explain": "**先週** se lit せんしゅう ici ({先週|せんしゅう} : la semaine dernière). « La semaine dernière, je suis rentré dans mon pays. »",
+     "type": "choice",
+     "choices": [
+      "まいばん",
+      "なんぷん",
+      "せんしゅう",
+      "げつようび"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{先週|せんしゅう}",
+      "kana": "せんしゅう",
+      "fr": "la semaine dernière"
+     },
+     "card": "先週"
+    },
+    {
+     "id": "k5-06-生-kanji",
+     "q": "Quel kanji veut dire « vie, naître » ?",
+     "explain": "**生** : vie, naître. Une pousse qui sort de terre.",
+     "type": "choice",
+     "choices": [
+      "生",
+      "先",
+      "読",
+      "牛"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "生",
+      "kana": "セイ、ショウ、い(きる)、う(まれる)、なま",
+      "fr": "vie, naître"
+     },
+     "card": "生"
     }
    ]
   },
@@ -365,6 +584,20 @@
      "p": [
       "**On** : ジョウ　**Kun** : うえ、あ(げる)、のぼ(る)",
       "Un trait qui pointe au-dessus de la ligne."
+     ],
+     "ex": [
+      {
+       "jp": "{母|はは}は{料理|りょうり}が{上手|じょうず}です。",
+       "fr": "Ma mère cuisine très bien."
+      },
+      {
+       "jp": "{妹|いもうと}はピアノが{上手|じょうず}です。",
+       "fr": "Ma petite sœur joue bien du piano."
+      },
+      {
+       "jp": "{田中|たなか}さんは{料理|りょうり}が{上手|じょうず}です。",
+       "fr": "Mme Tanaka cuisine très bien."
+      }
      ],
      "vocab": [
       {
@@ -382,6 +615,16 @@
      "p": [
       "**On** : カ、ゲ　**Kun** : した、さ(げる)、くだ(さい)",
       "Un trait qui pointe sous la ligne."
+     ],
+     "ex": [
+      {
+       "jp": "まだ{運転|うんてん}が{下手|へた}です。",
+       "fr": "Je conduis encore mal."
+      },
+      {
+       "jp": "いすの{下|した}にねこがいます。",
+       "fr": "Il y a un chat sous la chaise."
+      }
      ],
      "vocab": [
       {
@@ -408,6 +651,20 @@
       "**On** : チュウ、ジュウ　**Kun** : なか",
       "Une flèche qui traverse le centre d'une boîte."
      ],
+     "ex": [
+      {
+       "jp": "{田中|たなか}さんは{先生|せんせい}です。",
+       "fr": "M. Tanaka est professeur."
+      },
+      {
+       "jp": "{田中|たなか}さんは{大学生|だいがくせい}です。",
+       "fr": "M. Tanaka est étudiant."
+      },
+      {
+       "jp": "{田中|たなか}さんは{明日|あした}{来|き}ますか。",
+       "fr": "Est-ce que M. Tanaka vient demain ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{中|なか}",
@@ -428,6 +685,20 @@
      "p": [
       "**On** : ダイ、タイ　**Kun** : おお(きい)",
       "Une personne qui écarte grand les bras."
+     ],
+     "ex": [
+      {
+       "jp": "とても{大|おお}きいです。",
+       "fr": "C'est très grand."
+      },
+      {
+       "jp": "{来年|らいねん}、{大学|だいがく}に{入|はい}ります。",
+       "fr": "L'année prochaine, j'entre à l'université."
+      },
+      {
+       "jp": "これは{母|はは}の{大切|たいせつ}な{写真|しゃしん}です。",
+       "fr": "C'est une photo précieuse pour ma mère."
+      }
      ],
      "vocab": [
       {
@@ -453,6 +724,16 @@
      "p": [
       "**On** : ショウ　**Kun** : ちい(さい)",
       "Un trait fin, avec deux petits grains de chaque côté."
+     ],
+     "ex": [
+      {
+       "jp": "この{部屋|へや}は{小|ちい}さいですね。",
+       "fr": "Cette pièce est petite, hein."
+      },
+      {
+       "jp": "{私|わたし}の{町|まち}は{小|ちい}さいですが、きれいです。",
+       "fr": "Ma ville est petite, mais jolie."
+      }
      ],
      "vocab": [
       {
@@ -485,7 +766,13 @@
       "entendre, écouter",
       "venir"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "上",
+      "kana": "ジョウ、うえ、あ(げる)、のぼ(る)",
+      "fr": "haut, sur"
+     },
+     "card": "上"
     },
     {
      "id": "k5-07-下-sens",
@@ -499,7 +786,13 @@
       "petit",
       "bas, sous"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "下",
+      "kana": "カ、ゲ、した、さ(げる)、くだ(さい)",
+      "fr": "bas, sous"
+     },
+     "card": "下"
     },
     {
      "id": "k5-07-中-sens",
@@ -513,7 +806,13 @@
       "étudier",
       "entendre, écouter"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "中",
+      "kana": "チュウ、ジュウ、なか",
+      "fr": "milieu, dans"
+     },
+     "card": "中"
     },
     {
      "id": "k5-07-大-sens",
@@ -527,7 +826,13 @@
       "chaque",
       "personne"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "大",
+      "kana": "ダイ、タイ、おお(きい)",
+      "fr": "grand"
+     },
+     "card": "大"
     },
     {
      "id": "k5-07-小-sens",
@@ -541,7 +846,13 @@
       "semaine",
       "gare"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "小",
+      "kana": "ショウ、ちい(さい)",
+      "fr": "petit"
+     },
+     "card": "小"
     },
     {
      "id": "k5-07-上-lecture",
@@ -554,7 +865,13 @@
       "はなす",
       "まいにち"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{上|うえ}",
+      "kana": "うえ",
+      "fr": "dessus, en haut"
+     },
+     "card": "上"
     },
     {
      "id": "k5-07-下-lecture",
@@ -567,7 +884,13 @@
       "した",
       "はなみ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{下|した}",
+      "kana": "した",
+      "fr": "dessous, en bas"
+     },
+     "card": "下"
     },
     {
      "id": "k5-07-中-lecture",
@@ -580,7 +903,13 @@
       "こうこう",
       "なか"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{中|なか}",
+      "kana": "なか",
+      "fr": "intérieur, dedans"
+     },
+     "card": "中"
     },
     {
      "id": "k5-07-大きい-lecture",
@@ -593,7 +922,13 @@
       "なんようび",
       "だいきい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{大|おお}きい",
+      "kana": "おおきい",
+      "fr": "grand"
+     },
+     "card": "大きい"
     },
     {
      "id": "k5-07-小さい-lecture",
@@ -606,7 +941,13 @@
       "らいげつ",
       "ください"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{小|ちい}さい",
+      "kana": "ちいさい",
+      "fr": "petit"
+     },
+     "card": "小さい"
     },
     {
      "id": "k5-07-地下鉄-trou",
@@ -620,7 +961,13 @@
       "語",
       "駅"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{地下鉄|ちかてつ}",
+      "kana": "ちかてつ",
+      "fr": "métro"
+     },
+     "card": "地下鉄"
     },
     {
      "id": "k5-07-上-phrase",
@@ -634,7 +981,13 @@
       "うえ",
       "しょうがっこう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{上|うえ}",
+      "kana": "うえ",
+      "fr": "dessus, en haut"
+     },
+     "card": "上"
     },
     {
      "id": "k5-07-上-kanji",
@@ -647,7 +1000,13 @@
       "土",
       "上"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "上",
+      "kana": "ジョウ、うえ、あ(げる)、のぼ(る)",
+      "fr": "haut, sur"
+     },
+     "card": "上"
     },
     {
      "id": "k5-07-地下鉄-intrus",
@@ -660,7 +1019,13 @@
       "地下鉄 → ちしたてつ",
       "大切 → たいせつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{地下鉄|ちかてつ}",
+      "kana": "ちかてつ",
+      "fr": "métro"
+     },
+     "card": "地下鉄"
     },
     {
      "id": "k5-07-中国-trou",
@@ -674,7 +1039,13 @@
       "図",
       "国"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{中国|ちゅうごく}",
+      "kana": "ちゅうごく",
+      "fr": "Chine"
+     },
+     "card": "中国"
     },
     {
      "id": "k5-07-上手-phrase",
@@ -688,7 +1059,51 @@
       "じょうず",
       "はなす"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{上手|じょうず}",
+      "kana": "じょうず",
+      "fr": "doué, habile"
+     },
+     "card": "上手"
+    },
+    {
+     "id": "k5-07-下-kanji",
+     "q": "Quel kanji veut dire « bas, sous » ?",
+     "explain": "**下** : bas, sous. Un trait qui pointe sous la ligne.",
+     "type": "choice",
+     "choices": [
+      "上",
+      "飯",
+      "今",
+      "下"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "下",
+      "kana": "カ、ゲ、した、さ(げる)、くだ(さい)",
+      "fr": "bas, sous"
+     },
+     "card": "下"
+    },
+    {
+     "id": "k5-07-大きい-ecrit",
+     "q": "Quel mot s'écrit **おおきい** (grand) ?",
+     "explain": "{大|おお}きい : grand.",
+     "type": "choice",
+     "choices": [
+      "犬きい",
+      "太きい",
+      "人きい",
+      "大きい"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{大|おお}きい",
+      "kana": "おおきい",
+      "fr": "grand"
+     },
+     "card": "大きい"
     }
    ]
   },
@@ -701,6 +1116,20 @@
      "p": [
       "**On** : イチ、イツ　**Kun** : ひと(つ)",
       "Un seul trait."
+     ],
+     "ex": [
+      {
+       "jp": "りんごを{一|ひと}つください。",
+       "fr": "Une pomme, s'il vous plaît."
+      },
+      {
+       "jp": "このくつは{一万円|いちまんえん}です。",
+       "fr": "Ces chaussures coûtent 10 000 yens."
+      },
+      {
+       "jp": "{一人|ひとり}で{旅行|りょこう}します。",
+       "fr": "Je voyage seul."
+      }
      ],
      "vocab": [
       {
@@ -727,6 +1156,20 @@
       "**On** : ニ　**Kun** : ふた(つ)",
       "Deux traits."
      ],
+     "ex": [
+      {
+       "jp": "{部屋|へや}に{窓|まど}が{二|ふた}つあります。",
+       "fr": "Il y a deux fenêtres dans la chambre."
+      },
+      {
+       "jp": "{二人|ふたり}で{映画|えいが}を{見|み}ました。",
+       "fr": "Nous avons vu un film à deux."
+      },
+      {
+       "jp": "コーヒーを{二|ふた}つおねがいします。",
+       "fr": "Deux cafés, s'il vous plaît."
+      }
+     ],
      "vocab": [
       {
        "jp": "{二|ふた}つ",
@@ -747,6 +1190,20 @@
      "p": [
       "**On** : サン　**Kun** : みっ(つ)",
       "Trois traits."
+     ],
+     "ex": [
+      {
+       "jp": "たまごを{三|みっ}つ{買|か}いました。",
+       "fr": "J'ai acheté trois œufs."
+      },
+      {
+       "jp": "このパンは{三百円|さんびゃくえん}です。",
+       "fr": "Ce pain coûte 300 yens."
+      },
+      {
+       "jp": "このシャツは{三千円|さんぜんえん}でした。",
+       "fr": "Cette chemise coûtait 3 000 yens."
+      }
      ],
      "vocab": [
       {
@@ -769,6 +1226,20 @@
       "**On** : シ　**Kun** : よん、よっ(つ)",
       "Une fenêtre à quatre côtés, avec ses rideaux."
      ],
+     "ex": [
+      {
+       "jp": "{家族|かぞく}は{四人|よにん}です。",
+       "fr": "Nous sommes quatre dans ma famille."
+      },
+      {
+       "jp": "いすが{四|よっ}つあります。",
+       "fr": "Il y a quatre chaises."
+      },
+      {
+       "jp": "{日本|にほん}の{学校|がっこう}は{四月|しがつ}に{始|はじ}まります。",
+       "fr": "Au Japon, l'école commence en avril."
+      }
+     ],
      "vocab": [
       {
        "jp": "{四|よん}",
@@ -789,6 +1260,20 @@
      "p": [
       "**On** : ゴ　**Kun** : いつ(つ)",
       "Compte ses traits en imaginant les cinq doigts d'une main."
+     ],
+     "ex": [
+      {
+       "jp": "{毎日|まいにち}{漢字|かんじ}を{五|いつ}つおぼえます。",
+       "fr": "Je mémorise cinq kanji par jour."
+      },
+      {
+       "jp": "{五月|ごがつ}{二日|ふつか}に{国|くに}へ{帰|かえ}ります。",
+       "fr": "Je rentre dans mon pays le 2 mai."
+      },
+      {
+       "jp": "このりんごは{五|いつ}つで{五百円|ごひゃくえん}です。",
+       "fr": "Ces pommes, c'est 500 yens les cinq."
+      }
      ],
      "vocab": [
       {
@@ -821,7 +1306,13 @@
       "lire",
       "heure, temps"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "一",
+      "kana": "イチ、イツ、ひと(つ)",
+      "fr": "un"
+     },
+     "card": "一"
     },
     {
      "id": "k5-08-二-sens",
@@ -835,7 +1326,13 @@
       "avant, précédent",
       "école"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "二",
+      "kana": "ニ、ふた(つ)",
+      "fr": "deux"
+     },
+     "card": "二"
     },
     {
      "id": "k5-08-三-sens",
@@ -849,7 +1346,13 @@
       "semaine",
       "trois"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "三",
+      "kana": "サン、みっ(つ)",
+      "fr": "trois"
+     },
+     "card": "三"
     },
     {
      "id": "k5-08-四-sens",
@@ -863,7 +1366,13 @@
       "maintenant",
       "école"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "四",
+      "kana": "シ、よん、よっ(つ)",
+      "fr": "quatre"
+     },
+     "card": "四"
     },
     {
      "id": "k5-08-五-sens",
@@ -877,7 +1386,13 @@
       "voir",
       "maintenant"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "五",
+      "kana": "ゴ、いつ(つ)",
+      "fr": "cinq"
+     },
+     "card": "五"
     },
     {
      "id": "k5-08-一つ-lecture",
@@ -890,7 +1405,13 @@
       "ゆうじん",
       "いちつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{一|ひと}つ",
+      "kana": "ひとつ",
+      "fr": "un (objet)"
+     },
+     "card": "一つ"
     },
     {
      "id": "k5-08-二つ-lecture",
@@ -903,7 +1424,13 @@
       "こんしゅう",
       "につ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{二|ふた}つ",
+      "kana": "ふたつ",
+      "fr": "deux (objets)"
+     },
+     "card": "二つ"
     },
     {
      "id": "k5-08-三つ-lecture",
@@ -916,7 +1443,13 @@
       "にじゅう",
       "みっつ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{三|みっ}つ",
+      "kana": "みっつ",
+      "fr": "trois (objets)"
+     },
+     "card": "三つ"
     },
     {
      "id": "k5-08-四-lecture",
@@ -929,7 +1462,13 @@
       "よん",
       "にじゅう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{四|よん}",
+      "kana": "よん",
+      "fr": "quatre"
+     },
+     "card": "四"
     },
     {
      "id": "k5-08-五つ-lecture",
@@ -942,7 +1481,13 @@
       "ごつ",
       "としょかん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{五|いつ}つ",
+      "kana": "いつつ",
+      "fr": "cinq (objets)"
+     },
+     "card": "五つ"
     },
     {
      "id": "k5-08-一万-trou",
@@ -956,7 +1501,13 @@
       "食",
       "方"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{一万|いちまん}",
+      "kana": "いちまん",
+      "fr": "dix mille"
+     },
+     "card": "一万"
     },
     {
      "id": "k5-08-一つ-phrase",
@@ -970,7 +1521,13 @@
       "ひとつ",
       "がくせい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{一|ひと}つ",
+      "kana": "ひとつ",
+      "fr": "un (objet)"
+     },
+     "card": "一つ"
     },
     {
      "id": "k5-08-一-kanji",
@@ -983,7 +1540,13 @@
       "読",
       "車"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "一",
+      "kana": "イチ、イツ、ひと(つ)",
+      "fr": "un"
+     },
+     "card": "一"
     },
     {
      "id": "k5-08-一つ-intrus",
@@ -996,7 +1559,13 @@
       "二月 → にがつ",
       "一人 → ひとり"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{一|ひと}つ",
+      "kana": "ひとつ",
+      "fr": "un (objet)"
+     },
+     "card": "一つ"
     },
     {
      "id": "k5-08-三百-trou",
@@ -1010,7 +1579,13 @@
       "話",
       "車"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{三百|さんびゃく}",
+      "kana": "さんびゃく",
+      "fr": "trois cents"
+     },
+     "card": "三百"
     },
     {
      "id": "k5-08-一人-phrase",
@@ -1024,7 +1599,51 @@
       "ひとり",
       "まいあさ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{一人|ひとり}",
+      "kana": "ひとり",
+      "fr": "une personne, seul"
+     },
+     "card": "一人"
+    },
+    {
+     "id": "k5-08-二-kanji",
+     "q": "Quel kanji veut dire « deux » ?",
+     "explain": "**二** : deux. Deux traits.",
+     "type": "choice",
+     "choices": [
+      "二",
+      "三",
+      "一",
+      "五"
+     ],
+     "a": 0,
+     "star": {
+      "jp": "二",
+      "kana": "ニ、ふた(つ)",
+      "fr": "deux"
+     },
+     "card": "二"
+    },
+    {
+     "id": "k5-08-四つ-ecrit",
+     "q": "Quel mot s'écrit **よっつ** (quatre (objets)) ?",
+     "explain": "{四|よっ}つ : quatre (objets).",
+     "type": "choice",
+     "choices": [
+      "西つ",
+      "見つ",
+      "書つ",
+      "四つ"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "{四|よっ}つ",
+      "kana": "よっつ",
+      "fr": "quatre (objets)"
+     },
+     "card": "四つ"
     }
    ]
   },
@@ -1037,6 +1656,12 @@
      "p": [
       "**On** : ロク　**Kun** : むっ(つ)",
       "Un toit et deux jambes."
+     ],
+     "ex": [
+      {
+       "jp": "{駅|えき}までのきっぷは{六百円|ろっぴゃくえん}です。",
+       "fr": "Le billet jusqu'à la gare coûte 600 yens."
+      }
      ],
      "vocab": [
       {
@@ -1059,6 +1684,20 @@
       "**On** : シチ　**Kun** : なな",
       "Un 7 retourné, barré."
      ],
+     "ex": [
+      {
+       "jp": "{七時|しちじ}に{起|お}きます。",
+       "fr": "Je me lève à 7 h."
+      },
+      {
+       "jp": "{七時|しちじ}ごろ{起|お}きます。",
+       "fr": "Je me lève vers 7 h."
+      },
+      {
+       "jp": "{毎朝|まいあさ}{七時|しちじ}に{起|お}きます。",
+       "fr": "Je me lève à sept heures tous les matins."
+      }
+     ],
      "vocab": [
       {
        "jp": "{七|なな}",
@@ -1079,6 +1718,16 @@
      "p": [
       "**On** : ハチ　**Kun** : やっ(つ)",
       "Deux traits qui s'écartent, comme un éventail qui s'ouvre."
+     ],
+     "ex": [
+      {
+       "jp": "このかさは{八百円|はっぴゃくえん}でした。",
+       "fr": "Ce parapluie coûtait 800 yens."
+      },
+      {
+       "jp": "{東京|とうきょう}までのきっぷは{八千円|はっせんえん}です。",
+       "fr": "Le billet jusqu'à Tokyo coûte 8 000 yens."
+      }
      ],
      "vocab": [
       {
@@ -1105,6 +1754,20 @@
       "**On** : キュウ、ク　**Kun** : ここの(つ)",
       "Un bras courbé qui compte presque tout."
      ],
+     "ex": [
+      {
+       "jp": "ランチは{九百円|きゅうひゃくえん}です。",
+       "fr": "Le menu du midi coûte 900 yens."
+      },
+      {
+       "jp": "{今|いま}、{九時|くじ}{五分|ごふん}{前|まえ}です。",
+       "fr": "Il est neuf heures moins cinq."
+      },
+      {
+       "jp": "{銀行|ぎんこう}は{九時|くじ}に{開|あ}きます。",
+       "fr": "La banque ouvre à neuf heures."
+      }
+     ],
      "vocab": [
       {
        "jp": "{九|きゅう}",
@@ -1125,6 +1788,20 @@
      "p": [
       "**On** : ジュウ　**Kun** : とお",
       "Une croix : deux mains croisées, dix doigts."
+     ],
+     "ex": [
+      {
+       "jp": "{十一時|じゅういちじ}にねます。",
+       "fr": "Je me couche à onze heures."
+      },
+      {
+       "jp": "{姉|あね}は{二十五|にじゅうご}さいです。",
+       "fr": "Ma grande sœur a vingt-cinq ans."
+      },
+      {
+       "jp": "{兄|あに}は{三十|さんじゅう}さいです。",
+       "fr": "Mon grand frère a trente ans."
+      }
      ],
      "vocab": [
       {
@@ -1161,7 +1838,13 @@
       "six",
       "je, moi"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "六",
+      "kana": "ロク、むっ(つ)",
+      "fr": "six"
+     },
+     "card": "六"
     },
     {
      "id": "k5-09-七-sens",
@@ -1175,7 +1858,13 @@
       "huit",
       "un"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "七",
+      "kana": "シチ、なな",
+      "fr": "sept"
+     },
+     "card": "七"
     },
     {
      "id": "k5-09-八-sens",
@@ -1189,7 +1878,13 @@
       "trois",
       "riz cuit, repas"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "八",
+      "kana": "ハチ、やっ(つ)",
+      "fr": "huit"
+     },
+     "card": "八"
     },
     {
      "id": "k5-09-九-sens",
@@ -1203,7 +1898,13 @@
       "heure, temps",
       "vie, naître"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "九",
+      "kana": "キュウ、ク、ここの(つ)",
+      "fr": "neuf"
+     },
+     "card": "九"
     },
     {
      "id": "k5-09-十-sens",
@@ -1217,7 +1918,13 @@
       "poisson",
       "entendre, écouter"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "十",
+      "kana": "ジュウ、とお",
+      "fr": "dix"
+     },
+     "card": "十"
     },
     {
      "id": "k5-09-六つ-lecture",
@@ -1230,7 +1937,13 @@
       "むっつ",
       "ちいさい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{六|むっ}つ",
+      "kana": "むっつ",
+      "fr": "six (objets)"
+     },
+     "card": "六つ"
     },
     {
      "id": "k5-09-七-lecture",
@@ -1243,7 +1956,13 @@
       "なな",
       "ごはん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{七|なな}",
+      "kana": "なな",
+      "fr": "sept"
+     },
+     "card": "七"
     },
     {
      "id": "k5-09-八つ-lecture",
@@ -1256,7 +1975,13 @@
       "やっつ",
       "なんようび"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{八|やっ}つ",
+      "kana": "やっつ",
+      "fr": "huit (objets)"
+     },
+     "card": "八つ"
     },
     {
      "id": "k5-09-九-lecture",
@@ -1269,7 +1994,13 @@
       "きゅう",
       "はなす"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{九|きゅう}",
+      "kana": "きゅう",
+      "fr": "neuf"
+     },
+     "card": "九"
     },
     {
      "id": "k5-09-十-lecture",
@@ -1282,7 +2013,13 @@
       "ください",
       "しちがつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{十|とお}",
+      "kana": "とお",
+      "fr": "dix (objets)"
+     },
+     "card": "十"
     },
     {
      "id": "k5-09-六つ-ecrit",
@@ -1295,7 +2032,13 @@
       "穴つ",
       "六つ"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{六|むっ}つ",
+      "kana": "むっつ",
+      "fr": "six (objets)"
+     },
+     "card": "六つ"
     },
     {
      "id": "k5-09-十-phrase",
@@ -1309,7 +2052,13 @@
       "とお",
       "かようび"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{十|とお}",
+      "kana": "とお",
+      "fr": "dix (objets)"
+     },
+     "card": "十"
     },
     {
      "id": "k5-09-六-kanji",
@@ -1322,7 +2071,13 @@
       "一",
       "先"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "六",
+      "kana": "ロク、むっ(つ)",
+      "fr": "six"
+     },
+     "card": "六"
     },
     {
      "id": "k5-09-六つ-intrus",
@@ -1335,7 +2090,13 @@
       "六百 → ろっぴゃく",
       "二十 → にじゅう"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{六|むっ}つ",
+      "kana": "むっつ",
+      "fr": "six (objets)"
+     },
+     "card": "六つ"
     },
     {
      "id": "k5-09-七つ-ecrit",
@@ -1348,7 +2109,13 @@
       "七つ",
       "十つ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{七|なな}つ",
+      "kana": "ななつ",
+      "fr": "sept (objets)"
+     },
+     "card": "七つ"
     },
     {
      "id": "k5-09-七-kanji",
@@ -1361,7 +2128,51 @@
       "七",
       "時"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "七",
+      "kana": "シチ、なな",
+      "fr": "sept"
+     },
+     "card": "七"
+    },
+    {
+     "id": "k5-09-八つ-ecrit",
+     "q": "Quel mot s'écrit **やっつ** (huit (objets)) ?",
+     "explain": "{八|やっ}つ : huit (objets).",
+     "type": "choice",
+     "choices": [
+      "入つ",
+      "八つ",
+      "人つ",
+      "車つ"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{八|やっ}つ",
+      "kana": "やっつ",
+      "fr": "huit (objets)"
+     },
+     "card": "八つ"
+    },
+    {
+     "id": "k5-09-八-kanji",
+     "q": "Quel kanji veut dire « huit » ?",
+     "explain": "**八** : huit. Deux traits qui s'écartent, comme un éventail qui s'ouvre.",
+     "type": "choice",
+     "choices": [
+      "入",
+      "学",
+      "人",
+      "八"
+     ],
+     "a": 3,
+     "star": {
+      "jp": "八",
+      "kana": "ハチ、やっ(つ)",
+      "fr": "huit"
+     },
+     "card": "八"
     }
    ]
   },
@@ -1374,6 +2185,20 @@
      "p": [
       "**On** : ヒャク　**Kun** : —",
       "Un trait sur 白 (blanc)."
+     ],
+     "ex": [
+      {
+       "jp": "ランチは{九百円|きゅうひゃくえん}です。",
+       "fr": "Le menu du midi coûte 900 yens."
+      },
+      {
+       "jp": "このパンは{三百円|さんびゃくえん}です。",
+       "fr": "Ce pain coûte 300 yens."
+      },
+      {
+       "jp": "{駅|えき}までのきっぷは{六百円|ろっぴゃくえん}です。",
+       "fr": "Le billet jusqu'à la gare coûte 600 yens."
+      }
      ],
      "vocab": [
       {
@@ -1400,6 +2225,20 @@
       "**On** : セン　**Kun** : ち",
       "Dix 十 avec un petit trait sur la tête."
      ],
+     "ex": [
+      {
+       "jp": "ランチは{千円|せんえん}ぐらいです。",
+       "fr": "Le déjeuner coûte environ 1 000 yens."
+      },
+      {
+       "jp": "このシャツは{三千円|さんぜんえん}でした。",
+       "fr": "Cette chemise coûtait 3 000 yens."
+      },
+      {
+       "jp": "{東京|とうきょう}までのきっぷは{八千円|はっせんえん}です。",
+       "fr": "Le billet jusqu'à Tokyo coûte 8 000 yens."
+      }
+     ],
      "vocab": [
       {
        "jp": "{千|せん}",
@@ -1421,6 +2260,16 @@
       "**On** : マン、バン　**Kun** : —",
       "Le japonais compte par paquets de dix mille : 一万, pas « dix mille » en deux mots."
      ],
+     "ex": [
+      {
+       "jp": "このくつは{一万円|いちまんえん}です。",
+       "fr": "Ces chaussures coûtent 10 000 yens."
+      },
+      {
+       "jp": "このカメラは{高|たか}いです。{十万円|じゅうまんえん}です。",
+       "fr": "Cet appareil photo est cher. Il coûte 100 000 yens."
+      }
+     ],
      "vocab": [
       {
        "jp": "{一万|いちまん}",
@@ -1438,6 +2287,20 @@
       "**On** : エン　**Kun** : まる(い)",
       "Une pièce de monnaie posée dans un cadre."
      ],
+     "ex": [
+      {
+       "jp": "ランチは{九百円|きゅうひゃくえん}です。",
+       "fr": "Le menu du midi coûte 900 yens."
+      },
+      {
+       "jp": "コーヒーは{四百円|よんひゃくえん}です。",
+       "fr": "Le café coûte 400 yens."
+      },
+      {
+       "jp": "{一|いち}ドルは{何円|なんえん}ですか。",
+       "fr": "Un dollar, ça fait combien de yens ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{円|えん}",
@@ -1454,6 +2317,16 @@
      "p": [
       "**On** : バイ　**Kun** : か(う)",
       "Un coquillage 貝 (l'ancienne monnaie) sous un filet."
+     ],
+     "ex": [
+      {
+       "jp": "デパートへ{買|か}い{物|もの}に{行|い}きました。",
+       "fr": "Je suis allé faire les courses au grand magasin."
+      },
+      {
+       "jp": "きのうは{買|か}い{物|もの}をしたり、{友|とも}だちに{会|あ}ったりしました。",
+       "fr": "Hier, j'ai fait des courses, vu des amis…"
+      }
      ],
      "vocab": [
       {
@@ -1486,7 +2359,13 @@
       "lire",
       "école"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "百",
+      "kana": "ヒャク",
+      "fr": "cent"
+     },
+     "card": "百"
     },
     {
      "id": "k5-10-千-sens",
@@ -1500,7 +2379,13 @@
       "voiture, roue",
       "dix"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "千",
+      "kana": "セン、ち",
+      "fr": "mille"
+     },
+     "card": "千"
     },
     {
      "id": "k5-10-万-sens",
@@ -1514,7 +2399,13 @@
       "aller",
       "dix mille"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "万",
+      "kana": "マン、バン",
+      "fr": "dix mille"
+     },
+     "card": "万"
     },
     {
      "id": "k5-10-円-sens",
@@ -1528,7 +2419,13 @@
       "lire",
       "yen, cercle"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "円",
+      "kana": "エン、まる(い)",
+      "fr": "yen, cercle"
+     },
+     "card": "円"
     },
     {
      "id": "k5-10-買-sens",
@@ -1542,7 +2439,13 @@
       "quoi, combien",
       "livre, origine"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "買",
+      "kana": "バイ、か(う)",
+      "fr": "acheter"
+     },
+     "card": "買"
     },
     {
      "id": "k5-10-百-lecture",
@@ -1555,7 +2458,13 @@
       "はちがつ",
       "ひゃく"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{百|ひゃく}",
+      "kana": "ひゃく",
+      "fr": "cent"
+     },
+     "card": "百"
     },
     {
      "id": "k5-10-千-lecture",
@@ -1568,7 +2477,13 @@
       "はちがつ",
       "きのう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{千|せん}",
+      "kana": "せん",
+      "fr": "mille"
+     },
+     "card": "千"
     },
     {
      "id": "k5-10-一万-lecture",
@@ -1581,7 +2496,13 @@
       "ひとまん",
       "たいせつ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{一万|いちまん}",
+      "kana": "いちまん",
+      "fr": "dix mille"
+     },
+     "card": "一万"
     },
     {
      "id": "k5-10-円-lecture",
@@ -1594,7 +2515,13 @@
       "ごはん",
       "えん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{円|えん}",
+      "kana": "えん",
+      "fr": "yen"
+     },
+     "card": "円"
     },
     {
      "id": "k5-10-買う-lecture",
@@ -1607,7 +2534,13 @@
       "かう",
       "ごふん"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{買|か}う",
+      "kana": "かう",
+      "fr": "acheter"
+     },
+     "card": "買う"
     },
     {
      "id": "k5-10-六百-trou",
@@ -1621,7 +2554,13 @@
       "聞",
       "白"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{六百|ろっぴゃく}",
+      "kana": "ろっぴゃく",
+      "fr": "six cents"
+     },
+     "card": "六百"
     },
     {
      "id": "k5-10-百円-phrase",
@@ -1635,7 +2574,13 @@
       "なんにん",
       "にちようび"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{百円|ひゃくえん}",
+      "kana": "ひゃくえん",
+      "fr": "cent yens"
+     },
+     "card": "百円"
     },
     {
      "id": "k5-10-百-kanji",
@@ -1648,7 +2593,13 @@
       "買",
       "白"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "百",
+      "kana": "ヒャク",
+      "fr": "cent"
+     },
+     "card": "百"
     },
     {
      "id": "k5-10-三百-intrus",
@@ -1661,7 +2612,13 @@
       "百 → ひゃく",
       "一万 → いちまん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{三百|さんびゃく}",
+      "kana": "さんびゃく",
+      "fr": "trois cents"
+     },
+     "card": "三百"
     },
     {
      "id": "k5-10-三千-trou",
@@ -1675,7 +2632,13 @@
       "干",
       "万"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{三千|さんぜん}",
+      "kana": "さんぜん",
+      "fr": "trois mille"
+     },
+     "card": "三千"
     },
     {
      "id": "k5-10-買う-phrase",
@@ -1689,7 +2652,52 @@
       "な",
       "か"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{買|か}う",
+      "kana": "かう",
+      "fr": "acheter"
+     },
+     "card": "買う"
+    },
+    {
+     "id": "k5-10-千-kanji",
+     "q": "Quel kanji veut dire « mille » ?",
+     "explain": "**千** : mille. Dix 十 avec un petit trait sur la tête.",
+     "type": "choice",
+     "choices": [
+      "十",
+      "読",
+      "千",
+      "干"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "千",
+      "kana": "セン、ち",
+      "fr": "mille"
+     },
+     "card": "千"
+    },
+    {
+     "id": "k5-10-十万-trou",
+     "q": "Complète le mot **じゅうまん** (cent mille) :",
+     "jp": "十＿",
+     "explain": "{十万|じゅうまん} : cent mille.",
+     "type": "choice",
+     "choices": [
+      "駅",
+      "方",
+      "万",
+      "八"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{十万|じゅうまん}",
+      "kana": "じゅうまん",
+      "fr": "cent mille"
+     },
+     "card": "十万"
     }
    ]
   }
@@ -1706,7 +2714,13 @@
     "せんしゅう",
     "きょう"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{先週|せんしゅう}",
+    "kana": "せんしゅう",
+    "fr": "la semaine dernière"
+   },
+   "card": "先週"
   },
   {
    "id": "k5-b02-先月-lecture",
@@ -1719,7 +2733,13 @@
     "せんげつ",
     "えき"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{先月|せんげつ}",
+    "kana": "せんげつ",
+    "fr": "le mois dernier"
+   },
+   "card": "先月"
   },
   {
    "id": "k5-b02-生まれる-lecture",
@@ -1732,7 +2752,13 @@
     "らいげつ",
     "しょうまれる"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{生|う}まれる",
+    "kana": "うまれる",
+    "fr": "naître"
+   },
+   "card": "生まれる"
   },
   {
    "id": "k5-b02-大学生-lecture",
@@ -1745,7 +2771,13 @@
     "おおがくせい",
     "こんしゅう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{大学生|だいがくせい}",
+    "kana": "だいがくせい",
+    "fr": "étudiant d'université"
+   },
+   "card": "大学生"
   },
   {
    "id": "k5-b02-学校-ecrit",
@@ -1758,7 +2790,13 @@
     "字校",
     "学校"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{学校|がっこう}",
+    "kana": "がっこう",
+    "fr": "école"
+   },
+   "card": "学校"
   },
   {
    "id": "k5-b02-大学-lecture",
@@ -1771,7 +2809,13 @@
     "たいがく",
     "さかな"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{大学|だいがく}",
+    "kana": "だいがく",
+    "fr": "université"
+   },
+   "card": "大学"
   },
   {
    "id": "k5-b02-高校-lecture",
@@ -1784,7 +2828,13 @@
     "いちまん",
     "たかこう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{高校|こうこう}",
+    "kana": "こうこう",
+    "fr": "lycée"
+   },
+   "card": "高校"
   },
   {
    "id": "k5-b02-高校生-lecture",
@@ -1797,7 +2847,13 @@
     "こうこうい",
     "まいばん"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{高校生|こうこうせい}",
+    "kana": "こうこうせい",
+    "fr": "lycéen"
+   },
+   "card": "高校生"
   },
   {
    "id": "k5-b02-友だち-ecrit",
@@ -1810,7 +2866,13 @@
     "有だち",
     "友だち"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{友|とも}だち",
+    "kana": "ともだち",
+    "fr": "ami(e)"
+   },
+   "card": "友だち"
   },
   {
    "id": "k5-b02-友人-lecture",
@@ -1823,7 +2885,13 @@
     "ともじん",
     "しがつ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{友人|ゆうじん}",
+    "kana": "ゆうじん",
+    "fr": "ami(e) (soutenu)"
+   },
+   "card": "友人"
   },
   {
    "id": "k5-b02-名前-ecrit",
@@ -1836,7 +2904,13 @@
     "大前",
     "週前"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{名前|なまえ}",
+    "kana": "なまえ",
+    "fr": "nom, prénom"
+   },
+   "card": "名前"
   },
   {
    "id": "k5-b02-有名-lecture",
@@ -1849,7 +2923,13 @@
     "しょくどう",
     "うめい"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{有名|ゆうめい}",
+    "kana": "ゆうめい",
+    "fr": "célèbre"
+   },
+   "card": "有名"
   },
   {
    "id": "k5-b02-上手-lecture",
@@ -1862,7 +2942,13 @@
     "まいあさ",
     "じょうず"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{上手|じょうず}",
+    "kana": "じょうず",
+    "fr": "doué, habile"
+   },
+   "card": "上手"
   },
   {
    "id": "k5-b02-下手-lecture",
@@ -1875,7 +2961,13 @@
     "へた",
     "むっつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{下手|へた}",
+    "kana": "へた",
+    "fr": "maladroit, pas doué"
+   },
+   "card": "下手"
   },
   {
    "id": "k5-b02-地下鉄-lecture",
@@ -1888,7 +2980,13 @@
     "ちかてつ",
     "いつつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{地下鉄|ちかてつ}",
+    "kana": "ちかてつ",
+    "fr": "métro"
+   },
+   "card": "地下鉄"
   },
   {
    "id": "k5-b02-下さい-lecture",
@@ -1901,7 +2999,13 @@
     "ください",
     "ごがつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{下|くだ}さい",
+    "kana": "ください",
+    "fr": "donnez-moi, s'il vous plaît"
+   },
+   "card": "下さい"
   },
   {
    "id": "k5-b02-中国-lecture",
@@ -1914,7 +3018,13 @@
     "ろくがつ",
     "ちゅうごく"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{中国|ちゅうごく}",
+    "kana": "ちゅうごく",
+    "fr": "Chine"
+   },
+   "card": "中国"
   },
   {
    "id": "k5-b02-中学生-lecture",
@@ -1927,20 +3037,13 @@
     "じゅうがくせい",
     "としょかん"
    ],
-   "a": 0
-  },
-  {
-   "id": "k5-b02-大きい-ecrit",
-   "q": "Quel mot s'écrit **おおきい** (grand) ?",
-   "explain": "{大|おお}きい : grand.",
-   "type": "choice",
-   "choices": [
-    "太きい",
-    "犬きい",
-    "大きい",
-    "人きい"
-   ],
-   "a": 2
+   "a": 0,
+   "star": {
+    "jp": "{中学生|ちゅうがくせい}",
+    "kana": "ちゅうがくせい",
+    "fr": "collégien"
+   },
+   "card": "中学生"
   },
   {
    "id": "k5-b02-大切-lecture",
@@ -1953,7 +3056,13 @@
     "だいせつ",
     "たいき"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{大切|たいせつ}",
+    "kana": "たいせつ",
+    "fr": "important, précieux"
+   },
+   "card": "大切"
   },
   {
    "id": "k5-b02-大人-lecture",
@@ -1966,7 +3075,13 @@
     "なんにん",
     "おとな"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{大人|おとな}",
+    "kana": "おとな",
+    "fr": "adulte"
+   },
+   "card": "大人"
   },
   {
    "id": "k5-b02-小さい-ecrit",
@@ -1979,7 +3094,13 @@
     "少さい",
     "何さい"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{小|ちい}さい",
+    "kana": "ちいさい",
+    "fr": "petit"
+   },
+   "card": "小さい"
   },
   {
    "id": "k5-b02-小学校-lecture",
@@ -1992,7 +3113,13 @@
     "ちいがっこう",
     "しょうがっこう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{小学校|しょうがっこう}",
+    "kana": "しょうがっこう",
+    "fr": "école primaire"
+   },
+   "card": "小学校"
   },
   {
    "id": "k5-b02-一人-lecture",
@@ -2005,7 +3132,32 @@
     "おおきい",
     "きんようび"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{一人|ひとり}",
+    "kana": "ひとり",
+    "fr": "une personne, seul"
+   },
+   "card": "一人"
+  },
+  {
+   "id": "k5-b02-一日-lecture",
+   "q": "Comment se lit **一日** ?",
+   "explain": "{一日|ついたち} : le 1er du mois.",
+   "type": "choice",
+   "choices": [
+    "くがつ",
+    "ついたち",
+    "いま",
+    "こうこう"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{一日|ついたち}",
+    "kana": "ついたち",
+    "fr": "le 1er du mois"
+   },
+   "card": "一日"
   },
   {
    "id": "k5-b02-先生-phrase",
@@ -2019,13 +3171,19 @@
     "せんなま",
     "せんう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{先生|せんせい}",
+    "kana": "せんせい",
+    "fr": "professeur"
+   },
+   "card": "先生"
   },
   {
    "id": "k5-b02-先週-phrase",
    "q": "Comment se lit le mot en gras ?",
-   "jp": "**先週**、{国|くに}へ{帰|かえ}りました。",
-   "explain": "**先週** se lit せんしゅう ici ({先週|せんしゅう} : la semaine dernière). « La semaine dernière, je suis rentré dans mon pays. »",
+   "jp": "**先週**、{東京|とうきょう}に{行|い}きました。",
+   "explain": "**先週** se lit せんしゅう ici ({先週|せんしゅう} : la semaine dernière). « La semaine dernière, je suis allé à Tokyo. »",
    "type": "choice",
    "choices": [
     "こんばん",
@@ -2033,7 +3191,13 @@
     "じゅうまん",
     "せんしゅう"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{先週|せんしゅう}",
+    "kana": "せんしゅう",
+    "fr": "la semaine dernière"
+   },
+   "card": "先週"
   },
   {
    "id": "k5-b02-先月-phrase",
@@ -2047,7 +3211,13 @@
     "せんがつ",
     "せんつき"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{先月|せんげつ}",
+    "kana": "せんげつ",
+    "fr": "le mois dernier"
+   },
+   "card": "先月"
   },
   {
    "id": "k5-b02-学生-phrase",
@@ -2061,7 +3231,13 @@
     "がくせい",
     "がくなま"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{学生|がくせい}",
+    "kana": "がくせい",
+    "fr": "étudiant"
+   },
+   "card": "学生"
   },
   {
    "id": "k5-b02-大学生-phrase",
@@ -2075,7 +3251,13 @@
     "だいがくせい",
     "おおがくせい"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{大学生|だいがくせい}",
+    "kana": "だいがくせい",
+    "fr": "étudiant d'université"
+   },
+   "card": "大学生"
   },
   {
    "id": "k5-b02-学校-phrase",
@@ -2089,7 +3271,13 @@
     "がっこう",
     "ちいさい"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{学校|がっこう}",
+    "kana": "がっこう",
+    "fr": "école"
+   },
+   "card": "学校"
   }
  ],
  "examTest": [
@@ -2105,7 +3293,13 @@
     "せんう",
     "せんい"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{先生|せんせい}",
+    "kana": "せんせい",
+    "fr": "professeur"
+   },
+   "card": "先生"
   },
   {
    "id": "k5-b02x-学生-phrase",
@@ -2119,7 +3313,13 @@
     "がくなま",
     "がくう"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{学生|がくせい}",
+    "kana": "がくせい",
+    "fr": "étudiant"
+   },
+   "card": "学生"
   },
   {
    "id": "k5-b02x-学校-phrase",
@@ -2133,7 +3333,13 @@
     "らいねん",
     "きゅう"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{学校|がっこう}",
+    "kana": "がっこう",
+    "fr": "école"
+   },
+   "card": "学校"
   },
   {
    "id": "k5-b02x-友だち-phrase",
@@ -2147,7 +3353,13 @@
     "くる",
     "ともだち"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{友|とも}だち",
+    "kana": "ともだち",
+    "fr": "ami(e)"
+   },
+   "card": "友だち"
   },
   {
    "id": "k5-b02x-上-phrase",
@@ -2161,7 +3373,13 @@
     "とけい",
     "うえ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{上|うえ}",
+    "kana": "うえ",
+    "fr": "dessus, en haut"
+   },
+   "card": "上"
   },
   {
    "id": "k5-b02x-下-phrase",
@@ -2175,7 +3393,13 @@
     "すいようび",
     "した"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{下|した}",
+    "kana": "した",
+    "fr": "dessous, en bas"
+   },
+   "card": "下"
   },
   {
    "id": "k5-b02x-中-phrase",
@@ -2189,7 +3413,13 @@
     "たべもの",
     "なか"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{中|なか}",
+    "kana": "なか",
+    "fr": "intérieur, dedans"
+   },
+   "card": "中"
   },
   {
    "id": "k5-b02x-大きい-phrase",
@@ -2203,7 +3433,13 @@
     "ろっぴゃく",
     "ひゃくえん"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{大|おお}きい",
+    "kana": "おおきい",
+    "fr": "grand"
+   },
+   "card": "大きい"
   },
   {
    "id": "k5-b02x-一つ-phrase",
@@ -2217,7 +3453,13 @@
     "みせる",
     "ひとつ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{一|ひと}つ",
+    "kana": "ひとつ",
+    "fr": "un (objet)"
+   },
+   "card": "一つ"
   },
   {
    "id": "k5-b02x-二つ-phrase",
@@ -2231,7 +3473,13 @@
     "せん",
     "ふたつ"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{二|ふた}つ",
+    "kana": "ふたつ",
+    "fr": "deux (objets)"
+   },
+   "card": "二つ"
   },
   {
    "id": "k5-b02x-三つ-phrase",
@@ -2245,7 +3493,13 @@
     "みっ",
     "なな"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{三|みっ}つ",
+    "kana": "みっつ",
+    "fr": "trois (objets)"
+   },
+   "card": "三つ"
   },
   {
    "id": "k5-b02x-四つ-phrase",
@@ -2259,7 +3513,13 @@
     "しちがつ",
     "ついたち"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{四|よっ}つ",
+    "kana": "よっつ",
+    "fr": "quatre (objets)"
+   },
+   "card": "四つ"
   }
  ]
 }

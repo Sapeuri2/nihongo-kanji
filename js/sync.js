@@ -1,12 +1,16 @@
 // Synchronisation de la progression via un Gist GitHub privé.
 
 import * as S from './state.js';
+import * as Liste from './liste.js';
 import { CONFIG } from './config.js';
 
 const CFG_KEY = CONFIG.syncKey;
 const FILE = CONFIG.gistFile;
 const API = 'https://api.github.com';
 const PUSH_DELAY = 3000;
+// « Ma liste » : un Gist commun à toutes les applis (même domaine, donc même localStorage).
+const LISTE_FILE = 'nihongo-ma-liste.json';
+const LISTE_GIST_KEY = 'nihongo-ma-liste-gist';
 
 let cfg = loadCfg();
 let status = { state: cfg ? 'idle' : 'off', at: null, msg: '' };
@@ -100,6 +104,54 @@ async function readRemote() {
   try { return JSON.parse(content); } catch { return null; }
 }
 
+async function findGist(file, token = cfg?.token) {
+  for (let page = 1; page <= 10; page++) {
+    const list = await gh(`/gists?per_page=100&page=${page}`, {}, token);
+    const found = list.find(g => g.files && g.files[file]);
+    if (found) return found.id;
+    if (list.length < 100) break;
+  }
+  return null;
+}
+
+async function readGistFile(id, file) {
+  const g = await gh(`/gists/${id}`);
+  const f = g.files?.[file];
+  if (!f) return null;
+  let content = f.content;
+  if (f.truncated) content = await (await fetch(f.raw_url, { cache: 'no-store' })).text();
+  try { return JSON.parse(content); } catch { return null; }
+}
+
+// Ma liste : lit le Gist commun (créé s'il n'existe pas), fusionne, renvoie le résultat si besoin.
+async function syncListe() {
+  if (CONFIG.listeEnabled === false) return;
+  let id = null;
+  try { id = localStorage.getItem(LISTE_GIST_KEY); } catch { /* ignore */ }
+  let remote = null;
+  if (id) {
+    try { remote = await readGistFile(id, LISTE_FILE); } catch { id = null; }
+    if (!remote) id = null;
+  }
+  if (!id) {
+    id = await findGist(LISTE_FILE);
+    if (id) remote = await readGistFile(id, LISTE_FILE);
+  }
+  const merged = Liste.merge(Liste.get(), remote);
+  const mergedJson = canon(merged);
+  if (!id) {
+    const g = await gh('/gists', {
+      method: 'POST',
+      body: JSON.stringify({ description: 'Ma liste nihongo (ne pas supprimer)', public: false, files: { [LISTE_FILE]: { content: mergedJson } } }),
+    });
+    id = g.id;
+  } else if (mergedJson !== canon(Liste.merge(remote, remote))) {
+    await gh(`/gists/${id}`, { method: 'PATCH', body: JSON.stringify({ files: { [LISTE_FILE]: { content: mergedJson } } }) });
+  }
+  try { localStorage.setItem(LISTE_GIST_KEY, id); } catch { /* ignore */ }
+  if (mergedJson !== canon(Liste.get())) Liste.replace(merged, { fromSync: true });
+}
+
 // Lit le Gist, fusionne avec la progression locale, et renvoie le résultat si besoin.
 export async function syncNow() {
   if (!cfg) return;
@@ -118,6 +170,7 @@ export async function syncNow() {
           body: JSON.stringify({ files: { [FILE]: { content: mergedJson } } }),
         });
       }
+      await syncListe();
       setStatus('ok');
     } catch (e) {
       setStatus(navigator.onLine ? 'error' : 'offline', e.message);

@@ -60,9 +60,19 @@ export function recordAnswer(id, ok) {
   r.due = now + INTERVALS[r.box] * DAY;
   r.t = now;
   state.items[id] = r;
-  // Bonnes réponses d'affilée (toutes séries confondues) et record.
+  bumpStreak(ok, now);
+  persist();
+}
+
+// Bonnes réponses d'affilée (toutes séries confondues) et record.
+function bumpStreak(ok, now) {
   const streak = ok ? state.stats.streak + 1 : 0;
   state.stats = { streak, best: Math.max(state.stats.best, streak), t: now };
+}
+
+// Réponse qui compte dans le 🔥 sans toucher à la répétition espacée (ex. Ma liste).
+export function recordStreak(ok) {
+  bumpStreak(ok, Date.now());
   persist();
 }
 

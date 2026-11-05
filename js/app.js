@@ -1,6 +1,7 @@
 import { esc, plain, rich, richBlank } from './text.js';
 import * as S from './state.js';
 import * as Sync from './sync.js';
+import * as L from './liste.js';
 import { CONFIG } from './config.js';
 
 const app = document.getElementById('app');
@@ -194,7 +195,7 @@ function weightedSample(ids, n) {
 function available(maxNum, examId = null) {
   const seen = S.get().items;
   return Object.values(C.items)
-    .filter(it => !it.focus && it.uses.every(u => C.lessonById[u].num <= maxNum))
+    .filter(it => !it.focus && !it.liste && it.uses.every(u => C.lessonById[u].num <= maxNum))
     .filter(it => !it.examOnly || it.examId === examId || seen[it.id])
     .map(it => it.id);
 }
@@ -279,7 +280,11 @@ function saveSession() {
 function restoreSession() {
   try {
     const s = JSON.parse(localStorage.getItem(SESSION_KEY));
-    if (!s?.queue?.every(q => C.items[q.id])) return null;
+    if (!s) return null;
+    Object.assign(C.items, s.gen || {});
+    if (!s.queue?.every(q => C.items[q.id])) return null;
+    // Une bonne réponse qui passait seule à la suite : la suite est faite.
+    if (s.cur?.auto) { s.idx++; s.cur = null; }
     return { ...s, first: new Map(s.first), scored: s.scored ? new Set(s.scored) : null };
   } catch { return null; }
 }
@@ -376,7 +381,8 @@ function answer(ok, extra = {}) {
   Object.assign(cur, extra, { answered: true, ok });
   const q = session.queue[session.idx];
   if (!q.tries) {
-    S.recordAnswer(q.id, ok);
+    const it = C.items[q.id];
+    if (it.liste) { L.record(it.listId, ok); S.recordStreak(ok); } else S.recordAnswer(q.id, ok);
     session.first.set(q.id, ok);
   }
   // En leçon et en révision, une question ratée revient plus loin dans la série (plusieurs fois si besoin).
@@ -384,10 +390,28 @@ function answer(ok, extra = {}) {
     const at = Math.min(session.queue.length, session.idx + 3 + Math.floor(Math.random() * 4));
     session.queue.splice(at, 0, { id: q.id, tries: q.tries + 1 });
   }
+  // Bonne réponse : la suite arrive seule (un toucher accélère).
+  clearTimeout(autoTimer);
+  if (ok && CONFIG.autoNext > 0) {
+    cur.auto = true;
+    cur.at = Date.now();
+    const idx = session.idx;
+    autoTimer = setTimeout(() => advance(idx), CONFIG.autoNext);
+  }
   render();
 }
 
+let autoTimer = null;
+
+// Passe à la question suivante si c'est bien celle de `idx` qui attend (un double toucher ne saute rien).
+function advance(idx) {
+  clearTimeout(autoTimer);
+  if (!session || session.idx !== idx || !session.cur?.answered || !session.cur.auto) return;
+  next();
+}
+
 function next() {
+  clearTimeout(autoTimer);
   session.idx++;
   session.cur = null;
   render();
@@ -441,6 +465,14 @@ function viewHome() {
   h += `<button class="btn" data-act="review" ${seen ? '' : 'disabled'}>Révisions<small>${due ? `${due} à revoir` : seen ? 'révision libre' : 'rien pour l’instant'}</small></button>`;
   h += '</section>';
 
+  if (listeOn()) {
+    const n = L.list().length;
+    const m = L.dueCount();
+    h += `<section class="card liste-card"><div><h2>📌 Ma liste${n ? ` (${n} mot${n > 1 ? 's' : ''}, ${m} à revoir)` : ''}</h2>
+      <p class="muted small">${n ? 'Les mots que tu as mis de côté, communs à toutes tes applis.' : 'Touche ☆ à côté d’un mot ou d’une réponse pour le mettre de côté ici.'}</p></div>
+      <div class="actions left"><button class="btn primary" data-act="liste-go" ${n ? '' : 'disabled'}>Réviser ma liste</button><a class="btn" href="#/liste">Ouvrir</a></div></section>`;
+  }
+
   for (const f of C.focus.filter(focusUnlocked)) {
     h += `<section class="card focus"><div class="focus-head"><span class="focus-label jp">${rich(f.label)}</span>
       <div class="focus-txt"><h2>${rich(f.title)}</h2><p class="muted small">Point clé · reviens-y souvent</p></div>${bar(focusMastery(f))}</div>
@@ -482,17 +514,17 @@ function icon(s) {
 }
 
 // Tableau de mots (leçons de vocabulaire). La lecture suit le réglage des furigana.
-function viewWords(words) {
+function viewWords(words, src = '') {
   const rows = words.map(w => {
-    let r = `<tr><td class="jp">${rich(w.jp)}</td><td class="jp kana"><span class="reading">${esc(w.kana || '')}</span></td><td>${rich(w.fr)}</td></tr>`;
-    if (w.ex) r += `<tr class="wex"><td colspan="3"><span class="jp">${rich(w.ex)}</span>${w.exFr ? `<span class="fr">${rich(w.exFr)}</span>` : ''}</td></tr>`;
+    let r = `<tr><td class="jp">${rich(w.jp)}</td><td class="jp kana"><span class="reading">${esc(w.kana || '')}</span></td><td>${rich(w.fr)}</td><td class="star-cell">${starBtn({ jp: w.jp, kana: w.kana || kanaOf(w.jp), fr: plain(w.fr), src })}</td></tr>`;
+    if (w.ex) r += `<tr class="wex"><td colspan="4"><span class="jp">${rich(w.ex)}</span>${w.exFr ? `<span class="fr">${rich(w.exFr)}</span>` : ''}</td></tr>`;
     return r;
   });
-  return `<table class="words"><thead><tr><th>Mot</th><th>Lecture</th><th>Sens</th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
+  return `<table class="words"><thead><tr><th>Mot</th><th>Lecture</th><th>Sens</th><th></th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
 }
 
 // Sections d'une leçon ou d'une antisèche : texte, exemples, vocabulaire, tableau (grid), pièges.
-function viewSections(sections = [], pieges = []) {
+function viewSections(sections = [], pieges = [], src = '') {
   let h = '';
   for (const sec of sections) {
     h += `<section><h2>${rich(sec.h)}</h2>${(sec.p || []).map(p => `<p>${rich(p)}</p>`).join('')}`;
@@ -502,7 +534,7 @@ function viewSections(sections = [], pieges = []) {
       h += `<tbody>${sec.grid.rows.map(r => `<tr>${r.map((c, i) => i ? `<td class="jp" data-label="${esc(plain(sec.grid.head[i] || ''))}">${rich(c)}</td>` : `<th>${rich(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     }
     if (sec.ex?.length) h += `<ul class="examples">${sec.ex.map(e => `<li><span class="jp">${rich(e.jp)}</span><span class="fr">${rich(e.fr)}</span></li>`).join('')}</ul>`;
-    if (sec.vocab?.length) h += `<table class="vocab">${sec.vocab.map(v => `<tr><td class="jp">${rich(v.jp)}</td><td>${rich(v.fr)}</td></tr>`).join('')}</table>`;
+    if (sec.vocab?.length) h += `<table class="vocab">${sec.vocab.map(v => `<tr><td class="jp">${rich(v.jp)}</td><td>${rich(v.fr)}</td><td class="star-cell">${starBtn({ jp: v.jp, kana: kanaOf(v.jp), fr: plain(v.fr), src })}</td></tr>`).join('')}</table>`;
     h += '</section>';
   }
   if (pieges?.length) h += `<section class="pieges"><h2>Pièges</h2><ul>${pieges.map(p => `<li>${rich(p)}</li>`).join('')}</ul></section>`;
@@ -515,8 +547,8 @@ function viewLesson(id) {
   const done = S.get().lessons[id]?.done;
   let h = `<a class="back" href="#/">← Accueil</a><article class="lesson"><p class="muted">Leçon ${l.num}</p><h1>${rich(l.title)}</h1>`;
   if (l.formula?.length) h += `<div class="formula">${l.formula.map(f => `<div>${rich(f)}</div>`).join('')}</div>`;
-  if (l.words?.length) h += viewWords(l.words);
-  h += viewSections(l.sections, l.pieges);
+  if (l.words?.length) h += viewWords(l.words, l.id);
+  h += viewSections(l.sections, l.pieges, l.id);
   h += `</article><div class="actions"><button class="btn primary" data-act="lesson-ex" data-id="${id}">${done ? 'Refaire les exercices' : 'Passer aux exercices'}</button></div>`;
   return h;
 }
@@ -537,7 +569,7 @@ function viewSession() {
   const flash = it.focus && session.kind !== 'focus' ? ` · <span class="flash">⚡ point clé ${rich(C.focusById[it.focus].label)}</span>` : '';
   h += `<p class="muted sess-title">${esc(session.title)}${flash}${q.tries ? ' · <em>elle revient !</em>' : ''}</p>`;
   h += `<div class="exercise" data-id="${it.id}">${it.type === 'order' ? viewOrder(it, cur) : viewChoice(it, cur)}</div>`;
-  if (cur.answered) h += viewFeedback(it, cur);
+  if (cur.answered) h += cur.auto ? viewMini(it) : viewFeedback(it, cur);
   return h;
 }
 
@@ -589,9 +621,75 @@ function viewFeedback(it, cur) {
     else if (!it.jp?.includes('＿')) h += `<p>Réponse : <span class="jp">${rich(it.choices[it.a])}</span></p>`;
   }
   if (it.explain) h += `<p>${rich(it.explain)}</p>`;
-  h += `<p class="muted small">Notions : ${it.uses.map(u => `L${C.lessonById[u].num}`).join(' · ')}</p>`;
+  if (it.uses.length) h += `<p class="muted small">Notions : ${it.uses.map(u => `L${C.lessonById[u].num}`).join(' · ')}</p>`;
+  const st = starBtn(entryOf(it));
+  if (st) h += `<p class="fb-star">${st} <span class="muted small">Mettre de côté dans ma liste</span></p>`;
   h += '<button class="btn primary" data-act="next">Continuer</button></div>';
   return h;
+}
+
+// Bonne réponse qui passe seule à la suite : juste l'étoile (la toucher garde la question à l'écran).
+function viewMini(it) {
+  const st = starBtn(entryOf(it));
+  return st ? `<div class="fb-mini">${st}</div>` : '';
+}
+
+// ---------- Ma liste : étoile ----------
+
+const listeOn = () => CONFIG.listeEnabled !== false;
+const kanaOf = jp => String(jp ?? '').replace(/\{[^|{}]+\|([^{}]+)\}/g, '$1').replace(/\*\*|==/g, '');
+const appId = () => CONFIG.appId || location.pathname.split('/').filter(Boolean)[0]?.replace(/^nihongo-/, '') || 'app';
+
+// Mot principal d'une question : la phrase japonaise (sans trou), sinon la bonne réponse.
+const hasJp = s => /[\u3040-\u30ff\u3400-\u9fff]/.test(s || '');
+
+function entryOf(it) {
+  if (it.liste) return null;
+  let jp, fr;
+  if (it.type === 'order') { jp = `${it.tokens.join('')}。`; fr = it.fr; }
+  else if (it.jp && !it.jp.includes('＿')) { jp = it.jp; fr = it.fr || it.explain; }
+  else {
+    const ans = it.choices[it.a];
+    if (hasJp(ans)) { jp = ans; fr = it.fr || it.explain; }
+    else {
+      // La réponse est en français (« Que signifie : … ») : le mot principal est le japonais de la consigne.
+      jp = (it.q?.match(/[{}|\u3040-\u30ff\u3400-\u9fff\u30fc。、！？〜…]+/g) || []).sort((a, b) => b.length - a.length).find(hasJp);
+      fr = /^Que (signifie|veut dire)/.test(it.q) ? ans : it.explain;
+    }
+  }
+  if (!hasJp(jp)) return null;
+  return { jp, kana: kanaOf(jp), fr: plain(fr || ''), src: it.id };
+}
+
+function starBtn(w) {
+  if (!listeOn() || !w?.jp) return '';
+  const on = L.has(L.idOf(w.jp));
+  return `<button class="star${on ? ' on' : ''}" data-act="star" data-w="${esc(JSON.stringify(w))}" aria-label="${on ? 'Dans ma liste' : 'Mettre de côté dans ma liste'}">${on ? '★' : '☆'}</button>`;
+}
+
+let toastTimer = null;
+function toast(msg) {
+  let el = document.getElementById('toast');
+  if (!el) { el = Object.assign(document.createElement('div'), { id: 'toast', className: 'toast' }); document.body.append(el); }
+  el.textContent = msg;
+  el.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.hidden = true; }, 2200);
+}
+
+function onStar(btn) {
+  const w = JSON.parse(btn.dataset.w);
+  if (L.has(L.idOf(w.jp))) {
+    if (confirm('Déjà dans ta liste — l’ouvrir ?')) { closeSheet(); go('#/liste'); }
+    return;
+  }
+  L.add({ ...w, app: appId() });
+  // Toucher l'étoile d'une bonne réponse garde la question à l'écran (avec « Continuer »).
+  if (btn.closest('.fb-mini') && session?.cur?.auto) { session.cur.auto = false; clearTimeout(autoTimer); render(); }
+  document.querySelectorAll('[data-act="star"]').forEach(b => {
+    if (b.dataset.w === btn.dataset.w) { b.textContent = '★'; b.classList.add('on'); }
+  });
+  toast('★ Ajouté à ma liste');
 }
 
 function viewResult() {
@@ -601,7 +699,7 @@ function viewResult() {
   if (k === 'lesson') msg = r.passed ? 'Leçon validée, la suite est débloquée !' : `Pas encore : il faut ${pct(CONFIG.lessonPass)}. Relis la leçon et recommence.`;
   if (k === 'test') msg = r.passed ? 'Bloc validé, la suite est débloquée !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
   if (k === 'exam') msg = r.passed ? 'Examen réussi, bravo !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
-  if (k === 'review' || k === 'drill' || k === 'focus') msg = 'Séance terminée.';
+  if (k === 'review' || k === 'drill' || k === 'focus' || k === 'liste') msg = 'Séance terminée.';
   let h = `<section class="result ${r.passed === false ? 'fail' : 'pass'}"><p class="muted">${esc(session.title)}</p>
     <div class="big-score">${pct(r.score)}</div><p>${r.okCount}/${r.total} du premier coup</p><p><strong>${msg}</strong></p>
     <p class="muted small">🔥 ${S.get().stats.streak} bonne${S.get().stats.streak > 1 ? 's' : ''} réponse${S.get().stats.streak > 1 ? 's' : ''} d'affilée · record : ${S.get().stats.best}</p></section>`;
@@ -615,11 +713,122 @@ function viewResult() {
     h += `</ul><button class="btn" data-act="drill" data-ids="${weak.map(w => w[0]).join(',')}">Entraînement ciblé sur ces points</button></section>`;
   }
   h += '<div class="actions">';
-  if (r.passed === false || k === 'review' || k === 'drill' || k === 'focus') h += '<button class="btn" data-act="retry">Recommencer</button>';
+  if (r.passed === false || k === 'review' || k === 'drill' || k === 'focus' || k === 'liste') h += '<button class="btn" data-act="retry">Recommencer</button>';
   const nx = nextStep();
   if (nx && r.passed) h += `<button class="btn primary" data-act="step" data-type="${nx.type}" data-id="${nx.id}">Suite : ${esc(stepLabel(nx))}</button>`;
   h += '<a class="btn" href="#/">Accueil</a></div>';
   return h;
+}
+
+let listeSort = 'due';
+
+function viewListe() {
+  if (!listeOn()) return go('#/');
+  const now = Date.now();
+  const items = L.list();
+  const by = {
+    due: (a, b) => (L.isDue(b, now) - L.isDue(a, now)) || a.stats.prochain - b.stats.prochain,
+    missed: (a, b) => b.stats.faux - a.stats.faux || a.stats.boite - b.stats.boite,
+    recent: (a, b) => b.at - a.at,
+  };
+  let h = `<a class="back" href="${prevHash}">← Retour</a><h1>📌 Ma liste</h1>`;
+  if (!items.length) {
+    return h + '<p class="muted">Ta liste est vide. Touche ☆ à côté d’un mot (dans une leçon ou après une question) pour le mettre de côté : il apparaît ici, dans toutes tes applis, et tu peux le travailler où tu veux.</p>';
+  }
+  const m = L.dueCount();
+  h += `<p class="muted">${items.length} mot${items.length > 1 ? 's' : ''} · ${m} à revoir. Un mot ne sort de la liste que si tu le retires toi-même.</p>
+    <div class="actions left"><button class="btn primary" data-act="liste-go">Réviser ma liste<small>${Math.min(20, items.length)} questions</small></button></div>
+    <label class="row small">Trier : <select data-act="liste-sort">${[['due', 'à revoir d’abord'], ['missed', 'les plus ratés'], ['recent', 'les plus récents']].map(([v, t]) => `<option value="${v}" ${v === listeSort ? 'selected' : ''}>${t}</option>`).join('')}</select></label>
+    <ul class="liste">`;
+  for (const x of [...items].sort(by[listeSort] || by.due)) {
+    const st = x.stats;
+    h += `<li class="lw"><div class="lw-main"><span class="jp lw-jp">${rich(x.jp)}</span>${L.reading(x) ? ` <span class="jp kana"><span class="reading">${esc(L.reading(x))}</span></span>` : ''}</div>
+      ${x.fr ? `<div class="lw-fr">${rich(x.fr)}</div>` : ''}
+      <div class="lw-meta">${x.app.map(a => `<span class="tag">${esc(a)}</span>`).join('')}${bar(st.boite / L.MAX_BOX)}
+      <span class="muted small">${st.vu ? `${st.juste}/${st.vu} juste${st.juste > 1 ? 's' : ''}` : 'pas encore révisé'}${L.isDue(x, now) ? ' · à revoir' : ''}</span>
+      ${st.boite >= L.MAX_BOX ? '<span class="small">maîtrisé ?</span>' : ''}
+      <button class="link small" data-act="liste-rm" data-id="${esc(x.id)}">Retirer de ma liste</button></div></li>`;
+  }
+  h += `</ul><section class="card"><h2>Exporter</h2><p class="muted small">Pour faire des flashcards (Anki : importer le fichier CSV, séparateur « ; »).</p>
+    <div class="actions left"><button class="btn" data-act="liste-anki">Exporter pour Anki (CSV)</button><button class="btn" data-act="liste-json">Exporter en JSON</button><button class="btn" data-act="liste-copy">Copier</button></div></section>`;
+  return h;
+}
+
+// Réserve de réponses plausibles : les mots des leçons de l'appli ouverte.
+let vocabPool = null;
+function appVocab() {
+  if (vocabPool) return vocabPool;
+  vocabPool = [];
+  const word = (jp, kana, fr) => {
+    // Seulement de vrais mots : pas de formules ni de paires de conjugaison (→, /, +, 〜, =…).
+    if (jp && fr && L.idOf(jp).length <= 12 && !/[→/／+＋〜~=＝(（]/.test(L.idOf(jp) + fr)) vocabPool.push({ jp, kana: kana || kanaOf(jp), fr: plain(fr) });
+  };
+  for (const l of C.lessons) {
+    for (const w of l.words || []) word(w.jp, w.kana, w.fr);
+    for (const sec of l.sections || []) for (const v of sec.vocab || []) word(v.jp, '', v.fr);
+  }
+  return vocabPool;
+}
+
+// Question générée à partir d'un mot de la liste (aucune donnée propre à une appli).
+function listeQuestion(x, others, i) {
+  const hasKanji = /[\u3400-\u9fff]/.test(L.idOf(x.jp));
+  const kana = L.reading(x);
+  const mine = others.map(o => ({ jp: o.jp, kana: L.reading(o) || kanaOf(o.jp), fr: o.fr }));
+  // Mauvaises réponses : `show` s'affiche, `key` évite les doublons et les réponses équivalentes à la bonne.
+  const pick = (show, key, ok = () => true) => {
+    const seen = new Set([key(x)]);
+    const out = [];
+    // D'abord les autres mots de la liste ; le vocabulaire de l'appli complète si la liste est courte.
+    for (const c of [...shuffle(mine), ...(mine.length < 4 ? shuffle(appVocab()) : [])]) {
+      const v = show(c);
+      const k = key(c);
+      if (!v || !k || seen.has(k) || !ok(c)) continue;
+      seen.add(k);
+      out.push(v);
+      if (out.length === 3) break;
+    }
+    return out.length >= 2 ? out : null;
+  };
+  const same = c => (c.fr || '').toLowerCase() !== (x.fr || '').toLowerCase();
+  const kinds = [];
+  if (x.fr) {
+    const d = pick(c => c.fr, c => (c.fr || '').toLowerCase());
+    if (d) kinds.push({ q: 'Que veut dire ce mot ?', jp: x.jp, ans: x.fr, bad: d });
+    const e = pick(c => c.jp, c => L.idOf(c.jp), same);
+    if (e) kinds.push({ q: `Comment dit-on « ${x.fr} » ?`, ans: x.jp, bad: e });
+  }
+  if (hasKanji && kana && L.idOf(x.jp).length <= 8) {
+    const d = pick(c => c.kana, c => c.kana);
+    if (d) kinds.push({ q: 'Comment se lit ce mot ?', jp: L.idOf(x.jp), ans: kana, bad: d });
+  }
+  if (!kinds.length) return null;
+  const k = kinds[Math.floor(Math.random() * kinds.length)];
+  const choices = [k.ans, ...k.bad];
+  return {
+    id: `liste:${i}`, type: 'choice', uses: [], liste: true, listId: x.id,
+    q: k.q, jp: k.jp, choices, a: 0,
+    explain: `${x.jp}${kana ? ` (${kana})` : ''}${x.fr ? ` : ${x.fr}` : ''}`,
+  };
+}
+
+// Révision de la liste : d'abord les mots à revoir, puis les plus ratés.
+function startListeReview() {
+  const now = Date.now();
+  const items = L.list();
+  const due = items.filter(x => L.isDue(x, now)).sort((a, b) => a.stats.boite - b.stats.boite || a.stats.prochain - b.stats.prochain);
+  const rest = items.filter(x => !L.isDue(x, now)).sort((a, b) => b.stats.faux - a.stats.faux || a.stats.boite - b.stats.boite);
+  const gen = {};
+  const ids = [];
+  for (const x of [...due, ...rest]) {
+    if (ids.length >= 20) break;
+    const q = listeQuestion(x, items.filter(o => o.id !== x.id), ids.length);
+    if (q) { gen[q.id] = q; ids.push(q.id); }
+  }
+  if (!ids.length) { alert('Ajoute encore quelques mots à ta liste pour pouvoir la réviser.'); return; }
+  for (const id of Object.keys(C.items)) if (id.startsWith('liste:')) delete C.items[id];
+  Object.assign(C.items, gen);
+  startSession({ kind: 'liste', title: '📌 Ma liste', ids: shuffle(ids), gen });
 }
 
 function viewSettings() {
@@ -679,6 +888,7 @@ function render() {
   if (hash.startsWith('#/lecon/')) html = viewLesson(decodeURIComponent(hash.slice(8)));
   else if (hash === '#/seance') html = viewSession();
   else if (hash === '#/reglages') html = viewSettings();
+  else if (hash === '#/liste') html = viewListe();
   else html = viewHome();
   if (html) app.innerHTML = html;
   updateBubble();
@@ -717,7 +927,7 @@ function openSheet(fid) {
     ? `<div class="sheet-tabs">${unlocked.map(x => `<button class="tab jp${x.id === f.id ? ' on' : ''}" data-act="sheet" data-id="${x.id}">${rich(x.label)}</button>`).join('')}</div>`
     : '';
   sheet.innerHTML = `<div class="sheet" role="dialog" aria-modal="true"><button class="link sheet-x" data-act="sheet-close" aria-label="Fermer">✕</button>
-    ${tabs}<article class="lesson"><p class="muted">Point clé</p><h1>${rich(f.title)}</h1>${viewSections(f.sheet?.sections, f.sheet?.pieges)}</article>
+    ${tabs}<article class="lesson"><p class="muted">Point clé</p><h1>${rich(f.title)}</h1>${viewSections(f.sheet?.sections, f.sheet?.pieges, f.id)}</article>
     <div class="actions"><button class="btn" data-act="sheet-close">Fermer</button></div></div>`;
   sheet.hidden = false;
   sheet.querySelector('.sheet').scrollTop = 0;
@@ -731,6 +941,8 @@ function closeSheet() {
 }
 
 function onGlobalClick(e) {
+  const star = e.target.closest('[data-act="star"]');
+  if (star) { onStar(star); return; }
   if (e.target.closest('[data-act="furi-toggle"]')) {
     S.setSetting('furigana', !S.get().settings.furigana);
     render();
@@ -750,8 +962,14 @@ function openStep(type, id) {
 }
 
 function onClick(e) {
+  const run = session?.cur;
+  if (run?.auto && run.answered && location.hash === '#/seance' && Date.now() - run.at > 150
+    && !e.target.closest('[data-act="star"], [data-act="quit"]')) {
+    advance(session.idx);
+    return;
+  }
   const ruby = e.target.closest('ruby');
-  const reading = e.target.closest('td.kana');
+  const reading = e.target.closest('.kana');
   if (document.body.classList.contains('nofuri')) {
     if (ruby && !ruby.closest('button')) ruby.classList.toggle('reveal');
     if (reading) reading.classList.toggle('reveal');
@@ -780,6 +998,17 @@ function onClick(e) {
     case 'sync-now': Sync.syncNow(); break;
     case 'sync-off': if (confirm('Déconnecter la synchro sur cet appareil ? La progression locale est gardée.')) { Sync.disconnect(); render(); } break;
     case 'export': exportState(); break;
+    case 'liste-go': startListeReview(); break;
+    case 'liste-rm': {
+      const x = L.get().items[el.dataset.id];
+      if (x && confirm(`Retirer « ${plain(x.jp)} » de ta liste ? Il n’y reviendra pas tout seul.`)) { L.remove(x.id); render(); }
+      break;
+    }
+    case 'liste-anki': download('ma-liste-anki.csv', L.toAnki(), 'text/csv'); break;
+    case 'liste-json': download('ma-liste.json', L.toJSON(), 'application/json'); break;
+    case 'liste-copy':
+      (navigator.clipboard?.writeText(L.toText()) ?? Promise.reject()).then(() => toast('Liste copiée'), () => toast('Copie impossible'));
+      break;
     case 'reset': if (confirm('Effacer toute la progression, sur tous tes appareils synchronisés ?')) { S.reset(); go('#/'); } break;
   }
 }
@@ -795,6 +1024,7 @@ function restart() {
   else if (s.kind === 'test') startTest(s.ref);
   else if (s.kind === 'exam') startExam(s.ref);
   else if (s.kind === 'focus') startFocus(s.ref);
+  else if (s.kind === 'liste') startListeReview();
   else if (s.kind === 'review') { if (dueItems().length) startReview(); else go('#/'); }
   else startSession({ ...s, ids: shuffle(s.queue.filter(q => !q.tries).map(q => q.id)) });
 }
@@ -812,19 +1042,23 @@ async function connectSync() {
   }
 }
 
-function exportState() {
-  const blob = new Blob([JSON.stringify(S.get(), null, 1)], { type: 'application/json' });
+function download(name, text, type) {
   const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = `nihongo-progression-${new Date().toISOString().slice(0, 10)}.json`;
+  a.href = URL.createObjectURL(new Blob([text], { type }));
+  a.download = name;
   a.click();
   URL.revokeObjectURL(a.href);
+}
+
+function exportState() {
+  download(`nihongo-progression-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(S.get(), null, 1), 'application/json');
 }
 
 function onChangeInput(e) {
   const act = e.target.dataset.act;
   if (act === 'furigana') { S.setSetting('furigana', e.target.checked); render(); }
   if (act === 'bubble') { S.setSetting('bubble', e.target.checked); render(); }
+  if (act === 'liste-sort') { listeSort = e.target.value; render(); }
   if (act === 'import' && e.target.files[0]) {
     e.target.files[0].text().then(txt => {
       try {
@@ -839,6 +1073,7 @@ function onChangeInput(e) {
 function onKey(e) {
   if (location.hash !== '#/seance' || !session?.cur || e.target.tagName === 'INPUT') return;
   const cur = session.cur;
+  if (cur.auto && cur.answered && e.key === 'Enter') { e.preventDefault(); advance(session.idx); return; }
   if (e.key === 'Enter') {
     const btn = app.querySelector(cur.answered ? '[data-act="next"]' : '[data-act="check"]');
     if (btn && !btn.disabled) { e.preventDefault(); btn.click(); }
@@ -863,6 +1098,11 @@ async function main() {
   furiBtn.dataset.act = 'furi-toggle';
   furiBtn.innerHTML = '<ruby>漢<rt>かん</rt></ruby>';
   document.querySelector('.top .gear')?.before(furiBtn);
+  if (listeOn()) {
+    const pin = Object.assign(document.createElement('a'), { href: '#/liste', className: 'gear pin', title: 'Ma liste', textContent: '📌' });
+    pin.setAttribute('aria-label', 'Ma liste');
+    furiBtn.before(pin);
+  }
   bubble = Object.assign(document.createElement('button'), { className: 'bubble jp', hidden: true });
   bubble.dataset.act = 'sheet';
   bubble.setAttribute('aria-label', 'Antisèche des points clés');
@@ -875,12 +1115,16 @@ async function main() {
   document.addEventListener('keydown', onKey);
   window.addEventListener('hashchange', e => {
     const old = new URL(e.oldURL).hash || '#/';
-    if (old !== '#/reglages') prevHash = old;
+    if (old !== '#/reglages' && old !== '#/liste') prevHash = old;
     render();
   });
   S.onChange(meta => {
     if (!meta.fromSync) Sync.schedule();
     // Une synchro ne doit pas interrompre un exercice en cours.
+    else if (location.hash !== '#/seance') render();
+  });
+  L.onChange(meta => {
+    if (!meta.fromSync && !meta.fromStorage) Sync.schedule();
     else if (location.hash !== '#/seance') render();
   });
   Sync.onStatus(() => {

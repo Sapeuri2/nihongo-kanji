@@ -13,6 +13,16 @@
       "**On** : シ　**Kun** : おも(う)",
       "Un champ 田 au-dessus du cœur 心 : les pensées."
      ],
+     "ex": [
+      {
+       "jp": "{子|こ}どもの{時|とき}の{思|おも}い{出|で}を{話|はな}しました。",
+       "fr": "J'ai raconté des souvenirs d'enfance."
+      },
+      {
+       "jp": "{子供|こども}のころの{思|おも}い{出|で}を{話|はな}しました。",
+       "fr": "J'ai raconté des souvenirs d'enfance."
+      }
+     ],
      "vocab": [
       {
        "jp": "{思|おも}う",
@@ -30,6 +40,7 @@
       "**On** : コウ　**Kun** : かんが(える)",
       "Un vieillard 耂 courbé sur sa canne : il réfléchit."
      ],
+     "ex": [],
      "vocab": [
       {
        "jp": "{考|かんが}える",
@@ -42,6 +53,16 @@
      "p": [
       "**On** : チ　**Kun** : し(る)",
       "Une flèche 矢 et une bouche 口 : on dit vite et juste ce qu'on sait."
+     ],
+     "ex": [
+      {
+       "jp": "{学校|がっこう}からのお{知|し}らせを{読|よ}みました。",
+       "fr": "J'ai lu l'avis de l'école."
+      },
+      {
+       "jp": "{会社|かいしゃ}からのお{知|し}らせを{読|よ}みました。",
+       "fr": "J'ai lu l'avis de l'entreprise."
+      }
      ],
      "vocab": [
       {
@@ -59,6 +80,20 @@
      "p": [
       "**On** : イ　**Kun** : —",
       "Un son 音 qui sort du cœur 心 : l'intention."
+     ],
+     "ex": [
+      {
+       "jp": "この{漢字|かんじ}の{意味|いみ}は{何|なん}ですか。",
+       "fr": "Quel est le sens de ce kanji ?"
+      },
+      {
+       "jp": "{車|くるま}に{注意|ちゅうい}してください。",
+       "fr": "Faites attention aux voitures."
+      },
+      {
+       "jp": "{会議|かいぎ}の{資料|しりょう}を{用意|ようい}しました。",
+       "fr": "J'ai préparé les documents de la réunion."
+      }
      ],
      "vocab": [
       {
@@ -80,6 +115,20 @@
      "p": [
       "**On** : ミ　**Kun** : あじ",
       "Une bouche 口 et pas encore 未 : on goûte avant d'avaler."
+     ],
+     "ex": [
+      {
+       "jp": "この{漢字|かんじ}の{意味|いみ}は{何|なん}ですか。",
+       "fr": "Quel est le sens de ce kanji ?"
+      },
+      {
+       "jp": "この{文|ぶん}の{意味|いみ}がわかりますか。",
+       "fr": "Tu comprends le sens de cette phrase ?"
+      },
+      {
+       "jp": "{日本|にほん}の{歌|うた}に{興味|きょうみ}があります。",
+       "fr": "Je m'intéresse aux chansons japonaises."
+      }
      ],
      "vocab": [
       {
@@ -106,7 +155,7 @@
    "exercises": [
     {
      "id": "k4-26-思-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "思",
      "explain": "**思** : penser. Un champ 田 au-dessus du cœur 心 : les pensées.",
      "type": "choice",
@@ -116,11 +165,17 @@
       "dire",
       "femme"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "思",
+      "kana": "シ、おも(う)",
+      "fr": "penser"
+     },
+     "card": "思"
     },
     {
      "id": "k4-26-考-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "考",
      "explain": "**考** : réfléchir. Un vieillard 耂 courbé sur sa canne : il réfléchit.",
      "type": "choice",
@@ -130,11 +185,17 @@
       "haut, cher",
       "je, moi"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "考",
+      "kana": "コウ、かんが(える)",
+      "fr": "réfléchir"
+     },
+     "card": "考"
     },
     {
      "id": "k4-26-知-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "知",
      "explain": "**知** : savoir. Une flèche 矢 et une bouche 口 : on dit vite et juste ce qu'on sait.",
      "type": "choice",
@@ -144,11 +205,17 @@
       "savoir",
       "capitale"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "知",
+      "kana": "チ、し(る)",
+      "fr": "savoir"
+     },
+     "card": "知"
     },
     {
      "id": "k4-26-意-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "意",
      "explain": "**意** : intention, sens. Un son 音 qui sort du cœur 心 : l'intention.",
      "type": "choice",
@@ -158,11 +225,17 @@
       "habiter",
       "intention, sens"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "意",
+      "kana": "イ",
+      "fr": "intention, sens"
+     },
+     "card": "意"
     },
     {
      "id": "k4-26-味-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "味",
      "explain": "**味** : goût. Une bouche 口 et pas encore 未 : on goûte avant d'avaler.",
      "type": "choice",
@@ -172,11 +245,17 @@
       "grand bâtiment",
       "ami"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "味",
+      "kana": "ミ、あじ",
+      "fr": "goût"
+     },
+     "card": "味"
     },
     {
      "id": "k4-26-思う-lecture",
-     "q": "Comment se lit **思う** ?",
+     "q": "**思う**の{読|よ}み{方|かた}は？",
      "explain": "{思|おも}う : penser.",
      "type": "choice",
      "choices": [
@@ -185,11 +264,17 @@
       "おもう",
       "はたらく"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{思|おも}う",
+      "kana": "おもう",
+      "fr": "penser"
+     },
+     "card": "思う"
     },
     {
      "id": "k4-26-考える-lecture",
-     "q": "Comment se lit **考える** ?",
+     "q": "**考える**の{読|よ}み{方|かた}は？",
      "explain": "{考|かんが}える : réfléchir.",
      "type": "choice",
      "choices": [
@@ -198,11 +283,17 @@
       "せいさん",
       "こうえる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{考|かんが}える",
+      "kana": "かんがえる",
+      "fr": "réfléchir"
+     },
+     "card": "考える"
     },
     {
      "id": "k4-26-知る-lecture",
-     "q": "Comment se lit **知る** ?",
+     "q": "**知る**の{読|よ}み{方|かた}は？",
      "explain": "{知|し}る : savoir, connaître.",
      "type": "choice",
      "choices": [
@@ -211,11 +302,17 @@
       "みなみ",
       "ゆうめい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{知|し}る",
+      "kana": "しる",
+      "fr": "savoir, connaître"
+     },
+     "card": "知る"
     },
     {
      "id": "k4-26-意味-lecture",
-     "q": "Comment se lit **意味** ?",
+     "q": "**意味**の{読|よ}み{方|かた}は？",
      "explain": "{意味|いみ} : sens, signification.",
      "type": "choice",
      "choices": [
@@ -224,11 +321,17 @@
       "いあじ",
       "わだい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{意味|いみ}",
+      "kana": "いみ",
+      "fr": "sens, signification"
+     },
+     "card": "意味"
     },
     {
      "id": "k4-26-味-lecture",
-     "q": "Comment se lit **味** ?",
+     "q": "**味**の{読|よ}み{方|かた}は？",
      "explain": "{味|あじ} : goût.",
      "type": "choice",
      "choices": [
@@ -237,11 +340,17 @@
       "あじ",
       "ひゃく"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{味|あじ}",
+      "kana": "あじ",
+      "fr": "goût"
+     },
+     "card": "味"
     },
     {
      "id": "k4-26-思う-ecrit",
-     "q": "Quel mot s'écrit **おもう** (penser) ?",
+     "q": "**おもう**（penser）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{思|おも}う : penser.",
      "type": "choice",
      "choices": [
@@ -250,11 +359,17 @@
       "思う",
       "県う"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{思|おも}う",
+      "kana": "おもう",
+      "fr": "penser"
+     },
+     "card": "思う"
     },
     {
      "id": "k4-26-思う-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "明日は雨が{降|ふ}ると**思**います。",
      "explain": "**思** se lit おも ici ({思|おも}う : penser). « Je pense qu'il pleuvra demain. »",
      "type": "choice",
@@ -264,11 +379,17 @@
       "もち",
       "した"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{思|おも}う",
+      "kana": "おもう",
+      "fr": "penser"
+     },
+     "card": "思う"
     },
     {
      "id": "k4-26-思-kanji",
-     "q": "Quel kanji veut dire « penser » ?",
+     "q": "「penser」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**思** : penser. Un champ 田 au-dessus du cœur 心 : les pensées.",
      "type": "choice",
      "choices": [
@@ -277,11 +398,17 @@
       "男",
       "思"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "思",
+      "kana": "シ、おも(う)",
+      "fr": "penser"
+     },
+     "card": "思"
     },
     {
      "id": "k4-26-思う-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{思|おも}う se lit おもう, pas しう.",
      "type": "choice",
      "choices": [
@@ -290,11 +417,17 @@
       "味 → あじ",
       "意味 → いみ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{思|おも}う",
+      "kana": "おもう",
+      "fr": "penser"
+     },
+     "card": "思う"
     },
     {
      "id": "k4-26-考える-ecrit",
-     "q": "Quel mot s'écrit **かんがえる** (réfléchir) ?",
+     "q": "**かんがえる**（réfléchir）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{考|かんが}える : réfléchir.",
      "type": "choice",
      "choices": [
@@ -303,11 +436,17 @@
       "孝える",
       "考える"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{考|かんが}える",
+      "kana": "かんがえる",
+      "fr": "réfléchir"
+     },
+     "card": "考える"
     },
     {
      "id": "k4-26-思い出-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "子どもの時の**思い出**を話しました。",
      "explain": "**思い出** se lit おもいで ici ({思|おも}い{出|で} : souvenir). « J'ai raconté des souvenirs d'enfance. »",
      "type": "choice",
@@ -317,7 +456,51 @@
       "おもいしゅつ",
       "おもいだ"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{思|おも}い{出|で}",
+      "kana": "おもいで",
+      "fr": "souvenir"
+     },
+     "card": "思い出"
+    },
+    {
+     "id": "k4-26-考-kanji",
+     "q": "「réfléchir」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**考** : réfléchir. Un vieillard 耂 courbé sur sa canne : il réfléchit.",
+     "type": "choice",
+     "choices": [
+      "夏",
+      "老",
+      "考",
+      "孝"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "考",
+      "kana": "コウ、かんが(える)",
+      "fr": "réfléchir"
+     },
+     "card": "考"
+    },
+    {
+     "id": "k4-26-知る-ecrit",
+     "q": "**しる**（savoir, connaître）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{知|し}る : savoir, connaître.",
+     "type": "choice",
+     "choices": [
+      "短る",
+      "知る",
+      "和る",
+      "室る"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{知|し}る",
+      "kana": "しる",
+      "fr": "savoir, connaître"
+     },
+     "card": "知る"
     }
    ]
   },
@@ -330,6 +513,20 @@
      "p": [
       "**On** : コウ　**Kun** : す(き)、この(む)",
       "Une femme 女 et un enfant 子 : ce qu'on aime."
+     ],
+     "ex": [
+      {
+       "jp": "{父|ちち}は{魚|さかな}が{好|す}きです。",
+       "fr": "Mon père aime le poisson."
+      },
+      {
+       "jp": "{妹|いもうと}は{猫|ねこ}が{大好|だいす}きです。",
+       "fr": "Ma petite sœur adore les chats."
+      },
+      {
+       "jp": "{好|す}きな{色|いろ}は{青|あお}です。",
+       "fr": "Ma couleur préférée est le bleu."
+      }
      ],
      "vocab": [
       {
@@ -348,6 +545,20 @@
       "**On** : アク、オ　**Kun** : わる(い)",
       "Un cœur 心 écrasé sous un poids : c'est mauvais."
      ],
+     "ex": [
+      {
+       "jp": "{今日|きょう}は{天気|てんき}が{悪|わる}いです。",
+       "fr": "Aujourd'hui, il fait mauvais."
+      },
+      {
+       "jp": "おじいさんは{耳|みみ}が{悪|わる}いです。",
+       "fr": "Grand-père entend mal."
+      },
+      {
+       "jp": "{悪|わる}い{言葉|ことば}を{使|つか}ってはいけません。",
+       "fr": "Il ne faut pas dire de gros mots."
+      }
+     ],
      "vocab": [
       {
        "jp": "{悪|わる}い",
@@ -360,6 +571,20 @@
      "p": [
       "**On** : セイ、ショウ　**Kun** : ただ(しい)",
       "Un pied 止 qui s'arrête pile sur la ligne 一 : c'est juste."
+     ],
+     "ex": [
+      {
+       "jp": "{正|ただ}しい{答|こた}えを{選|えら}んでください。",
+       "fr": "Choisissez la bonne réponse."
+      },
+      {
+       "jp": "お{正月|しょうがつ}に{着物|きもの}を{着|き}ました。",
+       "fr": "J'ai porté un kimono au Nouvel An."
+      },
+      {
+       "jp": "お{正月|しょうがつ}は{地元|じもと}に{帰|かえ}ります。",
+       "fr": "Pour le Nouvel An, je rentre dans ma région natale."
+      }
      ],
      "vocab": [
       {
@@ -378,6 +603,20 @@
       "**On** : チュウ　**Kun** : そそ(ぐ)",
       "L'eau 氵 et le maître 主 : le maître verse l'eau avec attention."
      ],
+     "ex": [
+      {
+       "jp": "{車|くるま}に{注意|ちゅうい}してください。",
+       "fr": "Faites attention aux voitures."
+      },
+      {
+       "jp": "{店|みせ}でピザを{注文|ちゅうもん}しました。",
+       "fr": "J'ai commandé une pizza au restaurant."
+      },
+      {
+       "jp": "レストランで{料理|りょうり}を{注文|ちゅうもん}しました。",
+       "fr": "J'ai commandé un plat au restaurant."
+      }
+     ],
      "vocab": [
       {
        "jp": "{注意|ちゅうい}",
@@ -394,6 +633,20 @@
      "p": [
       "**On** : トク　**Kun** : —",
       "Une vache 牛 et un temple 寺 : la bête réservée au temple, spéciale."
+     ],
+     "ex": [
+      {
+       "jp": "{果物|くだもの}の{中|なか}で{特|とく}にりんごが{好|す}きです。",
+       "fr": "Parmi les fruits, j'aime surtout les pommes."
+      },
+      {
+       "jp": "{今日|きょう}は{特別|とくべつ}な{日|ひ}です。",
+       "fr": "Aujourd'hui est un jour spécial."
+      },
+      {
+       "jp": "{特急|とっきゅう}で{大阪|おおさか}まで{行|い}きます。",
+       "fr": "Je vais jusqu'à Osaka en express."
+      }
      ],
      "vocab": [
       {
@@ -420,7 +673,7 @@
    "exercises": [
     {
      "id": "k4-27-好-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "好",
      "explain": "**好** : aimer. Une femme 女 et un enfant 子 : ce qu'on aime.",
      "type": "choice",
@@ -430,11 +683,17 @@
       "je, moi",
       "utiliser"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "好",
+      "kana": "コウ、す(き)、この(む)",
+      "fr": "aimer"
+     },
+     "card": "好"
     },
     {
      "id": "k4-27-悪-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "悪",
      "explain": "**悪** : mauvais. Un cœur 心 écrasé sous un poids : c'est mauvais.",
      "type": "choice",
@@ -444,11 +703,17 @@
       "mauvais",
       "dix"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "悪",
+      "kana": "アク、オ、わる(い)",
+      "fr": "mauvais"
+     },
+     "card": "悪"
     },
     {
      "id": "k4-27-正-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "正",
      "explain": "**正** : juste, correct. Un pied 止 qui s'arrête pile sur la ligne 一 : c'est juste.",
      "type": "choice",
@@ -458,11 +723,17 @@
       "tourner, rouler",
       "produire, naître"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "正",
+      "kana": "セイ、ショウ、ただ(しい)",
+      "fr": "juste, correct"
+     },
+     "card": "正"
     },
     {
      "id": "k4-27-注-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "注",
      "explain": "**注** : verser, faire attention. L'eau 氵 et le maître 主 : le maître verse l'eau avec attention.",
      "type": "choice",
@@ -472,11 +743,17 @@
       "pied, jambe",
       "verser, faire attention"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "注",
+      "kana": "チュウ、そそ(ぐ)",
+      "fr": "verser, faire attention"
+     },
+     "card": "注"
     },
     {
      "id": "k4-27-特-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "特",
      "explain": "**特** : spécial. Une vache 牛 et un temple 寺 : la bête réservée au temple, spéciale.",
      "type": "choice",
@@ -486,11 +763,17 @@
       "membre, employé",
       "papier"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "特",
+      "kana": "トク",
+      "fr": "spécial"
+     },
+     "card": "特"
     },
     {
      "id": "k4-27-好き-lecture",
-     "q": "Comment se lit **好き** ?",
+     "q": "**好き**の{読|よ}み{方|かた}は？",
      "explain": "{好|す}き : aimer, apprécier.",
      "type": "choice",
      "choices": [
@@ -499,11 +782,17 @@
       "とおる",
       "このき"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{好|す}き",
+      "kana": "すき",
+      "fr": "aimer, apprécier"
+     },
+     "card": "好き"
     },
     {
      "id": "k4-27-悪い-lecture",
-     "q": "Comment se lit **悪い** ?",
+     "q": "**悪い**の{読|よ}み{方|かた}は？",
      "explain": "{悪|わる}い : mauvais.",
      "type": "choice",
      "choices": [
@@ -512,11 +801,17 @@
       "わるい",
       "おい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{悪|わる}い",
+      "kana": "わるい",
+      "fr": "mauvais"
+     },
+     "card": "悪い"
     },
     {
      "id": "k4-27-正しい-lecture",
-     "q": "Comment se lit **正しい** ?",
+     "q": "**正しい**の{読|よ}み{方|かた}は？",
      "explain": "{正|ただ}しい : correct, juste.",
      "type": "choice",
      "choices": [
@@ -525,11 +820,17 @@
       "しょうしい",
       "せいしい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{正|ただ}しい",
+      "kana": "ただしい",
+      "fr": "correct, juste"
+     },
+     "card": "正しい"
     },
     {
      "id": "k4-27-注意-lecture",
-     "q": "Comment se lit **注意** ?",
+     "q": "**注意**の{読|よ}み{方|かた}は？",
      "explain": "{注意|ちゅうい} : attention.",
      "type": "choice",
      "choices": [
@@ -538,11 +839,17 @@
       "りょうきん",
       "ちゅうい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{注意|ちゅうい}",
+      "kana": "ちゅうい",
+      "fr": "attention"
+     },
+     "card": "注意"
     },
     {
      "id": "k4-27-特に-lecture",
-     "q": "Comment se lit **特に** ?",
+     "q": "**特に**の{読|よ}み{方|かた}は？",
      "explain": "{特|とく}に : surtout, en particulier.",
      "type": "choice",
      "choices": [
@@ -551,11 +858,17 @@
       "たべる",
       "したまち"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{特|とく}に",
+      "kana": "とくに",
+      "fr": "surtout, en particulier"
+     },
+     "card": "特に"
     },
     {
      "id": "k4-27-好き-ecrit",
-     "q": "Quel mot s'écrit **すき** (aimer, apprécier) ?",
+     "q": "**すき**（aimer, apprécier）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{好|す}き : aimer, apprécier.",
      "type": "choice",
      "choices": [
@@ -564,11 +877,17 @@
       "奸き",
       "好き"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{好|す}き",
+      "kana": "すき",
+      "fr": "aimer, apprécier"
+     },
+     "card": "好き"
     },
     {
      "id": "k4-27-好き-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "肉と魚と、どちらが**好き**ですか。",
      "explain": "**好き** se lit すき ici ({好|す}き : aimer, apprécier). « Tu préfères la viande ou le poisson ? »",
      "type": "choice",
@@ -578,11 +897,17 @@
       "おんなのひと",
       "すき"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{好|す}き",
+      "kana": "すき",
+      "fr": "aimer, apprécier"
+     },
+     "card": "好き"
     },
     {
      "id": "k4-27-好-kanji",
-     "q": "Quel kanji veut dire « aimer » ?",
+     "q": "「aimer」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**好** : aimer. Une femme 女 et un enfant 子 : ce qu'on aime.",
      "type": "choice",
      "choices": [
@@ -591,11 +916,17 @@
       "好",
       "妤"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "好",
+      "kana": "コウ、す(き)、この(む)",
+      "fr": "aimer"
+     },
+     "card": "好"
     },
     {
      "id": "k4-27-好き-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{好|す}き se lit すき, pas こうき.",
      "type": "choice",
      "choices": [
@@ -604,11 +935,17 @@
       "好き → こうき",
       "正月 → しょうがつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{好|す}き",
+      "kana": "すき",
+      "fr": "aimer, apprécier"
+     },
+     "card": "好き"
     },
     {
      "id": "k4-27-悪い-ecrit",
-     "q": "Quel mot s'écrit **わるい** (mauvais) ?",
+     "q": "**わるい**（mauvais）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{悪|わる}い : mauvais.",
      "type": "choice",
      "choices": [
@@ -617,11 +954,17 @@
       "思い",
       "悪い"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{悪|わる}い",
+      "kana": "わるい",
+      "fr": "mauvais"
+     },
+     "card": "悪い"
     },
     {
      "id": "k4-27-大好き-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "弟は{野球|やきゅう}が**大好き**です。",
      "explain": "**大好き** se lit だいすき ici ({大好|だいす}き : adorer). « Mon petit frère adore le baseball. »",
      "type": "choice",
@@ -631,7 +974,51 @@
       "だいすき",
       "たいすき"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{大好|だいす}き",
+      "kana": "だいすき",
+      "fr": "adorer"
+     },
+     "card": "大好き"
+    },
+    {
+     "id": "k4-27-悪-kanji",
+     "q": "「mauvais」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**悪** : mauvais. Un cœur 心 écrasé sous un poids : c'est mauvais.",
+     "type": "choice",
+     "choices": [
+      "思",
+      "悪",
+      "恵",
+      "夏"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "悪",
+      "kana": "アク、オ、わる(い)",
+      "fr": "mauvais"
+     },
+     "card": "悪"
+    },
+    {
+     "id": "k4-27-正しい-ecrit",
+     "q": "**ただしい**（correct, juste）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{正|ただ}しい : correct, juste.",
+     "type": "choice",
+     "choices": [
+      "六しい",
+      "止しい",
+      "正しい",
+      "五しい"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{正|ただ}しい",
+      "kana": "ただしい",
+      "fr": "correct, juste"
+     },
+     "card": "正しい"
     }
    ]
   },
@@ -645,6 +1032,20 @@
       "**On** : タ　**Kun** : おお(い)",
       "Deux soirs 夕 empilés : beaucoup de jours, beaucoup."
      ],
+     "ex": [
+      {
+       "jp": "{東京|とうきょう}は{人|ひと}が{多|おお}いです。",
+       "fr": "À Tokyo, il y a beaucoup de monde."
+      },
+      {
+       "jp": "この{町|まち}は{人|ひと}が{多|おお}いです。",
+       "fr": "Il y a beaucoup de monde dans cette ville."
+      },
+      {
+       "jp": "この{町|まち}は{外国人|がいこくじん}が{多|おお}いです。",
+       "fr": "Il y a beaucoup d'étrangers dans cette ville."
+      }
+     ],
      "vocab": [
       {
        "jp": "{多|おお}い",
@@ -657,6 +1058,20 @@
      "p": [
       "**On** : ショウ　**Kun** : すく(ない)、すこ(し)",
       "Petit 小 avec un trait qui part : encore moins."
+     ],
+     "ex": [
+      {
+       "jp": "{今年|ことし}は{雨|あめ}が{少|すく}ないです。",
+       "fr": "Cette année, il pleut peu."
+      },
+      {
+       "jp": "{少|すこ}し{休|やす}みましょう。",
+       "fr": "Faisons une petite pause."
+      },
+      {
+       "jp": "{首|くび}が{少|すこ}し{痛|いた}いです。",
+       "fr": "J'ai un peu mal au cou."
+      }
      ],
      "vocab": [
       {
@@ -674,6 +1089,20 @@
      "p": [
       "**On** : イ　**Kun** : —",
       "Une personne 人 qui pousse une charrue : à partir d'ici."
+     ],
+     "ex": [
+      {
+       "jp": "{一時間|いちじかん}{以上|いじょう}{待|ま}ちました。",
+       "fr": "J'ai attendu plus d'une heure."
+      },
+      {
+       "jp": "{十八歳|じゅうはっさい}{以下|いか}は{入|はい}れません。",
+       "fr": "Les moins de dix-huit ans ne peuvent pas entrer."
+      },
+      {
+       "jp": "{日曜日|にちようび}{以外|いがい}は{働|はたら}いています。",
+       "fr": "Je travaille tous les jours sauf le dimanche."
+      }
      ],
      "vocab": [
       {
@@ -700,6 +1129,20 @@
       "**On** : ド、ト　**Kun** : たび",
       "Un abri 广 et une main 又 qui mesure : le degré, la fois."
      ],
+     "ex": [
+      {
+       "jp": "{今度|こんど}の{日曜日|にちようび}は{暇|ひま}ですか。",
+       "fr": "Tu es libre dimanche prochain ?"
+      },
+      {
+       "jp": "{一度|いちど}{富士山|ふじさん}に{登|のぼ}りたいです。",
+       "fr": "Je veux gravir le mont Fuji une fois."
+      },
+      {
+       "jp": "{今日|きょう}の{温度|おんど}は{三十度|さんじゅうど}です。",
+       "fr": "La température d'aujourd'hui est de trente degrés."
+      }
+     ],
      "vocab": [
       {
        "jp": "{今度|こんど}",
@@ -721,6 +1164,20 @@
       "**On** : フ、ブ　**Kun** : —",
       "Un oiseau qui s'envole sans atteindre le ciel 一 : non."
      ],
+     "ex": [
+      {
+       "jp": "{車|くるま}がないと{不便|ふべん}です。",
+       "fr": "Sans voiture, ce n'est pas pratique."
+      },
+      {
+       "jp": "{一人|ひとり}で{住|す}むのは{不安|ふあん}です。",
+       "fr": "Vivre seul m'inquiète."
+      },
+      {
+       "jp": "{駅|えき}から{遠|とお}くて{不便|ふべん}です。",
+       "fr": "C'est loin de la gare, ce n'est pas pratique."
+      }
+     ],
      "vocab": [
       {
        "jp": "{不便|ふべん}",
@@ -737,6 +1194,20 @@
      "p": [
       "**On** : ゴウ、ガッ　**Kun** : あ(う)",
       "Un couvercle 亼 posé sur une bouche 口 : ça s'emboîte."
+     ],
+     "ex": [
+      {
+       "jp": "{雨|あめ}で{試合|しあい}は{中止|ちゅうし}になりました。",
+       "fr": "Le match a été annulé à cause de la pluie."
+      },
+      {
+       "jp": "{雨|あめ}の{場合|ばあい}は{中止|ちゅうし}です。",
+       "fr": "En cas de pluie, c'est annulé."
+      },
+      {
+       "jp": "{明日|あした}のご{都合|つごう}はどうですか。",
+       "fr": "Êtes-vous disponible demain ?"
+      }
      ],
      "vocab": [
       {
@@ -768,7 +1239,7 @@
    "exercises": [
     {
      "id": "k4-28-多-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "多",
      "explain": "**多** : nombreux. Deux soirs 夕 empilés : beaucoup de jours, beaucoup.",
      "type": "choice",
@@ -778,11 +1249,17 @@
       "arrondissement",
       "cent"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "多",
+      "kana": "タ、おお(い)",
+      "fr": "nombreux"
+     },
+     "card": "多"
     },
     {
      "id": "k4-28-少-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "少",
      "explain": "**少** : peu. Petit 小 avec un trait qui part : encore moins.",
      "type": "choice",
@@ -792,11 +1269,17 @@
       "peu",
       "mort"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "少",
+      "kana": "ショウ、すく(ない)、すこ(し)",
+      "fr": "peu"
+     },
+     "card": "少"
     },
     {
      "id": "k4-28-以-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "以",
      "explain": "**以** : à partir de. Une personne 人 qui pousse une charrue : à partir d'ici.",
      "type": "choice",
@@ -806,11 +1289,17 @@
       "utiliser",
       "à partir de"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "以",
+      "kana": "イ",
+      "fr": "à partir de"
+     },
+     "card": "以"
     },
     {
      "id": "k4-28-度-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "度",
      "explain": "**度** : fois, degré. Un abri 广 et une main 又 qui mesure : le degré, la fois.",
      "type": "choice",
@@ -820,11 +1309,17 @@
       "fois, degré",
       "étudier"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "度",
+      "kana": "ド、ト、たび",
+      "fr": "fois, degré"
+     },
+     "card": "度"
     },
     {
      "id": "k4-28-不-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "不",
      "explain": "**不** : non, pas. Un oiseau qui s'envole sans atteindre le ciel 一 : non.",
      "type": "choice",
@@ -834,11 +1329,17 @@
       "non, pas",
       "se lever"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "不",
+      "kana": "フ、ブ",
+      "fr": "non, pas"
+     },
+     "card": "不"
     },
     {
      "id": "k4-28-合-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "合",
      "explain": "**合** : s'accorder. Un couvercle 亼 posé sur une bouche 口 : ça s'emboîte.",
      "type": "choice",
@@ -848,11 +1349,17 @@
       "s'accorder",
       "hiver"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "合",
+      "kana": "ゴウ、ガッ、あ(う)",
+      "fr": "s'accorder"
+     },
+     "card": "合"
     },
     {
      "id": "k4-28-多い-lecture",
-     "q": "Comment se lit **多い** ?",
+     "q": "**多い**の{読|よ}み{方|かた}は？",
      "explain": "{多|おお}い : nombreux.",
      "type": "choice",
      "choices": [
@@ -861,11 +1368,17 @@
       "おおい",
       "いろ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{多|おお}い",
+      "kana": "おおい",
+      "fr": "nombreux"
+     },
+     "card": "多い"
     },
     {
      "id": "k4-28-少ない-lecture",
-     "q": "Comment se lit **少ない** ?",
+     "q": "**少ない**の{読|よ}み{方|かた}は？",
      "explain": "{少|すく}ない : peu nombreux.",
      "type": "choice",
      "choices": [
@@ -874,11 +1387,17 @@
       "しょうない",
       "すくない"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{少|すく}ない",
+      "kana": "すくない",
+      "fr": "peu nombreux"
+     },
+     "card": "少ない"
     },
     {
      "id": "k4-28-以上-lecture",
-     "q": "Comment se lit **以上** ?",
+     "q": "**以上**の{読|よ}み{方|かた}は？",
      "explain": "{以上|いじょう} : plus de, au-delà.",
      "type": "choice",
      "choices": [
@@ -887,11 +1406,17 @@
       "いじょう",
       "ふたり"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{以上|いじょう}",
+      "kana": "いじょう",
+      "fr": "plus de, au-delà"
+     },
+     "card": "以上"
     },
     {
      "id": "k4-28-今度-lecture",
-     "q": "Comment se lit **今度** ?",
+     "q": "**今度**の{読|よ}み{方|かた}は？",
      "explain": "{今度|こんど} : cette fois, la prochaine fois.",
      "type": "choice",
      "choices": [
@@ -900,11 +1425,17 @@
       "いまど",
       "こんど"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{今度|こんど}",
+      "kana": "こんど",
+      "fr": "cette fois, la prochaine fois"
+     },
+     "card": "今度"
     },
     {
      "id": "k4-28-不便-lecture",
-     "q": "Comment se lit **不便** ?",
+     "q": "**不便**の{読|よ}み{方|かた}は？",
      "explain": "{不便|ふべん} : pas pratique.",
      "type": "choice",
      "choices": [
@@ -913,11 +1444,17 @@
       "ななつ",
       "ふべん"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{不便|ふべん}",
+      "kana": "ふべん",
+      "fr": "pas pratique"
+     },
+     "card": "不便"
     },
     {
      "id": "k4-28-合う-lecture",
-     "q": "Comment se lit **合う** ?",
+     "q": "**合う**の{読|よ}み{方|かた}は？",
      "explain": "{合|あ}う : convenir, aller ensemble.",
      "type": "choice",
      "choices": [
@@ -926,11 +1463,17 @@
       "あう",
       "がっう"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{合|あ}う",
+      "kana": "あう",
+      "fr": "convenir, aller ensemble"
+     },
+     "card": "合う"
     },
     {
      "id": "k4-28-多い-ecrit",
-     "q": "Quel mot s'écrit **おおい** (nombreux) ?",
+     "q": "**おおい**（nombreux）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{多|おお}い : nombreux.",
      "type": "choice",
      "choices": [
@@ -939,11 +1482,17 @@
       "夕い",
       "足い"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{多|おお}い",
+      "kana": "おおい",
+      "fr": "nombreux"
+     },
+     "card": "多い"
     },
     {
      "id": "k4-28-多い-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "東京は人が**多い**です。",
      "explain": "**多い** se lit おおい ici ({多|おお}い : nombreux). « À Tokyo, il y a beaucoup de monde. »",
      "type": "choice",
@@ -953,11 +1502,17 @@
       "おおい",
       "まえ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{多|おお}い",
+      "kana": "おおい",
+      "fr": "nombreux"
+     },
+     "card": "多い"
     },
     {
      "id": "k4-28-多-kanji",
-     "q": "Quel kanji veut dire « nombreux » ?",
+     "q": "「nombreux」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**多** : nombreux. Deux soirs 夕 empilés : beaucoup de jours, beaucoup.",
      "type": "choice",
      "choices": [
@@ -966,11 +1521,17 @@
       "持",
       "夕"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "多",
+      "kana": "タ、おお(い)",
+      "fr": "nombreux"
+     },
+     "card": "多"
     },
     {
      "id": "k4-28-多い-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{多|おお}い se lit おおい, pas たい.",
      "type": "choice",
      "choices": [
@@ -979,7 +1540,52 @@
       "以下 → いか",
       "以上 → いじょう"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{多|おお}い",
+      "kana": "おおい",
+      "fr": "nombreux"
+     },
+     "card": "多い"
+    },
+    {
+     "id": "k4-28-少ない-ecrit",
+     "q": "**すくない**（peu nombreux）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{少|すく}ない : peu nombreux.",
+     "type": "choice",
+     "choices": [
+      "暗ない",
+      "少ない",
+      "歩ない",
+      "小ない"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "{少|すく}ない",
+      "kana": "すくない",
+      "fr": "peu nombreux"
+     },
+     "card": "少ない"
+    },
+    {
+     "id": "k4-28-少ない-phrase",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+     "jp": "この町はレストランが**少ない**です。",
+     "explain": "**少ない** se lit すくない ici ({少|すく}ない : peu nombreux). « Dans cette ville, il y a peu de restaurants. »",
+     "type": "choice",
+     "choices": [
+      "はたらく",
+      "からだ",
+      "すくない",
+      "さんぷん"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{少|すく}ない",
+      "kana": "すくない",
+      "fr": "peu nombreux"
+     },
+     "card": "少ない"
     }
    ]
   },
@@ -992,6 +1598,20 @@
      "p": [
       "**On** : ジュウ、チョウ　**Kun** : おも(い)、かさ(ねる)",
       "Une personne qui porte un gros sac sur la terre 里 : c'est lourd."
+     ],
+     "ex": [
+      {
+       "jp": "{重|おも}い{荷物|にもつ}を{持|も}ちましょうか。",
+       "fr": "Voulez-vous que je porte ce bagage lourd ?"
+      },
+      {
+       "jp": "{毎朝|まいあさ}{体重|たいじゅう}を{量|はか}ります。",
+       "fr": "Je me pèse tous les matins."
+      },
+      {
+       "jp": "この{荷物|にもつ}はとても{重|おも}いです。",
+       "fr": "Ce bagage est très lourd."
+      }
      ],
      "vocab": [
       {
@@ -1010,6 +1630,20 @@
       "**On** : ケイ　**Kun** : かる(い)",
       "Un char 車 et une tige fine : léger à tirer."
      ],
+     "ex": [
+      {
+       "jp": "この{自転車|じてんしゃ}は{軽|かる}いです。",
+       "fr": "Ce vélo est léger."
+      },
+      {
+       "jp": "{軽|かる}い{荷物|にもつ}は{私|わたし}が{持|も}ちます。",
+       "fr": "Je porte les bagages légers."
+      },
+      {
+       "jp": "{新|あたら}しいパソコンは{軽|かる}いです。",
+       "fr": "Le nouvel ordinateur est léger."
+      }
+     ],
      "vocab": [
       {
        "jp": "{軽|かる}い",
@@ -1022,6 +1656,20 @@
      "p": [
       "**On** : コウ　**Kun** : ひろ(い)",
       "Un abri 广 et un bras ム qui s'étend : un espace large."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}の{部屋|へや}は{広|ひろ}いです。",
+       "fr": "La chambre de mon grand frère est spacieuse."
+      },
+      {
+       "jp": "{新|あたら}しい{部屋|へや}は{広|ひろ}いです。",
+       "fr": "Ma nouvelle chambre est spacieuse."
+      },
+      {
+       "jp": "{太平洋|たいへいよう}はとても{広|ひろ}いです。",
+       "fr": "L'océan Pacifique est immense."
+      }
      ],
      "vocab": [
       {
@@ -1036,6 +1684,20 @@
       "**On** : タン　**Kun** : みじか(い)",
       "Une flèche 矢 et un bol 豆 : des objets courts."
      ],
+     "ex": [
+      {
+       "jp": "{夏休|なつやす}みは{短|みじか}いです。",
+       "fr": "Les vacances d'été sont courtes."
+      },
+      {
+       "jp": "{冬|ふゆ}は{日|ひ}が{短|みじか}いです。",
+       "fr": "En hiver, les jours sont courts."
+      },
+      {
+       "jp": "{妹|いもうと}は{短|みじか}いスカートが{好|す}きです。",
+       "fr": "Ma petite sœur aime les jupes courtes."
+      }
+     ],
      "vocab": [
       {
        "jp": "{短|みじか}い",
@@ -1048,6 +1710,20 @@
      "p": [
       "**On** : テイ　**Kun** : ひく(い)",
       "Une personne 亻 et une base 氐 : tout en bas."
+     ],
+     "ex": [
+      {
+       "jp": "{兄|あに}は{背|せ}が{低|ひく}いです。",
+       "fr": "Mon grand frère est petit."
+      },
+      {
+       "jp": "{田中|たなか}さんはせが{低|ひく}いです。",
+       "fr": "M. Tanaka est petit (de taille)."
+      },
+      {
+       "jp": "{低|ひく}い{声|こえ}で{話|はな}してください。",
+       "fr": "Parlez à voix basse, s'il vous plaît."
+      }
      ],
      "vocab": [
       {
@@ -1067,7 +1743,7 @@
    "exercises": [
     {
      "id": "k4-29-重-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "重",
      "explain": "**重** : lourd. Une personne qui porte un gros sac sur la terre 里 : c'est lourd.",
      "type": "choice",
@@ -1077,11 +1753,17 @@
       "neuf",
       "écrire"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "重",
+      "kana": "ジュウ、チョウ、おも(い)、かさ(ねる)",
+      "fr": "lourd"
+     },
+     "card": "重"
     },
     {
      "id": "k4-29-軽-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "軽",
      "explain": "**軽** : léger. Un char 車 et une tige fine : léger à tirer.",
      "type": "choice",
@@ -1091,11 +1773,17 @@
       "corps",
       "léger"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "軽",
+      "kana": "ケイ、かる(い)",
+      "fr": "léger"
+     },
+     "card": "軽"
     },
     {
      "id": "k4-29-広-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "広",
      "explain": "**広** : large, spacieux. Un abri 广 et un bras ム qui s'étend : un espace large.",
      "type": "choice",
@@ -1105,11 +1793,17 @@
       "plan, schéma",
       "village"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "広",
+      "kana": "コウ、ひろ(い)",
+      "fr": "large, spacieux"
+     },
+     "card": "広"
     },
     {
      "id": "k4-29-短-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "短",
      "explain": "**短** : court. Une flèche 矢 et un bol 豆 : des objets courts.",
      "type": "choice",
@@ -1119,11 +1813,17 @@
       "esprit, énergie",
       "apprendre, s'exercer"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "短",
+      "kana": "タン、みじか(い)",
+      "fr": "court"
+     },
+     "card": "短"
     },
     {
      "id": "k4-29-低-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "低",
      "explain": "**低** : bas. Une personne 亻 et une base 氐 : tout en bas.",
      "type": "choice",
@@ -1133,11 +1833,17 @@
       "fleur",
       "grand bâtiment"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "低",
+      "kana": "テイ、ひく(い)",
+      "fr": "bas"
+     },
+     "card": "低"
     },
     {
      "id": "k4-29-重い-lecture",
-     "q": "Comment se lit **重い** ?",
+     "q": "**重い**の{読|よ}み{方|かた}は？",
      "explain": "{重|おも}い : lourd.",
      "type": "choice",
      "choices": [
@@ -1146,11 +1852,17 @@
       "ちょうい",
       "いま"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{重|おも}い",
+      "kana": "おもい",
+      "fr": "lourd"
+     },
+     "card": "重い"
     },
     {
      "id": "k4-29-軽い-lecture",
-     "q": "Comment se lit **軽い** ?",
+     "q": "**軽い**の{読|よ}み{方|かた}は？",
      "explain": "{軽|かる}い : léger.",
      "type": "choice",
      "choices": [
@@ -1159,11 +1871,17 @@
       "おおきい",
       "さんぷん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{軽|かる}い",
+      "kana": "かるい",
+      "fr": "léger"
+     },
+     "card": "軽い"
     },
     {
      "id": "k4-29-広い-lecture",
-     "q": "Comment se lit **広い** ?",
+     "q": "**広い**の{読|よ}み{方|かた}は？",
      "explain": "{広|ひろ}い : large, spacieux.",
      "type": "choice",
      "choices": [
@@ -1172,11 +1890,17 @@
       "ろっぴゃく",
       "ひろい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{広|ひろ}い",
+      "kana": "ひろい",
+      "fr": "large, spacieux"
+     },
+     "card": "広い"
     },
     {
      "id": "k4-29-短い-lecture",
-     "q": "Comment se lit **短い** ?",
+     "q": "**短い**の{読|よ}み{方|かた}は？",
      "explain": "{短|みじか}い : court.",
      "type": "choice",
      "choices": [
@@ -1185,11 +1909,17 @@
       "みじかい",
       "たんい"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{短|みじか}い",
+      "kana": "みじかい",
+      "fr": "court"
+     },
+     "card": "短い"
     },
     {
      "id": "k4-29-低い-lecture",
-     "q": "Comment se lit **低い** ?",
+     "q": "**低い**の{読|よ}み{方|かた}は？",
      "explain": "{低|ひく}い : bas.",
      "type": "choice",
      "choices": [
@@ -1198,11 +1928,17 @@
       "きょうしつ",
       "ひくい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{低|ひく}い",
+      "kana": "ひくい",
+      "fr": "bas"
+     },
+     "card": "低い"
     },
     {
      "id": "k4-29-重い-ecrit",
-     "q": "Quel mot s'écrit **おもい** (lourd) ?",
+     "q": "**おもい**（lourd）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{重|おも}い : lourd.",
      "type": "choice",
      "choices": [
@@ -1211,11 +1947,17 @@
       "重い",
       "動い"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{重|おも}い",
+      "kana": "おもい",
+      "fr": "lourd"
+     },
+     "card": "重い"
     },
     {
      "id": "k4-29-重い-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "このかばんはとても**重い**です。",
      "explain": "**重い** se lit おもい ici ({重|おも}い : lourd). « Ce sac est très lourd. »",
      "type": "choice",
@@ -1225,11 +1967,17 @@
       "ちょうい",
       "おもい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{重|おも}い",
+      "kana": "おもい",
+      "fr": "lourd"
+     },
+     "card": "重い"
     },
     {
      "id": "k4-29-重-kanji",
-     "q": "Quel kanji veut dire « lourd » ?",
+     "q": "「lourd」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**重** : lourd. Une personne qui porte un gros sac sur la terre 里 : c'est lourd.",
      "type": "choice",
      "choices": [
@@ -1238,11 +1986,17 @@
       "重",
       "動"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "重",
+      "kana": "ジュウ、チョウ、おも(い)、かさ(ねる)",
+      "fr": "lourd"
+     },
+     "card": "重"
     },
     {
      "id": "k4-29-重い-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{重|おも}い se lit おもい, pas じゅうい.",
      "type": "choice",
      "choices": [
@@ -1251,11 +2005,17 @@
       "体重 → たいじゅう",
       "広い → ひろい"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{重|おも}い",
+      "kana": "おもい",
+      "fr": "lourd"
+     },
+     "card": "重い"
     },
     {
      "id": "k4-29-軽い-ecrit",
-     "q": "Quel mot s'écrit **かるい** (léger) ?",
+     "q": "**かるい**（léger）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{軽|かる}い : léger.",
      "type": "choice",
      "choices": [
@@ -1264,11 +2024,17 @@
       "軽い",
       "転い"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{軽|かる}い",
+      "kana": "かるい",
+      "fr": "léger"
+     },
+     "card": "軽い"
     },
     {
      "id": "k4-29-軽い-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "この自転車は**軽い**です。",
      "explain": "**軽い** se lit かるい ici ({軽|かる}い : léger). « Ce vélo est léger. »",
      "type": "choice",
@@ -1278,7 +2044,51 @@
       "きもの",
       "いっかい"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{軽|かる}い",
+      "kana": "かるい",
+      "fr": "léger"
+     },
+     "card": "軽い"
+    },
+    {
+     "id": "k4-29-軽-kanji",
+     "q": "「léger」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**軽** : léger. Un char 車 et une tige fine : léger à tirer.",
+     "type": "choice",
+     "choices": [
+      "転",
+      "起",
+      "軽",
+      "経"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "軽",
+      "kana": "ケイ、かる(い)",
+      "fr": "léger"
+     },
+     "card": "軽"
+    },
+    {
+     "id": "k4-29-広い-ecrit",
+     "q": "**ひろい**（large, spacieux）は{漢字|かんじ}でどう{書|か}きますか。",
+     "explain": "{広|ひろ}い : large, spacieux.",
+     "type": "choice",
+     "choices": [
+      "応い",
+      "館い",
+      "広い",
+      "店い"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{広|ひろ}い",
+      "kana": "ひろい",
+      "fr": "large, spacieux"
+     },
+     "card": "広い"
     }
    ]
   },
@@ -1291,6 +2101,20 @@
      "p": [
       "**On** : タイ、タ　**Kun** : ふと(い)",
       "Grand 大 avec un point en bas : encore plus gros."
+     ],
+     "ex": [
+      {
+       "jp": "この{木|き}はとても{太|ふと}いです。",
+       "fr": "Cet arbre est très épais."
+      },
+      {
+       "jp": "{太平洋|たいへいよう}はとても{広|ひろ}いです。",
+       "fr": "L'océan Pacifique est immense."
+      },
+      {
+       "jp": "{太|ふと}いペンで{名前|なまえ}を{書|か}きました。",
+       "fr": "J'ai écrit mon nom avec un gros feutre."
+      }
      ],
      "vocab": [
       {
@@ -1313,6 +2137,20 @@
       "**On** : ジャク　**Kun** : よわ(い)",
       "Deux arcs 弓 aux cordes usées : faible."
      ],
+     "ex": [
+      {
+       "jp": "{兄|あに}はお{酒|さけ}に{弱|よわ}いです。",
+       "fr": "Mon grand frère ne tient pas l'alcool."
+      },
+      {
+       "jp": "{祖|そ}{母|ぼ}は{体|からだ}が{弱|よわ}いです。",
+       "fr": "Ma grand-mère est de santé fragile."
+      },
+      {
+       "jp": "{私|わたし}は{数学|すうがく}が{弱|よわ}いです。",
+       "fr": "Je suis faible en maths."
+      }
+     ],
      "vocab": [
       {
        "jp": "{弱|よわ}い",
@@ -1325,6 +2163,20 @@
      "p": [
       "**On** : ケン、コン　**Kun** : た(てる)",
       "Un pinceau 聿 qui trace un plan au sol 廴 : on construit."
+     ],
+     "ex": [
+      {
+       "jp": "あの{白|しろ}い{建物|たてもの}は{病院|びょういん}です。",
+       "fr": "Ce bâtiment blanc là-bas, c'est l'hôpital."
+      },
+      {
+       "jp": "あの{白|しろ}い{建物|たてもの}は{病院|びょういん}です。",
+       "fr": "Ce bâtiment blanc est un hôpital."
+      },
+      {
+       "jp": "あの{古|ふる}い{建物|たてもの}は{図書館|としょかん}です。",
+       "fr": "Ce vieux bâtiment est la bibliothèque."
+      }
      ],
      "vocab": [
       {
@@ -1343,6 +2195,20 @@
       "**On** : シツ　**Kun** : —",
       "Deux haches 斤 sur de l'argent 貝 : le gage qui garantit la qualité."
      ],
+     "ex": [
+      {
+       "jp": "{先生|せんせい}、{質問|しつもん}があります。",
+       "fr": "Monsieur (le professeur), j'ai une question."
+      },
+      {
+       "jp": "{先生|せんせい}の{質問|しつもん}に{答|こた}えます。",
+       "fr": "Je réponds à la question du professeur."
+      },
+      {
+       "jp": "{何|なに}か{質問|しつもん}はありますか。",
+       "fr": "Avez-vous des questions ?"
+      }
+     ],
      "vocab": [
       {
        "jp": "{質問|しつもん}",
@@ -1355,6 +2221,20 @@
      "p": [
       "**On** : ヒン　**Kun** : しな",
       "Trois bouches 口 : les articles empilés à l'étal."
+     ],
+     "ex": [
+      {
+       "jp": "この{店|みせ}の{品物|しなもの}は{安|やす}いです。",
+       "fr": "Les articles de ce magasin sont bon marché."
+      },
+      {
+       "jp": "{美術館|びじゅつかん}で{古|ふる}い{作品|さくひん}を{見|み}ました。",
+       "fr": "J'ai vu d'anciennes œuvres au musée."
+      },
+      {
+       "jp": "この{店|みせ}はいい{品物|しなもの}を{売|う}っています。",
+       "fr": "Ce magasin vend de bons articles."
+      }
      ],
      "vocab": [
       {
@@ -1379,7 +2259,7 @@
    "exercises": [
     {
      "id": "k4-30-太-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "太",
      "explain": "**太** : gros, épais. Grand 大 avec un point en bas : encore plus gros.",
      "type": "choice",
@@ -1389,11 +2269,17 @@
       "gros, épais",
       "personne (qui fait)"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "太",
+      "kana": "タイ、タ、ふと(い)",
+      "fr": "gros, épais"
+     },
+     "card": "太"
     },
     {
      "id": "k4-30-弱-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "弱",
      "explain": "**弱** : faible. Deux arcs 弓 aux cordes usées : faible.",
      "type": "choice",
@@ -1403,11 +2289,17 @@
       "penser",
       "loin"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "弱",
+      "kana": "ジャク、よわ(い)",
+      "fr": "faible"
+     },
+     "card": "弱"
     },
     {
      "id": "k4-30-建-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "建",
      "explain": "**建** : construire. Un pinceau 聿 qui trace un plan au sol 廴 : on construit.",
      "type": "choice",
@@ -1417,11 +2309,17 @@
       "rizière",
       "construire"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "建",
+      "kana": "ケン、コン、た(てる)",
+      "fr": "construire"
+     },
+     "card": "建"
     },
     {
      "id": "k4-30-質-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "質",
      "explain": "**質** : qualité, question. Deux haches 斤 sur de l'argent 貝 : le gage qui garantit la qualité.",
      "type": "choice",
@@ -1431,11 +2329,17 @@
       "vie, naître",
       "monde, limite"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "質",
+      "kana": "シツ",
+      "fr": "qualité, question"
+     },
+     "card": "質"
     },
     {
      "id": "k4-30-品-sens",
-     "q": "Que veut dire ce kanji ?",
+     "q": "この{漢字|かんじ}の{意味|いみ}は？",
      "jp": "品",
      "explain": "**品** : article, marchandise. Trois bouches 口 : les articles empilés à l'étal.",
      "type": "choice",
@@ -1445,11 +2349,17 @@
       "question",
       "couleur"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "品",
+      "kana": "ヒン、しな",
+      "fr": "article, marchandise"
+     },
+     "card": "品"
     },
     {
      "id": "k4-30-太い-lecture",
-     "q": "Comment se lit **太い** ?",
+     "q": "**太い**の{読|よ}み{方|かた}は？",
      "explain": "{太|ふと}い : gros, épais.",
      "type": "choice",
      "choices": [
@@ -1458,11 +2368,17 @@
       "ふとい",
       "どうぶつ"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{太|ふと}い",
+      "kana": "ふとい",
+      "fr": "gros, épais"
+     },
+     "card": "太い"
     },
     {
      "id": "k4-30-弱い-lecture",
-     "q": "Comment se lit **弱い** ?",
+     "q": "**弱い**の{読|よ}み{方|かた}は？",
      "explain": "{弱|よわ}い : faible.",
      "type": "choice",
      "choices": [
@@ -1471,11 +2387,17 @@
       "にゅういん",
       "よわい"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{弱|よわ}い",
+      "kana": "よわい",
+      "fr": "faible"
+     },
+     "card": "弱い"
     },
     {
      "id": "k4-30-建てる-lecture",
-     "q": "Comment se lit **建てる** ?",
+     "q": "**建てる**の{読|よ}み{方|かた}は？",
      "explain": "{建|た}てる : construire.",
      "type": "choice",
      "choices": [
@@ -1484,11 +2406,17 @@
       "けんてる",
       "たてる"
      ],
-     "a": 3
+     "a": 3,
+     "star": {
+      "jp": "{建|た}てる",
+      "kana": "たてる",
+      "fr": "construire"
+     },
+     "card": "建てる"
     },
     {
      "id": "k4-30-質問-lecture",
-     "q": "Comment se lit **質問** ?",
+     "q": "**質問**の{読|よ}み{方|かた}は？",
      "explain": "{質問|しつもん} : question.",
      "type": "choice",
      "choices": [
@@ -1497,11 +2425,17 @@
       "せんせい",
       "いろ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{質問|しつもん}",
+      "kana": "しつもん",
+      "fr": "question"
+     },
+     "card": "質問"
     },
     {
      "id": "k4-30-品物-lecture",
-     "q": "Comment se lit **品物** ?",
+     "q": "**品物**の{読|よ}み{方|かた}は？",
      "explain": "{品物|しなもの} : marchandise.",
      "type": "choice",
      "choices": [
@@ -1510,11 +2444,17 @@
       "しなもの",
       "おんなのひと"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{品物|しなもの}",
+      "kana": "しなもの",
+      "fr": "marchandise"
+     },
+     "card": "品物"
     },
     {
      "id": "k4-30-太い-ecrit",
-     "q": "Quel mot s'écrit **ふとい** (gros, épais) ?",
+     "q": "**ふとい**（gros, épais）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{太|ふと}い : gros, épais.",
      "type": "choice",
      "choices": [
@@ -1523,11 +2463,17 @@
       "太い",
       "外い"
      ],
-     "a": 2
+     "a": 2,
+     "star": {
+      "jp": "{太|ふと}い",
+      "kana": "ふとい",
+      "fr": "gros, épais"
+     },
+     "card": "太い"
     },
     {
      "id": "k4-30-太い-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "この木はとても**太い**です。",
      "explain": "**太い** se lit ふとい ici ({太|ふと}い : gros, épais). « Cet arbre est très épais. »",
      "type": "choice",
@@ -1537,11 +2483,17 @@
       "て",
       "きっさてん"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{太|ふと}い",
+      "kana": "ふとい",
+      "fr": "gros, épais"
+     },
+     "card": "太い"
     },
     {
      "id": "k4-30-太-kanji",
-     "q": "Quel kanji veut dire « gros, épais » ?",
+     "q": "「gros, épais」という{意味|いみ}の{漢字|かんじ}は？",
      "explain": "**太** : gros, épais. Grand 大 avec un point en bas : encore plus gros.",
      "type": "choice",
      "choices": [
@@ -1550,11 +2502,17 @@
       "題",
       "犬"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "太",
+      "kana": "タイ、タ、ふと(い)",
+      "fr": "gros, épais"
+     },
+     "card": "太"
     },
     {
      "id": "k4-30-太い-intrus",
-     "q": "Un seul de ces mots est mal lu. Lequel ?",
+     "q": "{読|よ}み{方|かた}が{間違|まちが}っているのはどれ？",
      "explain": "{太|ふと}い se lit ふとい, pas たい.",
      "type": "choice",
      "choices": [
@@ -1563,11 +2521,17 @@
       "弱い → よわい",
       "品物 → しなもの"
      ],
-     "a": 0
+     "a": 0,
+     "star": {
+      "jp": "{太|ふと}い",
+      "kana": "ふとい",
+      "fr": "gros, épais"
+     },
+     "card": "太い"
     },
     {
      "id": "k4-30-建てる-ecrit",
-     "q": "Quel mot s'écrit **たてる** (construire) ?",
+     "q": "**たてる**（construire）は{漢字|かんじ}でどう{書|か}きますか。",
      "explain": "{建|た}てる : construire.",
      "type": "choice",
      "choices": [
@@ -1576,11 +2540,17 @@
       "健てる",
       "古てる"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{建|た}てる",
+      "kana": "たてる",
+      "fr": "construire"
+     },
+     "card": "建てる"
     },
     {
      "id": "k4-30-太る-phrase",
-     "q": "Comment se lit le mot en gras ?",
+     "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
      "jp": "{最近|さいきん}、{少|すこ}し**太**りました。",
      "explain": "**太** se lit ふと ici ({太|ふと}る : grossir). « Ces derniers temps, j'ai un peu grossi. »",
      "type": "choice",
@@ -1590,7 +2560,52 @@
       "かね",
       "たみ"
      ],
-     "a": 1
+     "a": 1,
+     "star": {
+      "jp": "{太|ふと}る",
+      "kana": "ふとる",
+      "fr": "grossir"
+     },
+     "card": "太る"
+    },
+    {
+     "id": "k4-30-弱-kanji",
+     "q": "「faible」という{意味|いみ}の{漢字|かんじ}は？",
+     "explain": "**弱** : faible. Deux arcs 弓 aux cordes usées : faible.",
+     "type": "choice",
+     "choices": [
+      "強",
+      "弱",
+      "羽",
+      "引"
+     ],
+     "a": 1,
+     "star": {
+      "jp": "弱",
+      "kana": "ジャク、よわ(い)",
+      "fr": "faible"
+     },
+     "card": "弱"
+    },
+    {
+     "id": "k4-30-質問-trou",
+     "q": "**しつもん**（question）：{足|た}りない{漢字|かんじ}はどれ？",
+     "jp": "質＿",
+     "explain": "{質問|しつもん} : question.",
+     "type": "choice",
+     "choices": [
+      "台",
+      "間",
+      "問",
+      "死"
+     ],
+     "a": 2,
+     "star": {
+      "jp": "{質問|しつもん}",
+      "kana": "しつもん",
+      "fr": "question"
+     },
+     "card": "質問"
     }
    ]
   }
@@ -1598,7 +2613,7 @@
  "test": [
   {
    "id": "k4-b06-思い出-lecture",
-   "q": "Comment se lit **思い出** ?",
+   "q": "**思い出**の{読|よ}み{方|かた}は？",
    "explain": "{思|おも}い{出|で} : souvenir.",
    "type": "choice",
    "choices": [
@@ -1607,24 +2622,17 @@
     "おもいで",
     "ふあん"
    ],
-   "a": 2
-  },
-  {
-   "id": "k4-b06-知る-ecrit",
-   "q": "Quel mot s'écrit **しる** (savoir, connaître) ?",
-   "explain": "{知|し}る : savoir, connaître.",
-   "type": "choice",
-   "choices": [
-    "知る",
-    "和る",
-    "短る",
-    "少る"
-   ],
-   "a": 0
+   "a": 2,
+   "star": {
+    "jp": "{思|おも}い{出|で}",
+    "kana": "おもいで",
+    "fr": "souvenir"
+   },
+   "card": "思い出"
   },
   {
    "id": "k4-b06-お知らせ-lecture",
-   "q": "Comment se lit **お知らせ** ?",
+   "q": "**お知らせ**の{読|よ}み{方|かた}は？",
    "explain": "お{知|し}らせ : avis, annonce.",
    "type": "choice",
    "choices": [
@@ -1633,11 +2641,17 @@
     "つく",
     "じゅうがつ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "お{知|し}らせ",
+    "kana": "おしらせ",
+    "fr": "avis, annonce"
+   },
+   "card": "お知らせ"
   },
   {
    "id": "k4-b06-意味-ecrit",
-   "q": "Quel mot s'écrit **いみ** (sens, signification) ?",
+   "q": "**いみ**（sens, signification）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{意味|いみ} : sens, signification.",
    "type": "choice",
    "choices": [
@@ -1646,11 +2660,17 @@
     "意味",
     "息味"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{意味|いみ}",
+    "kana": "いみ",
+    "fr": "sens, signification"
+   },
+   "card": "意味"
   },
   {
    "id": "k4-b06-注意-ecrit",
-   "q": "Quel mot s'écrit **ちゅうい** (attention) ?",
+   "q": "**ちゅうい**（attention）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{注意|ちゅうい} : attention.",
    "type": "choice",
    "choices": [
@@ -1659,11 +2679,17 @@
     "注意",
     "主意"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{注意|ちゅうい}",
+    "kana": "ちゅうい",
+    "fr": "attention"
+   },
+   "card": "注意"
   },
   {
    "id": "k4-b06-用意-lecture",
-   "q": "Comment se lit **用意** ?",
+   "q": "**用意**の{読|よ}み{方|かた}は？",
    "explain": "{用意|ようい} : préparation.",
    "type": "choice",
    "choices": [
@@ -1672,11 +2698,17 @@
     "もちい",
     "いちがつ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{用意|ようい}",
+    "kana": "ようい",
+    "fr": "préparation"
+   },
+   "card": "用意"
   },
   {
    "id": "k4-b06-興味-lecture",
-   "q": "Comment se lit **興味** ?",
+   "q": "**興味**の{読|よ}み{方|かた}は？",
    "explain": "{興味|きょうみ} : intérêt.",
    "type": "choice",
    "choices": [
@@ -1685,11 +2717,17 @@
     "きょうみ",
     "はつおん"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{興味|きょうみ}",
+    "kana": "きょうみ",
+    "fr": "intérêt"
+   },
+   "card": "興味"
   },
   {
    "id": "k4-b06-大好き-lecture",
-   "q": "Comment se lit **大好き** ?",
+   "q": "**大好き**の{読|よ}み{方|かた}は？",
    "explain": "{大好|だいす}き : adorer.",
    "type": "choice",
    "choices": [
@@ -1698,24 +2736,17 @@
     "おおすき",
     "だいこうき"
    ],
-   "a": 0
-  },
-  {
-   "id": "k4-b06-正しい-ecrit",
-   "q": "Quel mot s'écrit **ただしい** (correct, juste) ?",
-   "explain": "{正|ただ}しい : correct, juste.",
-   "type": "choice",
-   "choices": [
-    "音しい",
-    "五しい",
-    "正しい",
-    "止しい"
-   ],
-   "a": 2
+   "a": 0,
+   "star": {
+    "jp": "{大好|だいす}き",
+    "kana": "だいすき",
+    "fr": "adorer"
+   },
+   "card": "大好き"
   },
   {
    "id": "k4-b06-正月-lecture",
-   "q": "Comment se lit **正月** ?",
+   "q": "**正月**の{読|よ}み{方|かた}は？",
    "explain": "{正月|しょうがつ} : Nouvel An.",
    "type": "choice",
    "choices": [
@@ -1724,11 +2755,17 @@
     "しょうげつ",
     "どりょく"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{正月|しょうがつ}",
+    "kana": "しょうがつ",
+    "fr": "Nouvel An"
+   },
+   "card": "正月"
   },
   {
    "id": "k4-b06-注文-lecture",
-   "q": "Comment se lit **注文** ?",
+   "q": "**注文**の{読|よ}み{方|かた}は？",
    "explain": "{注文|ちゅうもん} : commande.",
    "type": "choice",
    "choices": [
@@ -1737,11 +2774,17 @@
     "そそもん",
     "ちゅうふみ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{注文|ちゅうもん}",
+    "kana": "ちゅうもん",
+    "fr": "commande"
+   },
+   "card": "注文"
   },
   {
    "id": "k4-b06-特に-ecrit",
-   "q": "Quel mot s'écrit **とくに** (surtout, en particulier) ?",
+   "q": "**とくに**（surtout, en particulier）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{特|とく}に : surtout, en particulier.",
    "type": "choice",
    "choices": [
@@ -1750,11 +2793,17 @@
     "特に",
     "物に"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{特|とく}に",
+    "kana": "とくに",
+    "fr": "surtout, en particulier"
+   },
+   "card": "特に"
   },
   {
    "id": "k4-b06-特別-lecture",
-   "q": "Comment se lit **特別** ?",
+   "q": "**特別**の{読|よ}み{方|かた}は？",
    "explain": "{特別|とくべつ} : spécial.",
    "type": "choice",
    "choices": [
@@ -1763,11 +2812,17 @@
     "しけん",
     "おや"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{特別|とくべつ}",
+    "kana": "とくべつ",
+    "fr": "spécial"
+   },
+   "card": "特別"
   },
   {
    "id": "k4-b06-特急-lecture",
-   "q": "Comment se lit **特急** ?",
+   "q": "**特急**の{読|よ}み{方|かた}は？",
    "explain": "{特急|とっきゅう} : train express (limité).",
    "type": "choice",
    "choices": [
@@ -1776,24 +2831,17 @@
     "とっきゅう",
     "とくきゅう"
    ],
-   "a": 2
-  },
-  {
-   "id": "k4-b06-少ない-ecrit",
-   "q": "Quel mot s'écrit **すくない** (peu nombreux) ?",
-   "explain": "{少|すく}ない : peu nombreux.",
-   "type": "choice",
-   "choices": [
-    "少ない",
-    "別ない",
-    "歩ない",
-    "小ない"
-   ],
-   "a": 0
+   "a": 2,
+   "star": {
+    "jp": "{特急|とっきゅう}",
+    "kana": "とっきゅう",
+    "fr": "train express (limité)"
+   },
+   "card": "特急"
   },
   {
    "id": "k4-b06-少し-lecture",
-   "q": "Comment se lit **少し** ?",
+   "q": "**少し**の{読|よ}み{方|かた}は？",
    "explain": "{少|すこ}し : un peu.",
    "type": "choice",
    "choices": [
@@ -1802,11 +2850,17 @@
     "はやし",
     "すこし"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{少|すこ}し",
+    "kana": "すこし",
+    "fr": "un peu"
+   },
+   "card": "少し"
   },
   {
    "id": "k4-b06-以上-ecrit",
-   "q": "Quel mot s'écrit **いじょう** (plus de, au-delà) ?",
+   "q": "**いじょう**（plus de, au-delà）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{以上|いじょう} : plus de, au-delà.",
    "type": "choice",
    "choices": [
@@ -1815,11 +2869,17 @@
     "帰上",
     "似上"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{以上|いじょう}",
+    "kana": "いじょう",
+    "fr": "plus de, au-delà"
+   },
+   "card": "以上"
   },
   {
    "id": "k4-b06-以下-lecture",
-   "q": "Comment se lit **以下** ?",
+   "q": "**以下**の{読|よ}み{方|かた}は？",
    "explain": "{以下|いか} : moins de, en dessous.",
    "type": "choice",
    "choices": [
@@ -1828,11 +2888,17 @@
     "だいすき",
     "いした"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{以下|いか}",
+    "kana": "いか",
+    "fr": "moins de, en dessous"
+   },
+   "card": "以下"
   },
   {
    "id": "k4-b06-以外-lecture",
-   "q": "Comment se lit **以外** ?",
+   "q": "**以外**の{読|よ}み{方|かた}は？",
    "explain": "{以外|いがい} : à part, sauf.",
    "type": "choice",
    "choices": [
@@ -1841,11 +2907,17 @@
     "よむ",
     "いはず"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{以外|いがい}",
+    "kana": "いがい",
+    "fr": "à part, sauf"
+   },
+   "card": "以外"
   },
   {
    "id": "k4-b06-以前-lecture",
-   "q": "Comment se lit **以前** ?",
+   "q": "**以前**の{読|よ}み{方|かた}は？",
    "explain": "{以前|いぜん} : auparavant.",
    "type": "choice",
    "choices": [
@@ -1854,11 +2926,17 @@
     "どうじ",
     "いぜん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{以前|いぜん}",
+    "kana": "いぜん",
+    "fr": "auparavant"
+   },
+   "card": "以前"
   },
   {
    "id": "k4-b06-今度-ecrit",
-   "q": "Quel mot s'écrit **こんど** (cette fois, la prochaine fois) ?",
+   "q": "**こんど**（cette fois, la prochaine fois）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{今度|こんど} : cette fois, la prochaine fois.",
    "type": "choice",
    "choices": [
@@ -1867,11 +2945,17 @@
     "会度",
     "七度"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{今度|こんど}",
+    "kana": "こんど",
+    "fr": "cette fois, la prochaine fois"
+   },
+   "card": "今度"
   },
   {
    "id": "k4-b06-一度-lecture",
-   "q": "Comment se lit **一度** ?",
+   "q": "**一度**の{読|よ}み{方|かた}は？",
    "explain": "{一度|いちど} : une fois.",
    "type": "choice",
    "choices": [
@@ -1880,11 +2964,17 @@
     "いちたび",
     "いちど"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{一度|いちど}",
+    "kana": "いちど",
+    "fr": "une fois"
+   },
+   "card": "一度"
   },
   {
    "id": "k4-b06-温度-lecture",
-   "q": "Comment se lit **温度** ?",
+   "q": "**温度**の{読|よ}み{方|かた}は？",
    "explain": "{温度|おんど} : température.",
    "type": "choice",
    "choices": [
@@ -1893,11 +2983,17 @@
     "ばあい",
     "おんど"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{温度|おんど}",
+    "kana": "おんど",
+    "fr": "température"
+   },
+   "card": "温度"
   },
   {
    "id": "k4-b06-不便-ecrit",
-   "q": "Quel mot s'écrit **ふべん** (pas pratique) ?",
+   "q": "**ふべん**（pas pratique）は{漢字|かんじ}でどう{書|か}きますか。",
    "explain": "{不便|ふべん} : pas pratique.",
    "type": "choice",
    "choices": [
@@ -1906,11 +3002,74 @@
     "木便",
     "下便"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{不便|ふべん}",
+    "kana": "ふべん",
+    "fr": "pas pratique"
+   },
+   "card": "不便"
+  },
+  {
+   "id": "k4-b06-不安-lecture",
+   "q": "**不安**の{読|よ}み{方|かた}は？",
+   "explain": "{不安|ふあん} : inquiétude.",
+   "type": "choice",
+   "choices": [
+    "ふやす",
+    "ふあん",
+    "しちがつ",
+    "ぶあん"
+   ],
+   "a": 1,
+   "star": {
+    "jp": "{不安|ふあん}",
+    "kana": "ふあん",
+    "fr": "inquiétude"
+   },
+   "card": "不安"
+  },
+  {
+   "id": "k4-b06-合う-ecrit",
+   "q": "**あう**（convenir, aller ensemble）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{合|あ}う : convenir, aller ensemble.",
+   "type": "choice",
+   "choices": [
+    "今う",
+    "答う",
+    "八う",
+    "合う"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{合|あ}う",
+    "kana": "あう",
+    "fr": "convenir, aller ensemble"
+   },
+   "card": "合う"
+  },
+  {
+   "id": "k4-b06-試合-ecrit",
+   "q": "**しあい**（match）は{漢字|かんじ}でどう{書|か}きますか。",
+   "explain": "{試合|しあい} : match.",
+   "type": "choice",
+   "choices": [
+    "式合",
+    "赤合",
+    "試合",
+    "説合"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{試合|しあい}",
+    "kana": "しあい",
+    "fr": "match"
+   },
+   "card": "試合"
   },
   {
    "id": "k4-b06-思う-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "あしたは雨が{降|ふ}ると**思**います。",
    "explain": "**思** se lit おも ici ({思|おも}う : penser). « Je pense qu'il pleuvra demain. »",
    "type": "choice",
@@ -1920,11 +3079,37 @@
     "あね",
     "おも"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{思|おも}う",
+    "kana": "おもう",
+    "fr": "penser"
+   },
+   "card": "思う"
+  },
+  {
+   "id": "k4-b06-思い出-phrase",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "{子供|こども}のころの**思い出**を話しました。",
+   "explain": "**思い出** se lit おもいで ici ({思|おも}い{出|で} : souvenir). « J'ai raconté des souvenirs d'enfance. »",
+   "type": "choice",
+   "choices": [
+    "おもいしゅつ",
+    "しいで",
+    "おもいだ",
+    "おもいで"
+   ],
+   "a": 3,
+   "star": {
+    "jp": "{思|おも}い{出|で}",
+    "kana": "おもいで",
+    "fr": "souvenir"
+   },
+   "card": "思い出"
   },
   {
    "id": "k4-b06-考える-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "よく**考え**てから、答えてください。",
    "explain": "**考え** se lit かんがえ ici ({考|かんが}える : réfléchir). « Réfléchissez bien avant de répondre. »",
    "type": "choice",
@@ -1934,11 +3119,17 @@
     "くすりえ",
     "くるまえ"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{考|かんが}える",
+    "kana": "かんがえる",
+    "fr": "réfléchir"
+   },
+   "card": "考える"
   },
   {
    "id": "k4-b06-知る-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "田中さんの電話ばんごうを**知**っていますか。",
    "explain": "**知** se lit し ici ({知|し}る : savoir, connaître). « Tu connais le numéro de téléphone de M. Tanaka ? »",
    "type": "choice",
@@ -1948,11 +3139,17 @@
     "ち",
     "し"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{知|し}る",
+    "kana": "しる",
+    "fr": "savoir, connaître"
+   },
+   "card": "知る"
   },
   {
    "id": "k4-b06-お知らせ-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "学校からの**お知らせ**を読みました。",
    "explain": "**お知らせ** se lit おしらせ ici (お{知|し}らせ : avis, annonce). « J'ai lu l'avis de l'école. »",
    "type": "choice",
@@ -1962,11 +3159,17 @@
     "おしらせ",
     "なつ"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "お{知|し}らせ",
+    "kana": "おしらせ",
+    "fr": "avis, annonce"
+   },
+   "card": "お知らせ"
   },
   {
    "id": "k4-b06-意味-phrase",
-   "q": "Comment se lit le mot en gras ?",
+   "q": "{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "この漢字の**意味**が分かりません。",
    "explain": "**意味** se lit いみ ici ({意味|いみ} : sens, signification). « Je ne comprends pas le sens de ce kanji. »",
    "type": "choice",
@@ -1976,27 +3179,19 @@
     "やきゅう",
     "いみ"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b06-注意-phrase",
-   "q": "Comment se lit le mot en gras ?",
-   "jp": "車に**注意**してください。",
-   "explain": "**注意** se lit ちゅうい ici ({注意|ちゅうい} : attention). « Faites attention aux voitures. »",
-   "type": "choice",
-   "choices": [
-    "べんり",
-    "ぎん",
-    "ちゅうい",
-    "ひっこす"
-   ],
-   "a": 2
+   "a": 3,
+   "star": {
+    "jp": "{意味|いみ}",
+    "kana": "いみ",
+    "fr": "sens, signification"
+   },
+   "card": "意味"
   }
  ],
  "examTest": [
   {
    "id": "k4-b06x-思う-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "この店は高いと**思**います。",
    "explain": "**思** se lit おも ici ({思|おも}う : penser). « Je pense que ce magasin est cher. »",
    "type": "choice",
@@ -2006,11 +3201,17 @@
     "とも",
     "ある"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{思|おも}う",
+    "kana": "おもう",
+    "fr": "penser"
+   },
+   "card": "思う"
   },
   {
    "id": "k4-b06x-考える-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "よく**考え**てから答えてください。",
    "explain": "**考え** se lit かんがえ ici ({考|かんが}える : réfléchir). « Réfléchissez bien avant de répondre. »",
    "type": "choice",
@@ -2020,11 +3221,17 @@
     "ちからえ",
     "はなしえ"
    ],
-   "a": 0
+   "a": 0,
+   "star": {
+    "jp": "{考|かんが}える",
+    "kana": "かんがえる",
+    "fr": "réfléchir"
+   },
+   "card": "考える"
   },
   {
    "id": "k4-b06x-知る-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "あの人の名前を**知**っていますか。",
    "explain": "**知** se lit し ici ({知|し}る : savoir, connaître). « Tu connais le nom de cette personne ? »",
    "type": "choice",
@@ -2034,11 +3241,37 @@
     "な",
     "し"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{知|し}る",
+    "kana": "しる",
+    "fr": "savoir, connaître"
+   },
+   "card": "知る"
+  },
+  {
+   "id": "k4-b06x-お知らせ-phrase",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "会社からの**お知らせ**を読みました。",
+   "explain": "**お知らせ** se lit おしらせ ici (お{知|し}らせ : avis, annonce). « J'ai lu l'avis de l'entreprise. »",
+   "type": "choice",
+   "choices": [
+    "けいけん",
+    "きもの",
+    "おしらせ",
+    "あかい"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "お{知|し}らせ",
+    "kana": "おしらせ",
+    "fr": "avis, annonce"
+   },
+   "card": "お知らせ"
   },
   {
    "id": "k4-b06x-意味-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "この漢字の**意味**は何ですか。",
    "explain": "**意味** se lit いみ ici ({意味|いみ} : sens, signification). « Quel est le sens de ce kanji ? »",
    "type": "choice",
@@ -2048,11 +3281,37 @@
     "いみ",
     "じだい"
    ],
-   "a": 2
+   "a": 2,
+   "star": {
+    "jp": "{意味|いみ}",
+    "kana": "いみ",
+    "fr": "sens, signification"
+   },
+   "card": "意味"
+  },
+  {
+   "id": "k4-b06x-注意-phrase",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "車に**注意**してください。",
+   "explain": "**注意** se lit ちゅうい ici ({注意|ちゅうい} : attention). « Faites attention aux voitures. »",
+   "type": "choice",
+   "choices": [
+    "ちゅうい",
+    "そと",
+    "ばんごはん",
+    "おとこのこ"
+   ],
+   "a": 0,
+   "star": {
+    "jp": "{注意|ちゅうい}",
+    "kana": "ちゅうい",
+    "fr": "attention"
+   },
+   "card": "注意"
   },
   {
    "id": "k4-b06x-好き-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "子どもはぎゅうにゅうが**好き**です。",
    "explain": "**好き** se lit すき ici ({好|す}き : aimer, apprécier). « Les enfants aiment le lait. »",
    "type": "choice",
@@ -2062,11 +3321,17 @@
     "むっつ",
     "すき"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{好|す}き",
+    "kana": "すき",
+    "fr": "aimer, apprécier"
+   },
+   "card": "好き"
   },
   {
    "id": "k4-b06x-悪い-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "昨日は天気が**悪**かったです。",
    "explain": "**悪** se lit わる ici ({悪|わる}い : mauvais). « Hier, il faisait mauvais. »",
    "type": "choice",
@@ -2076,11 +3341,17 @@
     "まえ",
     "おや"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{悪|わる}い",
+    "kana": "わるい",
+    "fr": "mauvais"
+   },
+   "card": "悪い"
   },
   {
    "id": "k4-b06x-正月-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "お**正月**に着物を着ました。",
    "explain": "**正月** se lit しょうがつ ici ({正月|しょうがつ} : Nouvel An). « J'ai porté un kimono au Nouvel An. »",
    "type": "choice",
@@ -2090,11 +3361,17 @@
     "しょうげつ",
     "しょうつき"
    ],
-   "a": 1
+   "a": 1,
+   "star": {
+    "jp": "{正月|しょうがつ}",
+    "kana": "しょうがつ",
+    "fr": "Nouvel An"
+   },
+   "card": "正月"
   },
   {
    "id": "k4-b06x-注文-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "店でピザを**注文**しました。",
    "explain": "**注文** se lit ちゅうもん ici ({注文|ちゅうもん} : commande). « J'ai commandé une pizza au restaurant. »",
    "type": "choice",
@@ -2104,11 +3381,37 @@
     "ちゅうふみ",
     "ちゅうもん"
    ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{注文|ちゅうもん}",
+    "kana": "ちゅうもん",
+    "fr": "commande"
+   },
+   "card": "注文"
+  },
+  {
+   "id": "k4-b06x-特に-phrase",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
+   "jp": "日本の料理は**特**に魚がおいしいです。",
+   "explain": "**特** se lit とく ici ({特|とく}に : surtout, en particulier). « Dans la cuisine japonaise, le poisson est particulièrement bon. »",
+   "type": "choice",
+   "choices": [
+    "かね",
+    "しな",
+    "とく",
+    "にし"
+   ],
+   "a": 2,
+   "star": {
+    "jp": "{特|とく}に",
+    "kana": "とくに",
+    "fr": "surtout, en particulier"
+   },
+   "card": "特に"
   },
   {
    "id": "k4-b06x-特別-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
+   "q": "ふりがななし：{太字|ふとじ}の{言葉|ことば}の{読|よ}み{方|かた}は？",
    "jp": "今日は**特別**な日です。",
    "explain": "**特別** se lit とくべつ ici ({特別|とくべつ} : spécial). « Aujourd'hui est un jour spécial. »",
    "type": "choice",
@@ -2118,49 +3421,13 @@
     "りゅうがく",
     "とくべつ"
    ],
-   "a": 3
-  },
-  {
-   "id": "k4-b06x-多い-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "この町には古い店が**多い**です。",
-   "explain": "**多い** se lit おおい ici ({多|おお}い : nombreux). « Dans cette ville, il y a beaucoup de vieux magasins. »",
-   "type": "choice",
-   "choices": [
-    "おおい",
-    "けんきゅうしつ",
-    "きた",
-    "がか"
-   ],
-   "a": 0
-  },
-  {
-   "id": "k4-b06x-少ない-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "この町はレストランが**少ない**です。",
-   "explain": "**少ない** se lit すくない ici ({少|すく}ない : peu nombreux). « Dans cette ville, il y a peu de restaurants. »",
-   "type": "choice",
-   "choices": [
-    "すくない",
-    "おもい",
-    "こうぎょう",
-    "いま"
-   ],
-   "a": 0
-  },
-  {
-   "id": "k4-b06x-少し-phrase",
-   "q": "Sans furigana : comment se lit le mot en gras ?",
-   "jp": "日本語が**少**し分かります。",
-   "explain": "**少** se lit すこ ici ({少|すこ}し : un peu). « Je comprends un peu le japonais. »",
-   "type": "choice",
-   "choices": [
-    "やす",
-    "はか",
-    "つよ",
-    "すこ"
-   ],
-   "a": 3
+   "a": 3,
+   "star": {
+    "jp": "{特別|とくべつ}",
+    "kana": "とくべつ",
+    "fr": "spécial"
+   },
+   "card": "特別"
   }
  ]
 }
