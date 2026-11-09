@@ -18,6 +18,14 @@ Fais comme si la conversation continuait : salue-le brièvement, puis en 4-5 lig
   **vocabulaire**, et celle-ci, **kanji** (https://sapeuri2.github.io/nihongo-kanji/).
 - Une instance Claude s'occupe de chaque appli. Il fait passer lui-même les messages entre elles (copier-coller).
 
+## PASSATION (2026-11-09) — prioritaire
+
+Un **agent central** reprend tout le code des 3 applis et du moteur commun (rapport : `PASSATION.md`).
+Cette instance ne gère plus que le **contenu** : `data/sources/`, `data/` généré, `tools/generer-kanji.mjs`,
+`tools/ordre-kanji.mjs`, `tools/verifier-appli.mjs`, `PROGRAMME.md`, docs. Ne plus modifier `js/`, `css/`, `sw.js`,
+`index.html` ni les outils du moteur. Si l'utilisateur demande une évolution du code : lui rappeler qu'elle passe
+par l'agent central (on peut rédiger la demande pour lui).
+
 ## RÈGLE D'OR
 
 Ne modifie **JAMAIS** les fichiers du moteur : `js/app.js`, `js/state.js`, `js/sync.js`, `js/text.js`, `js/liste.js`,
