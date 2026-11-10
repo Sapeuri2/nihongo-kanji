@@ -15,10 +15,19 @@ function empty() {
   return { v: 1, resetAt: 0, lessons: {}, tests: {}, items: {}, settings: { furigana: true, t: 0 }, stats: { streak: 0, best: 0, t: 0 } };
 }
 
+// Champs inconnus de cette version (ajoutés par une version plus récente du moteur, ouverte sur un autre
+// appareil ou dans un autre onglet) : gardés tels quels, on n'efface jamais ce qu'on ne connaît pas.
+// Déclaration de fonction (et non `const`) : elle sert dès la lecture au démarrage, plus haut dans le fichier.
+function unknown(s) {
+  const known = ['v', 'resetAt', 'lessons', 'tests', 'items', 'settings', 'stats'];
+  return Object.fromEntries(Object.entries(s).filter(([k]) => !known.includes(k)));
+}
+
 function normalize(s) {
   const e = empty();
-  if (!s || typeof s !== 'object') return e;
+  if (!s || typeof s !== 'object' || Array.isArray(s)) return e;
   return {
+    ...unknown(s),
     v: 1,
     resetAt: s.resetAt || 0,
     lessons: s.lessons || {},
@@ -30,11 +39,16 @@ function normalize(s) {
 }
 
 function load() {
+  let raw = null;
+  try { raw = localStorage.getItem(KEY); } catch { return empty(); } // stockage indisponible
+  if (!raw) return empty();
   try {
-    const raw = localStorage.getItem(KEY);
-    if (raw) return normalize(JSON.parse(raw));
-  } catch { /* stockage indisponible : on repart de zéro */ }
-  return empty();
+    return normalize(JSON.parse(raw));
+  } catch {
+    // Progression illisible : on la met de côté (une seule fois) au lieu de l'écraser à la prochaine sauvegarde.
+    try { if (!localStorage.getItem(`${KEY}:secours`)) localStorage.setItem(`${KEY}:secours`, raw); } catch { /* ignore */ }
+    return empty();
+  }
 }
 
 function persist(meta = {}) {
@@ -127,16 +141,24 @@ export function merge(a, b) {
     return out;
   };
   const latest = (x, y) => ((y.t || 0) > (x.t || 0) ? y : x);
+  // Champs inconnus d'une entrée (leçon, test) : ceux de l'entrée la plus récente l'emportent.
+  const both = (x, y) => (latest(x, y) === y ? { ...x, ...y } : { ...y, ...x });
 
   return {
+    // Champs inconnus de cette version : gardés ; si les deux côtés en ont, celui de b (le Gist) l'emporte,
+    // car une version qui ne les connaît pas ne les modifie jamais elle-même.
+    ...unknown(a),
+    ...unknown(b),
     v: 1,
     resetAt,
     lessons: mergeMap(a.lessons, b.lessons, (x, y) => ({
+      ...both(x, y),
       done: x.done || y.done,
       best: Math.max(x.best || 0, y.best || 0),
       t: Math.max(x.t || 0, y.t || 0),
     })),
     tests: mergeMap(a.tests, b.tests, (x, y) => ({
+      ...both(x, y),
       passed: x.passed || y.passed,
       best: Math.max(x.best || 0, y.best || 0),
       attempts: Math.max(x.attempts || 0, y.attempts || 0),

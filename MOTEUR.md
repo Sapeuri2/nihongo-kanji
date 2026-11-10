@@ -9,7 +9,7 @@ le dépôt de référence du moteur. Chaque appli garde sa propre copie, qui fon
 
 | Fichiers | Qui |
 | --- | --- |
-| `js/` (dont `js/config.js`), `css/`, `sw.js`, `index.html`, `manifest.webmanifest`, `icons/`, `tools/verifier.mjs`, `tools/test-parcours.mjs`, `tools/test-parcours-init.js`, `MOTEUR.md` | **l'agent central uniquement** |
+| `js/` (dont `js/config.js`), `css/`, `sw.js`, `index.html`, `manifest.webmanifest`, `icons/`, `tools/verifier.mjs`, `tools/test-parcours.mjs`, `tools/test-parcours-init.js`, `MOTEUR.md`, `moteur-version.json` | **l'agent central uniquement** |
 | `data/`, `PROGRAMME.md`, partie « contenu » du `README.md`, outils de contenu (générateurs, `tools/verifier-appli.mjs`…) | l'instance Claude de l'appli |
 
 Une instance qui a besoin d'une évolution du code (nouveau type d'exercice, réglage, correctif) ne la fait pas :
@@ -34,6 +34,7 @@ des leçons et des exercices déjà publiés : la progression y est rattachée.
 | `tools/verifier.mjs` | Vérification du contenu |
 | `tools/test-parcours.mjs` | Test de bout en bout dans Chromium (tout le parcours, format téléphone) |
 | `MOTEUR.md` | Ce fichier |
+| `moteur-version.json` | Écrit par l'outil de déploiement : version du moteur et empreinte de chaque fichier de code. Si l'un d'eux est modifié dans ce dépôt, le déploiement suivant s'arrête. |
 
 ## Fichiers propres à chaque appli
 
@@ -113,6 +114,16 @@ Les mots mis de côté (☆) forment **une seule liste pour toutes les applis** 
 - Ces révisions comptent dans le 🔥 mais pas dans la progression de l'appli.
 
 ## Historique des changements du moteur
+
+### 2026-11-10 — Déploiement depuis nihongo-central, données mieux protégées
+- Le code est déployé par l'outil de l'agent central (`tools/deployer.mjs` dans nihongo-central), toujours dans les
+  trois applis à la fois, après les tests. Nouveau fichier `moteur-version.json` (voir plus haut) : ne pas le modifier.
+- Progression et Ma liste : le moteur **garde les champs qu'il ne connaît pas** (ajoutés par une version plus récente,
+  ouverte sur un autre appareil ou dans un autre onglet), à la lecture comme à la fusion entre appareils.
+  Rien ne change pour les données actuelles (vérifié écran par écran et clé par clé).
+- Progression ou Ma liste illisible sur l'appareil : elle est mise de côté dans `<clé>:secours`
+  (ex. `ng-state-v1:secours`) au lieu d'être écrasée à la prochaine sauvegarde.
+- Aucun changement pour le contenu ni pour les réglages.
 
 ### 2026-11-10 — Le moteur n'est plus pris dans la grammaire
 - Le code des trois applis est géré par l'agent central (dépôt `nihongo-central`). **`tools/maj-moteur.sh` est supprimé** :

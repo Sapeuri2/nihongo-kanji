@@ -53,6 +53,7 @@ function normItem(x) {
   if (!x || typeof x !== 'object' || !x.jp) return null;
   const id = x.id || idOf(x.jp);
   return recompute({
+    ...x, // champs inconnus de cette version (ajoutés par une version plus récente) : gardés
     id,
     jp: String(x.jp),
     kana: String(x.kana || ''),
@@ -67,7 +68,8 @@ function normItem(x) {
 
 function normalize(s) {
   const out = empty();
-  if (!s || typeof s !== 'object') return out;
+  if (!s || typeof s !== 'object' || Array.isArray(s)) return out;
+  for (const [k, v] of Object.entries(s)) if (!(k in out)) out[k] = v; // champs inconnus : gardés
   for (const [id, x] of Object.entries(s.items || {})) {
     const it = normItem({ ...x, id });
     if (it) out.items[id] = it;
@@ -77,11 +79,16 @@ function normalize(s) {
 }
 
 function load() {
+  let raw = null;
+  try { raw = localStorage.getItem(KEY); } catch { return empty(); } // stockage indisponible
+  if (!raw) return empty();
   try {
-    const raw = localStorage.getItem(KEY);
-    if (raw) return normalize(JSON.parse(raw));
-  } catch { /* stockage indisponible : liste vide */ }
-  return empty();
+    return normalize(JSON.parse(raw));
+  } catch {
+    // Liste illisible : on la met de côté (une seule fois) au lieu de l'écraser à la prochaine sauvegarde.
+    try { if (!localStorage.getItem(`${KEY}:secours`)) localStorage.setItem(`${KEY}:secours`, raw); } catch { /* ignore */ }
+    return empty();
+  }
 }
 
 function persist(meta = {}) {
@@ -149,6 +156,7 @@ export function merge(a, b) {
     const [x, ...rest] = versions;
     items[id] = rest.reduce((m, y) => recompute({
       ...m,
+      ...y, // champs inconnus de cette version : ceux de b (le Gist) l'emportent ; les champs connus sont fixés ci-dessous
       jp: m.jp || y.jp,
       kana: m.kana || y.kana,
       fr: m.fr || y.fr,
@@ -159,7 +167,10 @@ export function merge(a, b) {
       base: { vu: Math.max(m.base.vu, y.base.vu), juste: Math.max(m.base.juste, y.base.juste), faux: Math.max(m.base.faux, y.base.faux) },
     }), x);
   }
-  return { v: 1, items, supprimes };
+  // Champs inconnus de la liste elle-même : gardés (ceux de b l'emportent).
+  const extra = {};
+  for (const src of [a, b]) for (const [k, v] of Object.entries(src)) if (!['v', 'items', 'supprimes'].includes(k)) extra[k] = v;
+  return { ...extra, v: 1, items, supprimes };
 }
 
 // ---------- Export ----------
