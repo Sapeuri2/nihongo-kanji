@@ -74,7 +74,7 @@ Les deux autres dépôts (pour `tools/ordre-kanji.mjs` ou pour reprendre leurs p
 Dernier commit : « Moteur 720473c (suite auto, Ma liste) ; exemples dans les fiches, consignes en japonais dès le bloc 9, leçons à 30, 227 phrases N4 ».
 
 **Le code est passé à l'agent central** (2026-11-10). Les demandes de `docs/DEMANDES-MOTEUR.md` sont dans son backlog :
-- A1 : `maj-moteur.sh` s'écrase lui-même au premier lancement (il faut le relancer une fois).
+- A1 : réglé (`maj-moteur.sh` supprimé le 2026-11-10).
 - A2 : utiliser le champ `star` pour ☆ (aujourd'hui ☆ après une question garde souvent une lecture seule, un morceau de mot, ou la consigne japonaise).
 - A3 : lecture affichée deux fois sur la page `#/liste`.
 - B1 : révisions **par carte** (champ `card`), intervalles réglables, « Révisions du jour » séparées des leçons, `slowMs`, `dailyReviewMax`, `reviewGate`.
