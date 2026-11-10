@@ -1,6 +1,8 @@
-# Pour l'instance grammaire (moteur partagé)
+# Demandes de code pour l'agent central
 
-À coller tel quel dans la session de l'appli grammaire.
+Depuis le 2026-11-10, le code des trois applis est géré par l'agent central (dépôt `nihongo-central`).
+Ces demandes, écrites à l'origine pour l'instance grammaire, sont reprises dans son backlog.
+Le point A1 (`tools/maj-moteur.sh`) est réglé : le script est supprimé.
 Partie A : retour sur la mise à jour 720473c dans l'appli kanji. Partie B : nouvelles demandes.
 
 ---

@@ -6,15 +6,15 @@ Ce fichier est lu au début de chaque session. Il remplace la mémoire de la con
 ## Quand l'utilisateur écrit juste « Re » (ou « salut », « on reprend »…)
 
 Fais comme si la conversation continuait : salue-le brièvement, puis en 4-5 lignes rappelle où on en est
-(section « Où on en est » plus bas) et ce qu'on attend. Demande-lui s'il a la réponse de la session grammaire
-(mise à jour du moteur) ou ce qu'il veut faire. Ne relis pas tout le dépôt avant de répondre ; ce fichier suffit pour saluer.
+(section « Où on en est » plus bas) et ce qu'on attend. Demande-lui s'il a un message de l'agent central
+(mise à jour du code) ou ce qu'il veut faire. Ne relis pas tout le dépôt avant de répondre ; ce fichier suffit pour saluer.
 
 ## L'utilisateur
 
 - Apprend le japonais seul, en français. Il a fini le N5 et vient d'attaquer le N4 (leçon 32 terminée début novembre 2026).
 - Sa méthode : répéter jusqu'à ce que ça reste. Sa crainte : « je valide tout sur le moment, mais si ça ne revient pas, j'oublie ».
 - Écrit vite, avec des fautes de frappe : comprendre l'intention, ne pas le corriger.
-- Utilise trois applis web à lui, sur `sapeuri2.github.io` : **grammaire** (dépôt de référence du moteur),
+- Utilise trois applis web à lui, sur `sapeuri2.github.io` : **grammaire**,
   **vocabulaire**, et celle-ci, **kanji** (https://sapeuri2.github.io/nihongo-kanji/).
 - Une instance Claude s'occupe de chaque appli. Il fait passer lui-même les messages entre elles (copier-coller).
 
@@ -28,14 +28,14 @@ par l'agent central (on peut rédiger la demande pour lui).
 
 ## RÈGLE D'OR
 
-Ne modifie **JAMAIS** les fichiers du moteur : `js/app.js`, `js/state.js`, `js/sync.js`, `js/text.js`, `js/liste.js`,
-`css/style.css`, `sw.js`, `tools/verifier.mjs`, `tools/maj-moteur.sh`, `MOTEUR.md`.
-Ils viennent de Sapeuri2/nihongo-grammaire et sont recopiés par `bash tools/maj-moteur.sh`.
-Si le moteur doit évoluer : ne le fais pas. Écris précisément le changement dans `docs/DEMANDES-MOTEUR.md`
-et donne le texte à l'utilisateur pour qu'il le transmette à l'instance grammaire.
+Ne modifie **JAMAIS** le code : `js/` (y compris `js/config.js`), `css/`, `sw.js`, `index.html`, `manifest.webmanifest`,
+`icons/`, `tools/verifier.mjs`, `tools/test-parcours.mjs`, `MOTEUR.md`.
+Depuis le 2026-11-10, ils sont gérés par l'**agent central** (dépôt Sapeuri2/nihongo-central), plus par la grammaire
+(`tools/maj-moteur.sh` n'existe plus). Si le code doit évoluer : ne le fais pas. Écris précisément le changement dans
+`docs/DEMANDES-MOTEUR.md` et donne le texte à l'utilisateur pour qu'il le transmette à l'agent central.
 
-Fichiers autorisés : `js/config.js`, `css/theme.css`, `index.html`, `manifest.webmanifest`, `icons/`, `data/`,
-`README.md`, `PROGRAMME.md`, `CLAUDE.md`, `docs/`, `tools/verifier-appli.mjs`, `tools/generer-kanji.mjs`, `tools/ordre-kanji.mjs`.
+Fichiers autorisés : `data/`, `README.md` (partie contenu), `PROGRAMME.md`, `CLAUDE.md`, `docs/`,
+`tools/verifier-appli.mjs`, `tools/generer-kanji.mjs`, `tools/ordre-kanji.mjs`.
 
 **Ne jamais changer** `storageKey` (`nk-state-v1`), `gistFile`, ni la clé commune de « Ma liste » (`nihongo-ma-liste-v1`,
 partagée avec les deux autres applis), et ne jamais vider la liste.
@@ -43,10 +43,11 @@ partagée avec les deux autres applis), et ne jamais vider la liste.
 ## Comment on travaille
 
 1. Modifier les sources (`data/sources/*.json`) ou le générateur (`tools/generer-kanji.mjs`). Ne jamais éditer `data/n5`, `data/n4`, `data/manifest.json` à la main : ils sont générés.
-2. `node tools/generer-kanji.mjs` puis `node tools/verifier.mjs` (doit finir par « OK »).
+2. `node tools/generer-kanji.mjs` puis `node tools/verifier.mjs` (doit finir par « OK »), puis `node tools/test-parcours.mjs`
+   (tout le parcours dans Chromium au format téléphone, ~13 min ; `ETAPES=10 node tools/test-parcours.mjs` pour une version courte).
 3. Tester : `python -m http.server 8765` à la racine du dépôt, puis ouvrir http://localhost:8765 (penser à désinscrire le service worker et vider les caches pour voir la nouvelle version).
 4. Commit sur `main` et push : GitHub Pages met le site en ligne. L'utilisateur attend que chaque changement terminé soit poussé.
-5. Résumer en français ce qui a changé, ce qui n'a pas été vérifié, et ce qui attend la grammaire.
+5. Résumer en français ce qui a changé, ce qui n'a pas été vérifié, et ce qui attend l'agent central.
 
 Règles du contenu :
 - Les **ids d'exercices** viennent du contenu (`k5-03-食-sens`) : ils portent la progression. Ne pas casser les ids du N5 ni des leçons déjà faites.
@@ -72,7 +73,7 @@ Les deux autres dépôts (pour `tools/ordre-kanji.mjs` ou pour reprendre leurs p
 
 Dernier commit : « Moteur 720473c (suite auto, Ma liste) ; exemples dans les fiches, consignes en japonais dès le bloc 9, leçons à 30, 227 phrases N4 ».
 
-**On attend la session grammaire.** L'utilisateur lui a transmis `docs/DEMANDES-MOTEUR.md` :
+**Le code est passé à l'agent central** (2026-11-10). Les demandes de `docs/DEMANDES-MOTEUR.md` sont dans son backlog :
 - A1 : `maj-moteur.sh` s'écrase lui-même au premier lancement (il faut le relancer une fois).
 - A2 : utiliser le champ `star` pour ☆ (aujourd'hui ☆ après une question garde souvent une lecture seule, un morceau de mot, ou la consigne japonaise).
 - A3 : lecture affichée deux fois sur la page `#/liste`.
@@ -81,13 +82,13 @@ Dernier commit : « Moteur 720473c (suite auto, Ma liste) ; exemples dans les fi
 - B3 : `recallScope: 'level'` (rappels du niveau en cours seulement, sauf premier bloc d'un niveau).
 - B4 : exercice `input` (saisie au clavier japonais, hiragana/katakana). B5 : grille de 20 choix. B6 : `draw` (tracer le kanji, auto-évaluation). B7 : `fullExam` (examen de fin de niveau complet).
 
-**Quand la grammaire a répondu** (l'utilisateur colle son message) :
-1. `bash tools/maj-moteur.sh` (le relancer s'il plante une fois), ajouter les nouveaux réglages dans `js/config.js` :
-   `intervals: [0, 1, 2, 4, 7, 15, 30, 60]`, `slowMs: 8000`, `dailyReviewMax: 30`, `recallScope: 'level'`,
-   `reviewGate` : **à demander à l'utilisateur** (prévenir ou verrouiller quand trop de révisions sont en retard).
+**Quand l'agent central envoie un message** (l'utilisateur le colle) :
+1. `git pull`, puis suivre le message (nouveaux champs du contenu, réglages). Les réglages de `js/config.js` sont posés par
+   l'agent central ; valeurs souhaitées pour le kanji : `intervals: [0, 1, 2, 4, 7, 15, 30, 60]`, `slowMs: 8000`,
+   `dailyReviewMax: 30`, `recallScope: 'level'`, `reviewGate` : **à demander à l'utilisateur**.
 2. Lire l'historique de `MOTEUR.md`, vérifier, tester dans le navigateur, vérifier ☆ sur chaque type d'exercice.
 3. Générer les nouveaux exercices dès que le moteur les accepte : saisie (N4 : lecture d'un mot, trou dans une phrase, katakana, français → hiragana) ; examen de fin de N5 et de N4 : chaque kanji en français → le trouver parmi 20, plus une sélection à tracer.
-4. Faire un retour à la grammaire (ce qui marche, ce qui gêne), commit, push.
+4. Faire un retour à l'agent central (ce qui marche, ce qui gêne), commit, push.
 
 **Autres choses en suspens**
 - Kanji de la bulle : attendre que l'utilisateur les donne (« mets 生 後 聞 dans la bulle »), les ajouter à `bulle.json`, régénérer.

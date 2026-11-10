@@ -1,10 +1,26 @@
-# Le moteur partagé
+# Le moteur (code commun des applis)
 
-Le code de cette appli sert de **moteur commun** à plusieurs applis d'apprentissage
-(grammaire, vocabulaire…). Le dépôt de référence du moteur est
-[Sapeuri2/nihongo-grammaire](https://github.com/Sapeuri2/nihongo-grammaire).
+Les trois applis (grammaire, vocabulaire, kanji) utilisent le même moteur.
+**Depuis le 2026-11-10, tout le code est géré par l'agent central** (dépôt
+[Sapeuri2/nihongo-central](https://github.com/Sapeuri2/nihongo-central)) : la grammaire n'est plus
+le dépôt de référence du moteur. Chaque appli garde sa propre copie, qui fonctionne seule.
 
-## Fichiers du moteur (identiques dans toutes les applis)
+## Qui modifie quoi
+
+| Fichiers | Qui |
+| --- | --- |
+| `js/` (dont `js/config.js`), `css/`, `sw.js`, `index.html`, `manifest.webmanifest`, `icons/`, `tools/verifier.mjs`, `tools/test-parcours.mjs`, `tools/test-parcours-init.js`, `MOTEUR.md` | **l'agent central uniquement** |
+| `data/`, `PROGRAMME.md`, partie « contenu » du `README.md`, outils de contenu (générateurs, `tools/verifier-appli.mjs`…) | l'instance Claude de l'appli |
+
+Une instance qui a besoin d'une évolution du code (nouveau type d'exercice, réglage, correctif) ne la fait pas :
+elle la décrit précisément à l'utilisateur, qui la transmet à l'agent central. Après chaque changement,
+l'agent central envoie à chaque instance concernée un message : ce qui a changé, ce qu'il faut faire
+(`git pull`, nouveaux champs du contenu, réglages), comment s'en servir, ce qu'il ne faut pas toucher.
+
+**Ne jamais changer** les clés de stockage (`storageKey`, `syncKey`), le nom du fichier Gist, ni les identifiants
+des leçons et des exercices déjà publiés : la progression y est rattachée.
+
+## Fichiers du moteur (identiques dans les trois applis)
 
 | Fichier | Rôle |
 | --- | --- |
@@ -16,39 +32,35 @@ Le code de cette appli sert de **moteur commun** à plusieurs applis d'apprentis
 | `css/style.css` | Apparence commune |
 | `sw.js` | Hors ligne (cache nommé d'après l'adresse de l'appli) |
 | `tools/verifier.mjs` | Vérification du contenu |
-| `tools/maj-moteur.sh` | Mise à jour du moteur dans une autre appli |
+| `tools/test-parcours.mjs` | Test de bout en bout dans Chromium (tout le parcours, format téléphone) |
 | `MOTEUR.md` | Ce fichier |
 
-## Fichiers propres à chaque appli (jamais écrasés)
+## Fichiers propres à chaque appli
 
 | Fichier | Contenu |
 | --- | --- |
 | `js/config.js` | Clés de stockage, nom du fichier Gist, réglages pédagogiques |
-| `css/theme.css` | Couleur principale (rouge pour la grammaire, bleu pour le vocabulaire…) |
+| `css/theme.css` | Couleur principale (rouge pour la grammaire, bleu pour le vocabulaire, vert pour les kanji) |
 | `index.html`, `manifest.webmanifest`, `icons/` | Nom, icône, couleur de la barre du téléphone |
+| Code propre à une appli | Ex. la bulle い/な/て du vocabulaire (`js/memo.js`, `css/memo.css`) |
+| `tools/test-parcours-init.js` | Facultatif : script lancé dans la page avant l'appli pendant le test (ex. vocabulaire : couper les rappels surprise) |
 | `data/` | Le contenu (leçons, exercices) |
 | `tools/verifier-appli.mjs` | Facultatif : contrôles propres à l'appli, lancés par `tools/verifier.mjs` (code de sortie ≠ 0 = échec) |
 | `README.md`, `PROGRAMME.md` | Documentation de l'appli |
 
-## Mettre à jour le moteur d'une autre appli
+## Vérifier avant chaque push
 
 Depuis la racine du dépôt de l'appli :
 
 ```sh
-bash tools/maj-moteur.sh
+node tools/verifier.mjs                  # le contenu (lance aussi tools/verifier-appli.mjs)
+node tools/test-parcours.mjs             # tout le parcours dans Chromium, format téléphone
+ETAPES=10 node tools/test-parcours.mjs   # version courte : les 10 premières étapes
 ```
 
-Le script recopie les fichiers du moteur, puis signale les **nouveaux réglages** à ajouter
-dans `js/config.js` (avec leur valeur dans la grammaire). Ensuite :
-
-1. ajouter ces réglages dans `js/config.js` ;
-2. lancer `node tools/verifier.mjs` (le contenu peut devoir suivre un nouveau format, voir l'historique) ;
-3. tester l'appli, puis commit et push.
-
-**Règle d'or : ne pas modifier les fichiers du moteur dans une autre appli.** Une amélioration
-du moteur (nouveau type d'exercice, correctif…) se fait dans le dépôt grammaire, puis se
-propage avec le script. Si une appli en a besoin, décrire le changement à l'utilisateur
-pour qu'il le fasse faire côté grammaire.
+Le test part d'un navigateur neuf : il ne touche jamais à la vraie progression. Il signale les erreurs JS et
+les débordements horizontaux (accueil, Ma liste, réglages, chaque leçon, 1re question de chaque série).
+Durée du parcours complet : environ 2 min 30 pour la grammaire et le vocabulaire, environ 13 minutes pour les kanji.
 
 ## Format : mots d'une leçon (facultatif)
 
@@ -101,6 +113,14 @@ Les mots mis de côté (☆) forment **une seule liste pour toutes les applis** 
 - Ces révisions comptent dans le 🔥 mais pas dans la progression de l'appli.
 
 ## Historique des changements du moteur
+
+### 2026-11-10 — Le moteur n'est plus pris dans la grammaire
+- Le code des trois applis est géré par l'agent central (dépôt `nihongo-central`). **`tools/maj-moteur.sh` est supprimé** :
+  ne plus aller chercher le moteur dans le dépôt de la grammaire.
+- **Aucun changement** dans `js/`, `css/`, `sw.js`, `index.html` ni `data/` : les applis fonctionnent exactement comme avant.
+- `tools/test-parcours.mjs` est maintenant dans les trois applis. Il marche avec la suite automatique (`autoNext`),
+  vérifie aussi l'accueil, Ma liste, les réglages et la 1re question de chaque série, accepte `ETAPES=n`
+  et un fichier facultatif `tools/test-parcours-init.js`.
 
 ### 2026-11-04 — Suite automatique et « Ma liste »
 - **Nouveau fichier `js/liste.js`** (ajouté à `tools/maj-moteur.sh` et au cache de `sw.js`).

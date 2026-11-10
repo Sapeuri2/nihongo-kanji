@@ -1,7 +1,7 @@
 # 漢字 Kanji japonais
 
 Appli web perso pour apprendre à **reconnaître, lire et choisir** les kanji (JLPT N5 et N4, puis N3), en français.
-Même moteur que [nihongo-grammaire](https://github.com/Sapeuri2/nihongo-grammaire) et [nihongo-vocabulaire](https://github.com/Sapeuri2/nihongo-vocabulaire) (voir [MOTEUR.md](MOTEUR.md)), thème vert.
+Même moteur que [nihongo-grammaire](https://github.com/Sapeuri2/nihongo-grammaire) et [nihongo-vocabulaire](https://github.com/Sapeuri2/nihongo-vocabulaire), thème vert. Le code est géré par l'agent central, dépôt [nihongo-central](https://github.com/Sapeuri2/nihongo-central) (voir [MOTEUR.md](MOTEUR.md)) ; ici, on ne modifie que le contenu.
 
 - Leçon (5 à 8 kanji : sens, lectures, mémo, mots et 3 phrases d'exemple par kanji) → 18 exercices (+ 12 rappels) → test de bloc → examens.
 - Exercices : kanji ↔ sens, kanji → lecture, lecture → bon mot, mot à compléter, lecture dans une phrase, intrus, sosies, on/kun.
