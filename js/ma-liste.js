@@ -19,6 +19,8 @@ const hasJp = s => /[\u3040-\u30ff\u3400-\u9fff]/.test(s || '');
 
 export function entryOf(it) {
   if (it.liste) return null;
+  // Le contenu peut dire lui-même quel mot garder : champ `star` ({ jp, kana, fr }) ; `star: null` = pas d'épingle.
+  if ('star' in it) return it.star?.jp ? { jp: it.star.jp, kana: it.star.kana || kanaOf(it.star.jp), fr: plain(it.star.fr || ''), src: it.id } : null;
   let jp, fr;
   if (it.type === 'order') { jp = `${it.tokens.join('')}。`; fr = it.fr; }
   else if (it.jp && !it.jp.includes('＿')) { jp = it.jp; fr = it.fr || it.explain; }
@@ -32,13 +34,37 @@ export function entryOf(it) {
     }
   }
   if (!hasJp(jp)) return null;
+  // Mot présent dans un tableau de mots de l'appli : on garde sa lecture et son sens
+  // (et non la traduction de toute la phrase ou l'explication de la question).
+  const w = motConnu(jp);
+  if (w) return { ...w, src: it.id };
   return { jp, kana: kanaOf(jp), fr: plain(fr || ''), src: it.id };
 }
 
+// Index des mots des tableaux `words` et `vocab` des leçons, par japonais sans furigana.
+let motsIndex = null;
+
+function motConnu(jp) {
+  if (!motsIndex) {
+    motsIndex = new Map();
+    const add = (wjp, kana, fr) => {
+      const id = L.idOf(wjp);
+      if (id && fr && !motsIndex.has(id)) motsIndex.set(id, { jp: wjp, kana: kana || kanaOf(wjp), fr: plain(fr) });
+    };
+    for (const l of ctx.C.lessons) {
+      for (const w of l.words || []) add(w.jp, w.kana, w.fr);
+      for (const sec of l.sections || []) for (const v of sec.vocab || []) add(v.jp, '', v.fr);
+    }
+  }
+  return motsIndex.get(L.idOf(jp)) || null;
+}
+
+// 📌 : grisé si le mot n'est pas dans Ma liste, en couleur s'il y est (⭐ est réservé aux leçons).
 export function starBtn(w) {
   if (!listeOn() || !w?.jp) return '';
   const on = L.has(L.idOf(w.jp));
-  return `<button class="star${on ? ' on' : ''}" data-act="star" data-w="${esc(JSON.stringify(w))}" aria-label="${on ? 'Dans ma liste' : 'Mettre de côté dans ma liste'}">${on ? '★' : '☆'}</button>`;
+  const lbl = on ? 'Dans ma liste' : 'Épingler dans ma liste';
+  return `<button class="star${on ? ' on' : ''}" data-act="star" data-w="${esc(JSON.stringify(w))}" title="${lbl}" aria-label="${lbl}">📌</button>`;
 }
 
 let listeSort = 'due';
@@ -54,7 +80,7 @@ export function viewListe() {
   };
   let h = `<a class="back" href="${ctx.prevHash}">← Retour</a><h1>📌 Ma liste</h1>`;
   if (!items.length) {
-    return h + '<p class="muted">Ta liste est vide. Touche ☆ à côté d’un mot (dans une leçon ou après une question) pour le mettre de côté : il apparaît ici, dans toutes tes applis, et tu peux le travailler où tu veux.</p>';
+    return h + '<p class="muted">Ta liste est vide. Touche 📌 à côté d’un mot (dans une leçon ou après une question) pour l’épingler : il apparaît ici, dans toutes tes applis, et tu peux le travailler où tu veux.</p>';
   }
   const m = L.dueCount();
   h += `<p class="muted">${items.length} mot${items.length > 1 ? 's' : ''} · ${m} à revoir. Un mot ne sort de la liste que si tu le retires toi-même.</p>
@@ -63,7 +89,9 @@ export function viewListe() {
     <ul class="liste">`;
   for (const x of [...items].sort(by[listeSort] || by.due)) {
     const st = x.stats;
-    h += `<li class="lw"><div class="lw-main"><span class="jp lw-jp">${rich(x.jp)}</span>${L.reading(x) ? ` <span class="jp kana"><span class="reading">${esc(L.reading(x))}</span></span>` : ''}</div>
+    // Lecture à part seulement si le mot n'a pas déjà ses furigana (sinon elle s'afficherait deux fois).
+    const lecture = L.reading(x) && !/\{[^|{}]+\|[^{}]+\}/.test(x.jp) ? L.reading(x) : '';
+    h += `<li class="lw"><div class="lw-main"><span class="jp lw-jp">${rich(x.jp)}</span>${lecture ? ` <span class="jp kana"><span class="reading">${esc(lecture)}</span></span>` : ''}</div>
       ${x.fr ? `<div class="lw-fr">${rich(x.fr)}</div>` : ''}
       <div class="lw-meta">${x.app.map(a => `<span class="tag">${esc(a)}</span>`).join('')}${bar(st.boite / L.MAX_BOX)}
       <span class="muted small">${st.vu ? `${st.juste}/${st.vu} juste${st.juste > 1 ? 's' : ''}` : 'pas encore révisé'}${L.isDue(x, now) ? ' · à revoir' : ''}</span>

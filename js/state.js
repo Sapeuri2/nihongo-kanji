@@ -116,6 +116,26 @@ export function setSetting(key, value) {
   persist();
 }
 
+// Étoiles sur les leçons (« je n'ai pas compris ») : etoiles = { [id de leçon]: { on, t } }.
+// Un retrait est gardé (on: false) avec sa date : une étoile enlevée ne revient pas d'un autre appareil.
+// (Déclaration de fonction : utilisable partout dans le fichier, même avant cette ligne.)
+function etoilesOk(e) {
+  return e && typeof e === 'object' && !Array.isArray(e) ? e : {};
+}
+
+export function lessonStarred(id) {
+  return !!etoilesOk(state.etoiles)[id]?.on;
+}
+
+export function starredLessons() {
+  return Object.entries(etoilesOk(state.etoiles)).filter(([, e]) => e?.on).map(([id]) => id);
+}
+
+export function setLessonStar(id, on) {
+  state.etoiles = { ...etoilesOk(state.etoiles), [id]: { on: !!on, t: Date.now() } };
+  persist();
+}
+
 export function reset() {
   const settings = state.settings;
   state = { ...empty(), resetAt: Date.now(), settings };
@@ -149,6 +169,8 @@ export function merge(a, b) {
     // car une version qui ne les connaît pas ne les modifie jamais elle-même.
     ...unknown(a),
     ...unknown(b),
+    // Étoiles des leçons : pour chaque leçon, la décision la plus récente (mise ou retrait) l'emporte.
+    ...(a.etoiles || b.etoiles ? { etoiles: mergeMap(etoilesOk(a.etoiles), etoilesOk(b.etoiles), latest) } : {}),
     v: 1,
     resetAt,
     lessons: mergeMap(a.lessons, b.lessons, (x, y) => ({

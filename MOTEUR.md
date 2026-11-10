@@ -108,9 +108,16 @@ Une question n'apparaît que si les leçons de son `uses` sont faites. Dans tous
 Les exercices d'un point clé peuvent être écrits à la main ou générés par un script propre à l'appli
 (ex. `tools/generer-adjectifs.mjs` dans la grammaire).
 
+## Format : mot à épingler (facultatif, `star`)
+
+Un exercice peut dire lui-même quel mot l'épingle 📌 met dans Ma liste après la question :
+`"star": { "jp": "{日本|にほん}", "kana": "にほん", "fr": "Japon" }` (`kana` et `fr` facultatifs).
+`"star": null` = pas d'épingle sur cette question. Sans champ `star`, le moteur devine : phrase japonaise, sinon
+bonne réponse ; si ce mot est dans un tableau `words` ou `vocab` d'une leçon, sa lecture et son sens viennent du tableau.
+
 ## Format : Ma liste (commune aux applis)
 
-Les mots mis de côté (☆) forment **une seule liste pour toutes les applis** du domaine `sapeuri2.github.io`.
+Les mots épinglés (📌) forment **une seule liste pour toutes les applis** du domaine `sapeuri2.github.io`.
 - Stockage : clé fixe `nihongo-ma-liste-v1` (indépendante de `storageKey`), gérée par `js/liste.js`.
 - Synchro : un Gist commun, fichier `nihongo-ma-liste.json` (trouvé par son nom, créé s'il manque), avec la clé GitHub de l'appli ouverte. Le Gist trouvé est retenu dans `nihongo-ma-liste-gist`.
 - Un mot : `{ id, jp, kana, fr, app: [..], src, at, stats: { vu, juste, faux, serie, boite, prochain, dernier }, log }`.
@@ -119,11 +126,25 @@ Les mots mis de côté (☆) forment **une seule liste pour toutes les applis** 
 - Fusion : réunion des mots, ajout le plus ancien, applis d'origine et réponses réunies ; `supprimes: { id: date }` empêche un mot retiré de revenir (sauf s'il est rajouté après).
 - Aucun retrait automatique : seul « Retirer de ma liste » (page `#/liste`, avec confirmation) enlève un mot.
 - Réglages `js/config.js` : `listeEnabled` (`true`) et `appId` (`grammaire`, `vocabulaire`, `kanji` : sert d'étiquette et de tag Anki ; à défaut, déduit de l'adresse).
-- ☆ : lignes des tableaux `words` et `vocab`, et bloc de réponse après chaque question (phrase japonaise sans trou, sinon bonne réponse, sinon le japonais de la consigne).
+- 📌 (grisé = pas dans la liste, en couleur = dans la liste) : lignes des tableaux `words` et `vocab`, et bloc de réponse après chaque question (phrase japonaise sans trou, sinon bonne réponse, sinon le japonais de la consigne).
 - Page `#/liste` + bouton 📌 + carte d'accueil : tri, « Réviser ma liste » (20 questions générées : mot → sens, sens → mot, kanji → lecture ; mauvaises réponses prises dans la liste, complétées par le vocabulaire de l'appli si elle est courte), export Anki (CSV `recto;verso;tags`), JSON, copie.
 - Ces révisions comptent dans le 🔥 mais pas dans la progression de l'appli.
 
 ## Historique des changements du moteur
+
+### 2026-11-10 — 📌, ⭐ sur les leçons, bouton FR, « Leçon suivante », défilement
+- **📌 Ma liste** : l'épingle remplace ☆ (grisée si le mot n'est pas dans la liste). Le champ `star` des exercices
+  est utilisé (voir « Format : mot à épingler »). Sans `star`, le sens et la lecture viennent des tableaux de mots
+  quand le mot y est. Sur la page Ma liste, la lecture n'est plus affichée deux fois.
+- **⭐ sur une leçon** (« je n'ai pas compris ») : bouton en haut de la leçon ; après une question ratée, les leçons
+  de « Notions » sont étoilables d'un toucher ; ⭐ sur l'accueil et carte « Leçons à revoir » avec une révision ciblée.
+  Seul l'utilisateur enlève une étoile. Stockage : `etoiles` dans la progression (synchronisé, un retrait est daté).
+- **Bouton FR** (à côté de 漢, et case dans les réglages) : masque la traduction des phrases d'exemple des leçons
+  (`ex[].fr`, `exFr`) ; toucher une phrase la montre. Réglage `traduction` (synchronisé). Les exercices ne changent pas.
+- **« Leçon suivante »** sur une leçon déjà faite (et sur le résultat d'une leçon refaite), si elle est ouverte.
+- **Défilement** : une page s'ouvre en haut ; en revenant à l'accueil (logo, « ← Accueil », bouton retour), on retrouve
+  l'étape touchée et les blocs dépliés. « Abandonner » une série sur l'accueil retire bien sa carte.
+- Contenu : rien à faire. Le champ `star` (déjà mis par le kanji) peut servir aux autres applis.
 
 ### 2026-11-10 — `js/app.js` découpé en modules
 - `js/app.js` (1 140 lignes) est découpé en 11 fichiers (voir le tableau plus haut). **Aucun changement visible** :

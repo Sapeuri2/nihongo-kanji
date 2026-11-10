@@ -8,6 +8,7 @@ import { ctx, go } from './contexte.js';
 import { dueItems, examName, seenItems, stepDone } from './progression.js';
 import { available, compose, shuffle, weightedSample } from './tirage.js';
 import { focusPool, sprinkle, withFocus } from './points-cles.js';
+import { toast } from './ui.js';
 
 export function startFocus(fid) {
   const f = ctx.C.focusById[fid];
@@ -48,7 +49,7 @@ function resume(kind, ref) {
 export function startSession(opts) {
   if (!opts.ids.length) return;
   ctx.session = { requeue: true, ...opts, queue: opts.ids.map(id => ({ id, tries: 0 })), idx: 0, first: new Map(), cur: null, result: null };
-  if (location.hash === '#/seance') ctx.render(); else location.hash = '#/seance';
+  if (location.hash === '#/seance') { ctx.render(); window.scrollTo(0, 0); } else location.hash = '#/seance';
 }
 
 export function startLesson(id) {
@@ -108,13 +109,14 @@ export function startReview() {
   startSession({ kind: 'review', title: due.length ? 'Révisions' : 'Révision libre', ids: sprinkle(shuffle(ids)) });
 }
 
-export function startDrill(lessonIds) {
+export function startDrill(lessonIds, title = 'Entraînement ciblé') {
   const set = new Set(lessonIds);
   const pool = Object.values(ctx.C.items)
     .filter(it => it.uses.some(u => set.has(u)) && it.uses.every(u => stepDone({ type: 'lesson', id: u })))
     .filter(it => !it.focus && (!it.examOnly || S.get().items[it.id]))
     .map(it => it.id);
-  startSession({ kind: 'drill', title: 'Entraînement ciblé', ids: sprinkle(weightedSample(pool, CONFIG.drillSize)) });
+  if (!pool.length) { toast('Pas encore d’exercice à revoir pour ces leçons : fais d’abord leurs exercices.'); return; }
+  startSession({ kind: 'drill', title, ids: sprinkle(weightedSample(pool, CONFIG.drillSize)) });
 }
 
 export function answer(ok, extra = {}) {

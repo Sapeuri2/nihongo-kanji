@@ -35,8 +35,16 @@ export function viewHome() {
     const n = L.list().length;
     const m = L.dueCount();
     h += `<section class="card liste-card"><div><h2>📌 Ma liste${n ? ` (${n} mot${n > 1 ? 's' : ''}, ${m} à revoir)` : ''}</h2>
-      <p class="muted small">${n ? 'Les mots que tu as mis de côté, communs à toutes tes applis.' : 'Touche ☆ à côté d’un mot ou d’une réponse pour le mettre de côté ici.'}</p></div>
+      <p class="muted small">${n ? 'Les mots que tu as mis de côté, communs à toutes tes applis.' : 'Touche 📌 à côté d’un mot ou d’une réponse pour l’épingler ici.'}</p></div>
       <div class="actions left"><button class="btn primary" data-act="liste-go" ${n ? '' : 'disabled'}>Réviser ma liste</button><a class="btn" href="#/liste">Ouvrir</a></div></section>`;
+  }
+
+  // Leçons étoilées (« je n'ai pas compris ») : liens et révision ciblée.
+  const etoilees = S.starredLessons().map(id => ctx.C.lessonById[id]).filter(Boolean).sort((a, b) => a.num - b.num);
+  if (etoilees.length) {
+    h += `<section class="card etoiles-card"><div><h2>⭐ Leçons à revoir (${etoilees.length})</h2>
+      <p class="small">${etoilees.map(l => `<a href="#/lecon/${l.id}">L${l.num}</a>`).join(' · ')}</p></div>
+      <div class="actions left"><button class="btn primary" data-act="drill" data-ids="${etoilees.map(l => l.id).join(',')}" data-titre="⭐ Mes leçons étoilées">Réviser mes leçons ⭐</button></div></section>`;
   }
 
   for (const f of ctx.C.focus.filter(focusUnlocked)) {
@@ -53,14 +61,15 @@ export function viewHome() {
     // Un bloc terminé est replié pour garder l'accueil court.
     if (ts === 'done') {
       const weak = b.lessonIds.filter(lid => (mastery(lid) ?? 1) < 0.4).length;
-      h += `<details class="card"><summary>${title}<span class="muted small">✓ terminé · test ${pct(tr.best)}${weak ? ` · ${weak} point${weak > 1 ? 's' : ''} faible${weak > 1 ? 's' : ''}` : ''}</span></summary>`;
+      const nbEt = b.lessonIds.filter(lid => S.lessonStarred(lid)).length;
+      h += `<details class="card" data-bloc="${esc(b.id)}"><summary>${title}<span class="muted small">✓ terminé · test ${pct(tr.best)}${weak ? ` · ${weak} point${weak > 1 ? 's' : ''} faible${weak > 1 ? 's' : ''}` : ''}${nbEt ? ` · ⭐ ${nbEt}` : ''}</span></summary>`;
     } else h += `<section class="card">${title}`;
     h += `<p class="muted">${esc(b.title || '')}</p><ul class="steps">`;
     for (const lid of b.lessonIds) {
       const l = ctx.C.lessonById[lid];
       const s = statuses[`lesson:${lid}`];
       h += `<li class="${s}"><button data-act="step" data-type="lesson" data-id="${lid}" ${s === 'locked' ? 'disabled' : ''}>
-        <span class="ico">${icon(s)}</span><span class="lbl">${l.num}. ${rich(l.title)}</span>${bar(mastery(lid))}</button></li>`;
+        <span class="ico">${icon(s)}</span><span class="lbl">${l.num}. ${rich(l.title)}${S.lessonStarred(lid) ? ' <span class="etoile-mark" title="Leçon étoilée">⭐</span>' : ''}</span>${bar(mastery(lid))}</button></li>`;
     }
     h += `<li class="${ts} test"><button data-act="step" data-type="test" data-id="${b.id}" ${ts === 'locked' ? 'disabled' : ''}>
       <span class="ico">${icon(ts)}</span><span class="lbl">Test du bloc ${b.index + 1}</span>${tr ? `<span class="score">${pct(tr.best)}</span>` : ''}</button></li>`;
@@ -111,12 +120,31 @@ export function viewLesson(id) {
   const l = ctx.C.lessonById[id];
   if (!l || stepStatuses()[`lesson:${id}`] === 'locked') return go('#/');
   const done = S.get().lessons[id]?.done;
-  let h = `<a class="back" href="#/">← Accueil</a><article class="lesson"><p class="muted">Leçon ${l.num}</p><h1>${rich(l.title)}</h1>`;
+  let h = `<a class="back" href="#/">← Accueil</a><article class="lesson"><div class="lesson-head"><p class="muted">Leçon ${l.num}</p>${etoileBtn(id)}</div><h1>${rich(l.title)}</h1>`;
   if (l.formula?.length) h += `<div class="formula">${l.formula.map(f => `<div>${rich(f)}</div>`).join('')}</div>`;
   if (l.words?.length) h += viewWords(l.words, l.id);
   h += viewSections(l.sections, l.pieges, l.id);
-  h += `</article><div class="actions"><button class="btn primary" data-act="lesson-ex" data-id="${id}">${done ? 'Refaire les exercices' : 'Passer aux exercices'}</button></div>`;
+  h += `</article><div class="actions"><button class="btn primary" data-act="lesson-ex" data-id="${id}">${done ? 'Refaire les exercices' : 'Passer aux exercices'}</button>`;
+  // Leçon déjà faite : enchaîner sur la leçon suivante (si elle est ouverte), sans repasser par l'accueil.
+  const suivante = done ? leconSuivante(l) : null;
+  if (suivante) h += `<button class="btn" data-act="step" data-type="lesson" data-id="${suivante.id}">Leçon suivante →<small>L${suivante.num}. ${esc(plain(suivante.title))}</small></button>`;
+  h += '</div>';
   return h;
+}
+
+// Leçon qui suit `l` dans le parcours (les tests et examens sont sautés), si elle est ouverte.
+function leconSuivante(l) {
+  const n = ctx.C.lessons[l.num]; // l.num commence à 1 : l'indice l.num est la leçon d'après
+  return n && stepStatuses()[`lesson:${n.id}`] !== 'locked' ? n : null;
+}
+
+// ⭐ sur une leçon (« je n'ai pas compris ») : grisée si elle n'est pas étoilée. `court` : « ⭐ L12 ».
+export function etoileBtn(id, court = false) {
+  const on = S.lessonStarred(id);
+  const l = ctx.C.lessonById[id];
+  const txt = court ? `L${l.num}` : on ? 'Leçon étoilée' : 'Étoiler';
+  const lbl = on ? `Leçon ${l.num} étoilée (toucher pour enlever l'étoile)` : `Étoiler la leçon ${l.num} (je n'ai pas compris)`;
+  return `<button class="etoile${court ? ' mini' : ''}${on ? ' on' : ''}" data-act="etoile" data-id="${esc(id)}" title="${lbl}" aria-label="${lbl}" aria-pressed="${on}"><span class="e">⭐</span> ${txt}</button>`;
 }
 
 export function viewSession() {
@@ -187,7 +215,11 @@ function viewFeedback(it, cur) {
     else if (!it.jp?.includes('＿')) h += `<p>Réponse : <span class="jp">${rich(it.choices[it.a])}</span></p>`;
   }
   if (it.explain) h += `<p>${rich(it.explain)}</p>`;
-  if (it.uses.length) h += `<p class="muted small">Notions : ${it.uses.map(u => `L${ctx.C.lessonById[u].num}`).join(' · ')}</p>`;
+  if (it.uses.length) {
+    // Après une erreur, chaque leçon de la question peut être étoilée d'un toucher.
+    if (!cur.ok) h += `<p class="muted small notions">Notions : ${it.uses.map(u => etoileBtn(u, true)).join('')}</p>`;
+    else h += `<p class="muted small">Notions : ${it.uses.map(u => `L${ctx.C.lessonById[u].num}`).join(' · ')}</p>`;
+  }
   const st = starBtn(entryOf(it));
   if (st) h += `<p class="fb-star">${st} <span class="muted small">Mettre de côté dans ma liste</span></p>`;
   h += '<button class="btn primary" data-act="next">Continuer</button></div>';
@@ -224,6 +256,9 @@ function viewResult() {
   if (r.passed === false || k === 'review' || k === 'drill' || k === 'focus' || k === 'liste') h += '<button class="btn" data-act="retry">Recommencer</button>';
   const nx = nextStep();
   if (nx && r.passed) h += `<button class="btn primary" data-act="step" data-type="${nx.type}" data-id="${nx.id}">Suite : ${esc(stepLabel(nx))}</button>`;
+  // Leçon refaite : proposer la leçon d'après (si ce n'est pas déjà la « Suite »).
+  const suivante = k === 'lesson' && r.passed ? leconSuivante(ctx.C.lessonById[ctx.session.ref]) : null;
+  if (suivante && !(nx?.type === 'lesson' && nx.id === suivante.id)) h += `<button class="btn" data-act="step" data-type="lesson" data-id="${suivante.id}">Leçon suivante : L${suivante.num}</button>`;
   h += '<a class="btn" href="#/">Accueil</a></div>';
   return h;
 }
@@ -235,6 +270,8 @@ export function viewSettings() {
   let h = `<a class="back" href="${ctx.prevHash}">← Retour</a><h1>Réglages</h1>`;
   h += `<section class="card"><h2>Affichage</h2><label class="row"><input type="checkbox" data-act="furigana" ${st.settings.furigana ? 'checked' : ''}> Afficher les furigana</label>
     <p class="muted small">Masqués, tu peux toucher un kanji pour voir sa lecture.</p>
+    <label class="row"><input type="checkbox" data-act="traduction" ${st.settings.traduction !== false ? 'checked' : ''}> Afficher la traduction des exemples dans les leçons</label>
+    <p class="muted small">Masquée (bouton FR en haut), tu peux toucher une phrase pour voir sa traduction.</p>
     <label class="row"><input type="checkbox" data-act="bubble" ${st.settings.bubble !== false ? 'checked' : ''}> Afficher la bulle des points clés</label></section>`;
   h += '<section class="card"><h2>Synchronisation PC ↔ téléphone</h2>';
   if (cfg) {

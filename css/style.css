@@ -301,3 +301,34 @@ select { font: inherit; padding: 4px 8px; border-radius: 8px; border: 1px solid 
   .hero { grid-template-columns: 1fr; }
   .jp.big { font-size: 1.3rem; }
 }
+
+/* ---------- 📌 Ma liste, ⭐ leçons, bouton FR ---------- */
+/* 📌 : grisé si le mot n'est pas dans Ma liste, en couleur s'il y est. */
+.star:not(.on) { filter: grayscale(1); opacity: .45; }
+
+/* ⭐ sur une leçon (« je n'ai pas compris ») : grisée si la leçon n'est pas étoilée. */
+.lesson-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.lesson-head p { margin: 0; }
+.etoile {
+  background: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px;
+  font: inherit; font-size: .85rem; color: var(--muted); cursor: pointer; white-space: nowrap;
+}
+.etoile.on { border-color: var(--mid); color: var(--text); }
+.etoile:not(.on) .e { filter: grayscale(1); opacity: .5; }
+.etoile.mini { padding: 2px 8px; font-size: .8rem; }
+.notions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.etoile-mark { font-size: .85em; }
+.etoiles-card .actions { margin: 10px 0 0; }
+.etoiles-card a { color: var(--accent); }
+
+/* Bouton FR : masque la traduction des phrases d'exemple ; toucher une phrase la montre. */
+.fr-toggle {
+  background: none; border: 1px solid var(--line); border-radius: 8px; padding: 0 8px; height: 34px;
+  font-size: .85rem; font-weight: 700; color: var(--text); cursor: pointer; line-height: 1;
+}
+.fr-toggle.off { color: var(--muted); text-decoration: line-through; }
+body.nofr .examples .fr:not(.reveal), body.nofr .wex .fr:not(.reveal) { filter: blur(5px); cursor: pointer; user-select: none; }
+
+@media (max-width: 380px) {
+  .top { gap: 8px; padding-left: 12px; padding-right: 12px; }
+}

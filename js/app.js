@@ -23,17 +23,75 @@ function onStar(btn) {
     return;
   }
   L.add({ ...w, app: appId() });
-  // Toucher l'étoile d'une bonne réponse garde la question à l'écran (avec « Continuer »).
+  // Toucher l'épingle d'une bonne réponse garde la question à l'écran (avec « Continuer »).
   if (btn.closest('.fb-mini') && ctx.session?.cur?.auto) { ctx.session.cur.auto = false; stopAuto(); render(); }
   document.querySelectorAll('[data-act="star"]').forEach(b => {
-    if (b.dataset.w === btn.dataset.w) { b.textContent = '★'; b.classList.add('on'); }
+    if (b.dataset.w === btn.dataset.w) { b.classList.add('on'); b.title = 'Dans ma liste'; b.setAttribute('aria-label', 'Dans ma liste'); }
   });
-  toast('★ Ajouté à ma liste');
+  toast('📌 Épinglé dans ma liste');
+}
+
+// ⭐ sur une leçon : on la met d'un toucher ; seul l'utilisateur l'enlève (avec confirmation).
+function onEtoile(id) {
+  const l = ctx.C.lessonById[id];
+  if (!l) return;
+  if (S.lessonStarred(id)) {
+    if (!confirm(`Enlever l’étoile de la leçon ${l.num} ?`)) return;
+    S.setLessonStar(id, false);
+    toast(`Étoile enlevée (leçon ${l.num})`);
+  } else {
+    S.setLessonStar(id, true);
+    toast(`⭐ Leçon ${l.num} étoilée`);
+  }
+  render();
+}
+
+// ---------- Défilement ----------
+// Une page s'ouvre en haut. En revenant à l'accueil, on retrouve l'étape touchée (au même endroit de l'écran)
+// et les blocs qu'on avait dépliés.
+const estAccueil = h => !h || h === '#/' || h === '#';
+let route = null; // page affichée (pour savoir si on change de page)
+let retourAccueil = null; // { y, ouverts, ancre: { type, id, top } } noté en quittant l'accueil
+let clicAccueil = null;
+
+function noterClic(e) {
+  if (!estAccueil(location.hash)) return;
+  const b = e.target.closest('#app [data-act="step"]');
+  clicAccueil = b && !b.closest('.hero') ? { type: b.dataset.type, id: b.dataset.id, top: b.getBoundingClientRect().top } : null;
+}
+
+function quitterAccueil() {
+  retourAccueil = { y: window.scrollY, ouverts: blocsOuverts(), ancre: clicAccueil };
+  clicAccueil = null;
+}
+
+const blocsOuverts = () => [...app.querySelectorAll('details[open][data-bloc]')].map(d => d.dataset.bloc);
+function rouvrir(ids) {
+  for (const id of ids || []) {
+    const d = app.querySelector(`details[data-bloc="${CSS.escape(id)}"]`);
+    if (d) d.open = true;
+  }
+}
+
+function placer(hash) {
+  if (!estAccueil(hash) || !retourAccueil) { window.scrollTo(0, 0); return; }
+  rouvrir(retourAccueil.ouverts);
+  const a = retourAccueil.ancre;
+  const el = a && app.querySelector(`.steps [data-act="step"][data-type="${a.type}"][data-id="${CSS.escape(a.id)}"], .card.exam [data-act="step"][data-type="${a.type}"][data-id="${CSS.escape(a.id)}"]`);
+  if (el) {
+    const d = el.closest('details');
+    if (d) d.open = true;
+    window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - a.top);
+  } else window.scrollTo(0, retourAccueil.y);
 }
 
 function render() {
   document.body.classList.toggle('nofuri', !S.get().settings.furigana);
+  document.body.classList.toggle('nofr', S.get().settings.traduction === false);
   const hash = location.hash || '#/';
+  const change = hash !== route;
+  // Accueil redessiné sur place (synchro, étoile…) : les blocs dépliés le restent.
+  const ouverts = !change && estAccueil(hash) ? blocsOuverts() : null;
   let html;
   if (hash.startsWith('#/lecon/')) html = viewLesson(decodeURIComponent(hash.slice(8)));
   else if (hash === '#/seance') html = viewSession();
@@ -41,13 +99,18 @@ function render() {
   else if (hash === '#/liste') html = viewListe();
   else html = viewHome();
   if (html) app.innerHTML = html;
+  if (ouverts) rouvrir(ouverts);
+  if (change) { route = hash; placer(hash); }
   updateBubble();
   furiBtn?.classList.toggle('off', !S.get().settings.furigana);
   furiBtn?.setAttribute('aria-pressed', String(!!S.get().settings.furigana));
+  frBtn?.classList.toggle('off', S.get().settings.traduction === false);
+  frBtn?.setAttribute('aria-pressed', String(S.get().settings.traduction !== false));
   saveSession();
 }
 
 let furiBtn = null;
+let frBtn = null;
 
 function onGlobalClick(e) {
   const star = e.target.closest('[data-act="star"]');
@@ -57,6 +120,13 @@ function onGlobalClick(e) {
     render();
     return;
   }
+  if (e.target.closest('[data-act="fr-toggle"]')) {
+    S.setSetting('traduction', S.get().settings.traduction === false);
+    render();
+    return;
+  }
+  // Traductions masquées : toucher une phrase montre sa traduction (leçons et antisèche).
+  if (document.body.classList.contains('nofr')) e.target.closest('.examples .fr, .wex .fr')?.classList.toggle('reveal');
   const el = e.target.closest('[data-act="sheet"], [data-act="sheet-close"]');
   if (el) {
     if (el.dataset.act === 'sheet') openSheet(el.dataset.id);
@@ -92,7 +162,8 @@ function onClick(e) {
     case 'step': openStep(el.dataset.type, el.dataset.id); break;
     case 'review': startReview(); break;
     case 'lesson-ex': startLesson(el.dataset.id); break;
-    case 'drill': startDrill(el.dataset.ids.split(',')); break;
+    case 'drill': startDrill(el.dataset.ids.split(','), el.dataset.titre); break;
+    case 'etoile': onEtoile(el.dataset.id); break;
     case 'focus-go': startFocus(el.dataset.id); break;
     case 'resume': go('#/seance'); break;
     case 'pick': if (!cur.answered) { const i = +el.dataset.i; answer(i === it.a, { picked: i }); } break;
@@ -101,7 +172,13 @@ function onClick(e) {
     case 'check': answer(checkOrder(it, cur.built)); break;
     case 'next': next(); break;
     case 'show-fr': cur.showFr = true; render(); break;
-    case 'quit': if (confirm('Quitter la série ? Les réponses déjà données sont gardées.')) { ctx.session = null; go('#/'); } break;
+    case 'quit':
+      if (confirm('Quitter la série ? Les réponses déjà données sont gardées.')) {
+        ctx.session = null;
+        // Déjà sur l'accueil (« Abandonner ») : on le redessine pour retirer la carte de la série.
+        if (estAccueil(location.hash)) render(); else go('#/');
+      }
+      break;
     case 'retry': restart(); break;
     case 'sync-on': connectSync(); break;
     case 'sync-now': Sync.syncNow(); break;
@@ -162,6 +239,7 @@ function onChangeInput(e) {
   const act = e.target.dataset.act;
   if (act === 'furigana') { S.setSetting('furigana', e.target.checked); render(); }
   if (act === 'bubble') { S.setSetting('bubble', e.target.checked); render(); }
+  if (act === 'traduction') { S.setSetting('traduction', e.target.checked); render(); }
   if (act === 'liste-sort') { setListeSort(e.target.value); render(); }
   if (act === 'import' && e.target.files[0]) {
     e.target.files[0].text().then(txt => {
@@ -203,12 +281,19 @@ async function main() {
   furiBtn.dataset.act = 'furi-toggle';
   furiBtn.innerHTML = '<ruby>漢<rt>かん</rt></ruby>';
   document.querySelector('.top .gear')?.before(furiBtn);
+  // Bouton FR : afficher / masquer la traduction des phrases d'exemple dans les leçons.
+  frBtn = Object.assign(document.createElement('button'), { className: 'fr-toggle', title: 'Afficher / masquer la traduction des exemples', textContent: 'FR' });
+  frBtn.dataset.act = 'fr-toggle';
+  furiBtn.after(frBtn);
   if (listeOn()) {
     const pin = Object.assign(document.createElement('a'), { href: '#/liste', className: 'gear pin', title: 'Ma liste', textContent: '📌' });
     pin.setAttribute('aria-label', 'Ma liste');
     furiBtn.before(pin);
   }
   initBulle();
+  // Le défilement est géré par l'appli (haut de page, retour à l'endroit touché sur l'accueil).
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  document.addEventListener('click', noterClic, true);
   document.addEventListener('click', onGlobalClick);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
   app.addEventListener('click', onClick);
@@ -217,6 +302,7 @@ async function main() {
   window.addEventListener('hashchange', e => {
     const old = new URL(e.oldURL).hash || '#/';
     if (old !== '#/reglages' && old !== '#/liste') ctx.prevHash = old;
+    if (estAccueil(old) && !estAccueil(location.hash)) quitterAccueil();
     render();
   });
   S.onChange(meta => {
