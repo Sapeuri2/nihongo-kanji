@@ -24,7 +24,17 @@ des leçons et des exercices déjà publiés : la progression y est rattachée.
 
 | Fichier | Rôle |
 | --- | --- |
-| `js/app.js` | Navigation, leçons, exercices, tests, examens, révisions |
+| `js/app.js` | Point d'entrée : routage, clics, clavier, démarrage |
+| `js/contexte.js` | État partagé : cours chargé, série en cours, page précédente |
+| `js/cours.js` | Chargement du cours (manifeste, blocs, points clés) |
+| `js/progression.js` | Étapes ouvertes ou faites, maîtrise des leçons, exercices à revoir |
+| `js/tirage.js` | Tirage pondéré des exercices, composition des tests et examens |
+| `js/points-cles.js` | Points clés : questions surprises, questions des tests |
+| `js/seance.js` | Séries d'exercices : déroulé, réponses, suite automatique, reprise |
+| `js/vues.js` | Vues : accueil, leçon, question, résultat, réglages |
+| `js/ma-liste.js` | Ma liste côté interface : étoile, page `#/liste`, révision |
+| `js/bulle.js` | Bulle et antisèche des points clés |
+| `js/ui.js` | Petits éléments communs (barre de maîtrise, message bref) |
 | `js/state.js` | Progression, répétition espacée, fusion entre appareils |
 | `js/sync.js` | Synchronisation via un Gist GitHub privé |
 | `js/text.js` | Furigana `{漢字|かんじ}`, gras, trous |
@@ -114,6 +124,12 @@ Les mots mis de côté (☆) forment **une seule liste pour toutes les applis** 
 - Ces révisions comptent dans le 🔥 mais pas dans la progression de l'appli.
 
 ## Historique des changements du moteur
+
+### 2026-11-10 — `js/app.js` découpé en modules
+- `js/app.js` (1 140 lignes) est découpé en 11 fichiers (voir le tableau plus haut). **Aucun changement visible** :
+  même HTML écran par écran et même stockage, vérifiés dans les trois applis par un scénario rejoué avant et après.
+- `sw.js` met aussi les nouveaux fichiers en cache pour le hors ligne.
+- Aucun changement pour le contenu ni pour les réglages.
 
 ### 2026-11-10 — Déploiement depuis nihongo-central, données mieux protégées
 - Le code est déployé par l'outil de l'agent central (`tools/deployer.mjs` dans nihongo-central), toujours dans les

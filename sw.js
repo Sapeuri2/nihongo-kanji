@@ -4,6 +4,8 @@ const PREFIX = `cache:${new URL(self.registration.scope).pathname}:`;
 const CACHE = `${PREFIX}v1`;
 const CORE = [
   './', 'index.html', 'css/style.css', 'css/theme.css', 'js/app.js', 'js/state.js', 'js/sync.js', 'js/text.js', 'js/liste.js',
+  'js/contexte.js', 'js/cours.js', 'js/progression.js', 'js/tirage.js', 'js/points-cles.js', 'js/seance.js', 'js/ui.js',
+  'js/vues.js', 'js/ma-liste.js', 'js/bulle.js',
   'js/config.js', 'data/manifest.json', 'manifest.webmanifest', 'icons/icon-192.png',
 ];
 // Anciens noms de cache des premières versions des applis (grammaire, vocabulaire) : plus utilisés nulle part.
