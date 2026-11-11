@@ -86,6 +86,14 @@ function placer(hash) {
 }
 
 function render() {
+  // Lien venu d'une autre appli (ex. le Challenger) : #/lecon/<id>/etoiler étoile la leçon, puis l'ouvre.
+  const lien = (location.hash || '').match(/^#\/lecon\/([^/]+)\/etoiler$/);
+  if (lien) {
+    const id = decodeURIComponent(lien[1]);
+    const l = ctx.C.lessonById[id];
+    if (l && !S.lessonStarred(id)) { S.setLessonStar(id, true); toast(`⭐ Leçon ${l.num} étoilée`); }
+    history.replaceState(null, '', `#/lecon/${lien[1]}`);
+  }
   document.body.classList.toggle('nofuri', !S.get().settings.furigana);
   document.body.classList.toggle('nofr', S.get().settings.traduction === false);
   const hash = location.hash || '#/';

@@ -132,6 +132,15 @@ Les mots épinglés (📌) forment **une seule liste pour toutes les applis** du
 
 ## Historique des changements du moteur
 
+### 2026-11-11 — Le Challenger (4ᵉ appli) et le lien « étoiler »
+- Nouvelle appli **Challenger** (`nihongo-exo`, violette) : des séances de 30 questions écrites par une IA (Gemini, avec
+  la clé de l'utilisateur) à partir des leçons ⭐, des mots 📌, du niveau en cours et de nouveautés du JLPT. Elle **lit**
+  le contenu et la progression des 3 applis, sans jamais y écrire.
+- Lien `#/lecon/<id>/etoiler` : ouvre la leçon et l'étoile (utilisé par le bilan du Challenger).
+- `state.js` : une appli peut donner sa propre règle de fusion pour un champ (`fusionChamp`) ; rien ne change ici.
+- Contenu : rien à faire. Les titres des leçons, les titres de sections (`h`), les tableaux `words` / `vocab` et
+  (kanji) les sections « 町 · sens » avec « **On** : … **Kun** : … » sont lus par le Challenger : garder ces formats.
+
 ### 2026-11-10 — 📌, ⭐ sur les leçons, bouton FR, « Leçon suivante », défilement
 - **📌 Ma liste** : l'épingle remplace ☆ (grisée si le mot n'est pas dans la liste). Le champ `star` des exercices
   est utilisé (voir « Format : mot à épingler »). Sans `star`, le sens et la lecture viennent des tableaux de mots

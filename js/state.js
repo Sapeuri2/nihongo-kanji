@@ -9,7 +9,13 @@ const DAY = 86400000;
 export const INTERVALS = [0, 1, 3, 7, 16, 35];
 
 const listeners = new Set();
+// Champs propres à une appli (ex. le Challenger) : elle donne elle-même leur règle de fusion entre appareils.
+const fusions = {};
 let state = load();
+
+export function fusionChamp(nom, f) {
+  fusions[nom] = f;
+}
 
 function empty() {
   return { v: 1, resetAt: 0, lessons: {}, tests: {}, items: {}, settings: { furigana: true, t: 0 }, stats: { streak: 0, best: 0, t: 0 } };
@@ -171,6 +177,7 @@ export function merge(a, b) {
     ...unknown(b),
     // Étoiles des leçons : pour chaque leçon, la décision la plus récente (mise ou retrait) l'emporte.
     ...(a.etoiles || b.etoiles ? { etoiles: mergeMap(etoilesOk(a.etoiles), etoilesOk(b.etoiles), latest) } : {}),
+    ...Object.fromEntries(Object.entries(fusions).filter(([n]) => a[n] !== undefined || b[n] !== undefined).map(([n, f]) => [n, f(a[n], b[n])])),
     v: 1,
     resetAt,
     lessons: mergeMap(a.lessons, b.lessons, (x, y) => ({
