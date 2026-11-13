@@ -172,6 +172,12 @@ function onClick(e) {
     case 'lesson-ex': startLesson(el.dataset.id); break;
     case 'drill': startDrill(el.dataset.ids.split(','), el.dataset.titre); break;
     case 'etoile': onEtoile(el.dataset.id); break;
+    case 'ouvrir-niveau': {
+      const n = el.dataset.niveau;
+      if (confirm(`Commencer le ${n} maintenant ? Ce que tu as fait reste acquis, et tu pourras finir le niveau d’avant en parallèle.`)) { S.setNiveauOuvert(n, true); toast(`🚀 ${n} ouvert`); render(); }
+      break;
+    }
+    case 'refermer-niveau': S.setNiveauOuvert(el.dataset.niveau, false); render(); break;
     case 'focus-go': startFocus(el.dataset.id); break;
     case 'resume': go('#/seance'); break;
     case 'pick': if (!cur.answered) { const i = +el.dataset.i; answer(i === it.a, { picked: i }); } break;

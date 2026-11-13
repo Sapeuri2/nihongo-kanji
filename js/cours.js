@@ -66,8 +66,8 @@ function buildCourse(blocks, examEvery, miniEvery) {
   let bigNum = 0;
   let miniNum = 0;
   c.blocks.forEach((block, bi) => {
-    block.lessonIds.forEach(id => c.steps.push({ type: 'lesson', id }));
-    c.steps.push({ type: 'test', id: block.id });
+    block.lessonIds.forEach(id => c.steps.push({ type: 'lesson', id, level: block.level }));
+    c.steps.push({ type: 'test', id: block.id, level: block.level });
     // Un grand examen tous les `examEvery` blocs, un examen intermédiaire entre deux.
     let kind = null;
     let span = 0;
@@ -87,7 +87,7 @@ function buildCourse(blocks, examEvery, miniEvery) {
     c.exams.push(exam);
     c.examById[exam.id] = exam;
     block.exam = exam;
-    c.steps.push({ type: 'exam', id: exam.id });
+    c.steps.push({ type: 'exam', id: exam.id, level: block.level });
   });
   return c;
 }

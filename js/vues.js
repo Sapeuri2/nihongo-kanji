@@ -6,7 +6,7 @@ import * as Sync from './sync.js';
 import * as L from './liste.js';
 import { CONFIG } from './config.js';
 import { ctx, go } from './contexte.js';
-import { dueItems, mastery, nextStep, seenItems, stepLabel, stepStatuses } from './progression.js';
+import { dueItems, mastery, nextStep, niveauxAOuvrir, niveauxRefermables, seenItems, stepLabel, stepStatuses } from './progression.js';
 import { shuffle } from './tirage.js';
 import { focusMastery, focusUnlocked } from './points-cles.js';
 import { finish } from './seance.js';
@@ -30,6 +30,17 @@ export function viewHome() {
   const seen = seenItems().length;
   h += `<button class="btn" data-act="review" ${seen ? '' : 'disabled'}>Révisions<small>${due ? `${due} à revoir` : seen ? 'révision libre' : 'rien pour l’instant'}</small></button>`;
   h += '</section>';
+
+  // Niveau suivant ouvert en avance (ex. commencer le N4 sans finir le N5).
+  for (const n of niveauxAOuvrir()) {
+    const avant = ctx.C.blocks.find(b => b.level !== n)?.level || '';
+    h += `<section class="card niveau-card"><div><h2>🚀 Commencer le ${esc(n)} maintenant</h2>
+      <p class="muted small">Ouvre la première leçon du ${esc(n)} sans finir le ${esc(avant)}. Ton ${esc(avant)} reste ouvert là où tu en es : tu pourras le finir quand tu veux.</p></div>
+      <div class="actions left"><button class="btn primary" data-act="ouvrir-niveau" data-niveau="${esc(n)}">Commencer le ${esc(n)}</button></div></section>`;
+  }
+  for (const n of niveauxRefermables()) {
+    h += `<p class="muted small niveau-ouvert">🚀 ${esc(n)} ouvert en avance · <button class="link small" data-act="refermer-niveau" data-niveau="${esc(n)}">refermer</button></p>`;
+  }
 
   if (listeOn()) {
     const n = L.list().length;

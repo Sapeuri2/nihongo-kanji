@@ -10,10 +10,17 @@ export function stepDone(step) {
 }
 
 // Progression linéaire : une étape s'ouvre quand la précédente est validée.
+// Un niveau ouvert en avance (ex. le N4 avant la fin du N5) repart de sa première étape ; le niveau d'avant reste
+// ouvert là où il en était.
 export function stepStatuses() {
   let open = true;
+  let niveau = null;
   const out = {};
   for (const s of ctx.C.steps) {
+    if (s.level !== niveau) {
+      if (niveau !== null && s.level && S.niveauOuvert(s.level)) open = true;
+      niveau = s.level;
+    }
     const done = stepDone(s);
     out[`${s.type}:${s.id}`] = done ? 'done' : open ? 'current' : 'locked';
     if (!done) open = false;
@@ -32,9 +39,26 @@ export function stepLabel(s) {
   return `${examName(e)} (leçons ${ctx.C.lessonById[e.lessonIds[0]].num}–${ctx.C.lessonById[e.lessonIds.at(-1)].num})`;
 }
 
+// Étape à continuer : celle du niveau le plus avancé (avec un niveau ouvert en avance, c'est lui).
 export function nextStep() {
   const st = stepStatuses();
-  return ctx.C.steps.find(s => st[`${s.type}:${s.id}`] === 'current');
+  return ctx.C.steps.findLast(s => st[`${s.type}:${s.id}`] === 'current');
+}
+
+// Niveaux qu'on peut ouvrir en avance : ceux après le premier, pas encore commencés ni déjà ouverts.
+export function niveauxAOuvrir() {
+  const st = stepStatuses();
+  const niveaux = [...new Set(ctx.C.blocks.map(b => b.level).filter(Boolean))];
+  return niveaux.slice(1).filter(n => {
+    const premier = ctx.C.steps.find(s => s.level === n);
+    return premier && st[`${premier.type}:${premier.id}`] === 'locked' && !S.niveauOuvert(n);
+  });
+}
+
+// Niveaux ouverts en avance et pas encore entamés (on peut encore les refermer sans rien perdre).
+export function niveauxRefermables() {
+  return [...new Set(ctx.C.blocks.map(b => b.level).filter(Boolean))].slice(1).filter(n => S.niveauOuvert(n)
+    && !ctx.C.steps.some(s => s.level === n && stepDone(s)));
 }
 
 // Maîtrise d'une leçon (0 à 1) d'après la répétition espacée, ou null si rien vu :
