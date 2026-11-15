@@ -139,6 +139,11 @@ l'utilisateur peut ouvrir ce niveau sans finir le précédent (qui reste ouvert 
 
 ## Historique des changements du moteur
 
+### 2026-11-15 — N4 commencé en avance : plus de rappels de leçons jamais faites
+- Quand un niveau a été ouvert en avance, les rappels des leçons, les tests et les examens ne prennent que des
+  exercices dont **toutes les leçons de `uses` sont faites** (ou déjà vus). Parcours normal : rien ne change.
+- Contenu : rien à faire (les exercices N4 ne citent pas de leçon N5 dans `uses` : continuer ainsi).
+
 ### 2026-11-13 — Commencer le N4 sans finir le N5
 - Accueil : carte « 🚀 Commencer le N4 maintenant » quand l'appli contient un niveau suivant pas encore commencé.
   Une fois ouvert, le N4 avance normalement (leçons, tests, examens) ; le N5 reste ouvert là où il en était ;

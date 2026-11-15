@@ -1,10 +1,10 @@
 {
- "version": "facc738",
- "date": "2026-11-13T04:33:56+00:00",
+ "version": "101d86f",
+ "date": "2026-11-15T10:47:05+00:00",
  "source": "https://github.com/Sapeuri2/nihongo-central",
  "avertissement": "Fichiers gérés par l'agent central : ne pas les modifier dans ce dépôt.",
  "fichiers": {
-  "MOTEUR.md": "2b19a13ece89e84469fdb70f61a089754330b5ae",
+  "MOTEUR.md": "ed058266502198ce8934a4762a2f4e46cf791c88",
   "css/style.css": "d9fe5b2ecaf6fcfca86b30004f6a8be4aafe7f65",
   "css/theme.css": "5dd315e23b1d07ba1bd9d0a2fcf030073c5aaa08",
   "icons/icon-192.png": "7e8e3dfda2061953f2f63e1775795172824f2709",
@@ -23,7 +23,7 @@
   "js/state.js": "1e0bf56bdb46e29989e63ad2c2ab6e8d6bca4a32",
   "js/sync.js": "91cc7bc5a08da42b294d749dd840384056bb6a15",
   "js/text.js": "615e7530243e9c3a9e2cace94adc643767a67d15",
-  "js/tirage.js": "fd1937997f7e6befd84c42101e6d8eb5a0ca77e1",
+  "js/tirage.js": "0cf24b4f118767beeae5bcfe024c6ec08a884048",
   "js/ui.js": "a4390fac29bb8e45dfeee5af6415c7d0f6fdee51",
   "js/vues.js": "8a4e440b9a87b0a421b55b4de102016562b0a910",
   "manifest.webmanifest": "c558c8d7ded90a644cea4b95598bd40ede58a52b",

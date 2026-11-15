@@ -38,11 +38,16 @@ export function weightedSample(ids, n) {
 
 // Exercices utilisables jusqu'à la leçon n° maxNum. Les questions réservées à un examen
 // n'apparaissent ailleurs qu'une fois vues dans cet examen.
+// Niveau ouvert en avance (ex. N4 commencé sans finir le N5) : des leçons d'avant n'ont jamais été faites ; on ne
+// garde alors que les exercices dont toutes les leçons sont faites, ou déjà vus. Parcours normal : rien ne change.
 export function available(maxNum, examId = null) {
-  const seen = S.get().items;
+  const st = S.get();
+  const seen = st.items;
+  const enAvance = Object.values(st.niveaux || {}).some(n => n?.on);
   return Object.values(ctx.C.items)
     .filter(it => !it.focus && !it.liste && it.uses.every(u => ctx.C.lessonById[u].num <= maxNum))
     .filter(it => !it.examOnly || it.examId === examId || seen[it.id])
+    .filter(it => !enAvance || seen[it.id] || it.uses.every(u => st.lessons[u]?.done))
     .map(it => it.id);
 }
 
