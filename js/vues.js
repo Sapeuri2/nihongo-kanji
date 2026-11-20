@@ -24,6 +24,14 @@ export function viewHome() {
       <div class="actions left"><button class="btn primary" data-act="resume">Reprendre</button><button class="btn" data-act="quit">Abandonner</button></div></section>`;
   }
   h += '<section class="hero">';
+  // En-tête du billet : numéro de l'étape dans des cases fixes (signature du design « billet »), niveau.
+  if (nx) {
+    const l = nx.type === 'lesson' ? ctx.C.lessonById[nx.id] : null;
+    const b = l ? ctx.C.blockById[l.blockId] : nx.type === 'test' ? ctx.C.blockById[nx.id] : null;
+    const num = l ? String(l.num).padStart(3, '0') : nx.type === 'test' ? 'T' : 'E';
+    h += `<div class="billet-tete"><span class="cases">${[...num].map(c => `<span>${esc(c)}</span>`).join('')}</span>
+      <span class="small muted">${l ? `leçon ${l.num}` : nx.type === 'test' ? 'test du bloc' : 'examen'}${b?.level ? ` · ${esc(b.level)}` : nx.level ? ` · ${esc(nx.level)}` : ''}</span></div>`;
+  }
   h += nx
     ? `<button class="btn primary big" data-act="step" data-type="${nx.type}" data-id="${nx.id}">Continuer<small>${esc(stepLabel(nx))}</small></button>`
     : '<p class="muted">Tout le contenu disponible est terminé. Révise en attendant la suite !</p>';
