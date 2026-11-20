@@ -69,6 +69,8 @@ body.nofuri ruby.reveal rt { visibility: visible; }
   background: var(--card); border-bottom: 1px solid var(--line);
 }
 .logo { font-weight: 700; text-decoration: none; color: var(--text); margin-right: auto; }
+.accueil-app { width: 40px; height: 40px; margin: -4px -4px -4px -8px; display: grid; place-items: center; flex: none; color: var(--text); border-radius: var(--radius); }
+.accueil-app:focus-visible { outline: 2px solid var(--quai); outline-offset: 1px; }
 .logo .jp { color: var(--accent); }
 .gear { text-decoration: none; font-size: 1.3rem; color: var(--muted); }
 .furi-toggle {

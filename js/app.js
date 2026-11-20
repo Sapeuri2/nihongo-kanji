@@ -295,6 +295,13 @@ async function main() {
   furiBtn.dataset.act = 'furi-toggle';
   furiBtn.innerHTML = '<ruby>漢<rt>かん</rt></ruby>';
   document.querySelector('.top .gear')?.before(furiBtn);
+  // Dans l'appli Android (window.NihongoAndroid) : un bouton pour revenir au menu principal (accueil de l'appli).
+  if (window.NihongoAndroid) {
+    const accueil = Object.assign(document.createElement('a'), { className: 'accueil-app', href: '../nihongo-mobile/', title: 'Menu principal' });
+    accueil.setAttribute('aria-label', 'Menu principal');
+    accueil.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7M6 9.5V20h4.5v-6h3v6H18V9.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    document.querySelector('.top')?.prepend(accueil);
+  }
   // Bouton FR : afficher / masquer la traduction des phrases d'exemple dans les leçons.
   frBtn = Object.assign(document.createElement('button'), { className: 'fr-toggle', title: 'Afficher / masquer la traduction des exemples', textContent: 'FR' });
   frBtn.dataset.act = 'fr-toggle';
